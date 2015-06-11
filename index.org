@@ -16,12 +16,17 @@ being worked on continuously.
   The objective of this exercise is to display the usage of
   virtual-labs in terms of visits and number of pages viewed.  
 
-  Awstats generates parsed text files which contain the statisctics in
-  text format. The required data from these text filesneeds to be
-
 * Plan
   A script which would extract the required fields from the parsed
   awstats text files and display the data in the form of an html page.
+  
+  #+CAPTION:  Design diagram
+  #+LABEL:  Design diagram
+  [[./analytics.png]]
+ 
+  Awstats generates parsed text files which contain the statisctics in
+  text format. The required data from these text files needs to be
+  extracted and displayed in a html page.
 
 * Implementation
   Currently the labs are hosted in 3 different locations namely:
