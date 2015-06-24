@@ -1,0 +1,800 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sage.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2003                
+POS_TIME 2667                
+POS_VISITOR 18487               
+POS_DAY 18651               
+POS_DOMAIN 3623                
+POS_LOGIN 3858                
+POS_ROBOT 4013                
+POS_WORMS 4912                
+POS_EMAILSENDER 5043                
+POS_EMAILRECEIVER 5186                
+POS_SESSION 19419               
+POS_SIDER 19632               
+POS_FILETYPES 5321                
+POS_DOWNLOADS 5588                
+POS_OS 5670                
+POS_BROWSER 6007                
+POS_SCREENSIZE 7684                
+POS_UNKNOWNREFERER 7758                
+POS_UNKNOWNREFERERBROWSER 8484                
+POS_ORIGIN 8566                
+POS_SEREFERRALS 8711                
+POS_PAGEREFS 8907                
+POS_SEARCHWORDS 13590               
+POS_KEYWORDS 14751               
+POS_MISC 2329                
+POS_ERRORS 15767               
+POS_CLUSTER 3714                
+POS_SIDER_404 15909               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140126063922 27 4773 7051370793778
+FirstTime 0
+LastTime 20140125095059
+LastUpdate 20140126070103 3 0 3 0 0
+TotalVisits 316                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 417 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 91 649 16185567 133 220 3233123
+1 32 281 8647476 65 123 2053827
+2 43 294 9240693 68 168 3002760
+3 59 342 9849418 103 184 2177302
+4 36 171 5343100 90 155 1961437
+5 37 212 6144637 89 119 1228232
+6 41 207 6368132 91 142 1040754
+7 56 309 7983466 78 116 914090
+8 230 1088 24621780 124 228 2088160
+9 318 1670 31176388 136 220 1865686
+10 203 1132 24178676 127 221 1949625
+11 239 1376 32914410 121 213 1990201
+12 234 1213 28005331 125 219 2369646
+13 582 1608 27738547 266 334 3074579
+14 265 1544 38018518 126 225 1910836
+15 614 2055 38948453 127 218 1689475
+16 140 819 22620517 90 183 2169625
+17 104 528 13221565 76 138 1690280
+18 93 572 16449860 78 160 1719689
+19 111 757 21229251 68 135 1667783
+20 58 415 13034850 90 144 1137283
+21 91 610 15342005 73 107 1201210
+22 146 654 16423864 110 195 2401187
+23 93 653 18487322 96 160 1487556
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3916 19159 452173826
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+googlebot 696 17443276 20140126043706 0
+baiduspider 675 3937413 20140126063825 0
+bingbot 476 13349170 20140126035723 0
+robot 121 1600544 20140126051501 0
+ezoom 98 1551296 20140126063922 0
+bingpreview 93 3655594 20140118040609 0
+heritrix 89 1239700 20140116111624 0
+yandex 70 1539647 20140124213439 0
+msnbot\-media 31 416634 20140125014542 0
+no_user_agent 7 115452 20140124030328 0
+[\s_+:,\.\;\/\\-]bot 5 99268 20140101222049 0
+^mozilla\/4\.0 0 1 0 20140126054650
+msnbot 2 0 20140102184018 0
+curl 3 63264 20140114161549 0
+^mozilla\/4\.0$ 3 63264 20140114151426 0
+python 1 4877 20140110134213 0
+favicon 1 4877 20140123101413 0
+bot[\s_+:,\.\;\/\\-] 6 21180 20140122173633 0
+netcraft 1 4877 20140110012502 0
+nutch 3 19691 20140120112753 0
+crawl 1 34779 20140105152011 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 1525 28639213 0 0
+css 3307 51878574 0 0
+sws 51 515379 0 0
+eot 225 5144596 0 0
+zip 5 1022 0 0
+png 237 4961032 0 0
+html 3 58595 0 0
+js 11694 331483147 0 0
+Unknown 888 624546 0 0
+otf 1224 28867722 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/download_worksheets.zip 5 0 1022
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 329 39
+winxp 4512 821
+macosx6 33 7
+winlong 346 106
+unix 30 4
+winnt 6 0
+win2000 2 2
+linuxubuntu 11 1
+linux 780 144
+winvista 1703 268
+win7 10450 2407
+macosx 67 14
+winunknown 32 2
+win2003 44 8
+j2me 186 13
+macosx9 183 30
+Unknown 352 36
+macosx8 31 5
+macosx7 62 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 81
+msie6.0 71 44
+firefox3.6 2 2
+chrome32.0.1700.72 90 12
+ibrowse 29 3
+firefox26.0 3011 714
+firefox4.0 1 1
+firefox18.0 57 7
+chrome29.0.1547.62 34 6
+chrome31.0.1650.57 30 4
+chrome31.0.1650.63 6662 1499
+safari7.0.1 34 7
+chrome23.0.1271.95 2 2
+firefox3.6.15 6 1
+msie8.0 873 216
+chrome28.0.1500.72 126 18
+chrome30.0.1568.2 38 8
+chrome33.0.1750.22 71 14
+msie7.0 159 95
+firefox23.0 46 9
+opera9.64 2 2
+firefox9.0.1 1 1
+chrome29.0.1547.66 39 7
+chrome18.0.1025.151 11 1
+chrome31.0.1650.59 124 18
+chrome28.0.1500.63 2 2
+firefox13.0 35 6
+firefox21.0 10 10
+firefox10.0.1 27 3
+chrome7.0.503.0 6 1
+chrome32.0.1664.3 30 4
+firefox25.0 345 64
+mozilla 181 70
+chrome26.0.1410.64 3 3
+chrome32.0.1700.76 2406 357
+chrome32.0.1700.77 36 6
+firefox14.0.1 1 1
+chrome7.0.517.17 42 7
+firefox3.6.3 36 6
+safari5.1.9 32 6
+firefox19.0 31 5
+chrome25.0.1364.97 8 1
+safari 48 8
+firefox15.0.1 63 11
+safari7.0 67 14
+firefox5.0 31 5
+firefox15.0 141 30
+firefox20.0 334 48
+chrome29.0.1547.76 66 13
+android 205 21
+chrome23.0.1.0 1 1
+chrome28.0.1500.95 93 15
+firefox8.0 111 19
+chrome32.0.1700.41 30 4
+chrome32.0.1700.55 34 5
+firefox24.0 65 8
+opera9.80 510 47
+chrome33.0.1750.29 30 4
+firefox13.0.1 2 2
+chrome19.0.1055.1 39 7
+firefox16.0 72 10
+chrome32.0.1685.0 33 5
+msie9.0 704 82
+chrome28.0.1500.52 2 2
+firefox27.0 346 60
+chrome30.0.1599.101 66 10
+firefox11.0 362 72
+chrome22.0.1229.96 2 2
+firefox17.0 30 2
+ossproxy 6 0
+chrome27.0.1453.110 25 3
+chrome28.0.1500.71 35 9
+chrome26.0.1403.0 47 10
+firefox3.0.3 26 1
+chrome18.0.966.0 40 8
+firefox22.0 46 17
+chrome31.0.1650.67 30 4
+msie10.0 391 63
+firefox6.0 31 5
+chrome27.0.1453.116 192 39
+firefox3.0.19 18 1
+firefox3.6.13 35 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/34.873;_U;_en)_Presto/2.8.119_Version/11.10 20140114230607
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/34.818;_U;_en)_Presto/2.8.119_Version/11.10 20140109005236
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/34.926;_U;_en)_Presto/2.8.119_Version/11.10 20140120011359
+Opera/9.80_(Android;_Opera_Mini/14.0.1074/34.926;_U;_en)_Presto/2.8.119_Version/11.10 20140117105829
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.818;_U;_en)_Presto/2.8.119_Version/11.10 20140102005650
+Mozilla/5.0_(Series40;_Nokia114/03.33;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.2.0.0.6 20140117202452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 331 388
+From1 0 0
+From2 133 133
+From3 3452 18638
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 128 128
+baidu 1 1
+bing 1 1
+ask 1 1
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 84
+http://sage.virtual-labs.ac.in/home/pub/1/ 991 6753
+http://sage.virtual-labs.ac.in/home/pub/0/ 529 4132
+http://sage.virtual-labs.ac.in/home/arifa.suz@sage.com/1/ 343 350
+http://sage.virtual-labs.ac.in/home/pub/2/ 151 1151
+http://virtual-labs.ac.in/labs/cse07/ 150 150
+http://sage.virtual-labs.ac.in/home/pub/14/ 135 917
+http://virtual-labs.ac.in/labs/cse06/ 97 97
+http://sage.virtual-labs.ac.in/home/arifa.suz%40sage.com/1/ 78 78
+http://sage.virtual-labs.ac.in 74 294
+http://sage.virtual-labs.ac.in/home/pub/19/ 67 695
+http://sage.virtual-labs.ac.in/home/abhishek/5/ 49 53
+http://sage.virtual-labs.ac.in/home/sdbhanderi/2/ 26 30
+http://sage.virtual-labs.ac.in/home/pub/9/ 14 145
+http://sage.virtual-labs.ac.in/home/abhishek/6/ 32 36
+http://sage.virtual-labs.ac.in/home/pub/15/ 4 65
+http://sage.virtual-labs.ac.in/home/abhishek/3/ 15 21
+http://sage.virtual-labs.ac.in/home/snehal412/0/ 20 31
+http://208.71.46.190/search/srpcache 3 28
+http://sage.virtual-labs.ac.in/home/arifa.suz@sage.com/0/share 1 1
+http://www.virtual-labs.ac.in/labs/cse06/ 9 9
+http://sage.virtual-labs.ac.in/home/sdbhanderi/ 2 13
+http://sage.virtual-labs.ac.in/home/abhishek/ 15 93
+http://sage.virtual-labs.ac.in/home/arifa.suz@sage.com/0/ 2 2
+http://sage.virtual-labs.ac.in/home/pub/22/ 4 70
+http://sage.virtual-labs.ac.in/home/nexus/0/ 13 25
+http://sage.virtual-labs.ac.in/home/pub/21/ 15 324
+http://sage.virtual-labs.ac.in/history 0 2
+http://sage.virtual-labs.ac.in/home/arifa.suz%40sage.com/0/revisions 2 2
+http://sage.virtual-labs.ac.in/home/abhishek/4/ 28 32
+http://sage.virtual-labs.ac.in/home/arifa.suz%40sage.com/1/edit 7 7
+http://sage.virtual-labs.ac.in/home/pub/24/ 1 10
+http://sage.virtual-labs.ac.in/home/pub/10/ 7 46
+http://sage.virtual-labs.ac.in/home/mathewk80/ 1 5
+http://sage.virtual-labs.ac.in/home/TestAcct/ 1 5
+http://sage.virtual-labs.ac.in/home/anantg/ 3 8
+http://sage.virtual-labs.ac.in/register 26 74
+http://sage.virtual-labs.ac.in/home/snehal412/ 3 12
+http://sage.virtual-labs.ac.in/doc/static/index.html 0 13
+http://sage.virtual-labs.ac.in/home/arifa.suz%40sage.com/ 17 63
+http://sage.virtual-labs.ac.in/doc/live/tutorial/index.html 4 11
+http://sage.virtual-labs.ac.in/home/monika.singh%40gnindia.dronacharya.info/ 1 4
+http://sage.virtual-labs.ac.in/home/nexus/ 8 36
+http://sage.virtual-labs.ac.in/home/sankhe_9%40yahoo.co.in/ 7 18
+http://sage.virtual-labs.ac.in/home/pub/5/ 3 47
+http://sage.virtual-labs.ac.in/pub/ 27 98
+http://sage.virtual-labs.ac.in/home/pub/8/ 52 531
+http://csitgeu.in/csit/content/syllabus 2 2
+http://sage.virtual-labs.ac.in/home/abhishek/1/ 61 79
+http://sage.virtual-labs.ac.in/home/pub/12/ 2 16
+http://sage.virtual-labs.ac.in/home/TestAcct/0/ 59 71
+http://sage.virtual-labs.ac.in/home/pub/13/ 42 478
+http://sage.virtual-labs.ac.in/home/sdbhanderi/2/upload_data 5 5
+http://sage.virtual-labs.ac.in/settings 3 8
+http://sage.virtual-labs.ac.in/javascript/jqueryui/css/sage/jquery-ui-1.8.11.custom.css 0 4
+http://sage.virtual-labs.ac.in/home/pub/3/ 9 64
+http://sage.virtual-labs.ac.in/doc/static/tutorial/index.html 0 13
+http://sage.virtual-labs.ac.in/home/pub/6/ 12 79
+http://sage.virtual-labs.ac.in/home/Nramana/ 0 4
+http://sage.virtual-labs.ac.in/home/monika.singh%40gnindia.dronacharya.info/0/ 6 14
+http://sage.virtual-labs.ac.in/login 5 20
+http://sage.virtual-labs.ac.in/home/sdbhanderi/2/text 4 4
+http://sage.virtual-labs.ac.in/home/pub/17/ 3 96
+http://sage.virtual-labs.ac.in/home/praveen_kumar/ 4 18
+http://sage.virtual-labs.ac.in/home/pub/16/ 17 209
+http://sage.virtual-labs.ac.in/upload_worksheet 1 1
+http://sage.virtual-labs.ac.in/upload 2 3
+http://sage.virtual-labs.ac.in/home/pub/20/ 17 154
+http://sage.virtual-labs.ac.in/home/abhishek/2/ 47 53
+http://sage.virtual-labs.ac.in/home/pub/4/ 22 236
+http://sage.virtual-labs.ac.in/home/sdbhanderi/2/datafile 7 8
+http://sage.virtual-labs.ac.in/home/vijayasagvekar%40gmail.com/ 6 31
+http://sage.virtual-labs.ac.in/home/pub/7/ 0 32
+http://sage.virtual-labs.ac.in/home/aks0020/ 0 3
+http://sage.virtual-labs.ac.in/home/pub/11/ 7 93
+http://sage.virtual-labs.ac.in/home/sdbhanderi/1/ 5 9
+http://sage.virtual-labs.ac.in/home/pub/18/ 2 56
+http://sage.virtual-labs.ac.in/home/abhishek/2/revisions 2 6
+http://sage.virtual-labs.ac.in/home/abhishek/2/share 2 6
+http://sage.virtual-labs.ac.in/home/pub/27/ 1 17
+http://sage.virtual-labs.ac.in/home/pub/20/download/ 1 1
+http://sage.virtual-labs.ac.in/home/jyothirao/ 3 13
+http://sage.virtual-labs.ac.in/home/pub/23/ 9 85
+http://sage.virtual-labs.ac.in/help 2 7
+http://sage.virtual-labs.ac.in/home/arifa.suz%40sage.com/0/ 45 53
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 20
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f6%2f 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f9%2f 1
+data+mining+learning+lab 1
+create+a+table+student+and+insert+the+data+using+the+attributes+such+as+student+id+roll+number+name+course+grades+and+retrieve+the+data+for+the+student+having+grades+a+and+b 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f2%2f 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f10%2f 1
+density+based+clustering+dbscan+code 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f11%2f 1
+example+of+3nf+that+does+not+meet+bcnf 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f7%2f 1
+comparision+of+association+rule+mining+algorithm 1
+t100+m+o+n+k+e+y 1
+virtual+labs+in+in+data+mining 1
+sql+%3ecreate+a+table+student+with+fields+rollno+integer+computer 1
+comparison+of+classification+algorithms 1
+partition+algorithum+of+association+rule 1
+boye+cod+first+normal+form 1
+signin--sage 1
+bcnf+normal+form+is+not+possible+when%3f 1
+apriori+example+minsuport+with+c%23 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 83
+http 6
+the 4
+of 4
+data 4
+student 4
+a 3
+mining 3
+and 3
+normal 2
+form 2
+3nf 1
+insert 1
+table 2
+not 2
+that 1
+y 1
+t100 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f2%2f 1
+code 1
+based 1
+e 1
+course 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f10%2f 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f9%2f 1
+algorithum 1
+sql 1
+clustering 1
+name 1
+c%23 1
+density 1
+b 1
+apriori 1
+possible 1
+computer 1
+partition 1
+with 2
+attributes 1
+comparison 1
+number 1
+meet 1
+rule 2
+is 1
+bcnf 2
+comparision 1
+association 2
+create 1
+using 1
+virtual 1
+retrieve 1
+fields 1
+lab 1
+labs 1
+grades 2
+boye 1
+roll 1
+integer 1
+k 1
+when%3f 1
+in 2
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f11%2f 1
+does 1
+id 1
+algorithm 1
+%3ecreate 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f6%2f 1
+for 1
+cod 1
+such 1
+classification 1
+learning 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f7%2f 1
+rollno 1
+algorithms 1
+having 1
+minsuport 1
+first 1
+n 1
+example 2
+dbscan 1
+m 1
+as 1
+signin--sage 1
+o 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 341 111853
+206 3 9755
+400 4 1260
+301 457 133365
+404 520 123760
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 42
+/javascript/openid-realselector/img/openid/ 2 -
+/javascript/mathjax/fonts/html-css/tex/otf/mathjax_size1-regular.otf 1 -
+/robots.txt 379 -
+/home/pub/7/cells/14/ye20974zs2pt5w91r1gq.tab 1 -
+/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx%20TemplateMsg.js.zgz 1 -
+/home/sdbhanderi/1/cells/14/sage0.png 1 http://sage.virtual-labs.ac.in/home/sdbhanderi/1/
+/javascript/jquery/jquery-1.3.2.min.js 1 -
+/home/pub/5/cells/15/sage0.png 8 http://sage.virtual-labs.ac.in/home/pub/5/
+/home/pub/7/cells/5/b222j29p73qru029ikl2.tab 1 -
+/doc/static/_static/fonts/HTML-CSS/TeX/png/imagedata.js 1 http://sage.virtual-labs.ac.in/doc/static/index.html
+/home/pub/5/cells/27/sage0.png 8 http://sage.virtual-labs.ac.in/home/pub/5/
+/private.php 1 -
+/home/pub/13/cells/3/sage0.png%3F5310414473412588926 2 -
+/java/jmol/ 1 -
+/doc/static/tutorial/_static/fonts/HTML-CSS/TeX/png/imagedata.js 1 http://sage.virtual-labs.ac.in/doc/static/tutorial/index.html
+/home/pub/5/cells/25/sage0.png 8 http://sage.virtual-labs.ac.in/home/pub/5/
+/home/abhishek/3/eer-model.gif 2 http://sage.virtual-labs.ac.in/home/abhishek/3/
+/xmlrpc.php 1 -
+/images/stories/vito.php 1 -
+/java/jmol 3 -
+/home/pub/15/solution.JPG 2 -
+/javascript/mathjax/fonts/html-css/tex/otf/mathjax_size4-regular.otf 1 -
+/home/pub/11/cells/5/sage0.png 17 http://sage.virtual-labs.ac.in/home/pub/11/
+/javascript/sage/master.js 1 -
+/home/pub/14/eer-model.gif 3 http://sage.virtual-labs.ac.in/home/pub/14/
+/frontend/js.php 1 -
+/home/pub/5/cells/3/a2rc051o5as1i0psz5qp.tab 2 -
+/gwebmail/ 1 -
+/home/pub/14/cells/3/sage0.png%3F905034214755303386 5 -
+/libs/smarty_ajax/index.php 1 -
+/home/sdbhanderi/1/cells/17/sage0.png 1 http://sage.virtual-labs.ac.in/home/sdbhanderi/1/
+/home/pub/11/cells/17/sage0.png 17 http://sage.virtual-labs.ac.in/home/pub/11/
+/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx%20TemplateMsg.js.zgz 1 -
+/home/pub/5/cells/18/sage0.png 8 http://sage.virtual-labs.ac.in/home/pub/5/
+/css/ 1 -
+/home/pub/11/cells/14/sage0.png 17 http://sage.virtual-labs.ac.in/home/pub/11/
+/index.php 4 -
+/home/pub/5/cells/32/sage0.png 9 -
+/KikChat/private.php 1 -
+/pub/20 1 -
+/home/sdbhanderi/1/cells/5/sage0.png 1 http://sage.virtual-labs.ac.in/home/sdbhanderi/1/
+/javascript/mathjax/fonts/html-css/tex/otf/mathjax_main-regular.otf 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 2037 9829 230147600 20140125094949
+10.4.8.52 1879 9330 222026226 20140125095059
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20140101 101 696 18501298 12
+20140102 469 1524 30586865 15
+20140103 173 1042 24265598 14
+20140104 93 550 13924201 13
+20140105 68 404 11497169 9
+20140106 317 1607 36805739 14
+20140107 127 811 23672951 15
+20140108 43 298 9160491 11
+20140109 199 971 21989647 12
+20140110 71 458 12701646 14
+20140111 86 499 14134024 11
+20140112 66 465 14290486 11
+20140113 824 2162 31873302 13
+20140114 94 598 16909192 15
+20140115 112 624 17305294 13
+20140116 81 509 11684567 11
+20140117 148 909 19802368 16
+20140118 85 428 8208973 11
+20140119 26 187 6018586 9
+20140120 228 1295 29449775 13
+20140121 149 929 22809031 13
+20140122 116 693 17883551 15
+20140123 82 469 12713302 12
+20140124 108 724 18380974 16
+20140125 50 307 7604796 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 48
+5mn-15mn 23
+30s-2mn 43
+2mn-5mn 18
+15mn-30mn 26
+0s-30s 120
+30mn-1h 38
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 171
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 369 15663700 0 62
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 366 8635054 5 12
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 365 2697096 0 8
+/home/pub/1/ 271 2527307 86 9
+/ 210 1028069 46 45
+/home/pub/0/ 170 1695796 59 12
+/home/arifa.suz@sage.com/1/eval 151 35793 0 0
+/home/arifa.suz@sage.com/1/alive 139 243 0 0
+/home/pub/13/ 117 2705796 1 26
+/home/pub/2/ 101 3083441 27 9
+/home/sankhe_9%40yahoo.co.in/ 7 39494 0 0
+/home/sdbhanderi/2/text 2 30376 0 0
+/home/praveen_kumar/ 4 22512 0 0
+/home/abhishek/3/eval 2 40 0 0
+/home/pub/21/ 28 978348 7 5
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf 1 24184 0 0
+/send_to_trash 2 0 0 0
+/home/pub/19/download/Boyce-Codd%20Normal%20Form.sws 3 15414 0 0
+/home/pub/21/download/SQL-II.sws 2 10084 0 0
+/home/pub/15/ 22 526171 0 1
+/javascript/dynamic/keyboard/ow 1 2634 0 0
+/home/pub/16/ 41 768745 3 3
+/home/pub/11/ 15 838081 1 4
+/pub/ 49 1169548 1 17
+/home/pub/18/ 22 353316 1 3
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 18 144228 0 4
+/home/_sage_/2/alive 2 2 0 0
+/register 30 101581 0 0
+/home/arifa.suz%40sage.com/ 12 72370 0 0
+/home/abhishek/2/ 1 48260 0 0
+/home/abhishek/4/eval 5 100 0 0
+/doc/static/tutorial/ 1 16953 0 0
+/home/arifa.suz@sage.com/1/system/sage 2 14 0 0
+/home/nexus/0/rename 1 4 0 0
+/home/sdbhanderi/2/alive 27 27 0 1
+/home/arifa.suz@sage.com/1/cell_update 97 52683 0 0
+/home/arifa.suz%40sage.com/0/revisions 1 15333 0 0
+/home/abhishek/6/delete_cell 1 86 0 0
+/doc/static/ 1 13596 0 0
+/home/monika.singh%40gnindia.dronacharya.info/ 1 5676 0 0
+/home/abhishek/5/ 1 90530 0 0
+/javascript/dynamic/keyboard/iw 1 3392 0 0
+/home/pub/3/ 13 395034 0 2
+/home/sdbhanderi/2/upload_data 1 15968 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 18 209780 0 0
+/home/pub/27/ 2 5206 1 1
+/login 6 29930 0 0
+/home/sdbhanderi/2/ 5 92449 0 0
+/home/abhishek/6/eval 8 129 0 0
+/home/abhishek/2/revisions 1 15338 0 0
+/home/snehal412/0/alive 17 17 0 0
+/home/abhishek/ 15 106333 0 0
+/home/pub/17/ 23 369141 1 1
+/home/sdbhanderi/ 1 7491 0 0
+/home/jyothirao/ 3 16882 0 0
+/home/pub/8/ 30 1043370 19 4
+/home/arifa.suz@sage.com/1/show_all 3 21 0 0
+/home/pub/14/ 59 1121598 20 3
+/home/arifa.suz@sage.com/0/eval 9 2701 0 0
+/home/nexus/0/ 3 55227 0 0
+/home/pub/0/download/Data%20Mining%20Virtual%20Lab.sws 5 9545 0 1
+/home/arifa.suz@sage.com/1/ 5 121342 0 0
+/home/mathewk80/ 1 5620 0 0
+/home/monika.singh@gnindia.dronacharya.info/0/rename 1 4 0 0
+/home/arifa.suz@sage.com/0/share 1 15618 0 0
+/home/pub/5/ 6 272244 1 1
+/home/pub/14/download/Enhanced%20Entity%20Relationship%20Model.sws 1 37831 0 0
+/home/sdbhanderi/1/alive 3 3 0 0
+/home/arifa.suz@sage.com/1/system/mupad 1 7 0 0
+/home/pub/6/download/K%20Means.sws 3 12190 0 0
+/home/anantg/ 1 5614 0 0
+/home/pub/9/ 18 696942 5 3
+/home/arifa.suz@sage.com/0/cell_update 5 2901 0 0
+/history 3 33401 0 0
+/home/abhishek/3/cell_update 6 1018 0 0
+/home/arifa.suz@sage.com/1/rename 1 4 0 0
+/home/abhishek/2/eval 7 2685 0 0
+/home/monika.singh@gnindia.dronacharya.info/0/alive 2 2 0 0
+/home/snehal412/ 3 18334 0 0
+/doc/live/tutorial/ 1 28046 0 0
+/home/sdbhanderi/2/rename 2 8 0 0
+/javascript/dynamic/keyboard/mw 9 22644 0 0
+/home/abhishek/3/alive 5 5 0 0
+/home/TestAcct/0/ 1 18429 0 0
+/home/abhishek/1/ 2 146716 0 0
+/home/abhishek/2/share 1 15623 0 0
+/home/sdbhanderi/2/link_datafile 1 2737 0 0
+/home/abhishek/5/eval 9 132 0 0
+/home/abhishek/5/cell_update 8 2115 0 0
+/home/abhishek/4/cell_update 8 2811 0 0
+/upload_worksheet 1 3017 0 0
+/home/abhishek/1/alive 28 34 0 0
+/help 5 67767 0 0
+/home/arifa.suz%40sage.com/1/ 4 80096 0 0
+/home/abhishek/1/eval 15 266 0 0
+/home/arifa.suz%40sage.com/1/edit 2 32054 0 0
+/home/aks0020/ 1 5616 0 0
+/home/pub/4/ 12 351648 5 3
+/home/pub/20/download/SQL-I.sws 3 18034 0 0
+/home/pub/3/download/Sampling.sws 2 10403 0 0
+/javascript/dynamic/keyboard/sw 18 47538 0 0
+/home/arifa.suz@sage.com/1/system/python 2 14 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 39 383764 0 1
+/home/abhishek/2/new_cell_before 2 5110 0 0
+/home/vijayasagvekar%40gmail.com/ 7 39550 0 0
+/home/arifa.suz@sage.com/0/rename 1 4 0 0
+/home/arifa.suz@sage.com/0/ 1 21547 0 0
+/home/nexus/ 9 56142 0 0
+/home/pub/8/download/DBSCAN.sws 7 32716 1 2
+/home/abhishek/6/alive 10 10 1 0
+/home/abhishek/1/cell_update 12 4385 0 0
+/home/pub/10/ 23 866686 1 6
+/home/pub/13/download/Entity%20Relationship%20Model.sws 9 305328 0 1
+/home/arifa.suz%40sage.com/0/ 3 58525 0 0
+/home/snehal412/0/ 2 36870 0 0
+/home/pub/2/download/Apriori.sws 7 34918 0 2
+/home/pub/19/ 53 1144504 16 5
+/home/abhishek/6/cell_update 9 4456 0 0
+/home/abhishek/1/discard_and_quit 1 5 0 0
+/home/nexus/0/alive 6 6 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 18 825724 0 0
+/home/TestAcct/0/alive 58 58 0 1
+/home/pub/12/ 6 210612 0 2
+/home/sdbhanderi/2/datafile 1 16312 0 0
+/home/abhishek/4/system/matlab 1 7 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 39 1838308 0 4
+/home/sdbhanderi/1/ 1 100338 0 0
+/home/pub/18/download/Third%20Normal%20Form.sws 2 6628 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 18 97376 0 0
+/home/arifa.suz@sage.com/1/system/html 1 7 0 0
+/home/pub/21/cells/1/university 1 0 0 1
+/home/abhishek/6/ 1 60686 0 0
+/home/pub/16/download/First%20Normal%20Form.sws 2 7614 0 1
+/home/pub/23/ 14 486832 4 7
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 18 164492 0 1
+/home/pub/7/ 5 114150 1 3
+/home/_sage_/2/quit_sage 1 4 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 97 677488 0 3
+/home/arifa.suz@sage.com/1/system/scilab 1 7 0 0
+/home/snehal412/0/rename 1 4 0 0
+/home/arifa.suz@sage.com/1/pretty_print/false 2 14 0 0
+/home/abhishek/2/alive 26 26 0 0
+/home/arifa.suz@sage.com/1/system/matlab 2 14 0 0
+/home/abhishek/4/ 1 50468 0 0
+/home/arifa.suz@sage.com/1/pretty_print/true 2 14 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 18 490212 0 0
+/home/arifa.suz@sage.com/1/delete_cell 1 64 0 0
+/send_to_stop 2 0 0 0
+/home/arifa.suz@sage.com/1/save_snapshot 1 5 0 0
+/home/pub/10/download/Decision%20Trees.sws 1 7607 0 0
+/home/Nramana/ 1 5616 0 0
+/home/pub/22/ 19 628969 0 6
+/home/pub/6/ 26 806779 0 2
+/home/pub/24/ 1 2603 1 0
+/home/abhishek/5/alive 30 30 0 0
+/home/abhishek/4/alive 11 11 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 39 990712 0 2
+/upload 3 13057 0 0
+/home/pub/20/ 68 2976154 1 18
+/home/arifa.suz@sage.com/1/hide_all 1 7 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 26 1170200 1 5
+/home/TestAcct/ 1 5618 0 0
+/home/arifa.suz@sage.com/1/system/gap 2 14 0 0
+/home/abhishek/1/new_cell_before 1 2570 0 0
+/home/pub/1/download/Databases%20Virtual%20Lab.sws 4 7067 0 3
+/settings 4 17560 0 0
+/home/abhishek/4/system/sage 1 7 0 0
+/home/arifa.suz@sage.com/0/alive 28 28 0 0
+/home/abhishek/2/cell_update 12 1930 0 0
+/home/monika.singh%40gnindia.dronacharya.info/0/ 2 37204 0 0
+/home/abhishek/3/ 1 40568 0 0
+END_SIDER

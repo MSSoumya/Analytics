@@ -1,0 +1,261 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.civil15.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1987                
+POS_TIME 2669                
+POS_VISITOR 3391                
+POS_DAY 3614                
+POS_DOMAIN 3827                
+POS_LOGIN 4054                
+POS_ROBOT 4209                
+POS_WORMS 4411                
+POS_EMAILSENDER 4542                
+POS_EMAILRECEIVER 4685                
+POS_SESSION 4761                
+POS_SIDER 4917                
+POS_FILETYPES 5559                
+POS_DOWNLOADS 5704                
+POS_OS 5752                
+POS_BROWSER 5855                
+POS_SCREENSIZE 5974                
+POS_UNKNOWNREFERER 6048                
+POS_UNKNOWNREFERERBROWSER 6135                
+POS_ORIGIN 6262                
+POS_SEREFERRALS 6395                
+POS_PAGEREFS 6539                
+POS_SEARCHWORDS 6687                
+POS_KEYWORDS 6839                
+POS_MISC 2333                
+POS_ERRORS 6898                
+POS_CLUSTER 3910                
+POS_SIDER_404 6996                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140403162551 143 27001 11735662682012
+FirstTime 20140324160245
+LastTime 20140331184445
+LastUpdate 20141015124809 143 0 142 0 0
+TotalVisits 3                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 1918
+1 0 0 0 2 2 1036
+2 0 0 0 3 3 2957
+3 0 0 0 2 2 2630
+4 0 0 0 2 2 616
+5 0 0 0 3 3 2114
+6 0 0 0 0 0 0
+7 0 0 0 8 8 7023
+8 0 0 0 2 2 4194
+9 0 0 0 1 2 3444
+10 0 1 18862 1 2 575
+11 0 0 0 1 1 2112
+12 0 0 0 1 2 3605
+13 0 0 0 1 1 98
+14 0 0 0 0 0 0
+15 2 18 88224 2 4 3057
+16 2 11 29700 1 2 4137
+17 0 0 0 1 4 4441
+18 29 35 165029 2 2 574
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 3 3 1146
+22 0 0 0 1 1 524
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+103.251.217.6 29 35 165029 20140331184445
+14.139.125.69 2 11 29700 20140324160357
+193.200.150.152 2 18 88224 20140329151707
+110.172.143.218 0 1 18862 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20140314 0 1 18862 0
+20140324 2 11 29700 1
+20140329 2 18 88224 1
+20140331 29 35 165029 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 33 65 301815
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+bingbot 21 23320 20140331025120 0
+googlebot 12 16520 20140330125448 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 1
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/labs/civil15/ 6 29204 2 2
+/labs/civil15/links.php 3 31107 0 1
+/labs/civil15/feedback.php 2 41036 0 0
+/labs/civil15/autolevel_mid.php 2 172 0 0
+/labs/civil15/total_station.php 2 172 0 0
+/labs/civil15/contact.php 2 12540 0 0
+/labs/civil15/references.php 2 20664 0 0
+/labs/civil15/profile.php 2 172 0 0
+/labs/civil15/login/login.php 2 172 0 0
+/labs/civil15/page.php 2 15248 1 0
+/labs/civil15/team.php 2 14356 0 0
+/labs/civil15/radiation.php 2 172 0 0
+/labs/civil15/exp.php 2 172 0 0
+/labs/civil15/intersection.php 2 168 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 12 27105 0 0
+php 33 165355 0 0
+js 4 11131 0 0
+jpg 9 90830 0 0
+gif 7 7394 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+winlong 35 29
+unix 18 2
+winvista 12 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+firefox3.6.11 35 29
+Unknown 18 2
+chrome32.0.1685.0 11 2
+msie10.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+http://Anonymouse.org/_(Unix) 20140329151710
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 31 54
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2 11
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+502 10 5198
+404 4 1163
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/labs/civil15/images/ajax-loader.gif 2 -
+/labs/civil15/Planetable.php 2 -
+END_SIDER_404

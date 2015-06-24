@@ -1,0 +1,294 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.mech08.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2673                
+POS_VISITOR 3495                
+POS_DAY 4098                
+POS_DOMAIN 4473                
+POS_LOGIN 4702                
+POS_ROBOT 4857                
+POS_WORMS 5316                
+POS_EMAILSENDER 5447                
+POS_EMAILRECEIVER 5590                
+POS_SESSION 5666                
+POS_SIDER 5822                
+POS_FILETYPES 6270                
+POS_DOWNLOADS 6462                
+POS_OS 6543                
+POS_BROWSER 6674                
+POS_SCREENSIZE 6893                
+POS_UNKNOWNREFERER 6967                
+POS_UNKNOWNREFERERBROWSER 7054                
+POS_ORIGIN 7136                
+POS_SEREFERRALS 7271                
+POS_PAGEREFS 7435                
+POS_SEARCHWORDS 7625                
+POS_KEYWORDS 7777                
+POS_MISC 2336                
+POS_ERRORS 7836                
+POS_CLUSTER 4558                
+POS_SIDER_404 7932                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801000543 1363 295280 14563090914427
+FirstTime 20140709131251
+LastTime 20140731123342
+LastUpdate 20141015121706 1363 0 1362 0 0
+TotalVisits 12                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 5 57563
+1 0 5 78272 9 25 169327
+2 0 1 1057 3 8 91973
+3 0 0 0 4 7 151050
+4 0 2 2377 1 1 1829
+5 0 2 35058 3 3 5254
+6 0 0 0 5 5 10449
+7 0 1 2299 6 12 76091
+8 0 0 0 6 6 13033
+9 0 0 0 8 17 64980
+10 3 29 276710 1 2 3441
+11 0 0 0 4 4 8732
+12 4 73 796892 2 5 5203
+13 2 27 307039 0 1 1150
+14 0 4 6995 6 9 23058
+15 2 51 544990 7 22 69502
+16 1 27 275654 3 4 5710
+17 0 0 0 4 6 29535
+18 0 2 59576 3 3 1829
+19 3 51 545497 3 5 5744
+20 0 1 1342 2 2 4120
+21 4 34 6225758 5 8 72289
+22 2 28 309429 3 4 5130
+23 0 1 33616 1 4 133835
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+10.4.8.52 10 159 1728504 20140731123319
+117.211.96.34 3 30 6201444 20140716210922
+59.145.147.222 3 29 276710 20140718103155
+14.139.217.138 2 26 273801 20140722193142
+103.246.64.52 1 25 271696 20140716165141
+117.211.78.154 1 25 271696 20140723152744
+203.115.106.100 1 27 292502 20140731123342
+198.16.3.248 0 1 72154 
+157.55.39.137 0 1 1209 
+207.46.13.110 0 4 5047 
+207.46.13.79 0 1 1442 
+157.55.39.139 0 2 3525 
+157.55.39.160 0 2 2610 
+157.55.39.136 0 1 2299 
+207.46.13.20 0 2 3958 
+64.19.73.226 0 1 58234 
+157.55.39.97 0 3 35730 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20140709 2 27 307039 1
+20140716 4 55 6473140 2
+20140718 3 29 276710 1
+20140719 1 25 271696 1
+20140722 2 27 332035 1
+20140723 1 25 271696 1
+20140724 1 33 316348 1
+20140725 0 9 84293 0
+20140726 0 6 40791 0
+20140730 4 50 562510 2
+20140731 3 53 566303 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 21 339 9502561
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 63 298281 20140728094826 0
+yandex 41 98983 20140731195027 0
+bingbot 27 105708 20140728193208 0
+msnbot\-media 7 393823 20140731233036 0
+bingpreview 5 87757 20140706025645 0
+baiduspider 4 6917 20140731233543 0
+no_user_agent 1 0 20140720142544 0
+bot[\s_+:,\.\;\/\\-] 1 144 20140714140106 0
+slurp 1 2291 20140724100628 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 4
+0s-30s 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/labs/mech08/home%20page.html 11 25201 10 6
+/labs/mech08/experiments.html 3 6315 0 2
+/labs/mech08/Ic1.html 1 2547 1 1
+/labs/mech08/self.html 1 1608 0 0
+/labs/mech08/modulus.html 1 2592 0 1
+/labs/mech08/creep.html 1 2217 0 0
+/labs/mech08/ques2.html 1 2810 0 1
+/labs/mech08/creep1.html 1 1873 0 1
+/labs/mech08/5mol.html 1 1755 1 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+wmv 1 5776392 0 0
+css 26 272413 0 0
+png 27 1094587 0 0
+html 21 46918 0 0
+jpg 63 1103007 0 0
+js 179 724309 0 0
+gif 22 484935 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/labs/mech08/cmf.wmv 1 0 5776392
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+linuxandroid 27 1
+winxp 100 7
+winvista 81 6
+linux 30 3
+win7 101 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+mozilla 27 2
+chrome35.0.1916.153 51 3
+firefox23.0 29 3
+firefox29.0 30 3
+msie9.0 24 0
+chrome36.0.1985.125 26 2
+firefox30.0 95 4
+chrome9.0.597.98 30 3
+chrome30.0.0.0 27 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 25
+From1 0 0
+From2 2 4
+From3 10 10
+From4 9 300
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+bing 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/index.php 10 10
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+503 4 1656
+404 1 317
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/labs/mech08/home%2520page.html 1 -
+END_SIDER_404

@@ -1,0 +1,555 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse04.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2654                
+POS_VISITOR 9779                
+POS_DAY 15168               
+POS_DOMAIN 3483                
+POS_LOGIN 3716                
+POS_ROBOT 3871                
+POS_WORMS 4428                
+POS_EMAILSENDER 4559                
+POS_EMAILRECEIVER 4702                
+POS_SESSION 15952               
+POS_SIDER 16163               
+POS_FILETYPES 4837                
+POS_DOWNLOADS 5065                
+POS_OS 5158                
+POS_BROWSER 5360                
+POS_SCREENSIZE 6524                
+POS_UNKNOWNREFERER 6598                
+POS_UNKNOWNREFERERBROWSER 7093                
+POS_ORIGIN 7175                
+POS_SEREFERRALS 7318                
+POS_PAGEREFS 7462                
+POS_SEARCHWORDS 7873                
+POS_KEYWORDS 8025                
+POS_MISC 2318                
+POS_ERRORS 8084                
+POS_CLUSTER 3572                
+POS_SIDER_404 8210                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101000450 77696 20130355 9368417136522
+FirstTime 0
+LastTime 20141231212911
+LastUpdate 20150101010214 1 0 0 0 0
+TotalVisits 217                 
+TotalUnique 128                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 133                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 151 523361 27 33 111599
+1 46 251 920500 19 32 75375
+2 20 81 192746 47 54 153646
+3 15 85 281001 64 73 303946
+4 18 72 254939 69 70 218841
+5 11 45 216135 58 70 271362
+6 6 43 179093 37 54 228576
+7 3 14 32074 41 47 152386
+8 8 8 84387 45 46 144343
+9 42 269 864977 55 71 206027
+10 98 519 1791951 45 63 122425
+11 58 268 744016 36 46 256312
+12 83 528 1883054 60 80 275602
+13 39 213 727603 33 36 97517
+14 114 531 1852872 82 97 184447
+15 165 677 2292089 61 71 144917
+16 71 370 1235075 32 49 122722
+17 46 225 890412 70 97 225325
+18 51 268 820374 46 57 152856
+19 50 190 482382 61 63 204684
+20 26 179 580922 48 53 148897
+21 46 276 1053135 69 84 163682
+22 43 137 360219 43 53 149833
+23 17 43 113673 36 42 118530
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1105 5443 18376990
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 628 2037501 20141231233213 0
+bingbot 157 509425 20141231174822 0
+yandex 142 561746 20141226094742 0
+robot 118 387763 20141231230636 0
+baiduspider 54 179897 20141231131906 0
+slurp 26 80250 20141231040141 0
+favicon 17 66742 20141230234441 0
+python 14 88927 20141215031631 0
+bingpreview 13 112524 20141223065218 0
+exabot 10 37482 20141226144459 0
+ia_archiver 8 76633 20141228113617 0
+mail\.ru 1 3268 20141229150054 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 839 1373632 0 0
+png 6 15060 0 0
+txt 1 68 0 0
+php 984 3413459 0 0
+html 93 285899 0 0
+py 28 4856 0 0
+jpg 2009 5324817 0 0
+js 322 6239297 0 0
+gif 1161 1719902 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/labs/cse04/exp4/upload/savedFile.txt 1 0 68
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 328 51
+winxp 871 215
+linuxubuntu 16 3
+linux 632 119
+winvista 891 182
+win7 2481 498
+macosx 63 14
+macosx9 70 11
+Unknown 91 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 55
+firefox28.0 15 2
+chrome37.0.2062.124 13 2
+chrome38.0.2125.19 16 3
+safari7.0 35 10
+msie6.0 44 20
+chrome38.0.2125.104 13 2
+firefox26.0 48 11
+android 162 25
+chrome28.0.2.7 31 8
+chrome28.0.1500.94 13 2
+chrome36.0.1985.131 14 3
+chrome39.0.2171.95 1298 242
+firefox4.0 31 5
+firefox18.0 34 8
+chrome38.0.2125.111 147 27
+chrome36.0.1985.125 86 12
+firefox34.0 616 115
+opera9.80 91 12
+chrome24.0.1312.71 13 2
+firefox31.0 119 19
+msie8.0 45 10
+chrome39.0.2171.65 35 9
+chrome38.0.2125.122 14 3
+firefox16.0 12 1
+chrome40.0.2214.38 17 3
+chrome37.0.2062.120 16 3
+chrome21.0.1180.83 45 6
+msie9.0 73 12
+chrome37.0.2062.103 16 3
+chrome10.0.648.134 47 10
+chrome31.0.1650.59 46 9
+firefox27.0 27 5
+chrome39.0.2171.71 940 196
+chrome39.0.2171.93 36 3
+firefox32.0 43 8
+chrome39.0.2171.62 33 9
+firefox17.0 21 8
+chrome34.0.1797.2 16 3
+firefox29.0 47 10
+firefox3.5.2 1 1
+chrome39.0.2171.59 13 2
+firefox7.0.1 44 7
+firefox30.0 93 30
+nokia 16 3
+firefox33.0 247 62
+firefox25.0 1 1
+mozilla 151 42
+chrome35.0.1916.153 12 1
+firefox22.0 1 1
+chrome38.0.2125.114 44 7
+firefox14.0.1 188 55
+firefox3.6.28 17 4
+msie10.0 193 40
+firefox35.0 42 7
+safari 12 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.6050;_U;_en)_Presto/2.8.119_Version/11.10 20141205193612
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.6172;_U;_en)_Presto/2.8.119_Version/11.10 20141212043520
+Opera/9.80_(Android;_Opera_Mini/7.6.40115/35.6244;_U;_en)_Presto/2.8.119_Version/11.10 20141217163821
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.5858;_U;_en)_Presto/2.8.119_Version/11.10 20141202151304
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 135 231
+From1 0 0
+From2 0 0
+From3 150 156
+From4 820 5056
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.virtual-labs.ac.in/labs/cse04/ 136 136
+http://virtual-labs.ac.in/labs/cse04/ 9 9
+http://giacr.ac.in/vlabs.html 2 2
+http://www.iprojectideas.com/node/52 1 1
+http://www.giacr.ac.in//vlabs.html 1 1
+http://www.iprojectideas.com 1 1
+http://blog.a11y.in 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 108 44712
+302 26 1924
+206 2 2772
+404 109 28466
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 16
+/labs/cse04/exp1/quizresults.php 8 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/index.php
+/labs/cse04/exp4/jqminmax.js 13 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/lab.html
+/labs/cse04/exp2/jqminmax.js 11 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/lab.html
+/labs/cse04/exp2/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/index.php
+/labs/cse04/exp8/jqminmax.js 5 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/lab.html
+/labs/cse04/exp3/jqminmax.js 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp3/lab.html
+/labs/cse04/institute_detail.php 1 -
+/labs/cse04/exp9/jqminmax.js 4 http://deploy.virtual-labs.ac.in/labs/cse04/exp9/lab.html
+/labs/cse04/exp1/PendulumForces.swf 1 -
+/labs/cse04/exp6/jqminmax.js 7 http://deploy.virtual-labs.ac.in/labs/cse04/exp6/lab.html
+/labs/cse04/exp1/jqminmax.js 40 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/lab.html
+/labs/cse04/exp5/jqminmax.js 6 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/lab.html
+/labs/cse04/exp10/jqminmax.js 1 -
+/labs/cse04/exp7/jqminmax.js 2 http://deploy.virtual-labs.ac.in/labs/cse04/exp7/lab.html
+/labs/cse04/exp9/edit_area/%22+t.baseURL+%22edit_area.css 3 -
+/labs/cse04/exp4/quizresults.php 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/index.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 133
+10.4.8.52 601 2706 9089891 20141231205350
+210.212.69.46 22 70 330319 20141203160223
+49.248.44.43 22 72 263511 20141222144403
+117.239.83.193 19 80 353204 20141231124822
+14.96.129.21 14 25 69961 20141204235631
+196.12.45.164 14 51 208533 20141226143726
+117.253.139.155 13 74 325048 20141205125701
+14.139.155.210 12 49 201083 20141230214623
+117.255.245.63 11 48 196123 20141210044903
+113.193.163.126 9 22 60842 20141229185418
+14.139.38.10 2 13 30932 20141220145004
+115.254.69.27 2 9 17608 20141201161318
+64.233.173.131 3 9 110187 20141205212118
+83.187.17.130 1 14 35729 20141226203747
+59.177.204.43 5 32 149046 20141222031711
+1.23.147.209 1 12 27593 20141209141530
+14.139.61.2 7 18 47020 20141210151010
+168.235.197.236 2 16 36125 20141201140633
+117.198.167.146 0 6 14496 
+182.237.17.138 6 43 179185 20141218124705
+106.220.88.77 1 12 27593 20141229163711
+202.83.18.137 2 13 30932 20141205132032
+124.155.250.24 1 12 27593 20141231192857
+115.118.19.142 6 43 178887 20141214015256
+202.46.57.100 1 1 1142 20141224040251
+14.139.85.133 8 45 187063 20141231104012
+58.23.25.56 1 1 3905 20141206171421
+202.62.71.26 4 17 45299 20141206211749
+5.23.199.52 5 42 175894 20141205000455
+193.52.102.10 4 7 15268 20141221202715
+117.214.68.212 1 12 27593 20141213131620
+14.102.3.130 2 13 30932 20141221114543
+103.21.125.78 1 12 27593 20141217152447
+117.211.103.150 1 12 27593 20141231141644
+123.63.246.169 4 17 44838 20141212112542
+117.211.106.58 3 14 34008 20141207100854
+67.141.206.153 4 15 37347 20141230010953
+203.99.206.243 5 42 175894 20141208121725
+202.153.6.232 6 43 179093 20141222062738
+78.192.130.136 3 16 41592 20141231145224
+117.197.199.30 6 17 43856 20141205040016
+59.93.50.134 7 45 186075 20141230212343
+122.163.233.155 4 15 37387 20141209005757
+117.248.85.190 1 12 27593 20141230191535
+117.211.160.130 8 21 58327 20141209163719
+185.23.124.38 1 12 27593 20141202182548
+54.240.197.233 1 11 27096 20141214215240
+122.176.193.101 1 12 27593 20141214104546
+182.189.41.55 5 18 47807 20141201111806
+49.207.132.137 2 13 30861 20141201154011
+117.215.95.12 5 42 175959 20141231181710
+140.203.12.3 1 16 30599 20141220013245
+117.211.188.170 9 22 62246 20141218161127
+122.163.145.50 1 12 27593 20141213210512
+193.52.102.11 1 21 65674 20141222045117
+1.38.21.30 6 43 179019 20141223164500
+202.62.83.163 1 12 27593 20141204141816
+182.72.116.98 9 46 189469 20141217140530
+120.61.8.216 1 13 33114 20141224181442
+117.211.57.53 6 45 178392 20141230154741
+1.22.217.76 3 14 34173 20141207200101
+41.34.216.214 1 25 131294 20141223172424
+119.235.53.130 1 12 27593 20141217123602
+210.212.209.67 2 13 30834 20141202153503
+115.111.223.43 3 11 19720 20141210145300
+117.202.114.159 4 17 44683 20141217185510
+117.244.197.84 4 17 44683 20141217164006
+37.231.1.210 1 12 27593 20141217204702
+101.222.242.173 8 45 186187 20141206185727
+101.60.85.41 2 13 30821 20141230032028
+80.110.125.33 1 3 6710 20141218134510
+117.199.243.28 5 42 176162 20141221121203
+223.236.189.81 1 13 30103 20141213110912
+107.167.107.141 6 57 214244 20141217163816
+122.248.163.1 1 12 27593 20141230104450
+118.200.26.59 3 16 41480 20141220195949
+14.139.171.131 1 12 27593 20141202122852
+117.211.54.146 1 1 3339 20141223115421
+1.38.16.92 3 14 34089 20141202053218
+208.122.69.254 1 12 27593 20141204175809
+212.47.207.1 5 29 73023 20141231161358
+59.145.232.122 4 17 44683 20141211161409
+103.37.81.181 3 14 34200 20141205133524
+194.187.114.1 2 13 30932 20141226183441
+117.243.193.101 8 45 185394 20141203172243
+128.95.117.181 2 13 30861 20141220012016
+117.211.42.147 2 13 30932 20141202104702
+117.197.226.73 1 12 27593 20141222193156
+180.215.149.149 1 12 27593 20141224200324
+117.195.157.39 3 16 41415 20141202173711
+124.124.110.161 3 9 15711 20141208154451
+117.197.34.202 7 20 54981 20141206140358
+168.63.139.43 0 9 20483 
+117.55.241.55 3 16 41435 20141216094243
+117.55.242.118 2 13 30861 20141215152350
+175.101.16.2 2 13 30932 20141219172813
+27.6.182.50 4 15 37414 20141217220519
+220.225.140.100 3 14 34008 20141201140456
+115.248.168.114 2 13 30932 20141216155526
+210.212.198.129 3 14 34160 20141219162035
+202.153.47.229 3 14 34271 20141208130453
+64.233.173.135 1 13 25867 20141205211607
+120.61.48.51 1 1 3268 20141207202817
+84.23.107.169 3 16 41415 20141231160625
+203.191.35.24 3 16 41415 20141219164333
+210.212.183.60 2 11 28067 20141205180030
+79.170.55.248 3 16 41435 20141222020027
+49.206.115.153 1 12 27593 20141209112148
+106.67.154.188 1 12 27593 20141231210803
+182.66.28.76 1 12 27593 20141230121358
+117.192.234.98 3 16 41683 20141201181300
+115.113.9.11 3 16 41415 20141223005541
+107.167.99.226 3 15 36781 20141205193612
+120.59.161.181 0 1 2297 
+27.6.176.191 2 13 30932 20141208220416
+14.139.187.145 3 16 41415 20141202095630
+64.233.173.139 2 21 43849 20141205211840
+203.196.133.101 1 1 3848 20141213110608
+27.7.8.195 6 43 179162 20141204101737
+212.77.203.245 5 42 176120 20141210125235
+223.223.142.246 3 14 34173 20141204004251
+14.139.123.180 0 2 2794 
+182.74.51.62 6 30 148259 20141231212911
+36.72.114.117 3 16 41570 20141211141207
+196.12.53.135 1 1 3268 20141216110913
+223.30.248.62 7 44 182727 20141215101442
+117.198.243.172 6 43 179162 20141209225136
+210.212.203.66 3 16 41570 20141204220130
+54.240.197.234 0 1 497 
+61.3.98.106 2 13 30932 20141213111520
+202.83.18.138 2 13 30861 20141202105937
+117.211.110.114 7 44 183194 20141202102749
+1.22.251.12 1 12 27593 20141212203732
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20141201 34 159 482955 9
+20141202 58 308 990927 13
+20141203 64 247 933035 5
+20141204 48 205 669311 10
+20141205 45 260 929668 12
+20141206 31 148 522994 8
+20141207 33 79 215100 4
+20141208 54 261 921007 7
+20141209 71 334 1166114 10
+20141210 74 268 973265 8
+20141211 19 106 319961 8
+20141212 27 142 429438 7
+20141213 15 75 190511 7
+20141214 14 104 302402 6
+20141215 26 131 398053 7
+20141216 20 93 339696 6
+20141217 63 332 1127458 11
+20141218 22 138 410328 6
+20141219 41 213 757148 6
+20141220 57 295 957977 8
+20141221 21 119 446465 6
+20141222 66 297 1049387 10
+20141223 26 163 624905 7
+20141224 3 26 61849 3
+20141226 17 78 275194 3
+20141228 3 25 58454 1
+20141229 18 79 202706 5
+20141230 50 293 1016704 10
+20141231 85 465 1603978 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 17
+0s-30s 115
+15mn-30mn 5
+2mn-5mn 14
+30s-2mn 47
+30mn-1h 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/labs/cse04/ 625 2062563 202 110
+/labs/cse04/exp1/ 167 599793 4 33
+/labs/cse04/exp2/ 43 157558 0 11
+/labs/cse04/exp4/ 38 139497 2 4
+/labs/cse04/exp1/lab.html 28 88956 2 8
+/labs/cse04/exp6/ 25 89890 0 1
+/labs/cse04/exp8/ 24 86440 0 7
+/labs/cse04/exp1/getHint.py 23 3485 0 1
+/labs/cse04/exp5/ 19 73083 0 2
+/labs/cse04/exp9/ 17 111321 1 3
+/labs/cse04/exp4/submission959110381.html 1 3060 0 1
+/labs/cse04/exp9/lab.html 3 9603 1 3
+/labs/cse04/exp5/getHint.py 4 1114 0 1
+/labs/cse04/exp2/getHint.py 1 257 0 0
+/labs/cse04/exp2/lab.html 8 25648 0 0
+/labs/cse04/exp4/save.php 1 68 0 1
+/labs/cse04/exp7/ 4 15356 0 1
+/labs/cse04/exp8/lab.html 5 16045 0 0
+/labs/cse04/exp1/submission573858609.html 1 2993 0 1
+/labs/cse04/exp8/save.php 1 68 0 0
+/labs/cse04/exp2/submission474102148.html 1 3102 0 0
+/labs/cse04/exp4/submission738996076.html 1 2989 0 1
+/labs/cse04/exp1/submission799028346.html 1 3009 0 1
+/labs/cse04/exp1/submission670519718.html 1 3015 0 0
+/labs/cse04/exp1/submission376751845.html 1 3004 0 0
+/labs/cse04/exp4/submission148767996.html 1 2989 0 0
+/labs/cse04/exp6/submission839608028.html 1 2993 0 1
+/labs/cse04/exp3/lab.html 2 6410 0 2
+/labs/cse04/exp1/submission730718827.html 1 3020 0 1
+/labs/cse04/exp6/submission744783708.html 1 2971 0 0
+/labs/cse04/exp10/ 8 31240 2 4
+/labs/cse04/default.html 1 1520 0 1
+/labs/cse04/exp1/submission695155698.html 1 3004 0 0
+/labs/cse04/exp4/lab.html 9 28818 0 2
+/labs/cse04/exp5/lab.html 4 12812 0 1
+/labs/cse04/exp2/submission697496717.html 1 2962 0 1
+/labs/cse04/exp5/submission450634685.html 1 3180 1 1
+/labs/cse04/exp4/submission291997784.html 1 2998 0 1
+/labs/cse04/exp1/submission763709156.html 1 3004 0 0
+/labs/cse04/exp3/ 12 46582 0 5
+/labs/cse04/exp1/submission756754654.html 1 3004 0 0
+/labs/cse04/exp6/lab.html 5 16000 0 0
+/labs/cse04/exp1/submission300966208.html 1 3021 0 1
+/labs/cse04/exp5/prob_desc.html 3 4885 2 3
+/labs/cse04/exp1/submission023254981.html 1 3009 0 1
+/labs/cse04/content.html 1 2306 0 0
+/labs/cse04/exp8/submission600148628.html 1 2992 0 1
+/labs/cse04/exp5/submission398817898.html 1 3265 0 0
+/labs/cse04/exp1/submission491874021.html 1 3004 0 0
+/labs/cse04/exp1/submission273053853.html 1 3009 0 0
+/labs/cse04/exp2/submission994902391.html 1 3299 0 1
+END_SIDER

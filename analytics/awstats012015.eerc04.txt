@@ -1,0 +1,420 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc04.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2656                
+POS_VISITOR 9120                
+POS_DAY 11229               
+POS_DOMAIN 3456                
+POS_LOGIN 3688                
+POS_ROBOT 3843                
+POS_WORMS 4335                
+POS_EMAILSENDER 4466                
+POS_EMAILRECEIVER 4609                
+POS_SESSION 11782               
+POS_SIDER 11989               
+POS_FILETYPES 4744                
+POS_DOWNLOADS 5017                
+POS_OS 5788                
+POS_BROWSER 5988                
+POS_SCREENSIZE 6579                
+POS_UNKNOWNREFERER 6653                
+POS_UNKNOWNREFERERBROWSER 7028                
+POS_ORIGIN 7166                
+POS_SEREFERRALS 7308                
+POS_PAGEREFS 7483                
+POS_SEARCHWORDS 8317                
+POS_KEYWORDS 8527                
+POS_MISC 2320                
+POS_ERRORS 8646                
+POS_CLUSTER 3544                
+POS_SIDER_404 8770                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150121134850 42400 10706299 17290451496807
+FirstTime 0
+LastTime 20150121134845
+LastUpdate 20150611000231 0 0 0 0 0
+TotalVisits 66                  
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 55                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 17 91825 7 9 202818
+1 3 17 91825 7 14 5266598
+2 18 64 4632903 14 25 113401
+3 7 26 132345 11 15 611937
+4 0 2 1476132 9 10 25444
+5 1 1 9169 7 8 12523
+6 0 0 0 13 22 5249554
+7 3 18 162277 1 4 188265
+8 5 26 800912 9 14 45445
+9 37 128 8265065 14 20 4907455
+10 9 25 421229 16 27 1627641
+11 215 237 2223013 8 13 36321
+12 28 70 1127751 16 27 40020
+13 44 160 8533819 35 47 62729
+14 25 107 1300510 8 17 366030
+15 19 100 4728616 22 29 409400
+16 7 22 671762 17 21 547761
+17 18 74 4485996 13 20 2472875
+18 6 37 1277925 12 23 9776400
+19 19 43 3807158 3 12 949001
+20 25 80 2373192 16 20 393812
+21 49 183 40119389 8 18 291512
+22 24 102 3112430 15 28 554952
+23 47 119 9975062 7 10 19821
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 612 1658 85872433
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 142 28371260 20150120150847 0
+bingbot 89 4655554 20150121060201 0
+baiduspider 8 284662 20150120060125 0
+slurp 7 204923 20150120155711 0
+no_user_agent 2 262578 20150113100017 0
+bot[\s_+:,\.\;\/\\-] 2 21725 20150121101009 0
+yandex 2 189963 20150119005700 0
+proximic 1 10636 20150121101010 0
+nutch 1 1955 20150109095614 0
+robot 1 1955 20150118031802 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 179 325191 0 0
+png 48 120480 0 0
+pdf 87 27144710 0 0
+swf 51 19029509 0 0
+php 500 3086051 0 0
+jnlp 2 664 0 0
+html 110 203410 0 0
+jpg 518 2563597 0 0
+js 106 1496329 0 0
+jar 2 31641462 0 0
+gif 55 261030 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 13
+/labs/eerc04/exp9/Exp-9%20Retaining%20walls.pdf 23 24 12194427
+/labs/eerc04/exp2/Exp-2%20Single%20span%20beams.pdf 16 14 3935340
+/labs/eerc04/exp5/05%20Portal%20Frames.pdf 13 13 2776078
+/labs/eerc04/exp3/Exp-3%20Continuous%20Beams.pdf 11 12 2893936
+/labs/eerc04/exp8/Exp-8%20Trusses.pdf 10 6 1518399
+/labs/eerc04/exp5/Exp-5%20Portal%20frames.pdf 8 9 2182337
+/labs/eerc04/exp7/Exp-7%20Arches.pdf 7 12 1012907
+/labs/eerc04/exp2/Singlespambeams.pdf 7 2 2411834
+/labs/eerc04/exp4/Exp-4%20Columns.pdf 6 13 2062005
+/labs/eerc04/exp10/Exp-10%20Plastic%20hinge.pdf 5 3 644707
+/labs/eerc04/exp6/Exp-6%20Plates.pdf 3 2 1113495
+/labs/eerc04/exp1/Exp-1%20Rigid%20joint.pdf 3 3 524745
+/labs/eerc04/exp10/vlab2/virtual.jar 1 0 31641462
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 133 28
+winxp 643 331
+winlong 8 2
+unix 6 0
+java 13 11
+linux 42 9
+winvista 276 67
+win7 624 163
+winunknown 2 0
+Unknown 24 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 29
+chrome37.0.2062.124 3 0
+msie6.0 211 211
+chrome39.0.2171.93 52 12
+chrome39.0.2171.96 6 0
+android 47 9
+chrome41.0.2251.0 26 6
+chrome39.0.2171.95 537 133
+chrome12.0.742.16 24 6
+chrome38.0.2125.101 3 0
+chrome31.0.1650.57 17 3
+firefox34.0 195 44
+firefox3.5.3 26 6
+firefox24.0 4 0
+opera9.80 18 1
+chrome38.0.2125.102 34 7
+msie8.0 2 0
+firefox33.0 30 4
+mozilla 34 11
+msie7.0 4 0
+firefox22.0 23 4
+firefox23.0 44 12
+msie10.0 26 8
+netscape4.0 4 2
+chrome39.0.2171.99 212 67
+chrome21.0.1155.2 3 0
+msie9.0 32 8
+Unknown 13 9
+firefox35.0 125 46
+safari 16 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Google_AppsViewer;_http://drive.google.com) 20150112180157
+Opera/9.80_(Android;_Opera_Mini/7.0.29952/35.6368;_U;_en)_Presto/2.8.119_Version/11.10 20150101145424
+Opera/9.80_(Android;_Opera_Mini/7.6.35766/35.6497;_U;_en)_Presto/2.8.119_Version/11.10 20150111150054
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/UNAVAILABLE_(java_1.4) 20150115224526
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 235 315
+From1 0 0
+From2 1 34
+From3 51 58
+From4 325 1364
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 1 31
+bing 0 1
+yahoo 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://www.vlab.co.in/ba_labs_all.php 32 32
+http://virtual-labs.ac.in/labs/eerc04/ 6 6
+http://www.vlab.co.in/institute_detail.php 5 5
+http://www.vlab.co.in/ba_nptel_labs.php 2 2
+http://vlab.co.in/lab_ready_for_use.php 2 2
+http://www.vlab.co.in/search.php 2 2
+http://eerc.iiit.ac.in/Proj.html 1 1
+http://www.vlab.co.in/search_institute.php 1 1
+http://www.e-bookspdf.org/view/aHR0cDovL2RlcGxveS52aXJ0dWFsLWxhYnMuYWMuaW4vbGFicy9lZXJjMDQvZXhwMi9TaW5nbGVzcGFtYmVhbXMucGRm/U3RydWN0dXJhbCBBbmFseXNpcw== 0 1
+http://www.e-bookspdf.org/view/aHR0cDovL2RlcGxveS52aXJ0dWFsLWxhYnMuYWMuaW4vbGFicy9lZXJjMDQvZXhwMi9FeHAtMiUyMFNpbmdsZSUyMHNwYW4lMjBiZWFtcy5wZGY=/QmFzaWMgU3RydWN0dXJhbCBBbmFseXNpcw== 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc04%2f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc04%2f 1
+http 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 120 49266
+206 8 98062
+301 69 18912
+404 1 264
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/labs/eerc04/exp1/PendulumForces.swf 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 55
+62.210.88.195 209 209 2088906 20150103113948
+10.4.8.52 199 766 33214046 20150121131223 20150121131222 /labs/eerc04/content.html
+112.196.11.3 23 44 188681 20150120132827
+103.245.117.42 15 57 31904608 20150115215810
+58.68.50.150 14 54 1844595 20150121134845 20150121134559 /labs/eerc04/exp7/
+49.207.73.39 11 31 684645 20150117200654
+202.164.53.117 10 37 776505 20150102140224
+117.222.121.139 9 23 63554 20150110144021
+120.145.180.233 9 29 142410 20150120131330
+212.219.57.126 8 24 406642 20150108223125
+14.195.145.76 0 3 365456 
+1.38.18.164 0 13 848615 
+119.42.153.207 3 17 91825 20150109220327
+186.227.186.10 1 1 9169 20150108131155
+106.215.129.180 4 22 106434 20150105194656
+106.215.170.204 0 1 15709 
+165.254.255.16 0 2 122472 
+171.25.193.20 0 2 253544 
+108.69.116.243 0 1 263317 
+150.70.173.46 0 1 586211 
+192.197.90.33 6 25 128815 20150109020805
+117.212.78.16 3 17 91825 20150108104225
+103.228.115.156 3 17 91825 20150116083228
+117.220.210.157 7 26 132391 20150110214816
+65.55.212.72 0 1 106 
+14.139.125.36 8 24 88780 20150111232648
+211.232.38.136 0 3 706180 
+117.239.192.67 0 1 586211 
+46.235.89.130 0 3 666604 
+117.211.27.184 3 17 91825 20150107171627
+202.131.98.78 6 34 183650 20150103093853
+117.196.29.154 0 2 89929 
+117.221.199.98 0 2 618604 
+66.249.84.245 0 1 341063 
+14.102.95.84 4 13 50756 20150110213955
+14.141.79.222 1 1 3778 20150115160833
+186.244.29.106 6 25 2284521 20150117022435
+177.13.33.11 4 22 106334 20150108223942
+117.200.235.154 3 17 91825 20150114202851
+131.253.24.136 0 1 3336 
+103.21.125.78 6 14 2219567 20150113020714
+182.72.228.34 0 1 586211 
+65.55.218.37 1 1 3305 20150108112425
+117.211.93.94 1 12 28191 20150120140403
+49.206.156.156 3 17 91825 20150110210922
+37.237.168.47 7 26 132345 20150108034620
+14.139.38.11 7 28 284800 20150108200939
+182.71.102.10 6 9 239376 20150121101036
+131.253.26.228 0 1 1822 
+182.160.122.130 0 2 648134 
+24.116.219.146 0 6 650997 
+98.196.74.25 0 1 70452 
+203.190.149.73 3 17 91825 20150102132605
+81.31.164.60 5 24 118012 20150108154121
+197.220.67.4 4 23 369869 20150103173114
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20150101 9 57 517655 3
+20150102 13 56 1915912 2
+20150103 216 250 3819415 3
+20150104 1 7 1598037 1
+20150105 10 50 2653549 2
+20150106 1 7 39682 1
+20150107 14 52 2424149 2
+20150108 40 165 2161562 10
+20150109 9 44 696627 2
+20150110 29 110 1222043 6
+20150111 44 116 12338903 5
+20150112 25 101 4268144 4
+20150113 9 32 3532207 2
+20150114 3 17 91825 1
+20150115 42 167 33849434 5
+20150116 19 65 9742041 3
+20150117 44 114 7947297 5
+20150118 11 48 223637 2
+20150120 33 86 913413 3
+20150121 40 114 9864773 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 9
+30s-2mn 13
+15mn-30mn 2
+2mn-5mn 7
+0s-30s 31
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/labs/eerc04/ 139 731779 55 6
+/labs/eerc04/exp2/ 98 559269 4 14
+/labs/eerc04/default.html 49 72528 0 6
+/labs/eerc04/content.html 48 125302 0 12
+/labs/eerc04/exp3/ 44 370794 0 4
+/labs/eerc04/exp4/ 41 308769 1 1
+/labs/eerc04/exp5/ 40 303063 2 4
+/labs/eerc04/exp10/ 26 208641 0 1
+/labs/eerc04/exp7/ 25 143984 0 4
+/labs/eerc04/exp8/ 22 132966 1 3
+/labs/eerc04/exp7/Animation/ 1 1187 0 0
+/labs/eerc04/exp10/vlab2/Plastic.jnlp 2 664 0 1
+/labs/eerc04/exp5/vlab2/5.PortalFrames.html 4 1778 0 1
+/labs/eerc04/exp10/vlab2/10.PlasticHinge.html 2 897 0 0
+/labs/eerc04/exp6/ 16 53305 0 1
+/labs/eerc04/exp7/vlab2/7.Arches.html 1 525 1 0
+/labs/eerc04/exp8/vlab2/test_trusses.html 1 549 0 0
+/labs/eerc04/exp4/vlab2/4.ColumnAnalysis.html 1 359 0 1
+/labs/eerc04/exp9/ 18 126111 1 1
+/labs/eerc04/exp2/Animation/ 8 9880 1 1
+/labs/eerc04/exp1/ 22 136303 0 2
+/labs/eerc04/exp2/vlab2/2.SingleSpanBeams.html 4 1472 0 1
+END_SIDER

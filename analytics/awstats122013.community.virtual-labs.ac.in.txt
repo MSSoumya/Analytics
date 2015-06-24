@@ -1,0 +1,912 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201312 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.community.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2689                
+POS_VISITOR 36580               
+POS_DAY 36740               
+POS_DOMAIN 3707                
+POS_LOGIN 3940                
+POS_ROBOT 4095                
+POS_WORMS 4887                
+POS_EMAILSENDER 5018                
+POS_EMAILRECEIVER 5161                
+POS_SESSION 37623               
+POS_SIDER 37834               
+POS_FILETYPES 5296                
+POS_DOWNLOADS 5546                
+POS_OS 6953                
+POS_BROWSER 7269                
+POS_SCREENSIZE 8796                
+POS_UNKNOWNREFERER 8870                
+POS_UNKNOWNREFERERBROWSER 9269                
+POS_ORIGIN 9449                
+POS_SEREFERRALS 9593                
+POS_PAGEREFS 9771                
+POS_SEARCHWORDS 10622               
+POS_KEYWORDS 10890               
+POS_MISC 2353                
+POS_ERRORS 11082               
+POS_CLUSTER 3796                
+POS_SIDER_404 11258               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140101000437 5341 1295983 20116984342760
+FirstTime 20131201000310
+LastTime 20131231232912
+LastUpdate 20140101010101 1 0 0 0 0
+TotalVisits 331                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 155 163 883064 2102 2195 73497300
+1 163 166 934182 1804 1880 12179809
+2 181 183 1140169 2817 2889 13619574
+3 188 188 1096634 3037 3104 17888945
+4 190 194 1041154 1798 1889 11022185
+5 209 224 1559851 2010 2061 10416428
+6 254 262 1578104 1236 1305 10569756
+7 184 190 1104650 2163 2213 15195460
+8 223 228 1094519 1684 1731 9835537
+9 183 187 1428161 700 742 3628163
+10 154 161 1025079 834 867 16024451
+11 240 269 2499510 1731 1782 9385091
+12 200 211 1634543 2530 2589 13092764
+13 166 178 1468172 1672 1715 8487440
+14 378 442 3906054 1525 1592 7967285
+15 166 181 1193236 1385 1415 18118085
+16 201 207 1174405 4365 4418 21981798
+17 137 142 669654 2471 2552 17072177
+18 215 223 1490939 3211 3274 22768233
+19 199 206 1580814 1720 1814 27578662
+20 210 244 1809258 2498 2594 17186590
+21 249 264 2268133 3915 3999 22530337
+22 215 221 1694343 2291 2368 95755367
+23 233 245 51823390 1508 1571 46327602
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4893 5179 61188364
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+mj12bot 43623 204831457 20131231215125 0
+robot 1442 11225667 20131230113842 0
+heritrix 1418 33291802 20131210232546 0
+googlebot 1113 51813223 20131231235757 0
+yandex 600 20864749 20131231045610 0
+baiduspider 398 3329723 20131231235406 0
+bingbot 136 10216687 20131231223252 0
+ezoom 80 1797183 20131231224933 0
+bot[\s_+:,\.\;\/\\-] 18 144588 20131229025734 0
+no_user_agent 17 151048 20131228163406 0
+exabot 1 1793 20131222101353 0
+ia_archiver 1 15769 20131203032329 0
+mail\.ru 3 5494 20131218020845 0
+slurp 6 29039 20131231145848 0
+favicon 6 15222 20131219121828 0
+turnitinbot 1 0 20131215081404 0
+netcraft 3 15095 20131211015633 0
+crawl 2 820 20131228014226 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 3662 23532164 0 0
+css 3 3904 0 0
+png 185 2101337 0 0
+html 4 11831 0 0
+jpg 7 365245 0 0
+js 1 10427 0 0
+pdf 81 714081 0 0
+Unknown 1227 9217640 0 0
+gif 7 185311 0 0
+ogv 2 25046424 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 24
+/w/index.php/File:Reaching_to_IIITH.pdf 22 0 110896
+/w/index.php/File:Transportdetails.pdf 20 0 102865
+/w/index.php/File:Delhi-3rd-review-template.pdf 20 0 101509
+/w/index.php/File:Release_form.pdf 14 0 68902
+/w/index.php/Special:RecentChangesLinked/File:Release_form.pdf 4 0 18355
+/w/images/e/e8/Release_form.pdf 4 0 326676
+/w/images/6/6f/Reaching_to_IIITH.pdf 3 0 880665
+/screencasts/cast_map_new.ogv 3 1 16420279
+/w/images/8/88/Transportdetails.pdf 2 0 587110
+/w/index.php/Special:FileDuplicateSearch/Reaching_to_IIITH.pdf 2 0 8014
+/screencasts/ui-build-in-windows-version1.ogv 2 2 24990196
+/uploads/2010-07-07-vlabs-exec-summaries.pdf 2 0 2309672
+/uploads/Slides.pdf 2 0 19587236
+/screencasts/Adding-SSHkey-Branching-Using-Bzr-In-Portal.ogv 1 0 35283
+/w/index.php/Special:WhatLinksHere/File:Transportdetails.pdf 1 0 4459
+/screencasts/pmp_screencast.ogv 1 0 19281
+/screencasts/ssh-keys-windows.ogv 1 0 30866
+/w/images/4/49/Delhi-3rd-review-template.pdf 1 0 56499
+/w/index.php/Special:FileDuplicateSearch/Transportdetails.pdf 1 0 3998
+/screencasts/Bazaar-Tutorial-using-Bazaar-Explorer.ogv 1 0 32386
+/w/index.php/Special:WhatLinksHere/File:Reaching_to_IIITH.pdf 1 0 4076
+/w/images/a/a7/V_Labs_meeting.xls 1 0 32768
+/w/index.php/Special:WhatLinksHere/File:Delhi-3rd-review-template.pdf 1 0 4476
+/screencasts/Bazaar-Tutorial-using-Command-Line.ogv 1 0 32386
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+linuxandroid 19 14
+winxp 1328 1232
+macosx6 9 7
+winlong 468 466
+winnt 17 17
+win2000 171 171
+java 1 1
+macosx5 61 58
+linuxubuntu 15 13
+winvista 30 23
+linux 426 313
+win7 1870 1816
+macosx 8 7
+win2003 8 8
+j2me 1 1
+macosx9 16 13
+Unknown 7 6
+macosx8 727 727
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 75
+msie6.0 49 49
+firefox3.6 8 8
+firefox26.0 25 20
+chrome4.0.221.7 2 2
+firefox3.0.14 7 7
+firefox18.0 2 1
+firefox4.0 108 108
+chrome31.0.1650.57 10 7
+safari5.0.6 61 58
+chrome7.0.517.44 1 0
+chrome31.0.1650.63 166 122
+chrome23.0.1271.95 3 3
+safari5.0.2 1 1
+chrome28.0.1500.72 383 383
+msie8.0 16 14
+chrome25.0.1364.160 5 5
+firefox3.6.1 1 1
+msie7.0 60 60
+firefox23.0 284 193
+opera9.64 8 8
+chrome28.0.1501.283 1 0
+chrome31.0.1650.59 15 13
+msie5.01 171 171
+chrome28.0.1500.63 78 78
+firefox21.0 351 351
+safari6.0 2 2
+firefox3.5.2 1 1
+firefox2.0.0.6 1 1
+firefox7.0.1 6 6
+firefox12.0 60 56
+safari6.0.5 107 107
+mozilla 15 12
+firefox25.0 25 21
+chrome26.0.1410.64 101 101
+firefox14.0.1 3 3
+chrome22.0.1229.94 4 4
+firefox15.0.1 8 8
+safari7.0 6 5
+firefox15.0 2 2
+chrome23.0.1271.64 6 6
+android 4 1
+firefox7.0 1 0
+firefox5.02 103 103
+chrome23.0.1.0 2 2
+chrome22.0.1229.79 2 2
+opera9.00 1 1
+firefox24.0 11 9
+firefox3.5.3 7 7
+opera9.80 31 29
+chrome15.0.874.121 1 1
+chrome19.1.1084.5409 2 2
+firefox6.0.2 81 0
+firefox13.0.1 78 78
+chrome13.0.782.112 322 322
+chrome5.0.375.126 1 1
+firefox16.0 3 3
+chrome10.0.648.204 2 2
+msie9.0 35 22
+chrome28.0.1500.52 121 106
+chrome18.0.1025.1634 11 11
+firefox27.0 9 7
+Unknown 3 3
+chrome30.0.1599.101 13 11
+firefox3.0.8 10 10
+firefox17.0 154 152
+chrome27.0.1453.110 219 219
+chrome20.0.1132.57 2 2
+chrome28.0.1500.71 521 521
+chrome22.0.1229.92 1 1
+firefox3.0.5 165 165
+safari5.1.7 1 1
+firefox22.0 209 208
+firefox5.0.1 196 196
+firefox6.0 4 4
+chrome27.0.1453.116 693 693
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Scrapy/0.16.5_(_http://scrapy.org) 20131224135335
+Mozilla/6.0_(compatible) 20131212010732
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131210050735
+Mozilla/5.0_(compatible) 20131212010733
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.4;_http://www.majestic12.co.uk/bot.php?_) 20131219234849
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Scrapy/0.16.5_(_http://scrapy.org) 20131224135335
+Apache-HttpClient/4.3_(java_1.5) 20131207193803
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 504 591
+From1 8 8
+From2 76 81
+From3 73 80
+From4 4232 4422
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 75 75
+yandex 0 5
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://seosos.us/wp-admin 57 57
+http://developer.virtual-labs.ac.in 6 6
+http://pascal.iiit.ac.in/~choppell/research/index.html 5 5
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 1 1
+http://r.duckduckgo.com/l/ 1 1
+http://www.iiit.ac.in/~choppell/research/index.html 1 1
+http://vlead.vlabs.ac.in/join-us/ 1 1
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 1 1
+http://maroseyka.ucoz.ru 0 2
+http://oooitb.3dn.ru 0 1
+http://rniiis.do.am/blog/g_tar_free_guitar_hooray_bolshinstvo_udivitelnym_gitare/2013-12-06-19 0 2
+http://images.yandex.ua/yandsearch 0 1
+http://econophys.ucoz.ru/blog/skachat_linux_xp_like_10_10_rus/2013-12-07-21 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+anish+upadhyaya+iitk 1
+iiit+h+proxy+and+port+settings 1
+http+//community.virtual-labs.ac.in/w/index.php/mediawiki 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+upadhyaya 1
+//community.virtual-labs.ac.in/w/index.php/mediawiki 1
+iiit 1
+port 1
+settings 1
+iitk 1
+anish 1
+h 1
+http 1
+proxy 1
+and 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 218 1206804
+302 634 9620
+206 49 175890057
+502 1 492
+400 64 228678
+404 2207 7033389
+301 450 10640
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 392
+/w/index.php/File_talk:Xampp11.jpg 1 -
+/wiki/Mechanical_Engineering 1 -
+/portal/ui/build/exp1/PendulumForces.swf 1 -
+/w/index.php/Talk:Main_Page 16 http://community.virtual-labs.ac.in/w/index.php/Talk:Main_Page
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-help 1 -
+/w/index.php%3Ftitle%3DScience_and_Engineering/ 2 http://community.virtual-labs.ac.in/w/index.php%3Ftitle%3DScience_and_Engineering/
+/w/index.php/Talk:2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 4 -
+/vlabs-dev/maillist.html 1 -
+/w/images/stories/borong.gif 1 -
+/wiki/Tn-10_:_Virtual_Labs_Integration_FAQ 2 http://community.virtual-labs.ac.in/w/index.php/2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi
+/w/index.php/MediaWiki_talk:Accesskey-preview 1 -
+/timeline 1 -
+/w/index.php%3Ftitle%3DUsing_Wordpress_3_locally_with_XAMPP%26action%3Dedit 2 -
+/w/index.php/File_talk:EvalPortal_UseCase.png 1 -
+/w/index.php/Index.php 6 http://community.virtual-labs.ac.in/w/index.php/index.php
+/w/index.php/File_talk:Blog.png 1 -
+/w/index.php/Talk:Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:TN-02_:_User_Manual_for_Lab-Deliverable_Tool_Kit 1 -
+/w/index.php/MediaWiki_talk:Aboutsite 1 -
+//images/stories/70pet.php 4 -
+/portal/ui/build/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/w/index.php/User_talk:Pranitha.jasp 1 -
+/w/index.php/MediaWiki_talk:Accesskey-n-help 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 1 -
+/wiki/Index.php/Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 1 -
+/wiki/Virtual_Labs_Community:Community_portal 1 -
+/w/index.php/User:10.4.12.159 11 -
+/w/index.php/Talk:Subversion_or_SVN 3 http://community.virtual-labs.ac.in/w/index.php
+/wiki/Index.php/TN-02_:_User_Manual_For_Lab-Deliverable_Tool_Kit 1 -
+/node/add/page 1 -
+/w/index.php/Talk:2013-07-25:_VLEAD_Expert_Review_Meeting 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Drupal_upload_plugin 3 -
+/w/index.php//images/stories/3xp.php 4 -
+/w/index.php/File_talk:Xamppp8.jpg 1 -
+/w/index.php//images/stories/racrew.php 3 -
+/w/admin/sqlpatch.php/password_forgotten.php 1 -
+/images/stories/fack.php 3 -
+/wp-login.php 1 http://community.virtual-labs.ac.in/
+/w/index.php/User:Swetha.v 1 -
+/UserSettings 2 -
+/w/index.php/Talk:Electronices_and_Communication_Engineering 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Xampp9.jpg 1 -
+/w/index.php/Talk:Drupal_:_Review 7 http://community.virtual-labs.ac.in/w/index.php/Talk:Drupal_:_Review
+/w/index.php 2 http://community.virtual-labs.ac.in/
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-image 1 -
+/w/index.php/File_talk:Make-a-release.png 1 -
+/w/index.php/File_talk:Xampp12.jpg 1 -
+/2012-10-08-integration-sprint/worg-style.css 2 http://community.virtual-labs.ac.in/2012-10-08-integration-sprint/map_ui.html
+/images/stories/borong.gif 1 -
+/w/index.php/Talk:Tn-11_:_Virtual_Labs_Servers_Backup_Process 1 -
+/wiki/Index.php/TN-05_:_Current_IIIT-H_support_for_Virtual_Labs 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-08-20_field_trials:_Andhra_Pradesh_Engineering_Colleges 4 -
+/w/index.php/Talk:IIIT_-_Hyderabad 2 -
+/wiki/Index.php/Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering 1 -
+/w/index.php/Talk:Summary_on_Android 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Tn-12_:_Version_Control_Systems 2 -
+/w/index.php/Talk:TN-08_:_Devops 2 -
+/wikka.php 1 http://community.virtual-labs.ac.in/wikka.php
+/w/index.php/Talk:IIT_-_Bombay 4 -
+/w/index.php/Talk:Current_IIIT-H_support_for_Virtual_Labs 3 http://community.virtual-labs.ac.in/w/index.php
+/wiki/TN-02_:_User_Manual_For_Lab-Deliverable_Tool_Kit 1 -
+/wiki/Create_a_Slideshow_using_jQuery_and_HTML5 2 http://community.virtual-labs.ac.in/wiki/Create_a_Slideshow_using_jQuery_and_HTML5
+/w/index.php/Talk:2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Computer_Science_and_Engineering/ 3 http://community.virtual-labs.ac.in/w/index.php/Computer_Science_and_Engineering/
+/devel-portal/images/favicon.png 2 -
+//images/stories/wawalo.php 1 -
+/w/index.php/MediaWiki_talk:Accesskey-feed-atom 1 -
+/w/index.php/Talk:Electronices_and_Communication_Engineering/2012-01-13:_Sprint_on_Project_Management_Portal_in_IITD 4 http://community.virtual-labs.ac.in/w/index.php
+//images/stories/food/footer.php 2 -
+/test/~emt/final-build/Experiment.php 8 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-protect 1 -
+/w/index.php/Talk:Computer_Science 4 -
+/w/index.php/Talk:2012_Republic_Day_Launch_of_some_virtual_labs 2 http://community.virtual-labs.ac.in/w/index.php
+//images/stories/racrew.php 3 -
+/wiki/Index.php/Moodle 1 -
+/vlabs-dev/msg00049.html 2 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 2 http://community.virtual-labs.ac.in/w/index.php
+/robots.txt 904 -
+/w/index.php/MediaWiki_talk:Accesskey-n-mainpage-description 1 -
+/admin/sqlpatch.php/password_forgotten.php 1 -
+/w/index.php/Talk:COEP_-_Pune 2 -
+/images/stories/config.inc.php 5 -
+/index.do 1 http://community.virtual-labs.ac.in/
+/wiki/Special:RecentChanges 1 -
+/w//images/stories/wawalo.php 1 -
+/w/index.php/Talk:Version_Control_Systems 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Computer_Science_and_Engineering/July_7,_2010_Meeting 1 -
+/wiki/index.php 83 http://community.virtual-labs.ac.in/wiki/index.php
+/w/index.php/File_talk:Example.jpg 1 -
+/w/index.php/User_talk:10.4.13.159 3 -
+/wiki/2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 2 http://community.virtual-labs.ac.in/w/index.php/Virtual_Labs_Integration_FAQ
+/w/index.php/Talk:Contact_Information_of_Seville_Team 1 -
+/w/index.php/Talk:Org_mode_for_virtual_labs_developers_(Advanced) 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Release_Form 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Images/stories/fack.php 3 -
+/index.php/User_talk:10.4.12.159 93 http://community.virtual-labs.ac.in/index.php/User_talk:10.4.12.159
+/w/index.php/Talk:IIT_-_Kanpur 3 http://community.virtual-labs.ac.in/w/index.php
+//downloads.php 1 -
+/w/index.php/Talk:TN-2.5_:_User_Manual_For_Lab-Deliverable_Tool_Kit 2 -
+/w/index.php/Virtual_Labs_Community:About 17 -
+/w/index.php/Images/stories/metri.php 1 -
+/w/index.php//index.php 2 -
+/w/index.php/Virtual_Labs_Community:Privacy_policy 9 -
+/w/index.php/Talk:Report_on_Meetings_with_the_Lab_Developers 4 http://community.virtual-labs.ac.in/w/index.php/Talk:Report_on_Meetings_with_the_Lab_Developers
+/w/index.php/User_talk:Bunny 1 -
+/test/~emt/final-build/preQuiz9.php 2 -
+/w/index.php/Talk:2012-01-13_Sprint_on_Project_Management_Portal_-_IITD 4 -
+/w/index.php/File_talk:Reaching_to_IIITH.pdf 1 -
+/w/index.php/File_talk:Repositories.png 1 -
+/wiki/Index.php/Main_Page 2 -
+/w/index.php/Talk:Migrate_working_copy_of_SVN/GIT/Bazaar_from_SSH_to_HTTP_protocol 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-ca-watch 1 -
+/wiki/ 99 http://community.virtual-labs.ac.in/wiki/
+/wiki/Special:FilePath 2 -
+/w/index.php/Talk:IIT_-_Guwahati 4 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-viewsource 1 -
+/wiki/Tools_for_Virtual_Lab_simulations 5 -
+/wiki/index.php/Overview_of_Physics_engines 1 -
+/w/index.php/Talk:Electronics_and_Communications 4 -
+/wiki/Index.php/Devel_:Community_portal 1 -
+/vlabs-dev/msg00023.html 1 -
+/w/index.php/Talk:2010-09-01_Workshop_on_SVN 4 -
+/w/index.php/MediaWiki_talk:Accesskey-compareselectedversions 1 -
+/test/~emt/final-build/aboutus.php 1 -
+/w/index.php//cart.php 1 -
+/w/index.php/Talk:Overview_of_open_source_Content_Management_Systems_(CMS) 3 -
+/w/index.php/Talk:Physical_Sciences 4 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-ca-undelete 1 -
+/w//images/stories/food/footer.php 1 -
+/wiki/Help:Contents 1 -
+/portal/ui/build/js/MathJax/MathJax.js 1 -
+/wiki/Virtual_Labs_Community:Current_events 1 -
+/w/index.php/User_talk:Mahesh 1 -
+/w/index.php/File_talk:Select-your-project.png 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 4 -
+/w/index.php/File_talk:Transportdetails.pdf 1 -
+/w/index.php/MediaWiki_talk:Aboutpage 1 -
+/w/index.php/MediaWiki_talk:Accesskey-pt-anonlogin 1 -
+/w/index.php/Talk:GIT 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_Expert_review_of_CSE_Virtual_Labs 1 -
+/w/index.php/User_talk:Venkatesh 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-history 1 -
+/w/index.php/Talk:VIEW_THE_SLIDES 1 -
+/w/index.php/Talk:Dayalbagh_University_-_Agra 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:IIT_-_Delhi 4 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Technical_notes 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-user 1 -
+/w/index.php/SVN 1 -
+/w/index.php/User:Mahesh 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Virtual-labs.ac.in 4 -
+//clientarea.php 1 -
+/test/~emt/final-build/index.php 1 -
+/images/stories/metri.php 1 -
+/w/index.php/MediaWiki_talk:Accesskey-n-currentevents 1 -
+/test/~emt/final-build/preQuiz21.php 2 -
+/w/index.php/File_talk:Xampp10.jpg 1 -
+/test/~emt/final-build/preQuiz8.php 1 -
+/w/index.php/Migration-June2012 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Milestones.png 1 -
+/w/index.php/User_talk:Nikila 2 -
+/w/admin/product.php/password_forgotten.php 1 -
+/w/index.php/Talk:Virtual_Labs_Integration_FAQ 3 http://community.virtual-labs.ac.in/w/index.php
+/downloads.php 3 -
+/w/index.php/Talk:2010-09-23_Workshop_on_User_Interface_Design 4 -
+/wiki/Events 1 -
+/w/index.php/Talk:Textile_Engineering 4 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-08-27_meeting:_1-1_Meeting_with_Lab_Developers 3 http://community.virtual-labs.ac.in/w/index.php
+/FileManager/FileManagerData/note.gif 1 -
+/w/index.php/Talk:Chemical_Engineering 4 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:TN-01_:_Development,_Test_and_Deployment_process_for_Virtual_Labs 3 -
+/wiki/Moodle 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-12-10_meeting:_Amrita_University 5 -
+/w/index.php/Talk:Importance_of_process_model_architecture_for_virtual_labs_development 3 -
+/w/index.php/Talk:Bazaar 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-feed-rss 1 -
+/w/index.php/File_talk:Xampp3.jpg 1 -
+/w/index.php/User_talk:Rohit 1 -
+/w/index.php/Talk:2010-09-28_Workshop_on_SVN_(repeat) 4 -
+/w/index.php/Talk:2012-03-30_Sprint_on_Process_Models_of_Virtual-Labs_-_IITB 2 -
+/wiki/TN-07_:_Service_architecture_for_Virtual_Labs:_A_roadmap 1 -
+/w/index.php/Talk:Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ExperimentList.png 1 -
+/w/index.php/User:10.4.13.159 4 -
+/w/index.php/Talk:Mechanical_Engineering 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/images/stories/romania.php 1 -
+/registration 1 http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur
+/wiki/Drupal_:_Review 1 http://community.virtual-labs.ac.in/
+/w/index.php/MediaWiki_talk:Accesskey-export 1 -
+/index.php/Talk:Main_Page 11 http://community.virtual-labs.ac.in/index.php/Talk:Main_Page
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Electronices_and_Communication_Engineering 1 -
+/w/index.php/MediaWiki_talk:Accesskey-diff 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-category 1 -
+//images/stories/bkht.php 2 -
+/w/index.php/Talk:Events 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Xampp.gif 1 -
+/w/index.php/Talk:Lab_developer_getting_started_kit 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:/Development,_Test_and_Deployment_process_for_Virtual_Labs 1 -
+/wiki/Virtual_Labs_Community:Privacy_policy 1 -
+/w/index.php/Talk:2011-02-25_Workshop_on_virtual_labs 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_1.png 1 -
+/w/index.php/File_talk:Success.png 1 -
+/w/index.php/MediaWiki_talk:Accesskey-blockip-block 1 -
+/w/index.php/Talk:2013-01-28_Sprint_and_Developer_meeting_-_IIT_Kharagpur 3 -
+/admin/product.php/password_forgotten.php 1 -
+/w/index.php/Talk:Main_page 1 -
+/w/index.php/MediaWiki_talk:Accesskey-preferences-save 1 -
+/portal/ui/build/exp1/js/modernizr-1.5.min.js 1 http://community.virtual-labs.ac.in/portal/ui/build/exp1/index.html
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-mediawiki 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_expert_review_of_CSE_Virtual_Labs 4 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-main 1 -
+/w/index.php/Talk:TN-03_:_Using_the_Evaluation_Portal 1 -
+/wiki/Main_Page 1 http://community.virtual-labs.ac.in/
+/index.php/Talk:Mediawiki 1 http://community.virtual-labs.ac.in/index.php/Talk:Mediawiki
+/w/index.php/Talk:How_to_get_a_working_copy_of_your_project_sources_using_the_Developer_Portal 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-07-07_meeting:_1st_expert_review_of_CSE_Virtual_Labs 4 -
+/Development,_Test_and_Deployment_process_for_Virtual_Labs 1 -
+/w/index.php/Talk:Contacts_Computer_Science 1 -
+/w/index.php/2013-02-09:_R%26D_Showcase_at_IIIT_Hyderabad 3 http://community.virtual-labs.ac.in/w/index.php
+//index.php 3 -
+/w/index.php/Talk:Service_architecture_for_Virtual_Labs:_A_roadmap 2 http://community.virtual-labs.ac.in/w/index.php
+/index.php/Talk:Report_on_Meetings_with_the_Lab_Developers 2 http://community.virtual-labs.ac.in/index.php/Talk:Report_on_Meetings_with_the_Lab_Developers
+/w/index.php/MediaWiki_talk:Accesskey-minoredit 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-move 1 -
+/w/index.php/Talk:Lab_information_update_-_HowTo 4 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-media 1 -
+/w/index.php/User_Manual_For_Lab-Deliverable_Tool_Kit/ 1 -
+/w/index.php/File_talk:Cloud-deploy-model-extended.png 1 -
+/w/index.php/Main_Page' 1 -
+/w/index.php/Talk:Moodle 3 -
+/index.php/Talk:2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 1 http://community.virtual-labs.ac.in/index.php/Talk:2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati
+/w/index.php/Talk:IIT_-_Roorkee 4 http://community.virtual-labs.ac.in/w/index.php
+//images/stories/ViAr.php 1 -
+/w/index.php/Images/stories/borong.gif 1 -
+/w/index.php/User_talk:Medhamsh 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Science_and_Engineering 1 -
+/w/index.php/MediaWiki_talk:Accesskey-n-mainpage 1 -
+/devel-portal/help/images/favicon.png 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-09-02_meeting:_1-1_Meeting_with_Lab_Developers 4 http://community.virtual-labs.ac.in/w/index.php
+/w/wp-login.php 4 http://community.virtual-labs.ac.in/w/wp-login.php
+/w/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5 5 http://community.virtual-labs.ac.in/w/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5
+/w/index.php/File_talk:View-test.png 1 -
+/w/index.php/Talk:2011-11-10_Sprint_on_Project_Management_Portal 2 -
+/w/index.php/Talk:2010-08-30_Workshop_on_Object_Oriented_programming_with_Javascript-_Part_1 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:2011-08-29_Sprint_on_Versioning_and_Project_Management_Portal 4 -
+/w/index.php/Talk:TN-02_:_User_Manual_For_Lab-Deliverable_Tool_Kit 2 http://community.virtual-labs.ac.in/w/index.php
+/wiki/Bazaar 1 http://community.virtual-labs.ac.in/w/index.php/Lab_developer_getting_started_kit
+/w/index.php/Talk:Org_mode_for_virtual_labs_developers 3 -
+/w/index.php/Talk:2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 4 http://community.virtual-labs.ac.in/w/index.php/Talk:2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati
+/images/stories/bottom.php 2 -
+/w/index.php/Science_and_Engineering/index.php 5 http://community.virtual-labs.ac.in/w/index.php/Science_and_Engineering/index.php
+/w/index.php/File_talk:Matrix.png 1 -
+/w/index.php/Talk:Devops 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-pt-anonuserpage 1 -
+/w/index.php/Talk:Tn-10_:_Virtual_Labs_Integration_FAQ 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-n-recentchanges 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-delete 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Xampp5.jpg 1 -
+/w/index.php/Talk:Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 1 -
+/w/index.php/Talk:Integration_Levels_for_a_lab 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Biotechnology_Engineering 4 -
+/w/index.php//images/stories/70pet.php 4 -
+/w/index.php/Help:Contents 15 -
+/w/index.php/Talk:Science_and_Engineering 3 -
+/w/index.php//images/stories/food/footer.php 1 -
+/w/index.php/Talk:2012-11-19_Sprint_and_Developer_meeting_-_IIT_Kanpur 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Using_Wordpress_locally_with_XAMPP 1 -
+/w/index.php/Science_and_Engineering/ 5 http://community.virtual-labs.ac.in/w/index.php/Science_and_Engineering/
+/w/index.php/File_talk:Svn-checkout.png 1 -
+/w/index.php/User_talk:Aditya 1 -
+/w/index.php/File_talk:Test-lab.png 1 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ExperimentLink.png 1 -
+/w/index.php/Virtual_Labs_Community:Community_portal 13 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ReplyPost.png 1 -
+/w/index.php/User:Rohit 1 -
+/join.php 1 http://community.virtual-labs.ac.in/
+/w/index.php/File_talk:Shell_Access_Architecture.png 1 -
+/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP 5 http://community.virtual-labs.ac.in/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP
+/w/index.php%3Ftitle%3DVirtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/ 2 http://community.virtual-labs.ac.in/w/index.php%3Ftitle%3DVirtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/
+/index.php/Talk:Drupal_:_Review 4 http://community.virtual-labs.ac.in/index.php/Talk:Drupal_:_Review
+/w/index.php/Talk:2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 3 http://community.virtual-labs.ac.in/w/index.php
+/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5 1 http://community.virtual-labs.ac.in/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5
+/w/index.php/submitticket.php 1 -
+/w/index.php/Talk:2011-06-21_Workshop_on_Org_mode 3 -
+/w/index.php/Talk:IIT_-_Kharagpur 4 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-template 1 -
+/w/index.php/File_talk:File.png 1 -
+/vlabs-dev/msg00007.html 1 -
+/w/index.php/Virtual_Labs_Community_talk:Current_events 6 -
+/w/index.php/Talk:Electrical_Engineering 2 http://community.virtual-labs.ac.in/w/index.php
+/w/images/stories/config.inc.php 2 -
+/wiki/Computer_Science 9 http://community.virtual-labs.ac.in/wiki/Computer_Science
+/w/index.php/Talk:Technical_notes 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/images/stories/config.inc.php 3 -
+/w/index.php/Talk:Development,_Test_and_Deployment_process_for_Virtual_Labs(Deprecated) 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Login.png 1 -
+/submitticket.php 4 -
+/cart.php 3 -
+/w/index.php/Talk:2012-10-08_Workshop_on_Virtual_Labs_Integration-_IIITH 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-07-30_field_trials:_G._Narayanamma_Institute_of_Technology_and_Science 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-unprotect 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-08-20_1-1_Meeting_with_Lab_Developers 1 -
+/test/~emt/final-build/preQuiz6.php 1 -
+/w/index.php/User:Nikila 2 -
+/w/index.php/File_talk:Screenshot.png 1 -
+/images/stories/xperl.php 1 -
+/clientarea.php 3 -
+/w/index.php/Computer_Science_and_Engineering/index.php 3 http://community.virtual-labs.ac.in/w/index.php/Computer_Science_and_Engineering/index.php
+/w/index.php/File_talk:Wordpress.png 1 -
+/w//images/stories/70pet.php 2 -
+/w/index.php/Talk:Amrita_University_-_Kerala 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Mediawiki 3 -
+/w/index.php/File_talk:Content1.png 1 -
+/w/index.php/Talk:TN-02_:_User_Interface_Template_installation_process 4 -
+/w/index.php/User:Venkatesh 1 -
+/w/index.php/Talk:TN-04_:_Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 1 -
+/w/index.php/Talk:Reports_and_articles 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/MediaWiki_talk:Accesskey-pt-anontalk 1 -
+/w/index.php/Talk:Overview_of_Physics_engines 3 -
+/w/index.php/MediaWiki_talk:Accesskey-import 1 -
+/w/index.php/Virtual_Labs_Community:General_disclaimer 8 -
+/w/index.php/File_talk:View-release.png 1 -
+/w/index.php/Talk:Chemical_Sciences 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/User_talk:Ishan 1 -
+/w/index.php/images/stories/bottom.php 2 -
+/w/index.php/Talk:NIT_-_Karnataka 2 -
+/w/index.php/Talk:Tools_for_Virtual_Lab_simulations 2 -
+/wiki 6 -
+/wiki/index.php/File:Reaching_to_IIITH.pdf 2 -
+/w/index.php/File_talk:Xampp7.jpg 1 -
+/w/index.php/File_talk:Virtualcontainer.png 1 -
+/w/index.php/MediaWiki_talk:Accesskey-n-randompage 1 -
+/w/index.php/User:Medhamsh 1 -
+/w/index.php/Talk:User_Manual_For_Lab-Deliverable_Tool_Kit 4 -
+/w/index.php%3Ftitle%3DComputer_Science_and_Engineering/ 4 http://community.virtual-labs.ac.in/w/index.php%3Ftitle%3DComputer_Science_and_Engineering/
+/w/index.php/Talk:2011-01-23_Workshop_on_HTML5 2 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-project 1 -
+/w/index.php/File_talk:Screenshot_EvalPortal_MessagesMenuLink.png 1 -
+/w/index.php/File_talk:Framework.png 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-07-30_field_trials:_G._Narayanamma_Institute_of_Technology_and_Science 4 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:Download 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:2012-08-31_Sprint_on_Process_Models_of_Virtual-Labs_-_IITD 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Sage.virtual-labs.ac.in 3 http://community.virtual-labs.ac.in/w/index.php
+/test/~emt/final-build/preQuiz22.php 2 -
+/w/index.php/File_talk:Xampp2.jpg 1 -
+/w/index.php/User_talk:Swetha.v 2 -
+/w/index.php/Talk:2012_October_PICs_meeting_on_Integration,_IIIT-Hyderabad 3 -
+//images/stories/3xp.php 4 -
+/w/index.php/File_talk:Footer.png 1 -
+/wiki/Virtual_Labs_Community:General_disclaimer 1 -
+/w/index.php/File_talk:Slideshow.png 1 -
+/w/index.php/Db.virtual-labs.ac.in 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/User_talk:10.4.12.159 104 http://community.virtual-labs.ac.in/w/index.php/User_talk:10.4.12.159
+/w/index.php/Talk:Civil_Engineering 4 -
+/FileManagerData/note.gif 4 -
+/images/stories/romania.php 1 -
+/wiki/Index.php/Using_Wordpress_3_locally_with_XAMPP 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-addsection 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-unwatch 1 -
+/wiki/Index.php/Overview_of_Physics_engines 1 -
+//cart.php 1 -
+/w/index.php/MediaWiki_talk:Accesskey-n-portal 1 -
+/w/index.php/Talk:Evaluation_Portal_Design_Document_and_User_Guide 3 -
+/w/index.php/Talk:Shell_Access 3 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php//submitticket.php 1 -
+/w/index.php/Talk:Tn-09_:_Seville_Contract 1 -
+/w/index.php/Talk:IIT_-_Madras 3 -
+/w/index.php/Talk:TN-06_:_Service_architecture_for_Virtual_Labs:_A_roadmap 2 -
+/w/index.php/Virtual_Labs_Community:Users 7 -
+/w/index.php//images/stories/ViAr.php 1 -
+/w/index.php/File_talk:New-repo.png 1 -
+/w/index.php/File_talk:Screenshot_EvalPortal_PrivateMessageReplying.png 1 -
+/w/index.php/Talk:TN-04_:_Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 3 -
+/w/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP 7 -
+/w/index.php/Talk:Schedule 1 -
+/wiki/Virtual_Labs_Community:About 1 -
+/w/index.php/Talk:2012-10-08_PICs_meeting_to_discuss_Virtual_Labs_Integration_-_IIITH 4 -
+/w/index.php/MediaWiki_talk:Accesskey-p-logo 1 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-talk 1 -
+/wiki/TN-04_:_Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 1 http://community.virtual-labs.ac.in/w/index.php/Lab_information_update_-_HowTo
+/w/index.php/MediaWiki_talk:Accesskey-ca-edit 1 -
+/w/index.php/Devel.virtual-labs.ac.in 2 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Delhi-3rd-review-template.pdf 1 -
+/w/index.php/index.php 37 None
+/index.php 28 -
+/w/index.php/MediaWiki_talk:Accesskey-ca-nstab-special 1 -
+/w/index.php/File_talk:Xampp4.jpg 1 -
+/w/index.php/User:Vishal 1 -
+//submitticket.php 1 -
+/w/index.php/Talk:Workshops 4 -
+/w/index.php/Talk:Development,_Test_and_Deployment_process_using_web-portal 1 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:TN-01.5:_Development,_Test_and_Deployment_process_using_web-portal 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 4251 4516 30941666 20131231231741
+10.4.8.52 642 666 30246698 20131231232912
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131201 214 219 1291734 5
+20131202 127 130 728565 5
+20131203 135 137 700070 7
+20131204 210 216 1435439 3
+20131205 140 146 739036 4
+20131206 150 157 880265 7
+20131207 167 188 937494 8
+20131208 130 141 922876 10
+20131209 170 201 2389714 7
+20131210 273 299 2622472 3
+20131211 315 347 3228906 5
+20131212 238 246 1834642 5
+20131213 188 193 1037592 6
+20131214 167 169 713655 6
+20131215 235 274 2423742 8
+20131216 171 205 1942782 6
+20131217 148 151 906245 3
+20131218 211 213 1006488 6
+20131219 210 217 51742099 6
+20131220 93 95 608142 20
+20131221 103 105 530880 22
+20131222 79 85 472501 16
+20131223 106 107 641095 19
+20131224 152 155 941302 19
+20131225 101 107 763083 15
+20131226 119 125 1294633 17
+20131227 124 124 585332 21
+20131228 108 110 552546 21
+20131229 97 99 618984 20
+20131230 100 102 722870 15
+20131231 112 116 882834 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 141
+5mn-15mn 16
+2mn-5mn 4
+15mn-30mn 29
+30s-2mn 4
+0s-30s 97
+30mn-1h 40
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 73
+/w/ 2721 13900430 112 250
+/w/index.php/Main_Page 526 3257419 25 25
+/w/index.php/IIT_-_Kanpur 481 3661672 104 11
+/ 436 132372 64 11
+/w/load.php 429 9029413 0 6
+/w/index.php/Download 41 192544 0 5
+/forms/ 38 346424 3 6
+http://community.virtual-labs.ac.in/w/ 22 87218 1 3
+/w/index.php/Evaluation_Portal_Design_Document_and_User_Guide 15 170221 6 5
+/w/index.php/Lab_information_update_-_HowTo 14 81292 3 0
+/w/index.php/Electrical_Engineering 3 18579 0 0
+/w/index.php/User:Bunny 2 8689 0 0
+/w/index.php/Main_page 1 14895 0 0
+/2012-10-08-integration-sprint/ 1 2764 0 1
+/w/index.php/Moodle 1 7305 0 0
+/w/opensearch_desc.php 5 3945 0 1
+/w/index.php/Virtual_Labs_Integration_FAQ 1 8541 1 0
+/w/index.php/Mechanical_Engineering 1 7077 0 0
+/w/index.php/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 1 5729 0 0
+/2012-10-08-integration-sprint/network-proxy.html 1 2538 1 0
+/w/index.php/Special:RecentChanges 6 46979 0 0
+/w/index.php/Tools_for_Virtual_Lab_simulations 6 53370 1 0
+/2012-10-08-integration-sprint/svn.html 1 6117 0 1
+/screencasts/Bazaar-Tutorial-using-Command-Line 1 99180 0 0
+/w/index.php/Service_architecture_for_Virtual_Labs:_A_roadmap 2 21655 0 0
+/w/index.php/2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 1 22894 0 0
+/w/index.php/Integration_Levels_for_a_lab 4 19976 0 0
+/screencasts/ 1 1093 0 0
+/screencasts/ssh-keys-windows 1 112302 0 0
+http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur 12 83967 3 2
+/w/index.php/Dayalbagh_University_-_Agra 1 5427 1 0
+/w/index.php/Mediawiki 8 143559 3 1
+/w/index.php/2012_October_PICs_meeting_on_Integration,_IIIT-Hyderabad 1 6279 0 0
+/jobs/engg-pos.html 1 412 0 0
+/w/index.php/2010-09-28_Workshop_on_SVN_(repeat) 1 4555 0 0
+/screencasts/Adding-SSHkey-Branching-Using-Bzr-In-Portal 1 56276 0 0
+/w/index.php/Drupal_upload_plugin 3 15229 0 0
+/w/index.php/IIT_-_Delhi 2 12865 0 0
+/w/index.php/IIT_-_Bombay 4 26008 0 0
+/screencasts/Bazaar-Tutorial-using-Bazaar-Explorer 1 136281 0 0
+/w/index.php/Version_Control_Systems 12 65913 0 1
+/w/index.php/How_to_get_a_working_copy_of_your_project_sources_using_the_Developer_Portal 4 21894 0 0
+/w/index.php/2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 2 11586 1 0
+/w/index.php/Bazaar 7 55379 0 0
+/w/index.php/COEP_-_Pune 2 11906 0 0
+/vlab-dashboard/ldap.php 2 82 0 0
+/w/index.php/Computer_Science_and_Engineering/2011-07-30_field_trials:_G._Narayanamma_Institute_of_Technology_and_Science 3 16871 0 0
+https://community.virtual-labs.ac.in/w/ 2 7930 0 0
+/vlab-dashboard/ 3 1290 0 0
+/w/index.php/Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 4 19006 0 0
+/w/index.php/Overview_of_Physics_engines 1 31876 0 0
+https://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur 1 6994 0 0
+/w/index.php/clientarea.php 1 10845 0 0
+/w/index.php/Special:RecentChangesLinked/Create_a_Slideshow_using_jQuery_and_HTML5 1 17310 0 0
+/w/index.php/Importance_of_process_model_architecture_for_virtual_labs_development 3 21806 0 0
+/w/index.php/User_Manual_For_Lab-Deliverable_Tool_Kit 2 14970 0 0
+/jobs/ 1 286 0 0
+/w/index.php/Special:WhatLinksHere/Create_a_Slideshow_using_jQuery_and_HTML5 1 16594 0 0
+/w/index.php/Special:SpecialPages 2 42960 0 0
+/w/index.php/Computer_Science 1 6579 0 0
+/w/index.php/Current_IIIT-H_support_for_Virtual_Labs 1 10735 0 0
+/w/index.php/Report_on_Meetings_with_the_Lab_Developers 2 24085 0 0
+/w/index.php/Technical_notes 9 45199 0 0
+/screencasts/pmp_screencast 2 168606 0 0
+/w/index.php/Create_a_Slideshow_using_jQuery_and_HTML5 4 83753 2 1
+/w/index.php/Devops 2 38330 0 1
+/w/index.php/Shell_Access 3 46300 0 0
+/w/index.php/Development,_Test_and_Deployment_process_using_web-portal 9 64484 0 0
+/w/index.php/Special:WhatLinksHere/Main_page 1 13253 0 0
+/w/index.php/downloads.php 1 10836 0 0
+/w/index.php/Virtual_Labs_Community:Current_events 4 38466 0 0
+/w/index.php/Org_mode_for_virtual_labs_developers_(Advanced) 1 5755 0 0
+/w/index.php/Special:RecentChangesLinked/Main_page 1 16265 0 0
+END_SIDER

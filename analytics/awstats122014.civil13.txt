@@ -1,0 +1,564 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.civil13.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1987                
+POS_TIME 2657                
+POS_VISITOR 10278               
+POS_DAY 14266               
+POS_DOMAIN 3484                
+POS_LOGIN 3717                
+POS_ROBOT 3872                
+POS_WORMS 4436                
+POS_EMAILSENDER 4567                
+POS_EMAILRECEIVER 4710                
+POS_SESSION 15020               
+POS_SIDER 15221               
+POS_FILETYPES 4845                
+POS_DOWNLOADS 5136                
+POS_OS 5747                
+POS_BROWSER 5949                
+POS_SCREENSIZE 6831                
+POS_UNKNOWNREFERER 6905                
+POS_UNKNOWNREFERERBROWSER 8101                
+POS_ORIGIN 8461                
+POS_SEREFERRALS 8603                
+POS_PAGEREFS 8770                
+POS_SEARCHWORDS 9213                
+POS_KEYWORDS 9500                
+POS_MISC 2321                
+POS_ERRORS 9717                
+POS_CLUSTER 3573                
+POS_SIDER_404 9850                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101011548 51458 13460808 12167728299733
+FirstTime 0
+LastTime 20141231151350
+LastUpdate 20150101020208 1 0 0 0 0
+TotalVisits 113                 
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 115                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 92 6674768 13 28 312091
+1 13 78 4720864 7 13 113763
+2 3 22 789075 10 18 118173
+3 6 8 1090678 10 12 25802
+4 5 51 4192715 12 15 42275
+5 4 23 2389570 15 19 78760
+6 0 6 828447 8 10 534169
+7 14 59 3009816 12 19 388082
+8 3 12 1389248 15 25 1148988
+9 36 138 28107015 13 13 31755
+10 36 177 10963308 13 16 33193
+11 7 73 6187743 16 23 280539
+12 16 130 9322200 15 17 68861
+13 53 202 28680689 9 12 166075
+14 16 105 7223299 12 17 139814
+15 8 87 5982292 9 19 945440
+16 15 122 7542981 12 33 1631323
+17 35 197 14956392 16 42 1030291
+18 4 58 4750591 14 18 501803
+19 34 132 8912822 7 24 350659
+20 8 94 23141794 14 23 326903
+21 34 135 8333039 15 31 1359671
+22 14 50 1984449 11 11 47562
+23 8 29 992935 13 20 1300661
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 380 2080 175655731
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 281 3641039 20141231222409 0
+slurp 29 76523 20141231093934 0
+yandex 24 927329 20141231075737 0
+baiduspider 23 2082144 20141229211520 0
+bingbot 22 1664789 20141229044945 0
+robot 14 35022 20141224141536 0
+facebook 6 336275 20141223082159 0
+bingpreview 3 15870 20141227161940 0
+bot[\s_+:,\.\;\/\\-] 3 41599 20141221165606 0
+titan 1 514437 20141214161212 0
+discovery 1 13590 20141209052745 0
+mail\.ru 1 4233 20141230001152 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 3 86832 0 0
+css 219 2260518 0 0
+bmp 99 35289442 0 0
+png 269 7682494 0 0
+ico 67 168300 0 0
+woff 21 428672 0 0
+php 356 1559972 0 0
+mp4 2 16070152 0 0
+jar 4 7184854 0 0
+js 349 9735345 0 0
+jpg 688 80380058 0 0
+xls 3 92419 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/labs/civil13/experiment1/applet/Test.jar 2 0 4688080
+/labs/civil13/Docs/pune.xls 2 0 90112
+/labs/civil13/experiment1/applet/jxl.jar 1 0 781612
+/labs/civil13/user/mmraaj/Experiment2/DataRegr.xls 1 0 2307
+/labs/civil13/experiment2/video/Regression.mp4 1 10 11826022
+/labs/civil13/experiment1/applet/itextpdf-5.1.3.jar 1 0 1715162
+/labs/civil13/experiment2/video/RegressionPHP.mp4 1 10 15599239
+/labs/civil13/experiment10/video/assgn.mp4 0 3 114592
+/labs/civil13/experiment9/video/ms.mp4 0 3 3086092
+/labs/civil13/experiment10/video/UserEquilibrium.mp4 0 3 160880
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 176 21
+macosx6 31 2
+winxp 285 71
+java 3 0
+winvista 353 55
+linux 22 5
+win7 1063 205
+macosx 28 6
+macosx9 13 1
+Unknown 135 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 45
+safari7.0 3 0
+chrome38.0.2125.19 19 3
+chrome37.0.2062.124 70 19
+msie6.0 40 40
+firefox5.0 17 2
+ibrowse 85 7
+chrome38.0.2125.104 14 1
+android 154 19
+chrome28.0.1500.94 1 0
+chrome39.0.2171.95 580 127
+chrome38.0.2125.111 18 1
+firefox34.0 83 7
+firefox24.0 1 0
+opera9.80 35 4
+firefox31.0 1 1
+chrome33.0.0.0 3 0
+msie8.0 48 8
+firefox13.0.1 2 2
+chrome39.0.2171.65 3 0
+msie7.0 8 1
+safari8.0 23 6
+msie9.0 40 8
+safari7.0.5 11 1
+Unknown 4 1
+chrome39.0.2171.71 513 83
+chrome30.0.0.0 2 0
+chrome39.0.2171.93 2 0
+chrome41.0.2224.3 3 0
+chrome39.0.2171.62 17 1
+chrome41.0.2243.0 17 1
+chrome37.0.2062.102 2 2
+samsung 2 0
+firefox29.0 4 0
+chrome9.0.597 8 1
+firefox30.0 22 5
+chrome39.0.2171.59 14 2
+chrome36.0.1985.143 4 1
+firefox33.0 141 16
+firefox25.0 16 1
+mozilla 26 6
+chrome35.0.1916.153 17 1
+msie10.0 1 0
+netscape4.0 4 0
+safari5.1.9 29 2
+safari 2 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+SAMSUNG-GT-C3312/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20141216152800
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.31492/35.6172;_U;_en)_Presto/2.8.119_Version/11.10 20141216063529
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7262)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20141213213930
+Mozilla/5.0_(compatible;_Abonti/0.92_-_http://www.abonti.com) 20141205090942
+Riddler_(http://riddler.io/about) 20141209181116
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20141213085009
+Opera/9.80_(Android;_Opera_Mini/7.6.40077/35.6172;_U;_en)_Presto/2.8.119_Version/11.10 20141216042338
+Mozilla/5.0_(Series40;_Nokia311/05.92;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.5.0.0.27 20141202210706
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.1;_en-US;_Micromax_A110)_U2/1.0.0_UCBrowser/9.3.0.440_U2/1.0.0_Mobile 20141212213734
+SAMSUNG-GT-C3330/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20141212091436
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.6244;_U;_en)_Presto/2.8.119_Version/11.10 20141217045138
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7262)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20141213213930
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.1;_en-US;_Micromax_A110)_U2/1.0.0_UCBrowser/9.3.0.440_U2/1.0.0_Mobile 20141212213734
+Riddler_(http://riddler.io/about) 20141209181116
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62 176
+From1 0 0
+From2 24 93
+From3 58 58
+From4 236 1782
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 23 92
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.vlab.co.in/ba_labs_all.php 27 27
+http://www.virtual-labs.ac.in/labs/civil13/ 23 23
+http://vlab.co.in/ba_labs_all.php 4 4
+http://virtual-labs.ac.in/labs/civil13/ 1 1
+http://www.vlab.co.in/institute_detail.php 1 1
+https://www.facebook.com 1 1
+http://www.vlab.co.in./ba_labs_all.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+fase+book+of+gopal+patil+civel+engeeneear+prof+of+mumbai 2
+factors+that+may+affect+tripmaking+in+trip+generation 1
+trip+distribution 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 18
+of 4
+gopal 2
+trip 2
+engeeneear 2
+prof 2
+mumbai 2
+fase 2
+book 2
+civel 2
+patil 2
+that 1
+in 1
+tripmaking 1
+factors 1
+may 1
+affect 1
+distribution 1
+generation 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+503 4 1656
+302 11 224
+206 31 1070949
+301 1 345
+404 4 1050
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/labs/civil13images/iitb.png 2 http://deploy.virtual-labs.ac.in/labs/civil13/
+/labs/civil13/img/icons/pdf_icon.gif 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 115
+10.4.8.52 166 1003 73900349 20141230205938
+223.231.75.54 27 84 15009784 20141220095807
+188.143.232.111 24 24 283861 20141209211601
+115.248.74.218 14 46 3576879 20141203130420
+117.200.101.160 13 39 2392052 20141216104144
+195.154.181.152 11 11 128355 20141221212926
+115.249.80.254 11 36 6364827 20141203130433
+85.194.79.89 10 33 1177080 20141207132610
+1.39.61.230 9 34 17961010 20141221204602
+24.149.201.60 8 40 1819110 20141211010730
+50.57.64.198 1 1 13590 20141201121705
+27.78.171.254 2 13 622694 20141215071651
+14.98.54.92 0 9 339975 
+106.219.49.167 1 16 866347 20141222220922
+64.233.173.131 0 3 405367 
+117.221.255.7 1 16 665853 20141211133337
+54.236.253.202 1 17 507019 20141201230031
+119.160.199.204 2 18 1163169 20141206092739
+117.211.162.205 5 20 1169273 20141210104504
+36.84.64.41 0 1 44508 
+41.206.12.40 0 1 389466 
+182.237.17.138 3 27 1574189 20141220092024
+115.70.191.248 0 1 514437 
+14.140.154.146 0 1 514437 
+36.72.48.232 0 1 76314 
+134.249.141.83 1 1 13590 20141207214444
+41.190.14.154 1 17 1158936 20141230152154
+168.235.195.156 0 1 42386 
+168.235.196.254 0 1 42386 
+120.62.186.11 0 1 514437 
+38.117.229.203 0 1 51294 
+112.198.82.163 0 1 26531 
+106.215.162.38 1 16 939559 20141222013227
+115.248.114.51 0 1 42386 
+112.203.130.217 0 1 56394 
+122.102.123.125 0 1 30190 
+182.64.115.25 1 11 925057 20141218134121
+59.97.4.25 1 16 1154347 20141218165017
+103.249.233.168 2 17 1158979 20141211210805
+175.101.128.17 0 1 44508 
+166.137.252.53 0 1 514437 
+14.99.135.43 0 1 42386 
+49.148.45.194 0 1 16400 
+106.215.140.165 1 12 578734 20141213163306
+103.21.127.60 1 8 136160 20141210130649
+86.164.62.230 0 1 514437 
+180.191.125.138 0 1 44508 
+64.233.173.135 0 3 406274 
+122.176.96.228 0 1 514437 
+112.198.64.87 0 1 395278 
+166.137.14.65 6 20 343101 20141202193635
+49.150.12.58 0 1 389466 
+50.25.241.151 2 19 553809 20141207023422
+54.87.37.196 1 1 4233 20141209181116
+124.124.48.3 1 17 1158936 20141208141632
+49.146.199.157 6 20 309088 20141215141916
+66.249.93.153 0 2 398755 
+49.201.234.108 0 1 42386 
+176.16.1.71 0 1 395278 
+210.212.136.97 2 33 2313682 20141210132808
+122.161.30.157 1 11 925057 20141212130327
+117.200.54.237 2 18 1160764 20141204171810
+92.45.141.94 1 16 866827 20141209002015
+62.210.91.75 1 1 3333 20141209104634
+91.200.12.102 1 1 21589 20141216125109
+115.119.127.218 2 3 78135 20141203130454
+124.125.244.72 0 1 514437 
+182.73.85.242 0 1 42386 
+103.21.125.77 0 1 50327 
+122.161.35.11 1 12 927607 20141216123727
+69.124.52.126 1 12 927607 20141213094510
+66.87.121.88 0 1 514437 
+103.21.127.77 1 17 1158936 20141208173346
+64.233.173.139 1 5 115626 20141206104624
+203.190.148.228 1 1 1828 20141204124118
+182.183.194.111 2 17 1158079 20141226003633
+49.207.199.99 3 19 1163861 20141217014033
+82.178.21.28 1 16 113146 20141215191310
+111.235.65.2 2 7 247917 20141203144918
+123.125.71.85 1 1 4233 20141210172535
+124.150.8.121 0 1 514437 
+14.96.160.102 0 1 514437 
+117.211.162.20 1 17 1158936 20141231151350
+197.252.2.155 1 15 1731621 20141223044201
+59.161.5.83 0 1 514437 
+221.130.125.29 2 2 27180 20141211154404
+1.39.40.239 0 1 42386 
+46.185.246.39 1 14 340513 20141206190307
+14.139.128.14 1 17 1158936 20141201114438
+1.39.15.56 0 1 514437 
+125.62.214.203 0 2 784744 
+203.111.224.45 0 1 179290 
+120.28.127.246 0 1 8400 
+62.6.164.67 0 1 389466 
+27.97.10.84 0 3 165987 
+122.164.41.205 0 1 42386 
+103.232.25.41 0 2 1028874 
+103.21.127.78 0 1 42386 
+103.250.150.114 0 1 514437 
+60.254.125.200 2 14 896891 20141209052747
+66.249.93.159 0 1 4190 
+122.173.151.158 6 30 1532310 20141222133626
+104.172.134.51 0 1 514437 
+66.249.93.156 0 2 29683 
+117.239.118.153 2 17 1158214 20141209154917
+163.47.13.95 0 3 354209 
+111.88.17.113 0 1 65846 
+108.170.22.198 2 2 8466 20141216035922
+14.139.208.89 1 17 1158936 20141205212223
+14.98.93.98 1 14 383573 20141226114520
+1.22.27.78 1 16 1154746 20141216184357
+117.239.79.242 1 17 1158936 20141216102704
+1.39.20.44 0 1 248398 
+122.170.43.104 0 1 514437 
+1.39.23.26 0 1 50327 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20141201 8 73 4398746 5
+20141202 16 136 6684947 4
+20141203 32 119 18468909 6
+20141204 14 105 8524503 6
+20141205 12 102 8953130 3
+20141206 13 99 6780800 7
+20141207 21 80 9878913 5
+20141208 7 70 4169672 4
+20141209 42 130 7029176 10
+20141210 10 82 7948571 6
+20141211 14 112 5847999 6
+20141212 3 20 3586087 2
+20141213 6 54 4577921 4
+20141214 2 13 1012492 2
+20141215 11 88 4304840 4
+20141216 21 124 10266480 8
+20141217 6 44 2880340 2
+20141218 21 119 9012962 5
+20141219 18 74 4144283 3
+20141220 36 142 27916095 5
+20141221 46 93 23033177 4
+20141222 11 86 3984141 5
+20141223 1 15 1731621 1
+20141225 0 4 982291 0
+20141226 3 31 1541652 2
+20141229 1 1 13590 1
+20141230 4 44 2733125 2
+20141231 1 20 1760267 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 9
+15mn-30mn 4
+30s-2mn 6
+2mn-5mn 13
+0s-30s 79
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 57
+/labs/civil13/ 98 517761 69 49
+/labs/civil13/signup.php 33 402085 9 10
+/labs/civil13/experiments.php 29 66788 2 8
+/labs/civil13/login.php 24 52060 0 3
+/labs/civil13/tripgeneration.php 24 99816 16 15
+/labs/civil13/people.php 19 52632 6 6
+/labs/civil13/login/ 14 63264 1 2
+/labs/civil13/login/experiments.php 14 25578 0 1
+/labs/civil13/SaveUser.php 10 1754 0 0
+/labs/civil13/experiment2/DataRegrMod2.php 7 29769 0 0
+/labs/civil13/experiment2/DataRegrModRes2.php 1 5147 0 0
+/labs/civil13/experiment2/DataRegrModRes.php 1 7072 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff 1 34464 0 1
+/labs/civil13/contact.php 6 29406 0 1
+/labs/civil13/login/feedback.php 1 3400 0 1
+/labs/civil13/experiment10/theory.php 1 2680 0 0
+/labs/civil13/experiment1/applet/T-sectionSimulation1.php 2 696 0 1
+/labs/civil13/experiment10/procedure.php 1 2007 0 0
+/labs/civil13/experiment9/procedure.php 1 1821 0 0
+/labs/civil13/experiment2/intermediateDataRegr.php 1 1577 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 1 49684 0 0
+/labs/civil13/experiment9/aim.php 1 1481 0 0
+/labs/civil13/references.php 4 22248 1 3
+/labs/civil13/experiment2/DataRegrModDefault.php 2 8342 1 1
+/labs/civil13/login/contact.php 3 7356 0 2
+/labs/civil13/experiment1/aim.php 4 5824 0 2
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 5 96780 0 1
+/labs/civil13/login/report.php 3 13718 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 5 28940 0 0
+/labs/civil13/experiment10/aim.php 1 1484 0 0
+/labs/civil13/experiment2/experiment.php 4 8720 0 1
+/labs/civil13/Vlabfaq.php 3 14670 0 0
+/labs/civil13/experiment2/procedure.php 4 8284 0 0
+/labs/civil13/experiment1/theory.php 4 10432 1 1
+/labs/civil13/experiment10/experiment.php 1 2163 0 0
+/labs/civil13/experiment2/selfevaluation.php 2 5370 0 0
+/labs/civil13/experiment2/aim.php 4 6176 1 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 5 170800 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 1 10372 0 0
+/labs/civil13/login/tripdistribution.php 1 2877 0 0
+/labs/civil13/experiment4/theory.php 1 4521 0 1
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff 2 10928 0 0
+/labs/civil13/experiment9/theory.php 1 4595 0 0
+/labs/civil13/experiment4/aim.php 1 1473 0 0
+/labs/civil13/experiment10/selfevaluation.php 1 2304 0 0
+/labs/civil13/experiment2/DataRegrMod.php 1 2245 0 0
+/labs/civil13/tripdistribution.php 6 17070 4 1
+/labs/civil13/login/people.php 3 6243 1 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff 2 81616 0 0
+/labs/civil13/experiment1/procedure.php 4 6656 0 0
+/labs/civil13/login_process.php 2 6726 0 1
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 1 26776 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 1 5144 0 0
+/labs/civil13/login/tripgeneration.php 2 8350 0 1
+/labs/civil13/experiment2/applet/DataAnalysis1.php 1 405 1 0
+/labs/civil13/experiment1/experiment.php 3 4188 0 0
+/labs/civil13/experiment2/theory.php 2 10738 0 0
+END_SIDER

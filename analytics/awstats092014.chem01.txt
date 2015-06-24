@@ -1,0 +1,473 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chem01.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2675                
+POS_VISITOR 3632                
+POS_DAY 6399                
+POS_DOMAIN 7213                
+POS_LOGIN 7446                
+POS_ROBOT 7601                
+POS_WORMS 8092                
+POS_EMAILSENDER 8223                
+POS_EMAILRECEIVER 8366                
+POS_SESSION 8442                
+POS_SIDER 8651                
+POS_FILETYPES 11117               
+POS_DOWNLOADS 11317               
+POS_OS 11365               
+POS_BROWSER 11598               
+POS_SCREENSIZE 12354               
+POS_UNKNOWNREFERER 12428               
+POS_UNKNOWNREFERERBROWSER 12515               
+POS_ORIGIN 12597               
+POS_SEREFERRALS 12738               
+POS_PAGEREFS 12882               
+POS_SEARCHWORDS 13098               
+POS_KEYWORDS 13250               
+POS_MISC 2339                
+POS_ERRORS 13309               
+POS_CLUSTER 7302                
+POS_SIDER_404 13443               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141001003309 18054 4601003 6313929814459
+FirstTime 20140901015458
+LastTime 20140930230414
+LastUpdate 20141015124802 18054 0 18049 2 2
+TotalVisits 131                 
+TotalUnique 66                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 66                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 84 221 1922387 7 11 3652
+1 58 146 1442062 18 24 81663
+2 12 40 515285 6 12 27088
+3 30 71 634702 3 10 102033
+4 3 10 219292 3 7 7973
+5 7 31 343815 5 7 16976
+6 18 48 372439 5 6 24823
+7 13 32 488327 5 13 29543
+8 16 57 683138 1 5 33484
+9 36 126 1376521 23 32 26607
+10 39 115 904382 11 29 112289
+11 72 169 1608947 6 15 9192
+12 64 187 1611720 19 29 44282
+13 32 96 991796 2 5 2252
+14 136 300 2615079 9 28 40949
+15 142 265 1856969 2 17 26027
+16 33 86 928808 2 13 43900
+17 29 84 575469 11 27 137914
+18 21 84 764530 2 10 5152
+19 25 89 959908 4 14 47580
+20 33 137 1173162 6 18 12407
+21 12 55 544427 3 11 109747
+22 32 104 1146706 2 14 118517
+23 79 233 2773676 1 9 2054
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 66
+10.4.8.52 516 1423 13101588 20140930230414
+125.62.214.206 66 119 741026 20140930151100
+115.254.75.101 36 87 762048 20140922145737
+37.237.169.58 23 49 252439 20140915005557
+103.21.125.79 22 57 616863 20140915145745
+180.183.177.50 22 59 684352 20140907000747
+121.241.169.66 21 30 183943 20140902120226
+81.28.80.134 17 34 363401 20140921011217
+180.94.84.193 15 44 395079 20140908000301
+151.159.13.16 15 46 413193 20140908231030
+50.57.64.198 6 6 16877 20140908000128
+210.212.58.111 1 4 116551 20140908121839
+182.73.222.94 4 22 218529 20140920100605
+182.74.22.86 2 5 34178 20140918095633
+27.124.37.59 4 7 36916 20140903125458
+24.122.19.187 3 9 44105 20140915004851
+116.202.64.118 4 22 218531 20140904223722
+122.161.74.46 3 6 35067 20140916133745
+192.12.88.213 4 15 318229 20140929112858
+116.72.178.56 4 22 218535 20140921181358
+115.240.65.60 6 24 221699 20140927221049
+14.139.155.210 3 14 163935 20140912191843
+180.183.181.136 2 8 43053 20140915182750
+103.21.125.76 9 21 164184 20140902132620
+117.248.195.182 1 4 116551 20140924192343
+1.9.103.52 8 19 324282 20140926220542
+103.21.125.78 7 15 166265 20140903114140
+201.110.9.21 13 42 368830 20140921063214
+59.88.77.86 5 12 91460 20140908172039
+14.139.186.19 8 19 169138 20140919140545
+98.81.92.202 3 10 219292 20140914090109
+203.129.195.130 5 13 93211 20140907175833
+14.139.194.12 2 5 57820 20140908184548
+180.149.49.225 3 19 101985 20140908121915
+210.212.100.82 12 23 144266 20140927105700
+69.67.118.5 4 11 140978 20140908213745
+185.10.104.131 1 1 1477 20140916052609
+203.199.204.178 9 27 226596 20140905180701
+75.99.115.194 9 20 325535 20140908073821
+14.139.98.4 5 16 141517 20140929170008
+103.21.126.77 12 42 265468 20140912175227
+180.190.162.224 5 16 319675 20140905081348
+151.159.105.119 3 10 219292 20140911040556
+103.21.127.77 7 11 40543 20140918101148
+185.10.104.132 1 1 2023 20140919222357
+103.21.127.79 15 43 266682 20140902005200
+2.108.210.121 8 37 778654 20140921142643
+190.97.138.10 4 22 218533 20140912215522
+182.74.176.194 4 22 218531 20140920200757
+180.149.49.231 4 15 165358 20140904021839
+117.223.34.135 1 1 1065 20140918151426
+14.139.243.114 13 25 235176 20140907091851
+94.20.99.242 1 3 19427 20140923123724
+209.94.196.36 5 23 220268 20140908200321
+201.238.74.4 1 1 1297 20140908200305
+37.228.105.2 10 18 160562 20140903000845
+223.30.178.170 1 1 1978 20140912115646
+129.128.214.94 8 25 349927 20140918025617
+182.189.123.254 4 15 165359 20140912135649
+101.217.210.219 4 22 218533 20140913202626
+62.24.181.135 2 3 74105 20140926233147
+221.134.221.114 1 2 4570 20140910164849
+73.168.70.56 1 4 116551 20140923090612
+14.139.162.2 1 4 73811 20140907175606
+208.102.255.5 4 22 218530 20140907032821
+142.55.218.149 3 9 44105 20140920031008
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20140901 52 168 1714865 7
+20140902 142 325 3282513 9
+20140903 25 62 582275 4
+20140904 13 62 620642 4
+20140905 14 43 546271 2
+20140906 4 22 218534 1
+20140907 61 180 1761166 8
+20140908 54 161 1643493 11
+20140910 33 85 658257 3
+20140911 6 19 263397 2
+20140912 50 147 1227451 8
+20140913 14 67 645004 3
+20140914 13 40 603400 3
+20140915 93 221 1870644 8
+20140916 18 52 372432 3
+20140917 17 56 633963 4
+20140918 45 119 1180138 8
+20140919 9 20 171161 2
+20140920 15 75 699696 4
+20140921 56 175 2110419 6
+20140922 11 38 384458 3
+20140923 33 115 911601 5
+20140924 14 51 504410 4
+20140926 12 32 516711 3
+20140927 24 73 590802 3
+20140928 4 11 66899 2
+20140929 14 56 679997 4
+20140930 180 311 1992948 7
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1026 2786 26453547
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 67 778038 20140929114843 0
+bingbot 46 47176 20140930092436 0
+yandex 12 131023 20140924170251 0
+bot[\s_+:,\.\;\/\\-] 3 13124 20140924013526 0
+slurp 3 5865 20140913081642 0
+proximic 2 6043 20140924010440 0
+twisted pagegetter 2 8654 20140915041120 0
+turnitinbot 1 1955 20140926202941 0
+baiduspider 1 106 20140901045922 0
+crawl 1 1357 20140925024347 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 16
+2mn-5mn 15
+15mn-30mn 6
+30s-2mn 42
+0s-30s 43
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 63
+/labs/chem01/ori/ori2.php 68 145578 2 3
+/labs/chem01/ori/ori1.php 67 72559 43 12
+/labs/chem01/gla/gla1.php 58 63416 33 16
+/labs/chem01/htl/htl1.php 54 78752 2 7
+/labs/chem01/ori/ori3.php 53 77742 1 2
+/labs/chem01/htl/htl2.php 52 51424 0 5
+/labs/chem01/ori/ori4.php 49 85005 0 20
+/labs/chem01/gla/gla2.php 48 104557 0 7
+/labs/chem01/gla/gla4.php 35 51813 0 1
+/labs/chem01/gla/gla7.php 30 42922 0 0
+/labs/chem01/vle/vle6.php 6 6200 0 0
+/labs/chem01/2pf/2pf4.php 2 2687 0 0
+/labs/chem01/ori/ 3 5865 0 0
+/labs/chem01/vle/vle3.php 15 19645 0 2
+/labs/chem01/ebu/ebu.php 9 12555 6 0
+/labs/chem01/calo/cal1.php 12 15912 0 5
+/labs/chem01/2pf/ 1 1951 0 0
+/labs/chem01/gla/gla6.php 27 40440 0 2
+/labs/chem01/ori/ori5.php 4 5186 1 2
+/labs/chem01/ebu/ 1 268 0 0
+/labs/chem01/vle/vle2.php 21 41538 1 1
+/labs/chem01/calo/cal1a.php 4 5197 0 0
+/labs/chem01/htl/list.php 2 1162 0 0
+/labs/chem01/vle/vle.php 18 36414 7 4
+/labs/chem01/2pf/content.html 1 3588 0 0
+/labs/chem01/2pf/2pf3.php 2 2942 0 0
+/labs/chem01/ori/ori6.php 1 1868 0 0
+/labs/chem01/gla/gla8.php 21 31611 0 3
+/labs/chem01/2pf/2pf5.php 2 3201 0 1
+/labs/chem01/vle/addpntri.php 16 432 0 0
+/labs/chem01/ebu/ebu0.php 17 23069 0 2
+/labs/chem01/vle/report2.php 5 520 0 0
+/labs/chem01/hpc/hpc1.php 6 8862 4 4
+/labs/chem01/htl/ 1 268 0 0
+/labs/chem01/vle/vle8.php 8 576 0 0
+/labs/chem01/ 4 7820 1 0
+/labs/chem01/vle/addpnt.php 29 783 0 0
+/labs/chem01/vle/ 17 4577 0 0
+/labs/chem01/vle/reportri.php 4 416 0 1
+/labs/chem01/gla/ 2 3910 0 0
+/labs/chem01/gla/gla5.php 28 40487 0 1
+/labs/chem01/calo/calqa.html 7 8841 2 1
+/labs/chem01/vle/genvle.php 30 1064 1 1
+/labs/chem01/vle/vle7.php 4 6132 0 0
+/labs/chem01/2pf/default.html 1 3721 0 0
+/labs/chem01/nof/ 13 22100 10 3
+/labs/chem01/2pf/2pf1.php 10 15530 3 5
+/labs/chem01/hpc/hpc2.php 2 3842 0 0
+/labs/chem01/ebu/list.php 2 1162 0 0
+/labs/chem01/gla/gla3.php 25 26775 0 2
+/labs/chem01/content.html 3 7200 0 1
+/labs/chem01/list.php 8 4000 0 3
+/labs/chem01/vle/vle4.php 11 11373 0 0
+/labs/chem01/2pf/2pf2.php 3 7109 0 0
+/labs/chem01/default.html 3 4533 0 0
+/labs/chem01/nof/nof2.php 7 6223 0 1
+/labs/chem01/ebu/ebu1.php 18 13662 0 2
+/labs/chem01/nof/nof1.php 18 33282 0 7
+/labs/chem01/vle/measri.php 20 557 0 0
+/labs/chem01/vle/vle5.php 7 10577 0 3
+/labs/chem01/htl/report2.php 7 728 0 0
+/labs/chem01/htl/htl.php 23 6973 14 1
+/labs/chem01/hpc/hpc3.php 1 1474 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 157 94218 0 0
+php 1002 1258476 0 0
+png 284 10089993 0 0
+html 24 42100 0 0
+js 385 3893619 0 0
+jpg 720 11036837 0 0
+gif 214 38304 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 41 18
+macosx6 9 3
+winlong 34 9
+winxp 331 99
+linux 100 41
+winvista 482 140
+win7 1615 653
+macosx 37 8
+linuxcentos 5 2
+j2me 72 31
+macosx9 35 14
+macosx7 25 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+chrome37.0.2062.124 271 153
+safari7.0 37 8
+firefox20.0 78 30
+chrome12.0.742.100 22 4
+android 41 18
+chrome28.0.1500.95 7 4
+chrome31.0.1650.63 24 6
+chrome36.0.1985.125 37 12
+firefox24.0 32 22
+opera9.80 72 31
+firefox31.0 383 144
+msie8.0 33 11
+firefox13.0.1 53 21
+chrome33.0.1736.2 16 3
+chrome37.0.2062.120 423 136
+firefox3.6.9 5 2
+msie9.0 39 12
+safari7.0.5 29 11
+chrome37.0.2062.103 172 46
+chrome37.0.2062.94 6 3
+firefox32.0 527 191
+firefox17.0 26 6
+chrome37.0.2062.102 19 5
+chrome27.0.1453.110 25 7
+firefox30.0 17 6
+firefox12.0 49 18
+chrome22.0.1229.95 24 6
+chrome35.0.1916.114 26 8
+firefox33.0 24 6
+chrome36.0.1985.143 141 51
+firefox25.0 25 8
+mozilla 43 12
+firefox22.0 4 4
+firefox14.0.1 6 6
+msie10.0 50 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 46
+From1 0 0
+From2 0 0
+From3 199 199
+From4 789 2541
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://iitb.vlab.co.in 197 197
+http://iitb.vlab.co.in/index.php 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+503 3 1242
+206 2 1366
+502 57 29532
+301 1 256
+404 158 40367
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/labs/chem01/ebu/lam_final2.jpg 5 -
+/labs/chem01/gla/js/jquery-1.4.2.min.js 2 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/htl/nof1.html 5 http://deploy.virtual-labs.ac.in/labs/chem01/htl/list.php
+/labs/chem01/ori/wg.png 48 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/chem01/ori/css/style.css 3 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/chem01/ori/rg.png 48 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/chem01/ori/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/chem01/ori/js/jquery-1.4.2.min.js 4 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/chem01/gla/css/default.css 2 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/hpc/wg.png 1 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/chem01/fpn/fm1.php 20 http://iitb.vlab.co.in/
+/labs/chem01/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/chem01/2pf/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/chem01/2pf/index.html
+/labs/chem01/gla/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/hpc/rg.png 1 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/chem01/excanvas.min.js 3 http://deploy.virtual-labs.ac.in/labs/chem01/ebu/ebu0.php
+/labs/chem01/ori/css/default.css 3 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/chem01/gla/css/style.css 2 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/2pf/PendulumForces.swf 1 -
+/labs/chem01/calo/nof1.html 1 -
+END_SIDER_404

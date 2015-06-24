@@ -1,0 +1,515 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse14.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2671                
+POS_VISITOR 3640                
+POS_DAY 3797                
+POS_DOMAIN 4214                
+POS_LOGIN 4446                
+POS_ROBOT 4601                
+POS_WORMS 5109                
+POS_EMAILSENDER 5240                
+POS_EMAILRECEIVER 5383                
+POS_SESSION 5459                
+POS_SIDER 5653                
+POS_FILETYPES 6337                
+POS_DOWNLOADS 6591                
+POS_OS 6671                
+POS_BROWSER 6897                
+POS_SCREENSIZE 7586                
+POS_UNKNOWNREFERER 7660                
+POS_UNKNOWNREFERERBROWSER 7747                
+POS_ORIGIN 7874                
+POS_SEREFERRALS 8016                
+POS_PAGEREFS 8173                
+POS_SEARCHWORDS 8664                
+POS_KEYWORDS 8816                
+POS_MISC 2335                
+POS_ERRORS 8875                
+POS_CLUSTER 4302                
+POS_SIDER_404 8988                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301000504 3471 829112 10461838530500
+FirstTime 20140209005736
+LastTime 20140228194049
+LastUpdate 20141013123513 3471 0 3470 0 0
+TotalVisits 39                  
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 4 83967 23 88 165505
+1 0 4 87250 20 58 121475
+2 2 5 91598 17 73 74865
+3 1 37 942995 25 64 143116
+4 5 40 523267 21 91 232714
+5 0 1 100030 26 55 129438
+6 1 16 324220 18 48 189875
+7 0 3 49805 19 49 162504
+8 3 36 416269 23 51 6169694
+9 29 256 3278487 23 133 190296
+10 10 75 611560 31 107 143456
+11 138 487 1965786 23 121 64785
+12 13 87 1495190 31 83 33881
+13 1 14 360462 83 106 137778
+14 11 98 1225095 100 182 11526391
+15 2 16 329197 21 59 210157
+16 4 54 498793 35 82 53660
+17 1 18 330638 17 32 13585
+18 8 58 621210 27 70 21793
+19 3 7 148417 24 55 48043
+20 1 8 126496 23 62 112925
+21 0 4 97020 23 50 444229
+22 11 89 1654297 17 106 185566
+23 26 85 1656072 18 125 314539
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 221 1033 10554953 20140228194049
+10.4.8.52 50 469 6463168 20140227041004
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20140208 0 8 114736 0
+20140209 6 41 597485 5
+20140210 30 160 2998142 5
+20140211 14 196 3150510 3
+20140220 1 13 356033 1
+20140222 10 74 880166 3
+20140223 8 57 566289 3
+20140224 26 216 2592046 6
+20140225 150 558 3005022 5
+20140226 11 81 1512906 5
+20140227 2 15 280505 1
+20140228 13 83 964281 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 271 1502 17018121
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 429 20210759 20140228235842 0
+bingbot 28 222277 20140227030047 0
+yandex 23 0 20140211102052 0
+msnbot\-media 6 16299 20140209154324 0
+bingpreview 5 27154 20140224165239 0
+baiduspider 5 12513 20140211145229 0
+google[_+ ]web[_+ ]preview 3 7413 20140209223953 0
+[\s_+:,\.\;\/\\-]bot 2 11688 20140227224806 0
+msnbot 1 2828 20140210223448 0
+slurp 1 2828 20140209103127 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 4
+2mn-5mn 1
+30s-2mn 4
+0s-30s 25
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/labs/cse14/EXP_1sep2010/exp1/exp1.html 119 1245 0 0
+/labs/cse14/Experiment.php 44 71571 0 6
+/labs/cse14/final-build/Experiment.php 38 75131 10 11
+/labs/cse14/ 36 86385 23 13
+/labs/cse14/experimentHome.php 19 86526 2 6
+/labs/cse14/final-build/ 5 10445 3 1
+/labs/cse14/final-build/experimentHome.php 3 10434 0 0
+/labs/cse14/EXP_1sep2010/exp2/exp2.html 2 834 1 1
+/labs/cse14/final-build/EXP_1sep2010/exp1/exp1.html 2 830 0 0
+/labs/cse14/faqs.php 1 2833 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp2/exp2.html 1 417 0 0
+/labs/cse14/final-build/aboutus.php 1 1108 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 168 758323 0 0
+php 147 344433 0 0
+png 161 4443843 0 0
+html 124 3326 0 0
+js 39 745267 0 0
+jpg 415 7824488 0 0
+jpeg 70 192458 0 0
+class 81 128502 0 0
+gif 292 164726 0 0
+swf 5 2412755 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/labs/cse14/pass.wmv 1 0 220011
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linuxandroid 30 2
+winxp 205 41
+macosx6 2 0
+unix 13 1
+java 322 0
+win98 2 2
+linux 30 1
+winvista 79 7
+win7 785 213
+macosx 4 2
+macosx9 5 1
+macosx8 2 0
+macosx7 23 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+msie6.0 26 4
+firefox28.0 14 1
+safari7.0 1 0
+firefox15.0 1 0
+chrome18.0.1025.308 2 0
+chrome29.0.1547.76 48 8
+chrome30.0.1599.92 1 0
+android 24 2
+firefox26.0 65 6
+chrome28.0.1500.95 2 0
+firefox8.0 28 4
+chrome31.0.1650.63 109 15
+firefox24.0 2 0
+safari7.0.1 1 0
+opera9.80 13 1
+safari6.0.1 1 0
+msie8.0 127 13
+chrome32.0.1700.99 3 0
+chrome32.0.1700.102 1 0
+msie7.0 1 1
+firefox23.0 2 0
+msie9.0 51 8
+Unknown 13 1
+firefox27.0 69 9
+firefox17.0 1 0
+firefox21.0 1 0
+chrome31.0.1612.2 1 0
+firefox12.0 195 136
+chrome32.0.1700.107 211 40
+chrome33.0.1750.117 155 19
+firefox22.0 1 0
+msie10.0 6 1
+safari5.1 2 2
+netscape4.0 322 0
+safari5.1.9 1 0
+safari 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+http://Anonymouse.org/_(Unix) 20140220130647
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 15 437
+From1 0 0
+From2 11 25
+From3 27 27
+From4 218 1013
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 11 25
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://www.vlab.co.in/ba_labs_all.php 10 10
+http://www.vlab.co.in/institute_detail.php 5 5
+http://vlab.co.in/ba_labs_all.php 5 5
+http://www.vlab.co.in/search.php 2 2
+http://www.vlab.co.in/lab_ready_for_use.php 2 2
+http://virtual-labs.ac.in/labs/cse14/ 1 1
+http://vlab.co.in/lab_ready_for_use.php 1 1
+http://vlab.co.in/institute_detail.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 37 660
+502 7 3780
+404 1396 372071
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 182
+/labs/cse14/final-build/pand.jpg 3 -
+/labs/cse14/final-build/procedure_pics/dLatch.bmp 1 -
+/labs/cse14/final-build/vlsi_images/nmos_as_switch.jpg 3 -
+/labs/cse14/kar1.jpg 1 -
+/labs/cse14/final-build/t52.jpg 2 -
+/labs/cse14/final-build/EXP_1sep2010/Manual/exp8.swf 1 -
+/labs/cse14/final-build/vlsi_images/comp2.jpg 1 -
+/labs/cse14/final-build/ddtabmenufiles/glowtabs.css 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/Exp5Procedure.png 2 -
+/labs/cse14/final-build/vlsi_images/comp3.jpg 1 -
+/labs/cse14/final-build/d_ff_clk1.jpg 17 -
+/labs/cse14/final-build/vlsi_images/pic3.jpg 2 -
+/labs/cse14/final-build/data.jpg 2 -
+/labs/cse14/final-build/Exp8_TheoryImages/4.png 2 -
+/labs/cse14/final-build/por.jpg 1 -
+/labs/cse14/final-build/trtf.jpg 3 -
+/labs/cse14/final-build/vlsi_images/inv.jpg 2 -
+/labs/cse14/final-build/aboutus.php 7 -
+/labs/cse14/final-build/vlsi_images/logic.jpg 2 -
+/labs/cse14/final-build/images/submenu_pics/quiz.jpeg 1 -
+/labs/cse14/final-build/t53.jpg 2 -
+/labs/cse14/final-build/t51.jpg 2 -
+/labs/cse14/final-build/exp9QuizFigures/Exp9-Q7.jpg 2 -
+/labs/cse14/final-build/css/default.css 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/d_ff_clk0.jpg 31 -
+/labs/cse14/final-build/elec_anal2.jpg 1 -
+/labs/cse14/trans.jpg 4 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/cse14/final-build/vlsi_images/t4.jpg 1 -
+/labs/cse14/final-build/vlsi_images/theory_nor.jpg 2 -
+/labs/cse14/final-build/faqs.html 1 -
+/labs/cse14/final-build/images/submenu_pics/theory.jpg 3 -
+/labs/cse14/final-build/vlsi_images/pmos_as_switch.jpg 1 -
+/labs/cse14/img/amo2009/bg/listing-item-red.png 5 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/cse14/final-build/passIntro1.jpg 5 -
+/labs/cse14/final-build/Exp7_Procedure.png 2 -
+/labs/cse14/final-build/images/submenu_pics/sim.jpg 3 -
+/labs/cse14/final-build/Exp7_TheoryImages/7.png 1 -
+/labs/cse14/final-build/elec_anal1.jpg 1 -
+/labs/cse14/final-build/vlsi_images/3rd.jpg 2 -
+/labs/cse14/final-build/t54.jpg 2 -
+/labs/cse14/final-build/exp9QuizFigures/image009.gif 2 -
+/labs/cse14/final-build/header_01.jpg 3 -
+/labs/cse14/final-build/LayoutExpTheroyImages/1.png 1 -
+/labs/cse14/final-build/images_site/nav-bar-sep.png 1 -
+/labs/cse14/final-build/symb_2_mux.jpg 8 -
+/labs/cse14/final-build/EXP_1sep2010/exp4/exp4.php 3 -
+/labs/cse14/final-build/index.php 55 http://www.vlab.co.in/search_institute.php
+/labs/cse14/final-build/faqs.php 5 -
+/labs/cse14/final-build/d_latch_td.jpg 80 -
+/labs/cse14/final-build/kmap_xor.png 2 -
+/labs/cse14/images/seperator.gif 42 http://deploy.virtual-labs.ac.in/labs/cse14/experimentHome.php
+/labs/cse14/final-build/vlsi_images/t2.jpg 1 -
+/labs/cse14/final-build/images_site/header_01.jpg 1 -
+/labs/cse14/final-build/images_site/panel.css 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/4.png 1 -
+/labs/cse14/final-build/EXP_1sep2010/exp7/exp7_size.html 2 -
+/labs/cse14/js/beethoven.js 62 http://deploy.virtual-labs.ac.in/labs/cse14/experimentHome.php
+/labs/cse14/final-build/images_site/forms.css 1 -
+/labs/cse14/final-build/elec_anal3.jpg 2 -
+/labs/cse14/img/amo2009/bg/body.jpg 5 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/cse14/final-build/LayoutExpTheroyImages/3.png 4 -
+/labs/cse14/final-build/ps3.jpg 7 -
+/labs/cse14/final-build/images/submenu_pics/object.jpeg 3 -
+/labs/cse14/final-build/vlsi_images/comp4.jpg 1 -
+/labs/cse14/final-build/d_ff_td.jpg 66 -
+/labs/cse14/final-build/truth_table_2mux.jpg 3 -
+/labs/cse14/final-build/images/submenu_pics/books.jpg 2 -
+/labs/cse14/bar.jpg 1 -
+/labs/cse14/final-build/nand.jpg 2 -
+/labs/cse14/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse14/exp1/index.html
+/images/quest.gif 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/aboutus.php
+/labs/cse14/final-build/spice1.jpg 1 -
+/labs/cse14/final-build/d_latch.jpg 22 -
+/labs/cse14/final-build/jquery.js 1 -
+/labs/cse14/exp1.jpg 1 -
+/labs/cse14/final-build/css/custom.css 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/vlsi_images/2nd.jpg 2 -
+/labs/cse14/final-build/js_site/functions.js 5 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/cse14/final-build/or.jpg 1 -
+/labs/cse14/final-build/d_latch_clk1.jpg 21 -
+/labs/cse14/final-build/EXP_1sep2010/exp5/exp5_mux.html 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/1.png 2 -
+/labs/cse14/final-build/preQuiz7php 1 -
+/labs/cse14/final-build/vlsi_images/pic5.jpg 1 -
+/labs/cse14/final-build/vlsi_images/comp1.jpg 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/5.png 1 -
+/labs/cse14/final-build/js/beethoven.js 27 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/exp9QuizFigures/image005.gif 3 -
+/labs/cse14/final-build/Exp7_TheoryImages/6.png 1 -
+/labs/cse14/final-build/td.jpg 12 -
+/labs/cse14/final-build/exp9QuizFigures/image003.gif 2 -
+/labs/cse14/final-build/nor_procedure.jpg 1 -
+/labs/cse14/final-build/index.ph 1 -
+/labs/cse14/final-build/vlsi_images/1st.jpg 1 -
+/labs/cse14/final-build/images_slide/IntroFig2.png 4 -
+/labs/cse14/final-build/images/submenu_pics/pro.jpg 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/3.png 1 -
+/labs/cse14/final-build/pre_quiz.jpg 1 -
+/labs/cse14/final-build/d_latch_q.jpg 71 -
+/labs/cse14/final-build/t.jpg 4 -
+/labs/cse14/final-build/vlsi_images/n01.jpg 1 -
+/labs/cse14/final-build/c.jpg 2 -
+/labs/cse14/final-build/images_site/style.css 1 -
+/labs/cse14/final-build/pass_transistor_s1.jpg 12 -
+/labs/cse14/images/hover.png 11 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/cse14/final-build/EXP_1sep2010/exp5/exp5_Pass_negative/exp5_Pass_negative.html 1 -
+/labs/cse14/final-build/procedure_pics/GTK_installation.png 1 -
+/labs/cse14/final-build/EXP_1sep2010/exp1/exp1.html 1 -
+/labs/cse14/final-build/Exp8_TheoryImages/2.png 2 -
+/labs/cse14/final-build/nor.jpg 2 -
+/labs/cse14/final-build/procedure_pics/DFFP-Procedure.png 1 -
+/labs/cse14/final-build/exp9QuizFigures/Exp9-Q6.jpg 2 -
+/labs/cse14/final-build/IntroFig1.png 4 -
+/labs/cse14/final-build/procedure_pics/DFFN-Procedure.png 2 -
+/labs/cse14/final-build/LayoutExpTheroyImages/4.png 1 -
+/labs/cse14/final-build/vlsi_images/t1.jpg 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/8.png 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/9.png 1 -
+/labs/cse14/final-build/Exp4Procedure.png 1 -
+/labs/cse14/final-build/Experiment.php 271 -
+/labs/cse14/final-build/ps2.jpg 1 -
+/labs/cse14/final-build/vlsi_images/DC_CHARC.jpg 15 -
+/labs/cse14/final-build/experimentHome.php 11 -
+/labs/cse14/final-build/images/submenu_pics/manual.jpeg 2 -
+/labs/cse14/final-build/cl1.jpg 1 -
+/labs/cse14/final-build/vlsi_images/p00.jpg 1 -
+/labs/cse14/final-build/direc.jpg 3 -
+/labs/cse14/final-build/images/submenu_pics/feedback.jpg 2 -
+/labs/cse14/final-build/Exp8_TheoryImages/3.png 2 -
+/labs/cse14/final-build/inverter_procedure.jpg 1 -
+/labs/cse14/final-build/vlsi_images/n10.jpg 1 -
+/labs/cse14/final-build/vlsi_images/n00.jpg 1 -
+/labs/cse14/index.html 6 http://virtual-labs.ac.in/labs/cse14/
+/labs/cse14/final-build/asyn.jpg 1 -
+/labs/cse14/final-build/EXP_1sep2010/exp3/exp3.html 1 -
+/labs/cse14/final-build/Exp9_Procedure.png 1 -
+/labs/cse14/final-build/vlsi_images/pic1.jpg 1 -
+/labs/cse14/final-build/vlsi_images/pic4.jpg 1 -
+/labs/cse14/final-build/vlsi_images/theory_nand.jpg 2 -
+/labs/cse14/exp1/PendulumForces.swf 1 -
+/labs/cse14/final-build/vlsi_images/n11.jpg 1 -
+/labs/cse14/final-build/exp9QuizFigures/Exp9-Q8.jpg 2 -
+/labs/cse14/final-build/images/seperator.gif 23 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/pl1.jpg 1 -
+/labs/cse14/final-build/pmos_imp.jpg 2 -
+/labs/img/amo2009/bg/body.jpg 30 http://deploy.virtual-labs.ac.in/labs/cse14/index.php
+/labs/cse14/preQuiz7php 1 -
+/labs/cse14/final-build/Exp7_TheoryImages/2.png 2 -
+/labs/img/amo2009/bg/header-border.png 31 http://deploy.virtual-labs.ac.in/labs/cse14/index.php
+/labs/cse14/final-build/EXP_1sep2010/exp9/exp9_flipflop_positive_verilog.html 1 -
+/labs/cse14/final-build/xor_procedure.jpg 1 -
+/labs/cse14/final-build/Exp8_TheoryImages/1.png 2 -
+/labs/cse14/final-build/d_latch_clk0.jpg 15 -
+/labs/cse14/final-build/ps1.jpg 1 -
+/labs/cse14/final-build/pos_edge_d.jpg 2 -
+/labs/cse14/final-build/vlsi_images/gen_parallel.jpg 1 -
+/labs/cse14/final-build/LayoutExpTheroyImages/2.png 2 -
+/labs/cse14/final-build/vlsi_images/4th.jpg 2 -
+/labs/cse14/final-build/procedure_pics/PositiveFlipFlop.bmp 1 -
+/labs/cse14/final-build/xnor_procedure.jpg 2 -
+/labs/cse14/final-build/vlsi_images/t3.jpg 1 -
+/labs/cse14/img/amo2009/bg/header-border.png 5 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/cse14/final-build/trans.jpg 3 -
+/labs/cse14/faqs.html 2 -
+/labs/cse14/kar2.jpg 1 -
+/labs/cse14/final-build/EXP_1sep2010/exp2/exp2.html 1 -
+/labs/cse14/final-build/nand_procedure.jpg 1 -
+/labs/cse14/final-build/nmos_imp.jpg 2 -
+/labs/cse14/final-build/vlsi_images/gen_series.jpg 1 -
+/labs/cse14/final-build/lex.jpg 2 -
+/labs/cse14/final-build/vlsi_images/pic2.jpg 1 -
+/labs/cse14/final-build/preQuiz5.php 2 -
+/labs/cse14/trtf.jpg 4 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/cse14/final-build/task.jpg 1 -
+/labs/cse14/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse14/js_site/functions.js 31 http://deploy.virtual-labs.ac.in/labs/cse14/index.php
+/labs/cse14/final-build/css/flexnav.css 27 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/post_quiz.jpg 2 -
+/labs/img/amo2009/bg/listing-item-red.png 29 http://deploy.virtual-labs.ac.in/labs/cse14/index.php
+/labs/cse14/final-build/images/hover.png 17 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse14/final-build/EXP_1sep2010/exp6/exp6_latch_positive.html 1 -
+/labs/cse14/css/flexnav.css 76 http://deploy.virtual-labs.ac.in/labs/cse14/experimentHome.php
+END_SIDER_404

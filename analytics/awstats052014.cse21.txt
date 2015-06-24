@@ -1,0 +1,255 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse21.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 3383                
+POS_DAY 3611                
+POS_DOMAIN 3802                
+POS_LOGIN 4029                
+POS_ROBOT 4184                
+POS_WORMS 4384                
+POS_EMAILSENDER 4515                
+POS_EMAILRECEIVER 4658                
+POS_SESSION 4734                
+POS_SIDER 4900                
+POS_FILETYPES 5107                
+POS_DOWNLOADS 5256                
+POS_OS 5304                
+POS_BROWSER 5402                
+POS_SCREENSIZE 5518                
+POS_UNKNOWNREFERER 5592                
+POS_UNKNOWNREFERERBROWSER 5679                
+POS_ORIGIN 5761                
+POS_SEREFERRALS 5892                
+POS_PAGEREFS 6047                
+POS_SEARCHWORDS 6195                
+POS_KEYWORDS 6387                
+POS_MISC 2331                
+POS_ERRORS 6494                
+POS_CLUSTER 3885                
+POS_SIDER_404 6580                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140603230705 254 58250 12641266099690
+FirstTime 20140525114514
+LastTime 20140528014536
+LastUpdate 20141015121646 254 0 253 0 0
+TotalVisits 5                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 3 5388
+1 3 36 1278144 1 1 3773
+2 0 0 0 1 1 1759
+3 0 0 0 0 3 5388
+4 0 0 0 1 1 2923
+5 0 0 0 2 2 6015
+6 0 0 0 1 1 4253
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 1 15 80338 0 3 5388
+11 3 10 26825 0 7 6684
+12 0 0 0 0 0 0
+13 0 0 0 1 2 5334
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 1 1 3163
+18 0 0 0 3 6 11835
+19 0 0 0 2 2 7757
+20 0 0 0 1 1 4132
+21 0 0 0 1 1 3240
+22 0 0 0 0 0 0
+23 0 0 0 1 4 8477
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+10.4.8.52 2 21 51438 20140528014536
+98.194.38.145 2 22 1243615 20140528014447
+203.59.120.139 2 16 83267 20140527115141
+37.254.6.136 1 2 6987 20140525114514
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140525 1 8 20967 1
+20140527 3 17 86196 2
+20140528 3 36 1278144 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 7 61 1385307
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 31 78640 20140531005808 0
+bingbot 3 5277 20140517184056 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 3
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/labs/cse21/exp2/ 3 10910 2 2
+/labs/cse21/exp1/ 3 9380 2 2
+/labs/cse21/exp7/ 1 4132 1 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 10 16327 0 0
+php 7 24422 0 0
+png 11 1256801 0 0
+jpg 30 73519 0 0
+gif 3 14238 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+winxp 8 1
+macosx9 36 3
+win7 17 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome35.0.1916.114 8 1
+chrome34.0.1847.137 39 5
+safari7.0.2 14 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 1
+From1 0 0
+From2 3 3
+From3 0 0
+From4 3 57
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+functionally+equivalent+ndvi+and+ipvi 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+ipvi 1
+functionally 1
+ndvi 1
+equivalent 1
+and 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 5 1592
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/labs/cse21/exp1/NewJApplet/class.class 2 -
+/labs/cse21/exp1/NewJApplet.class 2 -
+/labs/cse21/exp2/www.pep.uni-bremen.de/.../al-hazaimay_pres_tech_07_blackbody.ppt 1 -
+END_SIDER_404

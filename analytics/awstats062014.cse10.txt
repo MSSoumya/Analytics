@@ -1,0 +1,295 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse10.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2671                
+POS_VISITOR 3484                
+POS_DAY 3890                
+POS_DOMAIN 4244                
+POS_LOGIN 4471                
+POS_ROBOT 4626                
+POS_WORMS 4987                
+POS_EMAILSENDER 5118                
+POS_EMAILRECEIVER 5261                
+POS_SESSION 5337                
+POS_SIDER 5504                
+POS_FILETYPES 6116                
+POS_DOWNLOADS 6308                
+POS_OS 6474                
+POS_BROWSER 6614                
+POS_SCREENSIZE 6784                
+POS_UNKNOWNREFERER 6858                
+POS_UNKNOWNREFERERBROWSER 7129                
+POS_ORIGIN 7279                
+POS_SEREFERRALS 7411                
+POS_PAGEREFS 7575                
+POS_SEARCHWORDS 7723                
+POS_KEYWORDS 7885                
+POS_MISC 2335                
+POS_ERRORS 7954                
+POS_CLUSTER 4327                
+POS_SIDER_404 8042                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701062233 1338 256965 10078414715256
+FirstTime 20140611145456
+LastTime 20140628144944
+LastUpdate 20141013120542 1338 0 1337 0 0
+TotalVisits 7                   
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 30 407653
+1 0 0 0 3 23 148630
+2 0 0 0 4 16 97907
+3 0 0 0 4 12 393237
+4 0 0 0 1 16 147202
+5 0 0 0 2 15 268449
+6 0 0 0 4 19 399940
+7 0 1 1811 3 20 94534
+8 0 0 0 2 8 9974
+9 4 4 51052 5 15 368697
+10 1 2 14598 6 14 1442544
+11 0 1 1811 4 11 40251
+12 0 1 1811 4 26 901273
+13 0 0 0 2 9 106990
+14 18 21 254601 4 7 154341
+15 15 19 658413 6 38 1550370
+16 0 0 0 5 7 29116
+17 0 0 0 3 6 142123
+18 0 0 0 2 7 25542
+19 0 0 0 3 12 157904
+20 0 0 0 3 7 140475
+21 0 0 0 5 9 297091
+22 0 0 0 3 8 10851914
+23 0 2 7131 3 9 5326
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+81.19.188.230 15 16 173042 20140611145941
+37.122.209.69 15 18 656602 20140611154749
+180.183.203.15 4 4 51052 20140622092803
+10.4.8.52 2 7 38138 20140624101049
+65.55.211.242 1 1 13116 20140628144944
+176.9.7.169 1 1 52363 20140612142054
+65.55.218.48 0 1 1482 
+197.252.0.115 0 1 1811 
+96.241.206.216 0 1 1811 
+182.138.127.185 0 1 1811 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20140611 30 34 829644 2
+20140612 1 1 52363 1
+20140613 0 1 1811 0
+20140614 0 1 1811 0
+20140622 4 4 51052 1
+20140623 1 2 14598 1
+20140624 1 3 16409 1
+20140626 0 1 1811 0
+20140627 0 1 1811 0
+20140628 1 2 14598 1
+20140630 0 1 5320 0
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 38 51 991228
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+msnbot\-media 129 3308240 20140630134636 0
+bingpreview 55 369880 20140627075900 0
+bingbot 47 13548020 20140630010319 0
+googlebot 31 893605 20140628192704 0
+turnitinbot 1 6721 20140604164913 0
+baiduspider 1 12601 20140620032643 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+2mn-5mn 2
+0s-30s 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/labs/cse10/reg_cnt_design.html 7 130286 3 4
+/labs/cse10/ 4 62402 2 0
+/labs/cse10/comp.html 4 81597 1 0
+/labs/cse10/rca_design.html 3 117578 1 1
+/labs/cse10/win.jnlp 2 1356 0 2
+/labs/cse10/cla_design.html 2 63891 0 0
+/labs/cse10/simulator.jnlp 2 1372 0 0
+/labs/cse10/dmc.html 2 66072 0 0
+/labs/cse10/alu.html 2 59718 0 0
+/labs/cse10/wta.html 2 54525 0 0
+/labs/cse10/memory.html 2 60935 0 0
+/labs/cse10/booth.html 2 56714 0 0
+/labs/cse10/cmult.html 2 57123 0 0
+/labs/cse10/ac.html 2 61290 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 3 4446 0 0
+php 2 31201 0 0
+png 1 5320 0 0
+jnlp 4 2728 0 0
+html 32 840930 0 0
+jar 2 48762 0 0
+pdf 2 48786 0 0
+gif 5 9055 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/labs/cse10/manual-coa.pdf 5 0 800034
+/labs/cse10/coaSimulator.jar 4 0 11937524
+/labs/cse10/Simulator.jar 3 0 1417143
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 1 0
+winlong 6 3
+Unknown 34 30
+winvista 1 0
+linux 1 1
+win7 8 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+msie8.0 1 0
+konqueror3.2 1 1
+mozilla 19 15
+chrome35.0.1916.153 1 0
+android 1 0
+firefox4.0 4 4
+msie9.0 6 3
+Unknown 18 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154749
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20140611145941
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154749
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 33 37
+From1 0 0
+From2 1 7
+From3 0 0
+From4 4 7
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+bing 0 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+content 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+content 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+502 80 42416
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

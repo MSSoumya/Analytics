@@ -1,0 +1,851 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201312 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.vlead.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2685                
+POS_VISITOR 27329               
+POS_DAY 27491               
+POS_DOMAIN 3661                
+POS_LOGIN 3896                
+POS_ROBOT 4051                
+POS_WORMS 5417                
+POS_EMAILSENDER 5548                
+POS_EMAILRECEIVER 5691                
+POS_SESSION 28398               
+POS_SIDER 28610               
+POS_FILETYPES 5826                
+POS_DOWNLOADS 6133                
+POS_OS 6354                
+POS_BROWSER 6734                
+POS_SCREENSIZE 8731                
+POS_UNKNOWNREFERER 8805                
+POS_UNKNOWNREFERERBROWSER 10374               
+POS_ORIGIN 10820               
+POS_SEREFERRALS 10966               
+POS_PAGEREFS 11133               
+POS_SEARCHWORDS 19710               
+POS_KEYWORDS 20067               
+POS_MISC 2347                
+POS_ERRORS 20319               
+POS_CLUSTER 3752                
+POS_SIDER_404 20483               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140101000230 2197 449852 8540932196786
+FirstTime 20131201010044
+LastTime 20131231225148
+LastUpdate 20140101010103 1 0 0 0 0
+TotalVisits 316                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 755 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 108 352 10967047 463 575 8009229
+1 54 239 7584031 404 497 6674605
+2 50 162 10333935 463 530 7086138
+3 31 129 9640394 457 507 6152816
+4 62 66 1411375 464 524 4853220
+5 48 61 2089305 502 590 10988502
+6 63 104 9499630 451 532 8302676
+7 55 183 11839099 482 552 15693214
+8 60 215 12951168 458 571 6304819
+9 209 738 26169031 509 584 8489867
+10 317 1303 24601936 501 741 14362696
+11 236 2478 23176196 505 696 8187367
+12 201 1408 29143384 572 712 7559684
+13 114 667 25039987 567 679 7576283
+14 181 813 21970933 444 586 5042573
+15 140 867 23506347 470 650 10205726
+16 206 1162 26718957 532 740 12538053
+17 374 867 25185472 572 745 9931001
+18 129 970 26508032 466 647 10392193
+19 81 697 22347075 484 614 7284203
+20 109 648 26666216 519 674 6618685
+21 128 628 19964901 478 594 5754609
+22 312 616 28271364 514 655 7214637
+23 104 628 21196797 493 605 16185488
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3372 16001 444763628
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 33
+robot 8373 21414215 20131231235503 9
+googlebot 1598 68959070 20131231232315 119
+bingbot 677 15890902 20131231225933 251
+baiduspider 411 16404074 20131231232928 1
+yandex 402 15278626 20131231183017 104
+ezoom 286 4703105 20131231230218 138
+bot[\s_+:,\.\;\/\\-] 281 15391017 20131230122858 19
+bingpreview 161 5746209 20131230011349 0
+heritrix 129 3029989 20131212220219 5
+msnbot\-media 128 7792728 20131227065208 64
+commons\-httpclient 27 2153574 20131231104731 0
+no_user_agent 8 2026752 20131230073518 0
+spider 33 3342240 20131231010100 21
+php 27 490488 20131231190639 0
+[\s_+:,\.\;\/\\-]bot 2 113506 20131227064527 0
+msnbot 42 939578 20131230074548 21
+phantom 44 917824 20131228153341 0
+^java\/[0-9] 1 0 20131202021931 0
+facebook 13 395554 20131224234600 0
+yahooysmcm 1 56099 20131211200251 0
+cfnetwork 1 475269 20131230133000 0
+nutch 4 112873 20131219122242 2
+crawl 76 2409817 20131225124601 4
+r6\_ 2 56723 20131219112433 1
+ia_archiver 2 56204 20131217090545 1
+slurp 1 59 20131211200250 1
+unknown 9 531 20131225004128 9
+python 20 0 20131201191158 0
+feedburner 69 2343608 20131231205547 0
+favicon 2 112829 20131228180532 0
+archive\.org_bot 3 177 20131209152007 3
+mj12bot 43 776565 20131225030144 19
+netcraft 4 153124 20131215094541 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 2073 13954426 0 0
+png 3314 91956797 0 0
+pdf 53 93292241 0 0
+php 3293 66063391 0 0
+html 3 11989 0 0
+js 5221 49332234 0 0
+jpg 1731 119990155 0 0
+in 4 102201 0 0
+xml 5 5260 0 0
+jpeg 120 7235341 0 0
+Unknown 72 1511295 0 0
+gif 112 1308298 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/wp-content/uploads/2013/08/bare_conf.pdf 43 18 103220759
+/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 17 13 2430998
+/wiki/upload/5/5e/Workinghours_v1.1.pdf 2 0 229342
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+linuxandroid 365 62
+linuxredhat 35 4
+macosx6 44 3
+winlong 365 267
+winxp 2383 600
+win2000 10 10
+winvista 802 148
+win95 1 1
+winunknown 5 1
+win2003 2 1
+j2me 7 2
+macosx9 93 5
+macosx7 2 0
+winnt 2 2
+win98 4 0
+linuxubuntu 125 17
+linux 6516 1186
+win7 4885 992
+ios 4 4
+macosx 70 4
+macosx4 3 1
+Unknown 173 46
+macosx8 136 16
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 100
+chrome6.0.495.0 27 1
+firefox14.0 77 4
+msie6.0 416 159
+firefox3.6 240 239
+firefox26.0 783 58
+chrome30.0.1599.92 53 10
+sonyericsson 2 0
+chrome28.0.1500.94 29 1
+firefox4.0 5 5
+firefox18.0 4 2
+chrome31.0.1650.57 831 75
+chrome31.0.1650.63 2770 281
+chrome31.0.1650.48 1 0
+chrome23.0.1271.95 2 2
+firefox3.6.15 58 2
+chrome28.0.1500.72 9 8
+msie8.0 236 25
+chrome25.0.1364.160 52 7
+chrome24.0.1290.1 1 0
+chrome27.0.1453.93 32 9
+msie7.0 495 327
+firefox23.0 752 384
+chrome29.0.1547.66 51 3
+chrome31.0.1650.59 93 11
+chrome28.0.1500.63 6 4
+chrome33.0.1750.3 4 1
+wap 1 0
+firefox21.0 38 38
+lg\- 1 0
+safari6.0 2 0
+firefox3.5.2 4 4
+firefox7.0.1 32 2
+firefox3.6.4 35 4
+firefox12.0 198 8
+safari6.0.5 58 6
+chrome18.0.1025.142 1 0
+firefox25.0 5850 755
+mozilla 199 48
+netscape5.0 1 1
+chrome26.0.1410.64 9 1
+firefox14.0.1 37 7
+chrome22.0.1229.94 1 1
+chrome26.0.1410.63 2 2
+chrome17.0.963.12 1 1
+safari5.1.9 1 0
+firefox19.0 163 15
+safari 65 3
+firefox10.0.5 29 1
+safari7.0 2 0
+firefox5.0 1 1
+firefox20.0 98 15
+firefox3.0.7 5 0
+firefox15.0 38 2
+chrome31.0.1623.0 394 394
+chrome29.0.1547.76 9 2
+android 189 40
+firefox3.5.4 8 1
+firefox5.02 1 1
+chrome12.0.742.91 2 2
+chrome28.0.1500.95 4 1
+chrome33.0.1712.4 4 1
+firefox24.0 327 21
+opera9.80 136 43
+iphone 4 4
+firefox13.0.1 2 0
+firefox6.0.2 17 0
+chrome13.0.782.112 6 5
+chrome21.0.1180.79 4 1
+chrome33.0.1736.2 4 1
+firefox16.0 100 9
+chrome30.0.1599.66 1 0
+chrome17.0.963.83 41 3
+msie5.0 2 2
+chrome28.0.1500.52 4 3
+chrome26.0.1410.43 4 1
+msie9.0 144 65
+chrome18.0.1025.1634 2 2
+Unknown 18 11
+firefox27.0 39 6
+chrome30.0.1599.101 62 10
+chrome24.0.1312.52 34 2
+chrome30.0.1599.114 12 3
+firefox11.0 6 5
+chrome29.0.1547.22 109 5
+firefox17.0 80 15
+chrome12.0.733.0 1 0
+samsung 2 0
+chrome27.0.1453.110 117 98
+chrome28.0.1500.71 79 19
+chrome20.0.1132.57 48 3
+firefox22.0 33 32
+firefox3.6.28 3 1
+firefox5.0.1 4 4
+msie10.0 47 5
+firefox6.0 3 3
+safari5.1 1 1
+firefox3.6.12 8 2
+chrome5.0.356.2 3 0
+chrome27.0.1453.116 12 11
+firefox3.6.8 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 20
+Mozilla/4.0_(compatible;_Synapse),_-1' 20131207223736
+SAMSUNG-GT-S5292/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131224185031
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1528;_U;_en)_Presto/2.8.119_Version/11.10 20131213192306
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.788;_U;_en)_Presto/2.8.119_Version/11.10 20131217215737
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131210050758
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131201191200
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20131219111404
+Dorado_WAP-Browser/1.0.0/powerplay/2 20131225224956
+SAMSUNG-GT-C3312R/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131217183303
+SonyEricssonK800i/R1KG_Browser/NetFront/3.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131224235547
+M 20131226095611
+Micromax_X335C/Q03C_MAUI-Browser_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131208132511
+Mozilla/4.0_(compatible;_Synapse) 20131207223750
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20131216201708
+Disqus/1.0 20131219111403
+Mozilla/5.0_(compatible) 20131212010732
+Mozilla/5.0_(Android;_Mobile;_rv:25.0)_Gecko/25.0_Firefox/25.0 20131206200533
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131229183910
+Mozilla/6.0_(compatible) 20131212010732
+Mozilla/5.0_(compatible;_UptimeRobot/2.0;_http://www.uptimerobot.com/) 20131207110545
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+ZDM/4.0;_Windows_Mobile_8.0 20131230073520
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131229183910
+M 20131226095611
+Disqus/1.0 20131219111403
+Micromax_X335C/Q03C_MAUI-Browser_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131208132511
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20131216201708
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1047 2411
+From1 1 1
+From2 82 197
+From3 2240 13421
+From4 2 2
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 80 194
+bing 2 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 140
+http://vlead.vlabs.ac.in/wp-login.php 415 443
+http://vlead.vlabs.ac.in/wp-admin/post-new.php 360 516
+http://vlead.vlabs.ac.in 126 1443
+http://www.iiit.ac.in/news/notice/vlead_freshers_drive 76 76
+http://vlead.virtual-labs.ac.in/wiki/ 76 84
+http://www.iiit.ac.in/content/project-openings/vlead 75 75
+https://vlead.virtual-labs.ac.in/wiki/index.php/Welcome_to_VLEAD_wiki 68 73
+http://vlead.vlabs.ac.in/wp-admin/post.php 56 174
+http://vlead.vlabs.ac.in/2013/08/12/the-virtual-labs-project-an-overview/ 51 212
+https://vlead.virtual-labs.ac.in/wiki/index.php 50 50
+http://vlead.vlabs.ac.in/about-us/interns/ 18 542
+http://vlead.virtual-labs.ac.in/timeline/ 2 6
+https://vlead.virtual-labs.ac.in/activities/ 1 1
+http://vlead.vlabs.ac.in/wp-admin/customize.php 9 110
+http://vlabs.ac.in/index.php 1 1
+http://vlead.vlabs.ac.in/activities/ 23 208
+http://vlead.vlabs.ac.in/wp-admin/css/wp-admin.min.css 0 7
+http://vlead.vlabs.ac.in/about-us/team/www.manipal.edu%22 1 1
+https://vlead.virtual-labs.ac.in 32 305
+http://vlead.virtual-labs.ac.in/timeline/previous/ 0 2
+http://vlead.vlabs.ac.in/events/final-presentation-by-our-summer-interns/ 11 36
+https://vlead.virtual-labs.ac.in/wiki/ 7 8
+https://vlead.virtual-labs.ac.in/wiki/index.php/Source_code_editors 7 8
+http://vlead.vlabs.ac.in/wp-includes/css/admin-bar.min.css 0 1
+http://themes.blueboltlimited.com/jaguza/showcase/ 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Vlead.virtual-labs.ac.in 5 5
+http://vlead.virtual-labs.ac.in/wiki/index.php/Special:UserLogin 17 17
+http://virtual-labs.ac.in/index.php 48 48
+http://ui2.virtual-labs.ac.in/courses.php 1 1
+http://vlead.vlabs.ac.in/2013/06/28/first-monthly-presentation-by-our-summer-interns/ 13 130
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:RecentChanges 5 5
+http://www.linkedin.com/company/vlead 2 2
+http://vlead.vlabs.ac.in/wp-admin/css/colors-fresh.min.css 0 22
+http://vlead.vlabs.ac.in/join-us/ 26 641
+http://vlead.vlabs.ac.in/2013/09/ 0 64
+https://vlead.virtual-labs.ac.in/index.php 1 1
+http://vlead.vlabs.ac.in/wp-includes/css/editor.min.css 0 4
+http://www.linkedin.com/company/3293171 2 2
+https://vlead.virtual-labs.ac.in/wiki/index.php/Hitachi_storage_server 3 3
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 44 1019
+https://vlead.virtual-labs.ac.in/wiki/index.php/List_of_containers 10 10
+http://vlead.vlabs.ac.in/events/field-trial/ 0 5
+http://vlead.vlabs.ac.in/2013/07/18/ui-redesign/ 7 34
+http://iiit.ac.in/news/notice/vlead_freshers_drive 5 5
+https://www.facebook.com 4 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:Community_portal 8 8
+http://vlead.virtual-labs.ac.in/wiki/index.php 34 35
+https://vlead.virtual-labs.ac.in/wiki/index.php/Creating_new_project 3 3
+https://vlead.virtual-labs.ac.in/2013/07/16/final-presentation-by-summer-interns/ 3 15
+http://www.iiit.net/news/notice/vlead_freshers_drive 1 1
+https://www.facebook.com/l.php 0 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_repositories 7 7
+http://vlead.vlabs.ac.in/author/chandan/ 2 85
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 6 55
+http://www.vlabs.ac.in/index.php 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Base3 5 5
+https://vlead.virtual-labs.ac.in/events/freshers-recruitment-drive-sep-2013/ 0 465
+http://www.iiit.ac.in/news/notices 7 7
+https://vlead.virtual-labs.ac.in/2013/07/ 0 12
+https://vlead.virtual-labs.ac.in/wiki/index.php/User_related_processes 7 7
+http://vlead.virtual-labs.ac.in/2013/06/ 4 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Hiring_Process 3 3
+http://vlead.vlabs.ac.in/2013/06/28/rd-showcase-2013/ 3 25
+http://vlead.virtual-labs.ac.in/wp-login.php 15 15
+http://vlead.vlabs.ac.in/wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/window.css 0 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/Creating_a_new_user 3 3
+http://vlead.vlabs.ac.in/about-us/about-vlead/ 9 86
+https://vlead.virtual-labs.ac.in/about-us/interns/ 1 1
+http://developer.virtual-labs.ac.in 3 3
+http://vlead.vlabs.ac.in/about-us/team/ 43 885
+http://vlead.virtual-labs.ac.in/author/chandan/ 4 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Creating_a_new_project 3 3
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 42 534
+http://vlead.vlabs.ac.in/wp-includes/js/tinymce/plugins/wpeditimage/css/editimage.css 0 4
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 13 104
+http://vlead.vlabs.ac.in/2013/07/16/final-presentation-by-summer-interns/ 7 38
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 9 114
+http://www.virtual-labs.ac.in/index.php 1 1
+https://vlead.virtual-labs.ac.in/about-us/team/ 0 15
+https://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 2 2
+http://m.facebook.com/l.php 1 1
+http://vlead.virtual-labs.ac.in/phpmyadmin 0 13
+http://vlead.virtual-labs.ac.in/join-us/ 8 37
+http://webcache.googleusercontent.com/search 0 7
+http://vlead.vlabs.ac.in/wp-content/plugins/perfect-quotes/includes/style.css 0 78
+http://vlead.vlabs.ac.in/about-us/ 7 43
+http://vlead.vlabs.ac.in/contact-us/ 11 222
+http://vlead.vlabs.ac.in/wp-admin/nav-menus.php 4 11
+http://vlead.vlabs.ac.in/wiki/ 1 2
+http://vlead.virtual-labs.ac.in 32 1436
+http://vlead.virtual-labs.ac.in/timeline/current/ 0 2
+http://www.facebook.com/l.php 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/Accounts.virtual-labs.ac.in 3 3
+https://vlead.virtual-labs.ac.in/about-us/ 0 3
+http://vlead.virtual-labs.ac.in/about-us/about-vlead/ 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Induction_Process 4 4
+http://vlead.vlabs.ac.in/wp-includes/js/tinymce/plugins/wpeditimage/editimage.html 0 18
+http://vlead.vlabs.ac.in/events/first-presentation-by-our-summer-interns/ 1 22
+http://vlead.vlabs.ac.in/2013/10/ 1 30
+http://vlead.vlabs.ac.in/2013/12/ 0 5
+http://vlead.vlabs.ac.in/perfect-quotes/they-can-do-without-architecture-who-have-no-olives-nor-wines-in-the-cellar/ 1 21
+http://vlead.vlabs.ac.in/events/expert-committee-review/ 1 9
+https://vlead.virtual-labs.ac.in/wiki/index.php/Help:Contents 3 3
+http://vlead.vlabs.ac.in/events/freshers-recruitment-drive-sep-2013/ 7 107
+http://www.linkedin.com/company/VLEAD 4 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Developer.virtual-labs.ac.in 8 8
+http://vlead.vlabs.ac.in/wp-content/themes/jaguza/style.css 0 231
+https://vlead.virtual-labs.ac.in/wiki/index.php/Creating_new_project_in_developer_portal 23 24
+http://ui2.virtual-labs.ac.in/about.php 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Creating_new_group 7 7
+http://vlead.vlabs.ac.in/wp-admin/ 13 87
+http://vlead.vlabs.ac.in/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 8 88
+https://vlead.virtual-labs.ac.in/author/chandan/ 2 2
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 1 11
+http://vlead.vlabs.ac.in/2013/07/09/virtual-labs-on-amazon-cloud/ 12 31
+http://vlead.vlabs.ac.in/events/ 17 144
+http://vlead.vlabs.ac.in/page/2/ 2 62
+https://vlead.virtual-labs.ac.in/wiki/index.php/Versioning_(SVN,GIT_and_Bazaar)_over_HTTP 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/Software_application_or_server_specific_processes 8 8
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:Current_events 4 4
+http://vlead.vlabs.ac.in/wp-admin/load-styles.php 0 15
+http://vlead.vlabs.ac.in/wp-content/themes/twentythirteen/style.css 0 1
+http://vlead.vlabs.ac.in/author/jayashree/ 19 176
+http://vlead.vlabs.ac.in/events/summer-interns-orientation/ 1 21
+https://vlead.virtual-labs.ac.in/wp-login.php 1 1
+http://vlead.vlabs.ac.in/events/venues/iiit-hyderabad/ 2 143
+http://vlead.vlabs.ac.in/wp-admin/widgets.php 25 1052
+http://vlead.vlabs.ac.in/about-us/mission-and-vision/ 6 79
+https://vlead.virtual-labs.ac.in/2013/07/18/ui-redesign/ 5 7
+https://vlead.virtual-labs.ac.in/wiki/index.php/Member_profiles 7 7
+https://vlead.virtual-labs.ac.in/2013/08/ 6 6
+https://vlead.virtual-labs.ac.in/wiki/index.php/List_of_VLEAD_applications 28 28
+http://vlead.vlabs.ac.in/category/vlead-blog/ 2 5
+http://vlead.vlabs.ac.in/wp-admin/themes.php 9 45
+http://developer.vlabs.ac.in 1 1
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf 0 6
+http://vlead.vlabs.ac.in/wp-admin/edit.php 8 33
+http://vlead.virtual-labs.ac.in/2013/07/ 10 10
+http://vlead.vlabs.ac.in/events/venues/enhanceedu-classroom-vindhya-c3-203/ 0 24
+https://vlead.virtual-labs.ac.in/join-us/ 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+vlead 3
+virtual+architectural+engineering+school 1
+virtual+labs+hyderabad+hiring 1
+virtual+lab+project+india 1
+side+navigation+roll+out+with+bootstrap 1
+soujanya 1
+virtual+labs+at+iiith 1
+iiit+hyderabad 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+virtual 4
+vlead 3
+hyderabad 2
+labs 2
+india 1
+project 1
+bootstrap 1
+roll 1
+soujanya 1
+at 1
+school 1
+engineering 1
+architectural 1
+out 1
+iiit 1
+navigation 1
+hiring 1
+iiith 1
+side 1
+lab 1
+with 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+302 210 0
+206 115 6092975
+502 3 1666
+400 23 7107
+500 2 8262
+301 179 3358
+404 360 4433217
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 117
+/about-us/www.iiit.ac.in 1 -
+/ 29 -
+/wp-content/themes/twentytwelve/thumbopen.php 1 -
+/sitemap.xml 1 -
+/author/jayashree/images/stories/config.inc.php 2 -
+/wp-content/plugins/post-gallery/ 1 -
+/about-us/team/www.motorola.com/ 9 -
+/images/stories/config.inc.php 3 -
+/about-us/team/www.manipal.edu 1 -
+/2013/12/images/stories/3xp.php 8 -
+/wp-content/themes/twentytwelve/wplog.php 2 http://vlead.vlabs.ac.in/wp-content/themes/twentytwelve/wplog.php
+/wp-content/themes/twentytwelve/wplog.phpindex.php 2 http://vlead.vlabs.ac.in/wp-content/themes/twentytwelve/wplog.phpindex.php
+/wp-content/themes/twentytwelve/tools/timthumb/timthumb.php 1 -
+/wp-content/themes/twentytwelve/images/thumb.php 1 -
+//images/stories/explore.gif 1 -
+/wp-content/themes/twentytwelve/functions/timthumb.php 1 -
+/wp-content/themes/twentytwelve/getsubcat.php 1 -
+/about-us/team/www.iiit.ac.in 17 -
+/wp-content/themes/twentytwelve/function/scripts/thumb.php 1 -
+/about-us/team/www.mnnit.ac.in/%C3%A2%E2%82%AC%C5%BD 1 -
+/2013/12/index.php 6 -
+/wp-content/themes/twentytwelve/layouts/thumb.php 1 -
+/images/stories/food.php 1 -
+/wp-content/themes/twentytwelve/lib/thumb/thumb.php 1 -
+/about-us/team/www.manipal.edu%22 4 http://vlead.vlabs.ac.in/about-us/team/
+/wp-content/themes/twentytwelve/library/thumb/thumb.php 1 -
+/wp-content/themes/twentytwelve/tools/timthumb.php 1 -
+/activities/https://vlead.virtual-labs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 6 -
+/wp-content/themes/twentytwelve/includes/timthumb/timthumb.php 1 -
+/wp-content/themes/twentytwelve/library/functions/timthumb.php 1 -
+/wp-content/themes/u-design/scripts/timthumb.php 1 -
+/wp-content/themes/twentytwelve/framework/lib/thumb.php 1 -
+/2013/08/12/the-virtual-labs-project-an-overview/&sa 1 -
+/images/stories/dbot.php 1 -
+/wp-content/themes/twentytwelve/custom/timthumb.php 1 -
+/wp-content/themes/twentytwelve/framework/includes/timthumb.php 1 -
+/embed.js 5 -
+/register.php 1 https://vlead.virtual-labs.ac.in/
+/wp-content/themes/twentytwelve/utils/timthumb.php 1 -
+/wp-content/themes/twentytwelve/wpthemes.php 4 http://vlead.vlabs.ac.in/wp-content/themes/twentytwelve/wpthemes.php
+/wp-content/themes/twentytwelve/js/thumb.php 1 -
+/wp-content/themes/twentytwelve/lib/thumb/timthumb.php 1 -
+/activities/https:https://vlead.virtual-labs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 1 -
+/about-us/team/www.mnnit.ac.in/%E2%80%8E 10 -
+/wp-content/themes/twentytwelve/options/thumb.php 1 -
+/wp-content/themes/twentytwelve/functions/thumb.php 1 -
+/wp-content/themes/twentytwelve/utils/thumb.php 1 -
+/wp-content/themes/twentytwelve/layouts/timthumb.php 1 -
+/wp-content/themes/twentytwelve/includes/timthumb.php 1 -
+/wp-content/themes/twentytwelve/lib/timthumb/timthumb.php 1 -
+/wp-content/themes/twentytwelve/thumb/thumb.php 1 -
+/wp-content/themes/twentytwelve/lib/thumb.php 1 -
+/wp-content/themes/twentytwelve/scripts/timthumb/timthumb.php 1 -
+/servico/alocacao-ti 1 http://vlead.virtual-labs.ac.in/
+/wp-content/themes/twentytwelve/modules/thumb.php 1 -
+/wp-content/themes/twentytwelve/library/thumb.php 1 -
+/author/jayashree/images/stories/explore.gif 1 -
+/author/chandan/wp-content/themes/u-design/scripts/timthumb.php 1 -
+/wp-content/themes/twentytwelve/scripts/thumb/timthumb.php 1 -
+/wiki/index.php/Help:Contents 1 https://vlead.virtual-labs.ac.in/wiki/index.php/Developer.virtual-labs.ac.in
+/wp-content/themes/twentytwelve/tools/thumb/thumb.php 1 -
+/about-us/team/www.manipal.edu&quot 2 -
+/wp-content/themes/twentytwelve/framework/thumb/timthumb.php 1 -
+/2013/12/images/stories/cliti.php 1 -
+/about-us/team/www.mnnit.ac.in/%E2%EF%BF%BD%EF%BF%BD 2 -
+/wp-content/themes/twentytwelve/thumb.php 3 -
+/wp-content/themes/twentytwelve/scripts/thumb/thumb.php 1 -
+/wp-content/themes/twentytwelve/tools/thumb.php 1 -
+/2013/12/images/stories/config.inc.php 1 -
+/wp-content/themes/twentytwelve/img.php 1 -
+/wp-content/themes/twentytwelve/lib/custom/timthumb.php 1 -
+/about-us/team/www.manipal.edu\" 3 -
+/wp-content/themes/twentytwelve/library/timthumb/timthumb.php 1 -
+/https://vlead.virtual-labs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 1 -
+/author/chandan/&amp 1 -
+/wp-content/themes/twentytwelve/lib/custom/thumb.php 1 -
+/author/jayashree/index.php 6 -
+/wp-content/themes/twentytwelve/php/thumb.php 1 -
+//images/stories/3xp.php 8 -
+/wp-content/themes/twentytwelve/php/timthumb.php 1 -
+/wp-content/themes/twentytwelve/includes/thumb/thumb.php 1 -
+/wp-content/themes/twentytwelve/framework/thumb.php 1 -
+/images/stories/cliti.php 1 -
+/wp-content/themes/twentytwelve/classes/thumb.php 1 -
+/wp-content/themes/twentytwelve/tools/thumb/timthumb.php 1 -
+/wp-content/themes/twentytwelve/images/timthumb.php 1 -
+/wp-content/themes/twentytwelve/library/functions/thumb.php 1 -
+/about-us/team/www.infosys.com 14 -
+/wp-content/themes/twentytwelve/options/timthumb.php 1 -
+/author/mona/ 1 -
+/wp-content/themes/twentytwelve/library/thumb/timthumb.php 1 -
+/about-us/team/www.amity.edu 11 -
+/wp-content/themes/twentytwelve/framework/timthumb.php 1 -
+/wp-content/themes/twentytwelve/wpthemes.phpindex.php 4 http://vlead.vlabs.ac.in/wp-content/themes/twentytwelve/wpthemes.phpindex.php
+/wp-content/themes/twentytwelve/framework/includes/thumb.php 1 -
+/wp-content/themes/twentytwelve/functions/thumb/thumb.php 1 -
+/wp-content/themes/twentytwelve/functions/scripts/timthumb.php 1 -
+/author/jayashree/&amp 1 -
+/wp-content/themes/twentytwelve/library/timthumb.php 1 -
+/wp-content/themes/twentytwelve/js/timthumb.php 1 -
+/wp-content/themes/twentytwelve/classes/timthumb.php 1 -
+/wp-content/themes/twentytwelve/lib/scripts/thumb.php 1 -
+/wp-content/themes/twentytwelve/framework/lib/timthumb.php 1 -
+/wp-content/themes/twentytwelve/scripts/thumb.php 1 -
+/wiki/index.php/VLEAD_wiki:Community_portal 2 https://vlead.virtual-labs.ac.in/wiki/index.php/Help:Contents
+/wp-content/themes/twentytwelve/lib/timthumb.php 1 -
+/wp-content/themes/twentytwelve/inc/thumb.php 1 -
+/wp-content/themes/twentytwelve/timthumb/timthumb.php 1 -
+/wp-content/uploads/2013/12/vlab-arch-layers-500x425.jpg 1 http://vlead.vlabs.ac.in/
+/wp-content/themes/twentytwelve/includes/thumb/timthumb.php 1 -
+/phpmyadmin 1 -
+/wp-content/themes/twentytwelve/timthumb.php 3 -
+/wp-content/themes/twentytwelve/includes/thumb.php 1 -
+/wp-content/themes/twentytwelve/library/resource/thumb.php 1 -
+/wp-content/themes/twentytwelve/lib/scripts/timthumb.php 1 -
+/wp-content/themes/twentytwelve/functions/timthumb/timthumb.php 1 -
+/wiki/vlead_logo.png 104 https://vlead.virtual-labs.ac.in/wiki/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 3264 15459 415660948 20131231225148
+10.4.8.52 108 573 29102680 20131231224023
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131201 275 457 7108292 8
+20131202 57 230 6553232 11
+20131203 72 677 17120367 8
+20131204 110 814 24756243 9
+20131205 47 294 18648974 10
+20131206 85 554 12434127 8
+20131207 69 259 10092101 10
+20131208 29 187 7866840 8
+20131209 70 461 18580891 9
+20131210 114 710 17816148 7
+20131211 76 527 17000787 8
+20131212 150 572 25714519 8
+20131213 85 342 10632905 9
+20131214 86 178 9161010 7
+20131215 123 373 14587224 10
+20131216 162 618 22451301 11
+20131217 49 371 8642467 8
+20131218 54 286 13788526 6
+20131219 841 4490 47045141 9
+20131220 87 397 17937106 14
+20131221 29 71 1825514 10
+20131222 52 173 11839316 13
+20131223 63 422 19902588 9
+20131224 52 212 9613866 16
+20131225 54 170 7322417 11
+20131226 80 457 15806292 15
+20131227 68 431 11595669 12
+20131228 119 352 9543298 13
+20131229 77 136 8587329 12
+20131230 70 381 12864508 11
+20131231 67 399 9943614 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 85
+5mn-15mn 13
+30s-2mn 21
+2mn-5mn 16
+15mn-30mn 39
+0s-30s 89
+30mn-1h 53
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 101
+/wp-login.php 722 2662249 99 123
+/ 482 17940727 59 59
+/wp-admin/admin-ajax.php 393 234141 0 0
+/wiki/load.php 338 4591269 1 3
+/events/freshers-recruitment-drive-sep-2013/ 186 4903221 48 32
+/2013/08/14/rollout-of-the-new-website-design/ 136 3223072 20 22
+/2013/08/12/the-virtual-labs-project-an-overview/ 80 2429936 14 6
+/join-us/ 75 1909888 7 9
+/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 63 1225162 2 2
+/about-us/team/ 52 2332450 3 1
+/events/internal-review/ 7 183090 0 1
+/wp-admin/post-new.php 3 193454 0 0
+/events/final-presentation-by-our-summer-interns/ 15 306313 1 1
+/wiki/index.php/Special:UserLogin 7 89760 0 0
+/wp-admin/load-styles.php 8 224286 0 0
+/wiki/index.php/Welcome_to_VLEAD_wiki 14 255967 0 0
+/wiki/index.php/Creating_a_new_user 2 29196 0 0
+/events/expert-committee-review/ 8 210758 0 0
+/category/vlead-blog/ 3 94812 0 0
+/about-us/mission-and-vision/ 13 274193 0 0
+/events/venues/enhanceedu-classroom-vindhya-c3-203/ 1 24345 0 0
+/2013/06/28/first-monthly-presentation-by-our-summer-interns/feed/ 1 1006 0 0
+/wp-admin/async-upload.php 8 10909 0 0
+/wp-includes/js/tinymce/plugins/wpeditimage/editimage.html 3 11989 0 0
+/2013/06/28/rd-showcase-2013/ 7 143946 0 0
+/perfect-quotes/you-cannot-help-but-learn-more-as-you-take-the-world-into-your-hands-take-it-up-reverently-as-it-is-an-old-piece-of-clay-with-millions-of-thumbprint-on-it-john-updike/ 2 48246 1 1
+/events/first-presentation-by-our-summer-interns/ 3 55569 0 0
+/2013/09/ 10 255436 2 0
+/wp-admin/ 6 542370 0 0
+/wiki/index.php/User_related_processes 6 100151 0 0
+/comments/feed/ 7 8414 0 0
+/wiki/index.php/Developer.virtual-labs.ac.in 2 53550 0 0
+/wiki/index.php/Software_application_or_server_specific_processes 2 35503 0 0
+/perfect-quotes/they-can-do-without-architecture-who-have-no-olives-nor-wines-in-the-cellar/ 1 30325 0 0
+/wiki/index.php/Vlead.virtual-labs.ac.in 1 26338 0 0
+/wp-admin/post.php 8 681387 0 0
+/xmlrpc.php 24 310860 1 1
+/wiki/index.php/VLEAD_repositories 3 44587 0 0
+/2013/06/28/first-monthly-presentation-by-our-summer-interns/ 16 342154 1 1
+/about-us/ 19 403164 4 0
+/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 19 482577 0 1
+/wiki/index.php/Hiring_Process 1 17554 0 0
+/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 28 694981 4 5
+/wp-admin/widgets.php 7 2012765 0 0
+/2013/07/16/final-presentation-by-summer-interns/feed/ 1 941 0 0
+/wp-admin/nav-menus.php 1 156954 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 1 115518 0 0
+/wiki/index.php/Creating_new_group 2 35056 0 0
+/wiki/index.php/Induction_Process 1 18954 0 0
+/wiki/ 36 424838 3 0
+/2013/07/ 20 867196 4 5
+/2013/12/ 5 161649 1 0
+/wiki/index.php/Creating_new_project 1 16676 0 0
+/wp-admin/load-scripts.php 18 924374 0 0
+/2013/06/ 8 202908 1 0
+/2013/07/09/virtual-labs-on-amazon-cloud/ 23 573222 0 1
+/2013/08/12/the-virtual-labs-project-an-overview/feed/ 1 966 0 0
+/wiki/index.php/Creating_a_new_project 2 27470 0 0
+/wp-admin/customize.php 4 69338 0 0
+/wiki/index.php/Creating_new_project_in_developer_portal 5 69021 2 1
+/timeline/ 1 1325 0 0
+/wiki/index.php/Source_code_editors 2 26716 0 0
+/events/summer-interns-orientation/ 4 80476 0 0
+/2013/10/ 10 310800 0 3
+/events/internal-review/feed/ 1 866 0 0
+/wiki/index.php/Base3 1 15175 0 0
+/timeline/previous/ 2 3964 0 0
+/2013/06/28/rd-showcase-2013/feed/ 1 1304 0 0
+/contact-us/ 40 1305630 0 4
+/wiki/index.php/List_of_containers 3 93561 0 0
+/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/feed/ 1 1014 0 0
+/wiki/index.php/Special:RecentChanges 1 20377 0 0
+/contact-us/#wpcf7-f100-p97-o1 3 104665 0 0
+/page/2/ 3 113212 0 0
+/wiki/index.php/Member_profiles 3 45578 0 0
+/events/summer-interns-orientation/feed/ 2 1820 0 0
+/about-us/about-vlead/ 29 637774 0 0
+/events/field-trial/ 37 955369 1 5
+/timeline/current/ 2 3964 0 0
+/author/jayashree/ 31 2391497 9 5
+/events/venues/iiit-hyderabad/ 7 171472 0 0
+/wiki/index.php/Creating_new_user 2 35240 0 0
+/2013/07/18/ui-redesign/ 28 668832 1 1
+/wiki/index.php/VLEAD_wiki:Current_events 1 18862 0 0
+/wiki/index.php/Accounts.virtual-labs.ac.in 1 22313 0 0
+/events/ 34 912842 0 1
+/about-us/interns/ 36 1069300 7 5
+/wiki/index.php/List_of_VLEAD_applications 8 357696 0 0
+/2013/10/06/ 1 31095 0 0
+/category/uncategorized/ 2 152568 0 0
+/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 44 1341854 2 8
+/2013/07/16/final-presentation-by-summer-interns/ 20 459757 3 0
+/events/final-presentation-by-our-summer-interns/feed/ 1 966 0 0
+/activities/ 33 916816 0 0
+/2013/08/ 18 696858 9 1
+/wp-admin/edit.php 3 245642 0 0
+/wiki/index.php/Hitachi_storage_server 1 36093 0 0
+/wp-admin/themes.php 4 228296 0 0
+/wiki/index.php/Versioning_(SVN,GIT_and_Bazaar)_over_HTTP 1 17437 0 0
+/author/chandan/ 27 870917 6 8
+/events/field-trial/feed/ 2 1782 0 0
+END_SIDER

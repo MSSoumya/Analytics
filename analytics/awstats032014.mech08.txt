@@ -1,0 +1,259 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.mech08.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2668                
+POS_VISITOR 3440                
+POS_DAY 3619                
+POS_DOMAIN 3833                
+POS_LOGIN 4059                
+POS_ROBOT 4214                
+POS_WORMS 4460                
+POS_EMAILSENDER 4591                
+POS_EMAILRECEIVER 4734                
+POS_SESSION 4810                
+POS_SIDER 4956                
+POS_FILETYPES 5199                
+POS_DOWNLOADS 5379                
+POS_OS 5563                
+POS_BROWSER 5670                
+POS_SCREENSIZE 5784                
+POS_UNKNOWNREFERER 5858                
+POS_UNKNOWNREFERERBROWSER 5945                
+POS_ORIGIN 6027                
+POS_SEREFERRALS 6159                
+POS_PAGEREFS 6312                
+POS_SEARCHWORDS 6460                
+POS_KEYWORDS 6638                
+POS_MISC 2332                
+POS_ERRORS 6729                
+POS_CLUSTER 3915                
+POS_SIDER_404 6835                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140401223228 282 62192 11223808111076
+FirstTime 20140305213751
+LastTime 20140319124105
+LastUpdate 20141015121706 282 0 281 0 0
+TotalVisits 3                   
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 6 713058
+1 0 0 0 1 4 181649
+2 0 0 0 3 4 4102
+3 0 0 0 1 4 21672
+4 0 0 0 3 4 3168
+5 0 0 0 2 5 1230157
+6 0 0 0 3 3 5798
+7 0 0 0 3 6 102685
+8 0 0 0 2 5 67240
+9 0 1 37225 0 4 61757
+10 0 0 0 1 2 24390
+11 0 1 0 5 7 1204853
+12 2 37 381648 4 5 3255
+13 0 0 0 4 5 26938
+14 0 0 0 3 4 604343
+15 0 0 0 1 2 36737
+16 0 0 0 3 4 41879
+17 2 26 271838 3 5 82881
+18 0 0 0 2 2 2592
+19 0 0 0 3 7 6751622
+20 0 0 0 2 4 23363
+21 1 22 307381 5 6 13301
+22 0 0 0 1 1 2927
+23 0 0 0 3 5 78684
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+10.4.8.52 3 48 579219 20140313172827
+106.220.106.252 2 37 381648 20140319124105
+203.241.223.134 0 2 37225 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20140305 1 22 307381 1
+20140311 0 2 37225 0
+20140313 2 26 271838 1
+20140319 2 37 381648 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5 87 998092
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bingbot 58 3878153 20140330105217 0
+googlebot 24 7109709 20140331083229 0
+msnbot\-media 9 293692 20140331011312 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/labs/mech08/home%20page.html 2 4582 1 1
+/labs/mech08/ 2 284 1 1
+/labs/mech08/Contact%20angle%20Measurement.html 1 2648 1 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 2 284 0 0
+css 6 63774 0 0
+png 14 318893 0 0
+html 3 7230 0 0
+jpg 18 346776 0 0
+js 39 156573 0 0
+gif 5 104562 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/labs/mech08/nfm.wmv 3 0 7898839
+/labs/mech08/cmf.wmv 2 0 1202214
+/labs/mech08/ffm.wmv 1 0 600383
+/labs/mech08/impedance.wmv 1 0 632381
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+linuxandroid 37 2
+winvista 22 1
+win7 28 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+chrome33.0.1750.146 22 1
+android 37 2
+msie7.0 2 0
+msie10.0 26 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4 14
+From1 0 0
+From2 1 1
+From3 0 0
+From4 0 72
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+contact+angle+of+uhmwpe 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+of 1
+uhmwpe 1
+angle 1
+contact 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 2 828
+502 8 4112
+301 1 257
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

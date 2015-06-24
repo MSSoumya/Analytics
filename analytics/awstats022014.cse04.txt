@@ -1,0 +1,535 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse04.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2672                
+POS_VISITOR 3654                
+POS_DAY 3853                
+POS_DOMAIN 4510                
+POS_LOGIN 4743                
+POS_ROBOT 4898                
+POS_WORMS 5530                
+POS_EMAILSENDER 5661                
+POS_EMAILRECEIVER 5804                
+POS_SESSION 5880                
+POS_SIDER 6091                
+POS_FILETYPES 13464               
+POS_DOWNLOADS 13693               
+POS_OS 13786               
+POS_BROWSER 14103               
+POS_SCREENSIZE 15545               
+POS_UNKNOWNREFERER 15619               
+POS_UNKNOWNREFERERBROWSER 16249               
+POS_ORIGIN 16331               
+POS_SEREFERRALS 16476               
+POS_PAGEREFS 16633               
+POS_SEARCHWORDS 17010               
+POS_KEYWORDS 17162               
+POS_MISC 2336                
+POS_ERRORS 17221               
+POS_CLUSTER 4599                
+POS_SIDER_404 17357               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301002518 5592 1511640 13833325479317
+FirstTime 20140208191756
+LastTime 20140228194047
+LastUpdate 20141009162816 5592 0 5591 0 0
+TotalVisits 162                 
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 54 253 757618 22 36 41946
+1 55 119 424967 42 69 91425
+2 14 74 286594 8 15 53727
+3 9 45 112935 17 18 72295
+4 12 14 53263 15 24 65476
+5 15 71 276041 23 36 60822
+6 9 46 117030 11 15 46628
+7 9 49 120717 16 19 58377
+8 11 81 195058 10 10 48424
+9 49 209 629854 12 30 82199
+10 40 205 927970 14 23 53370
+11 82 349 1096118 4 15 40184
+12 108 353 1093867 40 83 55511
+13 72 417 1732742 17 34 129908
+14 89 376 1137584 22 44 111463
+15 64 295 896833 10 18 36216
+16 46 240 743721 8 15 38066
+17 67 267 869588 31 58 90884
+18 35 193 699437 16 27 56460
+19 67 300 1022942 22 43 142396
+20 51 198 672720 11 25 60142
+21 42 200 650865 22 70 124406
+22 76 283 940806 33 48 73096
+23 28 157 474582 13 19 50649
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+10.4.12.236 714 2782 9339833 20140228194047
+10.4.8.52 387 1996 6552604 20140228142945
+14.139.249.203 3 16 41415 20140218202217
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 9 43 116214 4
+20140209 60 126 398162 5
+20140210 105 593 1923939 14
+20140211 53 309 1112053 9
+20140212 52 202 664504 7
+20140213 48 234 738208 9
+20140214 32 219 733972 5
+20140215 30 147 783859 6
+20140216 58 263 837056 6
+20140217 58 274 730567 12
+20140218 12 108 330883 6
+20140219 47 269 883574 9
+20140220 63 290 874005 13
+20140221 138 404 1332399 9
+20140222 61 217 693881 4
+20140223 16 80 295996 4
+20140224 91 299 1069737 10
+20140225 29 158 461834 8
+20140226 76 317 1182060 9
+20140227 42 161 472624 9
+20140228 24 81 298325 4
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1104 4794 15933852
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 205 708398 20140228234111 0
+robot 91 306508 20140228233827 0
+bingbot 74 182994 20140228170635 0
+msnbot\-media 21 81382 20140228034130 0
+baiduspider 16 43133 20140227042537 0
+favicon 15 58890 20140228225934 0
+no_user_agent 7 40083 20140226141451 0
+exabot 7 24415 20140221011901 0
+bingpreview 6 13280 20140227025912 0
+[\s_+:,\.\;\/\\-]bot 6 63702 20140227224819 0
+ia_archiver 1 9490 20140221170201 0
+msnbot 2 6472 20140219172407 0
+slurp 1 3268 20140228145518 0
+ezoom 1 9490 20140213112036 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 12
+2mn-5mn 7
+15mn-30mn 12
+30s-2mn 36
+0s-30s 60
+30mn-1h 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 146
+/labs/cse04/ 548 2051593 148 81
+/labs/cse04/exp1/ 113 451052 2 26
+/labs/cse04/exp2/ 59 230435 3 6
+/labs/cse04/exp4/ 45 224670 1 7
+/labs/cse04/exp5/ 42 260615 2 6
+/labs/cse04/exp3/ 27 146231 0 1
+/labs/cse04/exp6/ 27 99620 0 5
+/labs/cse04/exp8/ 16 56348 0 0
+/labs/cse04/exp9/ 16 64036 0 3
+/labs/cse04/exp1/lab.html 15 47655 2 8
+/labs/cse04/exp5/submission145523482.html 1 3269 0 0
+/labs/cse04/exp4/submission397300188.html 1 2997 0 0
+/labs/cse04/exp5/getHint.py 9 2396 0 0
+/labs/cse04/exp4/submission439368242.html 1 3036 0 0
+/labs/cse04/exp4/submission211028395.html 1 3083 0 0
+/labs/cse04/exp1/submission459232214.html 1 3009 0 0
+/labs/cse04/exp4/submission835395397.html 1 3070 0 0
+/labs/cse04/exp1/submission319827836.html 1 3122 0 0
+/labs/cse04/exp9/getHint.py 3 974 0 1
+/labs/cse04/exp2/submission473862169.html 1 3119 0 1
+/labs/cse04/exp4/submission901986165.html 1 3490 0 0
+/labs/cse04/exp9/submission572838898.html 1 3352 0 0
+/labs/cse04/exp4/submission154112947.html 1 4064 0 0
+/labs/cse04/exp4/submission935235761.html 1 3110 0 0
+/labs/cse04/exp4/submission925660543.html 1 3074 0 0
+/labs/cse04/exp4/submission672111174.html 1 3109 0 0
+/labs/cse04/exp10/ 9 43166 2 3
+/labs/cse04/exp4/submission225546264.html 1 2995 0 0
+/labs/cse04/exp4/lab.html 6 25142 0 3
+/labs/cse04/exp5/lab.html 4 12812 0 2
+/labs/cse04/exp1/submission599077606.html 1 3122 0 0
+/labs/cse04/exp4/submission918063675.html 1 3110 0 0
+/labs/cse04/exp4/submission854399084.html 1 3074 0 0
+/labs/cse04/exp1/submission402931618.html 1 3161 0 0
+/labs/cse04/exp4/submission273516178.html 1 3603 0 0
+/labs/cse04/exp4/submission191054937.html 1 4064 0 0
+/labs/cse04/exp6/lab.html 3 9600 0 2
+/labs/cse04/exp4/submission172357217.html 1 3034 0 0
+/labs/cse04/exp4/submission657623362.html 1 3027 0 0
+/labs/cse04/exp1/submission881956362.html 1 3062 0 0
+/labs/cse04/exp1/prob_desc.html 1 1168 0 0
+/labs/cse04/exp2/submission370232500.html 1 3002 0 0
+/labs/cse04/exp4/submission166215599.html 1 3071 1 0
+/labs/cse04/exp1/submission555075342.html 1 3247 0 0
+/labs/cse04/exp2/prob_desc.html 5 4512 0 0
+/labs/cse04/exp2/getHint.py 2 511 0 1
+/labs/cse04/exp9/submission896012550.html 1 3352 1 0
+/labs/cse04/exp1/submission968378540.html 1 3161 0 0
+/labs/cse04/exp2/submission306791632.html 1 3002 0 0
+/labs/cse04/exp5/submission161439367.html 1 3209 0 0
+/labs/cse04/exp2/lab.html 7 22442 0 2
+/labs/cse04/exp8/lab.html 2 6418 0 0
+/labs/cse04/exp4/submission440058355.html 1 3143 0 0
+/labs/cse04/exp1/submission893606296.html 1 3065 0 0
+/labs/cse04/exp5/submission862474120.html 1 3443 0 0
+/labs/cse04/exp4/submission818407612.html 1 3142 0 0
+/labs/cse04/exp4/submission619727723.html 1 3125 0 0
+/labs/cse04/exp4/submission496264857.html 1 3074 0 0
+/labs/cse04/exp1/submission843216971.html 1 3118 0 0
+/labs/cse04/exp4/submission492912795.html 1 3074 0 0
+/labs/cse04/exp1/submission686166383.html 1 3101 0 0
+/labs/cse04/exp4/submission215117478.html 1 3075 0 0
+/labs/cse04/exp4/submission572682745.html 1 4060 0 0
+/labs/cse04/exp4/submission342563829.html 1 2997 0 0
+/labs/cse04/exp3/lab.html 2 12341 0 0
+/labs/cse04/exp1/submission128835318.html 1 3004 0 0
+/labs/cse04/exp5/submission255980819.html 1 3208 0 0
+/labs/cse04/exp4/submission445304079.html 1 2996 0 0
+/labs/cse04/exp1/submission798730184.html 1 3173 0 0
+/labs/cse04/exp4/submission841013470.html 1 2997 0 0
+/labs/cse04/exp1/submission780676554.html 1 3161 0 0
+/labs/cse04/exp1/submission066229219.html 1 3124 0 0
+/labs/cse04/exp1/submission059326002.html 1 3101 0 0
+/labs/cse04/exp2/submission838967829.html 1 3001 0 0
+/labs/cse04/exp5/submission484902135.html 1 3332 0 0
+/labs/cse04/exp4/submission028887708.html 1 3511 0 0
+/labs/cse04/exp1/submission426558926.html 1 3246 0 0
+/labs/cse04/exp5/submission749605423.html 1 3260 0 0
+/labs/cse04/exp9/lab.html 1 3201 0 0
+/labs/cse04/exp4/getHint.py 9 1722 0 0
+/labs/cse04/exp1/submission507836016.html 1 3175 0 0
+/labs/cse04/exp1/submission886044940.html 1 3065 0 0
+/labs/cse04/exp4/submission311926584.html 1 2997 0 0
+/labs/cse04/exp4/submission822946776.html 1 3948 0 0
+/labs/cse04/exp4/save.php 1 68 0 0
+/labs/cse04/exp1/submission660597183.html 1 3109 0 0
+/labs/cse04/exp4/submission831710803.html 1 3491 0 0
+/labs/cse04/exp1/submission360599623.html 1 3055 0 0
+/labs/cse04/exp1/submission268468797.html 1 3101 0 0
+/labs/cse04/exp1/submission087374112.html 1 3159 0 0
+/labs/cse04/exp1/submission054590413.html 1 3122 0 0
+/labs/cse04/exp4/submission613928966.html 1 3001 0 0
+/labs/cse04/exp1/submission044162060.html 1 3128 0 0
+/labs/cse04/exp9/submission883147132.html 1 2999 0 0
+/labs/cse04/exp1/submission171786396.html 1 3047 0 0
+/labs/cse04/exp4/submission338073465.html 1 3951 0 0
+/labs/cse04/exp5/submission682450345.html 1 3332 0 1
+/labs/cse04/exp4/submission842957310.html 1 3952 0 0
+/labs/cse04/exp1/submission739084217.html 1 3172 0 0
+/labs/cse04/exp4/submission728696617.html 1 3626 0 0
+/labs/cse04/exp1/submission910343189.html 1 3142 0 1
+/labs/cse04/exp1/submission015319550.html 1 3175 0 0
+/labs/cse04/exp4/submission799311158.html 1 3135 0 0
+/labs/cse04/exp2/submission220222740.html 1 3033 0 0
+/labs/cse04/exp9/submission739214798.html 1 3374 0 0
+/labs/cse04/exp4/submission630427458.html 1 4062 0 0
+/labs/cse04/exp4/submission353273608.html 1 3950 0 0
+/labs/cse04/exp1/save.php 1 84 0 0
+/labs/cse04/exp2/submission831604865.html 1 3001 0 0
+/labs/cse04/exp4/submission115822050.html 1 3699 0 0
+/labs/cse04/exp5/submission862762734.html 1 3332 0 0
+/labs/cse04/exp4/submission298133197.html 1 3953 0 0
+/labs/cse04/exp1/submission810402163.html 1 3064 0 0
+/labs/cse04/exp4/submission215939689.html 1 3620 0 0
+/labs/cse04/exp1/submission125227178.html 1 3173 0 0
+/labs/cse04/exp9/submission306157229.html 1 3375 0 0
+/labs/cse04/exp7/ 7 26684 0 1
+/labs/cse04/exp1/submission260665092.html 1 3069 0 0
+/labs/cse04/exp1/submission210167104.html 1 3004 0 0
+/labs/cse04/exp4/submission871593591.html 1 3036 0 0
+/labs/cse04/exp4/submission644267934.html 1 3377 0 0
+/labs/cse04/exp1/submission366256251.html 1 3234 0 0
+/labs/cse04/exp4/submission586321415.html 1 4062 0 0
+/labs/cse04/exp1/submission981103568.html 1 3171 0 0
+/labs/cse04/exp4/submission718311986.html 1 3076 0 0
+/labs/cse04/exp1/submission714001233.html 1 3012 0 0
+/labs/cse04/exp4/submission094570888.html 1 2989 0 0
+/labs/cse04/exp4/submission847736253.html 1 4063 0 0
+/labs/cse04/exp1/submission295039888.html 1 3204 0 0
+/labs/cse04/exp1/submission141871925.html 1 3009 0 0
+/labs/cse04/exp4/submission867604965.html 1 3947 0 0
+/labs/cse04/exp5/submission993689010.html 1 3169 0 0
+/labs/cse04/exp4/submission802095182.html 1 3033 0 0
+/labs/cse04/exp1/submission450885941.html 1 3122 0 1
+/labs/cse04/exp1/submission221130505.html 1 3122 0 0
+/labs/cse04/exp1/submission087399130.html 1 3178 0 0
+/labs/cse04/exp1/submission180794802.html 1 3160 0 0
+/labs/cse04/exp5/submission761497386.html 1 3384 0 0
+/labs/cse04/exp5/submission545810007.html 1 3451 0 0
+/labs/cse04/exp1/getHint.py 6 920 0 0
+/labs/cse04/exp5/submission631529134.html 1 3325 0 0
+/labs/cse04/exp1/submission992095755.html 1 3013 0 0
+/labs/cse04/exp1/submission878283339.html 1 3012 0 0
+/labs/cse04/exp4/submission430073770.html 1 8531 0 0
+/labs/cse04/exp4/submission052138694.html 1 8477 0 0
+/labs/cse04/exp4/submission237984965.html 1 4061 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 768 1382080 0 0
+png 16 40160 0 0
+txt 1 68 0 0
+php 911 3654602 0 0
+html 164 539831 0 0
+py 29 6523 0 0
+jpg 1884 4583732 0 0
+js 204 4220474 0 0
+gif 817 1506382 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/labs/cse04/exp4/upload/savedFile.txt 1 0 68
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+blackberry 16 3
+linuxandroid 83 12
+macosx6 13 1
+winxp 932 227
+winlong 75 25
+winvista 755 233
+winunknown 5 0
+win2003 62 12
+j2me 61 7
+macosx9 67 18
+macosx7 46 9
+java 20 3
+win98 16 7
+linuxubuntu 16 5
+linux 432 100
+win7 2050 416
+macosx 59 18
+Unknown 86 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 70
+safari5.0.3 5 0
+msie6.0 33 24
+firefox28.0 68 11
+chrome27.0.1453.94 12 1
+ibrowse 14 1
+firefox26.0 276 40
+chrome4.0.211.7 21 2
+chrome28.0.1500.94 12 1
+chrome31.0.1650.26 12 1
+firefox18.0 25 3
+chrome31.0.1650.57 16 3
+chrome31.0.1650.63 136 31
+chrome9.0.597.19 48 11
+chrome33.0.1729.3 13 1
+safari7.0.1 21 7
+chrome29.0.1547.65 20 7
+chrome31.0.1622.7 62 11
+chrome32.0.1700.99 17 4
+chrome28.0.1500.72 18 3
+msie8.0 71 11
+firefox23.0 29 5
+safari7.1.0.336 16 3
+firefox3.0 68 20
+firefox21.0 16 2
+firefox7.0.1 18 4
+chrome32.0.1700.107 1361 371
+firefox25.0 12 1
+safari6.0.4 46 9
+mozilla 42 6
+chrome33.0.1750.117 457 128
+chrome32.0.1700.77 31 6
+chrome32.0.1700.76 12 1
+firefox14.0.1 149 62
+chrome33.0.1750.58 12 1
+safari5.1.9 13 1
+firefox15.0.1 26 4
+safari7.0 30 15
+firefox20.0 80 19
+chrome29.0.1547.76 16 3
+android 54 7
+chrome23.0.1271.6 13 2
+chrome4.0.302.2 15 4
+chrome30.0.1566.2 51 11
+chrome33.0.1712.4 5 1
+firefox24.0 69 19
+opera9.80 113 11
+chrome32.0.1700.102 45 8
+firefox13.0.1 44 7
+firefox16.0 48 11
+chrome25.2.0.0 25 1
+chrome26.0.1410.43 42 5
+msie9.0 27 3
+firefox27.0 474 107
+chrome3.0.195.1 16 3
+chrome30.0.1599.101 1 1
+firefox11.0 71 10
+chrome10.0.642.2 44 7
+firefox3.5.1 12 1
+samsung 20 3
+chrome32.0.1700.123 6 0
+firefox30.0 47 10
+chrome34.0.1788.0 16 3
+chrome18.0.966.0 1 1
+chrome2.0.172.43 2 2
+nokia 20 3
+firefox22.0 29 5
+msie10.0 89 13
+safari5.1 29 3
+chrome3.0.190.1 16 3
+firefox3.6.8 16 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/34.1088;_U;_en)_Presto/2.8.119_Version/11.10 20140215081530
+SAMSUNG-GT-C3312/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_UNTRUSTED/1.0 20140210180933
+Mozilla/5.0_(Series40;_Nokia112/03.26;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.2.0.0.6 20140214152723
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140218085656
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140227002659
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 129 443
+From1 0 0
+From2 14 14
+From3 128 140
+From4 833 4197
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 14 14
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.virtual-labs.ac.in/labs/cse04/ 112 112
+http://virtual-labs.ac.in/labs/cse04/ 10 10
+http://www.iprojectideas.com 4 4
+http://www.giacr.ac.in//vlabs.html 1 1
+http://www.giacr.ac.in/vlabs.html 1 1
+http://blog.a11y.in 0 12
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 127 9398
+206 32 73183
+502 1 518
+500 5 3780
+404 175 45686
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/labs/cse04/exp4/jqminmax.js 64 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/submission841013470.html
+/labs/cse04/exp2/jqminmax.js 20 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/lab.html
+/labs/cse04/exp2/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/index.php
+/labs/cse04/exp8/jqminmax.js 2 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/lab.html
+/labs/cse04/exp3/jqminmax.js 2 http://deploy.virtual-labs.ac.in/labs/cse04/exp3/lab.html
+/labs/cse04/exp9/jqminmax.js 5 http://deploy.virtual-labs.ac.in/labs/cse04/exp9/submission306157229.html
+/labs/cse04/undefined 4 http://deploy.virtual-labs.ac.in/labs/cse04/index.php
+/labs/cse04/exp6/jqminmax.js 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp6/lab.html
+/labs/cse04/exp1/jqminmax.js 57 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/submission459232214.html
+/labs/cse04/exp5/jqminmax.js 16 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/lab.html
+/labs/cse04/exp5/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/index.php
+END_SIDER_404

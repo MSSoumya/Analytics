@@ -1,0 +1,433 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ccnsb05.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1987                
+POS_TIME 2673                
+POS_VISITOR 3532                
+POS_DAY 4946                
+POS_DOMAIN 5599                
+POS_LOGIN 5829                
+POS_ROBOT 5984                
+POS_WORMS 6257                
+POS_EMAILSENDER 6388                
+POS_EMAILRECEIVER 6531                
+POS_SESSION 6607                
+POS_SIDER 6775                
+POS_FILETYPES 8042                
+POS_DOWNLOADS 8304                
+POS_OS 8619                
+POS_BROWSER 8815                
+POS_SCREENSIZE 9294                
+POS_UNKNOWNREFERER 9368                
+POS_UNKNOWNREFERERBROWSER 9664                
+POS_ORIGIN 9825                
+POS_SEREFERRALS 9961                
+POS_PAGEREFS 10129               
+POS_SEARCHWORDS 10321               
+POS_KEYWORDS 10548               
+POS_MISC 2337                
+POS_ERRORS 10701               
+POS_CLUSTER 5685                
+POS_SIDER_404 10810               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140501072710 2113 540999 12446936517095
+FirstTime 20140402141620
+LastTime 20140430181847
+LastUpdate 20141015124758 2113 0 2112 0 0
+TotalVisits 22                  
+TotalUnique 12                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 2 2334265 2 2 2108
+1 0 0 0 0 1 2510
+2 0 1 769776 3 6 35477
+3 0 1 440320 3 5 542199
+4 5 15 1018830 3 5 526316
+5 0 0 0 2 2 58559
+6 3 8 45357 0 3 1548953
+7 0 2 1210096 4 43 763684
+8 1 2 446783 0 0 0
+9 0 3 3172745 3 12 591278
+10 10 44 1619314 4 6 16538
+11 0 0 0 0 0 0
+12 7 34 1628065 1 3 2079
+13 2 3 1726802 2 3 108569
+14 6 35 155517 1 1 513
+15 0 3 1685481 1 2 2208615
+16 6 30 960879 3 6 2133
+17 1 2 441997 0 1 51565
+18 6 40 251662 0 0 0
+19 9 57 2777036 0 2 15591
+20 5 13 1731512 0 2 0
+21 14 70 1092726 0 2 106719
+22 0 0 0 1 2 769776
+23 0 2 2864552 2 5 64269
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+10.4.8.52 38 244 6944219 20140430181847
+202.191.146.198 7 33 1143449 20140415124052
+115.242.162.11 6 29 191103 20140404162618
+130.226.56.2 6 33 914072 20140421193854
+117.240.170.194 4 33 151049 20140402141738
+131.251.254.55 3 20 125831 20140429211352
+14.141.78.204 3 14 73984 20140419105452
+65.55.215.249 3 8 45357 20140422060614
+117.225.210.5 2 4 66210 20140411204931
+41.222.181.147 1 1 1976 20140418181939
+41.222.181.136 0 1 4746 
+188.165.208.83 0 1 484616 
+41.222.181.131 0 1 25076 
+177.3.89.159 0 1 440320 
+41.222.181.151 0 1 3336 
+173.208.205.106 0 1 769776 
+23.27.252.201 0 1 769776 
+122.168.25.244 0 6 794441 
+41.222.181.154 0 2 5677 
+198.50.254.220 0 1 769776 
+41.222.181.130 0 1 497 
+41.222.181.146 0 1 24606 
+14.139.126.167 0 1 80393 
+211.205.72.27 0 5 845396 
+41.222.181.159 1 1 1529 20140418181942
+68.68.99.146 0 1 769776 
+59.163.216.167 0 2 802544 
+41.222.181.148 0 1 1852 
+66.249.80.216 0 1 440320 
+41.222.181.150 0 1 106 
+122.166.140.126 0 13 842169 
+41.222.181.133 1 2 8614 20140418181942
+41.222.181.144 0 1 5347 
+41.222.181.155 0 1 2297 
+93.61.52.149 0 1 769776 
+173.208.182.162 0 1 769776 
+41.222.181.135 0 1 1780 
+27.150.198.230 0 1 440320 
+125.164.107.39 0 1 106448 
+14.139.212.226 0 1 106448 
+78.7.25.122 0 1 769776 
+5.133.50.52 0 1 769776 
+117.209.213.215 0 1 440320 
+41.222.181.138 0 2 4623 
+41.222.181.142 0 2 33769 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20140402 4 35 363945 1
+20140404 6 31 1730655 1
+20140405 0 1 769776 0
+20140406 1 2 112911 1
+20140409 3 20 210075 1
+20140410 0 1 440320 0
+20140411 2 6 1276306 1
+20140412 3 21 1377713 1
+20140414 0 3 3534769 0
+20140415 15 64 1987023 2
+20140416 5 14 912382 1
+20140418 3 21 1690320 3
+20140419 3 14 73984 1
+20140421 13 64 2899722 2
+20140422 3 8 45357 1
+20140423 1 1 1677 1
+20140424 2 2 114857 1
+20140425 0 1 1619945 0
+20140426 3 10 1584909 1
+20140427 0 1 1611945 0
+20140428 0 1 440320 0
+20140429 3 21 1759024 1
+20140430 5 25 1815780 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 75 367 21763048
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 44 7267321 20140429093732 0
+bingbot 21 125684 20140427045055 0
+msnbot\-media 3 5928 20140421073122 0
+slurp 1 1976 20140410072002 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+30s-2mn 7
+0s-30s 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/labs/ccnsb05/ 16 35922 14 1
+/labs/ccnsb05/default.html 15 28997 1 4
+/labs/ccnsb05/content.html 15 128447 1 7
+/labs/ccnsb05/exp2/quiz.php 2 4468 1 1
+/labs/ccnsb05/exp1/default.html 2 18222 0 1
+/labs/ccnsb05/exp1/content.html 2 33365 0 0
+/labs/ccnsb05/exp1/ 2 7802 0 0
+/labs/ccnsb05/exp1/quiz.php 2 8140 2 2
+/labs/ccnsb05/exp10/content.html 1 6829 0 0
+/labs/ccnsb05/exp2/emanim_cd_new.py 1 58420 0 1
+/labs/ccnsb05/exp3/content.html 1 5896 0 0
+/labs/ccnsb05/exp10/experiment/sample1/page4.html 1 1055 0 1
+/labs/ccnsb05/exp10/experiment/sample1/graph.php 1 3037 0 0
+/labs/ccnsb05/exp10/experiment/sample1/page6.html 1 868 1 0
+/labs/ccnsb05/exp1/swf.html 1 196 0 1
+/labs/ccnsb05/exp9/experiment/page2.html 1 1403 1 0
+/labs/ccnsb05/exp2/emanim_ord.py 1 56437 1 0
+/labs/ccnsb05/exp5/content.html 1 11568 0 0
+/labs/ccnsb05/exp10/ 1 2174 0 0
+/labs/ccnsb05/exp5/default.html 1 3737 0 0
+/labs/ccnsb05/exp5/swf.html 1 132 0 1
+/labs/ccnsb05/exp3/default.html 1 3737 0 1
+/labs/ccnsb05/exp5/ 1 2177 0 0
+/labs/ccnsb05/exp10/experiment/ 1 788 0 0
+/labs/ccnsb05/exp9/experiment/ 1 735 0 1
+/labs/ccnsb05/exp3/ 1 2174 0 0
+/labs/ccnsb05/exp10/default.html 1 3737 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 48 98456 0 0
+png 26 365313 0 0
+pdf 19 13681979 0 0
+swf 6 1347991 0 0
+php 6 20762 0 0
+py 2 114857 0 0
+html 67 294844 0 0
+jpg 136 2944275 0 0
+js 37 714437 0 0
+doc 4 1761280 0 0
+gif 16 418854 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/labs/ccnsb05/exp3/Organic_chemical_applications_of_MCD.pdf 22 113 15539084
+/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc 5 0 2201600
+/labs/ccnsb05/exp1/Polarimetry_ORD_CD_Chapter.pdf 2 0 969232
+/labs/ccnsb05/exp3/ORD_of_chlorophyll.pdf 1 0 741282
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 24 5
+winxp 99 17
+unix 20 3
+linux 33 3
+winvista 100 9
+win7 165 28
+macosx 19 3
+winunknown 1 1
+win2003 16 6
+Unknown 3 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 24
+safari7.0 19 3
+msie6.0 3 0
+firefox28.0 35 3
+chrome33.0.1750.149 33 7
+android 24 5
+firefox21.0 2 0
+chrome27.0.1453.110 1 0
+netscape4.05 1 0
+chrome9.0.597 1 0
+chrome32.0.1700.107 1 0
+msie8.0 67 10
+chrome30.0.1599.13014 1 0
+mozilla 29 6
+chrome33.0.1750.117 1 1
+msie7.0 24 9
+firefox22.0 2 0
+msie10.0 48 1
+chrome34.0.1847.116 141 27
+firefox3.6.12 1 0
+chrome33.0.1750.154 18 0
+msie9.0 5 0
+Unknown 21 3
+firefox27.0 1 0
+firefox11.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140410071240
+Mozilla/4.05_[en]_(WinXP;_I) 20140402192625
+HttpComponents/1.1 20140412122812
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+http://Anonymouse.org/_(Unix) 20140409192147
+HttpComponents/1.1 20140412122812
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 12 97
+From1 0 0
+From2 5 28
+From3 6 6
+From4 52 349
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 5 15
+search 0 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/labs/ccnsb05/ 6 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+why+ordinary+light+have+vibrations+in+many+planes 1
+defolding+of+protien 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+defolding 1
+of 1
+light 1
+many 1
+protien 1
+planes 1
+vibrations 1
+in 1
+have 1
+why 1
+ordinary 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 1 5117
+502 1 543
+404 42 10882
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 40
+/labs/ccnsb05/exp1/image_25.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_32.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_9.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_3.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_20.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_6.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_17.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp3/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp3/index.html
+/labs/ccnsb05/exp1/image_1.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_5.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_7.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_24.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_34.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_19.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_16.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_15.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_18.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_23.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_12.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_2.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_26.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_11.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp5/index.html
+/labs/ccnsb05/exp1/image_30.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_4.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_13.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/index.html
+/labs/ccnsb05/exp1/image_22.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_0.jpeg 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp10/index.html
+/labs/ccnsb05/exp1/image_28.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_29.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_10.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_33.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_21.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_31.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_27.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp3/index.html
+/labs/ccnsb05/exp1/image_14.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+/labs/ccnsb05/exp1/image_8.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc
+END_SIDER_404

@@ -1,0 +1,320 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ece08.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 3426                
+POS_DAY 3576                
+POS_DOMAIN 3769                
+POS_LOGIN 3997                
+POS_ROBOT 4152                
+POS_WORMS 4403                
+POS_EMAILSENDER 4534                
+POS_EMAILRECEIVER 4677                
+POS_SESSION 4753                
+POS_SIDER 4909                
+POS_FILETYPES 5500                
+POS_DOWNLOADS 5663                
+POS_OS 5711                
+POS_BROWSER 5797                
+POS_SCREENSIZE 5897                
+POS_UNKNOWNREFERER 5971                
+POS_UNKNOWNREFERERBROWSER 6058                
+POS_ORIGIN 6140                
+POS_SEREFERRALS 6271                
+POS_PAGEREFS 6426                
+POS_SEARCHWORDS 6574                
+POS_KEYWORDS 6726                
+POS_MISC 2331                
+POS_ERRORS 6785                
+POS_CLUSTER 3853                
+POS_SIDER_404 6873                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801050705 291 67584 19366243703369
+FirstTime 20140717164848
+LastTime 20140729011456
+LastUpdate 20141015121703 291 0 290 0 0
+TotalVisits 3                   
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 4 1077
+1 6 23 626843 4 21 18106
+2 0 0 0 8 11 26324
+3 0 0 0 10 15 35181
+4 0 0 0 5 12 58711
+5 0 0 0 10 23 45816
+6 0 0 0 4 6 14007
+7 0 0 0 3 5 11234
+8 0 0 0 6 11 23063
+9 0 0 0 3 12 21669
+10 0 0 0 7 11 23363
+11 0 0 0 4 7 12865
+12 0 0 0 3 7 11936
+13 3 20 616887 2 14 5582
+14 0 0 0 4 5 16579
+15 0 0 0 0 1 266
+16 3 20 616909 0 4 1058
+17 0 0 0 4 8 17960
+18 0 0 0 0 1 266
+19 0 0 0 0 3 812
+20 0 0 0 0 0 0
+21 0 0 0 0 3 820
+22 0 0 0 7 11 28282
+23 0 0 0 0 3 805
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.8.52 6 40 1233796 20140718132523
+148.164.14.1 6 23 626843 20140729011456
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140717 3 20 616909 1
+20140718 3 20 616887 1
+20140729 6 23 626843 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 12 63 1860639
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 101 340770 20140731055357 0
+baiduspider 2 4186 20140729025255 0
+bot[\s_+:,\.\;\/\\-] 1 5441 20140714140053 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/labs/ece08/exp6(c)/ 1 2093 1 0
+/labs/ece08/exp6(c)/default.html 1 3740 0 0
+/labs/ece08/exp1(a)/ 1 2093 1 0
+/labs/ece08/exp1(a)/content.html 1 4806 0 1
+/labs/ece08/exp2/default.html 1 3740 0 0
+/labs/ece08/exp1(a)/default.html 1 3740 0 0
+/labs/ece08/exp6(d)/default.html 1 3740 0 0
+/labs/ece08/exp6(d)/content.html 1 3874 0 1
+/labs/ece08/exp2/content.html 1 4784 0 1
+/labs/ece08/exp6(c)/content.html 1 5033 0 0
+/labs/ece08/exp2/ 1 2093 1 0
+/labs/ece08/exp6(d)/ 1 2093 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 9 16341 0 0
+png 3 7530 0 0
+html 12 41829 0 0
+jpg 33 1681281 0 0
+js 3 99420 0 0
+gif 3 14238 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+winxp 20 3
+win7 43 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 2
+chrome36.0.1985.125 23 6
+chrome35.0.1916.153 40 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2 5
+From1 0 0
+From2 2 2
+From3 0 0
+From4 8 56
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 94 25385
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 68
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/a.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp7(b)/PendulumForces.swf 2 -
+/labs/ece08/exp8/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp8/index.html
+/labs/ece08/exp6(e)/PendulumForces.swf 1 -
+/home/vlabs/ece08/src/lab/exp2/Application.exe 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp2/index.html
+/labs/ece08/exp6(e)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/userfiles/6/image/untitled2.JPG 3 http://deploy.virtual-labs.ac.in/labs/ece08/exp2/index.html
+/labs/ece08/exp5/PendulumForces.swf 1 -
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/7.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/tr.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/new.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp9(a)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp1(b)/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp1(b)/index.html
+/labs/ece08/exp6(g)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(g)/index.html
+/labs/ece08/exp6(b)/PendulumForces.swf 2 -
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/6.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp2/PendulumForces.swf 1 -
+/labs/ece08/exp6(c)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/userfiles/image003%287%29.png 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp1(a)/index.html
+/labs/ece08/exp8/PendulumForces.swf 1 -
+/home/vlabs/ece08/src/lab/exp6(d)/userfiles/aaa.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(d)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/1.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp6(f)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp6(g)/PendulumForces.swf 2 -
+/labs/ece08/exp9(a)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp9(a)/index.html
+/home/vlabs/ece08/src/lab/exp6(d)/userfiles/aaa(1).jpg 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(d)/index.html
+/labs/ece08/exp6(a)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(a)/index.html
+/labs/ece08/exp6(d)/PendulumForces.swf 2 -
+/labs/ece08/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp2/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ece08/exp2/index.html
+/labs/ece08/exp4/PendulumForces.swf 2 -
+/labs/ece08/exp6(f)/PendulumForces.swf 2 -
+/labs/ece08/exp7(a)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp4/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp4/index.html
+/labs/ece08/exp1(b)/PendulumForces.swf 2 -
+/labs/ece08/exp9(b)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp9(b)/PendulumForces.swf 2 -
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/4.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp6(a)/PendulumForces.swf 1 -
+/labs/ece08/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp5/index.html
+/userfiles/image016%284%29.png 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp1(a)/index.html
+/labs/ece08/exp9(a)/PendulumForces.swf 2 -
+/labs/ece08/exp6(c)/PendulumForces.swf 1 -
+/home/vlabs/ece08/exp1(a)/userfiles/img.jpg 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp1(a)/index.html
+/home/vlabs/ece08/src/lab/exp2/userfiles/untitled(2).jpg 3 http://deploy.virtual-labs.ac.in/labs/ece08/exp2/index.html
+/labs/ece08/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp7(b)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp7(b)/index.html
+/labs/ece08/exp6(e)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(e)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/2.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp1(a)/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp1(a)/index.html
+/labs/ece08/exp6(f)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(f)/index.html
+/labs/ece08/exp9(b)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp9(b)/index.html
+/labs/ece08/exp6(g)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp1(a)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp7(a)/PendulumForces.swf 2 -
+/labs/ece08/exp6(b)/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(b)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/8.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/labs/ece08/exp6(d)/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(d)/index.html
+/labs/ece08/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp1(a)/PendulumForces.swf 1 -
+/labs/ece08/exp1(b)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece08/exp6(c)/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/5.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/aa.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+/home/vlabs/ece08/src/lab/exp2/userfiles/untitled.JPG 3 http://deploy.virtual-labs.ac.in/labs/ece08/exp2/index.html
+/labs/ece08/exp7(a)/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp7(a)/index.html
+/home/vlabs/ece08/src/lab/exp6(c)/userfiles/3.JPG 1 http://deploy.virtual-labs.ac.in/labs/ece08/exp6(c)/index.html
+END_SIDER_404

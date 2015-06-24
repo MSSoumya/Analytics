@@ -1,0 +1,425 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.newcse01.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2675                
+POS_VISITOR 3652                
+POS_DAY 3813                
+POS_DOMAIN 4492                
+POS_LOGIN 4725                
+POS_ROBOT 4880                
+POS_WORMS 5567                
+POS_EMAILSENDER 5698                
+POS_EMAILRECEIVER 5841                
+POS_SESSION 5917                
+POS_SIDER 6129                
+POS_FILETYPES 7190                
+POS_DOWNLOADS 7481                
+POS_OS 8150                
+POS_BROWSER 8444                
+POS_SCREENSIZE 9727                
+POS_UNKNOWNREFERER 9801                
+POS_UNKNOWNREFERERBROWSER 10335               
+POS_ORIGIN 10683               
+POS_SEREFERRALS 10828               
+POS_PAGEREFS 10994               
+POS_SEARCHWORDS 11343               
+POS_KEYWORDS 11565               
+POS_MISC 2339                
+POS_ERRORS 11703               
+POS_CLUSTER 4581                
+POS_SIDER_404 11814               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301000219 6490 1683908 11396905342943
+FirstTime 20140208184307
+LastTime 20140228193840
+LastUpdate 20141009162146 6490 0 6489 0 0
+TotalVisits 191                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 110 357340 8 15 82182
+1 48 124 468996 6 8 21049
+2 13 65 163141 7 14 200402
+3 8 37 106904 4 8 16594
+4 8 48 122580 8 12 36910
+5 11 27 94807 8 12 36061
+6 12 50 167106 12 14 35316
+7 11 38 99079 6 10 33849
+8 31 113 6608610 5 7 19026
+9 127 311 1844018 4 7 34717
+10 79 344 1063152 5 15 31293
+11 142 474 1498980 7 10 32019
+12 117 401 1494300 8 14 33792
+13 189 617 2189855 6 19 38404
+14 167 656 1829388 13 26 122631
+15 152 526 5820718 8 20 136768
+16 116 389 2304620 11 22 107074
+17 102 390 1282153 5 9 19638
+18 94 299 958279 7 14 26646
+19 66 186 676428 11 14 48427
+20 90 273 783086 8 8 29793
+21 75 283 1355519 10 16 41271
+22 113 246 1629999 8 9 23708
+23 44 131 1419325 12 14 51813
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 1090 3517 21118937 20140228193840
+10.4.8.52 755 2643 11321981 20140228193508
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 83 184 1411242 4
+20140209 72 185 650613 10
+20140210 105 310 1261752 8
+20140211 62 227 737613 8
+20140212 175 532 2152743 15
+20140213 111 354 1491845 8
+20140214 69 207 1650956 9
+20140215 62 224 1984423 11
+20140216 19 77 2157150 6
+20140217 173 428 1823964 11
+20140218 29 100 826912 5
+20140219 83 295 1138833 8
+20140220 160 537 1472848 9
+20140221 90 308 1126582 10
+20140222 48 230 6945988 8
+20140223 63 220 796344 8
+20140224 88 348 1022173 9
+20140225 62 257 1312988 9
+20140226 177 570 2655228 15
+20140227 59 212 604055 10
+20140228 55 333 1114131 10
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1845 6138 32440918
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+googlebot 115 501252 20140228125956 0
+bingbot 47 130915 20140227212559 0
+robot 44 160613 20140228230546 0
+baiduspider 13 50929 20140227072935 0
+favicon 11 43791 20140228205714 0
+ia_archiver 9 73534 20140224140335 0
+no_user_agent 6 183895 20140222162856 0
+msnbot\-media 6 20947 20140224211808 0
+bingpreview 4 10966 20140210143833 0
+^mozilla\/4\.0 \(compatible;\)$ 4 0 20140222081420 0
+commons\-httpclient 1 16220 20140225090919 0
+^java\/[0-9] 1 0 20140225090918 0
+slurp 2 6389 20140218031929 0
+ezoom 1 9548 20140213043448 0
+yandex 2 6560 20140221143023 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 23
+5mn-15mn 17
+2mn-5mn 29
+15mn-30mn 11
+30s-2mn 42
+0s-30s 46
+30mn-1h 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/labs/cse01/ 769 2819390 174 71
+/labs/cse01/exp1/ 265 1155403 4 22
+/labs/cse01/exp3/ 199 773621 2 16
+/labs/cse01/exp2/ 118 490818 2 6
+/labs/cse01/exp7/ 80 321915 2 7
+/labs/cse01/exp5/ 70 279064 4 12
+/labs/cse01/exp4/ 49 264051 1 4
+/labs/cse01/exp8/ 38 136065 1 7
+/labs/cse01/exp6/ 36 124911 0 3
+/labs/cse01/exp1/UnarySystem.html 36 23368 0 8
+/labs/cse01/exp3/merge.html 17 10613 0 1
+/labs/cse01/exp3/quick.html 26 17870 0 5
+/labs/cse01/exp2/calc3.html 24 16160 0 6
+/labs/cse01/exp6/exptree.html 8 4473 0 5
+/labs/cse01/exp5/binarySearchTree.html 10 6460 0 2
+/labs/cse01/exp4/polynomial.html 3 1280 0 1
+/labs/cse01/exp9/ 24 94863 0 2
+/labs/cse01/exp3/merge 1 636 0 0
+/labs/cse01/exp3/insertion.html 18 11914 0 3
+/labs/cse01/exp7/DFS_BFS.html 14 8588 0 4
+/labs/cse01/exp1/RomanSystem.html 12 8612 0 0
+/labs/cse01/exp9/MinimumSpanningTree.html 5 3250 0 2
+/labs/cse01/exp1/BinarySystem.html 17 11382 0 3
+/labs/cse01/exp8/Dijkstra.html 6 4287 1 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 874 1508198 0 0
+png 9 22590 0 0
+pdf 5 566848 0 0
+ppt 13 5157310 0 0
+txt 61 11287 0 0
+swf 224 5106713 0 0
+php 1648 6460101 0 0
+html 196 128257 0 0
+jpg 2783 5776536 0 0
+Unknown 1 636 0 0
+gz 1 6269150 0 0
+gif 323 1433292 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 15
+/labs/cse01/exp3/quick_pscode.txt 27 0 898
+/labs/cse01/exp3/insertion_pscode.txt 18 0 648
+/labs/cse01/exp3/merge_pscode.txt 17 0 9775
+/labs/cse01/exp1/slides-week1.ppt 6 4 946291
+/labs/cse01/exp6/slides-etree.ppt 4 12 3016838
+/labs/cse01/exp2/slides-week4.ppt 1 2 436070
+/labs/cse01/exp2/week4.pdf 1 0 37620
+/labs/cse01.tar.gz 1 0 6269150
+/labs/cse01/exp7/DFSBFS.ppt 1 0 333312
+/labs/cse01/exp3/slides-week3.ppt 1 0 351744
+/labs/cse01/exp1/week1.pdf 1 0 55657
+/labs/cse01/exp3/week3.pdf 1 0 55682
+/labs/cse01/exp4/Linkedlist.pdf 1 0 26734
+/labs/cse01/exp7/IntroGraphs.ppt 1 2 240991
+/labs/cse01/exp8/tree.pdf 1 2 391155
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 88 24
+winlong 105 31
+winxp 1517 481
+symbian 26 3
+win2000 14 2
+winvista 938 355
+winunknown 37 19
+j2me 25 9
+macosx9 83 22
+macosx7 17 3
+linuxubuntu 24 5
+win98 17 7
+linux 379 122
+win7 2745 735
+macosx 95 22
+Unknown 50 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 63
+msie6.0 77 25
+safari7.0 14 2
+firefox28.0 106 32
+firefox5.0 13 1
+firefox20.0 81 19
+chrome24.0.1312.32 19 5
+firefox3.6 54 35
+chrome29.0.1547.76 21 6
+firefox26.0 331 87
+android 75 23
+chrome12.0.742.5 53 16
+chrome28.0.1478.0 59 33
+chrome28.0.1500.95 25 10
+safari3.1.1 4 4
+chrome13.0.782.13 45 25
+chrome31.0.1650.63 441 187
+firefox24.0 36 18
+opera9.80 52 18
+chrome23.0.1271.95 29 11
+chrome33.0.1750.46 36 9
+chrome28.0.1500.72 3 0
+msie8.0 281 70
+chrome5.0.375.9 21 6
+firefox6.0.2 1 0
+chrome32.0.1700.102 129 28
+konqueror3.2 1 1
+msie7.0 48 10
+firefox23.0 85 19
+chrome28.0.1500.52 46 10
+chrome29.0.1547.66 12 1
+msie9.0 132 27
+chrome33.0.1750.5 20 5
+chrome18.0.1025.1634 1 1
+Unknown 54 14
+chrome31.0.1650.59 13 1
+firefox27.0 614 168
+firefox11.0 15 3
+firefox17.0 22 6
+firefox3.0 45 28
+samsung 29 4
+firefox21.0 80 29
+safari6.0 18 2
+chrome27.0.1453.110 34 8
+firefox7.0.1 16 4
+firefox12.0 27 3
+chrome34.0.1788.0 1 0
+chrome32.0.1700.107 1663 482
+chrome26.0.1410.5 19 5
+nokia 26 3
+firefox25.0 86 20
+mozilla 55 21
+chrome33.0.1750.117 645 182
+chrome20.0.1105.2 1 1
+firefox14.0.1 51 22
+firefox22.0 43 25
+firefox5.0.1 13 1
+msie10.0 38 11
+safari4.0.4 33 4
+safari5.1 26 10
+firefox3.6.12 19 3
+chrome23.0.1271.1 14 2
+firefox19.0 49 15
+firefox15.0.1 60 24
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+http://www.ShowMyCode.com 20140222104056
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140215153339
+SAMSUNG-GT-C3312/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_UNTRUSTED/1.0 20140210181301
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.3;_en-US;_Karbonn_A6)_U2/1.0.0_UCBrowser/9.0.2.389_U2/1.0.0_Mobile 20140225104110
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140228163340
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+http://www.ShowMyCode.com 20140222104056
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.3;_en-US;_Karbonn_A6)_U2/1.0.0_UCBrowser/9.0.2.389_U2/1.0.0_Mobile 20140225104110
+UCWEB/2.0_(Linux;_U;_Adr_2.3.5;_en-US;_Celkon_A75)_U2/1.0.0_UCBrowser/9.3.0.321_U2/1.0.0_Mobile 20140212184932
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 193 214
+From1 0 1
+From2 4 23
+From3 180 208
+From4 1468 5714
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 22
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://virtual-labs.ac.in/labs/cse01/ 179 179
+http://www.jayaramcet.edu.in/2014/ITDeptNAAC/ITDeptNAAC/VLabs.html 1 1
+http://web.iiit.ac.in/~sharada.mohanty/content/graph-visualisation-using-flash 0 28
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+linked+list+representation+of+polynomial+of+two+variables 1
+content 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+of 2
+representation 1
+content 1
+linked 1
+variables 1
+two 1
+polynomial 1
+list 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 23 36527
+502 4 2050
+404 19 5247
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/labs/cse01/exp3/mergesort.swf 2 -
+/build/index.php 10 http://deploy.virtual-labs.ac.in/labs/cse01/index.php
+/labs/cse01/exp3/mergesort 1 -
+/labs/cse01/index.php%3fsection=List%2520of%2520experiments/index.php 4 -
+/labs/cse01/exp3/merge-sort.swf 1 -
+/labs/cse01/exp3/merge-sort 1 -
+END_SIDER_404

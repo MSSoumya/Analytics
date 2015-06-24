@@ -1,0 +1,454 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.phy14.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2672                
+POS_VISITOR 3695                
+POS_DAY 3857                
+POS_DOMAIN 4545                
+POS_LOGIN 4779                
+POS_ROBOT 4934                
+POS_WORMS 5468                
+POS_EMAILSENDER 5599                
+POS_EMAILRECEIVER 5742                
+POS_SESSION 5818                
+POS_SIDER 6030                
+POS_FILETYPES 8048                
+POS_DOWNLOADS 8365                
+POS_OS 8898                
+POS_BROWSER 9188                
+POS_SCREENSIZE 10368               
+POS_UNKNOWNREFERER 10442               
+POS_UNKNOWNREFERERBROWSER 12054               
+POS_ORIGIN 12586               
+POS_SEREFERRALS 12729               
+POS_PAGEREFS 12873               
+POS_SEARCHWORDS 13997               
+POS_KEYWORDS 14149               
+POS_MISC 2336                
+POS_ERRORS 14208               
+POS_CLUSTER 4635                
+POS_SIDER_404 14338               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301091349 9072 2182449 13398232066948
+FirstTime 20140208202116
+LastTime 20140228195105
+LastUpdate 20141015121708 9072 0 9071 0 0
+TotalVisits 175                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 141 9247744 12 51 63338
+1 24 120 17344539 8 40 19528
+2 3 17 240531 5 8 435992
+3 13 72 1710438 6 20 7083
+4 21 90 25632673 3 27 7039
+5 4 34 164401 0 5 1803604
+6 6 47 226096 2 9 2321
+7 25 125 533170 6 43 13073
+8 56 298 70936170 17 87 653425
+9 57 344 11038534 24 100 25944
+10 132 743 35066861 53 185 52802
+11 50 323 18216936 20 98 25031
+12 98 662 10700348 25 170 103953
+13 69 424 14399623 29 131 2582721
+14 53 323 11266842 23 114 31535
+15 117 685 20200488 34 214 55582
+16 44 240 17825316 12 86 22292
+17 54 307 26639229 20 85 23530
+18 68 393 18773587 30 123 6107003
+19 82 463 29715970 34 130 34135
+20 60 374 10479884 21 101 28048
+21 54 287 2545068 19 94 26336
+22 45 230 1149829 19 70 1036903
+23 51 248 26335196 15 53 29443
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 761 4431 265390025 20140228194829
+10.4.8.52 447 2559 114999448 20140228195105
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 12 79 575536 3
+20140209 27 164 950714 7
+20140210 131 835 45682649 13
+20140211 155 896 21381889 13
+20140212 175 1075 13260483 14
+20140213 84 510 20224689 13
+20140214 51 291 9682518 14
+20140215 35 258 2674562 7
+20140216 27 112 11706787 5
+20140217 31 187 695386 8
+20140218 28 173 9414225 5
+20140219 25 143 7532422 6
+20140220 92 427 63621096 11
+20140221 34 225 4715866 8
+20140222 58 240 69869609 8
+20140223 38 196 25933398 7
+20140224 52 338 1599977 6
+20140225 55 302 32413904 7
+20140226 27 146 9247656 8
+20140227 27 147 17304805 6
+20140228 44 246 11901302 6
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1208 6990 380389473
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 12 7887214 20140228233542 0
+[\s_+:,\.\;\/\\-]bot 12 2082833 20140227224731 0
+bingpreview 9 48822 20140223003532 0
+favicon 7 15127 20140225220836 0
+bingbot 7 10894 20140223001627 0
+ia_archiver 3 28654 20140228132035 0
+crawl 2 4322 20140210030643 0
+rpt\-httpclient 1 2161 20140228104752 0
+slurp 1 2161 20140213000126 0
+baiduspider 1 2161 20140209013230 0
+msnbot\-media 1 2161 20140212011425 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 21
+5mn-15mn 19
+2mn-5mn 11
+15mn-30mn 14
+30s-2mn 19
+0s-30s 68
+30mn-1h 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/labs/phy14/ 417 870586 161 24
+/labs/phy14/content.html 356 1267931 1 95
+/labs/phy14/exp3/ 44 83034 1 1
+/labs/phy14/exp3/content.html 42 206174 0 6
+/labs/phy14/exp3/media/ve_photoelectric.html 27 14232 1 6
+/labs/phy14/exp2/ 24 45471 1 1
+/labs/phy14/exp1/ 23 46563 0 0
+/labs/phy14/exp1/content.html 23 139031 0 3
+/labs/phy14/exp2/content.html 22 104588 0 2
+/labs/phy14/exp9/content.html 18 106362 0 3
+/labs/phy14/exp8/media/YouungModulus.jnlp 3 1344 0 0
+/labs/phy14/exp7/content.html 5 24495 0 1
+/labs/phy14/exp9/media/ve_surfacetension.html 17 9760 2 4
+/labs/phy14/exp4/ 5 9885 0 0
+/labs/phy14/exp1/media/dipole_moment.htm 2 1183 0 0
+/labs/phy14/exp6/media/pHScale.jnlp 5 2034 0 1
+/labs/phy14/exp7/media/ve_geigermuller.html 2 1038 0 1
+/labs/phy14/exp3/media/PhotoElectric.jnlp 17 5360 1 0
+/labs/phy14/exp4/media/OpticalRotation.jnlp 1 678 0 1
+/labs/phy14/exp2/media/ve_millikansexp.html 9 5436 1 0
+/labs/ccnsb05/default.html 1 20 0 0
+/labs/phy14/exp8/ 9 17793 1 0
+/labs/phy14/exp7/media/GeigerMuller.jnlp 3 1338 0 1
+/labs/phy14/exp4/content.html 5 22150 0 1
+/labs/phy14/exp6/content.html 8 50430 0 0
+/labs/phy14/exp4/media/ve_opticalrotation.html 5 1050 0 0
+/labs/phy14/exp2/media/Millikan.jnlp 10 4655 0 5
+/labs/phy14/exp8/content.html 9 38034 0 1
+/labs/phy14/exp5/media/ve_calorimeter.html 3 1737 0 2
+/labs/phy14/exp6/media/ve_phscale.html 4 1687 0 1
+/labs/phy14/exp6/ 8 21954 0 0
+/labs/ccnsb05/content.html 1 20 0 0
+/labs/phy14/exp7/ 5 9885 0 0
+/labs/phy14/exp8/media/ve_youungmodulus.html 7 3138 0 4
+/labs/phy14/exp5/media/Calorimeter.jnlp 1 666 0 0
+/labs/phy14/exp1/media/DipoleMoment.jnlp 9 5352 3 2
+/labs/phy14/exp9/media/SurfaceTension.jnlp 17 5400 2 3
+/labs/phy14/exp5/media/ 1 1002 0 0
+/labs/phy14/exp5/content.html 3 13722 0 0
+/labs/phy14/exp1/media/ve_dipolemoment.html 12 7621 0 5
+/labs/phy14/exp5/ 3 5931 0 0
+/labs/phy14/exp1/media/hcl.html 4 2507 0 1
+/labs/phy14/exp9/ 18 44793 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 1126 1819976 0 0
+png 2 254422 0 0
+htm 2 1183 0 0
+swf 35 21070872 0 0
+wmv 1 31798858 0 0
+php 413 862944 0 0
+html 727 2315116 0 0
+jnlp 66 26827 0 0
+jar 68 295781104 0 0
+js 747 10347293 0 0
+jpg 3411 13839034 0 0
+jpeg 49 644638 0 0
+gif 343 1627206 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/labs/phy14/exp3/media/citevlab.jar 9 0 63110040
+/labs/phy14/exp1/media/citevlab.jar 8 0 60042464
+/labs/phy14/exp9/media/citevlab.jar 8 0 59384964
+/labs/phy14/exp2/media/citevlab.jar 7 0 45359807
+/labs/phy14/exp6/media/citevlab.jar 3 0 17571207
+/labs/phy14/exp8/media/citevlab.jar 2 0 16783938
+/labs/phy14/exp7/media/citevlab.jar 2 0 16744746
+/labs/phy14/exp4/media/citevlab.jar 1 0 8391969
+/labs/phy14/exp5/media/citevlab.jar 1 0 8391969
+/labs/phy14/exp5/media/chem.wmv 1 0 31798858
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 190 35
+macosx6 15 2
+winxp 2591 409
+winvista 413 69
+winunknown 8 1
+j2me 135 22
+macosx9 16 3
+macosx7 28 4
+java 88 44
+linuxubuntu 15 2
+win98 1 1
+linux 105 19
+win7 2669 469
+macosx 92 18
+Unknown 612 103
+macosx8 12 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 60
+safari7.0 28 6
+msie6.0 54 10
+firefox28.0 192 29
+firefox5.0 27 5
+firefox15.0 29 5
+firefox20.0 19 3
+ibrowse 182 24
+chrome29.0.1547.76 33 7
+android 160 31
+firefox26.0 454 71
+chrome33.0.1750.70 15 2
+sonyericsson 2 2
+firefox3.0.1 15 2
+firefox4.0 15 2
+firefox18.0 16 2
+chrome12.0.742.30 15 2
+chrome31.0.1650.63 76 17
+firefox24.0 61 8
+opera9.80 525 79
+msie8.0 243 34
+chrome16.0.904.0 15 2
+firefox13.0.1 226 33
+chrome32.0.1700.102 65 12
+msie7.0 205 30
+firefox23.0 33 6
+msie9.0 179 35
+chrome33.0.1750.5 48 11
+Unknown 38 10
+chrome30.0.1599.101 15 2
+firefox27.0 639 117
+firefox11.0 39 7
+chrome12.0.742.53 29 5
+firefox17.0 15 2
+chrome18.0.1025.166 15 2
+lg\- 15 2
+samsung 39 13
+safari6.0 63 11
+chrome27.0.1453.110 30 4
+chrome31.0.1612.2 15 2
+chrome9.0.597 8 8
+firefox12.0 81 14
+chrome32.0.1700.107 1672 269
+chrome34.0.1825.4 15 2
+nokia 14 2
+safari6.0.5 13 2
+mozilla 69 11
+firefox25.0 46 9
+netscape5.0 1 1
+chrome33.0.1750.117 649 109
+chrome32.0.1700.76 6 1
+firefox14.0.1 42 14
+firefox22.0 49 8
+chrome25.0.1364.172 15 2
+msie10.0 79 8
+netscape4.0 130 64
+firefox6.0 15 2
+firefox19.0 15 2
+firefox8.0.1 34 6
+firefox10.0.2 64 13
+firefox15.0.1 89 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.31492/34.1088;_U;_en)_Presto/2.8.119_Version/11.10 20140213064929
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7262)_U2/1.0.0_UCBrowser/8.8.0.332_U2/1.0.0_Mobile 20140213183411
+Nokia7210Supernova/2.0_(07.23)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20140228192529
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140210200922
+SAMSUNG-GT-C3312R/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140212214656
+Mozilla/5.0_(Series40;_Nokia305/05.92;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140212124357
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32451/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140211214801
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140212111853
+Mozilla/5.0_(Series40;_NokiaC2-03/06.96;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.3.0.0.48 20140228105832
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140228195105
+Opera/9.80_(Android;_Opera_Mini/7.0.30639/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140211195547
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140228192433
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_CELKON_A60)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20140211212800
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140215134526
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7262)_U2/1.0.0_UCBrowser/8.8.0.332_U2/1.0.0_Mobile 20140213183411
+UCWEB/2.0_(Linux;_U;_Adr_4.0.4;_en-US;_Celkon_A101)_U2/1.0.0_UCBrowser/8.6.0.318_U2/1.0.0_Mobile 20140212104012
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_CELKON_A60)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20140211212800
+UCWEB/2.0_(Linux;_U;_Adr_4.2.2;_en-US;_Celkon_A112)_U2/1.0.0_UCBrowser/8.6.0.318_U2/1.0.0_Mobile 20140212102908
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 283 361
+From1 0 0
+From2 0 0
+From3 196 260
+From4 729 6369
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://virtual-labs.ac.in/labs/phy14/ 192 192
+http://www.tiutel.org/tel/Virtual%20Lab/virtuallab.html 2 2
+http://webcache.googleusercontent.com/search 2 7
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/119484739/0 0 1
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/119142373/0 0 9
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/117629529/0 0 11
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/119155502/0 0 5
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/119883332/0 0 4
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/117659217/0 0 6
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/119063472/0 0 6
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/120059394/0 0 8
+http://10.193.69.57:8827/dvs0/nov_dev_idPRD4gHOkEeOnL4SPaf0YTg/desktopview/118467163/0 0 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 7 2588712
+502 1 490
+301 396 103320
+404 1582 411629
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/labs/phy14/exp2/media/images/style.css 15 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/phy14/exp9/media/cite.vlab.chemistry.demos.SurfaceTension$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/phy14/exp9/media/ve_surfacetension.html
+/labs/phy14/exp1/media/images/style.css 22 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/phy14/exp1/media/images/panel.css 22 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/phy14/exp5/media/images/panel.css 3 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/phy14/exp3/media/images/style.css 51 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/phy14/exp3/media/cite.vlab.chemistry.demos.PhotoElectric$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/phy14/exp5/media/images/forms.css 3 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/phy14/exp1/media/images/forms.css 22 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/phy14/exp5/media/cite.vlab.chemistry.demos.Calorimeter$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/phy14/exp2/media/images/forms.css 15 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/phy14/exp3/media/images/forms.css 51 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/adimages/textlink-ads.jpg 1 http://deploy.virtual-labs.ac.in/labs/phy14/
+/labs/phy14/exp5/media/images/style.css 3 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/phy14/images/favicon.png 498 http://deploy.virtual-labs.ac.in/labs/phy14/
+/adimages/ 1 http://deploy.virtual-labs.ac.in/labs/phy14/
+/labs/phy14/exp2/media/images/panel.css 15 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/phy14/exp3/media/images/panel.css 52 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/phy14/js/MathJax.js 805 http://deploy.virtual-labs.ac.in/labs/phy14/
+END_SIDER_404

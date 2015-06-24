@@ -1,0 +1,261 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse23.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 3383                
+POS_DAY 3497                
+POS_DOMAIN 3644                
+POS_LOGIN 3870                
+POS_ROBOT 4025                
+POS_WORMS 4223                
+POS_EMAILSENDER 4354                
+POS_EMAILRECEIVER 4497                
+POS_SESSION 4573                
+POS_SIDER 4719                
+POS_FILETYPES 4934                
+POS_DOWNLOADS 5105                
+POS_OS 5153                
+POS_BROWSER 5228                
+POS_SCREENSIZE 5303                
+POS_UNKNOWNREFERER 5377                
+POS_UNKNOWNREFERERBROWSER 5464                
+POS_ORIGIN 5546                
+POS_SEREFERRALS 5677                
+POS_PAGEREFS 5832                
+POS_SEARCHWORDS 5980                
+POS_KEYWORDS 6132                
+POS_MISC 2331                
+POS_ERRORS 6191                
+POS_CLUSTER 3726                
+POS_SIDER_404 6278                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140506154706 193 46891 14876722110572
+FirstTime 20140422152106
+LastTime 20140422152112
+LastUpdate 20141015121649 193 0 192 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 1                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 1 264
+1 0 0 0 2 3 6802
+2 0 0 0 4 7 11490
+3 0 0 0 4 5 13345
+4 0 0 0 4 9 49799
+5 0 0 0 1 1 2071
+6 0 0 0 0 0 0
+7 0 0 0 1 2 264
+8 0 0 0 0 1 264
+9 0 0 0 0 0 0
+10 0 0 0 0 2 541
+11 0 0 0 0 4 5597
+12 0 0 0 1 1 2165
+13 0 0 0 4 11 17101
+14 0 0 0 1 1 2136
+15 3 15 101784 3 6 9527
+16 0 0 0 3 5 11790
+17 0 0 0 0 0 0
+18 0 0 0 4 6 14181
+19 0 0 0 0 0 0
+20 0 0 0 0 1 264
+21 0 0 0 0 1 264
+22 0 0 0 1 3 2668
+23 0 0 0 0 1 276
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1
+210.212.194.70 3 15 101784 20140422152112
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20140422 3 15 101784 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3 15 101784
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 43 143563 20140423041800 0
+bingbot 1 0 20140402073812 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/labs/cse23/ 1 2071 1 0
+/labs/cse23/content.html 1 2582 0 1
+/labs/cse23/default.html 1 1511 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 3 5321 0 0
+php 1 2071 0 0
+png 1 2510 0 0
+html 2 4093 0 0
+jpg 5 44556 0 0
+js 2 38487 0 0
+gif 1 4746 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+win7 15 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 1
+chrome33.0.1750.154 15 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 1
+From1 0 0
+From2 1 1
+From3 0 0
+From4 2 13
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 27 7246
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 24
+/labs/cse23/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp1/index.html
+/labs/cse23/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp3/index.html
+/labs/cse23/exp5/PendulumForces.swf 1 -
+/labs/cse23/exp10/PendulumForces.swf 1 -
+/labs/cse23/exp3/PendulumForces.swf 1 -
+/labs/cse23/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp5/index.html
+/labs/cse23/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp1/PendulumForces.swf 1 -
+/labs/cse23/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp10/index.html
+/labs/cse23/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp8/PendulumForces.swf 2 -
+/labs/cse23/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp7/index.html
+/labs/cse23/exp9/js/modernizr-1.5.min.js 1 -
+/labs/cse23/exp2/PendulumForces.swf 1 -
+/labs/cse23/exp7/PendulumForces.swf 1 -
+/labs/cse23/exp4/PendulumForces.swf 2 -
+/labs/cse23/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp8/index.html
+/labs/cse23/exp4/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp4/index.html
+/labs/cse23/exp10/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse23/exp9/PendulumForces.swf 2 -
+/labs/cse23/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse23/exp2/index.html
+END_SIDER_404

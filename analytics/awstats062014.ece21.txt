@@ -1,0 +1,324 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ece21.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 3421                
+POS_DAY 3602                
+POS_DOMAIN 3773                
+POS_LOGIN 4002                
+POS_ROBOT 4157                
+POS_WORMS 4392                
+POS_EMAILSENDER 4523                
+POS_EMAILRECEIVER 4666                
+POS_SESSION 4742                
+POS_SIDER 4890                
+POS_FILETYPES 6880                
+POS_DOWNLOADS 6997                
+POS_OS 9466                
+POS_BROWSER 9555                
+POS_SCREENSIZE 9645                
+POS_UNKNOWNREFERER 9719                
+POS_UNKNOWNREFERERBROWSER 9990                
+POS_ORIGIN 10140               
+POS_SEREFERRALS 10273               
+POS_PAGEREFS 10417               
+POS_SEARCHWORDS 10565               
+POS_KEYWORDS 10717               
+POS_MISC 2331                
+POS_ERRORS 10776               
+POS_CLUSTER 3858                
+POS_SIDER_404 10873               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701054842 566 105113 9589984256013
+FirstTime 20140611145516
+LastTime 20140611155317
+LastUpdate 20141015124830 566 0 565 0 0
+TotalVisits 2                   
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 3 63733
+1 0 0 0 4 5 105569
+2 0 0 0 1 1 1398
+3 0 0 0 1 4 65909
+4 0 0 0 0 2 193897
+5 0 0 0 0 1 50792
+6 0 0 0 0 1 1260
+7 0 0 0 0 2 113915
+8 0 0 0 1 1 510
+9 0 0 0 0 1 52833
+10 0 0 0 3 7 77326
+11 0 0 0 0 1 570
+12 0 1 85707 1 1 0
+13 0 0 0 0 0 0
+14 10 10 13940 2 3 58635
+15 55 111 1834261 4 6 249079
+16 0 0 0 0 2 98735
+17 0 0 0 0 2 154100
+18 0 0 0 0 2 230659
+19 0 0 0 0 0 0
+20 0 0 0 1 2 379352
+21 0 0 0 3 5 83824
+22 0 0 0 3 4 114813
+23 0 0 0 2 4 1086
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+37.122.209.69 43 85 1493893 20140611155317
+81.19.188.230 22 36 354308 20140611150048
+2.176.215.78 0 1 85707 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20140606 0 1 85707 0
+20140611 65 121 1848201 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 65 122 1933908
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bingbot 37 1970462 20140630233909 0
+googlebot 9 119279 20140624222203 0
+msnbot 1 1398 20140617025518 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/labs/ece21/ 4 11376 2 0
+/labs/ece21/feedback.html 2 4322 0 0
+/labs/ece21/experiment8.html 2 6118 0 0
+/labs/ece21/experiment2.html 2 6861 0 0
+/labs/ece21/experiment11.html 2 6146 0 0
+/labs/ece21/experiment12.html 2 6193 0 1
+/labs/ece21/experiment4.html 2 6465 0 0
+/labs/ece21/experiment3.html 2 6741 0 0
+/labs/ece21/experiments.html 2 5502 0 0
+/labs/ece21/quiz.html 2 4609 0 0
+/labs/ece21/Experiment%207/DT1c/build/mminf.html 1 828 0 0
+/labs/ece21/Experiment%201/mmc.html 1 769 0 0
+/labs/ece21/Experiment%204/Exp4a.html 1 791 0 0
+/labs/ece21/Experiment%208/tandem.html 1 846 0 0
+/labs/ece21/Experiment%203/Layout.html 1 838 0 0
+/labs/ece21/Experiment%205/Exp5b.html 1 795 0 0
+/labs/ece21/Experiment%207/DT1b/build/mmc.html 1 822 0 0
+/labs/ece21/Experiment%207/DT2/build/Layout.html 1 820 0 0
+/labs/ece21/Experiment%2010/opennetwork.html 1 390 0 0
+/labs/ece21/team.html 2 5452 0 0
+/labs/ece21/theory.html 2 5642 0 0
+/labs/ece21/faq.html 2 9035 0 0
+/labs/ece21/experiment6.html 2 6142 0 0
+/labs/ece21/relatedWebsites.html 2 4874 0 0
+/labs/ece21/Experiment%2012/12b.html 1 813 0 1
+/labs/ece21/Experiment%2012/12a.html 1 816 0 0
+/labs/ece21/Experiment%2011/closednetwork.html 1 394 0 0
+/labs/ece21/experiment9.html 2 6298 0 0
+/labs/ece21/contact.html 2 4910 0 0
+/labs/ece21/experiment1.html 2 7336 0 0
+/labs/ece21/experiment5.html 2 6441 0 0
+/labs/ece21/Experiment%205/Exp5a.html 1 796 0 0
+/labs/ece21/Experiment%207/DT1a/build/mm1.html 1 820 0 0
+/labs/ece21/Experiment%202/Layout.html 1 772 0 0
+/labs/ece21/Experiment%209/model2.html 1 414 0 0
+/labs/ece21/Experiment%201/mm1.html 1 775 0 0
+/labs/ece21/Experiment%207/DT3/build/Layout.html 1 819 0 0
+/labs/ece21/experiment10.html 2 6139 0 0
+/labs/ece21/Experiment%206/Exp6.html 1 799 0 0
+/labs/ece21/experiment7.html 2 7106 0 0
+/labs/ece21/Experiment%201/mminf.html 1 773 0 0
+/labs/ece21/Experiment%204/Exp4b.html 1 793 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 2 5688 0 0
+html 63 143703 0 0
+pdf 57 1784517 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 42
+/labs/ece21/Theory/MG1inf.pdf 5 0 176643
+/labs/ece21/Theory/QueueingNotes2.pdf 4 0 176771
+/labs/ece21/Theory/fluidqueue.pdf 4 0 211817
+/labs/ece21/Theory/Open%20Queuing%20Network.pdf 4 0 158889
+/labs/ece21/Theory/IGS.pdf 3 0 423950
+/labs/ece21/Theory/Closed%20Queuing%20Network.pdf 3 0 118024
+/labs/ece21/Experiment%207/Examples/Example%206.pdf 3 0 175527
+/labs/ece21/PreandPostExperimentQuizzes2.pdf 2 0 72442
+/labs/ece21/PreandPostExperimentQuizzes1.pdf 2 0 48788
+/labs/ece21/Experiment%209/eg1.pdf 2 0 196543
+/labs/ece21/Experiment%207/Examples/Example%205.pdf 2 0 116286
+/labs/ece21/Theory/Tandem%20Queues.pdf 2 0 76642
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg1.pdf 2 0 127864
+/labs/ece21/Experiment%207/Examples/Example%204.pdf 2 0 95284
+/labs/ece21/Theory/QueueingNotes1.pdf 2 0 49025
+/labs/ece21/Experiment%205/Examples/Example%201.pdf 2 0 112026
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg1.pdf 2 0 130851
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg4.pdf 2 0 138935
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg3.pdf 2 0 137738
+/labs/ece21/Theory/Tandem%20Queue%20with%20feedback.pdf 2 0 51684
+/labs/ece21/Theory/Discrete%20Time%20queue.pdf 2 0 58581
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg2.pdf 2 0 137921
+/labs/ece21/Experiment%208/eg1.pdf 2 0 158913
+/labs/ece21/Theory/howItWorks.pdf 2 0 48786
+/labs/ece21/Theory/QueuingNotes.pdf 2 0 45130
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg3.pdf 2 0 130658
+/labs/ece21/Experiment%205/Examples/Example%202.pdf 1 0 24394
+/labs/ece21/Experiment%204/Examples/Example%201.pdf 1 0 24394
+/labs/ece21/Experiment%204/Examples/Example%202.pdf 1 0 24394
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg2.pdf 1 0 24393
+/labs/ece21/Experiment%2011/eg1.pdf 1 0 24393
+/labs/ece21/Experiment%207/Examples/Example%207.pdf 1 0 46201
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg3.pdf 1 0 24393
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg4.pdf 1 0 24393
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg2.pdf 1 0 24393
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg1.pdf 1 0 24393
+/labs/ece21/Experiment%207/Examples/Example%202.pdf 1 0 46184
+/labs/ece21/Experiment%207/Examples/Example%201.pdf 1 0 54624
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg5.pdf 1 0 24393
+/labs/ece21/Experiment%2010/eg1.pdf 1 0 24393
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg5.pdf 1 0 24393
+/labs/ece21/Experiment%207/Examples/Example%203.pdf 1 0 50966
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 121 65
+win7 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+msie8.0 1 0
+mozilla 36 22
+Unknown 85 43
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611155317
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20140611150049
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611155317
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 65 122
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+503 1 414
+502 12 6442
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

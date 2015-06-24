@@ -1,0 +1,256 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.phy01.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2671                
+POS_VISITOR 3429                
+POS_DAY 3560                
+POS_DOMAIN 3771                
+POS_LOGIN 3998                
+POS_ROBOT 4153                
+POS_WORMS 4446                
+POS_EMAILSENDER 4577                
+POS_EMAILRECEIVER 4720                
+POS_SESSION 4796                
+POS_SIDER 4943                
+POS_FILETYPES 5089                
+POS_DOWNLOADS 5205                
+POS_OS 5796                
+POS_BROWSER 5892                
+POS_SCREENSIZE 6004                
+POS_UNKNOWNREFERER 6078                
+POS_UNKNOWNREFERERBROWSER 6165                
+POS_ORIGIN 6247                
+POS_SEREFERRALS 6379                
+POS_PAGEREFS 6542                
+POS_SEARCHWORDS 6690                
+POS_KEYWORDS 6842                
+POS_MISC 2335                
+POS_ERRORS 6901                
+POS_CLUSTER 3854                
+POS_SIDER_404 6986                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801054832 1003 189041 10096794779061
+FirstTime 20140725144346
+LastTime 20140725144435
+LastUpdate 20141015121707 1003 0 1002 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 1 11093 0 1 2486
+2 0 0 0 3 4 15315
+3 0 0 0 6 9 113299
+4 0 0 0 9 30 1117830
+5 0 0 0 6 10 187274
+6 0 0 0 1 1 4641
+7 0 0 0 1 2 31738
+8 0 0 0 2 2 8301
+9 0 0 0 1 3 7392
+10 0 0 0 1 1 2339
+11 0 0 0 1 1 4200
+12 0 1 11093 1 2 14421
+13 0 3 86652 0 0 0
+14 17 21 687865 24 25 243956
+15 0 0 0 0 0 0
+16 0 0 0 0 1 12316
+17 0 0 0 1 2 2331
+18 0 0 0 4 10 134697
+19 0 0 0 1 1 2386
+20 0 0 0 1 2 4254
+21 0 0 0 9 22 505055
+22 0 0 0 2 3 39872
+23 0 0 0 4 8 120287
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.8.52 17 23 710051 20140725144435
+37.0.86.4 0 3 86652 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20140704 0 1 11093 0
+20140712 0 1 11093 0
+20140715 0 3 86652 0
+20140725 17 21 687865 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 17 26 796703
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 90 2050258 20140728174659 0
+bot[\s_+:,\.\;\/\\-] 22 232069 20140714140726 0
+bingbot 22 110588 20140730090133 0
+msnbot\-media 5 181150 20140731230716 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/labs/phy01/ 17 191375 1 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 17 191375 0 0
+png 5 108838 0 0
+txt 4 496490 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/labs/phy01/data/expt4/solar_data.txt 3 0 36948
+/labs/phy01/data/expt5/b57v.txt 2 0 156652
+/labs/phy01/data/expt4/ReferenceSpecralLine.txt 2 0 452
+/labs/phy01/data/expt7/V_Cas.txt 1 0 5951
+/labs/phy01/data/expt5/m1v.txt 1 0 128860
+/labs/phy01/data/expt5/b8v.txt 1 0 109910
+/labs/phy01/data/expt7/R_Aqr.txt 1 0 2486
+/labs/phy01/data/expt5/b12iii.txt 1 0 128860
+/labs/phy01/data/expt7/S_Cmi.txt 1 0 3225
+/labs/phy01/data/expt7/W_Her.txt 1 0 3506
+/labs/phy01/data/expt7/R_Cyg.txt 1 0 7902
+/labs/phy01/data/expt5/ReferenceSpecralLine.txt 1 0 226
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+winxp 22 17
+winnt 3 0
+win7 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+msie6.0 21 17
+msie8.0 1 0
+msie9.0 3 0
+chrome35.0.1916.153 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 17 24
+From1 0 0
+From2 0 2
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+bing 0 1
+yahoo 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1 325
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/labs/phy01/C:/wamp/www/AstroWebPages 1 -
+END_SIDER_404

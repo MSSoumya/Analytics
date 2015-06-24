@@ -1,0 +1,297 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.bio15.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2666                
+POS_VISITOR 3387                
+POS_DAY 3582                
+POS_DOMAIN 3755                
+POS_LOGIN 3985                
+POS_ROBOT 4140                
+POS_WORMS 4340                
+POS_EMAILSENDER 4471                
+POS_EMAILRECEIVER 4614                
+POS_SESSION 4690                
+POS_SIDER 4847                
+POS_FILETYPES 6168                
+POS_DOWNLOADS 6367                
+POS_OS 6415                
+POS_BROWSER 6502                
+POS_SCREENSIZE 6598                
+POS_UNKNOWNREFERER 6672                
+POS_UNKNOWNREFERERBROWSER 6759                
+POS_ORIGIN 6841                
+POS_SEREFERRALS 6974                
+POS_PAGEREFS 7118                
+POS_SEARCHWORDS 7266                
+POS_KEYWORDS 7418                
+POS_MISC 2330                
+POS_ERRORS 7477                
+POS_CLUSTER 3841                
+POS_SIDER_404 7565                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140501215657 312 68464 9148052435185
+FirstTime 20140403221914
+LastTime 20140429224347
+LastUpdate 20141015114318 312 0 311 0 0
+TotalVisits 4                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 2 554
+1 0 0 0 2 6 8139
+2 0 0 0 2 3 7340
+3 0 0 0 0 0 0
+4 0 0 0 4 5 11508
+5 0 0 0 0 1 138
+6 0 0 0 1 3 7434
+7 0 0 0 1 1 2093
+8 0 0 0 0 3 817
+9 0 0 0 3 6 9963
+10 0 0 0 0 2 529
+11 0 0 0 2 2 4164
+12 0 0 0 2 3 7366
+13 0 0 0 0 0 0
+14 0 0 0 0 1 277
+15 0 0 0 0 3 804
+16 0 0 0 4 7 19757
+17 34 89 11244217 2 15 3996
+18 0 0 0 0 1 138
+19 0 0 0 0 1 277
+20 0 0 0 1 1 2093
+21 0 0 0 0 0 0
+22 9 27 627118 0 3 535
+23 0 0 0 0 1 265
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+122.173.131.229 28 52 10536135 20140429171248
+10.4.8.52 9 40 709116 20140429224347
+194.170.24.9 6 24 626084 20140403221936
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20140403 6 24 626084 1
+20140429 37 92 11245251 3
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 43 116 11871335
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 27 75103 20140416062503 0
+bingbot 1 2071 20140421111003 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 1
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/labs/bio15/ 4 8284 2 0
+/labs/bio15/exp8/content.html 3 16775 0 1
+/labs/bio15/exp8/ 3 7732 1 0
+/labs/bio15/exp8/default.html 3 18235 0 0
+/labs/bio15/exp13/content.html 2 6638 0 1
+/labs/bio15/exp13/ 2 4186 0 0
+/labs/bio15/content.html 2 3362 0 0
+/labs/bio15/exp13/default.html 2 7480 0 0
+/labs/bio15/default.html 2 3062 0 0
+/labs/bio15/exp6/ 1 2093 0 0
+/labs/bio15/exp6/default.html 1 3740 0 0
+/labs/bio15/exp6/Simulator/cultivation.html 1 345 0 1
+/labs/bio15/exp4/ 1 2093 0 0
+/labs/bio15/exp6/Simulator/fed-batch.html 1 345 0 0
+/labs/bio15/exp4/Simulator/simulator.html 1 345 1 0
+/labs/bio15/exp10/ 1 2093 0 0
+/labs/bio15/exp9/ 1 2093 0 0
+/labs/bio15/exp13/Simulator/simulator.html 1 345 0 0
+/labs/bio15/exp10/content.html 1 3361 0 0
+/labs/bio15/exp9/content.html 1 3313 0 0
+/labs/bio15/exp10/Simulator/anaerobic.html 1 345 0 0
+/labs/bio15/exp6/Simulator/continuous-cultivation.html 1 354 0 0
+/labs/bio15/exp6/content.html 1 3385 0 0
+/labs/bio15/exp9/default.html 1 3740 0 0
+/labs/bio15/exp9/Simulator/simulator.html 1 345 0 0
+/labs/bio15/exp4/content.html 1 3325 0 1
+/labs/bio15/exp8/Simulator/animal1.html 1 344 0 0
+/labs/bio15/exp4/default.html 1 3740 0 0
+/labs/bio15/exp10/default.html 1 3740 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 12 26447 0 0
+php 3 6213 0 0
+png 2 5020 0 0
+html 40 109025 0 0
+jpg 44 1681281 0 0
+js 6 170842 0 0
+gif 4 14238 0 0
+swf 5 9858269 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+winnt 19 3
+win7 97 40
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+firefox28.0 73 34
+ossproxy 19 3
+msie10.0 24 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 7 25
+From1 0 0
+From2 0 0
+From3 0 0
+From4 36 91
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 42 11013
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 27
+/labs/bio15/exp6/PendulumForces.swf 1 -
+/labs/bio15/exp5/PendulumForces.swf 2 -
+/labs/bio15/exp9/PendulumForces.swf 1 -
+/labs/bio15/exp6/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/bio15/exp6/index.html
+/labs/bio15/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp7/js/modernizr-1.5.min.js 1 -
+/labs/bio15/exp13/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/bio15/exp13/index.html
+/labs/bio15/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp8/PendulumForces.swf 1 -
+/labs/bio15/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp10/index.html
+/labs/bio15/exp8/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/bio15/exp8/index.html
+/labs/bio15/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/bio15/exp3/PendulumForces.swf 1 -
+/labs/bio15/exp4/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/bio15/exp4/index.html
+/labs/bio15/exp4/PendulumForces.swf 2 -
+/labs/bio15/exp3/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp9/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/bio15/exp9/index.html
+/labs/index.html 2 http://deploy.virtual-labs.ac.in/labs/bio15/exp8/index.html
+/labs/bio15/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp5/index.html
+/labs/bio15/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp13/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/bio15/exp13/index.html
+/labs/bio15/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp2/index.html
+/labs/bio15/exp2/PendulumForces.swf 1 -
+/labs/bio15/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/bio15/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp3/index.html
+/labs/bio15/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+END_SIDER_404

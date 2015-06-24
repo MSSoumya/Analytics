@@ -1,0 +1,320 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ece21.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2671                
+POS_VISITOR 3532                
+POS_DAY 4013                
+POS_DOMAIN 4384                
+POS_LOGIN 4613                
+POS_ROBOT 4768                
+POS_WORMS 5110                
+POS_EMAILSENDER 5241                
+POS_EMAILRECEIVER 5384                
+POS_SESSION 5460                
+POS_SIDER 5627                
+POS_FILETYPES 6041                
+POS_DOWNLOADS 6242                
+POS_OS 8670                
+POS_BROWSER 8781                
+POS_SCREENSIZE 8982                
+POS_UNKNOWNREFERER 9056                
+POS_UNKNOWNREFERERBROWSER 9143                
+POS_ORIGIN 9225                
+POS_SEREFERRALS 9360                
+POS_PAGEREFS 9504                
+POS_SEARCHWORDS 9694                
+POS_KEYWORDS 9846                
+POS_MISC 2335                
+POS_ERRORS 9905                
+POS_CLUSTER 4469                
+POS_SIDER_404 10004               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140901000657 1444 298674 14951800727148
+FirstTime 20140803130044
+LastTime 20140831213827
+LastUpdate 20141015124830 1444 0 1443 0 0
+TotalVisits 16                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 8 393089
+1 0 0 0 26 32 1010249
+2 0 0 0 11 12 158182
+3 0 0 0 6 9 113442
+4 0 0 0 5 10 110262
+5 0 0 0 5 7 761424
+6 0 0 0 5 13 905133
+7 0 0 0 4 6 631245
+8 0 0 0 6 10 562044
+9 1 11 35598 4 16 985540
+10 1 11 35598 9 16 749775
+11 7 23 119833 4 9 831919
+12 0 0 0 4 8 133186
+13 4 36 109709 11 16 216453
+14 1 11 35598 8 22 2068205
+15 0 0 0 3 13 731470
+16 0 0 0 29 36 1201258
+17 1 11 35598 5 13 383815
+18 3 25 74111 6 7 66054
+19 1 11 35598 33 47 887323
+20 6 38 167700 18 32 651377
+21 1 11 35598 5 20 2324851
+22 3 15 423999 7 24 996999
+23 1 11 35598 4 15 1184232
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+10.4.8.52 14 92 336336 20140831132638
+117.207.119.54 5 27 132102 20140816202050
+124.253.152.82 3 22 290226 20140827223301
+49.202.7.148 2 14 38513 20140828180741
+182.156.106.114 1 11 35598 20140831213827
+223.196.204.37 1 11 35598 20140827171933
+182.74.22.86 1 11 35598 20140828094719
+117.240.110.178 1 11 35598 20140828142854
+124.123.10.131 1 11 35598 20140812133843
+117.206.225.107 1 11 35598 20140819205659
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20140803 1 11 35598 1
+20140812 1 11 35598 1
+20140813 1 11 35598 1
+20140816 5 27 132102 1
+20140819 1 11 35598 1
+20140826 1 11 35598 1
+20140827 4 26 459597 2
+20140828 4 36 109709 3
+20140829 8 34 155431 2
+20140830 1 11 35598 1
+20140831 3 25 74111 2
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 30 214 1010765
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+baiduspider 117 8309911 20140831143755 0
+bingbot 97 1761223 20140831232432 0
+googlebot 48 3608472 20140830064555 0
+yandex 44 4321958 20140830021817 0
+slurp 7 9455 20140831194938 0
+crawl 1 1208 20140827141827 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 2
+30s-2mn 1
+0s-30s 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/labs/ece21/ 17 25534 16 12
+/labs/ece21/experiments.html 4 4816 0 2
+/labs/ece21/theory.html 3 3867 0 1
+/labs/ece21/experiment1.html 2 2922 0 0
+/labs/ece21/team.html 1 1320 0 1
+/labs/ece21/experiment4.html 1 1390 0 0
+/labs/ece21/Experiment%201/mm1.html 1 507 0 0
+/labs/ece21/quiz.html 1 1103 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 20 25916 0 0
+pdf 1 190166 0 0
+php 16 24032 0 0
+html 14 17427 0 0
+jpg 117 688338 0 0
+js 2 6530 0 0
+class 8 25396 0 0
+gif 36 32960 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 41
+/labs/ece21/Theory/Open%20Queuing%20Network.pdf 10 0 857070
+/labs/ece21/Theory/QueueingNotes1.pdf 7 0 4380922
+/labs/ece21/Theory/IGS.pdf 7 0 2297313
+/labs/ece21/Theory/Tandem%20Queue%20with%20feedback.pdf 7 0 684341
+/labs/ece21/Theory/Discrete%20Time%20queue.pdf 6 0 235325
+/labs/ece21/Theory/fluidqueue.pdf 6 0 379260
+/labs/ece21/Theory/howItWorks.pdf 6 7 622071
+/labs/ece21/Theory/MG1inf.pdf 5 0 264165
+/labs/ece21/Theory/QueuingNotes.pdf 5 0 1917180
+/labs/ece21/Experiment%2010/eg1.pdf 5 0 507403
+/labs/ece21/Theory/Tandem%20Queues.pdf 4 0 208988
+/labs/ece21/Theory/QueueingNotes2.pdf 4 0 203168
+/labs/ece21/Theory/Closed%20Queuing%20Network.pdf 4 0 297360
+/labs/ece21/Experiment%208/eg1.pdf 4 0 427953
+/labs/ece21/PreandPostExperimentQuizzes2.pdf 3 0 144141
+/labs/ece21/Experiment%205/Examples/Example%202.pdf 3 0 266820
+/labs/ece21/Experiment%2011/eg1.pdf 3 0 434293
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg5.pdf 3 0 430326
+/labs/ece21/PreandPostExperimentQuizzes1.pdf 2 0 173086
+/labs/ece21/Experiment%209/eg1.pdf 2 0 196543
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg2.pdf 2 0 233500
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg1.pdf 2 0 206942
+/labs/ece21/Experiment%205/Examples/Example%201.pdf 2 0 175264
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg3.pdf 2 0 212722
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg1.pdf 2 0 212916
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg3.pdf 2 0 226690
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg2.pdf 2 0 228070
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg2.pdf 2 0 227056
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg5.pdf 2 0 234048
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg3.pdf 2 0 212530
+/labs/ece21/Experiment%207/Examples/Example%203.pdf 2 0 101932
+/labs/ece21/Experiment%204/Examples/Example%201.pdf 1 0 88227
+/labs/ece21/Experiment%204/Examples/Example%202.pdf 1 0 88024
+/labs/ece21/Experiment%207/Examples/Example%205.pdf 1 0 58143
+/labs/ece21/Experiment%207/Examples/Example%204.pdf 1 0 47642
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg4.pdf 1 0 114542
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg4.pdf 1 0 111806
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg1.pdf 1 0 117456
+/labs/ece21/Experiment%207/Examples/Example%202.pdf 1 0 46184
+/labs/ece21/Experiment%207/Examples/Example%201.pdf 1 0 54624
+/labs/ece21/Experiment%207/Examples/Example%206.pdf 1 0 58509
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+winxp 45 9
+java 8 0
+winvista 55 6
+win7 113 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+chrome28.0.1500.72 14 2
+msie8.0 11 1
+chrome36.0.1985.143 91 10
+chrome36.0.1985.125 22 2
+mozilla 30 6
+firefox26.0 11 1
+firefox31.0 34 8
+netscape4.0 8 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 8
+From1 0 0
+From2 0 0
+From3 16 16
+From4 14 197
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/index.php 16 16
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+503 9 3726
+502 78 41574
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

@@ -1,0 +1,353 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse16.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2670                
+POS_VISITOR 3470                
+POS_DAY 3628                
+POS_DOMAIN 4123                
+POS_LOGIN 4355                
+POS_ROBOT 4510                
+POS_WORMS 4799                
+POS_EMAILSENDER 4930                
+POS_EMAILRECEIVER 5073                
+POS_SESSION 5149                
+POS_SIDER 5345                
+POS_FILETYPES 8308                
+POS_DOWNLOADS 8562                
+POS_OS 8938                
+POS_BROWSER 9125                
+POS_SCREENSIZE 9408                
+POS_UNKNOWNREFERER 9482                
+POS_UNKNOWNREFERERBROWSER 9671                
+POS_ORIGIN 9753                
+POS_SEREFERRALS 9892                
+POS_PAGEREFS 10047               
+POS_SEARCHWORDS 10285               
+POS_KEYWORDS 10437               
+POS_MISC 2334                
+POS_ERRORS 10496               
+POS_CLUSTER 4211                
+POS_SIDER_404 10604               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301162520 1608 439971 9096928768063
+FirstTime 20140208220759
+LastTime 20140228194116
+LastUpdate 20141013123537 1608 0 1607 0 0
+TotalVisits 32                  
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 38 110 2236345 0 1 265
+1 4 17 162500 1 1 1959
+2 0 0 0 0 0 0
+3 1 35 284394 2 2 2825
+4 0 0 0 1 1 1959
+5 0 0 0 1 1 0
+6 0 0 0 2 2 2216
+7 0 0 0 3 3 8950
+8 0 0 0 2 2 6998
+9 18 77 1055955 1 1 1959
+10 16 58 1611030 1 1 1959
+11 73 267 5729501 2 8 3819
+12 27 106 1269162 1 1 0
+13 0 0 0 0 0 0
+14 0 0 0 1 1 0
+15 73 332 5129775 1 7 1767
+16 34 230 4425476 1 5 2489
+17 0 0 0 1 1 0
+18 11 38 787513 0 0 0
+19 19 74 984431 0 0 0
+20 3 17 98466 0 0 0
+21 3 17 98466 1 1 0
+22 11 38 781754 0 0 0
+23 20 148 3089015 0 4 530
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.8.52 188 684 12480764 20140227125758
+10.4.12.236 163 880 15263019 20140228194116
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20140208 11 38 781754 1
+20140211 10 48 916055 1
+20140212 62 279 5530152 4
+20140213 21 94 1154421 2
+20140214 14 55 1164251 2
+20140215 59 263 3257748 3
+20140217 68 335 5264369 4
+20140219 8 55 1451990 2
+20140220 19 103 1079089 2
+20140222 10 52 298370 3
+20140223 22 78 2505221 2
+20140224 12 52 1587725 2
+20140226 13 41 1512564 1
+20140227 21 70 1235042 2
+20140228 1 1 5032 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 351 1564 27743783
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 7 15700 20140227210253 0
+bingbot 6 0 20140227152141 0
+slurp 3 5877 20140216095740 0
+robot 2 3918 20140226033918 0
+mail\.ru 1 5032 20140226072107 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 5
+0s-30s 13
+15mn-30mn 2
+2mn-5mn 6
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 57
+/labs/cse16/ 30 64071 28 1
+/labs/cse16/default.html 29 46799 0 2
+/labs/cse16/content.html 29 96904 0 5
+/labs/cse16/exp01/part1.php 23 26903 0 5
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 18 474984 1 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 18 148464 0 2
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 18 857736 0 0
+/labs/cse16/exp03/natureofspeech.php 14 12943 0 3
+/labs/cse16/exp01/default.html 13 66278 0 0
+/labs/cse16/exp01/ 13 29752 0 0
+/labs/cse16/exp02/part1.php 2 1578 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 4 30416 0 4
+/labs/cse16/exp05/ 1 1949 0 0
+/labs/cse16/exp02/content.html 2 14898 0 0
+/labs/cse16/exp08/indexie.html 2 16230 2 1
+/labs/cse16/exp10/default.html 2 7464 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 3 11456 0 0
+/labs/cse16/exp08/content.html 3 22548 0 0
+/labs/cse16/exp02/default.html 2 7464 0 0
+/labs/cse16/exp07/ 2 3898 0 0
+/labs/cse16/exp05/content.html 1 6173 0 0
+/labs/cse16/exp07/default.html 2 7464 0 0
+/labs/cse16/exp01/part2.php 3 3254 0 2
+/labs/cse16/exp07/content.html 2 11234 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 3 57672 0 0
+/labs/cse16/exp03/default.html 8 26124 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 3 99368 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 3 53552 0 0
+/labs/cse16/exp09/default.html 1 3732 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 3 19352 0 0
+/labs/cse16/exp06/content.html 2 13530 0 0
+/labs/cse16/exp04/part1.php 5 1235 0 0
+/labs/cse16/exp04/default.html 5 14928 0 0
+/labs/cse16/exp10/content.html 2 10664 0 0
+/labs/cse16/exp06/ 2 3898 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 3 20744 0 0
+/labs/cse16/exp09/ 1 1949 0 0
+/labs/cse16/exp05/default.html 1 3732 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 3 24680 0 0
+/labs/cse16/exp03/ 8 13643 1 0
+/labs/cse16/exp01/readme.html 2 4690 0 0
+/labs/cse16/exp04/ 5 7796 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 5 36820 0 0
+/labs/cse16/exp10/ 2 3898 0 0
+/labs/cse16/exp04/part2.php 2 1448 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 3 16968 0 0
+/labs/cse16/indexie.html 1 2972 0 1
+/labs/cse16/exp02/ 2 3898 0 0
+/labs/cse16/exp08/default.html 3 11196 0 1
+/labs/cse16/exp04/content.html 5 30040 0 0
+/labs/cse16/exp09/content.html 1 5721 0 0
+/labs/cse16/exp06/part1.php 2 1292 0 1
+/labs/cse16/exp03/content.html 8 31885 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 3 97144 0 0
+/labs/cse16/exp06/default.html 2 7464 0 0
+/labs/cse16/exp01/content.html 13 123558 0 0
+/labs/cse16/exp08/ 3 5847 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+eot 27 400936 0 0
+css 111 182758 0 0
+png 315 3988982 0 0
+otf 63 1548420 0 0
+php 51 48653 0 0
+html 210 734291 0 0
+jar 9 4017428 0 0
+js 358 3302261 0 0
+jpg 384 13368182 0 0
+gif 36 151872 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/labs/cse16/exp01/media/speechAnalysis.jar 3 0 2184807
+/labs/cse16/exp03/media/NatureOfSpeechS.jar 1 0 181734
+/labs/cse16/exp04/media/dspBasicsS.jar 1 0 433498
+/labs/cse16/exp10/media/analysisSynthesisS.jar 1 0 205916
+/labs/cse16/exp04/media/filterDesign.jar 1 0 70733
+/labs/cse16/exp08/media/lpSpectrumAnalysisS.jar 1 0 940740
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winxp 420 104
+java 3 0
+win98 1 1
+linuxubuntu 17 3
+linuxfedora 17 3
+winvista 131 32
+linux 148 49
+win7 810 156
+Unknown 17 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+msie6.0 1 1
+msie8.0 269 64
+mozilla 146 8
+chrome33.0.1750.117 209 61
+chrome32.0.1700.76 68 18
+firefox26.0 259 72
+netscape4.0 9 0
+chrome31.0.1650.63 55 14
+firefox3.6.10 17 3
+firefox27.0 48 14
+opera9.80 17 3
+chrome32.0.1700.107 466 93
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140219201207
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 15 54
+From1 0 0
+From2 1 1
+From3 20 20
+From4 315 1489
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://virtual-labs.ac.in/labs/cse16/ 16 16
+http://www.virtual-labs.ac.in/labs/cse16/ 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 2 2052
+404 21 4859
+301 1 257
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/labs/cse16/exp06/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp06/index.html
+/labs/cse16/exp03/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/cse16/exp03/index.html
+/labs/cse16/exp07/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/cse16/exp07/index.html
+/labs/cse16/exp01/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp01/index.html
+/labs/cse16/exp04/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse16/exp04/index.html
+/labs/cse16/exp08/PendulumForces.swf 3 http://deploy.virtual-labs.ac.in/labs/cse16/exp08/index.html
+END_SIDER_404

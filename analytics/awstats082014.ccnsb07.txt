@@ -1,0 +1,314 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ccnsb07.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1987                
+POS_TIME 2673                
+POS_VISITOR 3504                
+POS_DAY 4190                
+POS_DOMAIN 4689                
+POS_LOGIN 4919                
+POS_ROBOT 5074                
+POS_WORMS 5336                
+POS_EMAILSENDER 5467                
+POS_EMAILRECEIVER 5610                
+POS_SESSION 5686                
+POS_SIDER 5859                
+POS_FILETYPES 6621                
+POS_DOWNLOADS 6813                
+POS_OS 6893                
+POS_BROWSER 7055                
+POS_SCREENSIZE 7447                
+POS_UNKNOWNREFERER 7521                
+POS_UNKNOWNREFERERBROWSER 7608                
+POS_ORIGIN 7690                
+POS_SEREFERRALS 7827                
+POS_PAGEREFS 7971                
+POS_SEARCHWORDS 8165                
+POS_KEYWORDS 8317                
+POS_MISC 2337                
+POS_ERRORS 8376                
+POS_CLUSTER 4775                
+POS_SIDER_404 8498                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140901145314 8903 2256175 9965398427314
+FirstTime 20140801185141
+LastTime 20140830124819
+LastUpdate 20141015124801 8903 0 8902 0 0
+TotalVisits 30                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 65 2792160 2 7 5064
+1 0 0 0 3 3 4965
+2 0 0 0 1 2 510
+3 0 0 0 1 1 1249
+4 3 18 138977 1 1 1955
+5 0 0 0 0 3 352656
+6 0 0 0 4 5 5870
+7 0 0 0 1 1 1955
+8 6 36 216884 3 3 3035
+9 6 36 201260 0 0 0
+10 3 17 113744 0 0 0
+11 9 49 1496515 6 7 6817
+12 7 37 203215 5 5 4186
+13 10 42 1680619 0 6 7812
+14 0 0 0 2 2 1032
+15 3 18 100630 1 1 516
+16 10 46 846918 4 5 3754
+17 3 18 100630 3 3 2590
+18 5 23 129252 3 4 6150
+19 6 21 106510 4 7 11341
+20 13 70 399068 5 8 6335
+21 1 6 37170 7 18 594728
+22 11 51 931161 3 9 875089
+23 3 18 100630 2 3 14269
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+10.4.8.52 50 254 2916177 20140830124819
+59.93.106.232 8 33 1396145 20140811002057
+112.79.39.78 7 32 1396015 20140818001308
+117.200.227.81 7 32 828576 20140828220419
+14.139.58.9 7 28 746288 20140819164052
+66.249.93.15 6 31 1395885 20140813112545
+14.139.159.34 6 35 229998 20140813102922
+213.211.142.110 4 19 102585 20140829223427
+203.166.250.57 3 18 100630 20140816091952
+14.139.211.2 3 18 100630 20140818162743
+65.49.68.175 2 11 46736 20140829200156
+106.221.138.124 2 6 33788 20140801203629
+122.2.12.155 3 18 100630 20140814124912
+14.139.246.27 3 18 100630 20140812120826
+27.106.99.195 3 18 100630 20140820190012
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20140801 9 24 131680 2
+20140802 3 18 100630 1
+20140806 11 48 1717789 2
+20140811 8 33 1396145 1
+20140812 9 54 317514 3
+20140813 12 66 1610259 3
+20140814 9 54 301890 3
+20140816 3 18 100630 1
+20140817 3 19 141487 1
+20140818 10 50 1496645 2
+20140819 10 45 844408 2
+20140820 3 18 100630 1
+20140826 6 36 201260 2
+20140828 10 50 929206 2
+20140829 7 37 203215 3
+20140830 1 1 1955 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 114 571 9595343
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 47 1340601 20140830131827 0
+bingbot 19 26778 20140829231547 0
+slurp 4 7820 20140831060516 0
+exabot 1 0 20140821080440 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+2mn-5mn 1
+30s-2mn 4
+0s-30s 24
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/labs/ccnsb07/ 28 60888 27 2
+/labs/ccnsb07/content.html 25 98623 1 13
+/labs/ccnsb07/default.html 25 43777 0 7
+/labs/ccnsb07/exp1/ 13 25480 1 2
+/labs/ccnsb07/latest_project/bin/magnet1.html 5 650 1 3
+/labs/ccnsb07/exp1/default.html 5 18645 0 1
+/labs/ccnsb07/exp1/content.html 5 18950 0 0
+/labs/ccnsb07/exp5/default.html 1 3729 0 0
+/labs/ccnsb07/exp5/ 1 1960 0 0
+/labs/ccnsb07/latest_project/bin/magnet.html 1 124 0 1
+/labs/ccnsb07/exp7/default.html 1 3729 0 0
+/labs/ccnsb07/suraj/Suraj/bin/Electrostatic_Hexane.html 1 116 0 1
+/labs/ccnsb07/exp7/ 1 1960 0 0
+/labs/ccnsb07/exp7/content.html 1 4023 0 0
+/labs/ccnsb07/exp5/content.html 1 4129 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 89 154524 0 0
+png 60 3920631 0 0
+pdf 1 40857 0 0
+html 114 286783 0 0
+jpg 226 4196962 0 0
+js 56 876936 0 0
+gif 25 118650 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/labs/ccnsb07/pdf.pdf 1 0 40857
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxandroid 63 13
+winxp 66 19
+winvista 120 25
+win7 269 48
+macosx 17 3
+macosx9 18 3
+macosx8 18 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+safari7.0 17 3
+chrome36.0.1985.131 31 6
+chrome36.0.1985.125 75 15
+firefox31.0 133 27
+msie8.0 18 3
+firefox13.0.1 1 1
+safari7.0.5 18 3
+chrome31.0.1650.59 32 7
+firefox11.0 18 3
+firefox30.0 24 9
+chrome36.0.1985.143 54 9
+chrome26.0.1410.64 1 0
+chrome35.0.1916.153 53 9
+chrome32.0.1700.76 18 3
+safari6.1.1 18 3
+firefox19.0 42 10
+firefox8.0.1 18 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 43
+From1 0 0
+From2 0 0
+From3 16 16
+From4 77 512
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/labs/ccnsb07/ 16 16
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 1 414
+206 2 524278
+502 15 7714
+404 15 4273
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/labs/ccnsb07/exp10/js/modernizr-1.5.min.js 1 -
+/labs/ccnsb07/latest_project/bin/iiit/vlabdemos/epr/bouncingball/bouncingBall$MyApplet.class 2 -
+/labs/ccnsb07/exp1/js/modernizr-1.5.min.js 10 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp1/index.html
+/labs/ccnsb07/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp7/index.html
+/labs/ccnsb07/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp5/index.html
+END_SIDER_404

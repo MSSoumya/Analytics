@@ -1,0 +1,439 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chem01.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2676                
+POS_VISITOR 3586                
+POS_DAY 6150                
+POS_DOMAIN 6871                
+POS_LOGIN 7103                
+POS_ROBOT 7258                
+POS_WORMS 7848                
+POS_EMAILSENDER 7979                
+POS_EMAILRECEIVER 8122                
+POS_SESSION 8198                
+POS_SIDER 8394                
+POS_FILETYPES 10283               
+POS_DOWNLOADS 10476               
+POS_OS 10524               
+POS_BROWSER 10721               
+POS_SCREENSIZE 11173               
+POS_UNKNOWNREFERER 11247               
+POS_UNKNOWNREFERERBROWSER 11567               
+POS_ORIGIN 11717               
+POS_SEREFERRALS 11858               
+POS_PAGEREFS 12013               
+POS_SEARCHWORDS 12258               
+POS_KEYWORDS 12410               
+POS_MISC 2340                
+POS_ERRORS 12469               
+POS_CLUSTER 6959                
+POS_SIDER_404 12581               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701024147 10303 2640804 10675937148465
+FirstTime 20140601100802
+LastTime 20140630182752
+LastUpdate 20141015124802 10303 0 10298 2 2
+TotalVisits 83                  
+TotalUnique 62                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 62                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 42 429944 5 10 6468
+1 8 32 267378 5 11 8547
+2 11 35 506194 4 4 10325
+3 2 8 43053 8 11 6692
+4 4 11 56976 3 10 88921
+5 0 0 0 2 2 3378
+6 11 29 234816 5 12 25812
+7 7 36 382469 8 16 91229
+8 7 26 296974 4 7 7440
+9 0 0 0 4 5 2731
+10 47 129 1381358 11 20 13253
+11 31 78 692819 7 14 6560
+12 30 102 992570 5 17 14289
+13 10 32 419371 10 15 18468
+14 21 57 583105 13 18 8922
+15 61 198 1609113 10 22 16877
+16 47 165 1329433 22 28 24314
+17 5 17 87158 15 16 13239
+18 27 101 795631 10 19 48281
+19 10 34 211806 7 8 7812
+20 33 87 876260 3 8 4621
+21 30 88 1033579 5 12 30852
+22 15 45 555534 11 12 6822
+23 6 22 89234 4 4 7157
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+10.4.8.52 130 444 4177778 20140630182752
+125.62.214.206 39 123 1071373 20140627121234
+14.97.14.41 21 64 459032 20140619155300
+119.82.75.34 20 29 178171 20140617104455
+103.249.24.61 15 28 284285 20140602115006
+117.202.17.32 13 25 237116 20140626202254
+14.139.181.182 9 28 248029 20140624142202
+113.210.136.169 9 27 226300 20140613211345
+27.48.192.58 8 26 225237 20140615060954
+182.66.84.37 8 25 349927 20140601100927
+50.57.64.198 1 1 4744 20140625014208
+59.90.162.245 1 2 4570 20140602114028
+106.67.81.246 2 5 57819 20140615200351
+5.57.254.5 4 15 98325 20140617202349
+117.213.196.82 7 18 322604 20140621134606
+121.241.169.66 4 22 218534 20140616150719
+201.164.150.151 2 6 22798 20140606041807
+98.218.53.159 2 8 43053 20140605085201
+137.122.47.61 2 8 43053 20140615185758
+118.102.191.36 2 8 43053 20140624113602
+113.193.110.28 3 10 156265 20140627200838
+14.139.236.34 4 11 140978 20140602214936
+103.27.8.45 1 5 20461 20140619163232
+81.165.55.96 3 10 156265 20140602202543
+219.91.178.102 3 9 44105 20140611192524
+14.139.226.12 4 4 6336 20140630122406
+81.19.188.229 1 1 1955 20140611145442
+37.6.154.190 2 8 43053 20140613030233
+41.199.42.55 3 10 156265 20140612024725
+92.239.167.228 3 13 45129 20140603233726
+147.91.173.31 2 4 24271 20140627142109
+155.210.32.170 7 21 296520 20140616212209
+117.218.161.224 2 8 151695 20140630123044
+116.202.150.77 6 24 221694 20140613162003
+123.236.248.47 1 2 4570 20140616163254
+108.80.102.156 3 14 163937 20140614070730
+202.40.139.107 2 6 80967 20140620082840
+176.16.199.231 2 7 38395 20140615191127
+188.25.223.7 1 4 56396 20140619160034
+202.12.94.228 2 4 19279 20140605150104
+117.239.204.226 2 5 91928 20140606113444
+185.3.87.0 1 3 18227 20140602003636
+37.122.14.71 4 16 106512 20140606194746
+94.242.233.18 1 1 4327 20140604165647
+117.196.115.115 4 22 218535 20140629125338
+93.229.228.88 2 4 9140 20140601150311
+122.164.53.69 4 22 218536 20140619000620
+59.185.236.52 4 22 218534 20140625150739
+124.124.93.5 2 13 137205 20140614101802
+117.238.196.218 6 13 156367 20140614214947
+210.212.192.18 8 38 209588 20140603192953
+59.181.98.35 2 8 43053 20140604171848
+148.228.78.57 6 8 28607 20140604204217
+93.229.251.184 3 3 6069 20140603180802
+88.119.128.25 2 6 100269 20140606183715
+209.183.190.154 8 25 349929 20140624023732
+37.122.209.69 1 1 5029 20140611154358
+103.21.126.76 2 8 136745 20140605213012
+111.68.104.136 4 22 218529 20140625014223
+61.3.208.221 4 22 218534 20140606182152
+98.193.164.213 4 7 36916 20140617005322
+103.21.126.60 7 18 197859 20140611184338
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20140601 10 29 359067 2
+20140602 56 159 1506996 7
+20140603 14 54 260786 4
+20140604 9 17 75987 3
+20140605 6 20 199077 3
+20140606 14 55 540041 5
+20140611 12 29 248948 4
+20140612 3 10 156265 1
+20140613 17 59 491047 3
+20140614 11 40 457509 3
+20140615 14 46 364504 4
+20140616 12 45 519624 3
+20140617 28 51 313412 3
+20140619 54 191 1310877 5
+20140620 10 42 582549 3
+20140621 12 30 478932 2
+20140622 1 1 5029 1
+20140623 8 23 122388 3
+20140624 19 61 641011 3
+20140625 19 85 812846 5
+20140626 15 33 280169 2
+20140627 16 54 567770 4
+20140628 12 36 507452 1
+20140629 7 32 374800 2
+20140630 56 172 1697689 7
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 435 1374 12874775
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 84 100014 20140629180436 0
+bingbot 35 35842 20140629011921 0
+robot 13 19117 20140627160244 0
+baiduspider 10 39121 20140622222519 0
+bot[\s_+:,\.\;\/\\-] 8 26552 20140628130301 0
+msnbot\-media 6 174250 20140622042717 0
+[\s_+:,\.\;\/\\-]bot 5 20726 20140630124803 0
+webfilter 3 2665 20140615223332 0
+^mozilla\/4\.0 \(compatible;\)$ 1 0 20140630205217 0
+slurp 1 1955 20140630153848 0
+turnitinbot 1 1955 20140604174239 0
+yandex 1 2023 20140621132340 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 10
+30s-2mn 21
+2mn-5mn 9
+0s-30s 39
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/labs/chem01/ori/ori2.php 43 95670 1 5
+/labs/chem01/ori/ori1.php 41 46073 23 2
+/labs/chem01/gla/gla1.php 31 35012 21 7
+/labs/chem01/ori/ori3.php 30 46546 0 1
+/labs/chem01/gla/gla2.php 28 63037 0 10
+/labs/chem01/htl/htl2.php 26 24891 0 4
+/labs/chem01/ori/ori4.php 26 49831 1 11
+/labs/chem01/htl/htl1.php 25 35574 0 1
+/labs/chem01/vle/vle.php 19 38437 14 5
+/labs/chem01/vle/vle2.php 17 33626 0 7
+/labs/chem01/vle/vle6.php 2 2068 0 0
+/labs/chem01/2pf/2pf4.php 1 1343 0 1
+/labs/chem01/vle/vle3.php 4 5099 0 0
+/labs/chem01/calo/cal1.php 1 1326 0 1
+/labs/chem01/ebu/ebu.php 4 5580 2 0
+/labs/chem01/gla/gla6.php 6 8986 0 0
+/labs/chem01/gla/gla7.php 6 8584 0 1
+/labs/chem01/ori/ori5.php 3 5414 0 1
+/labs/chem01/ori/ori6.php 1 1868 0 1
+/labs/chem01/2pf/2pf3.php 3 4444 0 1
+/labs/chem01/gla/gla8.php 4 6019 0 3
+/labs/chem01/ebu/ebu0.php 5 6785 0 0
+/labs/chem01/hpc/hpc1.php 4 5908 2 3
+/labs/chem01/vle/vle8.php 7 504 0 1
+/labs/chem01/ 4 13968 3 3
+/labs/chem01/vle/addpnt.php 4 108 0 1
+/labs/chem01/vle/ 13 3523 1 0
+/labs/chem01/gla/ 1 1955 0 1
+/labs/chem01/gla/gla5.php 6 8677 0 0
+/labs/chem01/calo/calqa.html 1 1263 1 0
+/labs/chem01/vle/genvle.php 11 390 1 2
+/labs/chem01/vle/vle7.php 2 3066 0 0
+/labs/chem01/nof/ 3 5100 2 0
+/labs/chem01/2pf/2pf1.php 4 6212 3 1
+/labs/chem01/gla/gla3.php 6 6426 0 0
+/labs/chem01/content.html 1 2400 0 0
+/labs/chem01/list.php 2 1000 0 0
+/labs/chem01/vle/vle4.php 2 2068 0 0
+/labs/chem01/2pf/2pf2.php 3 7112 0 0
+/labs/chem01/nof/nof2.php 2 1778 0 1
+/labs/chem01/default.html 1 1511 0 1
+/labs/chem01/ebu/ebu1.php 6 4554 0 2
+/labs/chem01/gla/gla4.php 6 8883 0 0
+/labs/chem01/nof/nof1.php 5 11723 1 3
+/labs/chem01/vle/measri.php 1 27 0 0
+/labs/chem01/vle/vle5.php 3 4533 0 1
+/labs/chem01/htl/report2.php 3 312 0 0
+/labs/chem01/htl/htl.php 8 2352 7 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 82 51300 0 0
+php 431 624437 0 0
+png 113 3891837 0 0
+html 4 7129 0 0
+js 235 2246372 0 0
+jpg 398 6038834 0 0
+gif 111 14866 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winlong 8 2
+macosx6 14 3
+winxp 239 66
+linux 77 25
+winvista 287 84
+win7 715 241
+macosx 11 4
+winunknown 12 5
+macosx9 8 2
+Unknown 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+firefox28.0 18 7
+safari7.0 11 4
+chrome34.0.1847.137 22 4
+firefox26.0 29 10
+chrome12.0.742.30 26 8
+chrome34.0.1847.132 25 12
+msie7.0 8 2
+chrome34.0.1847.116 32 9
+msie9.0 10 3
+chrome26.0.1410.43 8 2
+firefox27.0 39 14
+Unknown 1 1
+firefox11.0 13 2
+firefox29.0 55 17
+firefox30.0 159 57
+chrome35.0.1916.114 317 101
+mozilla 80 28
+chrome35.0.1916.153 462 122
+firefox14.0.1 4 4
+msie10.0 41 25
+safari5.1.9 14 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154358
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20140611145442
+Mozilla/4.0_(compatible;_Synapse) 20140604165647
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154358
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 18 20
+From1 0 0
+From2 4 4
+From3 108 108
+From4 305 1242
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://iitb.vlab.co.in 104 104
+http://iitb.vlab.co.in/index.php 3 3
+http://amrita.vlab.co.in 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 5 2070
+502 53 27478
+404 73 18750
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/labs/chem01/ebu/lam_final2.jpg 1 -
+/labs/chem01/gla/js/jquery-1.4.2.min.js 1 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/htl/nof1.html 5 -
+/labs/chem01/ori/wg.png 24 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/chem01/ori/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/chem01/ori/rg.png 23 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/chem01/hpc/css/default.css 1 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/index.html
+/labs/chem01/gla/css/default.css 1 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/hpc/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/chem01/fpn/fm1.php 2 http://iitb.vlab.co.in/
+/labs/chem01/hpc/css/style.css 1 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/index.html
+/labs/chem01/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/chem01/gla/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/ebu/nof1.html 3 -
+/labs/chem01/gla/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/chem01/gla/css/style.css 1 http://deploy.virtual-labs.ac.in/labs/chem01/gla/index.html
+/labs/chem01/2pf/PendulumForces.swf 1 -
+/labs/chem01/calo/nof1.html 3 -
+/labs/chem01/ori/http://http://virtual-labs.ac.in/licensing 1 -
+END_SIDER_404

@@ -1,0 +1,299 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse24.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2671                
+POS_VISITOR 3430                
+POS_DAY 3744                
+POS_DOMAIN 4051                
+POS_LOGIN 4280                
+POS_ROBOT 4435                
+POS_WORMS 4751                
+POS_EMAILSENDER 4882                
+POS_EMAILRECEIVER 5025                
+POS_SESSION 5101                
+POS_SIDER 5290                
+POS_FILETYPES 6191                
+POS_DOWNLOADS 6377                
+POS_OS 6425                
+POS_BROWSER 6555                
+POS_SCREENSIZE 6738                
+POS_UNKNOWNREFERER 6812                
+POS_UNKNOWNREFERERBROWSER 7083                
+POS_ORIGIN 7233                
+POS_SEREFERRALS 7367                
+POS_PAGEREFS 7511                
+POS_SEARCHWORDS 7701                
+POS_KEYWORDS 7853                
+POS_MISC 2335                
+POS_ERRORS 7912                
+POS_CLUSTER 4136                
+POS_SIDER_404 8034                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140702101755 2692 645807 11031750972647
+FirstTime 20140604162638
+LastTime 20140630114759
+LastUpdate 20141015121649 2692 0 2691 0 0
+TotalVisits 9                   
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 9 54264
+1 0 0 0 0 0 0
+2 0 0 0 1 1 3217
+3 0 0 0 2 5 7649
+4 0 0 0 4 7 11994
+5 0 0 0 1 1 522
+6 0 0 0 2 2 522
+7 0 0 0 1 6 45879
+8 0 0 0 2 4 36614
+9 0 0 0 3 3 2328
+10 0 0 0 4 4 8746
+11 12 45 820015 5 7 10305
+12 15 56 1328892 7 13 51904
+13 3 5 85440 6 8 14647
+14 18 47 877926 8 17 21030
+15 1 1 5442 5 5 8746
+16 15 50 856775 2 4 1052
+17 0 0 0 4 4 7775
+18 0 0 0 4 8 15306
+19 0 0 0 1 1 0
+20 0 0 0 2 2 343
+21 0 0 0 2 2 2328
+22 0 0 0 1 1 522
+23 0 0 0 2 2 2328
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+125.19.23.50 19 59 972952 20140606115011
+10.4.8.52 18 72 1504717 20140630114759
+115.249.2.250 12 35 732140 20140617130507
+202.129.241.105 12 35 755097 20140604164155
+81.19.188.230 2 2 4142 20140611145716
+37.122.209.69 1 1 5442 20140611154427
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20140604 12 35 755097 1
+20140605 16 45 873784 1
+20140606 3 14 99168 1
+20140611 3 3 9584 2
+20140617 12 35 732140 1
+20140620 6 26 682192 1
+20140626 3 15 101678 1
+20140630 9 31 720847 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 64 204 3974490
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 41 127379 20140630081631 0
+bingbot 28 104286 20140624082731 0
+[\s_+:,\.\;\/\\-]bot 5 29049 20140630124850 0
+slurp 1 2071 20140622235214 0
+turnitinbot 1 2071 20140604142251 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+2mn-5mn 1
+15mn-30mn 1
+30s-2mn 2
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/labs/cse24/ 10 24081 9 2
+/labs/cse24/default.html 7 10577 0 0
+/labs/cse24/content.html 7 17332 0 2
+/labs/cse24/exp3/content.html 4 14156 0 3
+/labs/cse24/exp3/ 4 12868 0 0
+/labs/cse24/exp1/default.html 4 13736 0 0
+/labs/cse24/exp1/ 4 9572 0 0
+/labs/cse24/exp3/default.html 4 14916 0 0
+/labs/cse24/exp1/content.html 4 18516 0 0
+/labs/cse24/exp2/default.html 2 7458 0 0
+/labs/cse24/exp6/default.html 1 3729 0 0
+/labs/cse24/exp9/default.html 1 3729 0 0
+/labs/cse24/exp1/exp1_opt.php 1 852 0 0
+/labs/cse24/exp9/ 1 2165 0 0
+/labs/cse24/exp9/content.html 1 4384 0 1
+/labs/cse24/exp6/content.html 1 4244 0 0
+/labs/cse24/exp3/experiment3.php 1 1985 0 1
+/labs/cse24/exp2/content.html 2 6398 0 0
+/labs/cse24/exp2/ 2 4620 0 0
+/labs/cse24/exp6/ 1 2248 0 0
+/labs/cse24/exp1/exp1.php 2 3040 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 21 37247 0 0
+php 13 27887 0 0
+png 8 96372 0 0
+html 51 152719 0 0
+jpg 77 3269958 0 0
+js 20 340009 0 0
+gif 14 50298 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+linuxandroid 31 9
+winxp 35 12
+Unknown 3 3
+linux 61 18
+win7 74 22
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+chrome35.0.1916.114 59 19
+firefox20.0 26 6
+mozilla 2 2
+android 31 9
+firefox23.0 35 12
+firefox29.0 35 12
+firefox30.0 15 3
+Unknown 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154427
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20140611145716
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154427
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 7 12
+From1 0 0
+From2 0 0
+From3 3 3
+From4 54 189
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/labs/cse24/ 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 1 31825
+502 3 1566
+404 17 4547
+301 19 5227
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 8
+/labs/cse24/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp9/index.html
+/labs/cse24/exp1/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp1/index.html
+/labs/cse24/exp3/js/modernizr-1.5.min.js 7 http://deploy.virtual-labs.ac.in/labs/cse24/exp3/index.html
+/labs/cse24/exp2/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/labs/cse24/exp4/js/modernizr-1.5.min.js 1 -
+/labs/cse24/exp2/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/labs/cse24/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp6/index.html
+/labs/cse24/exp3/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp3/index.html
+END_SIDER_404

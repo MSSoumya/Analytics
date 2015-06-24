@@ -1,0 +1,3995 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201311 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.deploy.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2674                
+POS_VISITOR 126786              
+POS_DAY 126944              
+POS_DOMAIN 3762                
+POS_LOGIN 4000                
+POS_ROBOT 4155                
+POS_WORMS 5836                
+POS_EMAILSENDER 5967                
+POS_EMAILRECEIVER 6110                
+POS_SESSION 127914              
+POS_SIDER 128112              
+POS_FILETYPES 6245                
+POS_DOWNLOADS 7117                
+POS_OS 24661               
+POS_BROWSER 25167               
+POS_SCREENSIZE 32291               
+POS_UNKNOWNREFERER 32365               
+POS_UNKNOWNREFERERBROWSER 45930               
+POS_ORIGIN 50174               
+POS_SEREFERRALS 50331               
+POS_PAGEREFS 50550               
+POS_SEARCHWORDS 56453               
+POS_KEYWORDS 60315               
+POS_MISC 2337                
+POS_ERRORS 62486               
+POS_CLUSTER 3856                
+POS_SIDER_404 62707               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131130235917 40740 10347738 19388608682677
+FirstTime 20131101005242
+LastTime 20131130235917
+LastUpdate 20131201000101 313 0 313 0 0
+TotalVisits 91                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 1                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 58 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1070 4254 166493762 423 1149 30826516
+1 602 2597 159833619 388 892 5946325
+2 372 1719 66718408 422 794 17603252
+3 326 1511 34170873 509 916 21754455
+4 247 1254 31444955 393 797 5552508
+5 358 1448 139380565 454 1058 12128113
+6 344 2035 130300922 537 1175 23740910
+7 698 2790 148010558 393 1118 19713820
+8 795 3165 138653514 387 1168 14376223
+9 1346 6797 213054872 518 1767 16572789
+10 2749 11615 240571203 539 2715 18588957
+11 3103 11683 368323131 728 2640 33339107
+12 2865 11681 297114762 818 2485 116639931
+13 2212 9368 469917907 827 2176 9846535
+14 3165 11697 629081572 605 2275 26760813
+15 2276 8931 394599871 663 2072 47912052
+16 1887 7580 256610119 508 1692 10415264
+17 1293 5706 220510965 567 1599 10982630
+18 1802 7496 251100387 475 1767 46527262
+19 1826 8205 362464026 436 1684 24569094
+20 1838 7508 321273990 508 1517 32761760
+21 2007 8142 298279512 530 1980 12323123
+22 1914 8090 216505752 417 1344 10645676
+23 1366 5529 192068357 477 1255 22313683
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 36461 150801 5284880754
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 42
+googlebot 6057 317710081 20131130235759 0
+bingbot 3488 120706652 20131130230446 0
+robot 1269 3696460 20131126160313 0
+msnbot\-media 815 20236217 20131130184741 0
+bingpreview 695 6832977 20131130110646 0
+yandex 689 7802516 20131130132020 0
+baiduspider 384 1978624 20131130212713 0
+spider 257 773194 20131126064938 0
+bot[\s_+:,\.\;\/\\-] 135 4689379 20131130235241 0
+msnbot 102 273730 20131130222408 0
+commons\-httpclient 2 711703 20131114203641 0
+no_user_agent 47 2455978 20131130172021 0
+microsoft\-webdav\-miniredir 6 63018 20131121160506 0
+php 2 9780 20131118050925 0
+mail\.ru 4 95394 20131129205400 0
+ezoom 66 391334 20131130105823 0
+^java\/[0-9] 6 16220 20131122063627 0
+phantom 21 185088 20131115185159 0
+curl 2 177 20131112153753 0
+proximic 14 98381 20131121135353 0
+titan 1 112384 20131103164619 0
+psbot 1 2978 20131117033900 0
+discovery 10 11458 20131122211842 0
+cfnetwork 1 8398 20131107230914 0
+nutch 16 26977 20131128161540 0
+crawl 3 12730 20131125143244 0
+core 28 1704506 20131114193441 0
+exabot 27 79208 20131126165323 0
+mediapartners\-google 1 1423 20131119144448 0
+ia_archiver 56 31971638 20131130135720 0
+feedfetcher\-google 4 7179 20131125221802 0
+^mozilla\/4\.0 0 1 0 20131130224201
+slurp 11 42100 20131121153326 0
+^mozilla\/4\.0$ 5 131607 20131128225141 0
+python 43 5318238 20131125212828 0
+yie8 57 173755 20131126141614 0
+wordpress 6 299718 20131126085643 0
+favicon 14 39073 20131130232108 0
+webfilter 3 4503 20131119181533 0
+mj12bot 12 29002 20131121105754 0
+msiecrawler 1 2297 20131122145537 0
+netcraft 2 177 20131111002434 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 41
+woff 28 374992 0 0
+php 26474 91394408 0 0
+wnk 2 27577525 0 0
+doc 1 99597 0 0
+gz 2 12538300 0 0
+png 12526 327073659 0 0
+pdf 4311 967544087 0 0
+cgi 1 1289 0 0
+zip 36 309824342 0 0
+py 76 15549 0 0
+js 9644 106981314 0 0
+jpeg 647 3109932 0 0
+class 1572 6181377 0 0
+Unknown 24 244965 0 0
+avi 26 121849910 0 0
+xyz 7 2867 0 0
+css 19445 32989317 0 0
+ico 14 33150 0 0
+txt 96 100512 0 0
+pde 1 9919 0 0
+wmv 4 64037738 0 0
+html 9312 22928786 0 0
+mp4 16 40807150 0 0
+fla 16 69884959 0 0
+jpg 53697 471277457 0 0
+log 1 244230 0 0
+xls 26 368797 0 0
+eot 7 183340 0 0
+bmp 56 15243788 0 0
+htm 14 421298 0 0
+ppt 70 21342359 0 0
+java 1 30414 0 0
+otf 183 4434920 0 0
+swf 1369 612636948 0 0
+pdb 8 38786 0 0
+flv 6 33336880 0 0
+jnlp 307 113277 0 0
+jar 419 1831760086 0 0
+svg 175 2249902 0 0
+gif 10177 52524178 0 0
+ogv 4 33068450 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 326
+/labs/eerc01/exp1/Exp-1%20Tension%20Test.pdf 787 442 260829193
+/labs/eerc03/exp12/9.Jets.pdf 652 408 60442672
+/labs/eerc03/exp1/Data%20files/01%20Bernoullis_experiment.pdf 414 106 74541784
+/labs/eerc03/exp10/07%20Reynolds_experiment.pdf 378 180 88646130
+/labs/eerc03/exp8/5.Weirs.pdf 124 102 12553426
+/labs/eerc03/exp6/03%20Orifices.pdf 117 46 23968592
+/labs/eerc04/exp5/05%20Portal%20Frames.pdf 111 50 20498534
+/labs/eerc01/exp3/Exp-3%20Shear%20test.pdf 108 68 14142720
+/labs/eerc02/exp8/Exp-8%20ConsolidationTest.pdf 104 36 12338357
+/labs/eerc01/exp2/Exp-2%20Compression%20test.pdf 95 70 28188802
+/labs/eerc01/exp4/Exp-4%20Torsion%20test.pdf 76 68 20191480
+/labs/eerc03/exp13/10.Turbines.pdf 69 24 4761919
+/labs/eerc03/exp1/1.Bernoullis_experiment.pdf 68 105 14451823
+/labs/eerc03/exp5/2.%20Venturi_meter.pdf 68 79 14915210
+/labs/eerc03/exp12/09%20Jets.pdf 63 28 5430999
+/labs/cse15/DLDVirtualLabs.jar 53 0 8114597
+/labs/eerc02/exp10/Exp-10%20TriaxialTest.pdf 52 33 7120929
+/labs/cse29/exp7/media/DES1.pdf 52 30 4169429
+/labs/eerc02/exp5/Exp-5%20AtterbergLimits.pdf 50 92 43453605
+/labs/eerc01/exp10/Exp-10%20Yield%20criterion.pdf 45 49 6594863
+/labs/eerc01/exp2/Data%20files/02%20Compression_Test.pdf 41 35 11211465
+/labs/cse01/exp3/quick_pscode.txt 40 0 1340
+/labs/eerc02/exp9/Exp-9%20DirectshearTest.pdf 39 45 11083951
+/labs/eerc01/exp5/Exp-5%20Impact%20test.pdf 36 71 13908755
+/labs/eerc04/exp3/Exp-3%20Continuous%20Beams.pdf 35 25 9402327
+/labs/eerc04/exp2/Exp-2%20Single%20span%20beams.pdf 35 30 9226606
+/labs/eerc04/exp4/Exp-4%20Columns.pdf 34 11 4603392
+/labs/eerc01/exp6/06%20Creep_Test.pdf 33 11 4222405
+/labs/eerc03/exp6/3.Orifices.pdf 33 38 7461692
+/labs/eerc04/exp2/Singlespambeams.pdf 32 25 11245430
+/labs/eerc03/exp7/4.Mouthpieces.pdf 32 90 14968798
+/labs/eerc03/exp10/7.Reynolds_experiment.pdf 30 28 8012770
+/labs/cse18/VirtualLabGraphics.zip 30 63 306208664
+/labs/eerc03/exp5/02%20Venturi_meter.pdf 29 19 8002875
+/labs/eerc01/exp9/Exp-9%20Principal%20stresses.pdf 28 24 4233331
+/labs/eerc04/exp9/Exp-9%20Retaining%20walls.pdf 27 15 14577020
+/labs/eerc02/exp4/Exp-4%20GrainSizeDistribution.pdf 26 178 19526137
+/labs/eerc01/exp4/Animation/4.Torsion-Bar_with-load.avi 26 157 121849910
+/labs/eerc02/exp6/Exp-6%20Permeability.pdf 24 69 14827770
+/labs/eerc01/exp1/Data%20files/01%20Tension_Test.pdf 24 22 7344182
+/labs/cse01/exp3/insertion_pscode.txt 23 0 808
+/labs/eerc02/exp7/Exp-7%20CompactionTest.pdf 22 52 7787623
+/labs/cse29/exp3/media/lec1.pdf 21 21 2600681
+/labs/eerc02/exp3/Exp-3%20SpecificGravity.pdf 20 53 10470264
+/labs/cse01/exp3/merge_pscode.txt 20 0 12523
+/labs/eerc03/exp9/6.Channels.pdf 20 16 2142097
+/labs/cse11/Integers/integerRepresentation.pdf 20 10 1336884
+/labs/eerc04/exp7/Exp-7%20Arches.pdf 19 12 1548364
+/labs/cse01/exp1/slides-week1.ppt 19 7 2872154
+/labs/eerc01/exp7/Exp-7%20Fatigue%20test.pdf 19 35 3066195
+/labs/eerc01/exp6/Exp-6%20Creep%20test.pdf 18 28 3500767
+/labs/cse11/CacheOrganizations/cacheOrganizations.pdf 18 13 2208449
+/labs/eerc02/exp1/Exp-1%20WaterContent.pdf 18 62 8007909
+/labs/eerc04/exp1/Exp-1%20Rigid%20joint.pdf 18 11 2205667
+/labs/eerc04/exp5/Exp-5%20Portal%20frames.pdf 17 13 3770486
+/labs/eerc01/exp1/vlab2/virtual.jar 17 0 302239195
+/labs/emt/final_expt/expt1.pdf 17 16 3660533
+/labs/eerc01/exp3/03%20Shear_Test.pdf 16 3 2079814
+/labs/eerc05/exp2/CBRtest11.pdf 14 24 5068632
+/labs/eerc05/exp8/standard_penetration_test11.pdf 14 33 5212837
+/labs/phy14/exp3/media/citevlab.jar 14 0 81676645
+/labs/cse01/exp2/slides-week4.ppt 13 6 2690307
+/labs/eerc01/exp8/Exp-8%20Compression%20test%20on%20spring.pdf 13 19 2347266
+/labs/eerc05/exp1/freeSwellIndex.pdf 12 29 3120862
+/labs/eerc05/exp5/corecutter11.pdf 12 18 4380519
+/labs/cse01/exp6/slides-etree.ppt 12 16 5541269
+/labs/eerc02/exp2/Exp-2%20UnitWeight.pdf 12 38 7547977
+/labs/cse16/exp04/media/dspBasicsS.jar 11 0 3646884
+/labs/eerc04/exp8/Exp-8%20Trusses.pdf 11 10 1552957
+/labs/eerc05/exp6/VANESHEARTEST11.pdf 10 20 3622205
+/labs/cse18/Vlabs.jar 10 0 545161
+/labs/emt/final_expt/expt9.pdf 10 8 2411578
+/labs/eerc02/exp7/07%20Compaction_Test.pdf 10 0 2761106
+/labs/phy14/exp1/media/citevlab.jar 10 0 79343099
+/labs/cse01/exp3/week3.pdf 9 3 553615
+/labs/eerc03/exp8/05%20Weirs.pdf 9 5 825586
+/labs/cse01/exp3/slides-week3.ppt 9 10 3395965
+/labs/eerc01/exp5/05%20Impact_Test.pdf 9 2 2214297
+/labs/eerc04/exp10/Exp-10%20Plastic%20hinge.pdf 8 6 916660
+/labs/eerc01/exp10/10%20Yield%20Criterion_Test.pdf 8 6 1128535
+/labs/emt/final_expt/expt7.pdf 8 2 1186719
+/labs/emt/final_expt/expt3.pdf 7 19 1690518
+/labs/data.txt 7 0 252
+/labs/cse01/exp4/linkedlist.ppt 7 11 1868653
+/labs/eerc05/exp9/Plate_load_test_11.pdf 7 20 3414203
+/labs/emt/final_expt/expt6.pdf 7 2 1470814
+/labs/eerc05/exp3/Determination_ofpH_of_soils22.pdf 7 14 1926481
+/labs/eerc04/exp6/Exp-6%20Plates.pdf 7 9 2562404
+/labs/cse01/exp2/week4.pdf 7 2 312112
+/labs/cse16/exp04/media/filterDesign.jar 7 0 402417
+/labs/cse01/exp9/MST.ppt 7 10 2679802
+/labs/cse20/exp4/RandomVariables.pdf 7 0 975170
+/labs/emt/final_expt/expt2_1.pdf 7 13 1255216
+/labs/cse01/exp9/tree.pdf 7 13 2216619
+/labs/eerc03/exp13/10%20Turbines.pdf 6 2 423658
+/labs/emt/final_expt/expt4.pdf 6 6 1282235
+/labs/eerc03/exp13/vlab2/work4.jar 6 0 25874989
+/labs/eerc02/exp1/01%20Water_Content.pdf 6 2 2235010
+/labs/eerc02/exp1/vlab2/work3.jar 6 0 40942921
+/labs/eerc03/exp5/vlab2/virtual.jar 6 0 179566409
+/labs/emt/final_expt/expt2_2.pdf 6 8 1376222
+/labs/phy14/exp2/media/citevlab.jar 6 0 48064673
+/labs/civil13/user/shree/Experiment5/SigGravModReport.xls 6 0 1536
+/labs/cse13/lfsr/lfsr.ogv 5 9 53770929
+/labs/eerc05/exp4/Determination_of_total_soluble_solids_in_soil.pdf 5 8 1178392
+/labs/eerc01/exp5/vlab2/virtual.jar 5 0 74305095
+/labs/cse01/exp7/DFSBFS.ppt 5 8 1307091
+/labs/eerc05/exp7/Determination_of_total_soluble_sulphates11.pdf 5 9 1506670
+/labs/eerc01/exp4/04%20Torsion_Test.pdf 5 0 823346
+/labs/civil13/experiment4/video/gf.mp4 5 21 21195317
+/labs/eerc01/exp2/vlab2/virtual.jar 5 0 158158991
+/labs/cse16/exp08/media/lpSpectrumAnalysisS.jar 5 0 3030972
+/labs/cse29/exp6/media/Collision%20Resistant%20Hash%20Functions.pdf 5 11 1970318
+/labs/civil13/experiment4/video/GrowthFactor.mp4 5 21 18378326
+/labs/phy14/exp9/media/citevlab.jar 5 0 41878090
+/labs/cse29/exp8/media/modes%20of%20operation.pdf 5 2 686288
+/labs/emt/final_expt/expt5.pdf 4 2 1230381
+/labs/phy14/exp8/media/citevlab.jar 4 0 33526881
+/labs/ece21/Theory/QueueingNotes2.pdf 4 0 184762
+/labs/ece21/Theory/QueueingNotes1.pdf 4 0 2503384
+/labs/cse01/exp7/IntroGraphs.ppt 4 5 761854
+/labs/cse01/exp6/tree.pdf 4 12 1524693
+/labs/cse01/exp8/ShPaths.ppt 4 7 1120240
+/labs/eerc01/exp3/vlab2/work1.jar 4 0 35909364
+/labs/eerc01/exp7/vlab2/work1.jar 4 0 41612073
+/labs/phy01/data/expt7/R_Aqr.txt 4 0 9944
+/labs/eerc01/exp10/vlab2/virtual.jar 4 0 69809485
+/labs/cse01/exp8/tree.pdf 4 12 1555404
+/labs/cse01/exp5/tree.pdf 4 3 1444693
+/labs/phy14/exp6/media/citevlab.jar 4 0 28321777
+/labs/eerc03/exp7/04%20Mouthpieces.pdf 4 0 1604804
+/labs/cse29/exp10/media/PKCS1.pdf 4 0 85976
+/labs/ece21/Theory/MG1inf.pdf 4 1 207089
+/labs/eerc04/exp3/03%20Continuous%20beams.pdf 4 2 1129653
+/labs/phy14/exp4/media/citevlab.jar 4 0 33481088
+/labs/cse16/exp01/media/speechAnalysis.jar 3 0 2184807
+/labs/ece21/Theory/IGS.pdf 3 0 1136460
+/labs/cse29/exp11/media/dss1.pdf 3 0 100641
+/labs/ece21/Theory/howItWorks.pdf 3 0 305634
+/labs/ece21/PreandPostExperimentQuizzes2.pdf 3 0 144141
+/labs/cse16/exp02/media/speechAnalysis.jar 3 0 2184807
+/labs/ece21/Theory/Tandem%20Queues.pdf 3 0 156741
+/labs/ece21/Theory/Discrete%20Time%20queue.pdf 3 0 126558
+/labs/cse22/exp1/applet/taketwoIAC.jar 3 0 555396
+/labs/cse17/scanmatching/ScanMatchingDev.jar 3 0 174807
+/labs/cse29/exp5/media/Message%20Authentication%20Codes.pdf 3 23 2673150
+/labs/cse01/exp1/week1.pdf 3 3 250632
+/labs/ece21/Theory/Tandem%20Queue%20with%20feedback.pdf 3 0 293289
+/labs/emt/final_expt/expt8.pdf 3 2 536178
+/labs/ece21/Theory/fluidqueue.pdf 3 0 189630
+/labs/cse22/exp1/applet/network.txt 3 0 14073
+/labs/cse29/exp2/media/monoalphacipher.pdf 3 0 233553
+/labs/cse11/VirtualMemory/VM%20Simulator.zip 3 0 1923105
+/labs/cse22/exp1/applet/names.txt 3 0 1122
+/labs/eerc03/exp1/vlab2/virtual.jar 3 0 94867681
+/labs/ece21/Theory/Closed%20Queuing%20Network.pdf 3 0 223020
+/labs/eerc01/exp9/virtual.jar 3 0 34498397
+/labs/ece21/PreandPostExperimentQuizzes1.pdf 3 0 259629
+/labs/eerc05/exp8/media/Pentration.jar 3 0 9367549
+/labs/eerc01/exp2/Data%20files/05%20Impact_Test.pdf 3 0 721971
+/labs/eerc02/exp5/vlab2/virtual.jar 3 0 63842398
+/labs/cse14/final-build/EXP_1sep2010/gtkwave.tar.gz 3 0 10801134
+/labs/eerc01/exp7/07%20Fatigue_Test.pdf 3 0 247674
+/labs/cse01/exp4/Linkedlist.pdf 3 0 80202
+/labs/eerc02/exp2/vlab2/virtual.jar 3 0 4804009
+/labs/ece21/Theory/QueuingNotes.pdf 3 0 1150308
+/labs/cse01/exp7/tree.pdf 3 9 1181117
+/labs/eerc02/exp3/vlab2/work3.jar 3 0 21521252
+/labs/ece21/Theory/Open%20Queuing%20Network.pdf 3 0 257121
+/labs/civil13/Docs/destination_gravity.xls 2 0 34816
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg4.pdf 2 0 229084
+/labs/civil13/user/shree/Experiment8/CaliDoubGravModReport.xls 2 0 85949
+/labs/eerc01/exp4/vlab2/work1.jar 2 0 21906036
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg1.pdf 2 0 234912
+/labs/civil13/user/shree/Experiment6/DoubGravModReport.xls 2 0 8944
+/labs/cse29/exp8/media/Modes%20of%20operation.pdf 2 0 290952
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg2.pdf 2 0 233500
+/labs/ece21/Experiment%207/Examples/Example%207.pdf 2 0 92402
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg3.pdf 2 0 212722
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg3.pdf 2 0 226690
+/labs/eerc04/exp8/vlab2/work4.jar 2 0 22287674
+/labs/ece21/Experiment%205/Examples/Example%202.pdf 2 0 177880
+/labs/eerc02/exp9/vlab2/virtual.jar 2 0 54012922
+/labs/phy14/exp5/media/chem.wmv 2 0 63597716
+/labs/cse18/vlabs-manual.pdf 2 0 128994
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg2.pdf 2 0 228070
+/labs/cse29/exp9/media/DHKE1.pdf 2 0 76930
+/labs/civil13/Docs/trip_calib.xls 2 0 50176
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg3.pdf 2 0 212530
+/labs/eerc01/exp6/vlab2/virtual.jar 2 0 1374535
+/labs/cse17/velocitymodelling/VelocityModels.jar 2 0 55064
+/labs/ece21/Experiment%204/Examples/Example%201.pdf 2 0 176454
+/labs/cse01.tar.gz 2 0 12538300
+/labs/cse17/rrtbasedpathplanning/RRT_Omni.jar 2 0 99298
+/labs/ece21/Experiment%205/Examples/Example%201.pdf 2 0 175264
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg1.pdf 2 0 212916
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg4.pdf 2 0 223612
+/labs/eerc01/exp2/Data%20files/04%20Torsion_Test.pdf 2 0 16774
+/labs/ece21/Experiment%207/Examples/Example%201.pdf 2 0 109248
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg2.pdf 2 0 227056
+/labs/ece21/Experiment%207/Examples/Example%206.pdf 2 0 117018
+/labs/cse17/velocitymodelling/lib/Jama-1.0.2.jar 2 0 65550
+/labs/civil13/experiment3/video/category.mp4 2 12 822711
+/labs/phy14/exp5/media/mediaplayer/chem.flv 2 0 18170334
+/labs/ece21/Experiment%2011/eg1.pdf 2 0 409900
+/labs/cse17/localization/TheoryToLab.ppt 2 0 3708928
+/labs/mech08/ffm.wmv 2 0 12022448
+/labs/eerc04/exp2/vlab2/vlab2.jar 2 0 21010147
+/labs/ece21/Experiment%207/Examples/Example%202.pdf 2 0 92368
+/labs/ece21/Experiment%208/eg1.pdf 2 0 269040
+/labs/ece21/Experiment%2010/eg1.pdf 2 0 434224
+/labs/cse17/rrtbasedpathplanning/RRT_PathModified.jar 2 0 202118
+/labs/ece21/Experiment%209/eg1.pdf 2 0 344300
+/labs/ece21/Experiment%204/Examples/Example%202.pdf 2 0 176048
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg1.pdf 2 0 206942
+/labs/cse29/exp8/media/16_AES.pdf 2 2 1902466
+/labs/ece21/Experiment%207/Examples/Example%204.pdf 2 0 95284
+/labs/cse16/exp05/media/spectrumAnalysisS.jar 2 0 1857254
+/labs/civil13/Docs/costmatrix.xls 2 0 35840
+/labs/cse14/final-build/pass.wmv 2 0 440022
+/labs/phy14/exp7/media/citevlab.jar 2 0 16704746
+/labs/ece21/Experiment%202/Exp2_Examples/Exp2_eg5.pdf 2 0 286884
+/labs/civil13/Docs/pune.xls 2 0 90112
+/labs/ece21/Experiment%207/Examples/Example%205.pdf 2 0 116286
+/labs/phy14/exp4/media/mediaplayer/chem.flv 2 0 14421553
+/labs/ece21/Experiment%207/Examples/Example%203.pdf 2 0 101932
+/labs/cse13/hamming_coder/hamming.ogv 2 0 568774
+/labs/civil13/user/shree/Experiment3/CategoryAnalysisReport.xls 2 0 1385
+/labs/cse10/manual-coa.pdf 2 0 1436924
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg5.pdf 2 0 234048
+/labs/eerc03/exp9/vlab2/virtual.jar 2 0 23659638
+/labs/phy01/data/expt5/m1v.txt 1 0 27795
+/labs/ccnsb05/exp4/exp/JmolAppletSigned.jar 1 0 2177759
+/labs/eerc03/exp7/vlab2/virtual.jar 1 0 198164
+/labs/phy14/exp5/media/mediaplayer/video.flv 1 0 216278
+/labs/eerc01/exp1/Data%20files/03%20Shear_Test.pdf 1 0 79782
+/labs/ece10/vlab_signals_systems/Expt%201/executables/some_simpl.zip 1 0 755416
+/labs/phy01/data/expt5/catalog.txt 1 0 529
+/labs/cse13/ripple_carry_adder/exp2/txt/gate.txt 1 0 754
+/labs/ccnsb04/jmol/manifest/jvxls.txt 1 0 77
+/labs/ccnsb05/exp2/ORD_Movie.flv 1 2 528715
+/labs/eee06/Dreamweaver/videos/video11.flv 1 0 16032384
+/labs/cse16/exp09/media/vowelSynthesis.jar 1 0 112376
+/labs/phy01/data/expt10/Star_Database/Berkeley%2011.txt 1 0 5401
+/labs/civil13/experiment5/video/GravityMethod2.mp4 1 1 46515
+/labs/cse16/exp03/media/NatureOfSpeechS.jar 1 0 181734
+/labs/phy01/data/expt7/Omi_Cet.txt 1 0 8974
+/labs/phy01/data/expt7/V_Cas.txt 1 0 5951
+/labs/civil13/experiment6/video/gravityPHP.mp4 1 2 129055
+/labs/civil13/experiment5/video/gravityPHP.mp4 1 2 98503
+/labs/cse29/exp1/media/shiftcipher.pdf 1 0 174837
+/labs/eerc03/exp6/vlab2/virtual.jar 1 0 31641655
+/labs/ccnsb04/jmol/src/com/obrador/version.txt 1 0 244
+/labs/eerc01/exp1/Data%20files/05%20Impact_Test.pdf 1 0 240657
+/labs/mech08/wfm.wmv 1 0 5172500
+/labs/eee06/Dreamweaver/videos/Ferranti_gEN_x264.flv 1 0 16144385
+/labs/ccnsb04/jmol/src/com/obrador/IJGreadme.txt 1 0 8391
+/labs/eerc05/exp5/media/first.jar 1 0 18871299
+/labs/eerc01/exp8/vlab2/virtual.jar 1 0 1104371
+http://deploy.virtual-labs.ac.in/labs/emt/final_expt/expt9.pdf 1 0 0
+/labs/civil13/user/shree/Experiment10/AONModReport.xls 1 0 123
+/labs/civil13/Docs/base_matrix.xls 1 0 16896
+/labs/eerc01/exp2/Data%20files/Srikanth/01%20Tension_Test.doc 1 0 226816
+/labs/civil13/Docs/cost_calb.xls 1 0 24576
+/labs/eee06/Dreamweaver/videos/video3.flv 1 0 11304204
+/labs/ccnsb04/jmol/manifest/appletMonolithic.txt 1 0 88
+/labs/cse13/ripple_carry_adder/exp2/txt/circuit.txt 1 0 3671
+/labs/ccnsb04/jmol/manifest/applicationData.txt 1 0 63
+/labs/civil13/Docs/System%20Optimal%20assignment%20XLS.zip 1 0 7508
+/labs/eerc01/exp2/Data%20files/01%20Tension_Test.pdf 1 0 145054
+/labs/civil13/Docs/Origin_gravity.xls 1 0 17408
+/labs/phy01/data/expt7/S_Cmi.txt 1 0 3225
+/labs/phy01/data/expt4/solar_data.txt 1 0 12316
+/labs/civil13/user/shree/Experiment4/GroFactReport.xls 1 0 235
+/labs/eee06/Dreamweaver/videos/video5.flv 1 0 16096384
+/labs/ece10/vlab_signals_systems/Expt%202/executables/lin_nonlin.zip 1 0 929649
+/labs/ccnsb05/exp3/jmol/JmolAppletSigned.jar 1 0 2177759
+/labs/ccnsb04/jmol/JmolApplet0_ShapeSpecial.jar 1 0 53980
+/labs/cse17/exploration/VirtualLab_Exploration.jar 1 0 450873
+/labs/eerc05/exp2/media/BearingRatio.jar 1 0 11528372
+/labs/phy01/data/expt7/W_Her.txt 1 0 3506
+/labs/eerc05/exp9/media/Experiment.jar 1 0 6912373
+/labs/ccnsb04/jmol/src/org/jmol/minimize/forcefield/UFF.txt 1 0 4396
+/labs/phy01/data/expt7/R_Cyg.txt 1 0 7902
+/labs/civil13/experiment6/video/GravityMethod2.mp4 1 1 136723
+/labs/eee06/Dreamweaver/videos/ferranti_TRANS_x264.flv 1 0 1667917
+/labs/phy01/data/expt4/ReferenceSpecralLine.txt 1 0 226
+/labs/ccnsb04/jmol/manifest/appletMain.txt 1 0 86
+/labs/eerc02/exp3/03%20Specific_Gravity.pdf 1 0 435819
+/labs/eerc02/exp7/vlab2/virtual.jar 1 0 31622851
+/labs/ccnsb05/exp1/Sampledataexp1.doc 1 2 99597
+/labs/eerc04/exp1/Rigidjoint.pdf 1 0 162167
+/labs/phy01/data/expt5/b12iii.txt 1 0 26746
+/labs/phy01/data/expt10/Star_Database/Auner%201.txt 1 0 60710
+/labs/phy01/data/expt5/b8v.txt 1 0 26651
+/labs/eerc03/exp1/Data%20files/05%20Weirs.pdf 1 0 91772
+/labs/ccnsb04/jmol/manifest/appletSmiles.txt 1 0 88
+/labs/phy14/exp5/media/citevlab.jar 1 0 8382166
+/labs/eerc03/exp10/vlab2/virtual.jar 1 0 23264371
+/labs/eee06/Dreamweaver/videos/exp6.flv 1 0 15264533
+/labs/civil13/user/shree/Experiment9/ModSplitReport.xls 1 0 801
+/labs/eee06/Dreamweaver/videos/exp3.flv 1 0 4370546
+/labs/ccnsb04/jmol/JmolApplet0_ReadersQuantum.jar 1 0 90786
+/labs/cse11/MIPS1/MIPSSimulator.jar 1 0 32375
+/labs/ccnsb04/files/benzene/benzenenm.log 1 0 244230
+/labs/ccnsb04/jmol/JmolApplet0.jar 1 0 915253
+/labs/eerc01/exp1/Data%20files/04%20Torsion_Test.pdf 1 0 64589
+/labs/ccnsb04/jmol/JmolApplet0_ReadersMolXyz.jar 1 0 5086
+/labs/eerc05/exp1/animation/fsi.jar 1 0 3408373
+/labs/ccnsb04/jmol/manifest/applet0.txt 1 0 86
+/labs/eerc01/exp1/Data%20files/10%20Yield%20Criterioan_Test.pdf 1 0 116026
+/labs/cse16/exp07/media/cepstrumAnalysisS.jar 1 0 939576
+/labs/ccnsb04/jmol/JmolApplet0_Popup.jar 1 0 34018
+/labs/eee06/Dreamweaver/videos/exp7.flv 1 0 5187622
+/labs/phy01/data/expt5/b57v.txt 1 0 27792
+/labs/eerc03/exp1/Data%20files/01%20Bernoulli's_experiment.pdf 1 0 114348
+/labs/mech08/nfm.wmv 1 0 6695177
+/labs/eerc03/exp9/06%20Channels.pdf 1 0 103218
+/labs/eee06/Dreamweaver/videos/exp8.flv 1 0 9692974
+/labs/mech08/cmf.wmv 1 0 5889017
+/labs/ccnsb04/jmol/src/com/obrador/license.txt 1 0 779
+/labs/civil13/experiment5/video/GravityMethod2.ogv 0 1 1033783
+/labs/civil13/experiment5/video/gravityPHP.ogv 0 1 1225783
+/labs/civil13/experiment3/video/category.ogv 0 12 6338669
+/labs/civil13/experiment6/video/gravityPHP.ogv 0 1 696335
+/labs/civil13/experiment6/video/GravityMethod2.ogv 0 1 680335
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 28
+blackberry 44 5
+linuxredhat 96 42
+linuxandroid 3338 728
+macosx6 422 97
+winlong 1184 268
+winxp 42719 9692
+win2000 31 8
+symbian 477 87
+linuxfedora 860 327
+winvista 17948 4267
+winunknown 315 69
+wince 35 5
+linuxcentos 49 2
+win2003 276 66
+j2me 770 136
+macosx9 711 85
+macosx7 548 102
+winnt 89 11
+java 3200 427
+linuxubuntu 740 213
+macosx5 30 1
+win98 5 3
+linux 6444 1892
+win7 69515 17123
+macosx 1169 284
+macosx4 1 0
+Unknown 3229 425
+macosx8 476 96
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 333
+firefox14.0 242 56
+firefox28.0 130 18
+firefox3.6 49 13
+chrome12.0.742.100 53 14
+chrome29.0.1547.62 14 3
+safari5.0 27 3
+chrome31.0.1650.39 20 1
+chrome28.0.1500.20 2 0
+chrome10.0.648.45 20 4
+chrome9.0.597.19 54 8
+alcatel 80 6
+chrome28.0.1490.2 58 17
+msie8.0 7620 1533
+chrome25.0.1364.160 32 5
+chrome27.0.1453.93 2 0
+chrome29.0.1547.49 88 26
+chrome31.0.1650.59 294 67
+chrome15.0.874.5 3 0
+docomo 1 0
+chrome9.0.597.98 87 22
+safari5.1.1 8 2
+chrome12.0.742.12 28 5
+chrome8.0.552.215 1 0
+safari7.1.0.336 1 0
+chrome21.0.1180.60 1 0
+chrome29.1.0.0 2 0
+safari6.0.0.246 20 1
+safari5.1.4 1 0
+chrome30.0.1599.69 729 214
+chrome29.0.1547.18 18 4
+chrome3.0.193.0 24 2
+chrome5.0.375.3 1 0
+firefox25.0 17712 4791
+firefox14.0.1 695 252
+chrome6.0.472.53 102 31
+chrome17.0.963.84 1 0
+safari5.1.9 51 10
+firefox3.6.22 31 2
+chrome8.0.552.200 26 10
+safari7.0 859 131
+chrome4.0.206.1 1 0
+firefox4.0.1 1162 423
+chrome18.0.1025.162 248 92
+firefox7.0 657 268
+chrome22.0.1229.79 235 73
+chrome33.0.1712.4 156 41
+chrome30.0.1566.2 22 4
+chrome4.0.302.2 54 10
+firefox24.0 4773 1160
+chrome28.1.0.0 76 27
+iphone 43 3
+chrome19.1.1084.5409 1 1
+chrome32.0.1700.23 1 0
+chrome20.0.1132.47 15 1
+chrome24.0.1312.57 162 34
+chrome11.0.696.3 3 0
+msie9.0 2505 468
+firefox3.6.10 792 311
+chrome18.0.1025.1634 1 1
+chrome30.0.1599.10 40 6
+chrome8.0.552.224 32 4
+safari5.0.5 72 11
+blackberry 1 1
+chrome25.0.1364.29 29 9
+chrome17.0.963.56 1 0
+chrome3.0.195.38 47 7
+chrome27.0.1453.56 29 5
+chrome18.0.1025.166 171 34
+safari3.1.2 1 0
+chrome30.0.1599.105 40 7
+firefox3.6.16 20 4
+opera9.27 6 6
+chrome28.0.1500.71 182 62
+msie5.5 4 4
+chrome22.0.1229.95 58 9
+chrome17.0.942.0 19 3
+chrome10.0.612.1 40 8
+firefox3.0.6 5 2
+chrome25.0.1364.172 30 1
+chrome30.0.1599.0 67 21
+firefox3.6.12 108 24
+safari6.0.2 3 0
+chrome27.0.1444.3 1 0
+msie 1 0
+chrome23.0.1271.97 42 2
+chrome12.0.725.0 1 0
+firefox3.6.8 85 24
+msie6.0 1431 340
+firefox10.0.7 1 0
+firefox10.0 89 13
+firefox26.0 1783 390
+sonyericsson 93 8
+firefox18.0 712 189
+chrome32.0.1700.19 17 2
+chrome29.0.1530.2 4 0
+chrome21.0.1180.57 47 17
+firefox3.6.26 26 1
+chrome30.0.1599.28 7 1
+konqueror3.2 1 1
+chrome5.0.342.5 1 0
+firefox23.0 1922 643
+chrome16.0.912.15 63 11
+chrome25.0.1364.152 45 16
+chrome19.0.1084.24 17 3
+chrome20.0.1132.43 57 20
+chrome6.0.472.33 2 0
+chrome30.0.1599.65 145 34
+chrome16.0.891.0 1 0
+chrome10.0.648.133 110 29
+chrome12.0.742.0 3 0
+safari7.1.0.523 4 0
+chrome29.0.1600.1 33 12
+safari6.0.5 122 14
+chrome7.0.503.0 63 9
+chrome18.0.1025.142 4 0
+chrome14.0.802.30 1 0
+netscape4.0 3637 478
+chrome22.0.1229.94 2 1
+chrome18.0.1003.1 1 0
+firefox3.5.19 18 3
+firefox3.6.3 35 1
+chrome25.0.1364.97 124 36
+firefox10.0.5 79 30
+firefox20.0 576 166
+chrome29.0.1547.57 731 148
+firefox15.0 130 32
+chrome29.0.1547.76 398 56
+chrome24.0.1312.1 4 0
+chrome30.0.1599.37 52 8
+chrome23.0.1.0 1 1
+firefox8.0 88 13
+firefox9.0 61 12
+chrome32.0.1700.14 1 0
+chrome28.0.1500.70 37 28
+chrome15.0.874.121 12 6
+chrome14.0.835.163 39 7
+firefox13.0.1 113 26
+firefox3.6.19 42 9
+firefox6.0.2 48 0
+chrome13.0.782.112 3 0
+chrome25.0.1337.0 1 0
+abrowse 1 0
+firefox16.0 1139 270
+chrome33.0.1702.2 3 0
+chrome30.0.1599.66 91 8
+chrome31.0.1626.1 24 7
+Unknown 722 103
+chrome30.0.1599.101 30385 7414
+chrome30.0.0.0 9 0
+firefox10.0.12 151 73
+firefox3.5.6 2 0
+firefox17.0 1083 223
+chrome29.0.1547.41 4 0
+chrome28.0.1469.0 47 23
+firefox3.6.25 40 2
+chrome31.0.1650.4 59 28
+chrome27.0.1453.110 271 71
+chrome9.0.597 130 21
+chrome5.0.375.23 27 4
+chrome20.0.1132.57 33 7
+chrome25.0.1364.36 18 1
+safari5.1.7 393 152
+firefox3.0.3 2 0
+msie11.0 2 0
+chrome32.0.1700.4 1 0
+chrome14.0.814.0 772 155
+chrome8.0.559.0 1 0
+firefox6.0 153 56
+chrome27.0.1453.116 258 34
+firefox3.6.24 128 55
+chrome7.0.517.0 50 10
+chrome30.0.1599.92 392 72
+firefox1.5.0.12 5 1
+firefox3.0.1 1 1
+chrome31.0.1650.57 28199 6891
+chrome30.0.1599.14 99 19
+chrome29.0.1547.65 22 10
+chrome23.0.1271.95 1 1
+chrome31.0.1650.34 51 7
+safari5.0.2 2 1
+chrome13.0.782.1 3 0
+firefox6.0.1 16 1
+msie7.0 8274 1119
+chrome30.0.1568.2 2 0
+chrome30.0.1599.82 94 9
+firefox9.0.1 1075 189
+flock 27 5
+chrome6.0.408.1 127 5
+chrome12.0.742.53 22 2
+chrome4.0.223.16 1 0
+chrome18.0.1017.2 1 0
+firefox13.0 199 58
+nsplayer 7 0
+firefox10.0.1 1 0
+firefox7.0.1 216 57
+chrome12.0.742.21 30 3
+chrome23.0.1271.91 2 2
+chrome19.0.1084.46 1 1
+chrome26.0.1410.64 173 31
+netscape5.0 22 4
+safari6.1 107 17
+prism 1 1
+safari 395 56
+chrome18.0.1025.152 1 1
+chrome27.1.0.0 47 7
+firefox16.0.1 1 1
+firefox5.0 56 18
+chrome24.0.1312.68 17 3
+android 1986 490
+chrome4.0.203.2 29 4
+chrome28.0.1500.95 665 162
+chrome32.0.1678.0 37 4
+opera9.80 4094 684
+chrome28.0.1500.44 1 0
+chrome19.0.1084.56 116 25
+chrome16.0.904.0 211 49
+chrome33.0.1712.2 3 0
+chrome14.0.825.0 8 0
+chrome15.0.854.0 1 0
+chrome15.0.861.0 63 7
+chrome4.0.237.0 19 4
+chrome26.0.1410.43 31 2
+chrome28.0.1500.52 2 0
+chrome24.0.1312.52 76 12
+chrome17.0.963.26 1 0
+chrome29.0.1547.22 320 61
+firefox3.0.8 5 2
+chrome10.0.648.127 20 1
+chrome10.0.642.2 1 0
+chrome32.0.1671.4 36 6
+samsung 49 4
+chrome31.0.1612.2 23 0
+chrome30.0.1551.0 1 0
+chrome18.0.1025.168 11 4
+chrome29.0.1521.3 1 0
+nokia 480 127
+chrome16.0.912.75 8 4
+firefox22.0 1019 276
+firefox3.6.28 89 29
+chrome25.0.1359.3 19 4
+safari4.0.4 318 118
+firefox3.6.18 84 25
+msie9.10 25 7
+safari10.2.0.1791 1 0
+safari1.0 21 2
+chrome27.0.1453.94 2 0
+chrome18.0.1025.308 27 2
+opera9.50 15 2
+ibrowse 200 44
+safari10.1.0.4633 17 3
+chrome28.0.1500.94 96 29
+chrome30.0.1599.47 1 0
+chrome31.0.1636.2 126 19
+chrome31.0.1650.26 18 1
+firefox4.0 99 35
+chrome31.0.1626.5 1 0
+safari5.0.6 27 1
+chrome32.0.1687.2 217 70
+chrome31.0.1650.48 931 206
+chrome31.0.1622.7 230 69
+chrome28.0.1500.72 311 149
+chrome24.0.1312.56 22 6
+safari3.2.1 3 0
+chrome33.0.1707.0 63 14
+chrome19.0.1041.0 14 1
+chrome27.0.1500.0 1 0
+chrome29.0.1547.66 380 90
+chrome22.0.1229.39 94 30
+chrome28.0.1500.63 24 2
+firefox3.0 53 7
+firefox21.0 1157 386
+lg\- 58 2
+safari6.0 212 59
+chrome32.0.1700.6 106 18
+chrome3.0.183.1 1 0
+firefox2.0.0.6 1 0
+firefox12.0 782 210
+firefox3.6.23 23 1
+msie5.00 1 1
+chrome5.0.375.86 71 43
+chrome32.0.1664.3 182 35
+chrome19.0.1084.30 1 0
+safari6.0.4 1 0
+mozilla 716 117
+chrome28.0.1500.11 4 0
+chrome28.0.1496.0 22 2
+chrome10.0.648.151 16 1
+chrome10.0.628.0 18 3
+chrome26.0.1410.63 1 0
+chrome11.0.696.14 1 0
+firefox19.0 351 50
+firefox10.0.2 185 42
+firefox8.0.1 565 253
+firefox15.0.1 567 126
+chrome29.0.1547.72 9 0
+chrome21.0.1180.89 113 31
+chrome23.0.1271.64 5 4
+chrome6.0.472.25 20 3
+chrome11.0.696.77 6 0
+chrome19.0.1061.1 1 0
+chrome8.0.552.0 18 1
+firefox2.0.0.12 82 20
+chrome26.0.1410.58 71 13
+chrome32.0.1685.0 1 0
+chrome8.0.552.237 50 6
+chrome30.0.1573.2 117 45
+firefox27.0 151 40
+chrome30.0.1599.114 448 119
+firefox11.0 859 210
+chrome5.0.375.55 13 1
+chrome22.0.1229.96 2 1
+chrome29.0.1547.59 1 0
+chrome5.0.342.7 1 0
+chrome5.0.396.0 3 0
+firefox3.0.11 1 0
+chrome14.0.835.2 92 28
+chrome7.0.517.8 3 0
+chrome28.0.1500.5 3 0
+chrome12.0.742.122 20 4
+chrome18.0.966.0 4 1
+chrome5.0.375.17 1 0
+chrome13.0.782.14 1 0
+safari0.8.1 1 1
+msie10.0 4457 1077
+firefox5.0.1 63 11
+safari5.1 18 2
+chrome3.0.190.1 1 0
+firefox1.5.0.11 1 0
+chrome20.0.1132.34 14 2
+firefox3.5 97 14
+chrome15.0.874.21 45 23
+firefox3.0.19 65 15
+firefox3.6.13 20 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 129
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14,gzip(gfe)_(via_docs.google.com/viewer) 20131122154309
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S5380K/S5380KDDLC1;_U;_Bada/2.0;_en-us)_AppleWebKit/534.20_(KHTML,_like_Gecko)_Dolfin/3.0_Mobile_HVGA_SMM-MMS/1.2.0_OPN-B 20131127160956
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20131127004717
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1070;_U;_en)_Presto/2.8.119_Version/11.10_(via_docs.google.com/viewer) 20131101193845
+Mozilla/5.0_(Android;_Mobile;_rv:24.0)_Gecko/24.0_Firefox/24.0 20131115094433
+Mozilla/5.0_(Series40;_Nokia501/10.0.14;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.0.0.0.73 20131130222647
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.0.1791_Mobile_Safari/537.35_ 20131124171816
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S5380K/S5380KDDKK6;_U;_Bada/2.0;_en-us)_AppleWebKit/534.20_(KHTML,_like_Gecko)_Dolfin/3.0_Mobile_HVGA_SMM-MMS/1.2.0_OPN-B 20131104082941
+Mozilla/5.0_(Series40;_NokiaX2-02/11.57;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.3.0.0.48,gzip(gfe)_(via_docs.google.com/viewer) 20131119135629
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S5360)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131121220951
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/32.1214;_U;_fa)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131119114937
+Opera/9.80_(Android;_Opera_Mini/7.28879/27.1662;_U;_en-us)_Presto/2.8.119_Version/11.10_UCBrowser/8.6.1.262/145/355/,gzip(gfe)_(via_docs.google.com/viewer) 20131117101830
+SAMSUNG-GT-E2652/1.0_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131111085653
+Opera/9.80_(Android;_Opera_Mini/7.0.29532/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131114231756
+Opera/9.80_(Android;_Opera_Mini/7.5.33901/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131126170338
+SAMSUNG-GT-C3303i/C3303iDDKB2_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131120080922
+HttpComponents/1.1 20131110184653
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1296;_U;_en)_Presto/2.8.119_Version/11.10 20131122053544
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131123074727
+Shiva/Nutch-1.4 20131120181105
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1151;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131111201723
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1125;_U;_en)_Presto/2.8.119_Version/11.10 20131106145902
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1214;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131119170658
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20131130001054
+Opera/9.80_(Android;_Opera_Mini/7.5.32551/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131113113555
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131118174245
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131129151301
+Mozilla/3.0_(compatible;_Indy_Library) 20131127062136
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131127233728
+Mozilla/5.0_(Android;_Mobile;_rv:25.0)_Gecko/25.0_Firefox/25.0 20131116153742
+NSPlayer/12.00.9200.16437_WMFSDK/12.00.9200.16437 20131118164905
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20131130234926
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1296;_U;_en)_Presto/2.8.119_Version/11.10 20131122182104
+Mozilla/5.0_(compatible;_AhrefsBot/5.0;__http://ahrefs.com/robot/) 20131125131252
+LibreOffice 20131114130343
+Opera/9.80_(Android;_Opera_Mini/7.5.32551/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131126072400
+Mozilla/5.0_(Series40;_NokiaX2-02/12.04;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.3.0.0.49 20131128174008
+Opera/9.80_(Android;_Opera_Mini/7.0.29952/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131116145122
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1312;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131126162450
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1070;_U;_en)_Presto/2.8.119_Version/11.10 20131103171116
+Mozilla/5.0_(Android;_Mobile;_rv:23.0)_Gecko/23.0_Firefox/23.0,gzip(gfe)_(via_docs.google.com/viewer) 20131116110531
+Opera/9.80_(Android;_Opera_Mini/7.0.31318/32.1296;_U;_en)_Presto/2.8.119_Version/11.10 20131122173606
+Nokia6120c/3.83;_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131104120659
+Opera/9.80_(Android;_Opera_Mini/6.5.26527/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131118065327
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/32.1125;_U;_en)_Presto/2.8.119_Version/11.10 20131106091048
+Mozilla/5.0_(S60V3;_U;_en-us;_NokiaC5-00)_AppleWebKit/530.13_(KHTML,_like_Gecko)_UCBrowser/8.7.1.234/28/352/UCWEB_Mobile 20131130160226
+SAMSUNG-SGH-E250/1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_UP.Browser/6.2.3.3.c.1.101_(GUI)_MMP/2.0_(compatible;_Googlebot-Mobile/2.1;__http://www.google.com/bot.html) 20131125190048
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1070;_U;_en)_Presto/2.8.119_Version/11.10 20131103201928
+Mozilla/5.0_(Series40;_NokiaX3-00/11.00;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20131124181735
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131113095628
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131130180002
+Mozilla/5.0_(Series40;_Nokia201/11.64;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.0.2.68.14 20131129052452
+Mozilla/5.0_(compatible;_Anki) 20131108224004
+Opera/9.80_(Android;_Opera_Mini/6.5.27452/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131120080430
+Mozilla/5.0_(compatible;_YandexImages/3.0;__http://yandex.com/bots) 20131127213831
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131124191228
+NokiaX2-02/2.0_(11.57)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20131121215752
+SAMSUNG-GT-E2252/E2252DDMA1_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20131130080246
+Mozilla/5.0_(Series40;_Nokia501/10.0.2;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.7.0.0.11 20131114195837
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S5253/S5253DDKC1;_U;_Bada/1.0;_en-us)_AppleWebKit/533.1_(KHTML,_like_Gecko)_Dolfin/2.0_Mobile_WQVGA_SMM-MMS/1.2.0_OPN-B 20131123111720
+Mozilla/5.0_(compatible;_Image2play/0.1;__http://image2play.com/) 20131124195428
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20131126192344
+Opera/9.80_(Android;_Opera_Mini/7.28879/27.1662;_U;_en-us)_Presto/2.8.119_Version/11.10_UCBrowser/8.6.1.262/145/355/ 20131115231354
+Mozilla/5.0_(Series40;_Nokia206/03.59;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.2.0.0.6 20131104143917
+DoCoMo/2.0_N905i(c100;TB;W24H16)_(compatible;_Googlebot-Mobile/2.1;__http://www.google.com/bot.html) 20131115010953
+rarely_used 20131122222136
+Googlebot-Image/1.0 20131124135645
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A87)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131117141226
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_A54)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131111164607
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1296;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131122192608
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131129191914
+Mozilla/5.0_(Android;_Mobile;_rv:22.0)_Gecko/22.0_Firefox/22.0 20131117124735
+Opera/9.27 20131125194356
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1125;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131105161131
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131118171214
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.10__(KHTML,_like_Gecko)_Version/10.1.0.4633_Mobile_Safari/537.10_ 20131123001100
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131113120108
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131114113127
+Opera/9.80_(Bada;_Opera_Mini/6.5/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131111180024
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131118191229
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20131115093956
+Haansoft 20131104204154
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/32.1296;_U;_en)_Presto/2.8.119_Version/11.10 20131122071140
+Opera/9.80_(Android;_Opera_Mini/7.28879/27.1662;_U;_en-us)_Presto/2.8.119_Version/11.10_UCBrowser/8.5.3.246/145/33756/ 20131113190915
+Mozilla/5.0_(Android;_Mobile;_rv:26.0)_Gecko/26.0_Firefox/26.0 20131108161932
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S5282)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131123114456
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131113233854
+Opera/9.80_(Android;_Opera_Mini/5.0.18302/32.1151;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131113053137
+Opera/9.80_(Android;_Opera_Mini/7.5.32193/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131117134224
+Mozilla/4.0_(compatible;) 20131123041518
+Nokia5130c-2/2.0_(07.97)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20131114174837
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1151;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131114113110
+Mozilla/5.0_(Android;_Mobile;_rv:24.0)_Gecko/24.0_Firefox/24.0,gzip(gfe)_(via_docs.google.com/viewer) 20131107213215
+Mozilla/5.0_(compatible;_GoogleDocs;_documents;__http://docs.google.com) 20131125061742
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20131115094120
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/SYB-1204232256;_U;_en-GB)_Presto/2.10.254_Version/12.00 20131123061205
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.1;_en-US;_Q700)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131122234246
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131126093759
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/32.1296;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131121202354
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1312;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131126145140
+Mozilla/5.0_(Android;_Mobile;_rv:25.0)_Gecko/25.0_Firefox/25.0,gzip(gfe)_(via_docs.google.com/viewer) 20131108193444
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131129225848
+Mozilla/5.0_(Android;_Tablet;_rv:25.0)_Gecko/25.0_Firefox/25.0 20131121123607
+Opera/9.80_(Android;_Opera_Mini/7.5.31684/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131124084434
+TTECHNO 20131104162823
+Mozilla/5.0_(Series40;_Nokia201/11.81;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.7.0.0.11,gzip(gfe)_(via_docs.google.com/viewer) 20131117163357
+Nokia200/2.0_(10.58)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20131111232034
+Opera/9.80_(Android;_Opera_Mini/16.0.1212/32.1151;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131113220558
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/32.1214;_U;_fa)_Presto/2.8.119_Version/11.10 20131119114947
+Mozilla/5.0_(compatible;_Baiduspider/2.0;__http://www.baidu.com/search/spider.html) 20131128210939
+HTTPFetcher_0.1 20131121110943
+AndroidDownloadManager 20131113172021
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131128134531
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131124125400
+Mozilla/5.0_(Series40;_Nokia200/11.81;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.7.0.0.11 20131119212715
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_CELKON_A60)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131123135708
+Opera/9.80_(iPhone;_Opera_Mini/7.0.5/32.1312;_U;_en)_Presto/2.8.119_Version/11.10 20131126162019
+Mozilla/5.0_(Series40;_Nokia311/05.92;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.7.0.0.11 20131108204829
+Opera/9.80_(VRE;_Opera_Mini/4.2/32.1151;_U;_en)_Presto/2.8.119_Version/11.10 20131113174837
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20131115070036
+Mozilla/5.0_(compatible;_GoogleDocs;_drawings;__http://docs.google.com) 20131126224800
+Opera/9.80_(Android;_Opera_Mini/7.5.32551/32.1312;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131125204418
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131116211542
+Mozilla/5.0_(Series40;_Nokia311/07.36;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.7.0.0.11 20131119174451
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131121091436
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/32.1214;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20131118171145
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~app-cruxlight) 20131107110807
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/32.1214;_U;_en)_Presto/2.8.119_Version/11.10 20131121165705
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32453/32.1382;_U;_en)_Presto/2.8.119_Version/11.10 20131130111133
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 48
+ZDM/4.0;_Windows_Mobile_8.0 20131103045933
+rarely_used 20131122222136
+UCWEB/2.0_(Linux;_U;_Adr_4.1.1;_en-US;_Micromax_A88)_U2/1.0.0_UCBrowser/9.2.3.324_U2/1.0.0_Mobile,gzip(gfe)_(via_docs.google.com/viewer) 20131105223348
+UCWEB/2.0_(Java;_U;_MIDP-2.0;_en-US;_sunmicrosystems_wtk)_U2/1.0.0_UCBrowser/9.2.0.336_U2/1.0.0_Mobile 20131128230528
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A87)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131117141226
+Googlebot-Image/1.0 20131124135645
+UCWEB/2.0_(Linux;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/9.3.1.344_U2/1.0.0_Mobile 20131111193256
+UCWEB/2.0_(Java;_U;_MIDP-2.0;_en-US;_GT-S5233S)_U2/1.0.0_UCBrowser/9.3.0.326_U2/1.0.0_Mobile_UNTRUSTED/1.0 20131102105351
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_A54)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131111164607
+Apache-HttpClient/UNAVAILABLE_(java_1.4) 20131129003339
+Java(tm)_2_SDK,_Standard_Edition_v1.6.0_27_Java/1.6.0_27 20131121145456
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20131115094120
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S5360)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131121220951
+Microsoft_Office_PowerPoint_2013 20131120091849
+UCWEB/2.0_(Linux;_U;_Adr_4.0.3;_en-US;_CELKON_A9_)_U2/1.0.0_UCBrowser/8.2.0.242_U2/1.0.0_Mobile 20131119173025
+UCWEB/2.0_(Java;_U;_MIDP-2.0;_en-US;_sunmicro)_U2/1.0.0_UCBrowser/9.3.0.326_U2/1.0.0_Mobile 20131127084335
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.1;_en-US;_Q700)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131122234246
+UCWEB/2.0(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-us;_GT-S5300)_U2/1.0.0_UCBrowser/9.4.0.347_Mobile 20131128172422
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_40_Java/1.7.0_40 20131113101951
+Java(tm)_2_SDK,_Standard_Edition_v1.6.0_20_Java/1.6.0_20 20131107183645
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-B5512)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20131108123927
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20131115093956
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_09_Java/1.7.0_09 20131111155757
+Apache-HttpClient/4.2.5_(java_1.5) 20131118101852
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S6102)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20131117232858
+HttpComponents/1.1 20131110184653
+Shiva/Nutch-1.4 20131120181105
+Haansoft 20131104204154
+TTECHNO 20131104162823
+UCWEB/2.0_(Linux;_U;_Adr_4.1.2;_en-us;_Micromax_A110Q)_U2/1.0.0_UCBrowser/9.4.0.347_U2/1.0.0_Mobile 20131121200726
+UCWEB/2.0_(Linux;_U;_Adr_2.3.5;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/8.6.0.276_U2/1.0.0_Mobile 20131125191919
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_25_Java/1.7.0_25 20131130163836
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S6102)_U2/1.0.0_UCBrowser/9.3.1.344_U2/1.0.0_Mobile,gzip(gfe)_(via_docs.google.com/viewer) 20131122003401
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20131130001054
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S5360)_U2/1.0.0_UCBrowser/8.2.0.242_U2/1.0.0_Mobile 20131126150330
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S5360)_U2/1.0.0_UCBrowser/8.6.0.276_U2/1.0.0_Mobile 20131112190102
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S5282)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131123114456
+HTTPFetcher_0.1 20131121110943
+UCWEB/2.0_(Linux;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20131116095248
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_CELKON_A60)_U2/1.0.0_UCBrowser/8.8.1.351_U2/1.0.0_Mobile 20131123135708
+Apache-HttpClient/4.3_(java_1.5) 20131125040310
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20131116211542
+Java(tm)_2_SDK,_Standard_Edition_v1.6.0_24_Java/1.6.0_24 20131117003013
+UCWEB/2.0_(Linux;_U;_Adr_4.0.4;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/9.3.1.344_U2/1.0.0_Mobile,gzip(gfe)_(via_docs.google.com/viewer) 20131113091006
+LibreOffice 20131114130343
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~app-cruxlight) 20131107110807
+UCWEB/2.0_(Linux;_U;_Adr_4.0;_en-US;_A51)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20131109141607
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_Intex_Aqua_Marvel_)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20131122093359
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4276 16075
+From1 0 3
+From2 876 2485
+From3 3180 4777
+From4 28129 131381
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 858 2302
+search 5 11
+bing 6 100
+google_image 0 2
+ask 3 8
+yahoo 4 62
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 111
+http://www.vlab.co.in/ba_labs_all.php 565 578
+http://virtual-labs.ac.in/labs/cse01/ 292 292
+http://virtual-labs.ac.in/labs/phy14/ 263 263
+http://virtual-labs.ac.in/labs/cse02/ 206 206
+http://iitb.vlab.co.in 173 173
+http://www.virtual-labs.ac.in/labs/cse04/ 153 153
+http://virtual-labs.ac.in/labs/cse19/ 136 137
+http://virtual-labs.ac.in/labs/emt/ 105 105
+http://virtual-labs.ac.in/labs/cse15/ 82 94
+http://vlab.co.in/ba_labs_all.php 64 64
+http://virtual-labs.ac.in/labs/cse14/ 6 6
+http://www.freeebooksbay.com/view_ebook.php 0 1
+http://r.duckduckgo.com/l/ 1 1
+http://www.greenebookshop.com/get_book.php 0 1
+http://eerc.iiit.ac.in/projects.html 3 3
+http://www.vlab.co.in./lab_ready_for_use.php 2 2
+http://virtual-labs.ac.in/labs/ccnsb07/ 23 23
+http://m.facebook.com/l.php 4 4
+http://www.iprojectideas.com 7 7
+http://202.53.81.30/olsnew/mod/url/view.php 13 13
+http://translate.googleusercontent.com/translate_c 52 231
+http://www.searchya.com/results.php 1 1
+http://web.iiit.ac.in/~sharada.mohanty/content/graph-visualisation-using-flash 0 30
+http://www.e-bookspdf.org/view/aHR0cDovL2RlcGxveS52aXJ0dWFsLWxhYnMuYWMuaW4vbGFicy9lZXJjMDMvZXhwMTAvMDclMjBSZXlub2xkc19leHBlcmltZW50LnBkZg==/Rmx1aWQgTWVjaGFuaWNz 0 1
+http://moodle.iitb.ac.in/mod/url/view.php 1 1
+http://ebookbrowsee.net/gdoc.php 0 1
+http://webcache.googleusercontent.com/search 15 185
+http://vlab.co.in/search.php 11 11
+http://not-specified 0 1
+http://powerdl.in 2 2
+http://10.193.29.74:8827/dvs0/nov_dev_id21501369308480710431/desktopview/113899498/0 0 3
+http://virtual-labs.ac.in/labs/ccnsb02/ 30 30
+http://192.168.20.1/dynLoginStatus.html 1 1
+http://downloadpdfz.com/pdf/fluid-mechanics-60774593.html 0 1
+http://virtual-labs.ac.in/labs/cse17/index.html 1 1
+https://m.facebook.com 1 1
+http://www.facebook.com/l.php 12 12
+http://ebooksstation.com/docs/pdf/Strength-of-materials-by-R-k-bansal/5 0 18
+http://pics3.imagezone.org/key/hsi%20color%20model 0 1
+http://virtual-labs.ac.in/labs/cse30/ 45 51
+http://stackoverflow.com/questions/16915453/is-there-any-workaround-to-run-jre-apps-on-android 4 4
+http://www.virtual-labs.ac.in/labs/eerc05/ 46 46
+http://virtual-labs.ac.in/labs/cse13/ 39 39
+http://www.virtual-labs.ac.in/labs/cse16/ 2 2
+http://d2f48rw3q4ch6s.cloudfront.net/engg_demoDB/785ca6d9-56c2-4d49-bf72-7d18b2460c0e/lessons/561f91a9-99e4-4cdf-ae6f-61d8f89c85a5/lesson_2_1_103837.htm 2 2
+http://virtual-labs.ac.in/labs/cse22/ 26 26
+http://test.virtual-labs.ac.in/labs/cse19/index.php 0 1
+http://e.mail.ru/cgi-bin/link 1 1
+http://2ce321aa.wordpress.com/virtual-lab/ 14 14
+http://virtual-labs.ac.in/labs/cse24/ 13 13
+http://virtual-labs.ac.in/labs/cse20/ 21 21
+http://www.mysearchresults.com/search 1 1
+http://ui2.virtual-labs.ac.in/courses.php 4 4
+http://virtual-labs.ac.in/labs/eerc04/ 17 17
+http://gal8.piclab.us/key/asynchronous%20bcd%20counter%20jk%20flip%20flops 0 1
+http://www.virtual-labs.ac.in/labs/civil13/ 3 3
+http://www.virtual-labs.ac.in/labs/cse22/ 5 5
+http://www1.search-results.com/web 1 1
+http://iitb.vlab.co.in/index.php 6 6
+http://developer.virtual-labs.ac.in/releases 1 1
+http://virtual-labs.ac.in/labs/cse18/ 51 51
+http://pascal.iiit.ac.in/~choppell/popl/hws/index.html 5 5
+http://sr.searchfunmoods.com 1 1
+http://10.196.100.124:8827/dvs0/nov_dev_id31501351271912484304/desktopview/156056088/0 0 1
+http://hidemyass.com 1 1
+http://www.crazyengineers.com/threads/what-is-difference-between-compaction-consolidation.68305/ 0 16
+http://virtual-labs.ac.in/labs/ccnsb05/ 6 6
+http://virtual-labs.ac.in/labs/cse05/ 16 16
+http://csitgeu.in/csit/content/syllabus 19 19
+http://jobspapa.com/convolution.html 0 1
+http://virtual-labs.ac.in/labs/cse04/ 9 9
+http://www.tiutel.org/tel/Virtual%20Lab/virtuallab.html 22 22
+http://virtual-labs.ac.in/labs/ccnsb04/ 22 22
+http://vlab.co.in/lab_ready_for_use.php 3 3
+http://www.vlab.co.in/search.php 26 26
+http://virtual-labs.ac.in/labs/cse11/ 56 56
+http://virtual-labs.ac.in/labs/eerc01/ 44 44
+http://www.gobookee.org/get_book.php 0 941
+http://3cs2102at.wordpress.com/virtual-lab-experiments/ 3 3
+http://www.vlab.co.in/institute_detail.php 44 44
+https://www.facebook.com 13 13
+http://diwakar-marur.blogspot.in/2012/02/online-learning-resources.html 1 1
+http://www.vlab.co.in/lab_ready_for_use.php 55 55
+http://vlab.co.in/institute_detail.php 5 5
+http://www.pdfone.com/download/5_engineering-mechanics-and-strength-of-materials-r-k-bansal/strength-of-materials.html 0 2
+http://192.168.100.1/userportal/newlogin.do 2 2
+http://virtual-labs.ac.in/labs/ccnsb03/ 18 18
+http://downloadpdfz.com/pdf/strength-of-materials-63994008.html 0 5
+http://diwakar-marur.blogspot.com/2012/02/online-learning-resources.html 2 2
+http://122.168.101.203/a@iclassinfo@@@@/4/20130114135153401226/Virtual%20Labs.htm 1 1
+http://www.filmvz.com/spectrum/spectrum-all-in-one-jntu-cse.htm 0 1
+http://www.gobookee.org/rk-bansal-strength-of-materials/ 0 12
+http://virtual-labs.ac.in/labs/eerc03/ 17 17
+http://diwakar-marur.blogspot.fr/2012/02/online-learning-resources.html 1 1
+http://131.253.14.98/proxy.ashx 0 160
+http://newfreebooks.com/pdffile/-7669768554192532939/ 0 1
+http://virtual-labs.ac.in/labs/cse16/ 14 14
+http://virtual-labs.ac.in/labs/cse17/ 28 28
+http://virtual-labs.ac.in/labs/ccnsb01/ 35 35
+http://virtual-labs.ac.in/labs/eerc05/ 15 15
+http://virtual-labs.ac.in/labs/cse09/ 23 23
+http://ebooksstation.com/docs/pdf/fluid-mechanics-r.k.bansal 0 6
+http://virtual-labs.ac.in/labs/cse29/ 63 63
+http://virtual-labs.ac.in/labs/ccnsb06/ 50 50
+http://moodle.iitb.ac.in/course/view.php 1 1
+http://zcs.znu.ac.ir/mod/url/view.php 7 7
+http://www.safehomepage.com/web 0 6
+http://www.vlab.co.in/search_institute.php 12 12
+http://in-mg61.mail.yahoo.com/neo/launch 1 1
+http://web.iiit.ac.in/~sharada.mohanty/content/virtual-labs 0 4
+http://virtual-labs.ac.in/labs/eerc02/ 12 12
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 100
+http+//deploy.virtual-labs.ac.in/labs/cse15/exp3/index.php%3fsection%3dtheory 10
+image+convolution 5
+calculate+delay+of+n+n+multiplier 3
+virtual+tensile+tester 3
+virtual+tensile+test+experiment 2
+d+latch+transistor 2
+theory+of+bcd+to+7+segment+decoder 2
+adders+theory 2
+jk+flip+flop+theory 2
+virtual+laboratory+micrometer 2
+dual+bcd+to+7segment+ic 1
+j+k+flip+flops+implementation+as+3+bit+asynchrnous+up+bit+counter 1
+design+of+bcd+to+7+segment+converter 1
+why+decoders+are+using+only+common+anode+seven+segment 1
+tabulation+for+2+bit+synchronous+up+counter 1
+mips32%e2%84%a2+architecture+for+programmers+volume+i+introduction+to+the+mips32+architecture 1
+7+segment+display+4+input+counting 1
+experiments+mathematical+expressian+in+virtual+lab 1
+edge+triggered+flip+flop 1
+master_slave+jk+flip+flop 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse20%2fexp7%2findex.php%3fsection%3dtheory 1
+7+segment+decoder+experiment 1
+mod+-10+ripple+counter+decade+counter 1
+2-bit+comparator+theory 1
+7segment+decoder+experiment 1
+pass+latch+transistor 1
+vlsi+design+of+common+source+amplifier 1
+quiz+on+image+processing 1
+btn 1
+2+bit+magnitude+comparator 1
+bit+comparator 1
+2+bit+comparator 1
+half+adder+theory+for+record 1
+ways+to+implement+array+multiplier 1
+programmable+1+bit+alu+virtual+lab 1
+common+source+amplifier+vlsi+lab 1
+3-bit+synchronous+up%7cdown+counter+theory 1
+vlsi+design+lab+experiments 1
+prominent+calcium+lines+in+the+solar+spectrum 1
+bcd+to+7+bit+decoder+experiments 1
+asynchrnous+counter+theory 1
+7+segment 1
+bernoulli+s+experiment+virtual 1
+2+bit+comparator+theory 1
+two+bit+comparator+theory 1
+seven+segment+display+theory 1
+analog+cmos+design 1
+bcd+to+7+segment+decoder+experiment 1
+clock+gating+and+power+gating 1
+4+to+1+multiplexer+truth+table 1
+how+pmos+is+good+logic+1+and+nmos+is+good+logic+zero 1
+bcd+to+7-segment+lab 1
+theory+for+halfadder.com 1
+design+bcd+to+7segment+decoder 1
+theory+for+1+bit+and+2+bit+comparator 1
+decade+ripple+counter+using+j+k+flip+flop 1
+application+of+2+bit+multiplier+circuit 1
+bcd+to+7+segment+decoder+wiki 1
+design+bcd+to+seven+segment+decoder 1
+bcd+to+seven+segment+decoder+theory 1
+describe+the+internal+structure+of+an+interpreter 1
+digital+lab+experiment+7+segment+decoder 1
+design+the+bcd+to+seven+segment+decoder 1
+multiplexer+4+to+1+truth+table 1
+4+bit+comparator+operation+and+theory 1
+projects+in+emt+virtual+labs 1
+bcd+to+7+segment+decoder+theory 1
+lena+magnitude+spectrum 1
+binary+to+decimal+decodar+theory 2
+virtual+tensile+lab 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse19%2findex.php 2
+-+edge+triggerd+d+flip+flop+code 1
+7+segment+display+with+4+inputs 1
+half+adder+and+full+adder+theory 1
+dld+virtual+lab 1
+multiplexer+74+151+theory 1
+virtual+robotics+lab 1
+bcd+to+7+segment+decoder+practical 1
+7+segment+expt 1
+virtual+equilibrium+forces+lab 1
+xnor+gate+circuit+diagram+which+use+in+vlsi+labs 2
+virtual+lab+ex 1
+de+practical+on+bcd+to+seven+segment+decoder 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse01%2findex.php%3fsection%3dlist%2520of%2520experiments 2
+nand+and+nor+latches+theory 1
+bcd+to+7+segment+converter 1
+counter+to+bcd+7+segment+wikipedia 1
+iiit+hyderabad+a+block+a+block 1
+two+digit+led+display+design+experiment 1
+j-k+master+slave+flip+flop+theory 1
+7490+decade+counter+wiki 1
+working+of+7-segment+display+in+digital+logic+design 1
+master+slave+flip+flop+using+nor+gate 1
+star86 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse18%2findex.php%3fsection%3dlist%2520of%2520experiments 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fphy14%2f%23 1
+the+operation+of+a+4+bit+digital+comparator+can+be+expressed+as+a+truth+table 1
+cs+amplifier+vlsi+desgn 1
+how+to+design+a+7+segment+decoder 1
+digital+comparator 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 192
+to 24
+theory 24
+segment 22
+7 17
+http 17
+bcd 17
+virtual 16
+decoder 16
+bit 15
+of 11
+mathematical 1
+which 2
+two 2
+3-bit 1
+implementation 1
+dld 1
+power 1
+slave 2
+code 1
+dual 1
+iiit 1
+circuit 3
+introduction 1
+cs 1
+151 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse19%2findex.php 2
+and 6
+equilibrium 1
+magnitude 2
+practical 2
+//deploy.virtual-labs.ac.in/labs/cse15/exp3/index.php%3fsection%3dtheory 10
+amplifier 3
+is 2
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fphy14%2f%23 1
+- 1
+forces 1
+nor 2
+operation 2
+zero 1
+bernoulli 1
+mips32 1
+pass 1
+ripple 2
+7segment 3
+lena 1
+common 3
+can 1
+image 6
+convolution 5
+-10 1
+latches 1
+lab 11
+expressian 1
+synchronous 2
+nand 1
+labs 3
+2-bit 1
+experiment 8
+led 1
+a 5
+flop 8
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse01%2findex.php%3fsection%3dlist%2520of%2520experiments 2
+2 6
+display 5
+record 1
+k 2
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse18%2findex.php%3fsection%3dlist%2520of%2520experiments 1
+in 6
+multiplexer 3
+programmable 1
+halfadder.com 1
+ic 1
+diagram 2
+only 1
+binary 2
+full 1
+inputs 1
+describe 1
+s 1
+cmos 1
+half 2
+comparator 10
+tabulation 1
+programmers 1
+desgn 1
+master_slave 1
+processing 1
+i 1
+quiz 1
+transistor 3
+up%7cdown 1
+anode 1
+jk 3
+mips32%e2%84%a2 1
+star86 1
+triggerd 1
+as 2
+clock 1
+block 2
+why 1
+input 1
+table 3
+projects 1
+d 3
+gate 3
+on 2
+tensile 6
+decoders 1
+74 1
+spectrum 2
+adder 3
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse20%2fexp7%2findex.php%3fsection%3dtheory 1
+vlsi 6
+digital 4
+hyderabad 1
+decade 3
+wiki 2
+nmos 1
+with 1
+logic 3
+wikipedia 1
+source 2
+digit 1
+interpreter 1
+btn 1
+delay 3
+flip 9
+seven 6
+xnor 2
+design 10
+architecture 2
+array 1
+good 2
+internal 1
+master 2
+triggered 1
+using 3
+7-segment 2
+robotics 1
+expressed 1
+decimal 2
+counter 9
+converter 2
+counting 1
+emt 1
+an 1
+mod 1
+decodar 2
+the 5
+test 2
+j 2
+flops 1
+1 5
+adders 2
+gating 2
+asynchrnous 2
+laboratory 2
+expt 1
+for 5
+how 2
+calculate 3
+pmos 1
+7490 1
+ways 1
+calcium 1
+de 1
+be 1
+tester 3
+solar 1
+are 1
+up 2
+lines 1
+analog 1
+use 2
+prominent 1
+edge 2
+micrometer 2
+n 6
+volume 1
+3 1
+working 1
+ex 1
+application 1
+implement 1
+latch 3
+alu 1
+j-k 1
+4 6
+structure 1
+experiments 3
+multiplier 5
+truth 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+403 1 304
+503 121 50094
+206 976 53261654
+502 4 2168
+400 10 3170
+302 234 85087
+416 1 405
+405 41 14585
+500 6 100
+404 15328 4024336
+301 1882 489739
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 876
+/labs/cse19/images/temp/1384767352_1.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/histo.php
+/labs/cse22/exp7/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/index.html
+//phpMyAdmin-2.5.5-pl1/index.php 2 -
+/labs/eerc03/exp12/9.jets.pdf 2 -
+/labs/cse24/exp5/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/index.html
+/labs/cse05/html/index/arithmetic.html 1 -
+/labs/img/developers/exclamation.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/img/amo2009/icons/starselect_single.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil16/index_files/image5411.gif 1 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf)%20format(%22opentype%22 4 -
+/labs/cse30/vlab3/myExp3_a/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp3_a/index.html
+/labs/ccnsb06/exp6_10/caffeine/layout.css 3 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6_10/caffeine/plot_IR_caffeine_exp6.html
+/labs/mech08/img/assets/js/bootstrap-dropdown.js 1 -
+/labs/cse05/html/index/Pre_and_co-requisites.html 2 -
+/labs/cse05/html/index/further-reading-6.html 3 -
+/labs/ccnsb06/exp10/js/modernizr-1.5.min.js 13 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp10/
+/labs/img/amo2009/bg/header-dropdown.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb04/exp5/experiment/JmolApplet 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp5/experiment/final_latest.php
+/labs/emt/images/bdot.jpg 2 http://deploy.virtual-labs.ac.in/labs/emt/faqs.php
+/labs/eerc05/exp7/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/cse19/images/temp/1384750354_3.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/diff.php
+/labs/img/amo2009/bg/listing-header.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb06/exp6_10/nitrophenol/layout.css 7 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6_10/nitrophenol/2-nitrophenol_MS.html
+/labs/img/amo2009/lightbox/closelabel.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb07/suraj/Suraj/bin/javax/media/j3d/Node.class 1 -
+/labs/cse19/css/override.css 612 http://deploy.virtual-labs.ac.in/labs/cse19/index.php
+/labs/cse22/exp3/tmp/sr6initabk1tudm95buojv45h6/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/chem01/ori/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/cse09/exp14/index.html 1 -
+/labs/civil16/index_files/image9511.gif 1 -
+/labs/eerc05/exp9/js/modernizr-1.5.min.js 14 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+/labs/cse30/vlab3/myExp3_b/images/manual.jpg 1 -
+/labs/eerc05/exp7/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/index.html
+/labs/img/amo2009/bg/button-red.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/Sim%207/web/sim7.html 3 -
+//phpmyadmin1/scripts/setup.php 2 -
+/labs/cse15/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse15/exp9/
+/labs/eerc03/exp12/09%20jets.pdf 1 -
+/labs/eerc05/exp8/media/images/style.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+//phpMyAdmin-2.5.5/index.php 2 -
+/labs/cse05/html/index/procedure-2.html 4 -
+/uploads/pages/small/no-small.jpg 1 -
+/labs/cse30/vlab3/myExp7_a/images/manual.jpg 7 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp7_a/index.php
+/labs/eerc05/exp2/media/images/style.css 13 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/cse09/exp7/index.php 12 -
+//images/stories/cr0t.php 1 -
+/labs/ccnsb06/exp2/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp2/
+/labs/ccnsb06/exp9/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp9/
+/labs/cse17/velocitymodelling/Jama-1.0.2.jar 20 -
+/labs/cse05/html/index/programming-3.html 1 -
+/labs/civil16/index_files/image725.gif 1 -
+/labs/cse19//images/stories/70cpx.php 1 -
+/labs/cse19/images/temp/1383643192_9.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/uploads/pages/2012-02-27_232233.jpg 1 -
+/labs/eee06/Dreamweaver/videos/video8.flv 1 -
+/labs/eee06/Dreamweaver/New%20Cv/abroad.html 1 -
+/labs/cse18/exp1/expressInstall.swf 9 -
+/labs/eee06/Dreamweaver/Sim_2/web/style.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim_2/web/index.html
+/labs/cse05/html/index/quiz-8.html 2 -
+/labs/cse19/images/stories/cr0t.php 1 -
+/labs/chem01/ori/wg.png 23 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/cse19/images/temp/1383643192_10.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/civil13/experiment6/js/jquery-ui.min.js 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModUserDisplay.php
+/labs/civil16/index_files/image827.gif 2 -
+/labs/eerc05/exp6/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/cse05/html/topics/recursion/index.html 8 http://deploy.virtual-labs.ac.in/labs/cse05/html/content.html
+/labs/civil13/experiment9/ddtabmenufiles/glowtabs.css 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment9/experiment.php
+/labs/eerc05/exp7/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/cse01/exp7/index.html 3 -
+/labs/phy14/exp5/media/images/forms.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/mech08/img/assets/js/bootstrap-typeahead.js 1 -
+/labs/cse05/popl/topics/lexical/index.html 2 -
+/labs/img/ratings/2stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/files/img/ico_imprimir.gif 1 -
+/labs/ccnsb04/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp2/
+/labs/civil16/index_files/image4621.gif 3 -
+/index.htm 5 -
+/labs/cse09/exp13/index.html 1 -
+/labs/mech08/img/assets/js/bootstrap-button.js 1 -
+/labs/civil16/index_files/image4951.jpg 1 -
+/labs/cse01/exp6/expressInstall.swf 4 -
+/labs/mech08/img/assets/js/bootstrap-tab.js 1 -
+/labs/consb06/exp06_10/experi 2 -
+/labs/cse05/html/index/environments.html 2 -
+/labs/img/amo2009/icons/orange-loading.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/mech08/img/assets/js/bootstrap-collapse.js 1 -
+/labs/cse05/html/index/letrec.html 1 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf)%20format(%22opentype%22 4 -
+/images/vk.png 1 -
+/labs/ccnsb04/exp8/experiment/thumb_bg.png 5 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp8/experiment/index.php
+/labs/emt/images/1245599423.png 2 http://deploy.virtual-labs.ac.in/labs/emt/faqs.php
+/labs/consb06/exp6_10/Experimet10.swf 2 -
+/labs/img/amo2009/bg/footer.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil13/experiment5/js/jquery.min.js 11 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModRes.php
+/labs/phy14/exp2/media/images/style.css 13 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/cse04/exp3/jqminmax.js 6 http://deploy.virtual-labs.ac.in/labs/cse04/exp3/submission424129490.html
+/labs/img/amo2009/icons/icons.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb05/exp1/js/modernizr-1.5.min.js 11 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/index.html
+/labs/cse15/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse15/exp3/
+/labs/ccnsb07/exp5/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp5/index.html
+/labs/cse05/html/index/New_environment.html 1 -
+/main.htm 4 -
+/labs/cse22/exp3/tmp/2dgburor1jhdm2qmlrcek83dd3/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/eee06/Dreamweaver/New%20Cv/index.php 1 -
+/labs/eee06/Dreamweaver/videos/video2_x264.flv 1 -
+/labs/civil16/index_files/image820.jpg 1 -
+/labs/civil16/index_files/image672.gif 2 -
+/labs/ccnsb07/exp6/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp6/index.html
+/labs/ccnsb05/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp3/index.html
+/labs/cse05/html/index/List_of_all_Experiments.html 1 -
+/labs/cse19/images/temp/colour12.jpg 1 http://deploy.virtual-labs.ac.in/labs/cse19/colour.php
+/labs/cse09/js/userlogin.js 908 http://deploy.virtual-labs.ac.in/labs/cse09/
+/labs/cse05/html/index/objective-1.html 2 -
+/labs/cse19//images/stories/p3tx.php 1 -
+/labs/cse29/about.php 1 -
+/labs/eee06/Dreamweaver/New%20Cv/natconf2.html 1 -
+/labs/cse18/expressInstall.swf 6 -
+/labs/civil13/experiment5/ddtabmenufiles/glowtabs.css 8 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModUserDisplay.php
+/main.php 4 -
+/labs/civil16/index_files/image4831.jpg 1 -
+/labs/cse05/html/index/procedure-5.html 2 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf)%20format(%22opentype%22 4 -
+/labs/ccnsb04/exp9/experiment/JmolApplet 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp9/experiment/final.php
+/labs/cse14/final-build/js/beethoven.js 277 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/cse19/fourier/choice3.png 23 -
+/labs/cse02/exp5/lab/function/function.class 10 http://deploy.virtual-labs.ac.in/labs/cse02/exp5/lab/function.html
+/labs/civil16/index_files/image564.gif 1 -
+/labs/civil13/experiment5/ddtabmenufiles/ddtabmenu.js 5 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModUserDisplay.php
+/labs/phy14/exp3/media/cite.vlab.chemistry.demos.PhotoElectric$MyApplet 2 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/civil16/index_files/image5491.gif 2 -
+//images/stories/dor/dor.php 1 -
+/labs/cse09/exp6/index.php 7 -
+/labs/cse19/fourier/choice5.png 22 -
+/labs/cse24/exp4/style.css 7 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/experiment9-2.php
+/labs/ccnsb06/exp5/PendulumForces.swf 10 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp5/
+/labs/cse30/vlab3/index.html 1 -
+/img/tignish/whatsnew/sub-feature-top.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/wp-admin/ 5 -
+/labs/img/ratings/1stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/chem01/hpc/rg.png 5 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/eerc05/exp4/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/index.html
+/labs/eerc04/exp1/Exp-1 2 -
+/labs/ccnsb03/exp4/media/3.swf 8 http://deploy.virtual-labs.ac.in/labs/ccnsb03/exp4/media/4.html
+/labs/cse30/vlab3/myExp2_2_a/images/manual.jpg 27 -
+/labs/eee06/Dreamweaver/measurement.html 2 -
+/labs/cse22/exp3/tmp/70d7ek884qub15nrqagrpu88n3/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse30/vlab3/myExp7_b/images/manual.jpg 3 -
+/labs/cse09/exp6/PendulumForces.swf 8 http://deploy.virtual-labs.ac.in/labs/cse09/exp6/index.html
+/labs/cse09/exp8/PendulumForces.swf 9 -
+/labs/eee06/Dreamweaver/exp6.html 4 -
+/labs/cse02/exp9/pointers/build/pointer.class 5 http://deploy.virtual-labs.ac.in/labs/cse02/exp9/pointers/build/pointer.html
+/image/logo-bottom.png 1 -
+/labs/eee06/Dreamweaver/top%20section2.html 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/syn_Sim.html
+/labs/img/amo2009/icons/buttons/go-green.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil16/index_files/image923.gif 1 -
+/labs/mech08/css/override.css 1 -
+/labs/ccnsb07/exp7/PendulumForces.swf 5 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp7/index.html
+/labs/eerc05/exp1/js/modernizr-1.5.min.js 23 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/labs/cse05/html/index/theory-2.html 2 -
+/labs/img/amo2009/bg/listing-item-yellow.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse04/exp5/jqminmax.js 9 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/lab.html
+/labs/ccnsb04/exp2/experiment/javax/media/j3d/GraphicsConfigTemplate3D.class 1 -
+/labs/eee06/Dreamweaver/sim_5/web/Exp5.html 3 -
+//admin/scripts/setup.php 2 -
+/labs/eerc05/exp5/PendulumForces.swf 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/index.html
+/labs/img/amo2009/bg/heading-dark-blue.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse09/css/hover.css 414 -
+/labs/cse24/exp3/js/modernizr-1.5.min.js 9 http://deploy.virtual-labs.ac.in/labs/cse24/exp3/index.html
+/labs/mech08/img/assets/js/bootstrap-carousel.js 1 -
+/labs/cse02/exp9/pointers/build/classes/pointer/class.class 1 -
+/labs/civil16/index_files/image750.jpg 1 -
+/labs/eerc04/exp10/Exp-10 1 -
+/uploads/pages/funny-crashes-015.jpg 1 -
+/labs/eerc05/exp6/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/mech01/home%20page.html 2 -
+/labs/cse19/fourier/choice6.png 24 -
+/labs/eerc05/exp5/media/edu/eerc/demos/CoreCutter2$MyApplet.class 8 -
+/labs/cse29/js/exp10/rss.dss.js 8 http://deploy.virtual-labs.ac.in/labs/cse29/exp10/index.php
+/labs/eee06/Dreamweaver/New%20Cv/n%20gal/index.php 1 -
+/uploads/pages/So-realistic-hand-painted-cars-10_thumb.jpg 1 -
+/labs/cse24/exp9/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/cse24/exp9/index.html
+/labs/ccnsb05/exp1/swf. 2 -
+/labs/civil16/index_files/image845.gif 3 -
+/apple-touch-icon.png 98 -
+/labs/civil16/index_files/image4681.gif 1 -
+/labs/cse09/exp3/PendulumForces.swf 10 http://deploy.virtual-labs.ac.in/labs/cse09/exp3/index.html
+/labs/ece18/images/favicon.png 1 -
+/labs/civil16/index_files/Page314.htm 2 -
+/labs/phy14/exp5/media/images/panel.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/civil16/index_files/image824.jpg 2 -
+/labs/img/amo2009/bg/body.jpg 207 http://deploy.virtual-labs.ac.in/labs/emt/images_site/style.css
+/labs/index.html 25 -
+/labs/cse20/exp7/images/q10_points.png 5 -
+/labs/emt/images/waves/4.png 5 -
+/labs/cse02/exp6/test1/build/towers.class 7 http://deploy.virtual-labs.ac.in/labs/cse02/exp6/test1/build/towers.html
+/m/labs/cse04/exp10/index.php 2 -
+/labs/cse30/vlab3/myExp9_b/images/manual.jpg 1 -
+/labs/eee06/Dreamweaver/exp2.html 3 -
+/labs/eerc05/exp8/js/modernizr-1.5.min.js 15 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/cse24/exp4/js/modernizr-1.5.min.js 13 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/index.html
+/labs/cse30/vlab3/myExp3_a/images/manual.jpg 4 -
+/labs/cse05/html/index/objective-2.html 1 -
+/labs/ccnsb06/exp1/javax/media/j3d/Node.class 1 -
+/labs/cse09/exp2/PendulumForces.swf 15 http://deploy.virtual-labs.ac.in/labs/cse09/exp2/index.html
+/labs/eee06/Dreamweaver/New%20Cv/a&r.php 1 -
+/labs/cse19/fourier/choice2.png 23 -
+/labs/cse19/images/temp/1383643192_5.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse16/exp08/PendulumForces.swf 3 http://deploy.virtual-labs.ac.in/labs/cse16/exp08/index.html
+/labs/emt/images/hover.png 86 http://deploy.virtual-labs.ac.in/labs/emt/Experiment.php
+/apple-touch-icon-precomposed.png 125 -
+/labs/img/amo2009/lightbox/nextlabel.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse01/index.html 1 -
+/labs/eee06/Dreamweaver/New%20Cv/index.html 2 -
+/labs/cse10/manual 2 -
+/labs/ccnsb07/exp1/PendulumForces.swf 3 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp1/index.html
+/labs/eerc05/exp2/media/images/panel.css 13 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/cse22/exp3/tmp/lglrjbm5gsafo278vdjmsoutv3/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse05/html/index/looking-up.html 1 -
+/labs/cse15/exp3/index.php%3fsection=Theory//index.php 1 -
+/labs/eee06/Dreamweaver/feedback8.html 1 -
+/labs/cse01/expressInstall.swf 2 -
+/labs/eee06/Dreamweaver/New%20Cv/style.css 8 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/workshop.html
+/labs/emt/javax/media/j3d/Canvas3D.class 11 -
+/labs/civil16/index_files/Page429.htm 6 -
+/labs/cse05/html/index/quiz-6.html 2 -
+/labs/img/amo2009/bg/button-green.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/REIbuilding.png 1 -
+/labs/eerc03/exp13/10 1 -
+/labs/img/amo2009/bg/listing-item-red.png 199 http://deploy.virtual-labs.ac.in/labs/emt/images_site/style.css
+/labs/civil16/index_files/image524.gif 1 -
+/labs/cse24/exp5/style.css 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/experiment10-1.php
+/labs/ccnsb07/exp4/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp4/index.html
+/labs/cse04/exp7/jqminmax.js 1 -
+/labs/cse14/final-build/images/hover.png 48 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/css/default.css
+/labs/eee06/Dreamweaver/New%20Cv/Conf/NSC07.pdf 1 -
+/labs/cse24/exp10/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp10/index.html
+/labs/civil16/index_files/image745.gif 1 -
+/labs/civil16/index_files/image4971.gif 2 -
+/labs/cse08/index.php 1 -
+/labs/mech08/img/assets/js/bootstrap-alert.js 1 -
+/labs/cse24/exp2/jquery.js 5 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/labs/cse24/exp5/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/index.html
+/labs/eerc05/exp5/media/images/forms.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/ccnsb06/exp6/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6/
+/labs/eee06/Dreamweaver/images/main/equip/shunt1.GIF 1 -
+/labs/civil16/index_files/image499.jpg 2 -
+/labs/eerc02/exp8/animation 1 -
+/index.aspx 5 -
+/labs/cse 3 -
+/labs/cse30/vlab3/myExp6_cascode/images/manual.jpg 4 -
+/labs/emt/experiment.php 1 -
+/labs/eerc03/exp10/vlab2/7.reynoldsexperiment.html 1 -
+/labs/cse05/popl/topics/environment/index.html 3 -
+//phpMyAdmin-2/scripts/setup.php 2 -
+/labs/cse14/final-build/EXP_1sep2010/exp8/css/images/ui-bg_flat_75_ffffff_40x100.png 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php
+/labs/phy14/exp3/media/images/forms.css 102 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/cse24/exp2/js/modernizr-1.5.min.js 5 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/labs/eee06/Dreamweaver/sim_5/web/in.ac.dei.exp4/in.ac.dei.exp4.nocache.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/sim_5/web/Exp5.html
+/img/tignish/whatsnew/sub-feature-bottom.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse05/html/index/theory-1.html 1 -
+/labs/cse05/popl/code/exp-7-closure/eval-ast.ss 1 -
+/labs/civil16/index_files/Page644.htm 4 -
+/labs/cse05/html/index/quiz-10.html 2 -
+/labs/cse17/velocitymodelling/initMain2.class 2 http://deploy.virtual-labs.ac.in/labs/cse17/velocitymodelling/index.php
+/labs/eerc05/exp3/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/index.html
+/labs/eee06/Dreamweaver/New%20Cv/book3.php 1 -
+/labs/cse19/images/temp/1383643192_6.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/ccnsb06/exp1/js/modernizr-1.5.min.js 9 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp1/
+/labs/cse05/php/login-form.php\x07\xdf\xad\xa9\x9e 2 -
+/labs/sample1/exp1/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/sample1/exp1/index.html
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf)%20format(%22opentype%22 4 -
+/labs/cse30/vlab3/myExp2_3_b/images/manual.jpg 12 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_b/index.php
+/labs/img/amo2009/tab-mozilla.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse02/exp8/en.wikipedia.org/wiki/ASCII 3 -
+/labs/cse30/vlab3/myExp1/js/modernizr-1.5.min.js 1 -
+/labs/civil16/index_files/Page802.htm 4 -
+/labs/cse09/exp12/index.html 2 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf)%20format(%22opentype%22 4 -
+/labs/cse09/exp9/PendulumForces.swf 22 http://deploy.virtual-labs.ac.in/labs/cse09/exp9/index.html
+/labs/civil13/experiment5/js/jquery-ui.min.js 14 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModRes.php
+/labs/civil16/index_files/image4871.jpg 3 -
+/labs/eerc01/exp1/Exp-1 3 http://www.gobookee.org/strength-of-materials-by-r-k-bansal/
+/labs/eee06/Dreamweaver/logout.html 1 -
+/labs/eee06/Dreamweaver/Sim%207/web/style.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim%207/web/sim7.html
+/labs/eee06/Dreamweaver/New%20Cv/2000.html 1 -
+/labs/phy14/exp5/media/images/style.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/civil13/js/jquery.min.js 5 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModDefault.php
+/labs/civil16/index.htm 2 -
+/labs/css/default.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/default.php 4 -
+/labs/eee06/Dreamweaver/safety.html 2 -
+/labs/cse05/html/index/lexical-objective.html 1 -
+/labs/eee06/Dreamweaver/New%20Cv/n%20gal/js/jquery-1.5.2.min.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/n%20gal/index.html
+/labs/img/amo2009/icons/pointer.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse14/img/amo2009/bg/listing-item-red.png 62 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/eee06/Dreamweaver/New%20Cv/publications.html 1 -
+/wp/wp-admin/ 6 -
+/labs/ccnsb02/js/extensions/MathMenu.js 127 http://deploy.virtual-labs.ac.in/labs/ccnsb02/index.html
+/labs/cse24/exp6/jquery.js 18 http://deploy.virtual-labs.ac.in/labs/cse24/exp6/index.html#
+/labs/eee06/Dreamweaver/main.bmp 1 -
+/labs/chem01/ori/css/style.css 4 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/cse02/exp4/lab/arrayprog/arrayProg.class 3 http://deploy.virtual-labs.ac.in/labs/cse02/exp4/lab/arrayProg.html
+/labs/cse09/php/loginmodule.css 206 http://deploy.virtual-labs.ac.in/labs/cse09/php/login-form.php
+/labs/civil16/index_files/image4501.gif 1 -
+/labs/eee06/Dreamweaver/New%20Cv/Conf/SECTAS_2000_3_final.pdf 1 -
+/labs/css/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/labs/cse24/exp4/jquery.js 28 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/index.html#
+/labs/cse05/html/index/objective-env.html 2 -
+/labs/cse17/sensormodelling/VirtualLab.class 2 http://deploy.virtual-labs.ac.in/labs/cse17/sensormodelling/index.php
+/labs/cse22/exp8/tmp/tm491cieunqcdqote266c6ssu0/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse24/exp6/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp6/index.html
+/labs/eee06/Dreamweaver/sim_6/web/exp6.html 1 -
+/labs/eerc03/exp1/Data 1 http://www.gobookee.org/fluid-mechanics-r-k-bansal/
+/labs/eee06/Dreamweaver/New%20Cv/credentials.php 1 -
+/labs/eerc04/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc04/exp9/
+/labs/chem01/ori/css/default.css 4 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/mech08/img/assets/js/bootstrap-modal.js 1 -
+http://deploy.virtual-labs.ac.in/administrator/ 1 -
+/labs/cse05/html/index/Objective_of_the_PoPL_lab.html 1 -
+/labs/cse30/vlab3/myExp2_1_a/images4/comp12.jpg.pack.gz 1 -
+/labs/img/amo2009/icons/magnifying-glass.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/main.html 4 -
+/labs/cse04/exp6/quizresults.php 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp6/index.php
+/labs/cse22/exp7/tmp/3ikf17osn55jun4p7q4gk5t8q2/clnnState.png 6 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/clnn.php
+//dbadmin/scripts/setup.php 2 -
+/labs/eerc03/exp12/9.Jets 1 -
+/labs/phy14/exp1/media/images/style.css 33 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/eee06/Dreamweaver/exp1.html 3 -
+/files/img/imgPagSup02.gif 1 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf)%20format(%22opentype%22 4 -
+/labs/civil16/index_files/image8191.jpg 3 -
+/labs/cse14/final-build/EXP_1sep2010/exp8/css/images/ui-bg_glass_65_ffffff_1x400.png 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php
+/labs/eee06/Dreamweaver/New%20Cv/Amit_mishra.pdf 1 -
+/labs/eee06/Dreamweaver/input2.html 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/syn_Sim.html
+/default.aspx 4 -
+/main.asp 4 -
+/labs/bio15/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp9/index.html
+/wordpress/wp-admin/ 6 -
+/labs/eee06/Dreamweaver/New%20Cv/Pramod_Sharma.pdf 1 -
+/labs/cse22/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp6/index.html
+/labs/cse05/html/index/introduction.html 1 -
+/labs/eee06/Dreamweaver/New%20Cv/Conf/KARMAS%20AND%20UPASANA.pdf 1 -
+/labs/cse19/images/temp/colour11.jpg 1 http://deploy.virtual-labs.ac.in/labs/cse19/colour.php
+/files/img/btnSuscribir.gif 1 -
+/labs/emt/images/seperator.gif 223 http://deploy.virtual-labs.ac.in/labs/emt/Experiment.php
+/labs/eee06/Dreamweaver/top%20section.html 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim_dcmotor.html
+/labs/phy14/js/MathJax.js 1966 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/index.html
+/labs/js/cmdline.js 507 http://deploy.virtual-labs.ac.in/labs/cse09/
+/labs/img/amo2009/bg/border-header-user-options.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/New%20Cv/style1.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/radiotalk1.html
+/labs/cse14/final-build/js_site/functions.js 68 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/civil16/index_files/image570.gif 2 -
+/labs/eee06/Dreamweaver/New%20Cv/project.php 1 -
+/labs/cse30/vlab3/myExp2_3_a/images/manual.jpg 23 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_a/index.php
+/labs/civil16/index_files/image773.gif 1 -
+/labs/ccnsb06/exp8/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp8/
+/labs/cse05/html/index/objective-4.html 1 -
+/labs/cse05/html/img/favicon/popl.png 13 -
+/labs/cse05/html/index/procedure-4.html 1 -
+//scripts/setup.php 2 -
+/labs/img/amo2009/icons/buttons/breadcrumb.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse17/exploration/VirtualLab.class 1 http://deploy.virtual-labs.ac.in/labs/cse17/exploration/index.php
+/labs/eerc05/exp2/media/images/forms.css 13 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/cse09/exp3/index.php 15 -
+/labs/civil16/index_files/image620.gif 1 -
+/labs/ccnsb07/exp1/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp1/index.html
+/files/img/btnStudReserva.gif 1 -
+/labs/ccnsb06/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse05/popl/topics/inductive-data-design/index.html 1 -
+/labs/cse24/exp10/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp10/index.html
+/labs/img/amo2009/icons/fav-off.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/images69.jpg 1 -
+/labs/cse15/exp1/dldvirtuallabs.simulationApplet 1 http://deploy.virtual-labs.ac.in/labs/cse15/exp1/exp1.html
+/labs/cse19//images/stories/dor/dor.php 1 -
+/labs/cse19/.php 1 http://deploy.virtual-labs.ac.in/labs/cse19/procedure.php
+/mobile/labs/cse04/exp10/index.php 2 -
+/labs/eerc05/exp3/media/images/panel.css 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/ece03/about_exp8.php 3 -
+//phpadmin/scripts/setup.php 2 -
+/virtuallab/login.php 4 -
+/labs/cse24/exp8/jquery.js 11 http://deploy.virtual-labs.ac.in/labs/cse24/exp8/index.html#
+/labs/phy14/exp2/media/images/panel.css 13 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/civil16/index_files/image369.gif 1 -
+/browserconfig.xml 3 -
+/labs/ccnsb05/exp2/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp2/index.html
+/labs/eerc04/exp7/.pdf 1 -
+/labs/img/amo2009/icons/arrows-scroller.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/sim_6/web/style.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/sim_6/web/exp6.html
+/labs/cse22/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/index.html
+/labs/cse05/html/index/procedure-1.html 1 -
+/labs/eerc05/exp4/js/modernizr-1.5.min.js 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/index.html
+/index.asp 5 -
+/default.html 5 -
+/labs/eerc05/exp4/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/images/comment.png 1 -
+/labs/eerc03/exp5/vlab2/com.vlab.fm.Venturimeter$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp5/vlab2/2.VenturiMeter.html
+/labs/ccnsb07/exp6/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp6/index.html
+//images/stories/agger.php 1 -
+/labs/civil16/index_files/Page753.htm 4 -
+/apple-touch-icon-120x120.png 3 -
+/labs/eerc05/exp2/js/modernizr-1.5.min.js 24 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/index.html
+/labs/eerc05/exp6/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/civil13/experiment5/exp_col.js 4 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModUserDisplay.php
+/labs/eerc05/exp6/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/civil13/experiment9/js/jquery-ui.min.js 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment9/ModeChoiceRes.php
+/labs/eee06/Dreamweaver/New%20Cv/book5.php 1 -
+/labs/eee06/Dreamweaver/sim_5/web/style.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/sim_5/web/Exp5.html
+/labs/cse30/vlab3/myExp2_2_a/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_2_a/index.html
+/labs/img/amo2009/icons/fav-on.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/blog/wp-admin/ 6 -
+/labs/images/favicon.png 1 -
+/labs/cse05/html/index/letrec-objective.html 1 -
+/files/img/btnRegistro.gif 1 -
+/labs/civil16/index_files/image683.gif 1 -
+/labs/cse05/html/index/feedback-7.html 1 -
+/labs/eee06/Dreamweaver/exp5.html 2 -
+/labs/eerc03/exp8/5.Weirs 1 -
+//phpmyadmin2/scripts/setup.php 2 -
+/labs/cse04/exp8/jqminmax.js 11 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/lab.html
+/labs/img/ratings/3stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil16/index_files/image4561.gif 1 -
+/labs/phy14/exp1/media/images/panel.css 33 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/cse05/popl/topics/environment/ 1 -
+/labs/cse14/final-build/images/seperator.gif 238 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/css/default.css
+/labs/phy14/exp1/media/images/forms.css 33 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/eee06/Dreamweaver/theory1.html 2 -
+//xampp/phpmyadmin/scripts/setup.php 2 -
+/labs/img/ratings/5stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/img/amo2009/bg/header-border.png 207 http://deploy.virtual-labs.ac.in/labs/emt/images_site/style.css
+/labs/cse14/final-build/bar.jpg 1 -
+/muieblackcat 2 -
+/labs/civil13/js/jquery-ui.min.js 7 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModDefault.php
+/labs/civil16/index_files/image1076.gif 1 -
+/labs/cse04/exp1/jqminmax.js 176 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/lab.html
+/labs/cse17/exploration/index.php%3Fsection%3DTheory 1 -
+/labs/cse05/popl/content.html 3 -
+//db/scripts/setup.php 2 -
+/la 1 -
+/labs/cse09/exp4/PendulumForces.swf 13 http://deploy.virtual-labs.ac.in/labs/cse09/exp4/index.html
+/labs/cse14/img/amo2009/bg/header-border.png 63 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/civil16/index_files/image975.jpg 1 -
+/labs/cse01/exp9/index.html 1 -
+/labs/ccnsb06/exp2/javax/media/j3d/Canvas3D.class 4 -
+/labs/cse05/html/index/feedback-3.html 1 -
+/labs/cse19/images/temp/1384838059_3.png 2 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+//admin/phpmyadmin/scripts/setup.php 2 -
+/labs/cse05/popl/topics/higher-order-functions/index.html 1 -
+/labs/eee06/Dreamweaver/videos/video7.flv 1 -
+/labs/ece03/about_exp9.php 5 -
+/labs/cse22/exp7/tmp/akqo4vb9ppjakbrh2af2tjtul0/clnnState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/clnn.php
+/labs/cse14/final-build/css/flexnav.css 280 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/eee06/Dreamweaver/input.html 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim_dcmotor.html
+/labs/ece18/css/override.css 1 -
+//mysql/scripts/setup.php 2 -
+/index.php 9 -
+/labs/eerc05/exp3/media/images/forms.css 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/eerc05/exp7/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/cse19/menu/images/sub_sep.gif 281 http://deploy.virtual-labs.ac.in/labs/cse19/arith.php
+/labs/eee06/Dreamweaver/image.html 2 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/syn_Sim.html
+/labs/cse14/final-build/exp1.jpg 1 -
+/labs/civil16/index_files/Page930.htm 1 -
+/labs/eee06/Dreamweaver/videos/video6.flv 1 -
+/labs/chem01/htl/nof1.html 2 -
+/labs/cse02/exp9/pointers1/pointers1/build/classes/pointer1/class.class 1 -
+/labs/cse09/exp1/PendulumForces.swf 43 http://deploy.virtual-labs.ac.in/labs/cse09/exp1/index.html
+/labs/phy14/exp3/media/images/style.css 103 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/cse22/exp1/js/modernizr-1.5.min.js 13 http://deploy.virtual-labs.ac.in/labs/cse22/exp1/index.html
+/labs/eee06/Dreamweaver/New%20Cv/n%20gal/css/style.css 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/n%20gal/index.html
+/labs/civil16/index_files/image900.jpg 2 -
+/labs/eerc01/exp1/vlab2/1.tensile.html 1 -
+/labs/cse30/vlab3/myExp5_b/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp5_b/index.html
+/uploads/pages/ford-police-car-06.jpg 1 -
+/labs/civil13/experiment6/js/jquery.inputfocus-0.9.min.js 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModUserDisplay.php
+/labs/chem01/2pf/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/chem01/2pf/index.html
+/labs/cse19/fourier/choice4.png 25 -
+/im/ic-info16.png 1 -
+/labs/phy14/exp4/media/javax/media/j3d/Group.class 1 -
+/labs/cse30/vlab3/myExp2_2_b/images/manual.jpg 7 -
+/labs/cse09/exp10/index.php 8 -
+/labs/civil16/index_files/image7671.gif 2 -
+/labs/eee06/Dreamweaver/videos/video4.flv 1 -
+/labs/img/amo2009/bg/listing-item.png 6 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb02/js/extensions/MathZoom.js 124 http://deploy.virtual-labs.ac.in/labs/ccnsb02/index.html
+/labs/chs13/index.html 4 -
+/labs/cse02/index.html 1 -
+/labs/cse18/manual/faq.html 2 http://deploy.virtual-labs.ac.in/labs/cse18/exp5b/index.php
+/labs/civil16/index_files/image5511.gif 1 -
+/labs/ccnsb07/exp9/PendulumForces.swf 3 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp9/index.html
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf)%20format(%22opentype%22 4 -
+/labs/ccnsb07/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp10/index.html
+/labs/civil16/index_files/image4521.gif 1 -
+/labs/eerc05/exp9/media/images/forms.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/main.aspx 4 -
+/labs/eee06/Dreamweaver/New%20Cv/RK_Singh.pdf 1 -
+//web/phpMyAdmin/scripts/setup.php 2 -
+/labs/chem01/hpc/wg.png 5 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/eerc02/exp7/www.engineeringcivil.com/soil-compaction-tests.html 2 http://deploy.virtual-labs.ac.in/labs/eerc02/exp7/index.php
+/labs/cse05/html/index/programming-1.html 2 -
+/labs/eee06/Dreamweaver/proce6.html 2 -
+/labs/cse09/js/usersignup.js 960 -
+/img/tignish/firstrun/link-arrow.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ece03/css/images/chromebg.gif 1 http://deploy.virtual-labs.ac.in/labs/ece03/setup.php
+/labs/cse15/exp8/administrator/index.php 1 -
+/labs/phy14/images/favicon.png 1018 -
+/labs/img/amo2009/bg/panel-selected.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse04/exp9/jqminmax.js 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp9/lab.html
+/labs/cse05/html/index/Approach_taken_by_the_PoPL_lab.html 1 -
+/labs/eerc03/exp2 2 -
+/labs/cse05/html/index/feedback-6.html 2 -
+/labs/bio15/exp2/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/bio15/exp2/index.html
+/labs/eerc05/exp9/media/images/panel.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/labs/cse22/exp3/tmp/dlnk2lfgkn1j7tse5qpl1obrr5/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/phy14/exp3/media/images/panel.css 103 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/cse14/final-build/faqs.html 6 -
+/labs/cse04/exp10/jqminmax.js 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp10/lab.html
+/labs/eerc02/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc02/exp8/
+/labs/img/amo2009/icons/starselect.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eerc03/exp10/7.reynolds_experiment.pdf 1 -
+/build/index.php 20 http://deploy.virtual-labs.ac.in/labs/cse01/index.php
+/labs/cse24/exp1/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp1/index.html
+/labs/cse22/exp3/tmp/vgdhv7rjc3p06koplodt4sibn5/mlpState.png 8 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse30/vlab3/myExp6_basic/images/manual.jpg 1 -
+/labs/civil16/index_files/image5431.gif 1 -
+/labs/img/amo2009/icons/page_code.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse05/html/index/further-reading-7.html 1 -
+/labs/chem01/ori/js/jquery-1.4.2.min.js 4 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/cse01/exp5/Searchtree.ppt 29 http://deploy.virtual-labs.ac.in/labs/cse01/exp5/index.php
+/labs/cse22/exp8/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/index.html
+/labs/cse24/exp10/jquery.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp10/index.html
+/labs/cse09/js/cmdline.js 414 http://deploy.virtual-labs.ac.in/labs/cse09/exp2/index.html
+/labs/cse30/vlab3/myExp9_a/images/manual.jpg 5 -
+/labs/ccnsb05/exp4/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp4/index.html
+/labs/eerc05/exp1/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/labs/cse04/exp1/quizresults.php 9 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/index.php
+/labs/cse05/popl/code/exp-4-arithmetic-interpreter/parser.ss 1 -
+/labs/civil16/index_files/image758.gif 2 -
+/labs/img/ratings_images.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eerc02/exp8/Exp-8%20ConsolidationTest.pdf%5D 1 -
+/labs/cse05/html/index/inductive-data.html 2 -
+/labs/cse05/html/code/recursion/recursive-parser.ss 1 -
+/labs/civil16/index_files/image4771.jpg 1 -
+/labs/eerc05/exp9/PendulumForces.swf 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+//admin/pma/scripts/setup.php 2 -
+/labs/chs13/faq_files/loader-1004.js 2 -
+/labs/cse16/exp07/audioTransport/SVLAudioTool.class 1 http://deploy.virtual-labs.ac.in/labs/cse16/exp07/index.html
+/labs/cse19//images/stories/cr0t.php 1 -
+/labs/cse14/faqs.php 1 -
+/labs/img/amo2009/icons/stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eerc03/exp11/.pdf 27 http://deploy.virtual-labs.ac.in/labs/eerc03/exp11/index.php
+//images/stories/70cpx.php 1 -
+/labs/chem01/ori/rg.png 23 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/bio15/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/bio15/exp6/index.html
+/labs/cse16/exp01/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp01/index.html
+/labs/ccnsb06/exp6/js/modernizr-1.5.min.js 16 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6/
+/labs/eee06/Dreamweaver/New%20Cv/publications.php 1 -
+/labs/ccnsb02/images/favicon.png 60 -
+/labs/eerc05/exp1/animation/images/panel.css 15 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/lowres.html
+/labs/consb06/exp06_ri 1 -
+/labs/cse30/vlab3/myExp1/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp1/index.html
+/labs/cse19/images/temp/1383643192_8.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/civil16/index_files/Page779.htm 2 -
+/labs/cse05/html/index/further-reading-3.html 2 -
+/labs/cse29/exp4/rc4.pdf 1 -
+/labs/cse04/exp4/jqminmax.js 26 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/lab.html
+/labs/cse20/exp7/images/q10_sqerror.png 4 http://deploy.virtual-labs.ac.in/labs/cse20/exp7/index.php
+/labs/civil13/experiment9/js/jquery.min.js 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment9/ModeChoiceRes.php
+/labs/civil16/index_files/image534.jpg 2 -
+/labs/cse17/scanmatching/javax/swing/GroupLayout$Group.class 1 -
+/images/quest.gif 5 -
+//administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 -
+/labs/civil16/index_files/image388.gif 1 -
+/imgset/img_113_foto_p_24455.jpg 1 -
+/labs/civil13/js/jquery.inputfocus-0.9.min.js 9 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModDefault.php
+/labs/cse14/final-build/kar1.jpg 1 -
+/labs/eerc05/exp6/js/modernizr-1.5.min.js 17 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/cse09/exp7/PendulumForces.swf 5 http://deploy.virtual-labs.ac.in/labs/cse09/exp7/index.html
+/labs/cse05/html/index/further-reading-4.html 1 -
+/labs/civil16/index_files/image903.jpg 1 -
+/labs/cse14/final-build/preQuiz7php 2 -
+/robots.txt 1092 -
+/labs/emt/faqs.html 2 -
+/labs/cse09/exp8/index.php 3 -
+/labs/eee06/Dreamweaver/exp8.html 5 -
+/labs/cse05/html/index/doc-index.html 1 -
+/labs/cse05/html/index/programming-4.html 1 -
+/labs/cse22/exp3/tmp/n59fvucgtugk5olfaos1iainc6/mlpState.png 7 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/civil16/index_files/BldgScience.htm 3 -
+/labs/eerc05/exp7/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/index.html
+/labs/civil16/index_files/image10121.gif 1 -
+/labs/ece03/procedure1.php 3 -
+/labs/cse05/html/index/procedure-10.html 1 -
+/labs/eee06/Dreamweaver/New%20Cv/pinormation.php 1 -
+//php-my-admin/scripts/setup.php 2 -
+/labs/eerc04/exp2/PendulumForces.swf 1 -
+/labs/ccnsb03/exp1/index.htmlhttp://deploy.virtual-labs.ac.in/labs/ccnsb03/exp1/index.html 1 -
+/labs/chem01/ebu/nof1.html 2 -
+/labs/chs13/faq_files/aeyJhZmZpZCI6MTAxOCwic3ViYWZmaWQiOjEwMDQsImhyZWYiOiJodHRwOi8v.js 2 http://deploy.virtual-labs.ac.in/labs/chs13/faq.php
+/labs/cse17/sensormodelling/classes/javax/swing/GroupLayout$Group.class 1 -
+/labs/eerc05/exp5/js/modernizr-1.5.min.js 21 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/index.html
+/labs/cse30/vlab3/myExp5_b/images/manual.jpg 6 -
+/labs/cse05/html/index/Composing_environments.html 1 -
+/labs/cse09/exp5/index.php 4 -
+/eerc.vlab.demos.Tensile$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/eerc01/exp1/vlab2/1.Tensile.html
+/labs/cse01/exp8/index.html 1 -
+/labs/mech08/img/assets/js/bootstrap-scrollspy.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/chs13/faq_files/suggest-10070.js 2 -
+/labs/cse22/exp3/js/modernizr-1.5.min.js 21 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/index.html
+/checkActivity.htm 2 http://deploy.virtual-labs.ac.in/labs/bio16/exp1/index.html
+/labs/cse09/expressInstall.swf 2 -
+/labs/ccnsb07/suraj/Suraj/bin/javax/media/j3d/Canvas3D.class 2 -
+/labs/cse01/exp1/index.html 2 -
+/labs/ccnsb03/images/favicon.png 87 -
+/labs/cse22/exp3/tmp/lhf66i5hseh6bs7clb5t2rpnr7/mlpState.png 4 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/civil13/user/shree/Experiment2/DataRegr.xls 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment2/intermediateDataRegr.php
+/labs/img/amo2009/logo-mozilla.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse15/exp6/index.php%3Fsection%3DTheory 1 -
+/labs/civil16/index_files/image747.jpg 1 -
+/labs/eee06/Dreamweaver/New%20Cv/lecdel12.html 1 -
+http://deploy.virtual-labs.ac.in/wp-login.php 1 -
+/labs/eerc05/exp3/media/images/style.css 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/cse22/exp4/tmp/n59fvucgtugk5olfaos1iainc6/mlffnnState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/eerc02/exp1/01 1 -
+/labs/cse30/vlab3/myExp5_a/images/manual.jpg 6 -
+/labs/chem01/fpn/fm1.php 18 http://iitb.vlab.co.in/
+/labs/eerc01/exp1/Exp-1%2520Tension%2520Test.pdf 1 -
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf)%20format(%22opentype%22 4 -
+/labs/cse02/exp1/index.html 2 -
+/images/stories/cr0t.php 1 -
+/labs/cse14/final-build/EXP_1sep2010/exp8/css/images/ui-icons_454545_256x240.png 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php
+/labs/ccnsb07/exp4/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp4/index.html
+/labs/eerc04/exp7/Exp-7 1 -
+/labs/ccnsb06/exp5/js/modernizr-1.5.min.js 8 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp5/
+/labs/cse22/exp3/tmp/p94pa0beu0lfahluls64ec8dq1/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/civil15/Planetable.php 2 -
+/labs/img/amo2009/icons/arrows.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/emt/javax/media/j3d/GraphicsConfigTemplate3D.class 6 -
+/labs/cse16/exp07/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp07/index.html
+/labs/cse19//images/stories/agger.php 1 -
+/labs/emt/css/flexnav.css 301 http://deploy.virtual-labs.ac.in/labs/emt/experiments.php
+/labs/eee06/Dreamweaver/New%20Cv/Conf/CPRI07_Ashish.pdf 1 -
+/labs/ccnsb06/exp2/layout.css 3 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp2/plot_methoxyradical.html
+/labs/cse05/popl/topics/arithmetic/index.html 1 -
+/labs/ccnsb07/exp9/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp9/index.html
+/labs/cse05/html/index/closure-objective.html 1 -
+/labs/eee06/Dreamweaver/videos/player/jwplayer.js 7 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/vid6.html
+/admin/categories.php/login.php 2 -
+/labs/eee06/Dreamweaver/videos/LabVisit.flv 1 -
+/labs/ccnsb05/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp5/index.html
+/labs/civil16/index_files/image5471.gif 1 -
+/labs/cse30/vlab3/myExp2_1_a/images/manual.jpg 113 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_a/index.php
+/labs/ccnsb06/exp1/iiit.vlabdemos.science.science$MyApplet 3 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp1/ve_exp1.html
+/default.htm 5 -
+/labs/eerc05/exp4/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/labs/cse14/final-build/EXP_1sep2010/exp8/css/images/ui-icons_888888_256x240.png 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php
+/labs/cse14/final-build/EXP_1sep2010/exp8/css/images/ui-bg_glass_75_e6e6e6_1x400.png 1 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php
+/labs/cse16/exp05/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp05/index.html
+/labs/ccnsb06/exp1/javax/media/j3d/Canvas3D.class 4 -
+/labs/cse22/exp3/tmp/jcajtlgt3bjs0mt8u235b90l77/mlpState.png 5 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/eerc03/exp12/9.Jets.pdf/admin/categories.php/login.php 2 -
+/labs/eerc02/exp7/animation 1 -
+/labs/img/amo2009/illustrations/shopping-online.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse22/exp10/js/modernizr-1.5.min.js 1 -
+/labs/eee06/Dreamweaver/New%20Cv/c_prog/GN_MODEL4.C 1 -
+/labs/chem01/calo/nof1.html 2 -
+/virtuallab/Myregistration.php 5 -
+/labs/eee06/Dreamweaver/New%20Cv/book6.php 1 -
+/labs/css/override.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/labs/eee06/Dreamweaver/New%20Cv/Conf/cmsc_99.pdf 1 -
+/labs/eerc02/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc02/exp7/
+/labs/mech08/img/assets/js/bootstrap-popover.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/civil16/index_files/image825.jpg 1 -
+/labs/eee06/Dreamweaver/New%20Cv/book.php 1 -
+/labs/img/amo2009/bg/listing-footer.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/exp9.html 3 -
+/labs/cse24/exp4/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/index.html
+/labs/cse04/exp4/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/index.php
+/labs/cse24/exp8/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/cse24/exp8/index.html
+/labs/eee06/Dreamweaver/Sim_2/web/in.ac.dei.vlab/in.ac.dei.vlab.nocache.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim_2/web/index.html
+/labs/eerc05/exp1/animation/images/forms.css 15 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/lowres.html
+//MyAdmin/scripts/setup.php 2 -
+/labs/img/amo2009/bg/button-orange.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil16/index_files/image3991.gif 1 -
+/labs/civil15/images/ajax-loader.gif 1 http://deploy.virtual-labs.ac.in/labs/civil15/
+/labs/cse04/exp6/jqminmax.js 14 http://deploy.virtual-labs.ac.in/labs/cse04/exp6/lab.html
+/labs/cse14/final-build/trtf.jpg 9 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/eerc05/exp1/animation/images/style.css 15 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/lowres.html
+/labs/ccnsb06/exp7/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp7/
+/labs/emt/javax/media/j3d/Node.class 6 -
+/labs/eerc03/exp12/09 1 -
+/labs/bio15/exp3/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/bio15/exp3/index.html
+/labs/ccnsb07/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp2/index.html
+/labs/cse17/sensormodelling/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse17/sensormodelling/index.html
+/labs/cse22/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp2/index.html
+/labs/cse09/exp9/index.php 7 -
+//index.php 1 -
+/files/img/btnAnadir.gif 1 -
+/labs/cse05/html/index/programming-10.html 2 -
+/labs/eerc04/exp1/exp-1 1 http://deploy.virtual-labs.ac.in/labs/eerc04/exp1/exp-1
+/labs/cse05/popl/topics/objects/index.html 2 -
+/labs/eee06/Dreamweaver/exp7.html 2 -
+/labs/eee06/Dreamweaver/exp4.html 4 -
+/labs/ccnsb01/js/MathJax/Mathjax.js 36 http://deploy.virtual-labs.ac.in/labs/ccnsb01/exp3/index.html
+/labs/civil13/experiment9/js/jquery.inputfocus-0.9.min.js 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment9/ModeChoiceRes.php
+/labs/cse24/exp9/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/cse24/exp9/index.html
+/labs/eerc03/exp1/vlab2/com.vlab.fm.Bernoullis$MyApplet 2 http://deploy.virtual-labs.ac.in/labs/eerc03/exp1/vlab2/1.Bernoullis.html
+/labs/img/amo2009/icons/script_code_red.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/CEVL/ 1 -
+/labs/cse05/html/index/further-reading-5.html 2 -
+/labs/cse05/html/index/theory-5.html 1 -
+/default.asp 4 -
+/labs/civil16/index_files/image826.jpg 3 -
+/labs/cse05/html/index/procedure-6.html 2 -
+//pma/scripts/setup.php 2 -
+/labs/eee06/Dreamweaver/Sim8/web/Sim8.html 2 -
+/labs/img/amo2009/illustrations/shopping-online-rtl.jpg 1 http://deploy.virtual-labs.ac.in/labs/emt/
+//phpmyadmin/scripts/setup.php 2 -
+/labs/cse19/images/temp/1384750354_.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/diff.php
+/labs/civil13/experiment5/js/jquery.inputfocus-0.9.min.js 15 http://deploy.virtual-labs.ac.in/labs/civil13/experiment5/SigGravModRes.php
+/labs/cse05/html/index/Structure_of_each_experiment.html 3 -
+/labs/civil16/index_files/image687.gif 1 -
+/labs/eee06/Dreamweaver/New%20Cv/res.php 1 -
+/labs/cse30/vlab3/myExp2_3_a/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_a/index.html
+/labs/eee06/Dreamweaver/Sim9/web/images/weblogo.png 1 -
+//images/stories/p3tx.php 1 -
+/labs/civil16/index_files/image631.gif 3 -
+//mysqladmin/scripts/setup.php 2 -
+/labs/eerc03/exp1/data%20files/01%20bernoullis_experiment.pdf 1 -
+/labs/ccnsb04/exp2/experiment/javax/media/j3d/Bounds.class 4 -
+/labs/ccnsb04/exp8/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp8/index.html
+/labs/civil16/index_files/image691.gif 2 -
+/labs/cse15/exp2/dldvirtuallabs.simulationApplet 1 http://deploy.virtual-labs.ac.in/labs/cse15/exp2/exp2.html
+/labs/eee06/Dreamweaver/New%20Cv/let_Gwalior.tif 1 -
+/labs/cse19/images/temp/1384750574_2.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/diff.php
+//myadmin/scripts/setup.php 2 -
+/labs/cse05/html/content.html/trackback/ 1 http://deploy.virtual-labs.ac.in/labs/cse05/html/content.html
+/labs/eerc05/exp3/media/PhTest.class 4 -
+/labs/ccnsb04/jmol/src/org/openscience/jmol/app/webexport/html/@REMOTEAPPLETPATH@/Jmol.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/jmol/src/org/openscience/jmol/app/webexport/html/pop_in_template.html
+/labs/img/ajax_loading.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb04/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp9/
+/labs/cse04/exp2/jqminmax.js 6 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/lab.html
+/labs/eee06/Dreamweaver/lab.html 4 -
+/labs/temp98/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/temp98/exp1/index.html
+/labs/cse14/img/amo2009/bg/body.jpg 63 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/index.php
+/labs/cse30/vlab3/myExp3_a/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp3_a/index.html
+/labs/cse05/html/index/Instructions_for_UI.html 1 -
+/labs/eerc03/exp12/admin/categories.php/login.php 2 -
+/administrator/index.php 1 -
+/labs/ccnsb04/exp5/experiment/thumb_bg.png 2 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp5/experiment/index.php
+/labs/ccnsb04/browsercheck 1 -
+/labs/eerc05/exp2/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/index.html
+/labs/eerc02/exp5/Exp-5 1 -
+/labs/cse30/vlab3/myExp2_3_a/js/modernizr-1.5.min.js 1 -
+/labs/cse01/exp4/index.html 2 -
+/labs/cse09/exp5/PendulumForces.swf 7 http://deploy.virtual-labs.ac.in/labs/cse09/exp5/index.html
+/labs/eerc02/exp8/animation/8.consolidationtest.swf 2 -
+/labs/cse22/exp3/tmp/tm491cieunqcdqote266c6ssu0/mlpState.png 12 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/img/amo2009/icons/buttons/go-green_rtl.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/civil16/index_files/image9491.gif 2 -
+/labs/cse04/exp2/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/index.php
+/labs/eee06/Dreamweaver/n%20gal/index.html 2 -
+/labs/cse14/final-build/kar2.jpg 1 -
+/labs/eerc05/exp5/media/images/panel.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/cse22/exp3/tmp/2354ggttmct9ckjku0anep9b62/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp4/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/index.html
+/labs/eerc03/exp5/2 1 -
+/labs/cse30/vlab3/myExp5_b/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp5_b/index.html
+/labs/eerc04/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc04/exp2/
+/labs/eee06/Dreamweaver/vid3.html 1 -
+/labs/cse09/index.php 13 -
+/labs/cse05/html/index/further-reading-1.html 2 -
+/labs/eerc05/exp4/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/labs/eee06/Dreamweaver/New%20Cv/home.php 1 -
+/labs/eee06/Dreamweaver/Sim%207/web/in.ac.dei.sim7n/in.ac.dei.sim7n.nocache.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/Sim%207/web/sim7.html
+/labs/eee06/Dreamweaver/New%20Cv/n%20gal/js/jquery.gallerax-0.2.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/n%20gal/index.html
+/labs/eerc02/exp7/animation/7.compaction.swf 2 -
+/labs/civil16/index_files/image689.gif 1 -
+/labs/cse20/exp5/RandomVariables.pdf 1 -
+/labs/mech08/img/assets/js/bootstrap-transition.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/img/amo2009/notifications/sprite.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/CEVL 1 -
+/labs/cse24/exp8/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp8/index.html
+/labs/cse01/exp5/index.html 2 -
+/labs/cse22/exp3/tmp/7vj5ncn0m62pdn343crhrugof6/mlpState.png 5 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/chs13/faq_files/svc 2 http://deploy.virtual-labs.ac.in/labs/chs13/faq.php
+/labs/cse09/exp4/index.php 6 -
+/labs/ccnsb06/exp9/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp9/
+/labs/mech08/img/assets/js/jquery.js 1 -
+/labs/cse24/exp7/jquery.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp7/index.html
+/labs/cse24/exp5/jquery.js 4 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/index.html#
+/labs/cse24/exp3/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp3/index.html
+/labs/eerc02/exp9/Exp-9 1 -
+/labs/img/amo2009/icons/logos-applications.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eerc05/exp9/media/images/style.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/files/img/btnEntrar.gif 1 -
+/labs/cse16/exp04/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse16/exp04/index.html
+/labs/ccnsb02/js/extensions/v1.0-warning.js 122 http://deploy.virtual-labs.ac.in/labs/ccnsb02/index.html
+/labs/civil16/index_files/image5451.gif 1 -
+/labs/cse16/exp03/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse16/exp03/index.html
+/labs/img/amo2009/lightbox/prevlabel.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse09/exp1/index.php 1 -
+/img/tignish/firstrun/link-arrow-rtl.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/img/ratings/4stars.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/char.html 2 -
+/labs/cse02/exp5/www.cprogramming.com/tutorial/lesson16.html 7 -
+/apple-touch-icon-120x120-precomposed.png 3 -
+/labs/eee06/Dreamweaver/index.html 2 -
+//web/scripts/setup.php 2 -
+/labs/eee06/Dreamweaver/feedback.html 2 -
+/labs/eee06/Dreamweaver/exp3.html 4 -
+/labs/cse09/php/expressInstall.swf 5 -
+/labs/eee06/Dreamweaver/New%20Cv/book4.php 1 -
+/labs/cse19/images/temp/1383643192_7.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/img/amo2009/icons/developer.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse05/popl/topics/closure/ 1 -
+/labs/eee06/Dreamweaver/New%20Cv/Conf/CPRI07_DKC.pdf 1 -
+/labs/cse05/html/index/theory-7.html 1 -
+/labs/cse09/exp10/index.html 2 -
+//websql/scripts/setup.php 2 -
+/labs/cse05/html/index/quiz-2.html 1 -
+/labs/civil16/index_files/image458.gif 4 -
+/labs/civil16/index_files/image1075.gif 1 -
+/labs/cse22/exp8/tmp/q89cgpvucu2it2n8bjug23ear6/somState.png 6 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/eerc05/exp8/media/images/panel.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/civil16/index_files/image654.gif 2 -
+/labs/cse19/images/temp/1384750574_5.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/diff.php
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff)%20format(%22woff%22),%20url(http://deploy.virtual-labs.ac.in/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf)%20format(%22opentype%22 4 -
+/labs/eee06/Dreamweaver/syn_Sim.html 1 -
+/labs/cse30/vlab3/myExp2_2_a/js/modernizr-1.5.min.js 1 -
+/labs/civil16/index_files/image7521.jpg 2 -
+/labs/eee06/Dreamweaver/list.html 2 -
+/labs/ccnsb06/exp6_10/aspirin/layout.css 8 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6_10/aspirin/aspirin_nmr_expt10.html
+/labs/cse22/exp8/tmp/3nn7hfmp5hdk58iu6013l6dgp6/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/emt/js/beethoven.js 314 http://deploy.virtual-labs.ac.in/labs/emt/experiments.php
+/labs/cse11/index.php%20 1 -
+/labs/civil13/experiment3/CatAnalysismerge.php 2 http://deploy.virtual-labs.ac.in/labs/civil13/experiment3/intermediateCatAnalysisMod.php
+/labs/eerc05/exp5/media/images/style.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/emt/javax/media/j3d/Bounds.class 3 -
+/labs/cse09/exp2/index.php 6 -
+/labs/cse05/html/index/feedback-4.html 1 -
+/labs/cse05/html/index/objective-3.html 1 -
+/labs/eerc05/exp3/js/modernizr-1.5.min.js 10 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/index.html
+/labs/civil16/index_files/image284.gif 1 -
+/labs/mech04/home%20page.html 1 -
+http://deploy.virtual-labs.ac.in/admin.php 1 -
+/labs/civil16/index_files/image4701.gif 1 -
+/labs/emt/crc.emt.demos.CoulombsLaw$MyApplet 2 http://deploy.virtual-labs.ac.in/labs/emt/ve_exp1.html
+/labs/cse14/final-build/trans.jpg 9 http://deploy.virtual-labs.ac.in/labs/cse14/final-build/Experiment.php
+/labs/eee06/Dreamweaver/sim_6/web/in.ac.dei.vLab/in.ac.dei.vLab.nocache.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/sim_6/web/exp6.html
+/labs/civil13/experiment6/js/jquery.min.js 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModUserDisplay.php
+/labs/eerc05/exp8/media/images/forms.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/mech08/img/assets/js/bootstrap-tooltip.js 1 -
+/labs/eee06/Dreamweaver/style.css 14 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/safety.html
+/labs/ccnsb07/exp7/js/modernizr-1.5.min.js 7 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp7/index.html
+/labs/img/sprite.png 2 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/bio15/exp1/js/modernizr-1.5.min.js 5 http://deploy.virtual-labs.ac.in/labs/bio15/exp1/index.html
+/labs/phy14/exp5/media/screenshot_ph_files/screenshot_ph0.jpg 1 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/screenshot_ph.htm
+/labs/eerc01/exp9/Exp-9 1 -
+/labs/phy14/exp2/media/images/forms.css 13 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/sample1/exp1/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/sample1/exp1/index.html
+/labs/cse30/vlab3/myExp2_1_b/images/manual.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_b/index.php
+/labs/cse19/images/temp/1383643192_4.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse22/exp3/tmp/r9f8bn75q42o3jga34c736eev1/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+//typo3/phpmyadmin/scripts/setup.php 2 -
+/labs/eee06/Dreamweaver/New%20Cv/n%20gal/js/filter.js 1 http://deploy.virtual-labs.ac.in/labs/eee06/Dreamweaver/New%20Cv/n%20gal/index.html
+/labs/cse14/final-build/Experiment.php%3Ftid%3DT006%26code%3DC0091&sa 1 -
+/labs/img/amo2009/lightbox/loading.gif 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/cse22/exp5/js/modernizr-1.5.min.js 8 http://deploy.virtual-labs.ac.in/labs/cse22/exp5/index.html
+/labs/eerc02/exp3/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/eerc02/exp3/index.html
+/labs/cse24/exp6/js/modernizr-1.5.min.js 12 http://deploy.virtual-labs.ac.in/labs/cse24/exp6/index.html
+/labs/cse04/exp9/quizresults.php 8 -
+//phpMyAdmin/scripts/setup.php 2 -
+/labs/eerc05/exp8/PendulumForces.swf 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/img/amo2009/icons/step.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/eee06/Dreamweaver/New%20Cv/diesel.php 1 -
+/labs/cse14/final-build/images/bdot.jpg 2 -
+/labs/cse24/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp7/index.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1
+10.4.12.236 36461 154721 5284880754 20131130235917 20131130060303 /labs/eerc01/exp10/
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20131101 812 3671 117638661 4
+20131102 444 1546 37305330 7
+20131103 283 1188 26059926 10
+20131104 848 3211 65078530 3
+20131105 925 3681 155048658 6
+20131106 434 1991 160356789 5
+20131107 275 1204 68767566 4
+20131108 1337 6816 153938119 3
+20131109 1652 7006 232459105 3
+20131110 1620 6703 341753261 3
+20131111 2089 7976 458655754 1
+20131112 1876 7972 404644577 2
+20131113 1664 7117 251904153 3
+20131114 1640 6533 240826211 2
+20131115 1115 4589 198155492 1
+20131116 1608 6346 135744109 2
+20131117 884 3748 174835729 4
+20131118 1628 6257 260348535 2
+20131119 2256 9332 269133315 1
+20131120 1562 6628 207956016 2
+20131121 1832 7337 277931368 1
+20131122 1118 5199 161213858 1
+20131123 580 2733 82851944 3
+20131124 704 3188 69144005 4
+20131125 1745 6436 137979225 3
+20131126 1195 5164 138216817 3
+20131127 1332 5117 247997857 2
+20131128 895 3916 246403642 2
+20131129 1302 4636 286374610 1
+20131130 806 3560 137760440 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 58
+5mn-15mn 3
+2mn-5mn 1
+15mn-30mn 6
+0s-30s 10
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1497
+/labs/cse01/ 1480 4957477 7 2
+/labs/phy14/ 1124 1853142 2 0
+/labs/cse02/ 1122 3877788 4 2
+/labs/phy14/content.html 987 2599774 0 3
+/labs/cse04/ 786 2652719 3 1
+/labs/cse15/exp3/ 721 2980477 5 7
+/labs/cse19/ 659 2307081 3 0
+/labs/cse19/trns.php 606 130641 0 0
+/labs/eerc01/ 598 1872817 1 1
+/labs/cse15/ 515 1578892 4 2
+/labs/cse02/exp4/ 248 901397 0 0
+/labs/civil13/experiment2/DataRegrModRes.php 2 11206 0 0
+/labs/ccnsb06/exp9/ 3 6564 0 0
+/labs/ccnsb06/exp6/default.html 12 44796 0 0
+/labs/cse09/exp8/ 19 40806 0 0
+/labs/cse04/exp1/submission758615292.html 1 3147 0 0
+/labs/cse19/references.php 17 25864 0 1
+/labs/ccnsb05/exp3/content.html 1 5896 0 0
+/labs/ccnsb03/content.html 39 224211 0 0
+/labs/cse16/exp02/default.html 5 18660 0 0
+/labs/cse04/exp1/submission700797928.html 1 3163 0 0
+/labs/eerc04/exp1/vlab2/1.RigidJoints.html 2 720 0 0
+/labs/ccnsb06/exp6_10/aspirin/aspirin_MS_exp9.html 2 5112 0 0
+/labs/eerc03/exp13/vlab2/10.Turbines.html 9 2888 0 0
+/labs/cse19/affine.php 13 83590 0 0
+/labs/phy14/exp5/media/mediaplayer/ 2 1282 0 0
+/labs/cse24/exp6/default.html 10 37290 0 0
+/labs/ccnsb05/exp3/jmol/ 2 12352 0 0
+/labs/cse04/exp1/submission427053479.html 1 3057 0 0
+/labs/cse04/exp1/submission556868225.html 1 3161 0 0
+/labs/cse19/procedure.php 194 319399 0 0
+/labs/ccnsb04/exp5/ 2 6418 0 0
+/labs/eerc01/exp9/ 52 192666 0 0
+/labs/ccnsb01/exp1/content.html 15 110245 0 0
+/labs/cse12/ 2 1955 0 0
+/labs/phy14/exp1/ 42 83241 0 0
+/labs/cse15/exp2/ 167 657584 3 2
+/labs/ccnsb05/exp5/default.html 1 3737 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/5.xyz 1 414 0 0
+/labs/cse29/exp1/ 146 612792 0 0
+/labs/cse19/summary.php 28 27807 0 0
+/labs/cse22/exp3/default.html 18 74193 0 0
+/labs/cse05/php/register-form.php 39 23852 0 0
+/labs/ccnsb03/exp10/media/newone.html 2 127278 0 0
+/labs/civil13/experiment12/abcd.php 1 58560 0 0
+/labs/civil13/ 28 119187 0 0
+/labs/ccnsb07/exp6/content.html 2 6584 0 0
+/labs/sample2/ 1 2051 0 0
+/labs/cse09/exp8/default.html 19 66366 0 0
+/labs/phy19/ 1 2071 0 0
+/labs/ccnsb07/exp9/default.html 1 3729 0 0
+/labs/cse13/array_multiplier/exp1.html 8 2919 0 0
+/labs/bio15/content.html 6 10086 0 0
+/labs/cse24/exp3/content.html 8 28312 0 0
+/labs/ccnsb02/exp7/content.html 4 18716 0 0
+/labs/cse09/exp5/content.html 12 55140 0 0
+/labs/ccnsb04/exp9/experiment/bottom.html 1 888 0 0
+/labs/cse04/exp6/submission146713596.html 1 2997 0 0
+/labs/cse30/vlab3/myExp6_cascode/ 3 9209 0 0
+/labs/ccnsb05/exp2/ 1 2174 0 0
+/labs/sample1/exp1/content.html 3 10764 0 0
+/labs/sample2/default.html 1 1511 0 0
+/labs/cse14/content.html 11 27828 0 0
+/labs/bio15/exp9/content.html 1 3313 0 0
+/labs/cse04/exp1/submission391482879.html 1 3085 0 0
+/labs/cse04/exp8/save.php 1 38 0 0
+/labs/ccnsb03/exp8/media/8.fla 1 10490033 0 0
+/labs/cse16/exp03/natureofspeech.php 5 5135 0 0
+/labs/ccnsb03/exp8/content.html 3 19668 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 1 34160 0 0
+/labs/ccnsb02/content.html 54 244891 0 2
+/labs/cse19/neigh.php 53 285878 0 0
+/labs/civil13/experiment7/theory.php 1 3574 0 0
+/labs/cse30/vlab3/myExp5_b/exp1.html 1 417 0 0
+/labs/ccnsb03/exp10/media/old/10.html 2 1758 0 0
+/labs/ccnsb02/exp15/content.html 3 20016 0 0
+/labs/ccnsb07/content.html 41 111401 0 1
+/labs/cse04/exp1/submission517786701.html 1 3044 0 0
+/labs/ 61 138898 1 1
+/labs/cse15/exp9/exp9.html 4 1656 0 0
+/labs/cse04/exp1/submission763344980.html 1 2980 0 0
+/labs/ccnsb04/jmol/src/org/jmol/modelset/ModelSet.java 1 30414 0 0
+/labs/cse18/exp7/ 88 359188 0 0
+/labs/cse22/exp4/default.html 2 7464 0 0
+/labs/mech01/default.html 1 1495 0 0
+/labs/temp98/ 1 2071 0 0
+/labs/eerc02/exp4/vlab2/4.GrainSizeDistribution.html 3 1098 0 0
+/labs/chem01/default.html 3 4533 0 0
+/labs/cse24/exp4/content.html 7 24843 0 0
+/labs/cse15/exp9/default.html 1 3721 0 0
+/labs/cse16/exp01/content.html 10 75200 0 0
+/labs/civil13/experiment12/experiment.php 1 1767 0 0
+/labs/cse01/exp6/ 192 710200 0 0
+/labs/cse22/exp2/default.html 1 3732 0 0
+/labs/chem01/ori/ 4 7820 0 0
+/labs/eerc05/exp4/default.html 5 18680 0 0
+/labs/ccnsb04/exp8/experiment/ 5 8410 0 0
+/labs/ccnsb04/exp2/experiment/ 11 12939 0 0
+/labs/cse11/LocalityAnalysis/ 10 33417 0 0
+/labs/ccnsb03/exp4/media/ 3 1650 0 0
+/labs/mech08/5mol.html 2 3508 0 0
+/labs/cse10/rca_design.html 1 12852 0 0
+/labs/cse22/exp6/default.html 1 3732 0 0
+/labs/ccnsb06/exp6_10/aspirin/aspirin.cgi 1 1289 0 0
+/labs/eerc05/exp1/quizContent.html 1 2014 0 0
+/labs/cse13/array_multiplier/ 57 201043 0 0
+/labs/cse18/manual/intro.html 3 1911 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp1/exp1.html 10 3735 0 0
+/labs/cse04/exp1/submission196027899.html 1 3047 0 0
+/labs/cse24/exp9/default.html 2 7458 0 0
+/labs/cse24/exp4/ 7 15918 0 0
+/labs/cse01/exp3/quick.html 56 36108 0 0
+/labs/chem01/gla/gla5.php 12 17348 0 0
+/labs/ccnsb02/exp4/ 3 6762 0 0
+/labs/ccnsb06/exp10/content.html 7 35700 0 0
+/labs/cse04/exp4/submission347394920.html 1 3112 0 0
+/labs/cse04/exp1/submission275644459.html 1 2982 0 0
+/labs/eerc01/exp8/vlab2/CompressionSpring.jnlp 1 691 0 0
+/labs/ccnsb05/exp2/part2_cd/emanim_cd_refrac.html 1 945 0 0
+/labs/civil13/experiment6/DoubGravModRes.php 3 8424 0 0
+/labs/cse05/html/topics/higher-order/ 7 31598 0 0
+/labs/phy19/content.html 1 2059 0 0
+/labs/cse16/exp10/ 1 1949 0 0
+/labs/cse17/sensormodelling/content.html 1 8074 0 0
+/labs/ccnsb01/exp3/ 3 7095 0 0
+/labs/cse17/ 161 530383 1 1
+/labs/cse04/exp2/ 41 164446 0 0
+/labs/ccnsb01/exp7/ 2 4718 0 0
+/labs/eerc02/exp1/ 141 504086 0 0
+/labs/cse04/exp9/ 15 68078 0 0
+/labs/ccnsb05/exp2/default.html 1 3737 0 0
+/labs/civil13/experiment11/UEMod.php 2 3968 0 0
+/labs/cse04/exp1/submission846175924.html 1 3004 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 4 17364 0 0
+/labs/phy14/exp5/media/screenshot.wnk 1 54796 0 0
+/labs/cse09/exp8/interaction-frame.html 1 500 0 0
+/labs/ccnsb03/exp7/media/7.html 5 3504 0 0
+/labs/ccnsb03/exp2/ 7 14637 0 0
+/labs/civil13/experiment4/GroFactModDel.php 1 74 0 0
+/labs/cse22/exp1/default.html 13 41052 0 0
+/labs/civil13/experiment5/SigGravModUserDisplay.php 4 9667 0 0
+/labs/phy14/exp5/media/cite/ 2 924 0 0
+/labs/cse04/exp1/submission576724359.html 1 3205 0 0
+/labs/phy14/exp3/ 127 243378 0 0
+/labs/cse16/exp03/default.html 2 7464 0 0
+/labs/cse04/exp1/submission572230493.html 1 2982 0 0
+/labs/cse22/exp1/applet/ 11 16258 0 0
+/labs/cse17/mapping/ 25 94892 0 1
+/labs/cse04/exp10/lab.html 1 3201 0 0
+/labs/eerc04/exp2/content.html 1 4093 0 0
+/labs/ccnsb06/exp9/content.html 3 22335 0 0
+/labs/cse22/exp2/applet/ 1 1494 0 0
+/labs/ccnsb04/exp1/ 2 8346 0 0
+/labs/eerc05/exp3/ 8 15632 0 0
+/labs/civil13/experiment4/GroFactModDefaultDisplay.php 1 2260 0 0
+/labs/cse16/exp04/ 14 19490 0 0
+/labs/bio15/exp6/content.html 1 3385 0 0
+/labs/cse30/ 269 928092 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 24 197952 0 0
+/labs/cse16/exp09/content.html 3 17163 0 0
+/labs/cse13/5_3_compressor/exp1/exp1.html 1 416 0 0
+/labs/cse04/exp1/submission110512723.html 1 3045 0 0
+/labs/cse04/exp1/submission913722328.html 1 3185 0 0
+/labs/cse04/exp4/submission871948474.html 1 3129 0 0
+/labs/sc01/content.html 1 1640 0 0
+/labs/ccnsb03/exp4/media/4.html 2 1710 0 0
+/labs/cse16/exp05/ 4 5847 0 0
+/labs/cse16/ 37 68565 1 0
+/labs/chem01/ori/ori2.php 49 108282 0 0
+/labs/ccnsb07/exp6/default.html 2 7458 0 0
+/labs/eerc05/exp2/media/highres.html 1 577 0 0
+/labs/eerc01/exp3/vlab2/Shear.jnlp 7 2540 0 0
+/labs/cse04/exp5/submission507239968.html 1 3104 0 0
+/labs/ece03/setup.php 1 2867 0 0
+/labs/cse16/exp01/default.html 10 37320 0 0
+/labs/chem01/gla/gla1.php 51 53652 2 0
+/labs/ece01/ 1 2071 0 0
+/labs/cse09/exp2/content.html 37 214128 0 0
+/labs/cse06/default.html 1 1511 0 0
+/labs/civil13/experiment9/aim.php 2 2438 0 0
+/labs/cse01/exp9/ 180 643133 0 0
+/labs/civil13/login/report.php 2 3805 0 0
+/labs/cse22/exp3/perceptron.php 51 43773 0 0
+/labs/sample1/ 4 8204 0 0
+/labs/ccnsb06/exp5/content.html 6 18237 0 0
+/labs/cse18/manual/hsdpanel.html 2 860 0 0
+/labs/ccnsb07/exp7/default.html 4 14916 0 0
+/labs/phy01/ 30 109420 0 0
+/labs/ccnsb03/exp3/media/ 3 1623 0 0
+/labs/cse15/exp10/exp10.html 7 2842 0 0
+/labs/eerc05/exp8/media/ve_vanshear.html 5 2276 0 1
+/labs/cse29/exp8/ 13 41707 0 0
+/labs/cse24/exp10/default.html 2 7458 0 0
+/labs/cse04/exp1/lab.html 51 161546 1 0
+/labs/cse22/exp7/clnn.php 11 6396 0 0
+/labs/eerc04/exp4/vlab2/4.ColumnAnalysis.html 2 718 0 0
+/labs/temp98/exp1/ 1 2093 0 0
+/labs/ccnsb06/exp5/ 6 6564 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp8/exp8_simulate.php 1 108 0 0
+/labs/ccnsb06/exp2/ve_exp2.html 1 143 0 0
+/labs/ccnsb05/exp4/exp/ 1 1152 0 0
+/labs/cse02/exp3/quizresults.php 1 1110 0 0
+/labs/eerc05/exp6/default.html 13 48568 0 0
+/labs/cse04/exp1/submission466737557.html 1 3010 0 0
+/labs/cse01/exp8/ 130 460145 0 0
+/labs/cse15/exp3/default.html 1 3721 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 8 60832 0 0
+/labs/phy14/exp2/ 24 45471 0 0
+/labs/cse16/exp06/part1.php 5 4257 0 0
+/labs/cse04/exp1/submission584676765.html 1 3165 0 0
+/labs/cse22/exp7/ 3 5880 0 0
+/labs/emt/ve_exp6.html 2 310 0 0
+/labs/cse20/exp2/ 10 33857 0 0
+/labs/civil13/experiment9/ModeChoiceInput2.php 1 2613 0 0
+/labs/cse16/exp10/default.html 1 3732 0 0
+/labs/cse04/exp2/getHint.py 1 351 0 0
+/labs/cse30/vlab3/myExp3_a/ 2 6383 0 0
+/labs/phy14/exp9/media/ve_surfacetension.html 14 7294 0 0
+/labs/cse09/php/login-form.php 114 100596 0 0
+/labs/eerc05/exp4/media/ve_totalsolid.html 1 528 0 0
+/labs/cse29/exp5/ 41 135610 0 0
+/labs/eerc03/exp10/vlab2/7.ReynoldsExperiment.html 5 1765 0 0
+/labs/cse15/exp5/ 112 549546 1 3
+/labs/cse22/exp4/content.html 2 11964 0 0
+/labs/eerc01/exp3/ 115 384113 0 0
+/labs/ccnsb07/exp2/ 1 1960 0 0
+/labs/cse18/exp3/ 30 131241 0 0
+/labs/cse19/theory.php 285 868460 5 2
+/labs/cse14/final-build/faqs.php 2 17410 0 0
+/labs/civil13/login/ 13 55250 0 0
+/labs/ccnsb06/exp8/ 3 6561 0 0
+/labs/cse04/exp1/submission450657906.html 1 3134 0 0
+/labs/eerc01/exp5/vlab2/5.Impact.html 9 3159 0 0
+/labs/civil13/experiment10/experiment.php 3 5340 0 0
+/labs/cse04/exp1/submission602256590.html 1 3056 0 0
+/labs/ccnsb02/exp13/experiment_zp.html 4 2664 0 0
+/labs/chem01/ebu/ebu0.php 8 10856 0 0
+/labs/emt/manual1.php 8 11345 0 0
+/labs/ccnsb01/exp5/media/5.html 51 11880 0 1
+/labs/emt/faqs.php 2 6224 0 0
+/labs/ccnsb07/suraj/Suraj/bin/Hexane_Vanderwall.html 4 228 0 0
+/labs/cse18/manual/theorypanel.html 1 299 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff 1 5464 0 0
+/labs/chem01/vle/ 23 6340 0 0
+/labs/cse09/exp5/ 13 29471 0 0
+/labs/cse15/exp3/content.html 1 6530 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 2 20744 0 0
+/labs/cse16/exp05/default.html 4 11196 0 0
+/labs/phy14/exp5/media/cite/vlab/chemistry/demos/ 1 2155 0 0
+/labs/cse09/exp2/tasks.html 6 3126 0 0
+/labs/eerc05/exp2/ 20 37126 0 0
+/labs/ccnsb05/content.html 11 87341 0 0
+/labs/mech04/ 1 2071 0 0
+/labs/cse02/exp2/quizresults.php 2 7587 0 0
+/labs/bio15/exp9/Simulator/simulator.html 1 345 0 0
+/labs/ccnsb03/exp3/media/length.html 4 2607 0 0
+/labs/cse04/exp1/submission426710052.html 1 2981 0 0
+/labs/civil13/experiment3/experiment.php 2 3076 0 0
+/labs/phy14/exp5/media/ 1 1002 0 0
+/labs/cse09/exp9/default.html 35 150223 0 0
+/labs/chem01/vle/vle5.php 4 6044 0 0
+/labs/cse24/exp4/experiment9-1.php 14 22582 0 0
+/labs/ccnsb04/exp10/experiment/energy.php 1 1690 0 0
+/labs/mech08/home%20page.html 8 16037 0 0
+/labs/phy14/exp1/media/hcl.html 6 2600 0 0
+/labs/cse24/exp5/content.html 4 14016 0 0
+/labs/ccnsb07/exp1/content.html 6 22740 0 0
+/labs/ccnsb05/ 12 26853 0 0
+/labs/cse18/manual/worldtab.html 1 278 0 0
+/labs/cse04/exp1/submission527099264.html 1 3036 0 0
+/labs/civil13/experiment6/DoubGravModDefaultInput.php 2 4943 0 0
+/labs/cse15/exp4/exp4.html 9 3593 0 0
+/labs/cse04/exp4/save.php 1 42 0 0
+/labs/civil13/experiment12/procedure.php 1 1439 0 0
+/labs/mech08/ 7 996 0 0
+/labs/cse13/lfsr/LFSR.html 6 970 0 0
+/labs/ccnsb06/exp6/ 14 28444 0 0
+/labs/mech08/ionic%20conductivity.html 3 6321 0 0
+/labs/ece10/ 1 2071 0 0
+/labs/ccnsb05/exp1/swf.html 4 290 0 0
+/labs/chem01/vle/vle.php 21 45365 0 0
+/labs/ccnsb05/exp1/content.html 2 15476 0 0
+/labs/cse04/exp1/submission376683131.html 1 3359 0 0
+/labs/cse12/content.html 2 2207 0 0
+/labs/ccnsb05/exp5/content.html 1 11568 0 0
+/labs/phy14/exp4/content.html 18 66450 0 0
+/labs/cse22/exp2/ 1 1960 0 0
+/labs/phy14/exp3/content.html 120 496298 0 0
+/labs/cse30/vlab3/myExp2_2_a/ 23 72136 0 0
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 1 34160 0 0
+/labs/sample1/content.html 4 9672 0 0
+/labs/civil16/lab/exp2.html 1 3474 0 0
+/labs/cse20/experiment/Exp3.jnlp 3 2208 0 0
+/labs/ccnsb04/exp5/experiment/inp.php 1 729 0 0
+/labs/phy14/exp8/content.html 44 185944 0 0
+/labs/civil13/experiment12/SystemOptModPlot.php 2 17620 0 0
+/labs/cse12/default.html 2 1511 0 0
+/labs/cse04/exp1/submission652795947.html 1 3052 0 0
+/labs/ccnsb04/exp8/experiment/header_1.html 2 948 0 0
+/labs/civil16/index_files/Page753.htm 2 405591 0 0
+/labs/cse04/exp1/submission330574892.html 1 3154 0 0
+/labs/cse13/semi_custom/ 7 39553 0 0
+/labs/cse04/exp8/submission323030942.html 1 2996 0 0
+/labs/civil13/experiment11/UEModDefault.php 2 4570 0 0
+/labs/chem01/gla/gla3.php 13 13923 0 0
+/labs/bio15/exp2/ 1 2093 0 0
+/labs/cse01/exp7/DFS_BFS.html 35 22505 0 0
+/labs/cse09/exp4/default.html 23 95390 0 0
+/labs/cse04/exp8/submission583199557.html 1 3133 0 0
+/labs/civil13/experiment12/SystemOptMod.php 2 3966 0 0
+/labs/eerc05/exp4/ 5 9775 0 0
+/labs/civil13/experiment11/UEModPlot.php 2 11466 0 0
+/labs/cse04/exp1/submission806948268.html 1 3164 0 0
+/labs/civil13/experiment5/intermediateSigGravMod.php 7 10387 0 0
+/labs/civil13/experiment10/AONModRes.php 1 1686 0 0
+/labs/cse22/exp8/ 4 11011 0 0
+/labs/cse04/exp1/submission206024539.html 1 2998 0 0
+/labs/cse20/experiment/Exp2.jnlp 2 1484 0 0
+/labs/cse09/exp1/interaction-frame.html 34 14745 0 0
+/labs/ccnsb04/exp5/experiment/gamesinput.php 1 829 0 0
+/labs/cse09/php/register-form.php 212 80153 0 0
+/labs/civil13/experiment8/theory.php 1 3750 0 0
+/labs/phy14/exp7/media/ve_geigermuller.html 6 2947 0 0
+/labs/chem01/ori/ori5.php 15 24014 0 0
+/labs/cse09/content.html 237 780176 1 0
+/labs/ccnsb05/exp1/default.html 2 7474 0 0
+/labs/cse24/exp4/default.html 7 26103 0 0
+/labs/civil16/lab/exp1.html 2 6906 0 0
+/labs/cse11/ARM1/ 3 10653 0 0
+/labs/cse24/exp1/ 13 31109 0 0
+/labs/cse04/exp1/submission795159743.html 1 3164 0 0
+/labs/civil13/experiment10/AONDefault.php 1 1861 0 0
+/labs/eerc05/exp2/media/lowres.jnlp 1 655 0 0
+/labs/cse04/exp1/submission237799302.html 1 3159 0 0
+/labs/cse04/exp1/submission373860455.html 1 3050 0 0
+/labs/ccnsb03/exp10/ 6 12546 0 0
+/labs/cse09/exp7/tasks.html 2 796 0 0
+/labs/civil13/experiment7/aim.php 3 3741 0 0
+/labs/emt/ 215 489376 1 1
+/labs/cse02/exp1/arithmatic/operator.php 120 23880 0 0
+/labs/ccnsb05/exp4/ 1 2174 0 0
+/labs/ccnsb04/exp10/experiment/bottom.html 1 756 0 0
+/labs/ccnsb05/exp5/ 1 2177 0 0
+/labs/eerc05/exp1/animation/lowres.html 5 2895 0 0
+/labs/civil13/experiment8/CaliDoubModDefault.php 2 9890 0 0
+/labs/cse24/exp6/ 11 24728 0 0
+/labs/bio15/default.html 6 9186 0 0
+/labs/chem01/ebu/ebu1.php 4 3036 0 0
+/labs/ccnsb01/exp3/content.html 2 16272 0 0
+/labs/eerc05/exp9/media/ve_plateload.html 6 3450 0 0
+/labs/cse02/exp3/ 31 180563 0 0
+/labs/eerc04/exp2/vlab2/Singlespan.jnlp 4 1362 0 1
+/labs/eerc04/exp2/default.html 1 3721 0 0
+/labs/cse24/ 34 68343 0 0
+/labs/cse04/exp1/submission058655095.html 1 3172 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 12 91248 0 0
+/labs/eerc05/exp3/content.html 8 32368 0 0
+/labs/ccnsb03/exp10/media/old/ 3 1551 0 0
+/labs/cse02/exp9/ 120 453018 1 0
+/labs/cse30/vlab3/myExp2_1_a/exp1.html 23 8277 0 0
+/labs/cse20/ 135 467743 0 1
+/labs/cse07/ 1 1757 0 0
+/labs/eerc05/exp5/media/CoreCutter.jnlp 2 655 0 0
+/labs/eerc03/exp9/vlab2/6.Channels.html 3 710 0 0
+/labs/cse24/exp8/default.html 3 11187 0 0
+/labs/cse16/exp03/indexie.html 1 4258 0 0
+/labs/eerc04/exp9/vlab2/9.Retainingwalls.html 1 363 0 0
+/labs/eerc05/exp6/ 13 25428 0 0
+/labs/chem01/gla/gla7.php 12 17171 0 0
+/labs/cse16/exp07/content.html 4 16851 0 0
+/labs/cse04/exp1/submission435538409.html 1 2982 0 0
+/labs/cse13/lfsr/ 40 140082 0 1
+/labs/eerc03/exp9/ 40 150502 0 0
+/labs/cse04/exp1/submission782973731.html 1 3157 0 0
+/labs/ccnsb02/exp14/content.html 3 14406 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 1 9676 0 0
+/labs/ccnsb04/exp9/content.html 1 3986 0 0
+/labs/eerc03/exp11/vlab2/8.Vortices.html 4 1609 0 0
+/labs/chem01/hpc/hpc1.php 11 16247 0 0
+/labs/cse09/exp9/interaction-frame.html 13 4500 0 0
+/labs/cse04/exp5/ 33 150796 0 0
+/labs/bio16/content.html 2 3510 0 0
+/labs/eerc05/exp5/content.html 18 57136 0 0
+/labs/eerc05/exp2/media/lowres.html 5 2875 0 0
+/labs/cse13/hamming_coder/ 18 63646 0 0
+/labs/cse04/exp1/submission901767324.html 1 3190 0 0
+/labs/ccnsb01/exp8/content.html 2 16410 0 0
+/labs/cse30/vlab3/myExp2_3_a/ 19 59520 0 0
+/labs/cse14/final-build/EXP_1sep2010/layout/exp1.html 1 424 0 0
+/labs/cse14/default.html 11 13626 0 0
+/labs/civil13/experiment2/abcd.php 3 262363 0 0
+/labs/cse04/exp2/submission931039458.html 1 3002 0 0
+/labs/cse13/hamming_coder/exp1.html 4 1251 0 0
+/labs/ccnsb03/exp3/media/3.html 4 2568 0 0
+/labs/cse04/exp1/submission438471841.html 1 3004 0 0
+/labs/civil13/experiment5/SigGravModDefaultInput.php 16 35139 0 0
+/labs/civil13/experiment11/UEModRes.php 2 8092 0 0
+/labs/cse29/exp10/ 12 39409 0 0
+/labs/civil13/experiment4/selfevaluation.php 1 2879 0 0
+/labs/cse04/exp6/lab.html 8 37460 0 1
+/labs/cse16/exp08/default.html 7 11196 0 0
+/labs/emt/manual9.php 2 2869 0 0
+/labs/cse18/manual/cameras.html 1 644 0 0
+/labs/ccnsb06/exp7/default.html 2 7466 0 0
+/labs/cse09/php/task-fetch.php 1 645 0 0
+/labs/ccnsb01/exp2/media/2_b.html 3 2344 0 0
+/labs/chem01/vle/vle6.php 1 1034 0 0
+/labs/eerc02/exp9/vlab2/9.DirectShear.html 5 1785 0 0
+/labs/ccnsb02/exp3/ 1 2254 0 0
+/labs/cse15/exp2/exp2.html 26 8360 0 0
+/labs/cse13/carry_look_ahead_adder/ 18 70176 1 1
+/labs/cse24/exp5/experiment10-0.php 1 1472 0 0
+/labs/ccnsb06/exp5/default.html 6 11199 0 0
+/labs/chem01/ori/ori4.php 28 50968 0 0
+/labs/emt/ve_exp4.html 1 143 0 0
+/labs/ccnsb03/exp8/media/ 2 1018 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 1 19356 0 0
+/labs/cse24/exp2/ 5 11550 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp4/exp4.php 1 6163 0 0
+/labs/cse24/exp6/exp4.php 29 39475 0 0
+/labs/mech18/FabLab/exp5/flexibleCircuit.htm 1 932 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 1 5788 0 0
+/labs/temp98/exp1/default.html 1 3721 0 0
+/labs/phy14/exp2/media/ve_millikansexp.html 7 4228 0 0
+/labs/civil13/experiment5/procedure.php 1 1851 0 0
+/labs/civil13/experiment9/abcd.php 2 177324 0 0
+/labs/civil13/experiment3/aim.php 6 7248 0 0
+/labs/civil13/experiment7/abcd.php 2 2190080 0 0
+/labs/eerc02/exp6/vlab2/6.Permeability.html 3 1077 0 0
+/labs/ccnsb06/exp2/plot_methoxyradical.html 1 11705 0 0
+/labs/civil13/people.php 1 1636 0 0
+/labs/cse30/vlab3/myExp5_a/myfile.php 2 52 0 0
+/labs/ccnsb01/exp8/ 2 4720 0 0
+/labs/ccnsb02/exp1/content.html 8 30392 0 0
+/labs/cse17/sensormodelling/ 105 450953 0 0
+/labs/ccnsb03/exp10/content.html 6 40446 0 0
+/labs/phy14/exp6/ 13 31839 0 0
+/labs/cse04/exp1/submission261936143.html 1 3172 0 0
+/labs/cse30/vlab3/myExp2_1_a/myFile.php 19 739 0 0
+/labs/mech08/experiments.html 4 8418 0 0
+/labs/cse04/exp1/submission934914267.html 1 3030 0 0
+/labs/eerc03/exp6/vlab2/3.Orifices.html 8 1412 0 0
+/labs/eerc04/exp8/vlab2/8.Trusses.html 6 1810 0 0
+/labs/cse11/ 207 817888 1 1
+/labs/cse09/exp1/default.html 96 381994 0 0
+/labs/cse22/exp1/tableTEMP.html 17 8211 0 0
+/labs/cse24/exp5/ 4 8960 0 0
+/labs/cse05/html/topics/lexical/ 4 36564 0 0
+/labs/ccnsb06/exp2/ 2 4382 0 0
+/labs/eerc01/exp7/vlab2/7.Fatigue.html 8 2154 0 0
+/labs/bio16/exp5/ 1 1888 0 0
+/labs/civil13/experiment1/experiment.php 2 2722 0 0
+/labs/eerc01/exp4/vlab2/Torsion.jnlp 5 1914 0 0
+/labs/ccnsb05/exp2/emanim_ord_refrac.html 3 930 0 0
+/labs/cse17/exploration/ 23 108651 0 0
+/labs/civil16/lab/exp7.html 1 3333 0 0
+/labs/ccnsb03/exp10/media/10.html 10 4415 0 0
+/labs/eerc05/exp2/content.html 19 60624 0 0
+/labs/ccnsb02/exp2/content.html 7 38795 0 0
+/labs/chem01/vle/vle3.php 12 17179 0 0
+/labs/cse17/rrtbasedpathplanning/ 15 56043 0 0
+/labs/civil13/login.php 15 23265 0 0
+/labs/civil13/experiment9/ModeChoiceRes.php 1 2435 0 0
+/labs/phy14/exp6/media/pHScale.jnlp 5 2712 0 0
+/labs/cse02/exp1/ 372 1487961 1 0
+/labs/eerc02/exp7/vlab2/7.Compaction.html 5 1780 0 0
+/labs/cse24/exp10/experiment8.php 1 385 0 0
+/labs/cse13/ripple_carry_adder/exp2/exp1.html 2 834 0 0
+/labs/bio15/exp1/Simulator/simulator.html 3 1035 0 0
+/labs/cse16/exp01/indexie.html 1 6998 0 0
+/labs/cse18/exp5a/ 12 74519 0 0
+/labs/ccnsb01/exp9/ 2 4732 0 0
+/labs/cse18/exp5b/ 26 135317 0 0
+/labs/ccnsb06/default.html 85 128391 0 0
+/labs/ccnsb01/exp8/media/8.html 5 1169 0 0
+/labs/ccnsb07/exp2/content.html 1 3832 0 0
+/labs/cse10/ 1 6721 0 0
+/labs/eerc02/exp1/vlab2/Water.jnlp 7 2624 0 0
+/labs/emt/ve_exp22_1.html 1 162 0 0
+/labs/civil13/experiment12/SystemOptDefault.php 1 2274 0 0
+/labs/eerc03/exp1/vlab2/Bernoullis.jnlp 8 1938 0 0
+/labs/cse24/exp6/experiment4.php 14 7840 0 0
+/labs/phy14/exp3/media/ve_photoelectric.html 54 31345 0 0
+/labs/eerc01/exp6/vlab2/Creep.jnlp 2 649 0 0
+/labs/emt/manual6.php 2 2856 0 0
+/labs/cse09/exp6/content.html 16 145072 0 0
+/labs/civil13/login/tripdistribution.php 1 2596 0 0
+/labs/civil13/experiment4/theory.php 4 17156 0 0
+/labs/ccnsb07/exp7/content.html 4 16092 0 0
+/labs/ccnsb03/exp10/media/10.fla 2 7036838 0 0
+/labs/cse09/exp4/tasks.html 4 1852 0 0
+/labs/phy14/exp5/media/ve_calorimeter.html 3 1737 0 0
+/labs/cse01/exp6/exptree.html 43 26000 0 0
+/labs/eerc05/exp9/content.html 12 47730 0 0
+/labs/civil13/experiment10/intermediateAllorNothingModelReport.php 1 1310 0 0
+/labs/ccnsb02/exp7/Gel_elec.html 3 3492 0 0
+/labs/sample1/default.html 4 6044 0 0
+/labs/cse24/exp1/exp1_opt.php 10 8967 0 0
+/labs/cse22/exp4/mlffnn.php 6 3886 0 0
+/labs/mech18/default.html 3 4533 0 0
+/labs/bio15/exp9/default.html 1 3740 0 0
+/labs/chem01/vle/vle4.php 7 7240 0 0
+/labs/ccnsb07/exp9/content.html 1 4556 0 0
+/labs/mech17/content.html 1 1743 0 0
+/labs/mech17/exp1/ 2 1993 0 0
+/labs/eerc01/exp1/vlab2/1.Tensile.html 43 13806 0 0
+/labs/phy14/exp5/media/milikan.wnk 1 27522729 0 0
+/labs/cse05/html/message.html 1 128 0 0
+/labs/phy14/exp5/media/OpticalRotation.jnlp 1 678 0 0
+/labs/cse22/exp3/ 19 34531 0 0
+/labs/ccnsb03/exp7/media/ 1 512 0 0
+/labs/cse18/manual/displaytab.html 3 1866 0 0
+/labs/ccnsb06/exp6_10/ 1 770 0 0
+/labs/eerc03/exp5/vlab2/2.VenturiMeter.html 14 3213 0 0
+/labs/cse01/exp1/UnarySystem.html 33 21635 0 0
+/labs/cse04/exp1/submission061729966.html 1 3036 0 0
+/labs/eerc02/exp7/ 99 372681 2 0
+/labs/ccnsb03/exp5/media/5.fla 1 7433852 0 0
+/labs/temp98/content.html 1 1565 0 0
+/labs/ccnsb06/ 97 186574 0 0
+/labs/ccnsb06/exp1/ 5 10935 0 0
+/labs/cse18/content.html 1 2412 0 0
+/labs/phy14/exp3/media/PhotoElectric.jnlp 39 8710 0 0
+/labs/emt/ve_exp9.html 6 780 0 0
+/labs/cse04/exp6/prob_desc.html 2 2298 0 0
+/labs/eerc04/exp1/ 31 107213 0 0
+/labs/cse04/exp6/getHint.py 2 738 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/9.xyz 1 413 0 0
+/labs/cse15/exp1/ 322 1254730 1 1
+/labs/cse04/exp3/submission424129490.html 1 3080 0 0
+/labs/cse16/exp06/readme.html 1 1355 0 0
+/labs/chem01/ori/ori3.php 30 44777 0 0
+/labs/ccnsb01/exp2/content.html 5 31590 0 0
+/labs/cse01/exp7/ 189 710307 0 1
+/labs/eerc03/exp8/vlab2/5.Weirs.html 2 706 0 0
+/labs/eerc04/exp4/ 37 123245 0 0
+/labs/chem01/vle/vle7.php 1 1533 0 0
+/labs/cse02/exp5/ 108 414393 0 1
+/labs/ccnsb02/ 61 147580 0 0
+/labs/mech18/ 4 8284 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 4 58068 0 0
+/labs/eerc01/exp7/ 71 243104 0 0
+/labs/eerc01/exp5/vlab2/Impact.jnlp 17 1260 0 0
+/labs/cse15/content.html 5 12170 0 0
+/labs/civil13/password_reset.php 1 1621 0 0
+/labs/cse20/experiment/Exp6.jnlp 2 1436 0 0
+/labs/eerc02/exp7/content.html 1 4637 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 20 527760 0 0
+/labs/cse20/default.html 3 3022 0 0
+/labs/bio15/exp6/ 1 2093 0 0
+/labs/eerc03/exp12/vlab2/9.Jets.html 1 351 0 0
+/labs/cse11/FloatingPointNumbers/ 5 16917 0 0
+/labs/cse22/exp9/ 1 1960 0 0
+/labs/cse30/vlab3/myExp2_3_b/ 9 27722 0 0
+/labs/ccnsb01/exp5/media/ 1 510 0 0
+/labs/cse16/exp08/content.html 7 22548 0 0
+/labs/cse04/exp1/submission802901979.html 1 3004 0 0
+/labs/cse19/arith.php 31 129394 0 0
+/labs/cse09/exp9/content.html 34 258768 0 0
+/labs/ccnsb06/exp6_10/nitrophenol/2-nitrophenol_MS.html 5 8271 0 0
+/labs/civil13/experiment10/abcd.php 1 57078 0 0
+/labs/cse16/exp02/part2.php 3 4135 0 0
+/labs/ccnsb02/exp3/clean.html 2 3134 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 24 633312 0 0
+/labs/ccnsb01/exp5/content.html 4 24968 0 0
+/labs/bio15/exp3/ 3 6279 0 0
+/labs/eerc02/exp4/ 85 292347 0 0
+/labs/cse01/exp8/Dijkstra.html 22 14102 0 0
+/labs/cse07/content.html 1 2191 0 0
+/labs/civil16/ 6 102449 0 0
+/labs/eerc04/exp2/vlab2/2.SingleSpanBeams.html 13 4784 0 0
+/labs/cse04/exp1/submission562675456.html 1 8844 0 0
+/labs/eerc02/exp10/vlab2/10.Triaxial.html 3 1059 0 0
+/labs/cse19/write.php 1 20 0 0
+/labs/cse02/exp7/ 50 232495 0 0
+/labs/civil13/experiment3/CatAnalysisMod3.php 2 4164 0 0
+/labs/civil13/experiment4/aim.php 8 9688 0 0
+/labs/cse04/exp10/ 20 133334 0 0
+/labs/chem01/calo/calqa.html 4 5052 0 0
+/labs/cse04/exp5/lab.html 6 25154 0 0
+/labs/cse19/histo.php 23 113410 0 0
+/labs/civil13/sendquerymail.php 1 141 0 0
+/labs/mech18/content.html 3 5283 0 0
+/labs/chem01/nof/ 17 28900 0 0
+/labs/eerc05/exp1/animation/ve_fsi.html 5 2585 0 0
+/labs/civil13/experiment12/IntermediateSystemOptModRpt.php 2 2566 0 0
+/labs/ccnsb06/exp6_10/caffeine/plot_IR_caffeine_exp6.html 2 6204 0 0
+/labs/eerc02/exp3/vlab2/Specific.jnlp 4 2004 0 0
+/labs/cse01/exp1/BinarySystem.html 16 10739 0 0
+/labs/cse09/exp3/interaction-frame.html 2 994 0 0
+/labs/cse02/exp10/ 21 93829 0 0
+/labs/eerc03/exp7/vlab2/Mouth.jnlp 1 652 0 0
+/labs/bio15/exp6/default.html 1 3740 0 0
+/labs/phy14/exp8/media/YouungModulus.jnlp 15 2688 0 1
+/labs/ccnsb01/exp2/media/2_a.html 1 1145 0 0
+/labs/ccnsb04/exp8/ 12 38484 0 0
+/labs/cse04/exp2/lab.html 3 9618 0 0
+/labs/cse19/diff.php 64 344896 0 0
+/labs/cse04/exp8/lab.html 6 19254 0 0
+/labs/cse02/exp4/lab/arrayProg.html 44 17934 0 0
+/labs/cse24/exp2/content.html 4 12796 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample6/sample6.pdb 1 5125 0 0
+/labs/ccnsb02/exp7/ 4 9016 0 0
+/labs/chem01/calo/cal1a.php 11 14267 0 1
+/labs/ccnsb03/exp9/media/ 2 1024 0 0
+/labs/ccnsb04/ 42 85992 2 0
+/labs/civil13/experiment4/procedure.php 5 9245 0 0
+/labs/eerc05/exp7/ 4 7824 0 0
+/labs/cse04/exp1/submission753282440.html 1 3004 0 0
+/labs/chem01/vle/vle8.php 2 144 0 0
+/labs/ccnsb04/default.html 34 51353 0 0
+/labs/cse24/exp6/exp4_answer.php 7 2444 0 0
+/labs/ccnsb05/exp4/exp/pdbs/sample2.pdb 1 5605 0 0
+/labs/sc01/default.html 1 1511 0 0
+/labs/cse04/exp1/submission322150430.html 1 2983 0 0
+/labs/cse19/segment.php 44 246331 0 0
+/labs/civil16/lab/exp6.html 1 4558 0 0
+/labs/civil13/experiment3/CatAnalysisModDefault.php 2 3918 0 0
+/labs/eerc02/exp6/ 64 224217 0 1
+/labs/ccnsb04/exp5/experiment/inp_bk.php 1 621 0 0
+/labs/cse20/exp7/ 17 65506 0 0
+/labs/eerc01/exp1/ 427 1531478 1 0
+/labs/cse04/exp1/submission250338510.html 1 2981 0 0
+/labs/cse02/exp10/Integration/build/factorial.html 3 1341 0 0
+/labs/mech04/content.html 1 1636 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 4 15432 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff 2 6480 0 0
+/labs/cse05/html/topics/objects/ 6 26694 0 0
+/labs/cse22/exp6/ 1 1960 0 0
+/labs/phy14/exp1/media/DipoleMoment.jnlp 20 6690 0 0
+/labs/cse22/exp9/graphbipartition.php 1 1086 0 0
+/labs/cse22/exp8/som.php 8 5921 0 0
+/labs/eerc05/exp1/ 16 29310 0 0
+/labs/ccnsb03/exp6/ 5 16785 0 0
+/labs/phy14/exp5/content.html 7 32018 0 0
+/labs/phy14/exp5/ 7 13839 0 0
+/labs/ccnsb03/exp9/media/9.fla 1 11147956 0 0
+/labs/cse16/exp02/part1.php 9 16235 0 0
+/labs/eerc01/exp2/ 133 464810 0 0
+/labs/chem01/ori/ori8.php 2 3495 0 0
+/labs/civil13/contact.php 2 4276 0 0
+/labs/cse13/Gated_Clocking/exp1/exp1.html 1 417 0 0
+/labs/cse04/exp1/submission335136503.html 1 8783 0 0
+/labs/civil13/experiment4/GroFactModInputDisplay.php 2 4324 0 0
+/labs/cse18/exp8/content.html 1 3803 0 0
+/labs/cse20/exp10/ 4 13300 0 0
+/labs/eerc05/exp6/media/ve_vanshear.html 1 571 0 0
+/labs/cse04/exp1/submission001797404.html 1 3095 0 0
+/labs/cse02/exp1/logical/logoperator.php 10 2000 0 0
+/labs/emt/Experiment.php 218 529484 1 1
+/labs/chem01/ori/ori1.php 58 64178 1 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/2.xyz 1 407 0 0
+/labs/cse15/exp3/index.php/trackback/ 2 5972 0 0
+/labs/cse04/exp1/submission542584664.html 1 3088 0 0
+/labs/ccnsb03/exp4/ 3 6273 0 0
+/labs/eerc05/exp6/quiz.html 1 1959 0 0
+/labs/ccnsb01/exp7/content.html 2 15422 0 0
+/labs/cse15/exp8/exp8.html 15 4693 0 0
+/labs/cse18/manual/gcs.html 1 347 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 8 374464 0 0
+/labs/cse24/exp5/experiment10.php 1 488 0 0
+/labs/cse01/exp1/ 324 1295198 0 1
+/labs/chem01/vle/addpnt.php 12 304 0 0
+/labs/civil13/experiment5/abcd.php 8 4158541 0 0
+/labs/bio15/exp9/ 1 2093 0 0
+/labs/cse13/5_3_compressor/ 3 10170 0 0
+/labs/chem01/vle/genvle.php 18 636 0 0
+/labs/civil13/experiment2/DataRegrMod2.php 8 31607 0 0
+/labs/ccnsb03/exp2/media/2.html 3 2538 0 0
+/labs/cse14/final-build/preQuiz6.php 1 2097 0 0
+/labs/cse16/exp04/part2.php 10 7240 0 0
+/labs/cse13/ripple_carry_adder/ 17 65750 0 0
+/labs/cse04/exp3/ 12 61509 0 0
+/labs/cse01/exp3/insertion.html 41 22743 0 0
+/labs/ccnsb04/exp10/experiment/header.html 1 400 0 0
+/labs/cse24/exp9/ 2 4330 0 0
+/labs/civil13/experiment3/CatAnalysisModRes2.php 2 4373 0 0
+/labs/ccnsb07/ 48 81274 0 0
+/labs/emt/ve_exp1.html 18 2682 0 0
+/labs/civil13/experiment4/GroFactMod.php 8 18720 0 0
+/labs/ccnsb02/exp2/ 7 19092 0 0
+/labs/eerc05/ 100 179024 0 0
+/labs/cse18/exp6/ 26 102135 0 0
+/labs/cse04/exp2/submission269050002.html 1 3006 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 20 953040 0 0
+/labs/ccnsb07/exp2/default.html 1 3729 0 0
+/labs/bio16/exp10/ 1 1371 0 0
+/labs/cse30/vlab3/myExp2_3_b/myfile.php 1 26 0 0
+/labs/ccnsb06/content.html 85 260755 0 0
+/labs/bio16/exp3/ 1 1088 0 0
+/labs/cse04/exp1/submission248246377.html 1 3051 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp9/exp9_flipflop_positive_verilog.html 1 425 0 0
+/labs/cse05/html/topics/closure/ 1 9684 0 0
+/labs/eerc04/exp8/vlab2/Trusses.jnlp 5 1282 0 0
+/labs/ccnsb04/exp2/ 31 117533 0 0
+/labs/cse09/exp7/content.html 15 63630 0 0
+/labs/chem01/vle/addpntri.php 1 27 0 0
+/labs/cse04/exp1/submission611867661.html 1 3096 0 0
+/labs/phy14/exp8/ 51 85011 0 0
+/labs/mech18/FabLab/exp3/pcb.html 1 998 0 0
+/labs/cse24/exp4/experiment9-0.php 13 5297 0 0
+/labs/eerc04/exp5/ 52 177878 0 0
+/labs/cse04/exp1/submission430458168.html 1 3094 0 0
+/labs/civil13/experiment12/SystemOptModRes.php 1 2261 0 0
+/labs/bio15/exp2/content.html 1 3325 0 0
+/labs/ccnsb03/exp2/media/ 1 510 0 0
+/labs/cse04/exp1/submission515794902.html 1 3048 0 0
+/labs/phy14/exp2/media/Millikan.jnlp 9 2660 0 0
+/labs/cse04/exp5/submission043212572.html 1 3039 0 0
+/labs/cse01/exp2/calc3.html 57 34834 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp2/exp2.html 1 417 0 0
+/labs/civil13/experiment11/aim.php 3 3606 0 0
+/labs/cse02/exp6/test1/build/towers.html 15 1443 0 0
+/labs/ccnsb07/exp10/default.html 1 3729 0 0
+/labs/ccnsb01/exp6/content.html 1 6279 0 0
+/labs/ccnsb03/exp4/media/concentration.html 1 857 0 0
+/labs/cse02/exp6/quizresults.php 1 493 0 0
+/labs/ccnsb03/exp3/ 5 10455 0 0
+/labs/cse04/exp1/submission851418682.html 1 3107 0 0
+/labs/eerc03/exp11/ 46 171648 0 0
+/labs/cse09/exp4/interaction-frame.html 4 1996 0 0
+/labs/chem01/htl/htl1.php 29 41268 0 0
+/labs/eerc01/exp4/vlab2/4.Torsion.html 13 3938 0 0
+/labs/eerc05/exp6/quizContent.html 1 2023 0 0
+/labs/cse24/exp8/exp7_3.php 1 336 0 0
+/labs/mech18/FabLab/exp2/finishing.html 1 963 0 0
+/labs/cse18/default.html 1 1482 0 0
+/labs/ccnsb06/exp2/plot_hydroxyl.html 1 11544 0 0
+/labs/chem01/vle/measri.php 1 27 0 0
+/labs/cse24/exp1/exp1.php 34 52256 0 0
+/labs/cse04/exp1/submission947264613.html 1 3008 0 0
+/labs/civil13/experiment3/CatAnalysisMod4.php 2 4258 0 0
+/labs/cse22/exp5/default.html 5 18660 0 0
+/labs/mech18/FabLab/exp4/interfaceprog.html 1 1006 0 0
+/labs/cse04/exp5/getHint.py 2 836 0 0
+/labs/cse16/exp02/content.html 5 37245 0 0
+/labs/eerc02/ 307 825610 0 0
+/labs/eerc05/content.html 97 248388 0 0
+/labs/cse05/html/content.html 117 600584 0 0
+/labs/cse11/VirtualMemory/ 18 58853 0 0
+/labs/ccnsb05/exp1/swf 2 290 0 0
+/labs/mech01/content.html 1 2017 0 0
+/labs/cse09/exp1/content.html 97 690918 0 0
+/labs/ccnsb04/exp5/experiment/final_latest.php 1 1565 0 0
+/labs/chs13/ultrafast.htm 1 10222 0 0
+/labs/bio15/exp3/Simulator/simulator.html 3 1035 0 0
+/labs/civil13/experiment5/SigGravModDel.php 1 80 0 0
+/labs/ccnsb03/exp1/media/Principle.fla 1 75418 0 0
+/labs/civil13/experiment7/CaliSingModDefaultDisplay.php 2 9319 0 0
+/labs/ccnsb02/exp13/content.html 5 27250 0 0
+/labs/ccnsb04/exp8/experiment/header.html 2 684 0 0
+/labs/cse02/exp1/table.html 22 15965 0 0
+/labs/cse01/exp1/RomanSystem.html 13 8807 0 0
+/labs/ece01/default.html 1 1495 0 0
+/labs/cse14/final-build/aboutus.php 3 6354 0 0
+/labs/ccnsb01/exp9/media/9.html 3 2378 0 0
+/labs/cse30/vlab3/myExp5_b/ 2 6186 0 0
+/labs/cse20/exp3/ 15 50482 0 0
+/labs/ccnsb06/exp9/default.html 3 11199 0 0
+/labs/cse13/full_custom/ 33 133170 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample5/sample5.pdb 1 2898 0 0
+/labs/bio15/ 9 18639 0 0
+/labs/ccnsb03/exp10/media/ 2 1136 0 0
+/labs/cse04/exp1/submission422927852.html 1 3097 0 0
+/labs/ccnsb05/exp3/default.html 1 3737 0 0
+/labs/ccnsb03/exp3/media/3.fla 1 3299372 0 0
+/labs/eerc04/content.html 78 212285 0 1
+/labs/ccnsb03/exp1/media/1.fla 1 4644953 0 0
+/labs/cse04/exp1/submission869919780.html 1 3004 0 0
+/labs/cse30/vlab3/myExp2_1_a/myfile.php 135 532809 0 1
+/labs/cse05/html/topics/inductive-data-prog/ 7 22314 0 0
+/labs/cse05/html/topics/inductive-data-design/ 24 114103 0 2
+/labs/cse19/crop.php 198 21533 0 0
+/labs/cse04/exp1/ 332 1250066 1 0
+/labs/cse04/exp1/submission280291670.html 1 3008 0 0
+/labs/cse04/exp1/submission349459896.html 1 3252 0 0
+/labs/cse05/ 119 78468 4 0
+/labs/ccnsb04/exp5/experiment/header_1.html 3 1641 0 0
+/labs/eerc05/exp1/animation/lowres.jnlp 1 652 0 0
+/labs/cse15/default.html 5 7555 0 0
+/labs/ccnsb01/exp2/ 5 11820 0 0
+/labs/cse24/exp5/experiment10-1.php 1 486 0 0
+/labs/ece10/content.html 1 2331 0 0
+/labs/ccnsb01/exp7/media/7.html 1 1208 0 0
+/labs/ccnsb03/exp7/media/7.fla 1 5102852 0 0
+/labs/cse04/exp3/getHint.py 7 2942 0 0
+/labs/cse18/manual/vertexpanel.html 1 343 0 0
+/labs/ccnsb04/exp8/default.html 2 7474 0 0
+/labs/civil13/experiment6/intermediateDoubGravMod.php 1 1286 0 0
+/labs/eerc05/exp1/quiz.html 1 1959 0 0
+/labs/chs13/ 4 4240 0 0
+/labs/cse04/exp4/submission351764313.html 1 3174 0 0
+/labs/eerc05/exp8/ 13 23472 0 0
+/labs/ccnsb06/exp6_10/nitrophenol/2-nitrophenol_IR_expt10.html 2 5540 0 0
+/labs/cse09/exp5/tasks.html 1 499 0 0
+/labs/cse04/exp6/submission822405258.html 1 3003 0 0
+/labs/ccnsb06/exp6_10/aspirin/plot_IR_aspirin_exp6.html 4 20284 0 0
+/labs/civil13/experiment2/experiment.php 4 6748 0 0
+/labs/eerc03/exp10/ 57 220661 0 0
+/labs/eerc05/exp7/media/ve_vanshear.html 1 573 0 0
+/labs/ccnsb06/exp7/content.html 2 15206 0 0
+/labs/cse18/exp8/ 26 103875 0 0
+/labs/phy14/exp4/index 1 1977 0 0
+/labs/cse20/exp5/ 13 45044 0 0
+/labs/civil16/lab/exp4.html 1 3373 0 0
+/labs/cse16/exp04/indexie.html 2 10970 0 0
+/labs/bio15/exp1/default.html 3 11220 0 0
+/labs/chem01/ 16 31280 0 0
+/labs/cse04/exp1/submission500488139.html 1 3009 0 0
+/labs/cse16/exp06/ 3 3898 0 0
+/labs/bio15/exp6/Simulator/fed-batch.html 1 345 0 0
+/labs/civil13/experiment5/SigGravModRes.php 5 12546 0 0
+/labs/cse30/vlab3/myExp2_1_b/ 2 6488 0 0
+/labs/ccnsb06/exp2/default.html 2 7466 0 0
+/labs/cse30/vlab3/myExp7_a/exp1.html 1 417 0 0
+/labs/ccnsb04/exp5/experiment/output.php 2 1484 0 0
+/labs/cse22/exp8/default.html 3 11196 0 0
+/labs/civil13/experiment5/SigGravModDefault.php 3 6345 0 0
+/labs/cse02/exp9/pointers1/pointers1/build/pointer1.html 8 3692 0 0
+/labs/cse09/exp4/content.html 23 293153 0 0
+/labs/cse02/exp7/quizresults.php 3 2120 0 0
+/labs/cse22/ 56 114339 0 0
+/labs/civil13/experiment10/AONMod.php 2 3988 0 0
+/labs/civil13/experiment5/experiment.php 5 9090 0 0
+/labs/eerc02/exp7/default.html 1 3730 0 0
+/labs/cse30/vlab3/myExp7_b/ 2 6907 0 0
+/labs/eerc05/exp9/default.html 12 37360 0 0
+/labs/phy14/exp9/media/SurfaceTension.jnlp 8 3375 0 0
+/labs/cse22/exp9/content.html 1 4104 0 0
+/labs/civil13/experiment7/CaliSingMod.php 2 3992 0 0
+/labs/chem01/gla/gla4.php 13 19242 0 0
+/labs/cse04/exp1/submission988749818.html 1 3199 0 0
+/labs/eerc03/exp6/vlab2/Orifices.jnlp 3 637 0 0
+/labs/cse13/full_custom/practise_swing/exp_1.html 11 3213 0 0
+/labs/eerc03/exp6/ 84 299683 0 0
+/labs/chem01/hpc/hpc3.php 6 8834 0 0
+/labs/cse05/php/upload-file.php 7 837 0 0
+/labs/chem01/htl/htl2.php 23 22027 0 0
+/labs/cse04/exp9/lab.html 1 3201 0 0
+/labs/civil13/experiment6/procedure.php 1 1845 0 0
+/labs/sc01/ 1 2071 0 0
+/labs/phy14/exp7/content.html 6 40784 0 0
+/labs/cse11/TilingMatrix/ 3 10170 0 0
+/labs/eerc01/exp3/vlab2/3.Shear.html 6 2160 0 0
+/labs/cse06/ 1 2051 0 0
+/labs/ccnsb07/suraj/Suraj/bin/Electrostatic.html 3 250 0 0
+/labs/cse04/exp1/submission936376680.html 1 3074 0 0
+/labs/cse04/exp1/submission975994876.html 1 3030 0 0
+/labs/civil13/experiment5/faq.php 1 1597 0 0
+/labs/cse18/manual/canvas.html 2 984 0 0
+/labs/cse05/php/logout.php 4 1464 0 0
+/labs/eerc01/exp4/ 111 394132 1 0
+/labs/chem01/gla/gla8.php 10 16973 0 0
+/labs/cse24/exp5/default.html 4 14916 0 0
+/labs/cse04/exp1/submission948258897.html 1 3167 0 0
+/labs/cse24/exp8/experiment7.php 4 1540 0 0
+/labs/cse02/exp10/quizresults.php 1 1380 0 0
+/labs/cse22/exp5/applet/ 5 7405 0 0
+/labs/chem01/2pf/2pf5.php 3 4806 0 0
+/labs/ccnsb04/exp9/experiment/final.php 1 2001 0 0
+/labs/cse09/exp6/default.html 16 58992 0 0
+/labs/civil13/experiment3/CatAnalysisMod.php 2 3942 0 0
+/labs/cse04/exp1/submission137496679.html 1 3084 0 0
+/labs/eerc04/exp9/content.html 1 3210 0 0
+/labs/ccnsb07/exp7/ 4 7840 0 0
+/labs/cse19/piping.php 16 54546 0 0
+/labs/cse04/exp1/submission587563031.html 1 3063 0 0
+/labs/cse04/exp1/submission481790689.html 1 3278 0 0
+/labs/cse19/quiz.php 137 192662 0 0
+/labs/eerc04/exp3/ 30 102886 0 0
+/labs/cse09/exp7/ 17 38641 0 0
+/labs/eerc03/content.html 141 364781 0 1
+/labs/cse05/html/topics/arithmetic/ 8 83191 0 1
+/labs/eerc03/ 360 1010330 1 0
+/labs/cse04/exp1/submission526262344.html 1 3090 0 0
+/labs/phy14/exp8/media/ve_youungmodulus.html 28 12029 0 0
+/labs/civil13/login_process.php 1 1579 0 0
+/labs/ccnsb03/exp9/content.html 4 31084 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/8.xyz 1 389 0 0
+/labs/mech17/default.html 1 1511 0 0
+/labs/cse14/ 13 19550 0 0
+/labs/cse05/html/topics/ 8 14259 0 0
+/labs/eerc05/exp9/media/plateload.jnlp 1 651 0 0
+/labs/ccnsb03/exp1/media/Principle.html 14 6912 0 0
+/labs/ccnsb03/exp9/ 4 8364 0 0
+/labs/ccnsb03/exp1/index 1 2091 0 0
+/labs/cse04/exp8/submission398911663.html 1 2996 0 0
+/labs/cse16/exp08/ 7 5847 0 0
+/labs/ccnsb03/exp7/ 4 8364 0 0
+/labs/ccnsb07/exp1/quiz.php 3 3356 0 0
+/labs/cse06/content.html 1 2278 0 0
+/labs/civil13/login/experiments.php 49 76244 0 0
+/labs/civil15/ 3 6336 0 0
+/labs/cse04/exp1/submission930650849.html 1 3087 0 0
+/labs/chem01/vle/vle2.php 26 60120 0 2
+/labs/cse04/exp1/submission469380707.html 1 3095 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 9 66276 0 0
+/labs/temp98/exp1/content.html 1 3588 0 0
+/labs/ccnsb02/exp13/ 4 9016 0 0
+/labs/ccnsb04/exp2/content.html 1 4785 0 0
+/labs/eerc05/exp8/default.html 13 44832 0 0
+/labs/eerc02/exp5/vlab2/5.AttenbergLimits.html 12 3916 0 0
+/labs/cse02/exp2/lab/backup10_basic_Vlab/build/NewJApplet.html 2 866 0 0
+/labs/ccnsb02/exp4/surface.html 3 2302 0 0
+/labs/cse24/default.html 25 37775 0 0
+/labs/eerc03/exp12/ 35 133117 0 0
+/labs/ccnsb06/exp1/ve_exp1.html 3 423 0 0
+/labs/ccnsb07/exp4/default.html 2 7458 0 0
+/labs/mech17/ 1 2071 0 0
+/labs/cse29/exp7/ 30 95162 0 0
+/labs/cse04/exp8/ 44 162474 0 0
+/labs/cse22/exp1/applet/taketwoIAC.pde 1 9919 0 0
+/labs/cse02/exp2/lab/if_else.php 27 4914 0 1
+/labs/phy14/exp9/content.html 20 81320 0 0
+/labs/ccnsb04/exp5/experiment/zmatrix.php 8 12670 0 0
+/labs/cse15/exp9/content.html 1 6114 0 0
+/labs/cse15/exp6/ 144 656251 1 0
+/labs/civil13/experiment2/DataRegrMod.php 4 7952 0 0
+/labs/cse16/exp03/ 2 3898 0 0
+/labs/eerc01/exp6/vlab2/6.Creep.html 1 354 0 0
+/labs/ccnsb07/exp6/ 2 3920 0 0
+/labs/eerc01/exp8/ 54 184418 0 0
+/labs/eerc02/exp2/vlab2/Unit.jnlp 1 653 0 0
+/labs/cse24/exp10/ 2 4236 0 0
+/labs/eerc02/exp8/default.html 1 3730 0 0
+/labs/phy14/exp1/media/ve_dipolemoment.html 22 9989 0 0
+/labs/cse29/exp9/ 81 265616 0 0
+/labs/cse18/exp4/ 29 125396 0 0
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 1 19356 0 0
+/ 136 20446 6 11
+/labs/civil13/experiment8/CaliDoubModRes.php 2 41311 0 0
+/labs/eerc02/exp5/vlab2/Attenberg.jnlp 8 1992 0 0
+/labs/ccnsb07/exp5/default.html 4 14916 0 0
+/labs/chem01/2pf/2pf4.php 1 1343 0 0
+/labs/eerc06/ 1 1955 0 0
+/labs/ccnsb03/exp6/media/6.html 4 4760 0 0
+/labs/phy01/exp10_ext.php 1 4739 0 0
+/labs/cse24/exp7/ 1 2125 0 0
+/labs/cse05/php/login-form.php 143 75075 0 1
+/labs/ccnsb07/exp5/ 4 7840 0 0
+/labs/civil13/experiment10/aim.php 4 4888 0 0
+/labs/phy14/exp5/media/screenshot_ph.htm 1 143 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 24 1143648 0 0
+/labs/cse30/vlab3/myExp2_2_a/exp1.html 1 417 0 0
+/labs/cse24/exp10/content.html 2 7492 0 0
+/labs/eerc03/exp5/vlab2/Venturi.jnlp 11 1971 0 0
+/labs/ccnsb07/exp10/ 1 1960 0 0
+/labs/ccnsb01/exp1/ 15 37148 0 0
+/labs/cse04/exp6/submission200912184.html 1 2994 0 0
+/labs/civil13/experiment11/theory.php 1 4376 0 0
+/labs/civil13/experiment2/selfevaluation.php 1 2430 0 0
+/labs/eerc01/exp10/Animation/ 2 2464 0 0
+/labs/civil13/experiment6/theory.php 1 2330 0 0
+/labs/cse16/default.html 35 51374 0 0
+/labs/ccnsb04/exp5/experiment/bottom.html 3 2295 0 0
+/labs/ccnsb05/exp4/content.html 1 6766 0 0
+/labs/cse24/exp7/content.html 1 2805 0 0
+/labs/ccnsb05/exp4/exp/pdbs/sample1.pdb 1 5605 0 0
+/labs/cse30/vlab3/myExp5_a/ 5 15821 0 0
+/labs/cse02/exp8/String/build/stringEx2.html 4 1760 0 0
+/labs/civil13/experiment9/theory.php 1 4353 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample1/sample1.pdb 1 2898 0 0
+/labs/cse04/exp4/submission419016427.html 1 3037 0 0
+/labs/cse02/exp2/ 170 712066 0 0
+/labs/cse16/exp09/ 3 5847 0 0
+/labs/cse24/exp4/experiment9.php 13 5629 0 0
+/labs/phy14/exp2/content.html 23 104588 0 0
+/labs/eerc01/exp6/ 37 132219 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/3.xyz 1 407 0 0
+/labs/cse09/exp3/ 24 36272 0 0
+/labs/cse29/exp3/ 17 65475 0 0
+/labs/cse02/exp5/quizresults.php 2 923 0 0
+/labs/ccnsb05/exp3/ 1 2174 0 0
+/labs/ccnsb04/exp9/experiment/ 1 1167 0 0
+/labs/bio16/default.html 2 2862 0 0
+/labs/chem01/htl/htl.php 16 4704 1 0
+/labs/chem01/htl/report2.php 4 416 0 0
+/labs/cse24/exp9/content.html 2 8768 0 0
+/labs/cse09/exp7/interaction-frame.html 2 1004 0 0
+/labs/cse15/exp10/ 60 213791 0 0
+/labs/civil13/experiment6/abcd.php 8 2698346 0 0
+/labs/cse04/exp2/prob_desc.html 1 1128 0 0
+/labs/cse18/exp2/ 96 406498 0 1
+/labs/cse18/manual/ui.html 3 954 0 0
+/labs/chem01/calo/cal1.php 15 19890 0 0
+/labs/eerc05/exp3/media/ve_ph.html 3 1130 0 0
+/labs/cse04/exp4/submission183724370.html 1 3054 0 0
+/labs/ccnsb04/exp5/experiment/header.html 1 400 0 0
+/labs/bio16/ 7 14497 0 0
+/labs/cse18/exp10/ 7 41631 0 0
+/labs/civil13/experiment9/intermediateModSplitMod.php 1 1267 0 0
+/labs/phy14/exp7/media/GeigerMuller.jnlp 2 1338 0 0
+/labs/cse01/exp4/ 179 760405 0 0
+/labs/cse01/exp3/merge.html 28 18245 0 0
+/labs/ccnsb04/exp9/experiment/gamesoutput.php 1 741 0 0
+/labs/eerc04/exp10/ 22 77396 0 0
+/labs/cse04/exp3/lab.html 2 12341 0 0
+/labs/cse16/exp10/content.html 1 5332 0 0
+/labs/cse24/exp3/ 8 25736 0 0
+/labs/cse24/content.html 25 61900 0 0
+/labs/cse02/exp7/structures/build/StrucMain.html 20 7136 0 0
+/labs/eerc01/exp10/ 131 447845 0 0
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 1 5788 0 0
+/labs/chem01/gla/gla2.php 43 89268 0 0
+/labs/cse29/exp6/ 4 13955 0 0
+/labs/cse02/exp9/pointers/build/pointer.html 17 7382 0 0
+/labs/eerc01/exp2/vlab2/Compression.jnlp 11 3255 0 0
+/labs/cse29/exp2/ 44 196649 0 0
+/labs/ccnsb07/exp1/ 6 11760 0 0
+/labs/civil13/experiment8/CaliDoubInput.php 4 7842 0 0
+/labs/cse16/exp02/ 5 9745 0 0
+/labs/cse16/exp01/ 10 19490 0 0
+/labs/ccnsb05/exp2/content.html 1 8360 0 0
+/labs/ccnsb03/exp2/media/2.fla 1 3118383 0 0
+/labs/ccnsb06/exp10/default.html 7 26131 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample3/sample3.pdb 1 5125 0 0
+/labs/cse13/ 159 576565 0 0
+/labs/civil13/experiment5/SigGravMod.php 8 16608 0 0
+/labs/ccnsb02/exp4/content.html 3 13812 0 0
+/labs/civil13/experiment7/CaliSingInput.php 3 5036 0 0
+/labs/cse09/exp1/ 99 232976 0 0
+/labs/cse17/montecarlolocalization/ 23 118548 0 1
+/labs/cse04/exp1/submission329103387.html 1 3177 0 0
+/labs/mech08/Ic1.html 4 10082 0 0
+/labs/eerc04/exp7/vlab2/7.Arches.html 6 2118 0 0
+/labs/eerc04/exp6/ 16 53475 0 0
+/labs/eerc05/exp5/media/lowres.html 7 3510 0 0
+/labs/eerc01/exp1/vlab2/Tensile.jnlp 20 8932 0 0
+/labs/cse30/vlab3/myExp2_2_b/exp1.html 1 417 0 0
+/labs/chem01/ebu/ebu.php 5 6975 0 0
+/labs/eerc04/exp9/default.html 1 3721 0 0
+/labs/cse22/exp3/content.html 18 102890 0 0
+/labs/civil13/experiment11/experiment.php 1 1766 0 0
+/labs/cse16/exp05/content.html 4 18519 0 0
+/labs/eerc01/content.html 188 505176 0 2
+/labs/cse16/exp01/part2.php 3 3254 0 0
+/labs/ccnsb03/exp9/media/9.html 5 3540 0 0
+/labs/cse04/exp1/submission257311164.html 1 3116 0 0
+/labs/cse18/manual/instances.html 1 1374 0 0
+/labs/cse01/exp9/MinimumSpanningTree.html 24 14950 0 0
+/labs/cse16/exp09/default.html 3 11196 0 0
+/labs/cse19/objective.php 470 579022 0 0
+/labs/cse19/colour.php 36 216666 0 1
+/labs/cse04/exp1/submission332497376.html 1 2982 0 0
+/labs/cse30/vlab3/myExp2_1_a/outfile 18 239670 0 0
+/labs/mech08/flu.html 1 2965 0 0
+/labs/eerc04/exp7/ 58 201120 0 0
+/labs/cse04/exp4/submission682068821.html 1 2983 0 0
+/labs/cse09/exp3/tasks.html 2 818 0 0
+/labs/civil13/experiment3/intermediateCatAnalysisMod.php 2 2696 0 0
+/labs/cse01/exp5/binarySearchTree.html 49 31008 0 0
+/labs/cse04/exp4/submission373985230.html 1 3135 0 0
+/labs/ccnsb04/exp9/experiment/gamesinput.php 1 722 0 0
+/labs/civil16/default.html 2 3022 0 0
+/labs/chem01/2pf/2pf1.php 4 6212 0 0
+/labs/eerc04/exp9/ 19 66081 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 11 81004 0 0
+/labs/ccnsb04/exp9/experiment/header.html 1 400 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/4.xyz 1 422 0 0
+/labs/cse14/final-build/experimentHome.php 42 173959 0 0
+/labs/ccnsb03/exp8/ 3 6273 0 0
+/labs/cse04/exp1/submission619589253.html 1 3090 0 0
+/labs/cse24/exp7/experiment5.php 1 479 0 0
+/labs/cse19/intro.php 151 243696 0 0
+/labs/cse04/exp1/submission360330471.html 1 3038 0 0
+/labs/cse24/exp8/content.html 3 10809 0 0
+/labs/cse04/exp1/submission839625760.html 1 3107 0 0
+/labs/mech04/default.html 1 1511 0 0
+/labs/civil13/login/tripgeneration.php 1 3898 0 0
+/labs/cse04/content.html 2 4612 0 0
+/labs/ccnsb03/js/MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 1 5144 0 0
+/labs/phy14/exp5/media/cite/vlab/ 2 994 0 0
+/labs/cse16/exp01/part3.php 1 1459 0 0
+/labs/sample2/content.html 1 2334 0 0
+/labs/civil13/experiment3/CatAnalysisModRes.php 2 4054 0 0
+/labs/ccnsb02/exp15/lab9.html 5 3471 0 0
+/labs/eerc05/exp3/default.html 8 29888 0 0
+/labs/ccnsb06/exp7/ 2 4376 0 0
+/labs/cse04/exp1/submission435816200.html 1 3161 0 0
+/labs/cse24/exp2/exp2.php 10 17857 0 0
+/labs/cse19/point.php 34 194358 0 0
+/labs/ccnsb06/exp10/ 8 17544 0 0
+/labs/ccnsb04/exp9/ 3 8421 0 0
+/labs/ccnsb07/exp1/default.html 6 22374 0 0
+/labs/cse20/exp4/ 2 7320 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 2 53552 0 0
+/labs/eerc02/exp9/vlab2/Direct.jnlp 2 654 0 0
+/labs/cse18/exp8/default.html 1 2493 0 0
+/labs/cse04/exp1/submission074019958.html 1 2995 0 0
+/labs/cse04/exp8/submission356199260.html 1 2990 0 0
+/labs/emt/aboutus.php 2 2574 0 0
+/labs/cse04/exp4/submission793411049.html 1 3164 0 0
+/labs/cse30/vlab3/myExp2_1_a/ 100 393400 0 0
+/labs/civil13/login/tripassignment.php 1 1714 0 0
+/labs/cse20/exp1/ 88 310195 0 0
+/labs/eerc05/exp8/media/pentration.jnlp 3 1953 0 0
+/labs/ccnsb04/exp10/experiment/gamess.php 1 2029 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 20 164960 0 0
+/labs/civil13/experiment9/experiment.php 1 1529 0 0
+/labs/cse16/exp04/content.html 14 75100 0 0
+/labs/civil13/experiment11/abcd.php 2 175653 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 1 5144 0 0
+/labs/ccnsb07/suraj/Suraj/bin/oilDrop.html 1 110 0 0
+/labs/eerc02/exp1/vlab2/1.WaterContent.html 14 3715 0 0
+/labs/ccnsb01/exp5/ 4 9032 0 0
+/labs/cse16/exp06/default.html 3 7464 0 0
+/labs/civil13/experiment12/SystemOptModDel.php 1 99 0 0
+/labs/sample1/exp1/ 3 6219 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp6/exp6_latch_positive.html 1 416 0 0
+/labs/cse14/final-build/EXP_1sep2010/exp8/exp8.php 1 1419 0 0
+/labs/civil13/experiment2/theory.php 2 10258 0 0
+/labs/cse04/exp1/submission885330121.html 1 3160 0 0
+/labs/cse13/semi_custom/exp/exp1.html 1 417 0 0
+/labs/cse09/exp2/default.html 37 132732 0 0
+/labs/eerc04/exp5/vlab2/5.PortalFrames.html 2 718 0 0
+/labs/phy14/exp4/ 21 35586 0 0
+/labs/phy14/exp1/content.html 41 230455 0 0
+/labs/cse30/vlab3/myExp5_a/exp1.html 1 417 0 0
+/labs/cse09/exp6/ 17 38505 0 0
+/labs/eerc01/exp10/vlab2/Rockwell.jnlp 5 2676 0 0
+/labs/cse01/exp2/ 369 1414119 0 0
+/labs/cse04/exp1/submission620227896.html 1 3166 0 0
+/labs/cse05/html/topics/environment/ 2 9156 0 0
+/labs/cse16/exp07/ 4 5847 0 0
+/labs/cse24/exp8/exp7_2.php 1 497 0 0
+/labs/cse02/exp9/quizresults.php 2 926 0 0
+/labs/cse04/exp1/submission289154943.html 1 3118 0 0
+/labs/civil13/login/contact.php 1 2117 0 0
+/labs/civil13/experiment1/aim.php 3 3588 0 0
+/labs/bio15/exp1/ 3 6279 0 0
+/labs/ccnsb03/exp5/media/ 2 1022 0 0
+/labs/cse17/forwardkinematics/ 14 62452 1 0
+/labs/cse04/exp1/submission757066455.html 1 2990 0 0
+/labs/cse22/exp5/ 5 9800 0 0
+/labs/cse30/vlab3/myExp2_2_b/ 3 9203 0 0
+/labs/cse22/exp2/content.html 1 6944 0 0
+/labs/cse24/exp3/default.html 8 29832 0 0
+/labs/chem01/vle/report2.php 3 312 0 0
+/labs/cse30/vlab3/myExp9_a/ 4 12535 0 0
+/labs/cse30/vlab3/myExp2_3_b/exp1.html 2 834 0 0
+/labs/ccnsb07/suraj/Suraj/bin/Electrostatic_Hexane.html 1 116 0 0
+/labs/ccnsb03/exp4/media/4.fla 1 3385746 0 0
+/labs/eerc04/ 213 626680 1 0
+/labs/cse29/ 311 992447 1 0
+/labs/cse04/exp1/submission909667238.html 1 3153 0 0
+/labs/ccnsb06/exp2/content.html 2 15224 0 0
+/labs/eerc03/exp1/vlab2/1.Bernoullis.html 22 7613 0 1
+/labs/cse30/vlab3/myExp2_3_a/exp1.html 3 834 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff 1 40808 0 0
+/labs/phy14/exp7/ 7 16908 0 0
+/labs/cse22/exp6/applet/ 1 1486 0 0
+/labs/cse04/exp1/submission530849016.html 1 3053 0 0
+/labs/chem01/list.php 1 500 0 0
+/labs/ccnsb02/exp1/sol.html 12 14522 0 0
+/labs/cse04/exp4/submission372063247.html 1 3034 0 0
+/labs/ccnsb07/exp5/content.html 4 16516 0 0
+/labs/ccnsb04/exp10/experiment/inp_bk.php 7 15821 0 0
+/labs/cse04/exp1/submission589242460.html 1 3092 0 0
+/labs/cse04/exp1/submission597150793.html 1 3032 0 0
+/labs/ccnsb01/exp9/content.html 2 15146 0 0
+/labs/cse24/exp7/default.html 1 3729 0 0
+/labs/eerc04/exp2/ 138 540047 1 1
+/labs/cse30/vlab3/myExp7_a/myfile.php 4 104 0 0
+/labs/ccnsb03/exp1/content.html 10 96600 0 0
+/labs/eerc03/exp9/vlab2/Channels.jnlp 2 1284 0 0
+/labs/cse22/exp7/content.html 3 17400 0 0
+/labs/cse22/exp8/content.html 3 17184 0 0
+/labs/civil13/experiment4/GroFactModRes.php 3 6617 0 0
+/labs/cse04/exp1/submission240775731.html 1 3159 0 0
+/labs/cse18/manual/install-run.html 3 1647 0 0
+/labs/civil13/experiment7/experiment.php 2 3612 0 0
+/labs/cse19/assign.php 4 5716 0 0
+/labs/ccnsb04/exp9/experiment/inp_bk.php 1 707 0 0
+/labs/cse04/exp1/submission453515093.html 1 3048 0 0
+/labs/cse15/exp1/exp1.html 38 14015 0 0
+/labs/ccnsb02/exp5/Tyndal.html 18 17295 0 0
+/labs/eerc01/exp10/vlab2/10.RockwellHardness.html 11 3993 0 0
+/labs/eerc01/exp9/Principal.jnlp 3 1362 0 0
+/labs/ccnsb07/exp10/content.html 1 3876 0 0
+/labs/cse15/exp7/exp7.html 5 1905 0 0
+/labs/eerc03/exp10/vlab2/Reynolds.jnlp 1 638 0 0
+/labs/cse22/exp1/ 13 21560 0 0
+/labs/phy14/exp6/content.html 12 55911 0 0
+/labs/cse11/CacheOrganizations/ 8 26396 0 0
+/labs/eerc01/exp7/vlab2/Fatigue.jnlp 9 1914 0 0
+/labs/cse09/exp9/tasks.html 6 1752 0 0
+/labs/mech18/FabLab/exp2/roughing.html 1 980 0 0
+/labs/cse22/default.html 54 83851 0 0
+/labs/cse18/exp8/inputpoly 1 80 0 0
+/labs/eerc05/exp1/default.html 16 56040 0 0
+/labs/phy14/exp6/media/ve_phscale.html 9 3577 0 0
+/labs/ccnsb06/exp1/content.html 5 37200 0 0
+/labs/cse22/content.html 53 173789 0 0
+/labs/cse04/exp8/submission000174924.html 1 3130 0 0
+/labs/chem01/ori/ori9.php 1 1368 0 0
+/labs/eerc02/exp10/ 59 194843 0 0
+/labs/cse01/exp3/ 324 1251142 0 1
+/labs/cse04/exp1/submission482328522.html 1 3205 0 0
+/labs/cse20/exp6/ 6 22786 0 0
+/labs/ece10/default.html 1 1524 0 0
+/labs/cse02/exp8/ 38 158924 0 0
+/labs/eerc02/exp8/ 56 195999 0 0
+/labs/ccnsb03/exp1/media/1.html 19 9250 0 0
+/labs/ccnsb01/exp1/media/1.html 7 9729 0 0
+/labs/cse04/exp1/submission380463709.html 1 3131 0 0
+/labs/civil13/experiment10/theory.php 2 4824 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 3 140424 0 0
+/labs/eerc03/exp8/ 50 180138 0 0
+/labs/phy14/exp1/media/dipole_moment.htm 9 4410 0 0
+/labs/eerc01/exp8/vlab2/8.CompressionTestSpring.html 3 1104 0 0
+/labs/ece01/content.html 1 1495 0 0
+/labs/cse04/exp1/submission691334080.html 1 3177 0 0
+/labs/phy14/exp5/media/cite/vlab/common/ 1 972 0 0
+/labs/civil13/experiment8/aim.php 3 3744 0 0
+/labs/cse09/exp9/ 35 86824 0 0
+/labs/ccnsb03/exp7/content.html 4 22516 0 0
+/labs/cse04/exp1/submission931497442.html 1 3052 0 0
+/labs/bio15/exp3/content.html 3 9963 0 0
+/labs/cse22/exp7/default.html 3 11196 0 0
+/labs/ccnsb05/default.html 11 19850 0 0
+/labs/cse04/exp3/submission826905204.html 1 3105 0 0
+/labs/cse04/exp1/submission691434289.html 1 3004 0 0
+/labs/eerc02/exp9/ 73 247767 0 1
+/labs/cse02/exp3/lab/loops.html 4 1916 0 0
+/labs/cse02/exp1/bitwise/bitoperator.php 4 804 0 0
+/labs/cse04/exp1/submission497702683.html 1 3058 0 0
+/labs/ccnsb03/ 48 115732 1 1
+/labs/cse05/php/member-index.php 16 7001 0 0
+/labs/cse13/Gated_Clocking/ 15 104524 0 0
+/labs/cse04/exp4/prob_desc.html 3 1995 0 0
+/labs/cse15/exp3/exp3.html 21 7283 0 0
+/labs/ccnsb05/exp5/swf.html 1 132 0 0
+/labs/cse09/exp2/ 38 83805 0 0
+/labs/cse04/exp1/submission815033810.html 1 3009 0 0
+/labs/eerc02/content.html 148 430305 0 0
+/labs/mech18/FabLab/exp6/scanning.html 1 995 0 0
+/labs/ccnsb06/exp8/content.html 3 20592 0 0
+/labs/cse01/exp4/polynomial.html 25 15168 0 0
+/labs/cse14/final-build/Experiment.php 264 645962 2 1
+/labs/cse30/vlab3/myExp6_cascode/exp1.html 1 417 0 0
+/labs/chem01/hpc/hpc2.php 12 23075 0 0
+/labs/civil13/experiment8/experiment.php 1 1806 0 0
+/labs/cse11/Integers/ 26 86483 0 0
+/labs/phy14/exp5/media/Calorimeter.jnlp 2 666 0 0
+/labs/chem01/nof/nof2.php 19 16891 0 0
+/labs/ccnsb06/exp1/default.html 5 18665 0 0
+/labs/ccnsb03/exp5/media/5.html 1 857 0 0
+/labs/mech01/ 2 4142 0 0
+/labs/chs13/experiments.php 2 1522 0 0
+/labs/ccnsb04/exp9/experiment/out_bk.php 1 12953 0 0
+/labs/cse24/exp9/experiment6.php 1 436 0 0
+/labs/cse04/exp1/save.php 4 257 0 0
+/labs/cse04/exp1/submission916952646.html 1 3159 0 0
+/labs/eerc05/exp5/default.html 18 59776 0 0
+/labs/ccnsb02/exp15/ 3 6762 0 0
+/labs/cse22/exp4/ 2 3920 0 0
+/labs/civil13/experiment7/CaliSingModRes.php 1 18072 0 0
+/labs/ccnsb05/exp4/default.html 1 3737 0 0
+/labs/cse30/vlab3/myExp6_cascode/myfile.php 2 52 0 0
+/labs/eerc05/exp9/ 31 19560 0 0
+/labs/cse16/exp01/part1.php 23 21882 0 0
+/labs/ccnsb02/exp5/ 9 18032 0 0
+/labs/cse11/MIPS1/ 18 137796 0 0
+/labs/cse04/exp1/submission757056537.html 1 3051 0 0
+/labs/cse04/exp7/ 9 49108 1 0
+/labs/civil13/experiments.php 9 16128 0 0
+/labs/eerc02/exp7/vlab2/Compaction.jnlp 1 647 0 0
+/labs/cse09/ 296 648258 1 0
+/labs/phy14/exp5/media/ve_opticalrotation.html 1 525 0 0
+/labs/eerc05/exp1/content.html 16 67635 0 0
+/labs/cse16/exp07/default.html 4 11196 0 0
+/labs/cse20/experiment/Exp7.jnlp 1 674 0 0
+/labs/ccnsb04/content.html 34 98748 0 0
+/labs/cse02/exp8/String/build/factorial.html 8 3504 0 0
+/labs/civil13/experiment11/intermediateUserEquiilibriumModelReport.php 2 2612 0 0
+/labs/eerc01/default.html 187 287027 0 0
+/labs/phy14/exp4/media/OpticalRotation.jnlp 9 2712 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 2 99368 0 0
+/labs/chem01/ori/ori6.php 3 5604 0 0
+/labs/chem01/ori/ori7.php 2 2830 0 0
+/labs/bio15/exp1/content.html 3 9930 0 0
+/labs/cse04/exp6/submission251905204.html 1 3007 0 0
+/labs/emt/manual7.php 2 2863 0 0
+/labs/ccnsb07/exp4/content.html 2 7004 0 0
+/labs/ccnsb01/exp1/media/1.fla 1 75418 0 0
+/labs/cse04/exp3/submission303796461.html 1 3080 0 0
+/labs/civil13/experiment2/aim.php 4 5112 0 0
+/labs/cse30/vlab3/myExp7_a/ 6 18944 0 0
+/labs/cse16/exp04/part1.php 22 5434 0 0
+/labs/cse04/exp6/ 47 319098 0 0
+/labs/cse18/exp9/ 18 97927 0 0
+/labs/eerc05/exp8/content.html 13 54636 0 0
+/labs/cse04/exp4/ 73 274791 0 0
+/labs/eerc02/exp2/vlab2/2.UnitWeight.html 4 1420 0 0
+/labs/cse19/fourier.php 22 119620 0 0
+/labs/ccnsb02/exp3/content.html 1 3879 0 0
+/labs/eerc01/exp5/ 155 509793 0 0
+/labs/ccnsb02/exp5/content.html 12 63888 0 0
+/labs/civil16/lab/exp3.html 1 3530 0 0
+/labs/temp98/default.html 1 1511 0 0
+/labs/cse09/exp3/default.html 17 58992 0 0
+/labs/chem01/2pf/2pf2.php 4 9484 0 0
+/labs/ccnsb04/exp9/experiment/xyzfiles/1.xyz 1 415 0 0
+/labs/ccnsb01/exp1/media/ 1 511 0 0
+/labs/chem01/nof/nof1.php 35 64715 0 0
+/labs/cse24/exp4/experiment9-2.php 7 3395 0 0
+/labs/ccnsb03/exp6/content.html 4 50119 0 0
+/labs/ccnsb03/exp1/media/ 2 1194 0 0
+/labs/cse07/default.html 1 1511 0 0
+/labs/ccnsb04/exp8/experiment/matrix.php 5 8511 0 0
+/labs/cse04/exp3/submission055964350.html 1 3080 0 0
+/labs/cse04/exp1/submission078593262.html 1 3009 0 0
+/labs/civil13/experiment4/intermediateGroFactMod.php 2 2565 0 0
+/labs/cse30/vlab3/myExp2_1_a/img.html 22 245 0 0
+/labs/eerc05/exp6/content.html 13 47905 0 0
+/labs/cse15/exp8/ 130 590134 2 2
+/labs/ccnsb01/content.html 53 224452 1 1
+/labs/civil13/experiment2/DataRegrModDefault.php 2 7738 0 0
+/labs/mech08/results.html 3 5120 0 0
+/labs/cse11/MIPS2/ 5 16825 0 0
+/labs/ccnsb02/exp2/gel_form.html 17 9160 0 0
+/labs/civil13/experiment4/abcd.php 2 121115 0 0
+/labs/ccnsb04/exp5/experiment/output_bk.php 2 97172 0 0
+/labs/emt/manual5.php 2 2859 0 0
+/labs/chem01/2pf/2pf3.php 1 1478 0 0
+/labs/cse20/experiment/Exp5.jnlp 5 3950 0 0
+/labs/eerc03/exp1/ 222 826802 0 0
+/labs/bio16/exp9/ 1 2095 0 0
+/labs/cse24/exp8/exp7.php 1 497 0 0
+/labs/civil13/experiment12/aim.php 2 2390 0 0
+/labs/ccnsb03/exp4/media/concentration 1 857 0 0
+/labs/eerc03/exp13/ 60 218398 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample2/sample2.pdb 1 5765 0 0
+/labs/ccnsb07/suraj/Suraj/bin/ViscosEnvironment.html 1 137 0 0
+/labs/eerc05/exp4/content.html 5 19290 0 0
+/labs/eerc03/exp13/vlab2/Turbines.jnlp 9 1926 0 0
+/labs/cse02/exp6/ 66 296355 0 1
+/labs/cse17/gridbasednavigation/ 4 15316 0 0
+/labs/eerc05/exp7/content.html 4 16868 0 0
+/labs/eerc03/exp5/ 136 470834 0 0
+/labs/ccnsb03/exp8/media/8.html 4 2619 0 0
+/labs/ccnsb03/exp10/media/newone.fla 2 7037300 0 0
+/labs/cse04/exp1/submission615393968.html 1 3160 0 0
+/labs/cse18/manual/ 24 10776 0 0
+/labs/ccnsb04/exp10/ 2 6661 0 0
+/labs/cse04/exp4/lab.html 8 25616 0 0
+/labs/cse24/exp1/default.html 12 41208 0 0
+/labs/ccnsb06/exp6/content.html 12 98904 0 0
+/labs/cse24/exp1/content.html 12 55548 0 0
+/labs/ccnsb04/exp8/experiment/bottom.html 2 1340 0 0
+/labs/ccnsb07/exp9/ 1 1960 0 0
+/labs/civil13/experiment8/CaliDoubMod.php 2 4030 0 0
+/labs/cse17/velocitymodelling/ 13 42686 0 0
+/labs/cse22/exp6/content.html 1 5235 0 0
+/labs/ccnsb06/exp6_10/aspirin/aspirin_nmr_expt10.html 1 2829 0 0
+/labs/cse24/exp8/exp7_1.php 1 485 0 0
+/labs/ccnsb03/exp2/content.html 7 50463 0 0
+/labs/civil13/signup.php 2 6586 0 0
+/labs/eerc02/exp8/content.html 1 3305 0 0
+/labs/cse16/exp03/content.html 2 9110 0 0
+/labs/phy19/default.html 1 1511 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 4 102480 0 0
+/labs/cse04/exp1/submission979927798.html 1 2995 0 0
+/labs/cse24/exp2/exp2_opt.php 5 1747 0 0
+/labs/cse04/exp1/submission525431944.html 1 3052 0 0
+/labs/cse18/ 402 1420955 1 0
+/labs/civil13/experiment2/DataRegrModRes2.php 1 4857 0 0
+/labs/cse04/exp1/prob_desc.html 12 14016 0 0
+/labs/cse04/exp1/submission910152578.html 1 3201 0 0
+/labs/ccnsb01/exp6/ 1 2258 0 0
+/labs/civil13/experiment6/DoubGravModUserDisplay.php 1 2285 0 0
+/labs/eerc02/default.html 148 203964 0 0
+/labs/cse13/carry_look_ahead_adder/practise_swing/exp_1.html 1 421 0 0
+/labs/chem01/gla/gla6.php 13 19461 0 0
+/labs/cse09/exp3/content.html 17 68624 0 0
+/labs/ccnsb06/exp8/default.html 3 11199 0 0
+/labs/cse04/exp4/submission069210194.html 1 2994 0 0
+/labs/ccnsb05/exp1/ 3 6522 0 0
+/labs/cse09/exp5/interaction-frame.html 1 506 0 0
+/labs/bio15/exp2/default.html 1 3740 0 0
+/labs/ccnsb04/exp10/experiment/ 1 1382 0 0
+/labs/eerc02/exp2/ 60 215360 0 0
+/labs/civil13/experiment1/theory.php 1 2584 0 0
+/labs/bio16/exp1/ 1 1970 0 0
+/labs/cse16/exp06/content.html 3 13530 0 0
+/labs/cse04/exp1/submission173152604.html 1 3127 0 0
+/labs/cse01/exp5/ 288 992857 1 1
+/labs/ccnsb03/exp3/content.html 4 24376 0 0
+/labs/ccnsb03/exp4/content.html 3 17157 0 0
+/labs/emt/preQuiz1.php 5 9150 0 0
+/labs/cse02/exp1/quizresults.php 5 3897 0 0
+/labs/civil13/experiment12/theory.php 2 6764 0 0
+/labs/cse15/exp9/ 44 155133 1 0
+/labs/eerc02/exp3/ 74 254606 1 0
+/labs/ccnsb02/exp14/ 3 6762 0 0
+/labs/eerc05/exp4/media/lowres.html 1 590 0 0
+/labs/ccnsb03/exp5/ 1 2091 0 0
+/labs/ccnsb03/exp1/media/instrument_animation.html 13 7080 0 0
+/labs/civil13/experiment5/selfevaluation.php 2 4992 0 0
+/labs/sample1/exp1/default.html 3 11163 0 0
+/labs/cse04/exp1/submission993193658.html 1 3272 0 0
+/labs/eerc05/exp5/media/ve_coreCutter.html 7 3120 0 0
+/labs/eerc01/exp9/9.PrincipalStresses.html 3 1089 0 0
+/labs/eerc04/exp3/vlab2/3.ContinuousBeams.html 1 372 0 0
+/labs/cse09/exp8/content.html 19 108000 0 0
+/labs/eerc05/exp7/default.html 4 14944 0 0
+/labs/cse19/morph.php 50 219312 0 0
+/labs/bio15/exp3/default.html 3 11220 0 0
+/labs/cse04/exp4/getHint.py 15 2817 0 0
+/labs/eerc03/default.html 141 203943 0 1
+/labs/cse04/exp1/submission295261636.html 1 8574 0 0
+/labs/mech18/FabLab/exp1/woodcutting.html 2 1992 0 0
+/labs/civil13/experiment4/GroFactDefaultInput.php 5 8308 0 0
+/labs/eerc03/exp7/vlab2/4.MouthPieces.html 2 716 0 0
+/labs/cse15/exp7/ 59 208507 0 0
+/labs/cse04/exp1/submission861886763.html 1 3206 0 0
+/labs/cse17/scanmatching/ 18 72785 0 0
+/labs/eerc02/exp8/vlab2/8.Consolidation.html 2 360 0 0
+/labs/civil13/experiment8/intermediateCaliDoubGravMod.php 2 2982 0 0
+/labs/cse20/experiment/Exp10.jnlp 1 746 0 0
+/labs/ccnsb03/exp5/content.html 1 7218 0 0
+/labs/civil13/experiment2/intermediateDataRegr.php 2 2610 0 0
+/labs/cse22/exp5/content.html 5 32240 0 0
+/labs/eerc05/exp5/ 18 31280 0 0
+/labs/eerc04/exp8/ 56 193125 0 0
+/labs/cse02/exp5/lab/function.html 22 3549 0 1
+/labs/ccnsb02/exp1/ 8 18032 0 0
+/labs/cse14/final-build/ 74 177050 0 0
+/labs/emt/experiments.php 111 414827 0 1
+/labs/eerc05/exp2/media/ve_cbr.html 6 3066 0 0
+/labs/cse22/exp1/content.html 13 71566 0 0
+/labs/cse09/default.html 238 347483 0 1
+/labs/ccnsb07/exp4/ 2 3920 0 0
+/labs/civil13/experiment5/theory.php 4 14576 0 0
+/labs/eerc05/default.html 98 132956 0 0
+/labs/civil13/experiment6/DoubGravMod.php 1 2098 0 0
+/labs/cse16/exp04/default.html 14 37320 0 0
+/labs/cse24/exp2/default.html 4 14916 0 0
+/labs/civil13/experiment6/experiment.php 2 3640 0 0
+/labs/cse15/exp5/exp5.html 5 1800 0 0
+/labs/cse29/exp11/ 47 158553 0 0
+/labs/cse04/default.html 2 3040 0 0
+/labs/cse11/SingleCycle/ 11 63162 0 0
+/labs/cse09/exp4/ 23 55930 0 0
+/labs/cse24/exp1/exp1_answer.php 2 1097 0 0
+/labs/cse09/exp7/default.html 16 59536 0 0
+/labs/cse17/localization/ 8 28266 0 0
+/labs/eerc05/exp2/default.html 19 67248 0 0
+/labs/ccnsb07/default.html 41 51413 0 0
+/labs/ccnsb03/exp10/media/old/10.fla 2 7036838 0 0
+/labs/ccnsb04/exp9/default.html 1 3737 0 0
+/labs/civil13/experiment5/aim.php 6 7242 0 0
+/labs/cse15/exp4/ 40 136223 0 0
+/labs/cse18/manual/slider.html 2 644 0 0
+/labs/eerc02/exp8/vlab2/Consolidation.jnlp 3 1977 0 0
+/labs/cse09/exp5/default.html 12 44244 0 0
+/labs/civil13/experiment6/aim.php 4 4860 0 0
+/labs/phy14/exp9/ 20 39540 0 0
+/labs/cse22/exp9/default.html 1 3732 0 0
+/labs/ccnsb04/exp2/default.html 1 3737 0 0
+/labs/cse24/exp8/ 3 6492 0 0
+/labs/civil16/content.html 2 3722 0 0
+/labs/eerc02/exp5/ 96 329048 0 0
+/labs/cse18/exp1/ 161 653462 0 0
+/labs/cse02/exp4/quizresults.php 7 2927 0 0
+/labs/cse24/exp6/content.html 10 42440 0 0
+/labs/eerc03/exp7/ 38 141673 0 0
+/labs/cse15/exp6/exp6.html 7 2903 0 0
+/labs/civil13/experiment3/procedure.php 5 7977 0 0
+/labs/cse04/exp1/submission841879888.html 1 3045 0 0
+/labs/cse20/content.html 3 6360 0 0
+/labs/cse16/content.html 35 102068 0 0
+/labs/ccnsb07/latest_project/bin/magnet1.html 2 260 0 0
+/labs/civil16/lab/exp5.html 1 4945 0 0
+/labs/eerc04/default.html 78 119348 0 0
+/labs/ccnsb04/exp5/experiment/ 1 1717 0 0
+/labs/civil13/experiment7/intermediateCaliSingGravMod.php 1 1489 0 0
+/labs/ccnsb01/ 67 167919 2 0
+/labs/cse09/exp2/interaction-frame.html 7 3479 0 0
+/labs/civil16/lab/exp8.html 1 3718 0 0
+/labs/civil13/experiment4/experiment.php 11 20867 0 0
+/labs/phy14/exp4/media/ve_opticalrotation.html 9 4200 0 0
+/labs/cse04/exp1/submission295401064.html 1 3165 0 0
+/labs/eerc02/exp3/vlab2/3.SpecificGravity.html 7 2520 0 0
+/labs/civil09/ 1 2071 0 0
+/labs/cse04/exp1/getHint.py 49 7865 0 0
+/labs/cse09/exp1/tasks.html 19 8652 0 0
+/labs/ccnsb04/exp3/ 1 3623 0 0
+/labs/chem01/content.html 3 7200 0 0
+/labs/cse16/indexie.html 6 17832 0 0
+/labs/ccnsb05/exp3/jmol/sample/sample4/sample4.pdb 1 5765 0 0
+/labs/ccnsb04/exp8/content.html 2 11576 0 0
+/labs/eerc01/exp2/vlab2/2.Compression.html 16 5340 0 0
+/labs/phy14/exp5/media/cite/vlab/chemistry/ 1 474 0 0
+/labs/ccnsb03/exp1/ 11 23001 0 0
+/labs/cse20/experiment/Exp1.jnlp 25 18550 0 0
+/labs/emt/ve_exp7.html 2 298 0 0
+END_SIDER

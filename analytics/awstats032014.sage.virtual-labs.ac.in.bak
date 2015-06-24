@@ -1,0 +1,3029 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sage.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2003                
+POS_TIME 2674                
+POS_VISITOR 49186               
+POS_DAY 72717               
+POS_DOMAIN 3656                
+POS_LOGIN 3893                
+POS_ROBOT 4048                
+POS_WORMS 5138                
+POS_EMAILSENDER 5269                
+POS_EMAILRECEIVER 5412                
+POS_SESSION 73691               
+POS_SIDER 73905               
+POS_FILETYPES 5547                
+POS_DOWNLOADS 5874                
+POS_OS 5959                
+POS_BROWSER 6369                
+POS_SCREENSIZE 9149                
+POS_UNKNOWNREFERER 9223                
+POS_UNKNOWNREFERERBROWSER 12051               
+POS_ORIGIN 12703               
+POS_SEREFERRALS 12851               
+POS_PAGEREFS 13052               
+POS_SEARCHWORDS 40294               
+POS_KEYWORDS 41722               
+POS_MISC 2336                
+POS_ERRORS 42705               
+POS_CLUSTER 3749                
+POS_SIDER_404 42870               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140331235653 1693 427471 18213097926544
+FirstTime 0
+LastTime 20140331231359
+LastUpdate 20140401000102 35 0 35 0 0
+TotalVisits 805                 
+TotalUnique 498                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 606                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 944 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 176 1093 33742299 105 220 3084163
+1 1 54 944540 0 4 3887
+2 110 632 19088089 78 158 1670881
+3 78 514 15715389 69 157 2868761
+4 65 440 14409391 84 140 1664904
+5 85 575 17890051 56 137 1792447
+6 76 513 16404243 101 180 2021776
+7 160 886 26581166 73 154 1324271
+8 369 1110 24455145 82 148 1368246
+9 948 4220 86803445 142 282 1455387
+10 628 2863 63933410 125 239 1301413
+11 4417 8434 90683651 178 350 2918163
+12 10102 12648 62479844 284 416 3535875
+13 2254 3720 49422333 146 240 2809393
+14 13969 20399 115333004 390 623 2883453
+15 15635 20014 91771585 304 562 3717749
+16 225 1439 45289955 129 255 3872085
+17 163 1186 36521253 94 167 1716727
+18 186 1327 38638501 81 193 2057027
+19 236 1671 49417708 83 215 3030348
+20 273 1827 55017437 73 187 1489652
+21 399 2174 61331581 75 199 1276499
+22 517 1905 46171164 135 324 3287968
+23 465 1790 48437343 87 200 1900540
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 51537 91434 1110482527
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+bingbot 803 21091169 20140331210900 0
+googlebot 692 17469550 20140331235653 0
+baiduspider 199 1818983 20140331190440 0
+robot 108 1558040 20140331221515 0
+ezoom 107 1908789 20140331222305 0
+^java\/[0-9] 78 2014296 20140329120619 0
+bingpreview 36 1644806 20140331173327 0
+yandex 35 414135 20140331225725 0
+no_user_agent 28 143917 20140320082805 0
+^mozilla\/4\.0$ 22 615864 20140328005107 0
+rpt\-httpclient 1 11893 20140317211651 0
+ia_archiver 16 326419 20140327005716 0
+spider 2 9754 20140317075610 0
+[\s_+:,\.\;\/\\-]bot 4 57491 20140314022513 0
+^mozilla\/4\.0 0 1 0 20140331224741
+mail\.ru 2 9754 20140327222719 0
+msnbot 1 5746 20140314210739 0
+curl 4 89652 20140328005237 0
+slurp 8 87320 20140331093330 0
+facebook 4 154876 20140326181249 0
+favicon 3 33796 20140324153551 0
+bot[\s_+:,\.\;\/\\-] 22 388769 20140314095240 0
+netcraft 2 4877 20140311044650 0
+msnbot\-media 22 727086 20140331192428 0
+nutch 1 4877 20140310201833 0
+crawl 2 24016 20140322152336 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 424 8116574 0 0
+sws 67 748364 0 0
+css 8509 127585457 0 0
+png 996 13824448 0 0
+htm 2 40102 0 0
+otf 2936 69254443 0 0
+php 3458 81414182 0 0
+zip 14 305101 0 0
+html 3 156791 0 0
+js 30331 803808688 0 0
+Unknown 44647 4675938 0 0
+gif 43 217877 0 0
+svg 4 334562 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/download_worksheets.zip 14 0 305101
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+linuxandroid 1292 119
+blackberry 83 8
+winxp 62247 45629
+winlong 248 119
+macosx6 65 10
+symbian 23 1
+win2000 4 4
+winvista 5302 1165
+winunknown 26 1
+j2me 219 12
+win2003 135 25
+linuxdebian 32 6
+macosx9 761 107
+macosx7 162 22
+unix 8 1
+java 114 6
+winnt 4 1
+linuxubuntu 186 27
+linux 930 140
+win7 18156 3959
+macosx 365 71
+Unknown 733 58
+macosx8 339 46
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 130
+chrome15.0.874.102 31 5
+firefox14.0 69 16
+firefox28.0 1036 146
+chrome7.0.517.0 26 1
+chrome33.0.1750.166 123 18
+chrome22.0.1190.0 8 1
+chrome31.0.1650.57 103 16
+safari5.0 32 6
+chrome31.0.1650.63 301 38
+safari7.0.1 32 6
+firefox2.0.0.13 1 1
+chrome33.0.1750.46 30 4
+safari7.1.0.714 32 6
+chrome32.0.1700.99 102 10
+msie8.0 2697 1550
+chrome33.0.1750.112 30 4
+msie7.0 658 247
+chrome30.0.1568.2 31 5
+opera9.64 1 1
+firefox9.0.1 155 30
+chrome33.0.1750.5 62 9
+chrome31.0.1650.59 38 2
+firefox2.0.0.20 26 1
+chrome11.0.696.16 31 5
+firefox10.0.1 30 4
+firefox7.0.1 30 4
+chrome32.0.1700.107 3361 2514
+chrome34.0.1838.2 30 4
+firefox25.0 62 10
+chrome33.0.1750.117 9379 6661
+safari5.0.4 32 6
+chrome30.0.1581.2 1 0
+firefox14.0.1 99 21
+chrome11.0.696.71 31 5
+safari 96 14
+safari7.0 234 45
+firefox5.0 1 0
+firefox4.0.1 228 49
+android 802 66
+firefox5.02 2 2
+chrome28.0.1500.95 63 10
+chrome33.0.1712.4 30 4
+chrome35.0.1897.3 26 1
+firefox24.0 2528 2046
+chrome32.0.1678.0 30 4
+opera9.80 1024 95
+chrome32.0.1700.102 90 12
+chrome20.0.1132.47 67 13
+chrome26.0.1410.43 63 11
+chrome34.0.1833.5 30 4
+chrome28.0.1485.0 67 11
+msie9.0 1003 99
+chrome6.0.490.1 31 5
+firefox30.0 62 10
+chrome28.0.1500.71 95 17
+chrome22.0.1229.95 31 5
+chrome34.0.1788.0 30 4
+chrome30.0.1551.0 36 7
+chrome29.0.1521.3 35 6
+nokia 112 4
+firefox22.0 62 9
+firefox3.6.18 246 25
+safari6.0.2 33 6
+chrome23.0.1271.97 29 5
+firefox3.6.8 25 1
+msie6.0 70 60
+firefox10.0 31 5
+ibrowse 85 4
+chrome33.0.1750.149 155 21
+firefox26.0 16074 12169
+chrome33.0.1750.70 94 13
+chrome28.0.1500.94 35 2
+firefox18.0 66 11
+firefox4.0 24 2
+chrome32.0.1656.0 62 10
+chrome28.0.1500.72 73 15
+firefox23.0 96 14
+safari7.1.0.398 25 1
+safari7.0.2 164 31
+chrome33.0.1750.152 296 35
+firefox21.0 158 24
+lg\- 28 2
+safari6.0 33 7
+firefox29.0 92 14
+chrome14.0.803.0 31 5
+firefox12.0 201 36
+firefox1.0.5 1 1
+chrome32.0.1664.3 30 4
+safari6.0.5 2 2
+mozilla 439 24
+chrome18.0.1025.142 31 5
+chrome32.0.1700.76 60 8
+chrome35.0.1862.2 30 4
+firefox19.0 188 36
+chrome25.0.1364.97 31 2
+firefox8.0.1 119 15
+firefox15.0.1 84 10
+chrome21.0.1180.89 45 10
+firefox15.0 31 5
+firefox20.0 239 43
+chrome23.0.1271.64 1 1
+chrome29.0.1547.76 93 12
+chrome12.0.742.112 422 288
+chrome26.0.1410.58 57 6
+safari6.1.2 32 6
+firefox13.0.1 35 6
+chrome13.0.782.112 4 4
+firefox16.0 62 10
+chrome33.0.1750.154 6215 926
+chrome33.0.1750.146 15851 9002
+firefox27.0 22162 14460
+chrome30.0.1599.101 138 25
+Unknown 57 11
+firefox11.0 102 28
+chrome30.0.1599.114 62 10
+chrome22.0.1229.96 2 2
+chrome34.0.1847.45 30 4
+firefox17.0 153 22
+chrome29.0.1547.41 32 5
+ossproxy 3 0
+chrome27.0.1453.110 38 4
+chrome9.0.597 1 1
+chrome18.0.966.0 32 6
+chrome35.0.1883.0 30 4
+msie10.0 323 35
+firefox5.0.1 26 3
+safari5.1 34 7
+firefox6.0 36 6
+chrome27.0.1453.116 138 32
+chrome33.0.1750.136 119 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 28
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1624;_U;_en)_Presto/2.8.119_Version/11.10 20140327202341
+Mozilla/5.0_(Series40;_Nokia202/20.52;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140316203955
+Mozilla/5.0_(Android;_Mobile;_rv:27.0)_Gecko/27.0_Firefox/27.0 20140314030752
+bitlybot 20140307200648
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/34.1624;_U;_en)_Presto/2.8.119_Version/11.10 20140328174730
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/34.1499;_U;_en)_Presto/2.8.119_Version/11.10 20140316061633
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1445;_U;_en)_Presto/2.8.119_Version/11.10 20140312112950
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1606;_U;_en)_Presto/2.8.119_Version/11.10 20140327132810
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-022) 20140310113503
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-039) 20140311154057
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20140303074218
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/34.1526;_U;_en)_Presto/2.8.119_Version/11.10 20140320004053
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/34.1624;_U;_en)_Presto/2.8.119_Version/11.10 20140330194705
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-036) 20140311144307
+Mozilla/5.0_(Series40;_Nokia206/04.52;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.3.0.0.55 20140328195220
+Opera/9.80_(Android;_Opera_Mini/7.5.32195/34.1606;_U;_en)_Presto/2.8.119_Version/11.10 20140326102736
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1425;_U;_en)_Presto/2.8.119_Version/11.10 20140306092445
+Opera/9.80_(Android;_Opera_Mini/6.1.25577/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140303131444
+Opera/9.80_(Android;_Opera_Mini/5.1.24639/34.1526;_U;_en)_Presto/2.8.119_Version/11.10 20140319233957
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140302184558
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1499;_U;_en)_Presto/2.8.119_Version/11.10 20140314211927
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140324225731
+Opera/9.80_(Android;_Opera_Mini/7.0.29737/34.1624;_U;_en)_Presto/2.8.119_Version/11.10 20140329104121
+Opera/9.80_(Android;_Opera_Mini/7.5.35188/34.1526;_U;_en)_Presto/2.8.119_Version/11.10 20140321124603
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-034) 20140310115753
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-003) 20140310141640
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1526;_U;_en)_Presto/2.8.119_Version/11.10 20140320023356
+Opera/9.80_(MAUI_Runtime;_Opera_Mini/4.4.31762/34.1445;_U;_en)_Presto/2.8.119_Version/11.10 20140308114938
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-036) 20140311144307
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-022) 20140310113503
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-039) 20140311154057
+bitlybot 20140307200648
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-034) 20140310115753
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_nr-003) 20140310141640
+Apache-HttpClient/4.3_(java_1.5) 20140323073419
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20140303074218
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1040 1193
+From1 0 0
+From2 610 615
+From3 49887 89626
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 603 606
+webcrawler 1 1
+bing 1 3
+ask 4 4
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 452
+http://sage.virtual-labs.ac.in/home/pub/19/ 1203 12246
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/2/ 1159 1196
+http://sage.virtual-labs.ac.in/home/pub/1/ 1158 9183
+http://sage.virtual-labs.ac.in/home/mca12/5/ 687 691
+http://sage.virtual-labs.ac.in/home/heavenpatel/3/ 683 691
+http://sage.virtual-labs.ac.in/home/samcool4all/3/ 648 668
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/3/ 645 716
+http://sage.virtual-labs.ac.in/home/mca13061%40nirmauni.ac.in/0/ 644 652
+http://sage.virtual-labs.ac.in/home/heavenpatel/2/ 639 644
+http://sage.virtual-labs.ac.in/home/mca21.nirmauni/3/ 637 641
+http://sage.virtual-labs.ac.in/home/susena/ 1 9
+http://sage.virtual-labs.ac.in/home/ChestaAgarwal/0/ 3 12
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/2/ 274 306
+http://sage.virtual-labs.ac.in/home/kalpanas%40fragnel.edu.in/ 8 37
+http://sage.virtual-labs.ac.in/home/sonagravijay/5/ 482 490
+http://sage.virtual-labs.ac.in/home/smita.agrawal%40nirmauni.ac.in/ 2 7
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/10/ 16 20
+http://sage.virtual-labs.ac.in/home/pub/9/ 32 420
+http://sage.virtual-labs.ac.in/home/jaiprakash.verma%40nirmauni.ac.in/0/ 30 38
+http://sage.virtual-labs.ac.in/home/mca05.nirmauni/5/publish 9 9
+http://sage.virtual-labs.ac.in/home/kuldeep24/13/ 1 3
+http://sage.virtual-labs.ac.in/home/ChestaAgarwal/ 14 34
+http://sage.virtual-labs.ac.in/home/mohammed/1/ 2 6
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/4/ 453 507
+http://sage.virtual-labs.ac.in/home/hardikrathod/1/ 202 219
+http://sage.virtual-labs.ac.in/home/gkjayabalu/1/ 8 8
+http://sage.virtual-labs.ac.in/home/jinalpatel%40nirma/1/ 86 96
+http://sage.virtual-labs.ac.in/home/ 3 3
+http://sage.virtual-labs.ac.in/home/AAKASH/1/ 636 644
+http://sage.virtual-labs.ac.in/java/jmol/appletweb/Jmol.js 0 3
+http://sage.virtual-labs.ac.in/home/sonagravijay/ 0 4
+http://sage.virtual-labs.ac.in/home/mca1353/ 4 52
+http://sage.virtual-labs.ac.in/home/heavenpatel/7/ 22 27
+http://sage.virtual-labs.ac.in/home/jai_nagar/0/ 490 502
+http://sage.virtual-labs.ac.in/home/jaydeep.patel.9693%40gmail.com/0/ 546 554
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/0/edit 2 6
+http://sage.virtual-labs.ac.in/home/mca13008/ 8 27
+http://sage.virtual-labs.ac.in/javascript/mathjax/config/TeX-AMS_HTML-full.js 0 2
+http://sage.virtual-labs.ac.in/home/gkjayabalu/2/ 149 190
+http://sage.virtual-labs.ac.in/home/mca12/3/ 5 13
+http://sage.virtual-labs.ac.in/home/ashutosh.ruparelia/ 0 8
+http://sage.virtual-labs.ac.in/javascript/mathjax/extensions/jsMath2jax.js 0 2
+http://sage.virtual-labs.ac.in/home/darsthakkar/3/ 38 42
+http://sage.virtual-labs.ac.in/home/chirgaiya/ 4 16
+http://sage.virtual-labs.ac.in/home/nimeshpatel/ 4 20
+http://sage.virtual-labs.ac.in/home/mca13063%40nirmauni.ac.in/2/ 20 24
+http://sage.virtual-labs.ac.in/home/darsthakkar/1/ 264 282
+http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/2/ 603 606
+http://sage.virtual-labs.ac.in/home/darsthakkar/14/ 38 44
+http://sage.virtual-labs.ac.in/home/mca19.nirmauni/ 2 7
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/3/ 8 13
+http://sage.virtual-labs.ac.in/home/Dhrumit103/ 0 4
+http://sage.virtual-labs.ac.in/home/mca13015/2/ 632 641
+http://sage.virtual-labs.ac.in/home/parthpatel4u/8/ 136 141
+http://sage.virtual-labs.ac.in/home/smita.agrawal%40nirmauni.ac.in/10/ 110 123
+http://sage.virtual-labs.ac.in/home/gkjayabalu/3/ 39 40
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/ 6 19
+http://sage.virtual-labs.ac.in/home/mca05.nirmauni/4/ 75 80
+http://sage.virtual-labs.ac.in/home/aman090893/1/ 291 298
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/2/ 3 3
+http://virtual-labs.ac.in/labs/cse06/ 74 74
+http://sage.virtual-labs.ac.in/home/mca17.nirmauni/5/ 3 16
+http://sage.virtual-labs.ac.in/home/Nayan/1/ 6 11
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/extendedclick/jquery.event.extendedclick.min.js 0 2
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/2/ 3 7
+http://sage.virtual-labs.ac.in/home/rahul0090392/0/ 131 158
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/ 4 14
+http://sage.virtual-labs.ac.in/home/mca17.nirmauni/4/ 546 548
+http://sage.virtual-labs.ac.in/home/pub/13/rate 1 1
+http://sage.virtual-labs.ac.in/home/jai_nagar/ 0 4
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/2/ 135 139
+http://sage.virtual-labs.ac.in/home/mohammed/ 6 28
+https://www.facebook.com 2 2
+http://sage.virtual-labs.ac.in/home/vihar/1/ 386 438
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/7/ 449 449
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/themes/advanced/skins/default/content.css 0 1
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/1/ 5 5
+http://sage.virtual-labs.ac.in/home/gkjayabalu/0/ 10 18
+http://sage.virtual-labs.ac.in/home/samcool4all/4/ 537 538
+http://sage.virtual-labs.ac.in/home/sonagravijay/8/ 156 161
+http://sage.virtual-labs.ac.in/home/darsthakkar/12/ 14 19
+http://sage.virtual-labs.ac.in/home/rahul0090392/1/ 25 30
+http://sage.virtual-labs.ac.in/home/parthpatel4u/3/ 17 22
+http://sage.virtual-labs.ac.in/home/rahul0090392/3/ 18 37
+http://sage.virtual-labs.ac.in/home/pub/6/ 5 237
+http://sage.virtual-labs.ac.in/home/heavenpatel/0/ 34 42
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/farbtastic/farbtastic.min.js 0 2
+http://sage.virtual-labs.ac.in/login 165 327
+http://sage.virtual-labs.ac.in/home/register.php/ 1 1
+http://sage.virtual-labs.ac.in/home/parthpatel4u/5/ 8 13
+http://sage.virtual-labs.ac.in/home/pub/17/ 4 66
+http://sage.virtual-labs.ac.in/home/jinalpatel%40nirma/ 0 4
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/4/ 46 51
+http://sage.virtual-labs.ac.in/home/pub/16/ 13 246
+http://sage.virtual-labs.ac.in/home/siris2kx/ 5 31
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/3/ 4 8
+http://sage.virtual-labs.ac.in/home/Shailav/3/ 37 76
+http://sage.virtual-labs.ac.in/home/heavenpatel/5/ 8 13
+http://sage.virtual-labs.ac.in/home/mca12/6/ 593 597
+http://sage.virtual-labs.ac.in/home/AAKASH/ 1 4
+http://sage.virtual-labs.ac.in/home/pub/20/ 41 293
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/1/ 10 45
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/2/ 63 69
+http://sage.virtual-labs.ac.in/home/pub/4/ 25 415
+http://sage.virtual-labs.ac.in/home/smita.agrawal%40nirmauni.ac.in/9/edit 3 3
+http://sage.virtual-labs.ac.in/home/nimeshpatel/3/ 105 118
+http://sage.virtual-labs.ac.in/home/mca06.nirmauni/4/ 6 8
+http://sage.virtual-labs.ac.in/home/sonagravijay/9/ 201 206
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/7/ 186 248
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/colorpicker/js/colorpicker.min.js 0 3
+http://sage.virtual-labs.ac.in/home/amitmtnl/0/ 22 40
+http://sage.virtual-labs.ac.in/home/pub/1/rate 1 1
+http://sage.virtual-labs.ac.in/home/parthpatel4u/ 0 4
+http://sage.virtual-labs.ac.in/home/isha46_mca/2/ 123 135
+http://sage.virtual-labs.ac.in/home/jaydeep.patel.9693%40gmail.com/1/ 284 290
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/5/ 546 546
+http://sage.virtual-labs.ac.in/home/mca05.nirmauni/ 5 8
+http://sage.virtual-labs.ac.in/home/pub/20/download/ 1 1
+http://sage.virtual-labs.ac.in/home/amitmtnl/ 7 32
+http://sage.virtual-labs.ac.in/home/hardikrathod/3/edit 2 2
+http://sage.virtual-labs.ac.in/home/Kangwook/0/ 7 21
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/0/ 1 2
+http://sage.virtual-labs.ac.in/home/prashant_1579@rediffmail.com/0/ 13 21
+http://sage.virtual-labs.ac.in/home/isha46_mca/3/ 5 9
+http://sage.virtual-labs.ac.in/home/parthpatel4u/6/ 16 21
+http://sage.virtual-labs.ac.in/home/darsthakkar/8/ 21 26
+http://sage.virtual-labs.ac.in/javascript/json/json2.min.js 0 2
+http://sage.virtual-labs.ac.in/home/sonagravijay/2/ 512 517
+http://sage.virtual-labs.ac.in/home/mca1353/2/ 299 364
+http://sage.virtual-labs.ac.in/home/shubham15744/0/ 11 19
+http://sage.virtual-labs.ac.in/home/mca13015/0/ 8 19
+http://sage.virtual-labs.ac.in/home/hardikrathod/0/share 1 11
+http://sage.virtual-labs.ac.in/home/gaurav_910/0/ 53 75
+http://sage.virtual-labs.ac.in/home/mca06.nirmauni/11/ 633 647
+http://sage.virtual-labs.ac.in/home/heavenpatel/6/ 7 12
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/3/ 167 171
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/3/publish 7 7
+http://m.facebook.com/l.php 1 1
+http://sage.virtual-labs.ac.in/home/mca13008/4/ 6 6
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/0/ 135 143
+http://sage.virtual-labs.ac.in/javascript/jqueryui/js/jquery-ui-1.8.11.custom.min.js 0 3
+http://sage.virtual-labs.ac.in/home/tofik/4/ 11 12
+http://sage.virtual-labs.ac.in/home/ChestaAgarwal/1/ 464 475
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css 0 4
+http://sage.virtual-labs.ac.in/home/isha46_mca/0/ 313 329
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/6/ 295 299
+http://sage.virtual-labs.ac.in/home/Jaynish/1/ 201 263
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/2/ 64 68
+http://sage.virtual-labs.ac.in/home/mca12/0/ 2 7
+http://sage.virtual-labs.ac.in/home/rahul0090392/2/ 10 15
+http://sage.virtual-labs.ac.in/home/Shailav/2/ 50 55
+http://sage.virtual-labs.ac.in/home/dhavalpurohit74%40gmail.com/1/ 3 7
+http://sage.virtual-labs.ac.in/home/heavenpatel/ 0 4
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/2/ 4 8
+http://sage.virtual-labs.ac.in/home/pub/22/ 2 18
+http://sage.virtual-labs.ac.in/history 1 6
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/0/ 14 22
+http://sage.virtual-labs.ac.in/home/jinalpatel%40nirma/0/ 535 565
+http://sage.virtual-labs.ac.in/javascript/dynamic/mathjax_sage.js 0 2
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/jpicker/jpicker-1.1.6.min.js 0 3
+http://sage.virtual-labs.ac.in/home/aman090893/ 0 4
+http://www.facebook.com/l.php 2 2
+http://sage.virtual-labs.ac.in/home/shubham15744/ 11 55
+http://sage.virtual-labs.ac.in/home/parthpatel4u/0/ 577 609
+http://sage.virtual-labs.ac.in/home/samcool4all/ 9 46
+http://sage.virtual-labs.ac.in/home/vihar/ 11 71
+http://sage.virtual-labs.ac.in/home/hardikrathod/3/ 56 85
+http://sage.virtual-labs.ac.in/home/vipin3195/0/share 228 228
+http://sage.virtual-labs.ac.in/home/pub/24/ 3 21
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/0/ 18 20
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/0/ 4 9
+http://sage.virtual-labs.ac.in/home/mohammed/6/ 88 100
+http://sage.virtual-labs.ac.in/home/pub/10/ 21 204
+http://sage.virtual-labs.ac.in/home/nimeshpatel/2/ 15 31
+http://sage.virtual-labs.ac.in/home/sowjanya21/ 6 36
+http://sage.virtual-labs.ac.in/home/amitmtnl/1/ 2 5
+http://sage.virtual-labs.ac.in/home/mca12/1/ 7 17
+http://sage.virtual-labs.ac.in/home/gkjayabalu/ 9 18
+http://sage.virtual-labs.ac.in/home/darsthakkar/13/ 240 245
+http://sage.virtual-labs.ac.in/home/kuldeep24/0/ 636 658
+http://sage.virtual-labs.ac.in/home/tofik/2/ 90 95
+http://sage.virtual-labs.ac.in/home/mca13063%40nirmauni.ac.in/ 4 17
+http://sage.virtual-labs.ac.in/home/darsthakkar/11/ 6 11
+http://sage.virtual-labs.ac.in/home/mca13015/ 5 18
+http://sage.virtual-labs.ac.in/home/pub/5/ 9 107
+http://sage.virtual-labs.ac.in/home/Kangwook/ 8 54
+http://sage.virtual-labs.ac.in/home/hardikrathod/ 7 9
+http://sage.virtual-labs.ac.in/home/kuldeep24/1/ 14 19
+http://sage.virtual-labs.ac.in/pub/ 101 276
+http://sage.virtual-labs.ac.in/home/pub/14/ 191 1586
+http://sage.virtual-labs.ac.in/home/pub/12/ 1 26
+http://sage.virtual-labs.ac.in/home/Jaynish/4/ 408 439
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/themes/advanced/source_editor.htm 0 4
+http://sage.virtual-labs.ac.in/home/mca13011.nirmauni.ac.in/4/ 66 82
+http://sage.virtual-labs.ac.in/home/member.php 1 1
+http://sage.virtual-labs.ac.in/home/vipin3195/1/ 7 16
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/4/ 112 121
+http://sage.virtual-labs.ac.in/home/mca06.nirmauni/ 6 15
+http://sage.virtual-labs.ac.in/home/jaiprakash.verma%40nirmauni.ac.in/2/ 3 7
+http://sage.virtual-labs.ac.in/home/tofik/0/ 325 326
+http://sage.virtual-labs.ac.in/home/Shailav/4/ 13 18
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/0/ 156 178
+http://sage.virtual-labs.ac.in/home/tofik/ 2 4
+http://sage.virtual-labs.ac.in/home/pub/3/ 15 99
+http://sage.virtual-labs.ac.in/home/heavenpatel/8/ 91 97
+http://sage.virtual-labs.ac.in/home/pranav.o.chitnis/ 2 5
+http://sage.virtual-labs.ac.in/home/siris2kx/0/ 414 426
+http://sage.virtual-labs.ac.in/home/Shailav/8/ 9 14
+http://sage.virtual-labs.ac.in/home/smita.agrawal@nirmauni.ac.in/0/ 109 113
+http://sage.virtual-labs.ac.in/home/pub/2/download/ 1 1
+http://sage.virtual-labs.ac.in/home/Nayan/ 19 114
+http://sage.virtual-labs.ac.in/home/pub/14/rate 1 1
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/6/ 4 8
+http://sage.virtual-labs.ac.in/home/mca06.nirmauni/1/ 10 11
+http://sage.virtual-labs.ac.in/home/samcool4all/1/ 2 2
+http://sage.virtual-labs.ac.in/upload_worksheet 1 1
+http://sage.virtual-labs.ac.in/upload 4 8
+http://sage.virtual-labs.ac.in/home/darsthakkar/9/ 325 333
+http://sage.virtual-labs.ac.in/home/darsthakkar/7/ 38 42
+http://sage.virtual-labs.ac.in/home/mca21.nirmauni/4/ 407 416
+http://sage.virtual-labs.ac.in/home/AvinashSaini/1/ 192 198
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/3/ 38 43
+http://sage.virtual-labs.ac.in/home/pub/15/rate 2 3
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/ 0 16
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/form/jquery.form.min.js 0 2
+http://sage.virtual-labs.ac.in/home/sonagravijay/3/ 22 26
+http://sage.virtual-labs.ac.in/home/heavenpatel/4/ 67 176
+http://sage.virtual-labs.ac.in/home/aravind789/ 1 9
+http://sage.virtual-labs.ac.in/home/mca13061%40nirmauni.ac.in/ 1 5
+http://sage.virtual-labs.ac.in/home/hardikrathod/0/ 20 54
+http://sage.virtual-labs.ac.in/home/mca13002.nirmauni/5/ 486 490
+http://sage.virtual-labs.ac.in/home/pub/11/ 16 143
+http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/2/ 116 134
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/11/ 143 152
+http://sage.virtual-labs.ac.in/home/pub/18/ 13 113
+http://sage.virtual-labs.ac.in/home/gkjayabalu/2/text 3 3
+http://sage.virtual-labs.ac.in/home/darsthakkar/5/ 56 60
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/1/ 147 153
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/ 7 11
+http://sage.virtual-labs.ac.in/home/prashant_1579%40rediffmail.com/ 6 20
+http://sage.virtual-labs.ac.in/home/mca05.nirmauni/5/ 245 272
+http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/ 24 120
+http://sage.virtual-labs.ac.in/home/isha46_mca/1/ 57 63
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/themes/advanced/skins/default/dialog.css 0 2
+http://sage.virtual-labs.ac.in/home/mca13061%40nirmauni.ac.in/1/ 9 13
+http://sage.virtual-labs.ac.in/home/Jaynish/3/ 20 62
+http://sage.virtual-labs.ac.in/home/mca13002.nirmauni/ 1 4
+http://sage.virtual-labs.ac.in/home/kritibhatia02%40gmail.com/ 0 4
+http://sage.virtual-labs.ac.in/home/Jaynish/6/ 323 363
+http://sage.virtual-labs.ac.in/home/parthpatel4u/10/ 217 219
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/10/ 57 62
+http://sage.virtual-labs.ac.in/home/mca13063%40nirmauni.ac.in/0/ 35 39
+http://sage.virtual-labs.ac.in/home/rinal/0/ 161 212
+http://sage.virtual-labs.ac.in/home/parthpatel4u/4/ 37 42
+http://sage.virtual-labs.ac.in/home/niral.6444/ 1 17
+http://sage.virtual-labs.ac.in/home/tofik/6/ 4 9
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/0/ 316 431
+http://sage.virtual-labs.ac.in/home/sonagravijay/4/ 49 67
+http://sage.virtual-labs.ac.in/home/Shailav/1/ 52 56
+http://sage.virtual-labs.ac.in/home/rinal/ 1 5
+http://sage.virtual-labs.ac.in/home/pub/26/ 8 19
+http://sage.virtual-labs.ac.in/home/parthpatel4u/9/ 114 123
+http://sage.virtual-labs.ac.in/home/rahul0090392/4/ 475 484
+http://sage.virtual-labs.ac.in/home/tofik/1/ 84 167
+http://sage.virtual-labs.ac.in/home/mca13015/1/ 421 423
+http://sage.virtual-labs.ac.in/home/heavenpatel/9/ 213 219
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/2/ 145 149
+http://sage.virtual-labs.ac.in/home/mca13008/3/publish 2 2
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/0/ 20 36
+http://bitly.com/a/search/page/160 1 1
+http://sage.virtual-labs.ac.in/doc/live/developer/index.html 248 257
+http://sage.virtual-labs.ac.in/home/vipin3195/ 7 16
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/1/edit 2 6
+http://sage.virtual-labs.ac.in/home/jaydeep.patel.9693%40gmail.com/ 1 5
+http://sage.virtual-labs.ac.in/home/mohammed/3/ 35 39
+http://sage.virtual-labs.ac.in/home/rahul0090392/ 4 38
+http://sage.virtual-labs.ac.in/home/Shailav/ 2 20
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/6/ 148 165
+http://sage.virtual-labs.ac.in/home/tofik/7/ 225 228
+http://sage.virtual-labs.ac.in/home/sonagravijay/7/ 423 435
+http://sage.virtual-labs.ac.in/home/mohammed/0/ 98 120
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/ 8 36
+http://sage.virtual-labs.ac.in/home/mca12/ 21 80
+http://sage.virtual-labs.ac.in/home/heavenpatel/0/upload_data 2 6
+http://sage.virtual-labs.ac.in/javascript/mathjax/MathJax.js 0 3
+http://sage.virtual-labs.ac.in/doc/live/tutorial/index.html 5 11
+http://sage.virtual-labs.ac.in/home/parthpatel4u/2/ 48 53
+http://sage.virtual-labs.ac.in/home/Jaynish/2/ 5 35
+http://sage.virtual-labs.ac.in/home/mca1353/1/ 143 174
+http://sage.virtual-labs.ac.in/home/pub/0/ 546 4148
+http://sage.virtual-labs.ac.in/home/Shailav/9/ 13 18
+http://sage.virtual-labs.ac.in/home/Nayan/0/revisions 5 13
+http://sage.virtual-labs.ac.in/doc/live/developer/coding_in_python.html 2 6
+http://sage.virtual-labs.ac.in/home/dhavalpurohit74%40gmail.com/ 0 4
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/1/ 6 10
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/5/ 23 27
+http://sage.virtual-labs.ac.in/home/ChestaAgarwal/1/edit 2 2
+http://sage.virtual-labs.ac.in/home/mca12/2/ 7 25
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/0/ 245 305
+http://sage.virtual-labs.ac.in/home/ashutosh.ruparelia/0/ 53 61
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/4/ 8 12
+http://sage.virtual-labs.ac.in/home/Jaynish/5/ 143 193
+http://sage.virtual-labs.ac.in/home/mohammed/4/ 88 93
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/ 0 4
+http://sage.virtual-labs.ac.in/home/mca13061%40nirmauni.ac.in/2/ 415 420
+http://sage.virtual-labs.ac.in/home/darsthakkar/15/ 284 291
+http://sage.virtual-labs.ac.in/home/hardikrathod/4/ 124 178
+http://sage.virtual-labs.ac.in/home/tofik/3/ 192 195
+http://sage.virtual-labs.ac.in/javascript/sage/js/published_worksheet.js 0 3
+http://sage.virtual-labs.ac.in/javascript/jquery/jquery-1.7.1.min.js 0 3
+http://sage.virtual-labs.ac.in/home/mca13063%40nirmauni.ac.in/3/ 111 115
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/1/ 211 226
+http://sage.virtual-labs.ac.in/home/mohammed/7/ 6 10
+http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/0/ 23 32
+http://sage.virtual-labs.ac.in/home/nimeshpatel/4/ 221 226
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/jquery.bgiframe.min.js 0 2
+http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/1/ 9 18
+http://sage.virtual-labs.ac.in/home/mca17.nirmauni/ 2 6
+http://sage.virtual-labs.ac.in/home/pub/2/ 191 1705
+http://sage.virtual-labs.ac.in/home/AAKASH/0/ 522 526
+http://sage.virtual-labs.ac.in/home/jaiprakash.verma%40nirmauni.ac.in/1/ 15 21
+http://sage.virtual-labs.ac.in/home/pala%40ravi/ 8 37
+http://sage.virtual-labs.ac.in/home/darsthakkar/2/ 5 10
+http://sage.virtual-labs.ac.in/home/Jaynish/0/ 121 166
+http://sage.virtual-labs.ac.in/home/aniruddha/1/ 384 388
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/8/ 10 14
+http://sage.virtual-labs.ac.in/javascript/dynamic/localization.js 0 2
+http://sage.virtual-labs.ac.in/javascript/sage/js/master.js 0 3
+http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/0/ 96 104
+http://sage.virtual-labs.ac.in/home/hardikrathod/2/ 317 368
+http://sage.virtual-labs.ac.in/home/tofik/5/ 27 28
+http://sage.virtual-labs.ac.in/home/vihar/3/ 30 38
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/ 8 34
+http://sage.virtual-labs.ac.in/home/jaiprakash.verma%40nirmauni.ac.in/ 0 4
+http://sage.virtual-labs.ac.in/home/sonagravijay/0/ 88 96
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/plugins/media/media.htm 0 7
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/3/ 43 47
+http://sage.virtual-labs.ac.in/home/pub/27/ 22 104
+http://sage.virtual-labs.ac.in/home/Shailav/5/ 4 23
+http://sage.virtual-labs.ac.in/home/aniruddha/0/ 484 494
+http://sage.virtual-labs.ac.in/home/jyotiyadav/ 1 4
+http://sage.virtual-labs.ac.in/home/sonagravijay/6/ 60 64
+http://sage.virtual-labs.ac.in/home/isha46_mca/ 2 18
+http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/1/ 397 427
+http://sage.virtual-labs.ac.in/home/gaurav_910/ 0 4
+http://sage.virtual-labs.ac.in/home/parthpatel4u/7/ 14 19
+http://sage.virtual-labs.ac.in/home/login.php/ 1 1
+http://sage.virtual-labs.ac.in/home/smita.agrawal%40nirmauni.ac.in/9/ 29 57
+http://sage.virtual-labs.ac.in/javascript/jquery/plugins/achtung/ui.achtung-mod.min.js 0 3
+http://sage.virtual-labs.ac.in/home/pub/24/rating_info 1 3
+http://sage.virtual-labs.ac.in/home/nehagupta/ 0 2
+http://sage.virtual-labs.ac.in/home/AvinashSaini/ 5 37
+http://sage.virtual-labs.ac.in/home/Nayan/0/ 102 130
+http://sage.virtual-labs.ac.in/home/mohammed/5/ 240 264
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/5/ 17 24
+http://sage.virtual-labs.ac.in/home/Shailav/0/ 14 22
+http://sage.virtual-labs.ac.in/home/darsthakkar/4/ 30 34
+http://sage.virtual-labs.ac.in/home/pub/15/ 249 2149
+http://sage.virtual-labs.ac.in/home/aman090893/0/ 62 70
+http://sage.virtual-labs.ac.in/home/mca19.nirmauni/3/ 319 337
+http://sage.virtual-labs.ac.in 162 1008
+http://sage.virtual-labs.ac.in/home/mca13063%40nirmauni.ac.in/1/ 33 34
+http://sage.virtual-labs.ac.in/home/nehasingh@nirma/1/print 8 16
+http://sage.virtual-labs.ac.in/home/mca13020.nirmauni/3/ 155 196
+http://www.virtual-labs.ac.in/labs/cse06/ 5 5
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/5/ 92 107
+http://sage.virtual-labs.ac.in/home/heavenpatel/1/ 368 387
+http://webcache.googleusercontent.com/search 11 54
+http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/ 0 7
+http://sage.virtual-labs.ac.in/home/mca13003.nirmauni/4/ 3 7
+http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/3/ 577 581
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/3/ 219 245
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/6/ 137 141
+http://sage.virtual-labs.ac.in/home/pub/21/ 59 593
+http://sage.virtual-labs.ac.in/home/Shailav/6/ 18 23
+http://sage.virtual-labs.ac.in/home/chandelj15%40gmail.com/ 1 3
+http://sage.virtual-labs.ac.in/home/mca05.nirmauni/5/share 5 5
+http://sage.virtual-labs.ac.in/javascript/sage3d/sage3d.js 0 3
+http://sage.virtual-labs.ac.in/home/vasanthmehta%40gmail.com/ 1 7
+http://sage.virtual-labs.ac.in/home/samcool4all/0/ 5 12
+http://sage.virtual-labs.ac.in/home/vihar/2/ 11 19
+http://sage.virtual-labs.ac.in/home/nimeshpatel/1/ 236 236
+http://sage.virtual-labs.ac.in/home/mca06.nirmauni/11/print 4 4
+http://sage.virtual-labs.ac.in/home/gkjayabalu/3/text 5 5
+http://sage.virtual-labs.ac.in/home/gkjayabalu/4/publish 4 4
+http://sage.virtual-labs.ac.in/home/Jaynish/7/ 121 159
+http://sage.virtual-labs.ac.in/register 195 590
+http://sage.virtual-labs.ac.in/home/sonagravijay/1/ 81 86
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/5/ 254 284
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/9/ 198 202
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/1/ 165 168
+http://sage.virtual-labs.ac.in/home/pub/25/ 3 17
+http://sage.virtual-labs.ac.in/javascript/mathjax/jax/output/HTML-CSS/fonts/TeX/fontdata.js 0 1
+http://sage.virtual-labs.ac.in/home/nimeshpatel/0/ 26 45
+http://sage.virtual-labs.ac.in/home/tofik/8/ 17 20
+http://sage.virtual-labs.ac.in/home/mca13008/3/ 623 627
+http://sage.virtual-labs.ac.in/home/chirgaiya/0/ 9 21
+http://sage.virtual-labs.ac.in/home/darsthakkar/6/ 26 30
+http://sage.virtual-labs.ac.in/home/pub/20/rating_info 1 3
+http://sage.virtual-labs.ac.in/home/diyapatel22%40gmail.com/1/ 599 603
+http://virtual-labs.ac.in/labs/cse07/ 146 146
+http://sage.virtual-labs.ac.in/home/pub/8/ 88 983
+http://sage.virtual-labs.ac.in/home/diyapatel22%40gmail.com/0/ 487 497
+http://sage.virtual-labs.ac.in/home/aniruddha/ 1 5
+http://sage.virtual-labs.ac.in/home/rinal/1/ 536 540
+http://sage.virtual-labs.ac.in/home/dhavalpurohit74%40gmail.com/0/ 425 440
+http://sage.virtual-labs.ac.in/home/kuldeep24/ 0 6
+http://sage.virtual-labs.ac.in/home/samcool4all/2/ 60 76
+http://sage.virtual-labs.ac.in/home/Nayan/2/ 135 144
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/9/ 22 26
+http://sage.virtual-labs.ac.in/home/mca13015/3/ 385 385
+http://sage.virtual-labs.ac.in/home/Shailav/7/ 10 15
+http://sage.virtual-labs.ac.in/home/pub/13/ 251 2185
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/6/ 52 57
+http://sage.virtual-labs.ac.in/settings 2 10
+http://sage.virtual-labs.ac.in/javascript/jqueryui/css/sage/jquery-ui-1.8.11.custom.css 0 53
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/5/ 17 21
+http://sage.virtual-labs.ac.in/home/parthpatel4u/1/ 292 299
+http://sage.virtual-labs.ac.in/home/pub/ 0 3
+http://sage.virtual-labs.ac.in/home/mca21.nirmauni/ 1 5
+http://sage.virtual-labs.ac.in/home/darsthakkar/16/ 5 10
+http://sage.virtual-labs.ac.in/home/vihar/0/ 57 81
+http://sage.virtual-labs.ac.in/home/mca18.nirmauni/4/ 129 133
+http://sage.virtual-labs.ac.in/home/pub/19.com/ 1 3
+http://sage.virtual-labs.ac.in/home/Nayan/3/ 4 8
+http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/1/ 41 52
+http://sage.virtual-labs.ac.in/home/hardiksl%40yahoo.co.in/7/ 38 42
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/12/ 132 137
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/4/ 243 256
+http://sage.virtual-labs.ac.in/home/pub/0/rating_info 1 1
+http://sage.virtual-labs.ac.in/home/jai_nagar/1/ 17 22
+http://sage.virtual-labs.ac.in/javascript/tiny_mce/themes/advanced/skins/default/ui.css 0 18
+http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/8/ 34 52
+http://sage.virtual-labs.ac.in/home/pub/7/ 6 70
+http://sage.virtual-labs.ac.in/home/gkjayabalu/4/ 53 53
+http://sage.virtual-labs.ac.in/home/Jaynish/ 1 13
+http://sage.virtual-labs.ac.in/home/darsthakkar/0/ 138 160
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/ 0 2
+http://sage.virtual-labs.ac.in/home/AvinashSaini/0/ 2 10
+http://sage.virtual-labs.ac.in/javascript/sage/js/jmol_lib.js 0 2
+http://sage.virtual-labs.ac.in/home/mca1353/0/ 319 350
+http://sage.virtual-labs.ac.in/home/pub1/ 1 2
+http://sage.virtual-labs.ac.in/home/pub/23/ 15 105
+http://sage.virtual-labs.ac.in/home/mca1356%40nirmauni.ac.in/ 2 12
+http://sage.virtual-labs.ac.in/home/mca12/4/ 2 6
+http://sage.virtual-labs.ac.in/home/AAKASH/2/ 369 373
+http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/6/ 53 54
+http://sage.virtual-labs.ac.in/help 2 8
+http://sage.virtual-labs.ac.in/home/gaurav_910/1/ 262 266
+http://sage.virtual-labs.ac.in/home/darsthakkar/ 1 11
+http://sage.virtual-labs.ac.in/home/rinal/2/ 352 360
+http://sage.virtual-labs.ac.in/home/diyapatel22%40gmail.com/ 1 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 38
+bcnf 12
+boyce+codd+normal+form 7
+http+%2f%2fsage.virtual-labs.ac.in%2f 5
+boyce+cod+of+normal+form 3
+boyce+codd+normal+form+example 3
+bcnf+normal+form 2
+byce+code+normal+form 2
+http+//sage.virtual-labs.ac.in/home/pub/19/ 2
+what+is+boyce+codd+normal+form 2
+relation+and+predicates+in+relational+model 2
+sage+neighbour 1
+10+rules+of+boyce+codd 1
+how+to+insert+student+data+into+table+using+sql 1
+delete+the+student+whose+roll+no+command 1
+boyce-codd+normal+form+about.com 1
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f11%2f 1
+sqli+sage 1
+%62%6f%79%63%65+%63%6f%64%64+%6e%6f%72%6d%61%6c+%66%6f%72%6d 1
+what+is+dob+in+third+normal+form 1
+boyce+codd+normal+form/ 1
+enhanced+entity 1
+apriori+algorithm+in+virtual+concept 1
+bcnf+table 1
+data+mining+partition+algorithm+implementation 1
+relation+schema+in+dbms+ans+exampal+and+canvard+in+normal+from 1
+what+is+enhanced+erd 1
+sage+sql+tables 1
+boyce+codd+normal+forms+database 1
+ashok+savasere+partition+algorithm+implementation 1
+dbscan+clustering+in+data+mining 1
+boyce+codd+normal+form+definition 1
+apriori%40apriori%2eba+loc+in 1
+db+scan+algorithm+for+clustering 1
+sql+query+for+inserting+only+rollno 1
+sage+neighbours 1
+boyce+codd 1
+what+is+r+algorithm+with+sales+example+example 1
+partition+algorithm+in+association+rule 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 90
+normal 25
+form 22
+boyce 20
+codd 17
+bcnf 15
+in 9
+http 8
+algorithm 6
+what 5
+is 5
+db 1
+insert 1
+sales 1
+third 1
+table 2
+canvard 1
+schema 1
+tables 1
+ans 1
+implementation 2
+//sage.virtual-labs.ac.in/home/pub/19/ 2
+code 2
+sql 3
+clustering 2
+loc 1
+apriori 1
+delete 1
+10 1
+with 1
+partition 3
+and 3
+apriori%40apriori%2eba 1
+of 4
+rule 1
+%63%6f%64%64 1
+into 1
+forms 1
+exampal 1
+%6e%6f%72%6d%61%6c 1
+sqli 1
+entity 1
+to 1
+from 1
+student 2
+dbms 1
+association 1
+inserting 1
+neighbour 1
+byce 2
+command 1
+predicates 2
+mining 2
+using 1
+virtual 1
+database 1
+neighbours 1
+form/ 1
+the 1
+erd 1
+model 2
+no 1
+roll 1
+%66%6f%72%6d 1
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f11%2f 1
+ashok 1
+concept 1
+relational 2
+sage 4
+only 1
+for 2
+how 1
+data 3
+boyce-codd 1
+cod 3
+dob 1
+%2f%2fsage.virtual-labs.ac.in%2f 5
+scan 1
+relation 3
+enhanced 2
+rollno 1
+r 1
+whose 1
+rules 1
+definition 1
+%62%6f%79%63%65 1
+savasere 1
+example 5
+query 1
+dbscan 1
+about.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+302 854 239708
+206 11 30567
+502 9 4953
+500 57 0
+405 12 2244
+404 829 197302
+301 594 173344
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 90
+/javascript/openid-realselector/img/openid/ 2 -
+/home/nimeshpatel/4/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/nimeshpatel/4/
+/home/kdchauhan@gmail.com/5/cells/3/sage0.png 1 http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/5/
+/robots.txt 486 -
+/home/sonagravijay/2/eer-model.gif 2 http://sage.virtual-labs.ac.in/home/sonagravijay/2/
+/home/pub/7/cells/14/ye20974zs2pt5w91r1gq.tab 1 -
+/home/darsthakkar/2/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/darsthakkar/2/
+/javascript/jqueryui/css/sage/jquery-ui-1.7.2.custom.css 1 -
+/javascript/jsmath/jsMath.js 1 -
+/home/pub/5/cells/15/sage0.png 20 http://sage.virtual-labs.ac.in/home/pub/5/
+/home/darsthakkar/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/darsthakkar/0/
+/home/heavenpatel/3/solution.JPG 1 http://sage.virtual-labs.ac.in/home/heavenpatel/3/
+/wp-admin/ 3 -
+/home/isha46_mca/2/eer-model.gif 2 http://sage.virtual-labs.ac.in/home/isha46_mca/2/
+/home/jinalpatel%40nirma/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/jinalpatel%40nirma/0/
+/javascript/jsmath/extensions/moreArrows.js 1 -
+/home/pub/15/solution.JPG 9 -
+/home/jai_nagar/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/jai_nagar/0/
+/home/thakorsuresh%40nirmauni.ac.in/12/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/12/
+/css/corner.png 5 http://sage.virtual-labs.ac.in/home/pub/19/
+/home/pub/11/cells/5/sage0.png 18 http://sage.virtual-labs.ac.in/home/pub/11/
+/home/pub/14/eer-model.gif 69 http://sage.virtual-labs.ac.in/home/pub/14/
+/home/nehasingh@nirma/2/cells/2/sage0.png 2 http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/2/
+/home/pub/5/cells/3/a2rc051o5as1i0psz5qp.tab 1 -
+/javascript/jsmath/extensions/leaders.js 1 -
+/javascript/jquery/plugins/jpicker/jpicker-1.0.11.min.js 1 -
+/AvinashSaini/3 1 -
+/home/darsthakkar/13/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/darsthakkar/13/
+/javascript/jqueryui/css/sage/images/wait.gif 5 http://sage.virtual-labs.ac.in/home/pub/19/
+/home/pub/15/cells/1/university 1 -
+/home/isha46_mca/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/isha46_mca/0/
+/home/pub/22/cells/1/university 3 -
+/home/parthpatel4u/2/cells/3/sage0.png 1 http://sage.virtual-labs.ac.in/home/parthpatel4u/2/
+/home/kdchauhan%40gmail.com/2/solution.JPG 1 http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/2/
+/home/kdchauhan%40gmail.com/5/eer-model.gif 4 http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/5/
+/home/samcool4all/3/cells/4/sage0.png 1 http://sage.virtual-labs.ac.in/home/samcool4all/3/
+/home/pub/5/cells/18/sage0.png 18 http://sage.virtual-labs.ac.in/home/pub/5/
+/home/pub/25/cells/3/sage0.png 1 -
+/home/nehasingh%40nirma/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/0/
+/images 1 -
+/home/pub/11/cells/14/sage0.png 17 http://sage.virtual-labs.ac.in/home/pub/11/
+/blog/wp-admin/ 3 -
+/home/thakorsuresh@nirmauni.ac.in/12/cells/3/sage0.png 1 http://sage.virtual-labs.ac.in/home/thakorsuresh%40nirmauni.ac.in/12/
+/home/tofik/7/cells/2/sage0.png 1 http://sage.virtual-labs.ac.in/home/tofik/7/
+/wp-login.php 1 -
+/home/pub/21/cells/1/university 4 -
+/home/pub/1//RS=^ADA66oTdy43b5K360NA31veFrmE954- 1 http://sage.virtual-labs.ac.in/
+/wp/wp-admin/ 3 -
+/home/parthpatel4u/2/eer-model.gif 2 http://sage.virtual-labs.ac.in/home/parthpatel4u/2/
+/home/heavenpatel/2/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/heavenpatel/2/
+/apple-touch-icon.png 5 -
+/home/mohammed/5/solution.JPG 1 http://sage.virtual-labs.ac.in/home/mohammed/5/
+/javascript/jquery/jquery-1.3.2.min.js 1 -
+/home/pub/5/cells/27/sage0.png 15 http://sage.virtual-labs.ac.in/home/pub/5/
+/javascript/jquery/]},bh=U(c) 2 -
+/home/rinal/2/cells/2/sage0.png 2 http://sage.virtual-labs.ac.in/home/rinal/2/
+/home/bhanu_bhardwaj/1/eer-model.gif 2 http://sage.virtual-labs.ac.in/home/bhanu_bhardwaj/1/
+/javascript/jquery/%5d%7d%2cbh=U%28c%29 1 http://sage.virtual-labs.ac.in/javascript/jquery/%5d%7d%2cbh=U%28c%29
+/home/isha46_mca/2/cells/3/sage0.png 3 http://sage.virtual-labs.ac.in/home/isha46_mca/2/
+/home/pub/5/cells/25/sage0.png 18 http://sage.virtual-labs.ac.in/home/pub/5/
+/javascript/sage/main.js 1 -
+/java/jmol 1 -
+/javascript/jquery/plugins/jpicker/css/jPicker-1.0.11.css 1 -
+/javascript/sage/ws_list.js 1 -
+/javascript/jsmath/extensions/AMSmath.js 1 -
+/home/jaydeep.patel.9693%40gmail.com/0/solution.JPG 1 http://sage.virtual-labs.ac.in/home/jaydeep.patel.9693%40gmail.com/0/
+/javascript/jsmath/extensions/AMSsymbols.js 1 -
+/javascript/sage/master.js 1 -
+/apple-touch-icon-precomposed.png 5 -
+/favicon.gif 2 -
+/administrator/index.php 1 -
+/home/aman090893/0/solution.JPG 2 -
+/member.php 2 http://sage.virtual-labs.ac.in/
+/javascript/sage/jsmath.js 1 -
+/javascript/jsmath/jsMath-easy-load.js 1 -
+/home/nehasingh%40nirma/1/solution.JPG 1 http://sage.virtual-labs.ac.in/home/nehasingh%40nirma/1/
+/home/pub/11/cells/17/sage0.png 17 http://sage.virtual-labs.ac.in/home/pub/11/
+/wordpress/wp-admin/ 2 -
+/javascript/jsmath/jsMath-fallback-unix.js 1 -
+/javascript/jquery/%2cdata:c%2ccomplete:function%28a%2cb%2cc%29%7bc=a.responseText%2ca.isResolved%28%29%26%26%28a.done%28function%28a%29%7bc=a%7d%29%2ci.html%28g 1 http://sage.virtual-labs.ac.in/javascript/jquery/%2cdata:c%2ccomplete:function%28a%2cb%2cc%29%7bc=a.responseText%2ca.isResolved%28%29%26%26%28a.done%28function%28a%29%7bc=a%7d%29%2ci.html%28g
+/css/ 1 -
+/home/mca13007.nirmauni/0/cells/3/sage0.png 1 http://sage.virtual-labs.ac.in/home/mca13007.nirmauni/0/
+/home/Jaynish/7/eer-model.gif 1 http://sage.virtual-labs.ac.in/home/Jaynish/7/
+/javascript/jqueryui/js/jquery-ui-1.7.2.custom.min.js 1 -
+/fckeditor/editor/filemanager/upload/test.html 2 -
+/javascript/jquery/,data:c,complete:function(a,b,c){c=a.responseText,a.isResolved()&&(a.done(function(a){c=a}),i.html(g 2 -
+/javascript/jsmath/extensions/verb.js 1 -
+/favicon.png 2 -
+/home/pub/5/cells/32/sage0.png 15 http://sage.virtual-labs.ac.in/home/pub/5/
+/home/kdchauhan%40gmail.com/0/solution.JPG 2 http://sage.virtual-labs.ac.in/home/kdchauhan%40gmail.com/0/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 606
+202.131.98.78 19308 23408 48088345 20140328104406
+10.4.8.52 16861 34310 519917601 20140331225409
+202.131.98.170 11192 13924 36218111 20140326125633
+114.71.100.133 311 525 4919710 20140315224011
+171.60.93.89 291 416 2751151 20140311101852
+103.5.112.17 288 475 2930180 20140315141327
+115.252.9.163 246 277 1403444 20140319000343
+14.139.240.83 182 208 1002010 20140311192030
+10.4.12.236 163 1022 31019965 20140305125559
+203.196.133.98 106 538 7772012 20140324095412
+197.1.171.126 2 3 107472 20140322021637
+94.23.37.192 1 9 193732 20140316190314
+117.199.140.111 5 34 1030506 20140322214137
+122.166.141.246 4 29 1009440 20140325122541
+70.61.177.154 4 30 1011521 20140304220315
+192.38.90.50 4 30 1024718 20140326200849
+117.239.94.111 1 7 404057 20140327122618
+117.196.161.64 1 24 705482 20140316173451
+110.39.175.176 4 30 1011521 20140330140107
+168.63.133.124 0 10 558730 
+131.228.29.39 0 1 77645 
+36.248.169.11 1 1 4877 20140318162943
+8.37.224.237 1 55 947531 20140318085205
+69.88.160.1 6 54 1705232 20140324234526
+115.187.61.175 1 1 14334 20140318220226
+175.156.101.213 4 30 1011521 20140312200327
+173.79.122.48 1 1 8542 20140327024136
+117.211.162.130 4 11 69105 20140318113620
+223.235.104.20 4 30 1035313 20140305024631
+14.96.46.57 0 1 26484 
+124.123.71.191 14 67 1292714 20140326152923
+131.228.29.84 0 2 2764 
+122.162.82.237 5 34 1032649 20140307002520
+131.228.29.89 0 1 1589 
+220.225.217.35 6 32 1065693 20140324204422
+105.236.218.211 4 30 983937 20140324153150
+49.202.230.255 37 189 2669525 20140311152220
+180.188.246.106 5 14 389472 20140326201409
+59.90.139.130 11 67 1795348 20140314154659
+27.251.237.154 4 30 949136 20140327100827
+144.120.8.123 7 15 161553 20140325065820
+117.208.244.239 4 30 1024718 20140303212739
+122.174.184.3 2 2 0 20140325224843
+212.9.21.212 10 36 1152414 20140331135258
+101.63.217.170 5 31 1018885 20140307223201
+136.187.81.217 4 30 1024718 20140307141837
+124.124.125.3 4 30 1011521 20140303221456
+111.93.196.230 6 38 1068538 20140311125925
+141.0.11.224 2 30 908670 20140328174728
+131.228.29.23 0 3 102050 
+84.64.12.51 1 17 483161 20140318073219
+140.203.247.122 4 30 1011521 20140314233032
+117.220.143.50 6 35 1054073 20140306221518
+141.0.11.157 2 52 1779370 20140327132749
+131.228.29.58 0 1 1052 
+112.134.51.222 4 30 1011521 20140304204538
+14.102.106.212 4 30 1011521 20140326192218
+82.145.222.220 1 26 889685 20140327040849
+1.22.139.15 4 30 1011521 20140314131507
+59.178.154.49 8 42 1073428 20140309140641
+70.208.164.141 1 1 21582 20140328213740
+147.6.1.21 4 30 1024718 20140320141006
+122.163.27.6 1 23 686347 20140326174953
+210.212.249.130 4 31 1013782 20140329102615
+1.38.16.102 4 30 1016065 20140330132208
+114.130.65.15 4 30 1011521 20140317004032
+117.239.104.7 1 1 8542 20140327093524
+175.42.93.210 1 1 35123 20140321080758
+210.212.156.195 37 203 5508607 20140312153612
+202.46.62.21 1 1 4877 20140331165557
+106.51.161.27 1 1 11893 20140328221827
+85.72.209.5 0 1 26484 
+14.139.196.2 4 30 1001832 20140326000032
+218.186.9.225 5 31 1018885 20140328190355
+110.174.92.124 4 32 1046014 20140326193501
+117.211.90.154 4 30 1011521 20140325134208
+120.88.191.130 4 30 1011521 20140303205753
+27.124.49.186 5 31 1018885 20140306112744
+111.235.64.20 4 30 1001832 20140331153746
+162.136.192.1 5 34 1046872 20140318160757
+24.90.180.224 4 30 1011521 20140318000100
+131.228.29.67 0 2 6928 
+37.228.107.38 2 28 925455 20140312112950
+202.46.48.11 1 1 4877 20140324045506
+14.139.243.50 4 27 824880 20140322142358
+41.230.17.228 4 30 1020569 20140324164611
+83.160.97.91 6 35 1054073 20140306175424
+222.186.63.74 1 1 4877 20140324201530
+115.254.21.29 10 62 2116658 20140306152127
+121.54.54.155 5 31 1058329 20140313185509
+182.71.114.66 4 30 1011521 20140329175604
+14.139.85.163 6 38 1066823 20140312172115
+122.174.178.63 4 30 1020569 20140314142251
+189.78.213.225 1 27 818962 20140329214938
+208.25.111.155 4 30 1011521 20140331231359 20140331231350 /javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf
+129.69.221.8 4 30 1011521 20140331191147
+182.72.217.74 8 60 2023042 20140313224402
+222.186.63.90 1 1 4877 20140324201643
+203.177.206.54 6 35 1106993 20140308161927
+202.91.136.3 7 33 1046195 20140324181404
+117.240.224.65 4 30 1020569 20140310154751
+122.248.161.142 6 33 1024024 20140325132729
+131.228.29.5 0 1 3181 
+14.97.16.167 4 30 1020569 20140310001713
+203.115.118.114 8 38 1100801 20140327210448
+203.94.243.228 47 165 1731980 20140327160135
+117.203.50.59 8 43 1050651 20140309081439
+106.77.167.108 21 97 1497593 20140304191019
+37.228.105.102 1 25 887979 20140316061613
+120.60.128.52 5 34 1059497 20140318032508
+216.151.137.35 4 4 73390 20140306093927
+116.68.109.87 5 34 1151268 20140318115723
+68.3.226.163 5 31 1041598 20140318053024
+49.205.3.82 1 24 874370 20140322150946
+103.245.196.69 4 30 1011521 20140314111838
+14.139.190.100 1 1 30337 20140326090208
+125.63.68.98 5 34 656561 20140307102133
+14.139.125.204 5 31 1041598 20140304074425
+37.228.107.67 1 26 879996 20140318063214
+121.241.127.1 10 36 1129701 20140319124419
+117.205.165.230 10 50 1187154 20140327194344
+202.46.50.15 1 1 4877 20140306085244
+125.19.23.50 1 1 38719 20140325132137
+131.228.29.96 0 2 239216 
+8.35.200.44 0 1 1992 
+117.226.34.254 9 46 1115168 20140305205018
+71.246.229.154 5 31 1018885 20140330222926
+119.63.193.132 5 5 24385 20140330225914
+101.61.102.160 4 30 1001832 20140320171332
+188.125.103.114 4 30 1001832 20140311195820
+120.60.57.124 6 36 1065271 20140327133614
+203.115.106.100 63 188 2214785 20140328110148
+37.228.105.143 2 28 925455 20140330194705
+116.25.82.172 1 1 30630 20140319235134
+114.79.29.235 4 30 1024718 20140331144237
+124.124.193.134 4 30 1011521 20140326151048
+131.228.29.48 0 1 3483 
+193.52.103.31 1 8 164033 20140312195446
+8.35.200.32 0 2 15560 
+117.211.103.91 4 30 1001832 20140326084721
+131.228.29.71 0 1 1362 
+14.192.129.253 6 33 1054655 20140314030752
+81.148.255.250 1 26 889685 20140312211904
+192.12.88.250 2 13 108899 20140326061713
+74.128.34.57 6 32 1065693 20140312093148
+37.228.107.114 1 26 889685 20140323181217
+131.228.29.123 0 1 12379 
+66.249.80.42 1 1 8543 20140324225731
+131.228.29.37 0 1 1589 
+41.68.25.26 5 31 1018885 20140331193003
+202.46.49.14 1 1 4877 20140330225713
+116.193.137.201 2 28 937775 20140324210643
+182.180.86.88 4 30 1011521 20140331035837
+223.182.251.254 12 41 1153677 20140323091933
+117.196.102.37 4 30 1011521 20140328200158
+186.215.83.51 10 36 1129701 20140325053246
+76.112.32.18 4 30 1016065 20140315202514
+103.5.187.202 4 30 1011521 20140326203220
+103.225.132.175 4 30 1020569 20140324225223
+117.195.250.44 8 60 1046872 20140325122709
+163.14.2.17 5 31 1067377 20140331172039
+199.47.81.13 1 1 11730 20140310111411
+182.74.22.86 90 531 14661501 20140325091900
+80.40.134.103 4 5 99933 20140329120646
+213.238.175.67 2 2 65040 20140325135044
+130.239.40.190 5 31 1018885 20140318223918
+103.16.167.6 1 25 851011 20140315212138
+131.228.29.97 0 1 38360 
+184.91.212.195 1 2 30077 20140331074255
+222.186.63.110 0 1 1631 
+210.212.19.68 4 30 999876 20140307134114
+198.38.10.11 1 23 686347 20140325195131
+95.148.116.153 4 30 1011521 20140323203114
+117.211.134.86 8 48 1104665 20140320152604
+220.225.140.74 6 35 1054236 20140317161425
+202.59.231.33 5 31 1018885 20140314101305
+59.184.186.47 4 30 1011521 20140319205706
+49.206.155.47 5 31 1020063 20140309163137
+14.139.230.114 5 34 1076346 20140314124258
+220.227.41.253 6 35 1029147 20140315175710
+36.250.191.162 1 1 35123 20140308160332
+176.45.229.118 6 33 1100186 20140311004759
+8.35.200.33 0 2 60405 
+5.153.234.42 2 2 32235 20140330074942
+117.55.243.14 5 31 1018885 20140325152217
+1.22.178.143 4 30 1011521 20140330051107
+192.99.4.25 6 6 96770 20140320185247
+131.228.29.87 0 2 5856 
+108.5.129.38 4 30 1011521 20140310043737
+23.90.4.65 2 2 32235 20140318233059
+131.228.29.4 0 1 77645 
+131.228.29.28 0 1 199668 
+124.123.31.26 7 34 1101463 20140328023423
+210.212.184.165 4 30 999876 20140327100722
+70.39.185.232 1 54 944540 20140320010056
+210.195.126.85 5 31 1007240 20140310174655
+131.228.29.106 0 1 1052 
+117.239.47.98 7 85 1047807 20140319111431
+223.189.198.215 1 23 670040 20140315100157
+14.96.52.252 4 30 1011521 20140322124936
+197.1.234.234 2 3 107472 20140321042538
+8.35.200.45 0 1 77645 
+27.251.145.36 4 30 999876 20140312194630
+140.124.201.86 5 31 1071526 20140304184833
+120.62.47.115 4 31 1046014 20140310125548
+222.186.63.108 0 1 35271 
+117.209.132.23 4 30 1011521 20140305161625
+131.228.29.64 0 2 79096 
+49.204.6.150 5 31 1014179 20140318165719
+199.19.249.196 7 7 124617 20140331205648
+120.60.164.106 4 30 1020569 20140306113149
+112.208.186.28 4 30 1011521 20140316172204
+119.147.146.189 1 2 38262 20140304184820
+14.96.75.84 4 30 1011521 20140309121503
+210.212.148.192 4 30 1001832 20140327153208
+115.249.10.252 4 30 1011521 20140319143336
+103.250.44.34 4 30 999876 20140330204534
+65.55.215.235 2 46 1413289 20140321192017
+117.248.24.14 4 30 1011521 20140331173147
+59.93.242.28 5 32 1021146 20140314132355
+50.198.68.73 3 22 631832 20140308061812
+120.60.187.0 5 31 1027933 20140325225250
+119.63.193.194 2 2 9754 20140325025615
+131.228.29.65 0 1 2081 
+64.83.152.58 4 30 999876 20140327180825
+131.228.29.16 0 1 2675 
+182.189.129.220 0 1 33280 
+65.126.165.59 7 36 1087275 20140310232652
+131.228.29.47 0 2 58322 
+117.195.142.240 8 61 1057907 20140312132435
+220.255.2.229 0 1 42433 
+1.22.85.61 39 156 1834720 20140307200306
+122.172.237.230 1 23 636023 20140326004330
+37.228.105.1 1 26 889685 20140306135035
+122.168.152.71 5 35 1057744 20140304145837
+223.29.204.2 1 9 233858 20140322211705
+131.228.29.15 0 1 1362 
+76.20.250.77 5 31 1018885 20140311025049
+122.169.24.250 5 31 1013725 20140324142749
+71.88.210.169 5 31 1018885 20140331195652
+8.35.201.37 0 2 201299 
+117.201.230.190 6 39 1077695 20140305174425
+8.35.201.34 0 1 93868 
+124.195.192.32 5 31 1009196 20140325231507
+131.228.29.105 1 1 21582 20140328195145
+193.60.72.202 0 1 33280 
+202.28.41.7 1 27 960957 20140325120926
+131.228.29.38 0 1 33432 
+169.234.17.46 4 30 1011521 20140321041753
+117.97.145.54 5 31 1048477 20140309161319
+182.186.114.254 4 30 1011521 20140329141659
+115.248.226.53 0 10 401612 
+122.174.214.253 1 26 889685 20140328112321
+131.253.24.70 1 7 214813 20140311060552
+89.146.57.180 4 30 1011521 20140325212754
+75.134.37.233 4 30 1034234 20140311233734
+131.228.29.98 0 2 99781 
+162.251.127.225 4 30 1011521 20140326075348
+202.65.154.59 4 30 1024718 20140308102215
+133.65.64.226 5 34 1059497 20140331102912
+8.35.200.34 1 3 13395 20140310141640
+174.29.21.199 4 30 1011521 20140311085243
+8.35.201.45 0 1 10777 
+124.124.59.59 1 27 929233 20140321154728
+131.228.29.72 0 1 57348 
+137.28.180.157 4 30 1020569 20140310090853
+120.43.20.254 1 1 19139 20140313131705
+202.164.55.103 2 15 437769 20140326120128
+218.248.24.3 5 31 1067377 20140327134355
+8.20.91.3 2 21 537109 20140325213706
+202.46.58.21 1 1 4877 20140306025408
+223.177.83.230 1 26 889685 20140327154604
+202.46.57.64 1 1 4877 20140323205326
+124.180.239.189 5 31 1018885 20140331120047
+131.228.29.49 0 2 3907 
+115.242.163.108 3 30 992200 20140329220121
+121.96.86.3 4 30 1011521 20140309075826
+205.214.198.14 3 45 1025821 20140325001349
+49.213.56.74 5 35 1069842 20140303194404
+14.139.208.88 4 30 1001668 20140303191140
+5.81.62.28 4 30 1011521 20140324052118
+201.101.10.8 4 30 1001832 20140319184607
+182.237.148.16 4 28 998162 20140315223415
+103.246.38.196 13 13 241423 20140326143534
+125.16.17.153 5 31 1058329 20140327182346
+59.96.238.184 6 36 1065271 20140323002007
+131.228.29.88 0 2 201374 
+178.137.90.227 1 1 37525 20140325094620
+182.70.140.215 4 32 148022 20140315123622
+122.168.158.200 6 38 1060388 20140326003322
+84.64.62.175 1 27 929233 20140319080028
+62.210.142.7 5 5 116188 20140330151540
+78.60.0.235 5 31 1041598 20140306195352
+122.163.60.36 5 31 1018885 20140322115437
+148.251.11.144 1 1 4877 20140323073419
+115.118.40.129 6 32 1065693 20140319053644
+1.187.63.47 1 26 889685 20140327233415
+117.211.84.11 13 94 3056145 20140331092656
+61.14.95.131 38 134 2329175 20140326143534
+117.204.69.135 10 58 1176859 20140304210211
+222.186.63.109 0 1 62287 
+14.139.121.55 4 30 1020569 20140329154946
+151.201.29.23 4 30 1011521 20140307052304
+114.79.29.127 4 30 1024718 20140319091934
+78.137.82.199 4 30 1028658 20140326201912
+117.200.118.79 4 30 1011521 20140330202640
+119.63.193.130 1 1 4877 20140323185754
+67.248.2.247 5 31 1018885 20140311110205
+168.167.78.8 5 31 1019769 20140320160914
+122.3.29.105 4 30 1011521 20140305080321
+222.186.63.89 0 1 5195 
+131.228.29.21 0 1 77645 
+189.73.212.23 4 30 1019243 20140310235928
+202.159.218.122 1 22 632269 20140325194912
+117.242.209.178 4 30 1001669 20140306231522
+37.203.208.35 2 2 30444 20140308165730
+117.223.120.185 5 35 1057907 20140313142726
+112.211.179.55 2 2 32235 20140314092333
+84.64.12.113 1 26 888054 20140327155529
+124.253.85.96 4 30 999876 20140320211623
+194.237.142.17 5 31 1018885 20140330154310
+112.79.36.15 5 31 1058329 20140317201548
+182.73.185.46 1 8 89854 20140304181311
+115.248.35.18 7 40 1250493 20140308152535
+217.122.182.207 4 30 1011521 20140304025553
+117.197.188.140 5 32 1053378 20140312203647
+8.35.200.35 1 2 7552 20140310113503
+144.120.8.67 0 23 864433 
+14.139.242.69 0 1 26484 
+131.228.29.62 0 1 208229 
+111.118.249.220 3 8 327435 20140313124402
+62.24.252.133 1 16 446909 20140324212957
+131.228.29.94 0 1 58699 
+117.206.247.248 5 39 185081 20140304233131
+49.207.103.77 6 39 1069800 20140314030807
+188.40.247.209 2 2 32235 20140328225342
+117.223.67.208 4 30 1001832 20140311154753
+113.193.196.13 4 30 1020569 20140324090647
+180.215.74.26 5 31 21582 20140320183449
+59.177.3.70 4 30 1011521 20140307112753
+113.193.109.100 0 1 33280 
+8.35.200.36 0 1 1589 
+61.95.219.166 6 39 1102202 20140328130420
+117.213.72.40 4 30 1011521 20140324230636
+197.2.33.145 4 30 1024718 20140310091509
+131.228.29.125 1 1 21582 20140328100119
+202.12.83.44 5 31 1027933 20140323190805
+203.158.4.227 1 4 57831 20140325120910
+120.56.201.149 5 34 1037558 20140319230546
+204.62.51.1 1 23 695395 20140327051405
+41.72.221.185 5 34 1033103 20140310150551
+50.137.77.126 4 30 1011521 20140325204521
+49.15.122.1 5 31 1032082 20140330114027
+131.228.29.1 0 1 3181 
+131.228.29.18 0 1 58699 
+65.55.213.49 1 23 681641 20140312171456
+131.228.29.73 0 2 59673 
+103.242.239.40 0 8 388367 
+8.35.200.46 0 2 36915 
+131.228.29.53 0 2 7006 
+117.220.16.5 5 54 1088473 20140310204924
+122.252.246.166 4 30 1011521 20140308094929
+171.61.1.240 0 1 58699 
+124.253.125.77 5 31 989177 20140305165739
+131.228.29.14 0 1 93868 
+117.211.45.37 101 600 8714262 20140326123917
+173.52.100.150 1 26 889685 20140306084208
+180.215.74.217 5 31 1058329 20140310191534
+81.202.24.35 5 34 1030856 20140318033610
+223.196.162.255 5 34 1030213 20140310094502
+101.56.238.87 6 39 1077858 20140316144835
+80.101.40.16 1 26 889685 20140306030334
+117.211.40.45 6 35 1037870 20140312164432
+120.61.202.194 5 34 1030506 20140317003113
+174.57.185.108 6 32 1065693 20140327201219
+71.238.170.119 4 30 1011521 20140310223444
+8.35.201.35 0 1 1402 
+129.7.88.50 4 30 1011521 20140319004823
+147.252.79.174 5 32 1047291 20140310221841
+131.228.29.27 0 1 974 
+222.255.171.9 5 32 1047291 20140312222357
+183.83.121.232 5 31 1041598 20140306185142
+128.118.24.137 4 30 1011521 20140331184356
+197.78.150.154 0 1 33280 
+117.253.196.205 1 24 886015 20140327123215
+122.173.223.17 9 86 1054685 20140322221859
+202.46.60.62 1 1 4877 20140330105713
+202.46.52.25 1 1 4877 20140323185558
+210.212.85.99 8 43 1123035 20140310142213
+119.226.42.182 94 565 11648285 20140324095357
+172.56.10.67 0 1 26484 
+8.35.201.42 0 1 208229 
+130.233.129.81 5 31 1018885 20140316184437
+89.210.169.192 0 1 33280 
+131.228.29.69 0 1 42433 
+115.112.88.98 6 35 1035265 20140326143531
+220.225.146.18 5 36 1034264 20140313115336
+14.139.82.130 5 31 1018885 20140321215948
+117.211.45.3 99 575 5357789 20140326102219
+71.178.184.231 4 30 1045768 20140312072702
+131.228.29.85 0 2 44022 
+117.200.37.136 6 32 1054048 20140320022329
+131.179.212.74 4 30 1024718 20140304042402
+175.110.248.28 6 34 1054485 20140315172419
+115.249.130.45 7 49 1543906 20140324160122
+1.38.16.63 1 27 891946 20140303204314
+117.239.193.188 5 34 1035050 20140325153553
+80.40.134.104 13 13 332677 20140329120646
+69.122.188.121 7 34 1101299 20140304020905
+49.248.247.54 12 71 2090718 20140328001118
+8.35.200.37 2 2 9815 20140310141620
+117.201.118.180 1 27 882257 20140312141039
+131.228.29.100 0 1 2081 
+122.169.20.70 4 30 1011521 20140307095634
+193.48.126.28 1 1 8542 20140324124721
+115.187.39.6 5 31 1018885 20140323224947
+175.44.1.132 1 1 35123 20140313162938
+86.57.192.145 4 30 999876 20140309232131
+200.207.21.176 4 30 1020569 20140313084948
+42.61.33.155 4 30 1011521 20140304182822
+68.171.231.80 0 5 313696 
+106.219.22.71 1 24 704737 20140324202948
+112.134.126.109 4 30 1011521 20140326004202
+8.35.200.47 0 3 119340 
+1.22.67.140 1 1 34779 20140321183843
+27.61.94.46 4 30 1027621 20140313133702
+122.168.45.17 6 35 1053113 20140327214046
+144.82.174.112 4 30 1011521 20140322021922
+115.245.106.173 1 26 889685 20140317102852
+103.246.39.212 1 1 21582 20140325132712
+57.66.91.4 12 44 1211961 20140310052257
+131.253.24.43 1 23 695745 20140317135243
+8.35.200.40 0 2 4535 
+144.82.169.15 6 32 1065693 20140322024539
+123.201.55.74 4 30 1001669 20140307123412
+117.194.3.86 6 39 1069800 20140329201923
+147.232.64.33 5 31 1032082 20140327153725
+36.248.168.184 1 1 35123 20140305073830
+209.88.88.14 0 13 586014 
+69.253.217.111 4 30 1009890 20140317094104
+117.99.171.139 5 35 1049529 20140318091220
+182.18.179.2 4 30 1011521 20140329000736
+115.115.166.90 4 30 1011521 20140319143344
+123.63.112.123 5 31 1058329 20140324215920
+158.196.42.142 4 30 1020569 20140313022417
+131.228.29.111 0 1 38360 
+103.242.239.72 3 30 679950 20140321215240
+131.228.29.63 0 1 12379 
+202.153.47.98 1 26 889685 20140325142623
+54.237.43.151 1 1 30630 20140307200648
+141.0.8.158 5 31 1001790 20140307125553
+202.152.202.142 2 28 925292 20140307121346
+131.228.29.41 0 1 93868 
+131.228.29.108 0 1 38360 
+202.46.56.53 1 1 4877 20140325025423
+72.18.64.34 6 35 1044319 20140319215430
+131.228.29.19 0 2 4885 
+8.35.201.40 0 2 2336 
+202.46.63.40 1 1 4877 20140329225659
+77.49.50.12 4 30 1011521 20140317155623
+220.255.2.94 1 1 8542 20140326175801
+202.131.115.130 10 70 1987427 20140327141435
+178.78.234.165 4 30 1011521 20140313184038
+139.190.30.238 3 29 963287 20140327185243
+50.57.64.198 3 3 93991 20140331035842
+125.63.73.163 4 30 653058 20140326145551
+131.253.24.69 1 8 191740 20140316121919
+101.222.250.226 5 31 1018885 20140331113541
+117.211.83.34 6 35 1018970 20140304123618
+106.206.55.91 6 38 1068080 20140322223838
+114.143.134.114 10 36 1129701 20140306124524
+8.35.200.42 0 2 59429 
+59.92.99.110 4 30 1020569 20140326202340
+117.55.241.3 26 125 3334628 20140326100608
+203.115.107.70 1 27 929233 20140313093617
+122.177.171.140 5 34 1046872 20140331214759
+8.35.200.38 0 2 6826 
+182.185.82.222 4 30 1011521 20140310233046
+77.247.181.165 5 31 1018885 20140314085536
+67.163.5.186 4 30 1011521 20140305081808
+117.222.33.81 5 35 1057907 20140322190721
+129.64.10.244 4 30 1011521 20140326193824
+144.82.247.14 6 32 1065693 20140321235544
+180.151.126.95 4 30 1020569 20140331160321
+140.192.245.26 4 30 1011521 20140320220243
+37.228.106.88 3 37 1167320 20140324104226
+117.239.193.187 6 35 1030778 20140313152716
+202.164.134.213 4 30 1024718 20140330175409
+141.0.11.95 2 29 916085 20140321124544
+203.199.213.130 7 39 1076798 20140318180426
+14.97.67.52 4 30 1011521 20140316182324
+223.231.111.166 1 28 1100175 20140307163340
+8.35.201.36 0 2 44425 
+119.63.193.195 1 1 4877 20140331165752
+222.186.63.107 0 1 3483 
+125.209.82.218 5 33 1097783 20140317114625
+8.35.200.39 0 1 2261 
+171.98.60.35 3 26 873953 20140306182537
+173.66.230.55 5 31 1018885 20140322083943
+106.78.167.203 4 30 999876 20140325202751
+78.46.43.132 2 2 64083 20140312122201
+202.133.60.157 4 30 1011521 20140316152110
+89.68.206.31 1 1 9937 20140308184537
+101.61.167.110 1 27 891946 20140306202545
+37.228.104.29 2 23 921998 20140306092437
+131.228.29.50 0 1 1706 
+128.180.149.204 4 30 1011521 20140313185836
+131.228.29.110 1 1 21582 20140316203951
+198.27.80.33 4 4 75182 20140330141252
+131.228.29.34 0 1 10777 
+116.75.150.97 0 1 26484 
+152.105.21.73 1 12 239383 20140325000838
+101.63.168.175 4 30 1011521 20140328192159
+112.208.141.140 3 23 776780 20140311145717
+14.97.76.218 4 30 1011521 20140307193608
+203.99.193.218 10 36 1129701 20140310161331
+49.14.229.92 4 30 1016065 20140330183611
+117.220.130.249 6 35 1054073 20140306221632
+131.228.29.25 0 1 3335 
+27.34.243.186 4 30 1011521 20140328165925
+131.228.29.122 1 1 21582 20140328195216
+41.75.201.246 1 17 522434 20140306202537
+131.228.29.44 0 1 3907 
+119.63.193.131 1 1 4877 20140329225900
+131.228.29.8 0 1 10777 
+49.205.144.216 4 30 999876 20140313004003
+117.213.207.235 1 15 206311 20140324214455
+103.247.50.172 2 9 102473 20140325221553
+115.111.158.58 5 31 1058329 20140321125014
+81.133.56.172 1 26 879833 20140305195946
+119.147.146.194 1 2 115450 20140328002103
+8.28.16.254 2 2 24483 20140312073513
+117.220.79.179 1 4 21582 20140308212017
+223.184.42.243 1 30 869553 20140325213424
+131.228.29.82 0 1 10777 
+134.2.251.15 5 31 1018885 20140317213403
+162.224.84.30 4 30 1011521 20140318104600
+131.228.29.33 0 2 208229 
+37.228.104.205 1 26 889685 20140320004035
+85.194.120.165 6 35 1160031 20140320141440
+131.228.29.99 0 1 12379 
+203.115.123.20 8 44 1103104 20140324120656
+106.76.252.152 1 26 889685 20140309211817
+49.136.159.147 4 30 1001669 20140306183821
+176.43.40.212 1 1 16542 20140324094800
+66.253.204.27 1 26 889685 20140320135142
+46.118.127.190 1 1 29591 20140331094631
+103.15.60.23 3 29 1003273 20140308215459
+200.181.89.183 1 1 21582 20140324212359
+188.161.66.118 4 30 1006213 20140306033109
+223.183.150.211 4 31 1013782 20140315092030
+180.211.118.146 4 30 1011521 20140331111647
+131.228.29.43 0 1 208229 
+112.111.191.156 1 1 35123 20140304132110
+101.220.241.180 5 37 1062451 20140320224337
+202.53.81.82 7 43 1081883 20140327151954
+1.186.1.47 4 30 1024718 20140331192439
+216.147.160.5 5 31 1018885 20140320210143
+131.253.24.35 1 23 699544 20140318073444
+117.239.41.163 2 8 33127 20140311140847
+117.210.188.19 6 36 1065271 20140331154518
+27.251.89.10 6 39 1102947 20140311113102
+76.181.69.248 2 2 24396 20140327111408
+76.95.99.197 4 30 1024718 20140331062227
+131.228.29.3 0 2 2675 
+123.63.33.169 10 42 393593 20140325152043
+222.186.63.106 0 1 3335 
+69.12.79.127 2 2 32235 20140321130126
+174.60.53.143 4 30 1011521 20140314042837
+193.52.102.12 4 30 999876 20140308061445
+119.147.146.192 0 1 3483 
+14.98.135.119 4 30 1024718 20140325231321
+131.228.29.30 0 1 33432 
+113.212.69.114 5 5 114398 20140304071133
+131.228.29.57 0 1 33432 
+188.240.136.30 2 2 32209 20140310220033
+115.115.225.214 4 30 1020569 20140310120251
+182.71.213.50 1 9 200979 20140322221711
+131.228.29.32 0 1 1402 
+49.203.54.40 5 32 1060590 20140329074027
+1.23.209.197 4 30 1006190 20140312202121
+119.63.193.196 1 1 4877 20140323205514
+106.201.141.57 27 47 139631 20140312100635
+99.35.154.197 4 30 1011521 20140325110439
+210.195.184.141 5 32 1047291 20140313090035
+14.139.245.194 7 40 1183004 20140313111457
+190.116.20.10 7 36 1104546 20140328031914
+8.35.201.41 0 1 3907 
+131.228.29.60 0 2 4723 
+37.228.106.68 1 23 819727 20140305183014
+180.149.3.188 1 1 21582 20140325040509
+203.223.191.162 17 92 2276018 20140304102149
+14.139.218.214 0 1 26484 
+67.2.153.188 4 30 1011521 20140309051307
+31.44.75.193 6 34 1085341 20140309214458
+124.124.124.218 4 30 1011521 20140321153950
+131.228.29.77 0 1 1706 
+131.228.29.13 0 1 4847 
+62.24.181.135 1 12 454497 20140323160858
+49.15.139.194 4 30 1011521 20140325165013
+8.35.200.43 1 1 23828 20140310114342
+180.149.31.147 5 31 1018885 20140317024504
+131.228.29.24 0 2 7390 
+131.228.29.70 0 1 3671 
+222.186.63.73 0 1 1706 
+75.39.16.47 2 2 74040 20140306115052
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140301 115 709 18622915 10
+20140302 88 659 20186331 14
+20140303 207 1234 35940027 17
+20140304 212 1336 35920185 26
+20140305 446 1477 32636533 24
+20140306 181 1227 40887374 34
+20140307 224 1317 34845354 29
+20140308 94 663 20122042 20
+20140309 111 753 24020158 20
+20140310 33538 41174 120775871 41
+20140311 11743 16647 80512126 24
+20140312 361 1885 46587250 32
+20140313 165 1095 34476497 25
+20140314 142 972 31114906 22
+20140315 705 1597 24329528 18
+20140316 73 558 17855503 17
+20140317 100 749 23425505 19
+20140318 665 2205 52932294 37
+20140319 144 806 22981773 23
+20140320 125 966 28995355 22
+20140321 92 658 18503584 22
+20140322 99 688 18370127 20
+20140323 84 584 18310098 20
+20140324 336 1950 47149112 39
+20140325 156 1120 31743087 46
+20140326 426 2590 55019447 40
+20140327 263 1691 48458685 34
+20140328 226 1355 38963899 29
+20140329 100 615 19897302 19
+20140330 102 638 20449911 27
+20140331 214 1516 46449748 35
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 51
+5mn-15mn 38
+30s-2mn 103
+0s-30s 470
+15mn-30mn 40
+2mn-5mn 42
+30mn-1h 60
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1256
+/home/mca13020.nirmauni/2/alive 1145 2290 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 855 6425136 5 46
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 855 36914158 3 232
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 854 20433884 9 70
+/home/heavenpatel/2/alive 636 636 0 0
+/home/mca13061@nirmauni.ac.in/0/alive 633 633 0 0
+/home/kuldeep24/0/alive 621 621 0 1
+/home/heavenpatel/3/alive 614 1163 0 0
+/home/parthpatel4u/0/alive 573 573 0 0
+/home/mca13015/2/alive 570 1075 0 0
+/home/mca12/ 7 55993 0 0
+/home/mca05.nirmauni/4/alive 37 37 0 0
+/home/bhanu_bhardwaj/ 3 18801 0 0
+/home/thakorsuresh%40nirmauni.ac.in/7/ 3 180832 0 0
+/home/isha46_mca/ 2 12005 0 0
+/home/jaydeep.patel.9693@gmail.com/0/alive 496 813 0 0
+/home/parthpatel4u/3/cell_update 7 1338 0 0
+/home/mca13061@nirmauni.ac.in/1/alive 6 6 0 0
+/home/nimeshpatel/3/eval 11 136 0 0
+/home/mca1353/0/rename 1 4 0 0
+/home/isha46_mca/2/eval 23 340 0 0
+/home/ChestaAgarwal/ 11 70097 0 0
+/home/Nayan/3/ 1 18411 0 0
+/home/rahul0090392/4/eval 76 831 0 0
+/home/thakorsuresh@nirmauni.ac.in/8/eval 11 172 0 0
+/home/parthpatel4u/0/cell_update 1 130 0 0
+/home/mca1356%40nirmauni.ac.in/1/ 1 63124 0 0
+/home/mca13003.nirmauni/6/rename 1 4 0 0
+/home/parthpatel4u/2/cell_update 7 2141 0 0
+/home/mca13007.nirmauni/1/save_snapshot 4 20 0 0
+/home/siris2kx/0/discard_and_quit 2 10 0 0
+/home/hardiksl@yahoo.co.in/7/eval 15 120 0 0
+/home/parthpatel4u/3/ 1 63054 0 0
+/home/mca12/6/cell_update 21 8407 0 0
+/home/darsthakkar/4/eval 6 84 0 0
+/home/rahul0090392/0/ 2 100982 0 0
+/home/pub/13/rate 1 2737 0 0
+/home/mca1356@nirmauni.ac.in/1/eval 9 120 0 0
+/home/mca13003.nirmauni/5/cell_update 1 130 0 0
+/home/samcool4all/ 6 61293 0 0
+/home/nimeshpatel/1/eval 34 409 0 0
+/home/jinalpatel@nirma/0/cell_list 2 78 0 0
+/home/gkjayabalu/4/save_and_quit 1 5 0 0
+/home/pub/3/ 24 716637 1 4
+/home/smita.agrawal%40nirmauni.ac.in/9/edit 1 32139 0 0
+/home/ashutosh.ruparelia/0/cell_update 1 130 0 0
+/login 168 833961 1 2
+/home/pub/2/ 128 3781605 38 13
+/home/prashant_1579@rediffmail.com/0/rename 1 4 0 0
+/home/parthpatel4u/4/eval 5 76 0 0
+/home/darsthakkar/13/cell_update 1 130 0 0
+/home/mca05.nirmauni/5/share 1 15634 0 0
+/home/mca18.nirmauni/6/ 1 50506 0 0
+/home/pub/17/ 9 151883 3 1
+/home/hardikrathod/0/eval 5 64 0 0
+/home/hardiksl%40yahoo.co.in/9/ 1 50541 0 0
+/home/mca13003.nirmauni/1/alive 4 4 0 0
+/home/nimeshpatel/1/cell_list 3 117 0 0
+/home/mca17.nirmauni/4/alive 425 795 0 0
+/home/mca13011.nirmauni.ac.in/3/alive 547 682 0 0
+/home/Shailav/3/cell_update 12 1988 0 0
+/home/nehasingh@nirma/0/eval 2 16 0 0
+/home/mca12/0/alive 1 1 0 0
+/home/mca18.nirmauni/2/eval 37 5638 0 0
+/home/sonagravijay/7/cell_list 1 38 0 0
+/home/Jaynish/0/cell_update 4 520 0 0
+/home/heavenpatel/0/system/sage 1 7 0 0
+/home/tofik/6/alive 1 1 0 0
+/home/nehasingh@nirma/2/alive 79 118 0 0
+/home/sonagravijay/1/eval 2 28 0 0
+/home/sonagravijay/1/cell_update 3 390 0 0
+/doc/live/developer/ 1 32751 0 0
+/home/mca13007.nirmauni/0/alive 9 9 0 0
+/home/gkjayabalu/3/ 4 87146 0 0
+/home/thakorsuresh@nirmauni.ac.in/6/alive 290 290 0 0
+/home/mca1353/2/alive 256 449 0 0
+/home/mca13003.nirmauni/2/alive 2 2 0 0
+/home/kdchauhan@gmail.com/0/new_cell_before 2 5110 0 0
+/home/mca13015/3/ 1 60171 0 0
+/home/heavenpatel/5/eval 2 28 0 0
+/home/parthpatel4u/8/ 1 63054 0 0
+/home/nehasingh@nirma/2/eval 14 173 0 0
+/home/darsthakkar/11/cell_update 1 130 0 0
+/home/mca06.nirmauni/11/print 2 56470 0 0
+/home/nimeshpatel/2/alive 6 6 0 0
+/home/Nayan/1/ 1 66075 0 0
+/home/sonagravijay/4/eval 13 176 0 0
+/home/mca13002.nirmauni/5/ 1 51255 0 0
+/home/pub/3/download/Sampling.sws 1 5201 0 0
+/home/mca05.nirmauni/5/ 3 161194 0 0
+/home/AAKASH/2/pretty_print/true 1 7 0 0
+/home/mca1356@nirmauni.ac.in/5/cell_update 6 1312 0 0
+/home/mca13007.nirmauni/3/new_cell_after 1 2683 0 0
+/home/darsthakkar/7/cell_update 6 780 0 0
+/home/mca1353/0/alive 310 310 0 0
+/home/pub/14/rate 1 2746 0 0
+/home/gkjayabalu/3/eval 4 5194 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/0/cell_update 13 1690 0 0
+/home/darsthakkar/7/ 1 50487 0 0
+/home/Shailav/7/eval 2 28 0 0
+/home/Jaynish/6/cell_update 37 10596 0 0
+/home/vihar/2/ 1 65003 0 0
+/home/AvinashSaini/0/alive 1 1 0 0
+/home/mca1356@nirmauni.ac.in/6/cell_update 13 7951 0 0
+/home/mca13015/0/ 1 24222 0 0
+/home/_sage_/22/alive 3 3 0 0
+/home/siris2kx/0/alive 380 380 2 1
+/home/samcool4all/4/ 1 50488 0 0
+/home/mca12/5/eval 76 11280 0 0
+/home/vihar/3/alive 24 24 0 0
+/home/ashutosh.ruparelia/ 2 11276 0 0
+/home/hardiksl@yahoo.co.in/3/cell_update 9 2035 0 0
+/home/tofik/5/eval 4 68 0 0
+/home/nehasingh%40nirma/ 2 12052 0 0
+/home/mohammed/3/ 1 50469 0 0
+/home/darsthakkar/6/ 1 50487 0 0
+/home/gkjayabalu/2/ 8 738639 0 0
+/home/sonagravijay/6/ 1 50493 0 0
+/home/thakorsuresh@nirmauni.ac.in/11/alive 85 131 0 0
+/home/Jaynish/5/alive 37 64 0 0
+/home/rinal/2/new_cell_before 1 2570 0 0
+/home/sonagravijay/0/ 1 50493 0 0
+/home/parthpatel4u/9/eval 18 300 0 0
+/home/darsthakkar/12/eval 4 68 0 0
+/home/jaydeep.patel.9693%40gmail.com/1/ 1 63166 0 0
+/home/smita.agrawal@nirmauni.ac.in/10/cell_update 10 1580 0 0
+/home/gkjayabalu/4/save_snapshot 4 20 0 0
+/home/darsthakkar/15/ 1 63050 0 0
+/home/mca21.nirmauni/3/alive 545 1090 0 0
+/home/mca17.nirmauni/ 1 10821 0 0
+/home/mca1356%40nirmauni.ac.in/3/ 1 63124 0 0
+/home/AvinashSaini/1/ 2 53119 0 0
+/home/darsthakkar/1/ 4 252381 0 0
+/home/Shailav/3/alive 15 15 0 0
+/home/mca13007.nirmauni/3/rename 1 4 0 0
+/home/isha46_mca/0/ 3 151656 0 0
+/home/heavenpatel/6/cell_update 2 260 0 0
+/home/parthpatel4u/5/cell_update 2 260 0 0
+/home/mca06.nirmauni/11/cell_update 25 17887 0 0
+/home/aniruddha/0/cell_update 3 630 0 0
+/home/parthpatel4u/5/ 1 63054 0 0
+/home/mca13020.nirmauni/0/ 1 63086 0 0
+/home/rinal/2/cell_update 47 9578 0 0
+/home/hardikrathod/0/alive 10 10 0 0
+/home/mca06.nirmauni/11/eval 44 5706 0 0
+/home/vipin3195/1/ 1 18434 0 0
+/home/mohammed/0/alive 94 94 0 0
+/home/thakorsuresh@nirmauni.ac.in/5/alive 56 72 0 0
+/home/Shailav/6/ 1 63019 0 0
+/home/Shailav/1/rename 1 4 0 0
+/home/mohammed/4/cell_update 14 4213 0 0
+/home/darsthakkar/7/eval 6 96 0 0
+/home/shubham15744/0/alive 8 8 0 0
+/home/mohammed/0/ 1 50469 0 0
+/home/hardiksl@yahoo.co.in/0/save_snapshot 1 5 0 0
+/home/pub1/ 1 2653 0 0
+/home/thakorsuresh@nirmauni.ac.in/0/cell_update 2 260 0 0
+/home/mca05.nirmauni/ 5 46210 0 0
+/home/chirgaiya/ 2 11977 0 0
+/home/jinalpatel@nirma/1/cell_list 1 39 0 0
+/home/kdchauhan@gmail.com/2/cell_list 1 39 0 0
+/home/mca12/3/ 2 54654 0 0
+/home/aniruddha/1/cell_update 11 3773 0 0
+/home/thakorsuresh@nirmauni.ac.in/11/eval 24 324 0 0
+/home/ChestaAgarwal/0/alive 2 2 0 0
+/home/darsthakkar/14/eval 5 15965 0 0
+/home/jaydeep.patel.9693@gmail.com/1/alive 257 486 0 0
+/home/siris2kx/0/system/sage 1 7 0 0
+/home/nehasingh@nirma/1/eval 49 776 0 0
+/home/mohammed/7/discard_and_quit 1 5 0 0
+/home/vipin3195/0/alive 226 226 1 1
+/home/isha46_mca/0/cell_list 1 38 0 0
+/home/tofik/ 4 35027 0 0
+/home/AAKASH/1/eval 53 796 0 0
+/home/kdchauhan@gmail.com/1/cell_update 2 260 0 0
+/home/gkjayabalu/2/cell_list 6 234 0 0
+/home/jinalpatel@nirma/0/eval 29 508 0 0
+/home/Nayan/2/ 2 131531 0 0
+/home/mca05.nirmauni/5/cell_update 45 23924 0 0
+/home/sonagravijay/7/cell_update 11 3004 0 0
+/home/vihar/0/discard_and_quit 2 10 0 0
+/home/mca13008/3/cell_update 70 26099 0 0
+/home/mca17.nirmauni/4/ 1 50617 0 0
+/home/mca13063@nirmauni.ac.in/1/eval 4 68 0 0
+/home/mohammed/4/alive 53 81 0 0
+/home/mohammed/4/ 1 50469 0 0
+/home/hardiksl@yahoo.co.in/6/cell_update 1 130 0 0
+/home/sonagravijay/3/ 1 29676 0 0
+/home/mca13063@nirmauni.ac.in/1/alive 22 22 0 0
+/home/heavenpatel/9/cell_update 6 1024 0 0
+/home/parthpatel4u/8/new_cell_before 1 2570 0 0
+/home/tofik/8/cell_update 4 752 0 0
+/home/mohammed/5/discard_and_quit 1 5 0 0
+/home/hardiksl@yahoo.co.in/8/alive 5 5 0 0
+/home/hardiksl@yahoo.co.in/5/cell_update 1 130 0 0
+/home/aniruddha/ 1 5620 0 0
+/home/nehasingh@nirma/1/cell_list 3 117 0 0
+/home/Shailav/9/ 1 63019 0 0
+/home/mca13007.nirmauni/3/cell_update 14 3608 0 0
+/home/mca18.nirmauni/2/cell_update 20 6610 0 0
+/home/pub/14/ 116 2236325 27 3
+/home/hardikrathod/3/ 4 252072 0 0
+/home/gkjayabalu/3/alive 23 23 0 0
+/home/nimeshpatel/2/eval 3 48 0 0
+/home/nimeshpatel/4/cell_update 46 10899 0 0
+/home/tofik/8/eval 2 28 0 0
+/home/darsthakkar/0/cell_update 2 260 0 0
+/home/Jaynish/7/cell_update 19 3886 0 0
+/home/mca06.nirmauni/11/alive 545 706 0 0
+/home/vipin3195/1/discard_and_quit 1 5 0 0
+/home/mca13020.nirmauni/4/cell_update 16 14675 0 0
+/home/rinal/1/alive 392 767 0 0
+/home/Nayan/0/revisions 2 38057 0 0
+/home/hardiksl%40yahoo.co.in/7/ 1 50541 0 0
+/home/Shailav/6/cell_update 2 260 0 0
+/home/mca1356%40nirmauni.ac.in/2/ 1 18513 0 0
+/history 3 3584 0 0
+/home/hardiksl%40yahoo.co.in/3/ 1 50541 0 0
+/home/Nayan/ 19 147105 1 0
+/home/heavenpatel/3/ 2 100970 0 0
+/home/parthpatel4u/6/ 1 63054 0 0
+/home/mca1353/1/cell_update 5 1515 0 0
+/home/sonagravijay/9/eval 3 48 0 0
+/home/parthpatel4u/10/cell_update 1 130 0 0
+/home/hardiksl@yahoo.co.in/4/eval 4 56 0 0
+/home/nehasingh%40nirma/1/ 7 353911 0 0
+/home/darsthakkar/15/eval 10 140 0 0
+/home/heavenpatel/3/cell_list 1 38 0 0
+/home/jai_nagar/0/cell_update 25 5294 0 0
+/home/Shailav/2/eval 8 128 0 0
+/home/Shailav/6/eval 2 28 0 0
+/home/jai_nagar/ 1 5620 0 0
+/home/aman090893/1/eval 15 228 0 0
+/home/darsthakkar/15/cell_update 12 2908 0 0
+/home/pranav.o.chitnis/ 2 11268 0 0
+/home/mca13011.nirmauni.ac.in/3/save_snapshot 1 5 0 0
+/home/bhanu_bhardwaj/0/ 3 65310 0 0
+/home/parthpatel4u/10/alive 215 215 0 0
+/home/parthpatel4u/1/ 1 63054 0 0
+/home/Nayan/2/cell_update 18 5180 0 0
+/home/smita.agrawal@nirmauni.ac.in/10/alive 90 90 0 0
+/home/hardikrathod/0/cell_update 4 1133 0 0
+/home/thakorsuresh@nirmauni.ac.in/7/alive 103 138 0 0
+/home/mca13003.nirmauni/ 3 36299 0 0
+/home/parthpatel4u/4/alive 21 21 0 0
+/home/mohammed/4/eval 17 7939 0 0
+/home/parthpatel4u/9/ 2 127147 0 0
+/home/jai_nagar/1/ 1 63033 0 0
+/home/hardiksl%40yahoo.co.in/10/ 1 50543 0 0
+/home/parthpatel4u/7/cell_update 2 260 0 0
+/home/amitmtnl/0/ 4 73722 0 0
+/home/hardiksl@yahoo.co.in/9/cell_update 1 130 0 0
+/home/mca05.nirmauni/5/save_snapshot 2 10 0 0
+/home/pub/0/rating_info 1 1221 0 0
+/home/mca13007.nirmauni/2/ 7 366456 0 0
+/home/pub/13/ 221 6582475 14 23
+/home/thakorsuresh%40nirmauni.ac.in/6/ 3 189049 0 0
+/home/aniruddha/0/alive 477 477 0 0
+/home/samcool4all/1/ 1 63032 0 0
+/home/darsthakkar/4/cell_update 10 2626 0 0
+/home/tofik/6/cell_update 1 130 0 0
+/home/tofik/3/eval 14 232 0 0
+/home/vasanthmehta%40gmail.com/ 2 11292 0 0
+/home/parthpatel4u/1/alive 273 273 0 0
+/home/mca13007.nirmauni/0/eval 2 41 0 0
+/home/hardiksl@yahoo.co.in/7/alive 21 29 0 0
+/home/darsthakkar/9/cell_list 1 38 0 0
+/home/gkjayabalu/3/rename 1 4 0 0
+/home/nimeshpatel/ 4 29453 0 0
+/home/nimeshpatel/3/alive 79 151 0 0
+/home/darsthakkar/8/alive 12 12 0 0
+/home/gkjayabalu/4/eval 14 7867 0 0
+/home/Nayan/0/pretty_print/true 1 7 0 0
+/home/shubham15744/ 8 50292 0 0
+/home/mca13015/2/discard_and_quit 1 5 0 0
+/home/mca12/2/ 3 198432 0 0
+/home/mca13015/1/alive 416 416 0 0
+/home/mca18.nirmauni/4/cell_update 10 2454 0 0
+/home/kdchauhan@gmail.com/4/cell_update 4 520 0 0
+/home/pub/15/download/Relational%20Model.sws 2 11457 0 0
+/home/mca13008/4/ 2 100936 0 0
+/home/AAKASH/ 1 5614 0 0
+/home/hardiksl@yahoo.co.in/10/eval 4 32 0 0
+/home/thakorsuresh@nirmauni.ac.in/10/alive 16 18 0 0
+/home/Shailav/9/cell_update 2 260 0 0
+/home/mca1356@nirmauni.ac.in/6/eval 14 232 0 0
+/home/thakorsuresh@nirmauni.ac.in/6/cell_update 2 260 0 0
+/home/mca1356@nirmauni.ac.in/5/eval 4 56 0 0
+/home/kuldeep24/1/ 1 63033 0 0
+/home/nimeshpatel/1/ 4 256167 0 0
+/home/thakorsuresh%40nirmauni.ac.in/ 3 19907 0 0
+/home/pub/4/download/Partition.sws 3 13888 0 1
+/home/mca18.nirmauni/4/alive 96 119 0 0
+/home/mca18.nirmauni/0/new_cell_before 1 2555 0 0
+/home/hardiksl@yahoo.co.in/8/cell_update 1 130 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/1/eval 2 28 0 0
+/home/kuldeep24/0/eval 6 48 0 0
+/home/heavenpatel/7/cell_update 13 2974 0 0
+/home/mca12/5/alive 558 1046 0 0
+/home/mca13020.nirmauni/4/eval 29 13262 0 0
+/home/rinal/1/cell_update 72 20422 0 0
+/home/mca18.nirmauni/4/rename 1 4 0 0
+/home/mca12/2/alive 4 8 0 0
+/home/dhavalpurohit74@gmail.com/1/alive 1 1 0 0
+/home/tofik/4/alive 5 5 0 0
+/home/heavenpatel/5/alive 3 3 0 0
+/home/darsthakkar/0/alive 134 134 0 0
+/settings 5 21902 0 0
+/home/tofik/4/eval 2 28 0 0
+/home/bhanu_bhardwaj/1/cell_update 1 130 0 0
+/home/sonagravijay/5/cell_update 17 2948 0 0
+/home/bhanu_bhardwaj/1/alive 5 5 0 0
+/home/heavenpatel/ 1 5624 0 0
+/home/Shailav/7/ 1 63019 0 0
+/home/kuldeep24/0/cell_update 3 390 0 0
+/home/mca19.nirmauni/3/cell_update 39 18581 0 0
+/home/ChestaAgarwal/1/ 7 412712 0 0
+/home/samcool4all/1/alive 1 1 0 0
+/home/Shailav/7/alive 5 5 0 0
+/home/hardikrathod/0/ 2 126407 0 0
+/home/isha46_mca/1/eval 10 152 0 0
+/home/mca1356%40nirmauni.ac.in/ 3 20091 0 0
+/home/parthpatel4u/9/cell_list 1 39 0 0
+/home/tofik/1/alive 58 58 0 0
+/home/nimeshpatel/1/new_cell_before 1 2570 0 0
+/home/mca13008/3/save_and_quit 2 10 0 0
+/home/thakorsuresh%40nirmauni.ac.in/4/ 1 63023 0 0
+/home/rahul0090392/ 5 39231 0 0
+/javascript/tiny_mce/plugins/media/media.htm 1 38852 0 0
+/home/mca13015/3/cell_update 2 260 0 0
+/home/parthpatel4u/6/eval 5 64 0 0
+/home/Jaynish/7/eval 23 340 0 0
+/home/thakorsuresh%40nirmauni.ac.in/5/ 1 60284 0 0
+/home/pub/15/ 159 3850537 5 9
+/home/mca1356@nirmauni.ac.in/1/cell_update 9 1848 0 0
+/home/tofik/4/ 2 65631 0 0
+/home/darsthakkar/1/cell_update 7 1154 0 0
+/home/parthpatel4u/4/cell_update 10 1728 0 0
+/home/samcool4all/4/cell_update 23 11064 0 0
+/home/pub/18/ 13 212556 3 4
+/home/Shailav/2/ 1 63019 0 0
+/home/siris2kx/0/cell_update 9 7149 0 0
+/home/samcool4all/3/save_snapshot 2 10 0 0
+/home/heavenpatel/0/ 1 50487 0 0
+/home/mca1353/0/discard_and_quit 1 5 0 0
+/home/darsthakkar/1/eval 3 48 0 0
+/home/mca12/5/ 2 36824 0 0
+/home/vihar/1/discard_and_quit 5 25 0 0
+/home/thakorsuresh%40nirmauni.ac.in/9/ 1 60284 0 0
+/home/kdchauhan%40gmail.com/4/ 2 101114 0 0
+/home/pala%40ravi/ 6 32826 0 0
+/home/heavenpatel/3/eval 43 536 0 0
+/home/mca13011.nirmauni.ac.in/3/ 8 443825 0 0
+/home/samcool4all/3/new_cell_before 1 2570 0 0
+/home/bhanu_bhardwaj/2/ 1 74298 0 0
+/home/thakorsuresh@nirmauni.ac.in/0/alive 146 146 0 0
+/home/Kangwook/ 14 81589 0 0
+/home/parthpatel4u/8/alive 114 115 0 0
+/home/diyapatel22%40gmail.com/ 1 5644 0 0
+/home/Shailav/5/alive 2 2 0 0
+/home/mca1356@nirmauni.ac.in/0/cell_update 1 130 0 0
+/home/thakorsuresh@nirmauni.ac.in/9/cell_update 21 11136 0 0
+/home/thakorsuresh@nirmauni.ac.in/5/eval 14 220 0 0
+/home/parthpatel4u/10/ 1 63057 0 0
+/home/thakorsuresh@nirmauni.ac.in/2/alive 1 1 0 0
+/home/parthpatel4u/ 1 5626 0 0
+/home/mca13003.nirmauni/3/ 2 129286 0 0
+/home/darsthakkar/5/alive 17 24 0 0
+/home/darsthakkar/0/ 1 50487 0 0
+/home/heavenpatel/4/eval 10 128 0 0
+/home/mca13020.nirmauni/3/rename 1 4 0 0
+/home/mca18.nirmauni/1/eval 7 56 0 0
+/home/parthpatel4u/2/ 1 40601 0 0
+/home/hardiksl@yahoo.co.in/2/eval 18 254 0 0
+/home/mca18.nirmauni/5/eval 4 32 0 0
+/home/Jaynish/4/ 1 50463 0 0
+/home/nehagupta/ 1 5620 0 0
+/home/nimeshpatel/0/cell_update 3 390 0 0
+/home/pub/20/download/SQL-I:%20Managing%20Tables.sws 7 43672 0 2
+/home/thakorsuresh@nirmauni.ac.in/5/cell_update 21 4460 0 0
+/home/mca13063@nirmauni.ac.in/0/rename 1 4 0 0
+/home/mca1356%40nirmauni.ac.in/0/ 1 50553 0 0
+/home/jaydeep.patel.9693@gmail.com/0/cell_update 19 7660 0 0
+/home/mca13011.nirmauni.ac.in/2/ 1 21439 0 0
+/home/mca13007.nirmauni/3/eval 51 5654 0 0
+/javascript/dynamic/keyboard/mw 296 744736 0 0
+/home/heavenpatel/6/alive 2 2 0 0
+/home/Nayan/0/pretty_print/false 1 7 0 0
+/home/gkjayabalu/4/publish 1 15651 0 0
+/home/darsthakkar/1/alive 246 246 0 0
+/home/isha46_mca/3/cell_update 2 260 0 0
+/home/chirgaiya/0/eval 1 8 0 0
+/home/samcool4all/0/alive 2 4 0 0
+/home/darsthakkar/5/ 1 50487 0 0
+/home/gkjayabalu/1/ 2 36884 0 0
+/home/mca13061@nirmauni.ac.in/0/cell_update 3 1875 0 0
+/home/pub/24/rating_info 1 1226 0 0
+/home/mca1356@nirmauni.ac.in/3/cell_update 18 2350 0 0
+/home/hardiksl@yahoo.co.in/9/eval 8 64 0 0
+/home/mca06.nirmauni/1/eval 2 40 0 0
+/home/heavenpatel/9/ 1 63047 0 0
+/home/mca18.nirmauni/4/eval 20 7939 0 0
+/home/darsthakkar/6/alive 14 14 0 0
+/home/thakorsuresh@nirmauni.ac.in/11/cell_update 33 9098 0 0
+/home/hardiksl%40yahoo.co.in/4/ 2 126145 0 0
+/home/mca06.nirmauni/1/save_and_quit 1 5 0 0
+/home/mca12/5/new_cell_after 2 5366 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/0/eval 2 40 0 0
+/home/siris2kx/0/introspect 3 93 0 0
+/home/mca18.nirmauni/ 1 7553 0 0
+/home/hardiksl@yahoo.co.in/2/cell_update 15 4645 0 0
+/home/nimeshpatel/1/alive 163 252 0 0
+/home/vihar/1/save_and_quit 1 5 0 0
+/home/mca13003.nirmauni/5/ 1 50524 0 0
+/home/hardikrathod/4/alive 111 111 1 0
+/home/mca13020.nirmauni/ 3 26211 0 0
+/home/mca1356@nirmauni.ac.in/0/alive 133 133 0 0
+/home/mca13008/3/new_cell_before 1 2555 0 0
+/home/hardikrathod/2/eval 9 5270 0 0
+/home/samcool4all/3/cell_update 62 22133 0 0
+/home/mca05.nirmauni/5/publish 3 47057 0 0
+/home/mca18.nirmauni/1/alive 201 402 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 40 183296 0 0
+/home/sonagravijay/0/alive 86 86 0 0
+/home/mca13007.nirmauni/3/save_snapshot 8 40 0 0
+/home/parthpatel4u/1/cell_update 10 2225 0 0
+/home/pub/7/ 12 275260 1 5
+/home/vihar/3/download/Copy%20of%20Copy%20of%20Entity%20Relationship%20Model.sws 1 121278 0 0
+/home/mca12/5/delete_cell 2 118 0 0
+/home/rinal/0/eval 6 108 0 0
+/home/ChestaAgarwal/1/cell_update 31 4038 0 0
+/home/Jaynish/2/ 1 50463 0 0
+/home/hardikrathod/ 5 47726 0 0
+/home/tofik/6/ 1 50451 0 0
+/home/kuldeep24/1/eval 4 44 0 0
+/home/rahul0090392/1/eval 4 44 0 0
+/home/heavenpatel/9/alive 200 200 0 0
+/home/darsthakkar/14/ 1 63050 0 0
+/home/darsthakkar/11/alive 4 4 0 0
+/home/AAKASH/1/alive 518 977 0 0
+/home/gkjayabalu/3/save_snapshot 2 10 0 0
+/home/hardiksl%40yahoo.co.in/2/ 1 63110 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 40 893916 0 0
+/home/heavenpatel/8/alive 69 69 0 0
+/send_to_stop 6 0 0 0
+/home/Nayan/2/eval 18 239 0 0
+/home/sonagravijay/3/alive 18 18 0 0
+/home/mca1353/2/delete_cell 1 83 0 0
+/home/hardiksl@yahoo.co.in/0/eval 34 35828 0 0
+/home/thakorsuresh@nirmauni.ac.in/9/alive 153 215 0 0
+/home/darsthakkar/8/eval 4 56 0 0
+/home/heavenpatel/5/ 1 63047 0 0
+/home/Nayan/3/alive 2 2 0 0
+/home/mca06.nirmauni/ 5 93190 0 0
+/home/sonagravijay/7/ 3 152443 0 0
+/home/isha46_mca/2/ 2 81282 0 0
+/home/ChestaAgarwal/1/new_cell_before 1 2570 0 0
+/home/darsthakkar/7/alive 25 25 0 0
+/home/vihar/2/cell_update 1 130 0 0
+/home/tofik/0/alive 321 321 0 0
+/home/mca13015/2/cell_update 29 12704 0 0
+/home/vihar/1/alive 262 460 0 0
+/home/gkjayabalu/ 7 50412 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 78 3526973 0 23
+/home/Shailav/7/cell_update 2 260 0 0
+/home/hardikrathod/1/ 2 126273 0 0
+/home/jaiprakash.verma%40nirmauni.ac.in/ 1 5664 0 0
+/home/mca13003.nirmauni/3/alive 5 5 0 0
+/home/nehasingh@nirma/1/save_snapshot 6 30 0 0
+/home/mca12/6/eval 31 5506 0 0
+/home/hardikrathod/3/discard_and_quit 1 5 0 0
+/home/rinal/0/ 2 100924 0 0
+/home/heavenpatel/2/cell_update 2 260 0 0
+/home/mca13063%40nirmauni.ac.in/2/ 1 63131 0 0
+/home/nimeshpatel/0/eval 1 20 0 0
+/home/mca1356@nirmauni.ac.in/3/alive 6 8 0 0
+/home/hardiksl%40yahoo.co.in/0/ 5 254610 0 0
+/home/Jaynish/2/cell_update 2 260 0 0
+/home/vihar/0/alive 45 45 0 0
+/home/mohammed/0/cell_update 1 130 0 0
+/home/sonagravijay/2/alive 509 509 0 0
+/home/rahul0090392/2/eval 2 28 0 0
+/home/AAKASH/1/ 1 63012 0 0
+/home/Shailav/9/alive 8 8 0 0
+/home/mca13011.nirmauni.ac.in/3/cell_update 46 39410 0 0
+/home/thakorsuresh@nirmauni.ac.in/12/cell_update 18 11675 0 0
+/home/gkjayabalu/4/ 3 63054 0 0
+/pub/ 100 2683164 4 15
+/home/rinal/2/eval 31 5695 0 0
+/home/nimeshpatel/3/cell_update 10 2032 0 0
+/home/kdchauhan@gmail.com/2/cell_update 15 3680 0 0
+/home/Shailav/2/alive 25 25 0 0
+/home/Jaynish/3/eval 4 68 0 0
+/home/Shailav/1/alive 46 46 0 0
+/home/smita.agrawal@nirmauni.ac.in/9/eval 3 48 0 0
+/register 202 617548 1 1
+/home/heavenpatel/1/eval 19 212 0 0
+/home/Nayan/1/alive 3 3 0 0
+/home/rinal/0/alive 148 148 0 0
+/home/mca13003.nirmauni/6/alive 109 184 0 0
+/home/smita.agrawal@nirmauni.ac.in/10/eval 7 92 0 0
+/home/heavenpatel/7/alive 4 4 0 0
+/home/sonagravijay/0/cell_update 1 130 0 0
+/home/darsthakkar/12/alive 5 5 0 0
+/home/pub/25/ 9 83498 0 0
+/home/mca18.nirmauni/3/cell_update 9 4599 0 0
+/home/mca17.nirmauni/4/eval 78 6050 0 0
+/home/pub/27/ 12 408221 2 1
+/home/mohammed/1/ 1 18429 0 0
+/home/diyapatel22@gmail.com/1/alive 528 768 0 0
+/home/heavenpatel/3/cell_update 21 8692 0 0
+/home/gkjayabalu/1/alive 5 5 0 0
+/home/parthpatel4u/3/alive 5 5 0 0
+/home/mca18.nirmauni/6/alive 80 121 0 0
+/home/diyapatel22%40gmail.com/0/ 1 18507 0 0
+/home/mca06.nirmauni/11/save_snapshot 12 60 0 0
+/home/mca13063@nirmauni.ac.in/2/cell_update 4 520 0 0
+/home/hardiksl@yahoo.co.in/2/introspect 1 31 0 0
+/home/mohammed/7/alive 1 1 0 0
+/home/pub/0/download/Data%20Mining%20Virtual%20Lab.sws 5 9554 0 1
+/home/tofik/0/cell_update 3 390 0 0
+/home/mca13002.nirmauni/5/cell_update 1 130 0 0
+/home/mca13007.nirmauni/2/alive 557 625 0 0
+/home/kdchauhan@gmail.com/0/eval 15 2821 0 0
+/home/mohammed/ 7 79457 0 0
+/home/mca13063%40nirmauni.ac.in/ 7 49139 0 0
+/home/jinalpatel%40nirma/ 1 5634 0 0
+/home/Nayan/0/alive 85 85 0 0
+/home/mca12/5/cell_update 46 19741 0 0
+/home/parthpatel4u/2/eval 6 96 0 0
+/home/parthpatel4u/8/eval 9 135 0 0
+/home/mca13063@nirmauni.ac.in/3/cell_update 4 948 0 0
+/home/Jaynish/5/cell_update 63 10415 0 0
+/home/mca13002.nirmauni/ 1 12018 0 0
+/home/tofik/8/ 1 63005 0 0
+/home/rahul0090392/4/cell_update 33 8486 0 0
+/home/mca1353/0/ 2 36846 0 0
+/home/kdchauhan@gmail.com/3/alive 216 216 0 0
+/home/mca13007.nirmauni/0/cell_update 8 1552 0 0
+/home/mca1356%40nirmauni.ac.in/4/ 1 63124 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/0/alive 14 14 0 0
+/home/jaydeep.patel.9693%40gmail.com/0/ 1 50589 0 0
+/home/pub/9/ 31 1141885 18 7
+/home/pub/26/ 7 224136 0 0
+/home/mca13011.nirmauni.ac.in/4/ 3 151672 0 0
+/home/thakorsuresh%40nirmauni.ac.in/11/ 1 63162 0 0
+/home/aman090893/0/alive 58 58 0 0
+/doc/live/tutorial/ 1 28055 0 0
+/home/hardikrathod/3/edit 2 63853 0 0
+/home/AvinashSaini/0/ 1 18453 0 0
+/home/Shailav/4/alive 8 8 0 0
+/home/parthpatel4u/7/ 1 63054 0 0
+/home/Shailav/2/cell_update 15 3667 0 0
+/home/Shailav/4/cell_update 2 260 0 0
+/home/AvinashSaini/1/cell_update 2 260 0 0
+/home/heavenpatel/6/ 1 63047 0 0
+/home/mca17.nirmauni/4/save_snapshot 2 10 0 0
+/home/darsthakkar/16/ 1 63050 0 0
+/home/hardikrathod/4/ 3 189028 0 0
+/home/mohammed/3/cell_update 6 1392 0 0
+/home/vihar/3/cell_update 1 130 0 0
+/home/jinalpatel%40nirma/0/ 3 153737 0 0
+/home/parthpatel4u/4/ 1 63054 0 0
+/home/hardikrathod/2/ 3 156744 0 0
+/home/gaurav_910/1/eval 13 2733 0 0
+/home/heavenpatel/1/alive 331 354 0 0
+/home/hardiksl@yahoo.co.in/4/alive 99 99 0 0
+/home/siris2kx/ 5 29540 0 0
+/home/Shailav/0/ 2 100922 0 0
+/home/mca13015/2/eval 29 436 0 0
+/home/aniruddha/0/eval 3 37 0 0
+/javascript/dynamic/keyboard/sw 200 528200 0 1
+/home/sonagravijay/2/ 1 40599 0 0
+/home/chirgaiya/0/alive 4 4 0 0
+/home/darsthakkar/3/alive 15 17 0 0
+/home/jinalpatel@nirma/1/eval 17 10621 0 0
+/home/kdchauhan%40gmail.com/ 1 5640 0 0
+/home/chirgaiya/0/delete_cell 2 54 0 0
+/home/mca13063%40nirmauni.ac.in/3/ 1 63131 0 0
+/home/darsthakkar/15/alive 261 266 0 0
+/home/nimeshpatel/3/ 2 126240 0 0
+/home/mca13015/0/alive 4 4 0 0
+/home/thakorsuresh%40nirmauni.ac.in/8/ 1 63023 0 0
+/home/Jaynish/6/alive 246 474 0 0
+/home/kalpanas%40fragnel.edu.in/ 9 50876 0 0
+/home/shubham15744/0/rename 1 4 0 0
+/home/hardiksl@yahoo.co.in/7/cell_update 1 130 0 0
+/home/mohammed/6/cell_update 7 1386 0 0
+/home/mca13003.nirmauni/1/ 1 23963 0 0
+/home/shubham15744/0/ 2 36906 0 0
+/home/thakorsuresh%40nirmauni.ac.in/12/ 1 40725 0 0
+/home/dhavalpurohit74%40gmail.com/0/ 2 59508 0 0
+/home/mca13063@nirmauni.ac.in/3/alive 101 101 0 0
+/home/smita.agrawal@nirmauni.ac.in/9/alive 14 14 0 0
+/home/darsthakkar/9/eval 6 96 0 0
+/home/pub/19.com/ 2 5206 1 0
+/home/aniruddha/1/eval 13 212 0 0
+/home/mca13007.nirmauni/2/cell_update 15 4502 0 0
+/home/mca13007.nirmauni/3/ 5 120545 0 0
+/home/darsthakkar/1/cell_list 1 38 0 0
+/home/sonagravijay/8/alive 109 147 0 0
+/home/darsthakkar/6/cell_update 5 1886 0 0
+/home/tofik/7/ 1 63005 0 0
+/home/darsthakkar/9/cell_update 8 2538 0 0
+/home/mca13011.nirmauni.ac.in/ 4 43491 0 0
+/home/darsthakkar/14/cell_update 6 1026 0 0
+/home/ashutosh.ruparelia/0/alive 46 46 0 0
+/home/Jaynish/4/cell_update 39 8765 0 0
+/home/pub/10/download/Decision%20Trees.sws 1 7607 0 0
+/home/hardiksl@yahoo.co.in/4/cell_update 7 910 0 0
+/home/sonagravijay/6/new_cell_before 2 5110 0 0
+/home/mca06.nirmauni/1/cell_update 2 765 0 0
+/home/darsthakkar/3/cell_update 11 3636 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf 4 36072 0 0
+/home/mca13002.nirmauni/5/alive 477 477 0 0
+/home/pub/24/ 6 193117 0 0
+/home/hardiksl@yahoo.co.in/2/delete_cell 1 83 0 0
+/home/thakorsuresh@nirmauni.ac.in/8/alive 8 11 0 0
+/home/aman090893/ 1 5622 0 0
+/home/mca05.nirmauni/5/save_and_quit 1 5 0 0
+/home/mca13003.nirmauni/7/alive 426 820 0 0
+/home/mca13061@nirmauni.ac.in/2/eval 6 96 0 0
+/home/mca17.nirmauni/5/alive 2 2 0 0
+/home/mca13063%40nirmauni.ac.in/1/ 1 50559 0 0
+/home/mca21.nirmauni/4/alive 377 747 0 0
+/home/chandelj15%40gmail.com/ 1 5642 0 0
+/home/parthpatel4u/8/cell_update 11 3143 0 0
+/home/mca18.nirmauni/2/ 2 36932 0 0
+/home/gaurav_910/0/cell_update 8 4505 0 0
+/home/samcool4all/4/save_snapshot 1 5 0 0
+/home/darsthakkar/2/cell_update 2 260 0 0
+/home/mca1356@nirmauni.ac.in/3/eval 13 15759 0 0
+/home/mca13003.nirmauni/6/eval 28 236 0 0
+/home/mohammed/3/alive 20 20 0 0
+/home/mca13003.nirmauni/7/cell_update 3 1560 0 0
+/home/rahul0090392/0/alive 113 113 0 0
+/home/pub/19/download/Boyce-Codd%20Normal%20Form.sws 8 41089 1 0
+/home/Jaynish/7/ 1 40561 0 0
+/home/parthpatel4u/2/alive 34 34 0 0
+/home/mca13003.nirmauni/2/ 1 21229 0 0
+/home/mca12/4/ 1 50447 0 0
+/home/amitmtnl/0/rename 1 4 0 0
+/home/pub/16/ 34 678936 8 12
+/home/mca13008/3/delete_cell 2 138 0 0
+/home/pub/11/ 14 784206 3 0
+/home/tofik/0/ 1 50451 0 0
+/home/mca13061%40nirmauni.ac.in/0/ 2 37038 0 0
+/home/Jaynish/1/ 2 101197 0 0
+/home/mca05.nirmauni/4/ 2 121509 0 0
+/home/nehasingh@nirma/0/alive 88 88 0 0
+/home/tofik/2/alive 30 45 0 0
+/home/kdchauhan@gmail.com/5/alive 239 239 0 0
+/home/hardikrathod/1/eval 7 104 0 0
+/home/kuldeep24/13/ 1 2626 0 0
+/home/mca13002.nirmauni/5/eval 7 56 0 0
+/home/rinal/ 1 5612 0 0
+/home/mohammed/5/cell_update 41 11898 0 0
+/home/mca13015/0/cell_update 1 130 0 0
+/home/ChestaAgarwal/1/edit 1 35513 0 0
+/home/bhanu_bhardwaj/0/eval 2 40 0 0
+/home/gkjayabalu/2/cell_update 10 3313 0 0
+/javascript/dynamic/keyboard/iw 5 16960 0 0
+/home/jinalpatel@nirma/0/alive 463 629 0 0
+/home/thakorsuresh@nirmauni.ac.in/12/alive 89 113 0 1
+/home/hardiksl%40yahoo.co.in/6/ 1 50541 0 0
+/home/heavenpatel/0/upload_data 1 16027 0 0
+/home/isha46_mca/2/alive 67 96 0 0
+/home/sonagravijay/ 1 5626 0 0
+/home/ashutosh.ruparelia/0/ 1 50529 0 0
+/home/smita.agrawal@nirmauni.ac.in/9/cell_update 5 928 0 0
+/home/darsthakkar/5/eval 19 260 0 0
+/home/darsthakkar/2/alive 2 2 0 0
+/home/rinal/1/ 1 50451 0 0
+/home/mca18.nirmauni/2/alive 84 140 0 0
+/home/mca13003.nirmauni/7/eval 19 5314 0 0
+/home/kdchauhan@gmail.com/0/alive 204 269 0 0
+/home/mca19.nirmauni/3/ 1 57357 0 0
+/home/gkjayabalu/4/alive 24 37 0 0
+/home/kdchauhan@gmail.com/3/cell_update 1 130 0 0
+/home/mca21.nirmauni/3/eval 56 3353 0 0
+/home/Jaynish/ 1 5616 0 0
+/home/tofik/4/cell_update 2 260 0 0
+/home/mca13003.nirmauni/0/cell_update 5 650 0 0
+/home/Jaynish/0/alive 110 110 0 0
+/home/hardiksl%40yahoo.co.in/8/ 1 50541 0 0
+/home/Jaynish/6/eval 38 556 0 0
+/home/darsthakkar/5/cell_update 19 3335 0 0
+/home/pub/6/download/K%20Means.sws 2 8127 0 0
+/home/sonagravijay/9/alive 191 191 0 0
+/home/Shailav/8/cell_update 2 260 0 0
+/home/mca18.nirmauni/0/ 1 21384 0 0
+/home/darsthakkar/11/ 1 63050 0 0
+/home/mca1356@nirmauni.ac.in/4/eval 9 144 0 0
+/home/thakorsuresh@nirmauni.ac.in/10/eval 20 33982 0 0
+/home/mohammed/5/ 6 305478 0 0
+/home/Shailav/9/eval 2 28 0 0
+/home/sonagravijay/1/ 1 63054 0 0
+/home/mca13063%40nirmauni.ac.in/0/ 2 37038 0 0
+/home/mca05.nirmauni/4/eval 8 2729 0 0
+/home/heavenpatel/8/ 1 63047 0 0
+/home/gkjayabalu/3/text 1 15367 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf 4 84456 0 0
+/home/rahul0090392/3/cell_update 4 520 0 0
+/home/samcool4all/3/eval 85 3776 0 0
+/home/hardiksl%40yahoo.co.in/5/ 1 50541 0 0
+/javascript/tiny_mce/themes/advanced/source_editor.htm 1 1250 0 0
+/send_to_archive 8 0 0 0
+/home/mca05.nirmauni/5/eval 54 8523 0 0
+/home/mca13003.nirmauni/5/alive 541 541 0 0
+/home/jinalpatel%40nirma/1/ 2 136633 0 0
+/home/mca13061@nirmauni.ac.in/1/cell_update 2 260 0 0
+/home/mca13020.nirmauni/1/ 1 23974 0 0
+/home/Jaynish/1/cell_update 28 8077 0 0
+/home/nimeshpatel/2/ 1 63047 0 0
+/home/gkjayabalu/3/cell_update 2 1940 0 0
+/home/mca13015/3/alive 382 382 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 4 22812 0 0
+/home/aman090893/1/alive 246 438 0 0
+/home/parthpatel4u/0/ 2 100982 0 0
+/home/bhanu_bhardwaj/2/alive 1 1 0 0
+/home/pub/2/download/Apriori.sws 10 49887 1 3
+/home/mca18.nirmauni/0/cell_update 4 949 0 0
+/home/samcool4all/4/eval 42 3085 0 0
+/home/jai_nagar/1/alive 15 15 0 0
+/home/mca18.nirmauni/3/ 1 50506 0 0
+/home/Nayan/1/cell_update 1 130 0 0
+/home/jaydeep.patel.9693@gmail.com/1/eval 14 160 0 0
+/home/nehasingh@nirma/1/cell_update 45 13619 0 0
+/home/parthpatel4u/5/alive 3 3 0 0
+/home/mca06.nirmauni/1/alive 3 6 0 0
+/home/Shailav/3/cell_list 1 38 0 0
+/home/thakorsuresh@nirmauni.ac.in/7/cell_update 45 16230 0 0
+/home/mca1353/1/eval 5 2657 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 40 1505732 0 0
+/home/mca06.nirmauni/4/save_and_quit 2 10 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 62 2616316 1 6
+/home/rinal/2/ 1 63005 0 0
+/home/mca13007.nirmauni/1/cell_list 1 38 0 0
+/home/bhanu_bhardwaj/0/restart_sage 1 4 0 0
+/home/gaurav_910/1/cell_update 10 2612 0 0
+/home/gkjayabalu/2/eval 19 247 0 0
+/home/nimeshpatel/0/ 1 62927 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 40 309632 0 0
+/home/darsthakkar/4/alive 13 13 0 0
+/home/bhanu_bhardwaj/1/ 2 81232 0 0
+/home/mca13003.nirmauni/6/cell_list 1 39 0 0
+/home/kdchauhan%40gmail.com/1/ 1 63103 0 0
+/home/mohammed/5/save_snapshot 1 5 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 278 1796816 1 14
+/home/aman090893/1/ 1 63040 0 0
+/home/mca13020.nirmauni/3/alive 119 176 0 0
+/home/heavenpatel/2/ 1 40593 0 0
+/home/vihar/1/eval 54 693 0 0
+/home/tofik/8/alive 10 10 0 0
+/home/mca13015/0/eval 1 20 0 0
+/home/tofik/1/eval 7 92 0 0
+/home/diyapatel22@gmail.com/1/cell_list 1 39 0 0
+/home/kdchauhan%40gmail.com/0/ 4 210301 0 0
+/home/heavenpatel/4/ 7 441704 0 0
+/home/mca13020.nirmauni/3/ 3 58449 0 0
+/home/mca1356@nirmauni.ac.in/6/alive 24 32 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 61 1387742 0 3
+/home/_sage_/23/alive 246 246 0 0
+/home/Shailav/8/eval 2 28 0 0
+/home/nimeshpatel/4/ 1 40593 0 0
+/home/mca13007.nirmauni/1/ 7 165601 0 0
+/home/Nayan/2/cell_list 1 39 0 0
+/home/jyotiyadav/ 2 11244 0 0
+/home/pub/21/download/SQL-II:%20Managing%20Records.sws 2 9071 0 0
+/home/mca13011.nirmauni.ac.in/0/alive 2 2 0 0
+/home/hardiksl%40yahoo.co.in/ 1 5642 0 0
+/home/kdchauhan@gmail.com/2/eval 11 2753 0 0
+/home/Jaynish/3/cell_update 5 1515 0 0
+/home/aniruddha/0/ 1 63034 0 0
+/home/mca12/0/ 1 62990 0 0
+/home/hardikrathod/3/alive 40 40 0 0
+/home/jaydeep.patel.9693@gmail.com/1/cell_update 12 4091 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/1/cell_update 6 1064 0 0
+/home/darsthakkar/12/ 1 63050 0 0
+/home/Shailav/2/new_cell_before 1 2570 0 0
+/home/tofik/7/alive 197 341 1 0
+/ 424 2074032 67 79
+/home/thakorsuresh@nirmauni.ac.in/10/cell_update 20 2613 0 0
+/home/mohammed/7/cell_update 2 260 0 0
+/home/tofik/5/cell_update 7 910 0 0
+/home/mca13007.nirmauni/0/ 4 306000 0 0
+/home/Jaynish/4/eval 25 452 0 0
+/home/aniruddha/1/alive 359 705 0 0
+/home/mca13008/4/alive 2 2 0 0
+/home/Jaynish/5/ 1 63019 0 0
+/home/gkjayabalu/0/alive 6 6 0 0
+/home/AAKASH/0/alive 520 520 0 0
+/home/Shailav/4/ 1 63019 0 0
+/home/parthpatel4u/3/eval 4 56 0 0
+/home/thakorsuresh@nirmauni.ac.in/0/eval 7 92 0 0
+/send_to_trash 13 0 0 0
+/home/mca18.nirmauni/5/cell_update 2 260 0 0
+/home/dhavalpurohit74@gmail.com/1/cell_update 1 130 0 0
+/home/mca13061@nirmauni.ac.in/2/alive 401 401 0 1
+/home/kdchauhan@gmail.com/1/alive 162 162 0 0
+/home/nehasingh@nirma/0/cell_update 2 260 0 0
+/home/pub/ 1 2647 0 0
+/home/mca13007.nirmauni/1/alive 20 20 0 0
+/home/samcool4all/3/alive 495 983 0 0
+/home/jai_nagar/0/alive 432 744 0 0
+/home/hardiksl@yahoo.co.in/10/cell_update 1 130 0 0
+/home/pub/27/download/Relational%20Model.sws 1 6426 0 0
+/home/sonagravijay/4/cell_update 13 3502 0 0
+/home/siris2kx/0/eval 11 5298 0 0
+/home/rahul0090392/1/cell_update 2 260 0 0
+/home/vipin3195/1/alive 4 4 0 0
+/home/hardikrathod/3/cell_update 6 780 0 0
+/home/sonagravijay/6/alive 34 58 0 0
+/home/jinalpatel@nirma/0/new_cell_before 2 5110 0 0
+/home/sonagravijay/7/alive 393 760 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/1/alive 5 5 0 0
+/home/heavenpatel/0/system/gap 1 7 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf 4 14136 0 0
+/home/kuldeep24/ 2 13071 0 0
+/home/mca13015/1/eval 3 24 0 0
+/home/amitmtnl/1/alive 1 1 0 0
+/home/thakorsuresh%40nirmauni.ac.in/1/ 2 59532 0 0
+/home/hardiksl@yahoo.co.in/5/alive 21 21 0 0
+/home/mca21.nirmauni/4/ 1 63069 0 0
+/home/kdchauhan@gmail.com/0/cell_update 14 5146 0 0
+/home/heavenpatel/4/alive 30 32 0 0
+/home/mca17.nirmauni/5/ 1 18466 0 0
+/home/gkjayabalu/2/alive 90 123 0 0
+/home/nimeshpatel/2/cell_update 5 894 0 0
+/home/vihar/1/cell_update 48 14829 0 0
+/home/sonagravijay/4/ 1 50493 0 0
+/home/Jaynish/1/cell_list 1 39 0 0
+/home/parthpatel4u/6/alive 4 4 0 0
+/home/darsthakkar/16/alive 2 2 0 0
+/home/AAKASH/2/alive 364 364 0 0
+/home/gaurav_910/0/alive 31 55 0 0
+/home/mca1356@nirmauni.ac.in/4/alive 18 18 0 0
+/home/mca1353/2/cell_update 24 5688 0 0
+/home/rahul0090392/4/ 2 129310 0 0
+/home/rahul0090392/3/ 1 63054 0 0
+/home/kdchauhan@gmail.com/4/eval 6 48 0 0
+/home/_sage_/24/alive 1 1 0 0
+/home/diyapatel22@gmail.com/0/alive 483 483 0 0
+/home/parthpatel4u/6/cell_update 6 1208 0 0
+/home/mca18.nirmauni/6/cell_update 25 5845 0 0
+/home/Shailav/0/cell_update 2 260 0 0
+/home/mca13015/ 5 44545 0 0
+/home/hardiksl@yahoo.co.in/0/cell_update 25 5870 0 0
+/home/hardikrathod/1/alive 187 187 0 0
+/home/Shailav/5/cell_update 1 130 0 0
+/home/sonagravijay/5/ 1 63054 0 0
+/home/kuldeep24/1/cell_update 5 650 0 0
+/home/jinalpatel@nirma/1/alive 42 78 0 0
+/home/jaiprakash.verma%40nirmauni.ac.in/2/ 1 29790 0 0
+/home/thakorsuresh@nirmauni.ac.in/1/alive 7 7 0 0
+/home/mca13008/ 5 50440 0 0
+/home/nimeshpatel/4/alive 134 169 0 0
+/home/mca06.nirmauni/4/ 1 63853 0 0
+/upload_worksheet 1 3027 0 0
+/home/sonagravijay/6/eval 13 188 0 0
+/home/kdchauhan%40gmail.com/5/ 2 81310 0 0
+/home/kuldeep24/1/alive 4 4 0 0
+/home/aniruddha/1/ 1 50476 0 0
+/home/tofik/3/cell_update 31 4458 0 0
+/home/samcool4all/3/ 3 200523 0 0
+/home/mca13020.nirmauni/1/alive 5 10 0 0
+/home/gaurav_910/0/ 1 50482 0 0
+/home/parthpatel4u/1/eval 8 124 0 0
+/home/hardiksl@yahoo.co.in/10/alive 10 10 0 0
+/home/nehasingh@nirma/2/cell_list 2 77 0 0
+/home/pub/4/ 38 1116794 6 2
+/home/siris2kx/0/ 3 55290 0 0
+/home/mca21.nirmauni/3/ 1 50929 0 0
+/home/parthpatel4u/7/eval 2 28 0 0
+/home/vipin3195/0/system/html 1 7 0 0
+/home/jai_nagar/0/eval 28 5506 0 0
+/home/mca21.nirmauni/ 1 9745 0 0
+/home/mca18.nirmauni/5/alive 9 9 0 0
+/home/Jaynish/0/eval 6 72 0 0
+/home/mca17.nirmauni/4/cell_update 39 10549 0 0
+/home/jaiprakash.verma@nirmauni.ac.in/2/alive 1 1 0 0
+/home/bhanu_bhardwaj/0/alive 11 11 0 0
+/home/darsthakkar/3/ 1 50487 0 0
+/home/samcool4all/2/ 3 189136 0 0
+/home/heavenpatel/7/ 1 63047 0 0
+/home/thakorsuresh%40nirmauni.ac.in/0/ 1 50583 0 0
+/home/gaurav_910/0/eval 12 2737 0 0
+/home/kdchauhan%40gmail.com/2/ 4 207636 0 0
+/home/thakorsuresh@nirmauni.ac.in/4/alive 4 4 0 0
+/home/nimeshpatel/3/cell_list 1 39 0 0
+/home/Nayan/0/save_and_quit 2 10 0 0
+/home/vipin3195/0/system/sage 1 7 0 0
+/home/pub/12/ 3 113238 1 1
+/home/mca13011.nirmauni.ac.in/3/eval 38 8347 0 0
+/home/chirgaiya/0/ 1 18434 0 0
+/home/rahul0090392/2/ 1 63054 0 0
+/home/kdchauhan@gmail.com/4/alive 231 231 0 0
+/home/mca13020.nirmauni/4/save_snapshot 2 10 0 0
+/home/mca18.nirmauni/0/eval 4 80 0 0
+/home/Jaynish/0/ 1 50463 0 0
+/home/sonagravijay/9/ 1 63054 0 0
+/home/rahul0090392/3/alive 7 7 0 0
+/home/hardiksl@yahoo.co.in/3/eval 12 2713 0 0
+/home/mca18.nirmauni/6/eval 31 10692 0 0
+/home/isha46_mca/0/alive 226 302 0 0
+/home/rahul0090392/1/ 1 63054 0 0
+/home/mca06.nirmauni/1/ 1 21501 0 0
+/home/kdchauhan%40gmail.com/3/ 2 126202 0 0
+/home/mca18.nirmauni/4/ 2 36932 0 0
+/home/samcool4all/4/alive 470 918 0 0
+/home/samcool4all/0/ 2 49122 0 0
+/home/parthpatel4u/9/alive 67 126 0 0
+/home/Jaynish/1/alive 145 165 0 0
+/home/isha46_mca/2/cell_update 31 8987 0 0
+/home/mca13015/2/ 2 102180 0 0
+/home/parthpatel4u/9/cell_update 25 8679 0 0
+/home/Nayan/2/alive 88 102 0 0
+/home/diyapatel22@gmail.com/1/eval 33 8223 0 0
+/home/gaurav_910/1/alive 238 453 0 0
+/home/Shailav/1/discard_and_quit 1 5 0 0
+/home/hardikrathod/2/cell_update 9 2035 0 0
+/home/sonagravijay/8/ 1 63054 0 0
+/home/mca19.nirmauni/3/eval 42 3157 0 0
+/home/mca06.nirmauni/4/alive 2 4 0 0
+/home/jaydeep.patel.9693@gmail.com/0/eval 29 2969 0 0
+/home/darsthakkar/14/alive 26 26 0 0
+/home/pub/20/ 78 3459539 1 13
+/upload 5 21679 0 0
+/home/gaurav_910/1/ 1 50482 0 0
+/home/mca13063@nirmauni.ac.in/0/alive 32 32 0 0
+/home/mohammed/5/eval 32 544 0 0
+/home/Jaynish/1/eval 24 5546 0 0
+/home/nimeshpatel/1/discard_and_quit 1 5 0 0
+/home/thakorsuresh@nirmauni.ac.in/4/cell_update 3 390 0 0
+/home/bhanu_bhardwaj/1/edit 1 27737 0 0
+/home/mca19.nirmauni/ 2 19515 0 0
+/home/hardikrathod/0/share 1 15648 0 0
+/home/mca1356@nirmauni.ac.in/1/alive 128 128 0 0
+/home/pub/1/download/Databases%20Virtual%20Lab.sws 8 24802 0 0
+/home/AAKASH/0/ 1 50457 0 0
+/home/gkjayabalu/0/rename 1 4 0 0
+/home/mca18.nirmauni/5/ 1 50506 0 0
+/home/mca13003.nirmauni/3/cell_update 1 130 0 0
+/home/rahul0090392/1/alive 18 18 0 0
+/home/thakorsuresh@nirmauni.ac.in/12/eval 24 372 0 0
+/home/rahul0090392/4/alive 360 689 0 0
+/home/mohammed/5/alive 156 190 0 0
+/home/AAKASH/2/ 2 36834 0 0
+/home/smita.agrawal@nirmauni.ac.in/0/alive 96 96 0 0
+/home/Jaynish/4/alive 342 671 0 0
+/home/Shailav/4/eval 2 28 0 0
+/home/heavenpatel/1/cell_update 17 2638 0 0
+/home/pub/21/ 38 1653247 13 6
+/home/Jaynish/3/alive 9 9 0 0
+/home/mca21.nirmauni/3/cell_update 35 15585 0 0
+/home/heavenpatel/9/eval 6 60 0 0
+/home/Nayan/0/show_all 1 7 0 0
+/home/bhanu_bhardwaj/0/cell_update 2 1120 0 0
+/home/tofik/2/cell_update 39 7247 0 0
+/home/Shailav/3/eval 5 64 0 0
+/home/isha46_mca/0/cell_update 41 10255 0 0
+/home/pub/1/rate 1 2733 0 0
+/home/mca18.nirmauni/3/eval 11 5298 0 0
+/home/smita.agrawal@nirmauni.ac.in/0/eval 8 2681 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 40 263004 0 7
+/home/kdchauhan@gmail.com/5/cell_update 8 3270 0 0
+/home/heavenpatel/5/cell_update 2 260 0 0
+/home/prashant_1579%40rediffmail.com/ 8 47882 0 1
+/home/mca13011.nirmauni.ac.in/3/introspect 3 93 0 0
+/home/Shailav/8/ 1 63019 0 0
+/home/tofik/1/cell_update 15 3234 0 0
+/home/heavenpatel/4/cell_list 3 115 0 0
+/home/mca13061@nirmauni.ac.in/0/save_snapshot 1 5 0 0
+/home/kuldeep24/0/ 2 100945 0 0
+/home/mca13061@nirmauni.ac.in/2/cell_update 7 2194 0 0
+/home/jaiprakash.verma%40nirmauni.ac.in/1/ 1 63187 0 0
+/home/aman090893/0/ 1 50481 0 0
+/home/mca06.nirmauni/11/save_and_quit 2 10 0 0
+/home/gaurav_910/0/delete_cell 1 68 0 0
+/home/pub/0/ 171 1671855 74 10
+/home/amitmtnl/0/discard_and_quit 1 5 0 0
+/home/mca13061%40nirmauni.ac.in/1/ 1 50559 0 0
+/home/hardiksl@yahoo.co.in/3/alive 145 279 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 40 407220 0 2
+/home/mca13011.nirmauni.ac.in/0/ 1 66146 0 0
+/home/hardikrathod/1/cell_update 6 1272 0 0
+/home/niral.6444/ 2 11244 0 0
+/home/mca13011.nirmauni.ac.in/2/alive 133 133 0 0
+/home/jaydeep.patel.9693%40gmail.com/ 1 5658 0 0
+/home/susena/ 2 11228 0 0
+/home/mca12/6/ 1 50452 0 0
+/home/sonagravijay/5/eval 11 172 0 0
+/home/sonagravijay/6/cell_update 10 3015 0 0
+/home/mca13020.nirmauni/4/alive 396 781 0 0
+/home/vipin3195/0/share 1 15570 0 0
+/home/heavenpatel/8/cell_update 14 3348 0 0
+/home/nimeshpatel/4/eval 39 3325 0 0
+/home/Jaynish/2/alive 2 2 0 0
+/home/mca21.nirmauni/4/cell_update 13 2818 0 0
+/home/prashant_1579@rediffmail.com/0/alive 7 7 0 0
+/home/mca13008/3/save_snapshot 4 20 0 0
+/home/pub/5/ 12 509606 3 1
+/home/mca05.nirmauni/5/alive 146 252 0 0
+/home/heavenpatel/0/alive 27 27 0 0
+/home/Dhrumit103/ 1 5622 0 0
+/home/rinal/0/cell_update 4 520 0 0
+/home/heavenpatel/1/ 1 63047 0 0
+/home/rahul0090392/4/new_cell_before 1 2571 0 0
+/home/Nayan/0/ 6 177810 0 0
+/home/hardikrathod/4/cell_update 6 1026 0 0
+/home/rinal/2/alive 272 528 0 0
+/home/mca18.nirmauni/3/alive 22 25 0 0
+/home/mca13003.nirmauni/0/alive 11 11 0 0
+/home/rahul0090392/0/cell_update 12 1560 0 0
+/home/tofik/7/eval 17 196 0 0
+/home/amitmtnl/1/ 1 19512 0 0
+/home/Nayan/1/eval 1 8 0 0
+/home/mca13063@nirmauni.ac.in/2/alive 12 12 0 0
+/home/jai_nagar/0/ 2 101361 0 0
+/home/tofik/2/ 1 63005 0 0
+/home/ChestaAgarwal/0/ 1 18459 0 0
+/home/mca13008/3/publish 1 15682 0 0
+/home/ChestaAgarwal/1/alive 418 418 0 2
+/home/isha46_mca/1/alive 30 43 0 0
+/home/Shailav/3/ 3 189731 0 0
+/home/kdchauhan@gmail.com/0/cell_list 2 77 0 0
+/home/mca18.nirmauni/0/alive 4 8 0 0
+/home/tofik/7/cell_update 10 2642 0 0
+/home/mca13007.nirmauni/1/cell_update 4 520 0 0
+/home/gaurav_910/ 1 5622 0 0
+/home/mca19.nirmauni/3/save_snapshot 1 5 0 0
+/home/smita.agrawal%40nirmauni.ac.in/ 2 33783 0 0
+/home/Shailav/8/alive 4 4 0 0
+/send_to_active 1 0 0 0
+/home/sonagravijay/4/alive 22 29 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 61 549716 1 3
+/home/mca13011.nirmauni.ac.in/4/alive 57 57 0 0
+/home/diyapatel22@gmail.com/1/cell_update 29 10567 0 0
+/home/sonagravijay/9/cell_update 6 1208 0 0
+/home/mca13007.nirmauni/2/eval 18 5330 0 0
+/home/samcool4all/2/alive 49 49 0 0
+/home/AAKASH/0/cell_update 1 130 0 0
+/home/amitmtnl/ 7 45025 0 0
+/home/mohammed/1/alive 1 1 0 0
+/home/mca1353/ 4 30924 0 0
+/home/mca13061@nirmauni.ac.in/0/rename 1 4 0 0
+/home/mohammed/7/ 1 50469 0 0
+/home/darsthakkar/2/ 1 40593 0 0
+/home/siris2kx/0/rename 1 4 0 0
+/home/mca13003.nirmauni/5/eval 2 16 0 0
+/home/mca19.nirmauni/3/alive 234 432 0 0
+/home/Shailav/1/ 2 36846 0 0
+/home/tofik/5/ 1 63005 0 0
+/home/thakorsuresh%40nirmauni.ac.in/3/ 1 29766 0 0
+/home/smita.agrawal@nirmauni.ac.in/0/cell_update 4 1826 0 0
+/home/amitmtnl/0/alive 13 13 0 0
+/home/heavenpatel/7/eval 4 68 0 0
+/home/hardiksl@yahoo.co.in/2/alive 27 33 0 0
+/home/mohammed/5/save_and_quit 1 5 0 0
+/home/mca1356@nirmauni.ac.in/2/alive 62 62 0 0
+/home/vihar/0/save_and_quit 1 5 0 0
+/home/Kangwook/0/ 4 73720 0 0
+/home/Shailav/5/ 1 63019 0 0
+/home/mca1353/1/alive 132 132 0 0
+/home/mca13008/3/ 9 495941 0 0
+/home/pub/16/download/First%20Normal%20Form.sws 3 13594 0 2
+/home/vihar/3/ 1 65029 0 0
+/home/diyapatel22%40gmail.com/1/ 2 108935 0 0
+/home/darsthakkar/16/cell_update 1 130 0 0
+/home/mca1356@nirmauni.ac.in/4/cell_update 18 3688 0 0
+/home/Jaynish/3/ 1 50463 0 0
+/home/isha46_mca/3/ 1 50481 0 0
+/home/mca19.nirmauni/3/save_and_quit 1 5 0 0
+/home/darsthakkar/6/eval 6 84 0 0
+/home/darsthakkar/9/alive 305 305 0 0
+/home/kdchauhan@gmail.com/2/alive 241 336 0 0
+/home/smita.agrawal%40nirmauni.ac.in/9/ 4 253217 0 0
+/home/samcool4all/2/cell_update 7 910 0 0
+/home/thakorsuresh%40nirmauni.ac.in/10/ 1 63162 0 0
+/doc/live/developer/coding_in_python.html 1 95985 0 0
+/home/thakorsuresh%40nirmauni.ac.in/2/ 1 29766 0 0
+/home/pub/6/ 39 1179742 3 10
+/home/kuldeep24/0/cell_list 1 38 0 0
+/home/rahul0090392/3/delete_cell 1 83 0 0
+/home/AAKASH/1/cell_update 64 18328 0 0
+/home/mca18.nirmauni/2/rename 1 4 0 0
+/home/AvinashSaini/ 4 25870 0 0
+/home/mca13063@nirmauni.ac.in/3/eval 5 64 0 0
+/home/smita.agrawal%40nirmauni.ac.in/10/ 2 126590 0 0
+/home/sonagravijay/8/cell_update 26 8100 0 0
+/home/parthpatel4u/7/alive 9 9 0 0
+/home/mca13003.nirmauni/6/ 3 58457 0 0
+/home/heavenpatel/8/eval 7 116 0 0
+/home/mohammed/6/alive 69 69 0 0
+/home/gkjayabalu/0/ 2 36884 0 0
+/home/hardiksl@yahoo.co.in/8/eval 3 24 0 0
+/home/vihar/1/ 8 517829 0 0
+/home/hardiksl@yahoo.co.in/9/alive 12 12 0 0
+/home/aman090893/0/cell_update 2 260 0 0
+/home/nimeshpatel/1/cell_update 23 7121 0 0
+/home/nehasingh@nirma/0/save_and_quit 1 5 0 0
+/home/mca12/3/alive 3 6 0 0
+/home/vihar/2/alive 8 8 0 0
+/home/AAKASH/2/rename 1 4 0 0
+/home/thakorsuresh@nirmauni.ac.in/8/cell_update 13 4285 0 0
+/home/siris2kx/0/system/gap 1 7 0 0
+/home/jai_nagar/1/cell_update 1 130 0 0
+/home/darsthakkar/ 3 51088 0 0
+/home/nimeshpatel/4/new_cell_before 1 2555 0 0
+/home/pub/9/download/K%20Nearest%20Neighbours.sws 4 16908 0 0
+/home/AvinashSaini/1/alive 180 181 0 0
+/home/mca13003.nirmauni/4/ 1 50524 0 0
+/home/mca13061%40nirmauni.ac.in/ 1 5648 0 0
+/home/vihar/1/download/Entity%20Relationship%20Model.sws 1 121292 0 0
+/home/sonagravijay/5/alive 453 609 0 0
+/home/rahul0090392/2/alive 5 5 0 0
+/home/mca12/6/alive 540 1008 0 0
+/home/diyapatel22@gmail.com/1/save_snapshot 4 20 0 0
+/home/mca13020.nirmauni/3/cell_update 1 130 0 0
+/home/mca1356%40nirmauni.ac.in/5/ 1 63124 0 0
+/home/mohammed/6/new_cell_before 1 2570 0 0
+/home/vihar/0/ 5 148170 0 0
+/home/dhavalpurohit74@gmail.com/0/alive 423 423 0 0
+/home/darsthakkar/13/ 1 40597 0 0
+/home/mca13003.nirmauni/6/new_cell_after 1 2683 0 0
+/home/Jaynish/5/eval 42 3309 0 0
+/home/mca13020.nirmauni/3/eval 19 2733 0 0
+/home/gkjayabalu/4/cell_update 4 520 0 0
+/home/darsthakkar/13/alive 238 238 0 0
+/home/mca13003.nirmauni/6/cell_update 1 130 0 0
+/home/nehasingh@nirma/1/alive 285 488 0 0
+/home/mca13008/4/cell_update 1 130 0 0
+/home/Nayan/2/save_and_quit 1 5 0 0
+/home/mca13011.nirmauni.ac.in/4/cell_update 5 650 0 0
+/home/mca13020.nirmauni/2/ 3 191487 0 0
+/home/tofik/2/eval 19 2894 0 0
+/home/nehasingh@nirma/2/cell_update 14 2390 0 0
+/home/mca12/1/alive 5 5 0 0
+/home/pub/8/ 49 1705469 29 12
+/home/mca18.nirmauni/5/delete_cell 1 66 0 0
+/home/hardikrathod/3/eval 2 28 0 0
+/home/pub/20/rating_info 1 1220 0 0
+/home/nimeshpatel/0/alive 21 21 0 0
+/home/mca13003.nirmauni/4/alive 1 1 0 0
+/home/mca05.nirmauni/4/cell_update 28 4505 0 0
+/home/darsthakkar/12/cell_update 4 520 0 0
+/home/sonagravijay/2/cell_update 2 260 0 0
+/home/rahul0090392/2/cell_update 2 260 0 0
+/home/mohammed/6/eval 7 93 0 0
+/home/mohammed/6/save_and_quit 1 5 0 0
+/home/pub/14/download/Enhanced%20Entity%20Relationship%20Model.sws 3 113513 0 1
+/home/darsthakkar/8/ 1 63047 0 0
+/home/ChestaAgarwal/1/eval 8 172 0 0
+/home/nehasingh@nirma/1/print 2 45524 0 0
+/home/mca21.nirmauni/4/eval 16 212 0 0
+/home/mca13007.nirmauni/1/eval 4 80 0 0
+/home/tofik/1/ 3 189368 0 0
+/home/mca12/5/rename 1 4 0 0
+/home/mca12/1/ 3 65565 0 0
+/home/Jaynish/6/ 1 63019 0 0
+/home/mca13015/1/ 1 63641 0 0
+/home/mca1356@nirmauni.ac.in/5/alive 6 6 0 0
+/home/isha46_mca/0/eval 40 656 0 0
+/home/rahul0090392/3/eval 5 64 0 0
+/home/rinal/1/eval 70 3765 0 0
+/home/heavenpatel/6/eval 2 28 0 0
+/home/mca13061@nirmauni.ac.in/0/eval 4 2637 0 0
+/home/gkjayabalu/2/text 1 34025 0 0
+/home/rahul0090392/4/cell_list 1 39 0 0
+/home/jai_nagar/0/cell_list 1 39 0 0
+/home/mca13007.nirmauni/3/alive 494 953 0 0
+/home/AvinashSaini/1/eval 9 5258 0 0
+/home/heavenpatel/4/cell_update 12 1991 0 0
+/home/mca13061%40nirmauni.ac.in/2/ 1 63131 0 0
+/help 3 40663 0 0
+/home/mca12/4/alive 1 1 0 0
+/home/dhavalpurohit74%40gmail.com/1/ 1 50571 0 0
+/home/nehasingh%40nirma/2/ 3 189480 0 0
+/home/ChestaAgarwal/1/restart_sage 1 4 0 0
+/home/isha46_mca/1/ 1 63040 0 0
+/home/mca1353/2/ 2 123865 0 0
+/home/pub/1/ 376 4462134 134 29
+/home/sonagravijay/1/alive 75 75 0 0
+/home/smita.agrawal@nirmauni.ac.in/0/ 1 18532 0 0
+/home/darsthakkar/4/ 1 50487 0 0
+/home/tofik/3/ 4 252223 0 0
+/home/vipin3195/ 4 26449 0 0
+/home/mca18.nirmauni/1/ 3 191115 0 0
+/home/parthpatel4u/5/eval 2 28 0 0
+/home/hardiksl@yahoo.co.in/6/alive 2 2 0 0
+/home/bhanu_bhardwaj/0/edit 1 16728 0 0
+/home/darsthakkar/8/cell_update 4 948 0 0
+/home/mca13007.nirmauni/ 7 64129 0 0
+/home/darsthakkar/9/ 2 101559 0 0
+/home/kdchauhan%40gmail.com/6/ 1 29718 0 0
+/home/pub/13/download/Entity%20Relationship%20Model.sws 4 129800 0 2
+/home/pub/10/ 30 1109062 3 1
+/home/sowjanya21/ 5 28110 0 0
+/home/mca06.nirmauni/11/ 5 294190 0 0
+/home/mca13011.nirmauni.ac.in/0/cell_update 1 130 0 0
+/home/Shailav/6/alive 13 13 0 0
+/home/pub/19/ 497 10547406 305 93
+/home/tofik/3/cell_list 1 39 0 0
+/home/mca1353/2/eval 14 208 0 0
+/home/mca13020.nirmauni/4/ 1 50524 0 0
+/home/isha46_mca/3/alive 1 1 0 0
+/home/prashant_1579@rediffmail.com/0/ 3 55644 0 0
+/home/vihar/ 13 97480 0 0
+/home/mca13003.nirmauni/4/cell_update 1 130 0 0
+/home/mca13008/3/alive 438 543 0 0
+/home/jinalpatel@nirma/1/cell_update 22 3615 0 0
+/home/heavenpatel/0/cell_update 5 650 0 0
+/home/thakorsuresh@nirmauni.ac.in/7/eval 31 560 0 0
+/home/mohammed/6/ 2 128972 0 0
+/home/isha46_mca/1/cell_update 16 4280 0 0
+/home/gkjayabalu/3/download/gk.sws 1 1198 0 0
+/home/mca13003.nirmauni/7/ 1 50524 0 0
+/home/mca13063@nirmauni.ac.in/2/eval 3 60 0 0
+/home/pub/23/ 40 1378114 8 17
+/home/mca13063@nirmauni.ac.in/1/cell_update 6 2057 0 0
+/home/tofik/3/alive 138 191 0 0
+/home/mca13008/3/cell_list 2 77 0 0
+/home/kdchauhan@gmail.com/5/eval 5 2657 0 0
+/home/sonagravijay/7/eval 14 160 0 0
+/home/hardikrathod/4/eval 4 56 0 0
+/home/thakorsuresh@nirmauni.ac.in/9/eval 23 364 0 0
+/home/darsthakkar/3/eval 11 148 0 0
+/home/gkjayabalu/1/rename 1 4 0 0
+/home/jinalpatel@nirma/0/cell_update 31 7449 0 0
+/home/AAKASH/2/pretty_print/false 1 7 0 0
+/home/Jaynish/7/alive 78 106 0 0
+/home/hardikrathod/2/alive 296 296 0 0
+/home/kritibhatia02%40gmail.com/ 1 5648 0 0
+/home/pub/15/rate 2 5456 0 0
+/home/mohammed/3/eval 8 112 0 0
+/home/mca13008/3/eval 84 3769 0 0
+/home/gkjayabalu/4/rename 1 4 0 0
+/home/thakorsuresh@nirmauni.ac.in/3/alive 2 2 0 0
+/home/mca1356%40nirmauni.ac.in/6/ 1 63124 0 0
+/home/pub/22/ 11 432474 0 3
+/home/dhavalpurohit74%40gmail.com/ 1 5652 0 0
+/home/mca13003.nirmauni/0/ 2 120412 0 0
+/home/tofik/5/alive 15 15 0 0
+/home/aman090893/1/cell_update 29 6806 0 0
+/home/mca13015/1/cell_update 1 130 0 0
+/home/kdchauhan@gmail.com/6/alive 51 51 0 0
+/home/nehasingh%40nirma/0/ 1 50511 0 0
+/home/ashutosh.ruparelia/0/eval 5 40 0 0
+/home/Shailav/0/alive 9 9 0 0
+/home/sonagravijay/8/eval 20 256 0 0
+/home/mca1353/1/ 1 50463 0 0
+/home/Shailav/ 3 19380 0 0
+/home/hardiksl@yahoo.co.in/0/alive 251 448 0 0
+/home/aravind789/ 1 5622 0 0
+/home/jaiprakash.verma%40nirmauni.ac.in/0/ 1 50607 0 0
+/home/mca13011.nirmauni.ac.in/3/publish 2 31447 0 0
+END_SIDER

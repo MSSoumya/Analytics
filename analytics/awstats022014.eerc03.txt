@@ -1,0 +1,554 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc03.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2673                
+POS_VISITOR 3700                
+POS_DAY 3912                
+POS_DOMAIN 4601                
+POS_LOGIN 4835                
+POS_ROBOT 4990                
+POS_WORMS 5769                
+POS_EMAILSENDER 5900                
+POS_EMAILRECEIVER 6043                
+POS_SESSION 6119                
+POS_SIDER 6329                
+POS_FILETYPES 7554                
+POS_DOWNLOADS 7836                
+POS_OS 8929                
+POS_BROWSER 9263                
+POS_SCREENSIZE 11473               
+POS_UNKNOWNREFERER 11547               
+POS_UNKNOWNREFERERBROWSER 14457               
+POS_ORIGIN 16030               
+POS_SEREFERRALS 16175               
+POS_PAGEREFS 16386               
+POS_SEARCHWORDS 17921               
+POS_KEYWORDS 18105               
+POS_MISC 2337                
+POS_ERRORS 18204               
+POS_CLUSTER 4691                
+POS_SIDER_404 18340               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301000555 6802 1773120 14373639713473
+FirstTime 20140208193851
+LastTime 20140228194840
+LastUpdate 20141015124848 6802 0 6801 0 0
+TotalVisits 134                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 117 3448804 7 18 264087
+1 12 68 4247890 4 25 236287
+2 39 107 5290531 7 27 305230
+3 19 59 7447018 3 24 208519
+4 3 20 459939 7 24 130335
+5 22 59 32864046 13 24 51279
+6 13 46 3154643 7 23 628710
+7 59 196 83004030 3 14 348580
+8 28 124 3864989 17 28 238911
+9 40 184 5876066 13 23 38136
+10 39 197 71451334 10 15 354238
+11 129 432 77052826 23 38 163433
+12 117 411 28178399 15 31 1040858
+13 155 535 14042994 20 37 111930
+14 72 248 7326279 17 29 77789
+15 147 531 46699042 16 19 97767
+16 110 557 12652649 19 29 806548
+17 64 235 44538740 15 26 32608
+18 30 149 8957700 13 34 269854
+19 42 203 41063874 8 20 186139
+20 53 275 111818407 8 18 5301
+21 32 158 8810308 7 16 524602
+22 63 283 35482610 12 38 598843
+23 53 227 7625731 9 18 95832
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+10.4.12.236 758 3398 287668262 20140228194840
+10.4.8.52 599 2795 335918095 20140228105724
+14.139.196.2 0 3 108340 
+37.228.107.81 0 2 59664 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 9 48 1820794 2
+20140209 42 173 7409145 5
+20140210 106 421 85688902 11
+20140211 77 324 40932819 7
+20140212 82 297 9732661 11
+20140213 46 216 38762334 7
+20140214 45 172 68957418 6
+20140215 37 112 35935754 2
+20140216 62 228 7529498 8
+20140217 84 267 11186677 5
+20140218 65 263 17250297 7
+20140219 109 501 26458130 5
+20140220 108 372 79809210 7
+20140221 144 493 39713039 8
+20140222 66 247 5892585 8
+20140223 13 93 5555031 4
+20140224 73 244 73528732 7
+20140225 33 184 45559352 6
+20140226 105 437 12024301 9
+20140227 30 183 42741709 5
+20140228 21 146 8870461 4
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1357 5421 623754361
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+googlebot 223 1047955 20140228223207 0
+bingbot 89 3173961 20140228182015 0
+[\s_+:,\.\;\/\\-]bot 21 626067 20140227224830 0
+msnbot\-media 13 42109 20140228063613 0
+slurp 8 23963 20140228124851 0
+baiduspider 8 22693 20140224140359 0
+^mozilla\/4\.0 \(compatible;\)$ 6 42723 20140213141322 0
+wordpress 5 445935 20140214220918 0
+ia_archiver 4 765467 20140211125010 0
+bingpreview 4 10486 20140223021316 0
+no_user_agent 1 85156 20140222220659 0
+zend_http_client 4 0 20140228000321 0
+ezoom 1 5029 20140215051212 0
+^mozilla\/4\.0$ 1 24385 20140209032442 0
+yandex 3 280212 20140221012924 0
+butterfly 2 117541 20140221211249 0
+robot 2 3910 20140224185622 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 22
+15mn-30mn 6
+30s-2mn 25
+2mn-5mn 20
+0s-30s 44
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/labs/eerc03/ 299 893080 118 19
+/labs/eerc03/exp1/ 241 892979 9 20
+/labs/eerc03/default.html 122 182768 0 6
+/labs/eerc03/content.html 121 328833 0 16
+/labs/eerc03/exp5/ 106 354461 1 6
+/labs/eerc03/exp13/ 91 301456 0 10
+/labs/eerc03/exp6/ 52 176027 2 8
+/labs/eerc03/exp9/ 48 161430 2 7
+/labs/eerc03/exp1/vlab2/1.Bernoullis.html 42 12394 0 5
+/labs/eerc03/exp7/ 40 135255 0 2
+/labs/eerc03/exp12/vlab2/9.Jets.html 4 1404 0 1
+/labs/eerc03/exp12/ 35 113272 1 4
+/labs/eerc03/exp5/vlab2/2.VenturiMeter.html 19 4284 0 5
+/labs/eerc03/exp7/vlab2/4.MouthPieces.html 1 358 0 1
+/labs/eerc03/exp12/content.html 1 2910 0 0
+/labs/eerc03/exp8/ 25 83330 0 4
+/labs/eerc03/exp12/default.html 1 3721 0 1
+/labs/eerc03/exp9/vlab2/6.Channels.html 2 710 0 0
+/labs/eerc03/exp10/vlab2/7.ReynoldsExperiment.html 2 706 0 0
+/labs/eerc03/exp11/ 23 74680 0 3
+/labs/eerc03/exp13/vlab2/10.Turbines.html 6 2166 0 3
+/labs/eerc03/exp1/Animation/ 2 2406 0 1
+/labs/eerc03/exp6/vlab2/3.Orifices.html 4 1412 0 1
+/labs/eerc03/exp10/ 35 122611 0 2
+/labs/eerc03/exp1/vlab2/Bernoullis.jnlp 22 8398 1 9
+/labs/eerc03/exp5/vlab2/Venturi.jnlp 13 2628 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 543 879945 0 0
+png 122 306220 0 0
+pdf 964 130052506 0 0
+swf 123 751525 0 0
+php 997 3310987 0 0
+html 325 541666 0 0
+jnlp 35 11026 0 0
+jar 36 473588772 0 0
+js 331 3785188 0 0
+jpg 1768 9733944 0 0
+gif 177 792582 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 20
+/labs/eerc03/exp12/9.Jets.pdf 516 462 51727772
+/labs/eerc03/exp6/3.Orifices.pdf 89 37 19129900
+/labs/eerc03/exp13/10.Turbines.pdf 85 30 6026717
+/labs/eerc03/exp1/1.Bernoullis_experiment.pdf 63 65 11647033
+/labs/eerc03/exp8/5.Weirs.pdf 53 52 5736401
+/labs/eerc03/exp5/2.%20Venturi_meter.pdf 49 54 13784187
+/labs/eerc03/exp10/7.Reynolds_experiment.pdf 21 25 5546600
+/labs/eerc03/exp9/6.Channels.pdf 21 26 2728530
+/labs/eerc03/exp7/4.Mouthpieces.pdf 21 16 6866920
+/labs/eerc03/exp10/07%20Reynolds_experiment.pdf 19 3 4521969
+/labs/eerc03/exp1/vlab2/virtual.jar 16 0 347152720
+/labs/eerc03/exp1/Data%20files/10%20Turbines.pdf 12 0 762876
+/labs/eerc03/exp1/Data%20files/01%20Bernoullis_experiment.pdf 10 3 1775950
+/labs/eerc03/exp8/05%20Weirs.pdf 8 0 734176
+/labs/eerc03/exp7/04%20Mouthpieces.pdf 7 0 2808407
+/labs/eerc03/exp6/03%20Orifices.pdf 4 1 960925
+/labs/eerc03/exp5/vlab2/virtual.jar 4 0 126436052
+/labs/eerc03/exp5/02%20Venturi_meter.pdf 3 1 900063
+/labs/eerc03/exp12/09%20Jets.pdf 2 2 206600
+/labs/eerc03/exp13/10%20Turbines.pdf 1 0 63573
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+blackberry 1 0
+linuxandroid 290 42
+winlong 164 64
+macosx6 5 0
+winxp 1405 359
+symbian 3 0
+winvista 627 119
+winunknown 2 0
+win2003 8 1
+j2me 41 1
+macosx9 42 8
+macosx7 7 0
+java 79 34
+macosx5 1 0
+win98 17 8
+linux 81 17
+win7 3123 657
+macosx 67 8
+Unknown 214 36
+macosx8 21 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 111
+firefox14.0 26 7
+firefox10.0.7 1 0
+msie6.0 80 28
+firefox28.0 90 41
+firefox3.6 44 17
+chrome32.0.1700.72 1 0
+firefox10.0 44 12
+ibrowse 19 3
+chrome30.0.1599.92 1 0
+firefox26.0 133 20
+sonyericsson 3 0
+chrome12.0.742.5 17 3
+chrome28.0.1500.94 1 0
+firefox18.0 23 4
+chrome29.0.1547.62 3 0
+firefox4.0 30 10
+safari5.0 2 0
+safari5.0.6 1 0
+chrome31.0.1650.57 56 15
+chrome31.0.1650.63 125 39
+chrome32.0.1687.2 2 0
+safari7.0.1 4 0
+chrome31.0.1650.34 2 0
+chrome31.0.1622.7 43 19
+chrome33.0.1750.46 37 16
+msie8.0 327 77
+chrome32.0.1700.99 17 0
+chrome33.0.1734.5 25 6
+chrome11.0.696.34 1 0
+msie7.0 19 3
+firefox23.0 1 0
+chrome29.0.1547.66 3 0
+chrome33.0.1750.5 3 0
+chrome12.0.742.12 29 6
+chrome8.0.552.215 7 0
+chrome11.0.696.16 6 0
+firefox21.0 42 16
+lg\- 3 0
+chrome33.0.1750.132 2 0
+firefox10.0.1 6 0
+chrome32.0.1700.6 3 0
+safari6.0 25 6
+firefox29.0 1 0
+firefox12.0 7 0
+chrome32.0.1700.107 1546 365
+msie5.00 1 0
+chrome34.0.1838.2 2 0
+safari6.0.5 21 3
+mozilla 277 30
+firefox25.0 101 29
+chrome33.0.1750.117 711 128
+netscape5.0 2 0
+firefox14.0.1 38 8
+chrome32.0.1700.76 79 20
+chrome22.0.1229.94 1 0
+netscape4.0 71 35
+safari6.1.1 2 0
+safari5.1.9 2 0
+firefox19.0 2 0
+safari 21 1
+firefox15.0.1 51 16
+chrome21.0.1180.89 3 0
+chrome29.0.1547.72 42 16
+safari7.0 47 8
+firefox20.0 3 0
+firefox15.0 3 0
+firefox4.0.1 2 0
+chrome23.0.1271.64 3 0
+chrome29.0.1547.76 29 0
+android 186 19
+chrome28.0.1500.95 87 37
+chrome22.0.1229.79 1 0
+chrome33.0.1712.4 29 7
+chrome12.0.742.112 1 0
+firefox24.0 4 0
+opera9.80 194 28
+chrome26.0.1410.58 2 0
+chrome15.0.874.121 4 0
+iphone 4 0
+chrome16.0.904.0 1 0
+chrome33.0.1712.2 2 0
+firefox6.0.2 77 3
+chrome32.0.1700.102 32 5
+chrome24.0.1312.57 1 0
+firefox16.0 1 0
+chrome30.0.1599.66 4 0
+chrome10.0.648.11 3 0
+msie9.0 202 54
+firefox3.6.10 1 0
+chrome30.0.1599.101 22 3
+firefox27.0 740 156
+Unknown 35 7
+chrome29.0.1547.22 1 0
+firefox11.0 47 13
+blackberry 1 0
+chrome18.0.1025.166 33 7
+chrome30.0.1599.105 2 0
+samsung 17 3
+chrome31.0.1650.4 3 0
+chrome31.0.1612.2 3 0
+chrome9.0.597 4 1
+chrome28.0.1500.71 1 0
+chrome34.0.1825.4 1 0
+chrome18.0.966.0 1 0
+nokia 11 0
+firefox3.0.6 17 3
+firefox22.0 20 4
+msie10.0 19 0
+firefox6.0 3 0
+chrome27.0.1453.116 5 0
+firefox3.6.8 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 27
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140213095954
+Zend_Http_Client 20140227221709
+Opera/9.80_(Android;_Opera_Mini/7.5.32551/34.1267;_U;_en)_Presto/2.8.119_Version/11.10,gzip(gfe)_(via_docs.google.com/viewer) 20140220154630
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20140228221704
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.1;_en-US;_Celkon_A8_)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20140211232539
+SAMSUNG-GT-S3653/S3653JVJD1_SHP/VPP/R5_Jasmine/1.0_Nextreaming_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20140219121413
+Opera/9.80_(Android;_Opera_Mini/7.5.33901/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140218204341
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140212114815
+Opera/9.80_(Android;_Opera_Mini/7.5.32551/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140220154650
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140222101102
+Opera/9.80_(Series_60;_Opera_Mini/7.0.32403/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140228142339
+HTTPFetcher_0.1 20140224234653
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_A61)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140211084249
+Opera/9.80_(Android;_Opera_Mini/7.5.32195/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140224015244
+Mozilla/5.0_(Series40;_NokiaX2-02/12.04;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140216210611
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140218090343
+Opera/9.80_(Android;_Opera_Mini/6.5.27431/34.1153;_U;_en)_Presto/2.8.119_Version/11.10 20140209135824
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20140210081005
+Mozilla/5.0_(Series40;_Nokia305/03.60;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140211202557
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140223224222
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140226114820
+Opera/9.80_(Android;_Opera_Mini/7.5.31657/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140217073043
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140228201205
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140226045344
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20140210080839
+Mozilla/5.0_(Series40;_NokiaX2-02/12.04;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22,gzip(gfe)_(via_docs.google.com/viewer) 20140216210515
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140218183143
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 16
+Zend_Http_Client 20140227221709
+UCWEB/2.0(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S6102)_U2/1.0.0_UCBrowser/9.3.1.344_Mobile 20140221121841
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.1;_en-US;_Celkon_A8_)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20140211232539
+HTTPFetcher_0.1 20140224234653
+Apache-HttpClient/UNAVAILABLE_(java_1.4) 20140209195302
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_A61)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140211084249
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_AX407)_U2/1.0.0_UCBrowser/8.9.2.373_Mobile 20140216142850
+A6-Indexer/1.0_(http://www.a6corp.com/a6-web-scraping-policy/) 20140210081005
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_C2004)_U2/1.0.0_UCBrowser/9.0.2.389_Mobile 20140218015949
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S5302)_U2/1.0.0_UCBrowser/8.2.0.242_U2/1.0.0_Mobile 20140221014737
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_hexing15_6626_gb2)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20140219163443
+ADmantX_Platform_Semantic_Analyzer_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20140210080839
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_GT-S5360)_U2/1.0.0_UCBrowser/8.6.0.318_U2/1.0.0_Mobile 20140224234644
+Apache-HttpClient/4.2.5_(java_1.5) 20140225162453
+UCWEB/2.0_(Linux;_U;_Adr_2.3.6;_en-US;_Micromax_A72)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20140225154557
+UCWEB/2.0(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S7562)_U2/1.0.0_UCBrowser/9.3.1.344_Mobile 20140211152137
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 96 499
+From1 0 7
+From2 7 771
+From3 137 197
+From4 1117 4724
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 5 738
+search 0 1
+bing 1 2
+infospace 1 13
+ask 0 14
+yahoo 0 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 25
+http://www.vlab.co.in/ba_labs_all.php 76 76
+http://www.vlab.co.in/institute_detail.php 19 19
+http://virtual-labs.ac.in/labs/eerc03/ 18 18
+http://www.vlab.co.in/search.php 9 9
+http://vlab.co.in/ba_labs_all.php 7 7
+http://www.vlab.co.in/lab_ready_for_use.php 3 3
+http://vlab.co.in/search.php 2 2
+http://vlab.co.in/lab_ready_for_use.php 1 1
+http://www.vlab.co.in/search_institute.php 1 1
+http://vlab.co.in/institute_detail.php 1 1
+http://www.facebook.com/l.php 0 3
+http://ebookily.net/pdf/fluid-mechanics-133518874.html 0 7
+http://ebookily.net/pdf/performance-characteristics-of-a-pelton-turbine-101663561.html 0 1
+http://booksily.net/pdf/fluid-mechanics-128296813.html 0 1
+http://bookily.net/pdf/fluid-mechanics-133518874.html 0 15
+http://www.e-bookspdf.org/view/aHR0cDovL2RlcGxveS52aXJ0dWFsLWxhYnMuYWMuaW4vbGFicy9lZXJjMDMvZXhwNi8zLk9yaWZpY2VzLnBkZg==/Rmx1aWQgTWVjaGFuaWNz 0 4
+http://bookily.net/pdf/fluid-mechanics-130780095.html 0 1
+http://ebooksstation.com/docs/pdf/fluid-mechanics-r.k.bansal 0 9
+http://ebookily.net/pdf/fluid-mechanics-90646437.html 0 1
+http://translate.google.co.in/translate_p 0 4
+http://booksily.net/pdf/fluid-mechanics-133518874.html 0 5
+http://bookily.net/pdf/fluid-mechanics-128296813.html 0 3
+http://webcache.googleusercontent.com/search 0 1
+http://ebookily.net/pdf/fluid-mechanics-128296813.html 0 4
+http://booksily.org/pdf/fluid-mechanics-133518874.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+proposal+for+virtual+lab+mhrd 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+for 1
+virtual 1
+proposal 1
+mhrd 1
+lab 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+416 1 405
+206 13 49486
+502 12 6278
+404 23 5689
+301 138 36366
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/labs/css/override.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/labs/eerc03/exp6/vlab2/com.vlab.fm.Orifice$MyApplet 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp6/vlab2/3.Orifices.html
+/labs/eerc03/exp12/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/eerc03/exp12/
+/labs/eerc03/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc03/exp12/9.jets.pdf 1 -
+/labs/eerc03/exp11/.pdf 9 http://deploy.virtual-labs.ac.in/labs/eerc03/exp11/index.php
+/labs/eerc03/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp1/index.html
+/labs/eerc03/exp12/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp12/
+/labs/eerc03/exp1/PendulumForces.swf 1 -
+/labs/css/default.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/labs/eerc03/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/css/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc03
+/labs/eerc03/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/index.html 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp12/
+END_SIDER_404

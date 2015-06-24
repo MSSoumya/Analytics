@@ -1,0 +1,1544 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.vlead.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2685                
+POS_VISITOR 22723               
+POS_DAY 49816               
+POS_DOMAIN 3663                
+POS_LOGIN 3898                
+POS_ROBOT 4053                
+POS_WORMS 5345                
+POS_EMAILSENDER 5476                
+POS_EMAILRECEIVER 5619                
+POS_SESSION 50712               
+POS_SIDER 50925               
+POS_FILETYPES 5754                
+POS_DOWNLOADS 6060                
+POS_OS 6303                
+POS_BROWSER 6618                
+POS_SCREENSIZE 8650                
+POS_UNKNOWNREFERER 8724                
+POS_UNKNOWNREFERERBROWSER 11290               
+POS_ORIGIN 11844               
+POS_SEREFERRALS 11989               
+POS_PAGEREFS 12157               
+POS_SEARCHWORDS 18998               
+POS_KEYWORDS 19264               
+POS_MISC 2347                
+POS_ERRORS 19458               
+POS_CLUSTER 3754                
+POS_SIDER_404 19640               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701000425 1035 237573 8465913834748
+FirstTime 20140601003008
+LastTime 20140630220539
+LastUpdate 20140701010103 1 0 0 0 0
+TotalVisits 835                 
+TotalUnique 517                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 764                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 341 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 53 221 10616738 502 599 20235381
+1 2 3 130656 11 11 163422
+2 99 144 5461750 528 609 8631392
+3 29 104 17129828 531 639 21743577
+4 92 176 3883603 551 643 12418936
+5 58 148 5304007 518 619 15706878
+6 53 222 6299524 535 634 11097993
+7 29 73 4400819 497 548 15913871
+8 44 233 10511000 616 684 10632451
+9 93 496 15581822 512 585 15537852
+10 83 741 26144381 540 670 16694235
+11 83 787 30709588 546 660 16492558
+12 126 1195 46883750 621 785 24834748
+13 193 1067 41297058 591 692 11769243
+14 102 586 16947210 626 741 16688458
+15 111 655 22545256 651 766 17475692
+16 336 1073 40348971 694 874 15139689
+17 138 591 35095254 559 682 12676964
+18 107 429 21563661 556 637 22111987
+19 104 802 22308592 575 740 20811642
+20 156 937 24541658 579 683 10789101
+21 192 816 38972817 576 851 23306622
+22 99 457 15609327 545 691 27361001
+23 74 363 19150104 519 603 15864725
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2456 12319 460154642
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 30
+robot 7693 11563638 20140630235925 16
+googlebot 1602 165620621 20140630231048 92
+baiduspider 1133 35742221 20140630225612 0
+bingbot 899 32007188 20140630220718 174
+yandex 733 27259077 20140629131220 97
+bot[\s_+:,\.\;\/\\-] 424 11166526 20140630235901 138
+msnbot\-media 349 37236064 20140630223217 112
+php 208 6011514 20140630220544 0
+mj12bot 160 4524937 20140630232141 65
+feedburner 143 11697611 20140630194342 0
+commons\-httpclient 9 254502 20140624213130 0
+ruby\/ 1 60946 20140625040624 0
+no_user_agent 26 7237728 20140630220233 2
+spider 23 549178 20140630134520 14
+ia_archiver 9 154544 20140630050433 4
+bingpreview 31 498162 20140629165713 0
+[\s_+:,\.\;\/\\-]bot 2 92748 20140618073243 0
+slurp 141 9832264 20140630154053 36
+^java\/[0-9] 1 9129 20140618083256 0
+unknown 7 413 20140630145443 7
+facebook 15 596173 20140630154312 0
+^mozilla\/4\.0$ 24 362942 20140622120927 0
+yahoocachesystem 1 1777235 20140605090546 0
+favicon 1 60946 20140601211529 0
+scanner 1 60900 20140630124050 0
+checker 101 2749985 20140611122353 0
+turnitinbot 2 35853 20140604070739 1
+netcraft 4 159454 20140614210027 0
+crawl 107 4056975 20140628195943 6
+nutch 2 27200 20140604161853 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 1767 14162123 0 0
+png 1758 79070056 0 0
+pdf 30 58917495 0 0
+php 2317 71869396 0 0
+html 40 501880 0 0
+js 4407 47879379 0 0
+jpg 1713 179731661 0 0
+xml 1 1045 0 0
+jpeg 57 5342877 0 0
+Unknown 99 1890556 0 0
+gif 125 778419 0 0
+svg 5 4563 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/wp-content/uploads/2013/08/bare_conf.pdf 53 261 154530630
+/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 17 0 2048908
+/wiki/upload/5/5e/Workinghours_v1.1.pdf 1 0 114671
+/robots.txt 0 88 5192
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+linuxandroid 462 242
+winxp 948 353
+macosx6 39 1
+winlong 254 135
+unix 105 5
+symbian 1 0
+linuxubuntu 470 173
+linux 4824 816
+winvista 980 211
+win7 3582 444
+macosx 242 23
+winunknown 199 9
+j2me 2 0
+macosx4 1 1
+macosx9 148 10
+Unknown 389 15
+macosx8 22 18
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 98
+firefox28.0 105 8
+msie6.0 240 233
+firefox3.8 1 1
+chrome7.0.517.0 1 0
+chrome34.0.1847.137 118 4
+chrome33.0.1750.166 1 0
+ibrowse 1 0
+firefox26.0 276 24
+chrome22.0.1190.0 105 5
+chrome28.0.1467.0 1 1
+safari7.0.4 63 3
+firefox4.0 2 2
+chrome29.0.1547.62 9 1
+chrome31.0.1650.63 51 6
+msie8.0 244 14
+chrome28.0.1500.72 60 59
+chrome25.0.1364.160 25 25
+chrome11.0.696.34 1 1
+msie7.0 246 140
+chrome27.0.1453 5 1
+firefox9.0.1 1 0
+chrome29.0.1547.66 32 2
+netscape 1 0
+chrome28.0.1500.63 34 34
+chrome34.0.1847.131 66 6
+wap 5 0
+firefox21.0 111 111
+firefox29.0 2818 287
+safari6.0 8 6
+firefox3.5.2 8 8
+chrome23.0.1271.91 1 0
+firefox12.0 142 10
+chrome32.0.1700.107 544 17
+chrome35.0.1916.114 801 53
+firefox33.0 1 0
+firefox25.0 1509 281
+safari6.0.4 2 2
+mozilla 235 12
+chrome33.0.1750.117 36 4
+chrome30.0.1599.12785 2 1
+chrome26.0.1410.64 10 10
+firefox14.0.1 37 4
+chrome32.0.1700.76 4 4
+chrome22.0.1229.94 32 2
+chrome26.0.1410.63 28 28
+firefox19.0 1 1
+chrome25.0.1364.169 1 0
+safari 200 13
+firefox15.0.1 20 20
+firefox16.0.1 1 1
+safari7.0 71 3
+firefox5.0 33 26
+firefox20.0 12 12
+chrome24.0.1309.0 2 2
+android 407 235
+firefox3.5.3 4 4
+firefox24.0 116 6
+opera9.80 248 21
+firefox31.0 57 5
+chrome32.0.1700.102 3 1
+firefox13.0.1 2 2
+chrome30.0.1599.13014 1 1
+chrome13.0.782.112 3 3
+chrome34.0.1847.116 102 5
+chrome33.0.1750.154 1 0
+chrome33.0.1750.146 4 3
+msie9.0 186 10
+chrome28.0.1500.52 118 118
+Unknown 54 10
+chrome30.0.1599.101 3 0
+firefox27.0 32 7
+chrome30.0.1599.114 289 58
+firefox3.0.2 11 11
+chrome26.0.1410.40 1 0
+firefox17.0 61 11
+chrome29.0.1547.59 1 1
+samsung 6 0
+chrome14.0.797.0 1 0
+chrome36.0.1985.84 10 3
+firefox3.6.2 1 1
+firefox3.6.16 12 12
+chrome35.0.1916.141 54 7
+chrome27.0.1453.110 29 28
+chrome28.0.1500.71 96 96
+firefox30.0 614 39
+firefox18.0.1 1 1
+chrome36.0.1985.97 57 5
+chrome34.0.1788.0 1 0
+chrome23.0.1271.17 2 2
+nokia 18 0
+chrome35.0.1916.153 1239 81
+firefox22.0 67 67
+msie10.0 285 13
+firefox5.0.1 4 4
+safari5.1 1 1
+chrome27.0.1453.116 96 90
+chrome23.0.1271.97 1 1
+firefox3.6.8 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 30
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20140629033803
+visionutils/0.2 20140606092405
+&as_qdr=all 20140602005824
+SAMSUNG-GT-C3322/C3322DDMB1_NetFront/4.1_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140626115426
+SAMSUNG-GT-S3770K/S3770KDDLH1_NetFront/4.1_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140627152546
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.2883;_U;_en)_Presto/2.8.119_Version/11.10 20140618184005
+SAMSUNG-GT-C3312R/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140612183656
+Micromax_X328/Q03C_MAUI-Browser_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140630234036
+Scrapy/0.21.0-160-g3c1e226_(_http://scrapy.org) 20140616131937
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.2989;_U;_en)_Presto/2.8.119_Version/11.10 20140620023608
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20140619061650
+MAUI_WAP_Browser 20140622174005
+Mozilla/5.0_(compatible;_Baiduspider/2.0;__http://www.baidu.com/search/spider.html) 20140619053444
+Googlebot-Image/1.0 20140618002504
+NokiaC2-00/2.0_(03.82)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20140623162317
+SAMSUNG-GT-C3262/C3262DDMA1_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140621222003
+M 20140627183411
+Mozilla 20140603095244
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_Celkon*A95*Pro)_U2/1.0.0_UCBrowser/9.2.0.419_U2/1.0.0_Mobile 20140601173107
+Opera/9.80_(Android;_Opera_Mini/7.5.35188/35.3088;_U;_en)_Presto/2.8.119_Version/11.10 20140627134213
+Disqus/1.0 20140630145609
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20140619030625
+GIONEE50_12864_11B_HW_(MRE\\3.0.00(3072)_resolution\\240320_chipset\\MT6250_touch\\1_tpannel\\0_camera\\1_gsensor\\0_keyboard\\normal)_1305GI_0201_V2008_Release/2013.06.17_WAP_Browser/MAUI_(HTTP_PGDL;_HTTPS)_Profile/Profile/MIDP-2.0_Configuration/CLDC-1.1_Q03C1-2.40_en-US 20140622201209
+Dorado_WAP-Browser/1.0.0 20140629071243
+SAMSUNG-GT-S5222/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140602203027
+SAMSUNG-GT-E2252/E2252DDMC2_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140626232315
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/34.2220;_U;_en)_Presto/2.8.119_Version/11.10 20140601195805
+Mozilla/5.0_(compatible;_AhrefsBot/5.0;__http://ahrefs.com/robot/) 20140619073033
+Mozilla/5.0_(Series40;_Nokia311/03.81;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.3.0.0.49 20140621220405
+Mozilla/5.0_(compatible;_UptimeRobot/2.0;_http://www.uptimerobot.com/) 20140619121409
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+visionutils/0.2 20140606092405
+&as_qdr=all 20140602005824
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_Celkon*A95*Pro)_U2/1.0.0_UCBrowser/9.2.0.419_U2/1.0.0_Mobile 20140601173107
+Disqus/1.0 20140630145609
+Micromax_X328/Q03C_MAUI-Browser_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140630234036
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20140619061650
+Scrapy/0.21.0-160-g3c1e226_(_http://scrapy.org) 20140616131937
+Googlebot-Image/1.0 20140618002504
+M 20140627183411
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 557 1018
+From1 0 0
+From2 76 466
+From3 1823 11184
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 76 465
+yahoo 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 108
+http://vlead.vlabs.ac.in 540 1451
+http://vlead.vlabs.ac.in/wp-login.php 242 271
+http://vlead.vlabs.ac.in/wp-admin/post.php 131 300
+http://vlead.virtual-labs.ac.in/wp-login.php 123 123
+http://vlead.virtual-labs.ac.in 92 1839
+http://vlead.virtual-labs.ac.in/events/recruitment-drive-march-2014/ 52 1268
+http://www.iiit.ac.in/content/project-openings/vlead 49 49
+https://vlead.virtual-labs.ac.in/wiki/index.php 42 62
+https://vlead.virtual-labs.ac.in/wiki/index.php/Welcome_to_VLEAD_wiki 36 36
+http://vlead.vlabs.ac.in/about-us/interns-2014/ 32 532
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 4 34
+http://vlead.vlabs.ac.in/events/recruitment-drive-march-2014/ 7 116
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/07/ 0 2
+https://vlead.virtual-labs.ac.in/wiki/index.php/Apache 3 3
+http://vlead.vlabs.ac.in/about-us/interns/ 7 73
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 2 13
+https://vlead.virtual-labs.ac.in/about-us/team/ 1 20
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 5 148
+https://vlead.virtual-labs.ac.in/wiki/index.php/Base1 5 5
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2014/02/ 1 1
+http://vlead.vlabs.ac.in/2014/05/06/phase-2-virtual-labs-project/ 15 155
+http://newstraveller.ru/tips/turizm-s-rebenkom-k-chemu-stoit-byt-gotovym.html 1 1
+http://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:Community_portal 1 1
+http://vlead.vlabs.ac.in/2014/05/14/virtual-labs-on-portable-media/ 11 68
+http://vlead.vlabs.ac.in/activities/ 11 101
+http://vlead.vlabs.ac.in/wp-admin/css/wp-admin.min.css 0 4
+https://vlead.virtual-labs.ac.in 6 17
+http://webcache.googleusercontent.com/search 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Steps_for_creating_new_server_certificate 4 4
+http://vlead.vlabs.ac.in/wp-content/plugins/perfect-quotes/includes/style.css 0 55
+http://vlead.vlabs.ac.in/about-us/ 4 45
+http://vlead.vlabs.ac.in/contact-us/ 11 186
+http://vlead.vlabs.ac.in/about-us/team/www.iiit.ac.in 0 9
+http://vlead.vlabs.ac.in/events/final-presentation-by-our-summer-interns/ 2 21
+http://themes.blueboltlimited.com/jaguza/showcase/ 1 1
+http://vlead.virtual-labs.ac.in/wiki/index.php/Special:UserLogin 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/Main_Page 6 7
+http://virtual-labs.ac.in/index.php 25 25
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:RecentChanges 6 6
+http://vlead.vlabs.ac.in/category/uncategorized/ 3 116
+https://vlead.virtual-labs.ac.in/wiki/index.php/Base1_Hardware_information 4 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:Contributions/Saurabh 1 1
+http://vlead.vlabs.ac.in/2013/12/ 1 1
+http://vlead.vlabs.ac.in/join-us/ 23 301
+http://vlead.vlabs.ac.in/2013/09/ 0 30
+https://vlead.virtual-labs.ac.in/wiki/index.php/Choice_of_file-system 1 1
+http://vlead.vlabs.ac.in/wp-includes/css/editor.min.css 0 2
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/06/ 0 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Hitachi_storage_server 4 4
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 26 516
+http://vlead.vlabs.ac.in/2014/03/07/attention-lab-developers-developer-portal-moved-to-bit-bucket/ 25 44
+http://semalt.semalt.com/crawler.php 14 14
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:Random 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/List_of_containers 2 2
+http://vlead.virtual-labs.ac.in/wiki/index.php/Welcome_to_VLEAD_wiki 1 1
+http://vlead.vlabs.ac.in/wp-content/themes/jaguza/style.css 0 166
+http://vlead.vlabs.ac.in/events/field-trial/ 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/Emacs 3 3
+http://vlead.vlabs.ac.in/2013/07/18/ui-redesign/ 2 2
+https://vlead.virtual-labs.ac.in/wiki/index.php/Base1_OS_configuration 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:About 4 4
+http://vlead.vlabs.ac.in/wp-admin/ 18 62
+http://vlead.vlabs.ac.in/wp-content/plugins/insert-html-snippet/css/xyz_ihs_styles.css 0 4
+https://www.facebook.com 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:Community_portal 3 3
+http://vlead.vlabs.ac.in/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 0 3
+http://vlead.virtual-labs.ac.in/setup-instruction/ 1 1
+http://vlead.vlabs.ac.in/about-us/interns-2k14/ 1 31
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf 0 2
+https://vlead.virtual-labs.ac.in/wiki/index.php/Base4 6 6
+http://vlead.vlabs.ac.in/events/ 10 82
+http://vlead.vlabs.ac.in/page/2/ 1 5
+http://yandex.ua/images/search 0 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Software_application_or_server_specific_processes 6 6
+http://vlead.vlabs.ac.in/wp-admin/admin.php 15 58
+http://vlead.vlabs.ac.in/2013/08/12/the-virtual-labs-project-an-overview/ 4 111
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/ 0 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:Badtitle 9 10
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_wiki:Current_events 2 2
+http://10.10.10.1/24online/webpages/waitrequest.jsp 1 1
+http://vlead.vlabs.ac.in/2014/05/ 1 57
+http://vlead.vlabs.ac.in/wp-admin/load-styles.php 0 4
+https://vlead.virtual-labs.ac.in/wiki/index.php/Redmine 7 8
+https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/10/ 0 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_repositories 3 3
+http://vlead.vlabs.ac.in/wp-admin/media-new.php 4 9
+http://vlead.vlabs.ac.in/author/jayashree/ 14 445
+http://vlead.vlabs.ac.in/author/chandan/ 0 21
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 10 60
+http://vlead.vlabs.ac.in/events/summer-interns-orientation/ 3 23
+http://vlead.vlabs.ac.in/2013/07/ 1 37
+http://vlead.vlabs.ac.in/events/venues/iiit-hyderabad/ 0 28
+https://vlead.virtual-labs.ac.in/wiki/index.php/Special:SpecialPages 3 3
+https://vlead.virtual-labs.ac.in/wiki/index.php/IP_range_and_usage_information 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/Description_of_various_choices 1 1
+https://vlead.virtual-labs.ac.in/wiki/index.php/How_To%27s 9 9
+https://vlead.virtual-labs.ac.in/wiki/index.php/Member_profiles 3 3
+http://vlead.vlabs.ac.in/author/travula/ 0 45
+https://vlead.virtual-labs.ac.in/wiki/index.php/Mediawiki 3 3
+http://vlead.vlabs.ac.in/about-us/alumni/ 15 234
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf 0 13
+http://vlead.vlabs.ac.in/wp-admin/index.php 1 9
+http://vlead.vlabs.ac.in/about-us/interns-2013/ 13 462
+http://vlead.vlabs.ac.in/about-us/about-vlead/ 1 65
+http://vlead.vlabs.ac.in/wp-admin/edit.php 19 53
+http://vlead.vlabs.ac.in/about-us/team/ 19 905
+http://vlead.virtual-labs.ac.in/wiki/ 10 12
+https://vlead.virtual-labs.ac.in/wiki/index.php/Switches 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+vlead 2
+jayashree+prasad+music+teacher 2
+bhagya 1
+gitam+cse 1
+ronak+jain+iiit+hyderabad 1
+virtual+labs+in+india 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+vlead 2
+jayashree 2
+prasad 2
+music 2
+teacher 2
+cse 1
+india 1
+gitam 1
+in 1
+ronak 1
+bhagya 1
+jain 1
+iiit 1
+virtual 1
+hyderabad 1
+labs 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1 3076
+206 280 6503570
+502 12 4568
+400 5 12562
+302 476 56484
+500 74 218744
+404 360 5831097
+301 243 670
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 62
+/author/jayashree/feed/%22https:/github.com/ 1 -
+/wp-content/uploads/2013/10/thirumal.jpg 2 -
+/ 48 -
+/wp-content/uploads/2013/05/ 1 -
+/components/com_community/index.html 2 -
+/about-us/team/www.motorola.com/ 9 -
+/about-us/interns-2k14/feed/ 2 -
+/author/jayashree/%22https:/github.com/ 3 -
+/about-us/interns-2k14/ 18 -
+/old/wp-admin/ 3 -
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/8080/components/com_community/index.html 1 -
+/2013/wp-content/uploads/2013/08/labs-by-institute-latest-300x283.png 7 -
+/wordpress/wordpress/wp-admin/ 3 -
+/about-us/team/www.iiit.ac.in 11 -
+/%22https:/bitbucket.org/ 1 -
+/2014/05/%22https:/bitbucket.org/ 5 -
+/blogs/wp-login.php 1 -
+/category/uncategorized/&quot 4 -
+/feed/%22https:/bitbucket.org/ 1 -
+/8888/components/com_community/index.html 1 -
+/author/jayashree/feed/%22https:/bitbucket.org/ 1 -
+/author/jayashree/%22https:/bitbucket.org/ 3 -
+/about-us/team/www.mnnit.ac.in/ 9 -
+/wp-content/uploads/2013/08/bare_conf.pdf/trackback/ 1 https://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf
+/about-us/team/www.infosys.com 2 -
+/2014/05/06/phase-2-virtual-labs-project/%22https:/bitbucket.org/ 4 -
+/feed/%22https:/github.com/ 1 -
+/embed.js 6 -
+/apple-touch-icon-precomposed.png 1 -
+/2014/05/06/phase-2-virtual-labs-project/&quot 4 -
+/wp-content/plugins/wp_optin_pro/media-uploads.php 1 -
+/about-us/interns/ 24 -
+/events/freshers-recruitment-drive-sep-2013/ 6 -
+/%22https:/github.com/ 1 -
+/author/jayashree/&quot 4 -
+/category/uncategorized/%22https:/github.com/ 3 -
+/wp-content/plugins/formidable/pro/js/ofc-library/ofc_upload_image.php 2 -
+/activities/https:https://vlead.virtual-labs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 1 -
+/2014/05/%22https:/github.com/ 4 -
+/about-us/team/www.mnnit.ac.in/%E2%80%8E 3 -
+/2014/05/06/phase-2-virtual-labs-project/%22https:/github.com/ 5 -
+/wiki/index.php/VLEAD_wiki:Community_portal 2 https://vlead.virtual-labs.ac.in/wiki/index.php/Special:SpecialPages
+/wp-content/uploads/2013/10/yogesh.jpg 2 -
+/wp-content/themes/flexsqueeze/style.css 1 -
+/wordpress/wp-admin/ 3 -
+/admin-ajax.php 1 -
+/2014/06/ 1 -
+/events/recruitment-drive-mar-2014 1 -
+/wp-content/uploads/2013/08/wp-content/themes/multimedia/thumb.php 1 -
+/2013/wp-content/uploads/2013/08/labs-by-discipline-latest-300x288.png 7 -
+/blog/wp-admin/ 3 -
+/blog/wp-login.php 1 -
+/about-us/interns-2k13/ 20 -
+/test1/ 5 -
+/wp-content/plugins/islidex/js/timthumb.php 2 -
+/category/uncategorized/%22https:/bitbucket.org/ 2 -
+/events/recruitment-drive-mar-2014/ 1 -
+/wp-content/themes/multimedia/thumb.php 1 -
+/author/jayashree/trackback 2 http://vlead.vlabs.ac.in/author/jayashree/
+/wiki/vlead_logo.png 91 http://vlead.virtual-labs.ac.in/wiki/index.php/Special:UserLogin
+/wp/wp-admin/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 764
+10.4.8.52 246 1285 55711772 20140630184537
+196.12.53.135 239 716 21912983 20140630160404
+49.204.64.78 138 875 17461255 20140620120453
+88.238.102.40 94 94 351863 20140613165521
+192.99.25.139 82 82 3017961 20140629102653
+49.204.31.149 71 539 19236341 20140617212259
+95.10.217.31 62 62 231730 20140611043334
+188.92.75.82 44 44 1537653 20140616171019
+62.210.146.43 40 40 1439860 20140614143239
+212.47.142.255 37 37 138167 20140616170624
+106.197.147.178 2 32 721024 20140606195149
+105.237.69.200 1 39 942948 20140610182058
+23.95.21.252 2 2 127609 20140610155759
+210.212.230.132 1 30 661408 20140617144819
+37.228.106.96 0 2 33374 
+182.52.117.13 0 1 77535 
+186.92.122.36 1 1 41269 20140612205028
+202.46.56.56 1 1 23673 20140607003243
+176.31.57.9 2 2 6904 20140615040705
+192.95.54.32 2 2 127629 20140606213832
+202.46.62.26 1 1 17193 20140614122603
+70.39.185.69 1 32 726968 20140601173104
+131.253.24.80 1 23 401307 20140617045818
+114.134.189.168 0 1 77535 
+183.60.218.123 0 1 7143 
+1.187.226.166 0 1 1777235 
+89.72.152.178 2 2 127627 20140601025041
+42.106.175.147 2 29 36934 20140613125203
+192.95.48.223 2 2 71492 20140622062808
+183.60.218.82 0 2 65868 
+50.2.225.154 3 3 121601 20140622054841
+185.25.48.99 4 4 458628 20140623144428
+219.89.201.169 0 1 77535 
+204.44.85.203 2 2 6904 20140609234443
+72.233.72.155 12 12 469218 20140612133336
+103.21.125.76 1 45 2984274 20140611164720
+122.175.31.155 12 194 5038716 20140615122443
+122.164.172.48 0 1 48169 
+172.246.129.194 1 1 34494 20140601212510
+23.105.211.252 2 2 6904 20140606033610
+58.216.26.177 1 4 117356 20140624231653
+192.95.12.171 1 1 60914 20140609162034
+58.216.26.133 0 3 17873 
+209.105.239.147 6 6 689348 20140624200118
+177.157.214.18 1 39 1118171 20140612064507
+42.104.24.23 0 1 55680 
+92.98.24.220 2 2 6904 20140610193255
+173.0.55.240 3 3 34025 20140618234203
+202.46.61.24 1 1 21537 20140613142352
+65.55.213.33 1 23 401479 20140605113343
+123.176.47.146 1 39 1118151 20140610144910
+107.155.118.7 3 3 42650 20140622225924
+183.60.218.77 1 2 77764 20140624204900
+188.240.133.58 2 2 127214 20140630162001
+37.228.107.96 0 2 18561 
+49.205.14.228 0 1 333440 
+42.104.26.246 1 4 65965 20140609142800
+122.168.224.133 0 1 2040 
+183.60.218.120 0 2 71324 
+14.147.205.152 1 1 115068 20140607005229
+183.60.218.113 0 1 8913 
+117.206.41.148 0 1 3332 
+183.60.218.71 1 1 60956 20140624205111
+223.176.8.151 0 1 55680 
+58.216.26.180 1 2 77261 20140624231942
+183.60.218.104 0 1 7143 
+64.233.173.89 0 2 27016 
+196.196.16.130 4 4 13808 20140605125958
+31.41.219.180 1 2 660587 20140610231718
+49.204.246.160 0 1 95076 
+62.210.172.225 2 2 176120 20140616031658
+198.55.112.107 3 3 121601 20140622155034
+113.193.197.49 0 1 15741 
+207.150.166.225 5 5 201015 20140615155604
+198.6.50.15 1 59 1788980 20140614091518
+188.76.220.35 1 39 1118161 20140604143928
+37.228.106.129 0 2 33374 
+198.100.158.202 2 3 491721 20140620022754
+23.83.94.22 2 2 6904 20140604170419
+23.108.132.158 3 3 122038 20140611175108
+23.83.95.222 2 2 6904 20140612045400
+23.94.245.209 2 2 6904 20140614110802
+202.46.63.43 1 1 22985 20140616082220
+202.46.62.92 1 1 23673 20140609082157
+37.228.106.183 0 2 33374 
+107.167.107.119 1 44 2865933 20140618031355
+37.228.106.69 3 70 1404844 20140601195800
+110.85.107.39 6 6 383063 20140615052353
+112.218.137.43 0 1 276109 
+202.46.57.85 2 2 29282 20140628162323
+37.228.105.37 0 3 33374 
+209.161.99.140 2 2 6904 20140617114114
+183.83.169.231 0 1 55680 
+31.41.216.131 3 3 182774 20140618043016
+62.210.142.48 1 1 35862 20140616213725
+66.117.4.36 1 1 4382 20140605042250
+1.22.177.249 3 33 813035 20140602150422
+192.241.169.44 1 1 4382 20140625155647
+202.46.62.30 1 1 21537 20140615102456
+65.55.213.57 1 22 350688 20140605093232
+50.115.167.38 3 3 121652 20140617223842
+66.220.159.118 0 14 826 
+198.167.136.68 2 2 6904 20140624180924
+120.40.176.73 1 1 33825 20140608074359
+62.210.83.160 1 1 29859 20140614163637
+14.139.82.6 13 351 10383913 20140627101505
+37.228.107.12 0 2 3554470 
+23.94.159.241 1 1 115072 20140604165442
+59.97.25.42 2 32 783356 20140608234842
+112.237.83.113 1 1 35764 20140610102532
+183.60.218.111 0 1 10673 
+202.46.62.27 1 1 21537 20140618182705
+210.212.210.83 1 31 720959 20140616113544
+23.83.95.253 2 2 118642 20140614052747
+202.65.136.196 0 1 55680 
+42.106.175.148 0 1 486904 
+59.96.255.1 0 1 27341 
+192.81.208.100 2 2 92144 20140627045345
+203.99.211.18 2 2 31951 20140627005627
+91.219.237.137 2 2 6904 20140602213130
+117.221.10.21 1 27 589122 20140612102734
+23.94.8.133 4 4 13808 20140618045158
+185.25.49.185 10 10 937777 20140624132522
+216.107.159.22 1 1 3422 20140621090142
+58.216.26.171 0 1 10673 
+195.50.10.29 0 1 55944 
+76.26.40.14 1 39 1118151 20140602002537
+58.216.26.134 1 1 60956 20140624232058
+192.3.61.97 2 2 90516 20140601113230
+49.249.41.156 0 1 55680 
+198.50.253.200 1 1 60934 20140620180349
+117.243.202.54 11 72 3808802 20140626234310
+198.55.112.45 2 2 127631 20140608002548
+202.46.56.54 1 1 23745 20140603102836
+122.168.18.73 0 1 1777235 
+183.60.218.96 0 1 863 
+107.161.85.186 2 2 6904 20140611221334
+183.82.97.244 1 1 31890 20140629210726
+27.107.139.218 0 1 999664 
+49.205.39.82 2 31 667186 20140614105957
+94.23.29.177 5 5 304670 20140620131956
+217.165.252.203 6 44 1360304 20140609170726
+58.23.30.89 2 2 82518 20140604231835
+212.98.174.76 0 1 77535 
+202.46.56.151 1 1 35235 20140628061053
+202.46.56.47 1 1 22985 20140620002526
+183.83.136.83 4 74 913194 20140601205225
+113.90.223.251 1 1 33789 20140609181338
+173.252.114.113 0 1 11023 
+173.252.80.119 0 1 15993 
+23.231.7.17 2 2 6904 20140608040205
+209.161.106.91 4 4 83821 20140626152200
+37.228.107.67 0 2 33374 
+37.228.106.52 0 2 22038 
+183.82.63.154 1 7 311396 20140622103004
+66.249.67.44 1 1 39461 20140611143149
+183.60.218.115 0 1 21046 
+172.245.214.79 3 3 54449 20140612084808
+202.65.136.138 12 219 9694885 20140605155134
+66.220.159.113 0 9 531 
+49.205.177.32 0 1 342337 
+37.228.106.102 0 2 18561 
+54.240.196.185 0 2 81761 
+202.46.63.123 1 1 21537 20140629102520
+1.22.18.40 1 30 729327 20140609172929
+119.63.193.132 9 9 189417 20140630082259
+162.220.58.200 2 54 1118065 20140616054019
+106.220.23.117 1 58 1151536 20140622225547
+198.23.174.84 3 3 121579 20140624161910
+183.60.218.105 0 1 6488 
+37.228.105.121 0 1 22038 
+117.198.254.144 2 8 372402 20140624203910
+14.139.187.145 2 4 126393 20140611001000
+117.198.93.117 2 41 1102867 20140604154439
+198.23.175.22 2 2 6904 20140610234022
+202.133.60.68 0 1 9129 
+88.201.204.234 0 1 77535 
+165.231.4.142 1 1 3422 20140614155700
+172.245.60.206 3 3 121571 20140630151039
+74.50.103.63 0 16 450644 
+82.158.163.25 0 1 77535 
+54.211.19.196 1 1 60934 20140607233949
+119.46.111.17 2 2 6904 20140626065604
+122.172.130.96 0 1 11023 
+80.93.53.129 3 3 41866 20140605115343
+37.228.106.42 0 2 22038 
+107.182.115.12 2 2 6904 20140627071102
+116.203.243.65 2 32 748262 20140604212454
+123.237.80.38 0 1 27341 
+37.59.184.183 1 1 34454 20140613233410
+190.95.214.162 0 1 11023 
+122.226.172.18 2 2 54306 20140608065401
+14.139.162.2 1 1 31916 20140630155723
+176.61.142.235 4 4 83873 20140613211945
+23.94.159.141 3 3 122038 20140611062422
+192.99.207.19 2 2 6904 20140613225410
+183.82.96.83 1 58 1775822 20140618172949
+202.46.62.32 1 1 20089 20140612022321
+202.46.51.48 1 1 22225 20140601222954
+119.123.108.59 2 2 66943 20140618204101
+108.186.196.129 2 2 67570 20140622134659
+89.67.195.78 4 4 255238 20140606022306
+223.187.125.240 2 32 721040 20140624212633
+37.228.104.14 0 2 33374 
+58.216.26.159 0 1 7200 
+204.44.82.140 2 2 127735 20140603025729
+199.119.226.178 4 4 13808 20140629102659
+49.204.109.79 24 181 9737722 20140629192302
+183.60.218.87 0 1 16808 
+124.123.243.104 0 1 333440 
+202.46.56.55 1 1 20777 20140606222820
+46.29.252.47 4 4 83957 20140612120647
+58.216.26.151 0 1 83615 
+192.95.39.229 4 4 255240 20140617054948
+173.252.105.118 0 1 15993 
+122.165.55.186 2 43 1181544 20140630133549
+212.219.116.126 1 35 825325 20140620183803
+107.182.125.19 3 3 121970 20140617003254
+54.209.225.210 4 4 189854 20140616131937
+112.79.39.17 0 1 1777235 
+183.60.218.81 0 1 4289 
+5.39.32.118 3 3 121970 20140617201901
+107.182.125.195 1 1 115066 20140617091523
+14.139.155.210 6 84 1491827 20140630200449
+192.74.236.241 3 6 1951963 20140630140314
+58.216.26.146 0 2 968 
+183.82.68.81 3 33 750925 20140623201201
+192.188.101.10 0 1 104785 
+49.204.71.161 0 1 95423 
+188.49.121.211 0 1 162020 
+107.155.77.126 2 2 6904 20140623040118
+201.221.133.86 3 3 125250 20140618180236
+202.46.62.91 1 1 22985 20140618042305
+42.104.24.186 0 1 55680 
+202.46.63.42 1 1 10641 20140617202034
+58.216.26.145 0 1 35518 
+183.60.218.92 0 1 484 
+50.115.175.184 2 2 6904 20140622230856
+49.206.250.208 2 2 31931 20140625105311
+185.24.218.132 4 4 128762 20140619021640
+192.227.253.233 2 2 6904 20140607143555
+107.150.47.154 1 1 35792 20140630220144
+67.23.178.68 3 3 54429 20140610094747
+180.215.232.106 4 39 817648 20140627163308
+66.118.157.245 2 2 127629 20140606185323
+103.21.127.76 0 1 57456 
+70.75.184.85 0 1 77535 
+59.91.66.141 0 1 1777235 
+197.96.65.202 0 1 71506 
+66.249.90.36 0 1 49051 
+37.228.106.139 0 1 22038 
+183.82.214.52 2 31 655033 20140624233916
+117.220.238.120 1 1 26641 20140630160605
+23.105.210.93 1 1 35774 20140604171104
+117.226.91.47 0 12 164300 
+213.231.44.153 9 9 39069 20140602223619
+212.47.148.102 37 37 138167 20140616020349
+82.58.201.92 1 39 1118137 20140609210151
+115.241.18.211 0 1 1777235 
+58.68.70.126 0 23 488316 
+115.249.130.38 1 15 483135 20140625163746
+183.60.218.69 0 1 0 
+59.92.158.71 1 46 4199571 20140616083126
+195.211.155.133 12 12 730872 20140622215845
+111.93.131.2 0 1 91557 
+82.168.111.146 1 1 4382 20140619123559
+192.200.31.164 1 1 3422 20140602051933
+76.102.238.231 2 2 56908 20140615132908
+196.196.20.172 3 3 67832 20140602073550
+119.63.193.194 13 13 281573 20140625042233
+213.251.189.205 1 1 4382 20140605043049
+112.79.36.40 1 28 161984 20140602132642
+115.241.38.159 0 1 17053 
+175.100.131.169 1 59 1986540 20140617140827
+213.136.75.83 6 6 183666 20140620050121
+46.29.252.45 4 4 83937 20140604210744
+144.36.228.182 0 1 55680 
+69.12.81.146 4 4 13808 20140609021207
+92.222.7.21 24 24 832618 20140623050811
+209.161.98.143 4 4 73964 20140624100055
+170.130.24.141 2 2 6904 20140616060450
+207.46.132.206 0 12 2559925 
+107.155.117.101 2 2 127296 20140623221530
+217.164.70.78 1 39 1118151 20140610201100
+201.166.100.12 0 1 3332 
+117.213.111.154 0 1 55680 
+107.161.85.190 2 2 6904 20140607094510
+177.3.250.210 1 39 1118277 20140603220555
+198.167.139.188 3 3 54501 20140611122720
+192.227.234.106 3 3 121630 20140619042203
+91.108.180.88 1 1 115080 20140601035907
+37.228.105.205 0 1 19512 
+122.175.31.228 6 57 813750 20140629192405
+23.83.94.214 1 1 35774 20140604222157
+183.82.236.124 0 1 17053 
+65.49.68.177 0 1 77535 
+202.133.58.120 0 1 17053 
+78.246.51.45 3 62 1248369 20140606173652
+216.189.55.137 3 3 121970 20140617063513
+27.147.156.7 2 31 782427 20140606112936
+188.40.1.195 1 1 4382 20140605043850
+213.238.175.31 3 3 40717 20140604204404
+14.96.114.69 1 29 682392 20140606181524
+24.172.187.178 0 1 9721 
+183.60.218.85 0 1 484 
+49.206.33.93 1 46 4199725 20140603171441
+94.23.207.100 1 1 115084 20140608131905
+106.66.179.1 0 1 17053 
+195.2.240.106 9 9 329053 20140626142835
+178.32.231.203 3 3 121966 20140602130220
+83.27.103.77 1 1 33803 20140610021150
+202.46.48.26 1 1 9193 20140608102613
+37.228.105.175 0 2 22038 
+208.89.209.185 3 3 121571 20140630220539
+49.15.208.129 0 1 333440 
+183.60.218.112 0 2 36479 
+196.21.39.12 1 40 1069578 20140605123230
+113.97.181.206 2 2 74956 20140626205543
+188.240.138.74 1 1 115084 20140608204034
+68.232.67.66 0 1 71506 
+190.206.212.214 1 1 41269 20140612162955
+74.221.212.187 2 2 6904 20140609174016
+117.211.25.52 4 34 809066 20140602153915
+117.232.175.87 1 1 48958 20140627232552
+23.247.173.119 2 2 127232 20140627111738
+70.39.185.180 0 1 342337 
+186.91.250.224 1 1 61030 20140623234827
+58.216.26.179 0 1 863 
+122.167.203.140 0 1 55944 
+113.90.80.231 1 1 33813 20140620161202
+202.46.54.47 1 1 18641 20140603042623
+192.99.212.17 6 6 104214 20140628084940
+125.108.80.46 1 1 115066 20140617055809
+75.126.125.204 1 1 27616 20140630145609
+202.46.51.46 1 1 22985 20140611182752
+183.82.101.73 2 4 126321 20140625170138
+202.46.58.36 1 1 17193 20140602042455
+106.215.202.218 6 85 1872543 20140623203627
+125.18.235.210 0 2 837952 
+54.186.206.97 2 2 127281 20140618191404
+5.254.132.42 4 4 255246 20140608070519
+107.155.117.186 4 4 84269 20140605161749
+91.121.58.28 1 1 114587 20140628051331
+107.155.65.139 1 1 3422 20140603164721
+193.201.224.56 2 3 420547 20140629022234
+74.125.63.33 2 32 720990 20140609190330
+172.245.2.118 1 1 115062 20140602005824
+183.60.218.103 0 2 70609 
+66.249.88.87 0 3 117629 
+96.43.91.30 3 3 41680 20140618220726
+187.13.36.150 1 39 1118151 20140610042904
+176.10.104.90 2 2 115048 20140609164306
+37.72.190.185 1 1 3422 20140601003022
+183.60.218.76 0 2 9586 
+223.176.205.2 1 27 2094001 20140607122124
+108.61.139.154 2 2 61250 20140601114407
+204.44.85.186 2 2 6904 20140611022838
+186.208.66.2 1 38 1008109 20140601193222
+203.110.243.22 2 32 721050 20140627142545
+182.64.246.2 1 58 1775814 20140619113805
+180.151.179.157 1 27 675110 20140607131116
+124.123.133.96 9 154 8288584 20140609105956
+173.0.56.195 3 3 121491 20140628163342
+46.164.182.112 0 1 48606 
+117.198.254.221 1 2 71929 20140619121844
+12.226.68.244 0 1 32827 
+58.216.26.158 0 1 0 
+103.246.38.196 1 1 31888 20140625181204
+66.220.159.119 0 7 413 
+119.97.146.16 3 3 67990 20140614034945
+167.160.127.37 2 2 6904 20140610203453
+120.59.152.103 0 1 57456 
+182.71.120.86 1 38 1062154 20140612165544
+49.204.175.241 0 2 676820 
+223.227.20.181 0 1 56427 
+199.119.226.190 2 2 6904 20140613094743
+202.46.53.69 1 1 25193 20140627182747
+83.6.167.60 1 1 33929 20140603191059
+106.215.243.39 8 161 5819720 20140611095932
+202.46.57.82 1 1 17193 20140619022430
+99.139.203.11 0 1 32827 
+122.162.137.224 8 103 2355311 20140605224947
+120.204.67.103 1 1 60906 20140619144740
+37.72.190.16 1 1 3422 20140608074744
+197.87.33.79 0 1 57456 
+58.216.26.182 0 1 7143 
+114.160.179.104 0 1 29531 
+195.154.168.130 6 6 276205 20140616100749
+192.165.67.234 2 2 6904 20140603130507
+58.216.26.166 0 3 2871 
+66.249.88.178 1 2 62036 20140611020328
+202.46.49.16 1 1 10641 20140606142450
+178.33.12.13 4 4 138782 20140629031512
+202.78.172.198 0 1 53291 
+175.101.60.66 0 1 17053 
+198.55.112.185 3 3 121579 20140624145712
+195.245.225.252 0 1 77535 
+175.101.10.154 0 1 342337 
+69.12.76.171 2 2 6904 20140629045713
+58.216.26.174 0 1 25268 
+66.249.67.31 4 4 120088 20140611143507
+91.75.87.119 0 1 1036 
+119.63.193.130 5 5 106997 20140630182749
+223.86.4.218 2 2 81937 20140627150816
+192.184.95.144 3 3 54501 20140611181929
+113.193.130.142 3 33 751021 20140614165344
+142.4.222.106 3 3 121517 20140626095230
+58.216.26.190 0 1 8913 
+152.52.163.166 0 1 55680 
+49.206.74.178 5 47 1253066 20140613183911
+103.242.154.182 0 1 333440 
+85.154.82.91 0 1 1777235 
+116.230.116.70 0 1 4321044 
+122.167.39.176 0 1 95076 
+37.228.106.36 0 4 58536 
+175.101.16.5 0 1 342337 
+117.252.71.224 1 1 13480 20140621211005
+107.182.116.222 1 1 115162 20140615173033
+49.207.251.202 0 1 86219 
+14.96.124.232 0 1 55680 
+107.155.120.155 2 2 6904 20140604173929
+62.210.89.12 1 1 34758 20140616112336
+23.105.213.32 2 2 6904 20140613145459
+193.201.224.32 1 2 687447 20140630022636
+14.194.125.111 2 25 1438959 20140621115120
+202.46.53.36 1 1 21537 20140611042422
+171.51.161.194 1 28 632203 20140628065701
+202.46.63.137 1 1 34956 20140628054716
+155.94.130.118 4 4 74300 20140622203318
+202.46.63.121 1 1 21537 20140601102833
+203.116.26.9 4 64 1764146 20140612114404
+58.216.26.143 0 2 16056 
+5.255.91.18 1 1 3422 20140618170705
+50.115.168.141 1 1 114697 20140622073535
+117.27.138.181 1 1 33903 20140615001059
+124.123.198.135 0 1 17053 
+183.207.228.12 1 1 60928 20140602082655
+118.74.221.138 5 44 1073516 20140624204940
+107.150.37.130 1 1 40357 20140624180919
+131.228.29.115 0 1 95076 
+23.105.213.252 2 2 6904 20140604031314
+202.46.57.60 1 1 22225 20140602222844
+182.185.239.185 0 2 2040 
+198.27.110.106 1 1 27131 20140610075359
+119.194.146.225 0 1 32827 
+183.60.218.119 0 1 25268 
+31.41.216.144 1 1 34944 20140614051901
+49.205.74.253 1 31 718836 20140624110632
+50.115.175.233 2 2 6904 20140617004956
+49.204.90.187 7 191 6516644 20140610181132
+107.155.120.191 2 2 6904 20140623002135
+163.32.57.203 1 9 226388 20140605062623
+202.105.88.120 1 1 115080 20140601231040
+108.166.183.226 2 2 127272 20140620161214
+202.46.61.35 1 1 20089 20140613002557
+46.105.105.227 20 20 732408 20140615091141
+195.211.155.138 1 1 61000 20140611023953
+113.108.189.63 1 1 10641 20140619131600
+58.216.26.141 0 1 4289 
+202.83.25.44 3 68 4848602 20140623091403
+93.118.73.141 2 2 6904 20140619232720
+80.67.2.40 4 4 102606 20140620074949
+210.212.252.93 0 1 17053 
+107.155.81.170 1 1 3422 20140614061857
+107.155.116.64 2 2 6904 20140622143259
+49.207.225.4 0 1 8188 
+66.220.159.117 0 14 826 
+183.60.218.124 0 1 10673 
+216.107.159.79 2 2 6904 20140616203448
+107.182.125.187 2 2 118522 20140613020442
+202.46.55.20 1 1 22985 20140628222756
+207.46.133.177 0 41 1069007 
+198.27.116.18 2 2 79752 20140630022148
+115.242.28.175 0 1 17053 
+110.137.232.122 1 39 1118171 20140606190701
+112.79.37.12 0 1 1777235 
+117.28.133.48 2 2 69592 20140620093504
+37.228.106.23 0 2 18561 
+182.73.145.150 10 205 7413016 20140627195831
+67.159.5.242 1 3 68128 20140602170821
+37.228.107.93 0 11 0 
+196.196.16.110 1 1 114591 20140626153843
+59.182.149.6 3 78 4583060 20140613170850
+176.31.178.162 4 4 83925 20140617110346
+58.216.26.183 0 4 43391 
+37.72.190.172 2 2 6904 20140603222525
+109.104.144.42 2 2 77961 20140623162006
+204.93.54.186 8 8 340976 20140630051220
+183.60.218.100 0 1 927 
+108.186.196.132 2 2 67626 20140620141411
+23.83.95.226 3 3 10326 20140619024857
+185.38.251.107 32 32 1173930 20140621090140
+58.216.26.188 0 1 927 
+202.46.49.11 1 1 17193 20140614222936
+209.190.1.131 2 2 96776 20140627183411
+103.24.124.124 15 260 3339353 20140619220016
+49.15.216.252 0 1 17053 
+185.25.48.169 0 2 2264150 
+162.218.232.39 1 1 30537 20140618073250
+23.94.148.15 3 3 122092 20140603222240
+106.51.199.191 0 2 675777 
+125.160.103.204 1 33 861643 20140606190828
+93.186.202.198 2 2 63984 20140622083028
+183.207.228.2 2 2 6904 20140602082702
+79.118.10.61 2 2 127595 20140609211354
+23.105.210.108 1 1 35774 20140604203857
+106.66.143.180 0 4 1007134 
+123.63.222.173 2 32 720986 20140619093027
+92.58.25.22 0 1 32827 
+23.108.132.171 3 3 121966 20140610121058
+85.0.174.240 1 39 1118173 20140608180041
+24.5.141.62 0 1 95076 
+91.200.13.45 4 4 57900 20140618164430
+192.227.253.200 2 2 6904 20140609025949
+222.143.24.250 1 1 60900 20140630125517
+131.253.24.95 1 23 401341 20140627030645
+211.174.101.106 1 1 60886 20140621085136
+68.2.80.159 0 2 81761 
+146.185.232.183 1 1 34792 20140607031808
+5.39.112.248 1 1 114712 20140618024945
+213.230.77.71 0 1 77535 
+203.88.23.44 0 1 718216 
+58.216.26.170 0 2 17161 
+136.185.238.106 0 1 1777235 
+49.205.13.247 0 1 17053 
+66.220.159.116 0 11 649 
+202.153.45.22 0 1 342337 
+117.195.168.201 2 32 721022 20140601190727
+187.22.238.64 1 39 1118327 20140605073032
+162.243.170.57 3 23 515883 20140609212009
+49.249.18.116 2 58 4532477 20140624105733
+58.216.26.140 0 2 58476 
+27.96.86.194 0 1 55680 
+106.66.139.201 3 23 115759 20140622204842
+202.46.63.129 1 1 17193 20140602102821
+178.19.99.69 1 1 34748 20140621024648
+202.65.147.42 2 31 667054 20140625111301
+183.78.186.41 0 1 14980 
+81.182.135.233 0 1 75324 
+203.129.195.130 1 1 17 20140630155809
+118.70.184.135 0 1 77535 
+27.153.250.13 13 13 382737 20140608094315
+183.60.218.80 0 1 7200 
+106.220.11.56 9 95 3940815 20140605113238
+95.163.121.119 2 2 8728 20140612003942
+106.66.181.6 0 1 162020 
+92.109.132.38 0 1 77535 
+187.64.11.116 1 39 1118223 20140611193150
+106.51.198.153 0 1 342337 
+167.160.103.164 3 3 121581 20140621223357
+173.213.96.144 2 2 6904 20140608131927
+202.46.51.50 1 1 20089 20140623102427
+106.215.213.178 3 48 1092365 20140623195407
+107.182.116.217 2 2 118556 20140611165800
+58.216.26.138 0 4 107049 
+192.3.61.88 2 2 6904 20140615154540
+192.99.207.192 2 2 6904 20140616084152
+162.248.102.187 3 3 36731 20140603225318
+117.213.75.199 0 28 657013 
+117.203.145.159 0 1 55680 
+14.139.82.7 3 35 798412 20140608212423
+58.216.26.164 1 3 122030 20140624231809
+77.38.55.219 3 3 242687 20140609093830
+106.76.161.201 0 1 55680 
+183.5.44.237 1 1 60904 20140623084356
+107.161.81.88 2 2 6904 20140621030118
+46.249.58.90 2 2 6904 20140614065800
+167.160.112.115 2 2 6904 20140615112612
+27.4.224.16 2 32 721022 20140601154313
+200.189.220.44 1 39 1118171 20140606004518
+37.228.107.35 0 1 33374 
+91.200.12.4 1 1 27329 20140604004955
+23.105.208.142 2 2 6904 20140610022640
+5.152.134.44 1 39 1118151 20140610123535
+192.227.243.83 2 2 127581 20140616044320
+198.211.102.42 3 3 158660 20140630052557
+23.108.132.12 1 1 35774 20140604185404
+121.242.119.68 0 1 1777235 
+5.15.191.104 0 1 77535 
+66.220.159.114 0 12 708 
+202.46.58.30 1 1 20777 20140621222853
+183.60.218.86 0 1 1525 
+14.139.217.27 1 46 4199775 20140605123039
+50.115.175.105 2 2 6904 20140616220612
+151.230.17.199 1 39 1118151 20140610195603
+181.112.113.51 1 39 1118171 20140612065820
+198.27.116.6 2 2 79712 20140626151536
+116.203.164.112 6 92 683783 20140601104754
+170.130.25.71 3 3 121581 20140621225219
+192.95.0.205 4 4 13808 20140617154325
+192.99.212.86 2 2 6904 20140628231143
+183.60.218.101 0 1 927 
+115.248.176.49 0 1 927 
+66.220.159.112 0 6 354 
+124.123.184.177 2 2 32081 20140605212752
+182.71.20.37 4 19 313846 20140625163746
+209.161.99.15 3 3 121571 20140630215215
+182.66.30.43 0 1 55680 
+167.160.127.250 4 4 13808 20140610142426
+87.98.158.211 0 2 8642088 
+91.236.74.156 2 2 69572 20140602165507
+202.46.53.60 1 1 26641 20140610202038
+23.82.67.234 2 2 6904 20140609061440
+37.59.216.18 2 2 127767 20140614181610
+195.202.175.219 0 1 77535 
+110.89.49.118 1 1 114613 20140626062617
+49.14.199.77 0 1 18637 
+122.164.103.156 0 1 17061 
+58.216.26.175 0 2 27534 
+117.195.166.66 0 1 342337 
+66.249.84.160 0 1 95076 
+192.99.170.65 13 13 703522 20140630121922
+168.63.200.254 0 13 378412 
+58.216.26.155 0 2 61074 
+117.237.21.172 2 2 100289 20140609093135
+210.7.68.157 0 1 104785 
+103.246.241.83 0 2 133479 
+119.63.193.195 9 9 196041 20140629102605
+23.94.99.218 1 1 3422 20140620045510
+37.228.106.130 0 2 33374 
+202.46.54.45 1 1 17193 20140625042155
+115.114.191.92 0 30 689099 
+202.46.62.28 1 1 24433 20140613222705
+50.115.161.204 1 1 115160 20140616134334
+198.23.248.42 3 3 54501 20140611135455
+203.196.133.98 0 28 657013 
+195.211.155.140 1 1 60914 20140618233916
+165.231.27.112 2 2 127709 20140615120818
+116.202.149.23 0 2 27310 
+66.249.67.57 1 1 39461 20140611143445
+140.181.66.1 2 33 790638 20140602220314
+117.164.63.28 2 2 6904 20140614053555
+14.139.65.5 30 444 12269014 20140627195740
+110.76.151.14 0 1 32827 
+14.139.190.164 2 32 721004 20140610163643
+93.118.76.85 2 2 6904 20140620050125
+89.234.68.87 5 5 187999 20140612095606
+49.206.73.13 1 31 607919 20140616212817
+183.60.218.78 1 3 68156 20140624205049
+108.174.198.243 3 3 242248 20140625145855
+37.228.104.227 0 2 19512 
+202.46.53.37 1 1 22985 20140618203448
+23.232.133.223 2 2 6904 20140607122253
+198.23.134.161 3 3 34133 20140616202107
+176.31.178.161 4 4 84233 20140614192844
+117.222.140.153 0 1 55680 
+183.83.186.127 0 1 905620 
+78.97.211.46 0 1 55944 
+107.155.120.154 2 2 6904 20140606183556
+208.65.144.233 0 1 777112 
+202.133.58.23 0 3 1591337 
+46.40.224.33 0 1 77535 
+117.206.34.89 0 8 271508 
+58.216.26.153 0 2 17735 
+198.167.136.245 2 2 6904 20140628001605
+23.105.210.65 3 3 67818 20140609055553
+119.63.193.131 6 6 188287 20140627182839
+221.134.125.2 1 46 4199725 20140603164944
+183.60.218.91 0 1 4289 
+115.249.131.220 1 1 60900 20140630125725
+188.93.16.50 2 33 790736 20140616152329
+183.60.218.107 0 3 120658 
+37.233.27.142 20 20 792285 20140618184619
+185.25.49.187 13 13 1171122 20140612191858
+183.60.218.75 0 2 26131 
+184.164.141.58 3 3 121599 20140623020502
+69.12.81.55 4 4 13808 20140606193816
+202.46.55.27 1 1 22985 20140603162508
+58.216.26.150 0 1 49563 
+115.185.67.99 2 31 703507 20140608205103
+107.155.120.80 3 3 121579 20140624152457
+202.46.55.26 1 1 15673 20140601162421
+113.91.166.218 2 2 82694 20140616205301
+177.154.72.19 2 2 72044 20140603201844
+117.211.128.177 1 3 126284 20140623141219
+23.105.210.97 2 2 6904 20140613122850
+49.204.204.114 2 34 728272 20140602122637
+42.104.13.194 0 1 57456 
+37.59.141.207 10 10 259245 20140625003449
+107.167.107.132 0 4 22038 
+122.163.244.175 0 1 10637 
+14.139.82.34 2 2 31911 20140607124759
+203.81.71.80 1 45 1094308 20140623085108
+202.46.57.81 1 1 20089 20140630182700
+219.136.100.73 2 2 230164 20140612065605
+69.12.84.43 3 3 121599 20140623104459
+115.112.161.9 5 53 4299877 20140620155719
+202.46.57.66 1 1 20089 20140630082221
+14.96.169.235 1 31 748245 20140620225754
+173.233.92.134 8 8 282250 20140619024835
+14.140.149.65 4 36 788202 20140605173737
+199.190.45.79 1 1 21536 20140629132730
+197.27.89.167 0 3 4352775 
+66.220.159.115 0 14 826 
+46.246.4.109 2 2 127681 20140611164724
+211.75.116.49 0 1 77535 
+113.110.182.148 1 1 34768 20140619192051
+27.157.118.60 1 1 33775 20140616082523
+183.60.243.196 1 1 60906 20140613000558
+109.161.201.248 3 3 41680 20140618225706
+103.244.240.142 1 31 720993 20140607024345
+192.95.30.162 1 1 60906 20140619151600
+198.199.66.52 2 22 425323 20140624192959
+198.167.137.91 2 2 6904 20140616085930
+37.59.64.255 1 1 115160 20140616200322
+202.46.63.124 1 1 22985 20140628122530
+42.104.62.117 0 1 57456 
+202.46.51.124 1 1 21537 20140607122653
+165.231.14.152 3 3 38812 20140606143543
+202.177.46.76 0 3 243781 
+107.181.70.97 1 1 3482 20140609164851
+14.96.66.131 1 31 721007 20140612121447
+190.73.126.4 1 1 114587 20140628100308
+192.99.141.252 7 9 1172885 20140615114805
+170.130.111.65 2 2 6904 20140629232526
+103.246.106.9 0 1 55680 
+58.216.26.178 0 1 927 
+202.46.55.106 1 1 32904 20140628052357
+58.216.26.139 0 3 86003 
+178.33.218.226 7 7 802725 20140629232437
+58.216.26.142 0 1 4289 
+64.146.176.140 0 1 18561 
+103.254.128.46 2 27 655759 20140616154356
+183.60.218.116 0 1 6488 
+59.90.99.42 5 53 1326383 20140630154443
+148.106.4.6 7 104 1068957 20140616233042
+64.233.173.160 3 27 642542 20140624172738
+14.96.113.103 0 1 1777235 
+120.151.14.5 3 42 1199249 20140610103200
+37.228.106.124 0 2 18561 
+107.167.107.144 0 1 0 
+27.107.173.189 1 28 688864 20140605085247
+178.32.154.52 1 1 3422 20140619175318
+115.185.29.55 1 31 556666 20140608143408
+172.245.240.219 2 2 6904 20140613171942
+58.216.26.154 0 1 35518 
+202.133.55.136 0 1 333440 
+119.63.193.196 2 2 39418 20140628162403
+173.0.62.214 2 2 6904 20140622052733
+176.205.160.112 2 2 6904 20140610200302
+79.143.190.51 1 1 35790 20140625074733
+58.216.26.181 0 4 44826 
+58.216.26.187 0 3 73514 
+24.28.188.46 0 1 71506 
+117.196.175.213 1 14 239390 20140613113906
+204.44.91.8 0 1 1214971 
+119.235.48.130 4 117 5877690 20140629122119
+202.46.49.19 1 1 20089 20140622122450
+24.148.82.128 0 1 1036 
+203.223.191.2 0 1 57456 
+208.68.38.202 1 21 394045 20140604222433
+49.156.159.33 1 1 27585 20140619090121
+183.60.218.72 0 2 99920 
+58.216.26.161 0 1 16305 
+218.66.249.82 6 6 205013 20140618004750
+116.24.133.161 3 3 109037 20140624224114
+173.0.61.101 2 2 67396 20140622173814
+88.198.56.239 2 2 54424 20140609062949
+62.210.139.59 1 1 34806 20140612133203
+31.41.218.142 1 2 638895 20140615115541
+81.17.30.40 1 1 61104 20140605115123
+198.23.196.67 3 3 121579 20140624051421
+117.221.47.18 0 1 8188 
+170.130.110.105 2 2 6904 20140607163503
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140601 40 421 8333436 23
+20140602 146 652 27183009 40
+20140603 172 394 22729863 28
+20140604 53 481 16367791 26
+20140605 63 734 27964655 27
+20140606 40 301 7869561 24
+20140607 31 116 4874713 23
+20140608 46 207 6574999 23
+20140609 95 465 17363250 31
+20140610 61 402 12477746 37
+20140611 85 332 12462837 28
+20140612 85 417 12170898 30
+20140613 147 381 9463168 30
+20140614 68 197 6601146 29
+20140615 60 248 8173934 18
+20140616 184 499 13437333 38
+20140617 123 533 38389818 28
+20140618 74 237 14664984 35
+20140619 184 1105 24134002 27
+20140620 96 601 25797867 32
+20140621 32 115 21220859 19
+20140622 84 248 9854266 33
+20140623 64 464 22225898 28
+20140624 89 573 17813444 34
+20140625 46 262 16762613 22
+20140626 35 150 10470894 15
+20140627 53 573 19810034 26
+20140628 85 361 15919511 27
+20140629 38 261 12726885 21
+20140630 77 589 17597960 33
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 20
+15mn-30mn 18
+30s-2mn 46
+2mn-5mn 26
+0s-30s 696
+30mn-1h 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 123
+/wp-login.php 560 2009543 105 172
+/ 348 15100198 248 219
+/author/jayashree/ 148 16686668 131 59
+/events/recruitment-drive-march-2014/ 108 2043450 47 41
+/wp-admin/admin-ajax.php 99 41482 0 0
+/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 99 3280942 27 78
+/wiki/load.php 81 1692514 0 0
+/2013/08/14/rollout-of-the-new-website-design/ 79 2160580 51 35
+/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 70 2754908 56 7
+/2014/03/07/attention-lab-developers-developer-portal-moved-to-bit-bucket/ 51 1739367 29 28
+/wp-admin/media-new.php 1 39663 0 0
+/events/internal-review/ 1 30504 0 0
+/wiki/index.php/Redmine 2 35546 1 1
+/wiki/index.php/Base4_Hardware_information 2 31797 0 0
+/events/final-presentation-by-our-summer-interns/ 6 155851 2 4
+/wp-admin/load-styles.php 9 447765 0 0
+/wiki/index.php/Special:UserLogin 2 25652 0 0
+/wiki/index.php/Welcome_to_VLEAD_wiki 15 262200 1 1
+/wiki/index.php/Special:Contributions/Saurabh 1 59925 0 0
+/wiki/index.php/How_To%27s 5 92170 0 0
+/about-us/mission-and-vision/ 8 202354 0 0
+/events/expert-committee-review/ 2 61420 0 0
+/category/vlead-blog/ 3 105925 1 1
+/wiki/index.php/Mediawiki 1 15536 0 0
+/wp-admin/async-upload.php 2 314 0 0
+/wiki/index.php/Steps_for_reading_passwords_database 1 17041 0 0
+/about-us/alumni/ 26 698304 4 3
+/wiki/index.php/Steps_for_modifying_passwords_database 1 19093 0 0
+/wp-content/uploads/2014/05/15IntegrationLevelsTable.html 40 501880 0 39
+/wiki/index.php/Steps_for_creating_new_server_certificate 3 53139 0 0
+/2013/06/28/rd-showcase-2013/ 2 65620 1 0
+/wp-admin/ 4 273095 0 0
+/2013/09/ 13 384666 6 5
+/wiki/index.php/How_to_disable_splash_screen_or_tutorial_at_start-up 1 16407 0 0
+/comments/feed/ 1 1217 0 0
+/wiki/index.php/Base4_OS_configuration 1 35054 0 0
+/wiki/index.php/Software_application_or_server_specific_processes 6 146298 0 0
+/perfect-quotes/they-can-do-without-architecture-who-have-no-olives-nor-wines-in-the-cellar/ 2 55606 0 0
+/wp-content/uploads/2013/12/ 1 15105 0 0
+/wp-content/uploads/2013/10/ 1 10463 0 0
+/wp-content/uploads/2013/08/ 1 15623 0 0
+/wiki/index.php/Base1_OS_configuration 3 64166 0 0
+/wp-admin/post.php 12 2126314 0 0
+/xmlrpc.php 3 822 0 2
+/wiki/index.php/VLEAD_repositories 1 16810 0 0
+/2013/06/28/first-monthly-presentation-by-our-summer-interns/ 10 306134 5 5
+/about-us/ 15 397156 2 3
+/wiki/index.php/How_to_integrate_emacs_clipboard_with_system%27s 1 16254 0 0
+/wiki/index.php/Configuring_LDAP_based_authentication_for_apache 1 17659 0 0
+/wp-content/uploads/2013/09/ 1 13478 0 0
+/wiki/index.php/Hiring_Process 2 35228 0 0
+/wp-content/uploads/2014/01/ 1 785 0 0
+/perfect-quotes/what-separates-design-from-art-is-that-design-is-meant-to-be-functional/ 2 54468 0 1
+/wiki/index.php/IP_range_and_usage_information 1 31615 0 0
+/bootable-pendrive/ 1 27616 1 1
+/wp-content/uploads/2013/06/ 1 44470 0 0
+/wiki/index.php/Special:SpecialPages 2 34875 0 0
+/setup-instruction/ 2 27807 0 1
+/wp-content/uploads/2013/11/ 1 2509 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 3 348795 0 0
+/wiki/ 30 650241 1 0
+/2013/07/ 10 475706 6 3
+/2013/12/ 8 290432 2 1
+/wp-admin/load-scripts.php 20 1142873 0 0
+/wiki/index.php/Main_Page 8 167088 0 0
+/2014/05/ 7 386047 1 1
+/2013/07/09/virtual-labs-on-amazon-cloud/ 4 125104 0 2
+/2014/03/ 6 183332 0 0
+/wiki/index.php/Description_of_various_choices 1 16131 0 0
+/about-us/team/ 43 2038385 14 18
+/join-us/ 45 1343156 11 12
+/2014/05/14/virtual-labs-on-portable-media/ 18 420799 4 4
+/about-us/interns-2013/ 24 874609 3 3
+/events/summer-interns-orientation/ 4 61536 0 1
+/2013/10/ 6 210552 1 1
+http://vlead.vlabs.ac.in/wp-login.php/ 2 8728 1 1
+/wiki/index.php/Choice_of_file-system 1 19662 0 1
+/wp-content/uploads/2013/07/ 1 77326 0 0
+/wiki/index.php/Base1 2 26438 0 0
+/contact-us/ 26 817678 1 3
+/wiki/index.php/Summer_Internship_Best_Practices 1 19207 0 0
+/wp-admin/admin.php 10 656848 0 0
+/wiki/index.php/Special:RecentChanges 2 48793 0 0
+/wiki/index.php/List_of_containers 4 103651 0 0
+/wiki/index.php/Apache 2 30100 0 0
+/wiki/index.php/Member_profiles 1 17310 0 0
+/author/travula/ 2 64826 2 1
+/page/2/ 2 92706 2 1
+/about-us/about-vlead/ 13 350929 2 3
+http://vlead.virtual-labs.ac.in/wp-login.php/ 9 39069 1 1
+/events/field-trial/ 7 214159 2 3
+/wp-content/uploads/2014/02/ 2 1570 0 1
+/perfect-quotes/do-we-have-to-wash-the-walls-before-we-paint-them-yes-we-have-to-if-a-thing-is-worth-doing-its-worth-doing-well/ 1 27703 1 1
+/wiki/index.php/Online_Learning 1 15530 0 0
+/events/venues/iiit-hyderabad/ 3 85264 2 2
+/2013/07/18/ui-redesign/ 15 517464 11 6
+/events/on/2014/03/06/ 1 27585 1 1
+/wiki/index.php/VLEAD_wiki:Current_events 3 41518 0 0
+/wiki/index.php/Switches 1 15357 0 0
+/events/ 26 836044 3 4
+/about-us/interns/ 32 745010 9 6
+/wiki/index.php/Emacs 3 45672 0 0
+/wiki/index.php/Assigning_a_user_to_a_project 1 16322 0 0
+/about-us/interns-2014/ 46 913096 7 9
+/wiki/index.php/Base1_Hardware_information 2 29791 0 0
+/wiki/index.php/VLEAD_wiki:Community_portal 2 22236 0 0
+/category/uncategorized/ 4 461339 4 1
+/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 26 878648 9 12
+/wiki/index.php/Base4 5 68534 0 0
+/wiki/index.php/VLEAD_wiki:About 1 11457 0 0
+/2013/07/16/final-presentation-by-summer-interns/ 3 98780 1 2
+/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 7 206044 2 1
+/wiki/index.php/List_of_VMs 1 15023 0 0
+/2013/08/12/the-virtual-labs-project-an-overview/ 26 1018723 11 14
+/2014/06/30/instruction/ 1 30449 0 1
+/activities/ 18 586512 1 3
+/2013/08/ 5 215596 0 2
+/2014/05/06/phase-2-virtual-labs-project/ 16 473131 0 2
+/wp-admin/edit.php 8 725612 0 0
+/wiki/index.php/Hitachi_storage_server 3 103154 0 0
+/wiki/index.php/Steps_for_adding_public_key_of_new_server_to_CA_server 1 19666 0 0
+/author/chandan/ 2 72284 1 1
+/wiki/index.php/Special:Random 1 11451 0 0
+END_SIDER

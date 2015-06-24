@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc06.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2668                
+POS_VISITOR 3484                
+POS_DAY 3635                
+POS_DOMAIN 3898                
+POS_LOGIN 4127                
+POS_ROBOT 4282                
+POS_WORMS 4543                
+POS_EMAILSENDER 4674                
+POS_EMAILRECEIVER 4817                
+POS_SESSION 4893                
+POS_SIDER 5049                
+POS_FILETYPES 5597                
+POS_DOWNLOADS 5829                
+POS_OS 6567                
+POS_BROWSER 6722                
+POS_SCREENSIZE 6911                
+POS_UNKNOWNREFERER 6985                
+POS_UNKNOWNREFERERBROWSER 7160                
+POS_ORIGIN 7330                
+POS_SEREFERRALS 7463                
+POS_PAGEREFS 7618                
+POS_SEARCHWORDS 7808                
+POS_KEYWORDS 7960                
+POS_MISC 2332                
+POS_ERRORS 8019                
+POS_CLUSTER 3983                
+POS_SIDER_404 8107                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140302054717 263 57803 10924000085031
+FirstTime 20140218022247
+LastTime 20140221235429
+LastUpdate 20141015124904 263 0 262 0 0
+TotalVisits 2                   
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 4 395828 0 7 2878219
+1 0 4 2715400 0 4 1583711
+2 4 19 745295 2 2 9592
+3 0 0 0 1 7 36961
+4 0 0 0 2 10 43449
+5 0 0 0 12 19 1321716
+6 0 0 0 0 0 0
+7 0 4 2659856 2 6 2030
+8 0 0 0 1 6 22578
+9 0 0 0 2 8 18936
+10 0 0 0 3 8 6113
+11 0 2 197914 7 18 2383197
+12 0 0 0 0 2 679114
+13 0 1 493832 15 22 696260
+14 0 0 0 5 8 56519
+15 0 0 0 2 10 1379496
+16 0 0 0 1 4 1309752
+17 0 1 678850 1 5 1360119
+18 0 0 0 5 9 17901
+19 0 0 0 0 1 41359
+20 0 0 0 1 4 1213
+21 0 2 1310382 0 2 35796
+22 0 0 0 0 3 123938
+23 11 42 2194630 4 16 155412
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.8.52 11 51 5821450 20140221235429
+10.4.12.236 4 30 5337985 20140218022252
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20140214 0 1 678850 0
+20140218 4 18 91250 1
+20140221 11 42 2194630 1
+20140225 0 10 4421610 0
+20140226 0 3 1956201 0
+20140228 0 5 2049446 0
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 15 79 11159435
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 108 14037126 20140219053455 0
+robot 2 3910 20140221181408 0
+php 1 98957 20140228112527 0
+ezoom 1 5029 20140217132018 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 1
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/labs/eerc06/ 3 3910 2 0
+/labs/eerc06/default.html 2 3022 0 0
+/labs/eerc06/content.html 2 5184 0 1
+/labs/eerc06/exp2/ 1 1951 0 0
+/labs/eerc06/exp5/default.html 1 3721 0 0
+/labs/eerc06/exp5/ 1 1951 0 0
+/labs/eerc06/exp5/ve_responseSpecturm.html 1 591 0 1
+/labs/eerc06/exp2/default.html 1 3721 0 0
+/labs/eerc06/exp2/ve_freevibbody.html 1 595 0 0
+/labs/eerc06/exp5/content.html 1 3461 0 0
+/labs/eerc06/exp2/content.html 1 3317 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 6 10528 0 0
+png 7 266148 0 0
+pdf 19 8873555 0 0
+swf 2 72120 0 0
+php 3 3910 0 0
+html 12 27514 0 0
+js 4 59906 0 0
+jpg 23 763882 0 0
+gif 2 9492 0 0
+avi 1 1072380 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 16
+/labs/eerc06/exp3/3.Thoery.pdf 9 0 6109650
+/labs/eerc06/exp8/8manual.pdf 8 0 791656
+/labs/eerc06/exp3/3.manual.pdf 4 0 2604312
+/labs/eerc06/exp7/7manual.pdf 3 0 1965573
+/labs/eerc06/exp10/10.theory.pdf 3 0 1962135
+/labs/eerc06/exp4/4.theory.pdf 3 2 726384
+/labs/eerc06/exp2/2.manual.pdf 2 0 1304754
+/labs/eerc06/exp5/5.Theory.pdf 2 0 1393704
+/labs/eerc06/exp2/2.theory.pdf 2 0 1340292
+/labs/eerc06/exp1/1.manual.pdf 2 0 1308556
+/labs/eerc06/exp5/5.manual.pdf 1 0 651616
+/labs/eerc06/exp6/6.Thoery.pdf 1 0 657474
+/labs/eerc06/exp5/responsespectrum.avi 1 0 1072380
+/labs/eerc06/exp7/7.Theory.pdf 1 0 703926
+/labs/eerc06/exp8/8.theory.pdf 1 0 115559
+/labs/eerc06/exp9/9.theory.pdf 1 0 123399
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+winxp 42 11
+winunknown 2 2
+win2003 3 0
+Unknown 2 0
+macosx8 4 0
+winvista 16 2
+macosx7 12 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+safari6.0.3 4 0
+chrome33.0.1750.117 3 0
+chrome28.0.1500.71 4 0
+chrome27.0.1453.116 8 0
+Unknown 2 0
+chrome32.0.1700.107 42 11
+msie10.0 18 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+HttpComponents/1.1 20140226023521
+gzip(gfe)_(via_docs.google.com/viewer) 20140214170535
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+HttpComponents/1.1 20140226023521
+gzip(gfe)_(via_docs.google.com/viewer) 20140214170535
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 5
+From1 0 0
+From2 0 1
+From3 3 17
+From4 12 58
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://eerc.iiit.ac.in/projects.html 3 17
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 69 18359
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 60
+/labs/eerc06/exp6/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/ve_mdof.html
+/labs/eerc06/exp2/images/panel.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/ve_freevibbody.html
+/labs/eerc06/exp6/Multidegree.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/Multidegree.htm
+/labs/eerc06/exp5/images/forms.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp5/ve_responseSpecturm.html
+/labs/eerc06/exp8/PendulumForces.swf 1 -
+/labs/eerc06/exp7/ShakeTable.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp7/ShakeTable.htm
+/labs/eerc06/exp5/PendulumForces.swf 1 -
+/labs/eerc06/exp3/forced.swf 1 -
+/labs/eerc06/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp7/index.html
+/labs/eerc06/exp2/images/forms.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/ve_freevibbody.html
+/labs/eerc06/exp5/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp5/index.html
+/labs/eerc06/exp5/images/panel.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp5/ve_responseSpecturm.html
+/labs/eerc06/exp10/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp2/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/index.html
+/labs/eerc06/exp4/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp4/index.html
+/labs/eerc06/exp6/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/ve_mdof.html
+/labs/eerc06/exp9/PendulumForces.swf 1 -
+/labs/eerc06/exp5/Responce%20spectrum.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp5/Responce%20spectrum.htm
+/labs/eerc06/exp6/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/ve_mdof.html
+/labs/eerc06/exp6/Multidegree.swf 2 -
+/labs/eerc06/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp1/index.html
+/labs/eerc06/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/index.html
+/labs/eerc06/exp3/forced.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp3/forced.htm
+/labs/eerc06/exp7/ShakeTable.swf 1 -
+/labs/eerc06/exp3/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp3/ve_forcedvibbody.html
+/labs/eerc06/exp2/images/style.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/ve_freevibbody.html
+/labs/eerc06/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp8/index.html
+/labs/eerc06/exp4/PendulumForces.swf 1 -
+/labs/eerc06/exp1/simple%20pendulum.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp1/shm.htm
+/labs/eerc06/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp9/index.html
+/labs/eerc06/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp5/images/style.css 2 http://deploy.virtual-labs.ac.in/labs/eerc06/exp5/ve_responseSpecturm.html
+/labs/eerc06/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp7/PendulumForces.swf 1 -
+/labs/eerc06/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp2/Single%20Degree%20freedom.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/freevib.htm
+/labs/eerc06/exp3/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp1/PendulumForces.swf 1 -
+/labs/eerc06/exp1/simple%20pendulum.swf 1 -
+/labs/eerc06/exp4/Responce%20spectrum.swf 1 -
+/labs/eerc06/exp7/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp7/ve_shakebody.html
+/labs/eerc06/exp3/PendulumForces.swf 1 -
+/labs/eerc06/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp3/index.html
+/labs/eerc06/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp10/index.html
+/labs/eerc06/exp5/Responce%20spectrum.swf 1 -
+/labs/eerc06/exp4/Responce%20spectrum.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp4/Responce%20spectrum.htm
+/labs/eerc06/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/eerc06/exp2/PendulumForces.swf 1 -
+/labs/eerc06/exp7/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp7/ve_shakebody.html
+/labs/eerc06/exp3/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp3/ve_forcedvibbody.html
+/labs/eerc06/exp3/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp3/ve_forcedvibbody.html
+/labs/eerc06/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc06/exp6/PendulumForces.swf 1 -
+/labs/eerc06/exp7/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp7/ve_shakebody.html
+/labs/eerc06/exp10/PendulumForces.swf 1 -
+/labs/eerc06/exp2/Single%20Degree%20freedom.swf 1 -
+END_SIDER_404

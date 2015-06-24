@@ -1,0 +1,564 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse16.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 10224               
+POS_DAY 14345               
+POS_DOMAIN 3500                
+POS_LOGIN 3732                
+POS_ROBOT 3887                
+POS_WORMS 4296                
+POS_EMAILSENDER 4427                
+POS_EMAILRECEIVER 4570                
+POS_SESSION 15153               
+POS_SIDER 15360               
+POS_FILETYPES 4705                
+POS_DOWNLOADS 4982                
+POS_OS 5310                
+POS_BROWSER 5603                
+POS_SCREENSIZE 6616                
+POS_UNKNOWNREFERER 6690                
+POS_UNKNOWNREFERERBROWSER 7020                
+POS_ORIGIN 7286                
+POS_SEREFERRALS 7429                
+POS_PAGEREFS 7596                
+POS_SEARCHWORDS 7985                
+POS_KEYWORDS 8178                
+POS_MISC 2331                
+POS_ERRORS 8290                
+POS_CLUSTER 3588                
+POS_SIDER_404 8402                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101000427 35325 9343000 11070247764503
+FirstTime 20141201070048
+LastTime 20141230170614
+LastUpdate 20150101010217 1 0 0 0 0
+TotalVisits 130                 
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 121                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 129 1243542 32 40 50038
+1 17 144 2541321 23 29 69627
+2 9 53 3432847 12 15 55994
+3 8 114 2259281 15 24 31243
+4 3 21 3712451 18 22 20382
+5 9 72 3578528 10 11 887340
+6 9 130 2760469 16 22 911444
+7 17 114 3864515 13 15 31013
+8 5 62 1005878 19 19 27123
+9 33 201 4977745 18 22 18114
+10 19 138 2750360 15 22 1816317
+11 29 156 2660620 18 20 45820
+12 129 478 10191332 14 26 47075
+13 19 130 3500690 12 16 22089
+14 47 253 6762181 42 46 910238
+15 43 254 4627459 14 18 1093
+16 27 122 1631357 12 13 2445
+17 36 278 4038385 23 29 44241
+18 16 100 1138830 16 17 17384
+19 26 197 4978655 6 19 8332
+20 17 141 3291657 20 22 10080
+21 37 196 5165464 19 25 48362
+22 26 201 3061025 17 31 1084913
+23 29 175 3982349 16 19 915886
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 630 3859 87156941
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 403 501312 20141231235749 0
+bingbot 23 3609915 20141231233451 0
+baiduspider 22 187683 20141230151320 0
+slurp 4 1959 20141231100341 0
+ia_archiver 3 20471 20141227070735 0
+facebook 3 2650641 20141214061918 0
+wordpress 2 0 20141207160605 0
+robot 1 1959 20141210212416 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 13 296976 0 0
+css 120 186984 0 0
+png 1080 48568922 0 0
+otf 245 5705528 0 0
+php 68 88962 0 0
+html 303 1301387 0 0
+js 992 8053935 0 0
+jar 16 7544701 0 0
+jpg 992 15269305 0 0
+policy 1 2607 0 0
+gif 29 137634 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/labs/cse16/exp01/media/speechAnalysis.jar 4 0 2905191
+/labs/cse16/exp10/media/analysisSynthesisS.jar 4 0 444216
+/labs/cse16/exp08/media/lpSpectrumAnalysisS.jar 3 0 2822220
+/labs/cse16/exp04/media/dspBasicsS.jar 1 0 433498
+/labs/cse16/exp07/media/cepstrumAnalysisS.jar 1 0 939576
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+linuxandroid 31 4
+winlong 1 0
+macosx6 2 2
+winxp 328 78
+java 11 0
+macosx5 37 5
+linuxubuntu 37 5
+winvista 527 73
+linux 549 90
+win7 2065 346
+macosx 36 1
+win2003 1 1
+macosx4 1 1
+macosx9 190 17
+Unknown 14 3
+macosx8 6 2
+macosx7 23 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 50
+safari7.0 1 0
+msie6.0 2 2
+firefox28.0 4 4
+chrome38.0.2125.104 150 8
+chrome39.0.2171.95 1074 196
+chrome38.0.2125.111 38 5
+firefox34.0 320 44
+chrome31.0.1650.63 37 5
+firefox24.0 1 0
+safari6.1.6 6 0
+firefox31.0 78 17
+msie8.0 121 28
+chrome33.0.0.0 1 0
+chrome39.0.2171.65 60 10
+chrome38.0.2125.122 16 2
+msie7.0 18 3
+firefox23.0 27 6
+chrome37.0.2062.120 75 17
+safari8.0 26 1
+chrome33.0.1750.154 1 0
+chrome33.0.1750.146 1 0
+msie9.0 24 5
+safari7.0.5 3 0
+chrome37.0.2062.103 1 0
+Unknown 16 2
+chrome30.0.1599.101 40 8
+chrome39.0.2171.71 1036 143
+chrome39.0.2171.93 17 3
+firefox32.0 132 31
+safari6.2 1 0
+chrome34.0.1847.131 37 5
+firefox21.0 2 2
+firefox29.0 1 0
+safari6.0 1 0
+firefox3.6.2 1 1
+chrome9.0.597 1 1
+firefox30.0 37 5
+chrome28.0.1500.71 4 4
+chrome38.0.2125.102 13 1
+safari7.0.6 1 0
+chrome36.0.1985.143 2 1
+firefox33.0 228 38
+mozilla 60 7
+chrome35.0.1916.153 1 0
+firefox14.0.1 54 8
+msie10.0 25 7
+netscape4.0 12 0
+chrome27.0.1453.116 2 2
+safari 1 0
+firefox35.0 49 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20141212191640
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7392)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20141204150321
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.1.2;_en-US;_GT-S7392)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20141204150321
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_65_Java/1.7.0_65 20141213214318
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 45 147
+From1 0 0
+From2 75 129
+From3 15 24
+From4 495 3559
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 75 128
+bing 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://virtual-labs.ac.in/labs/cse16/ 12 12
+http://www.virtual-labs.ac.in/labs/cse16/ 3 3
+http://galleryhip.com/speech-spectrogram-examples.html 0 2
+http://galleryhip.com/residual-plot.html 0 6
+http://galleryhip.com/speech-waveform.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+bharat+hamara+des+hai+for+word+english 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 7
+for 1
+hai 1
+bharat 1
+english 1
+hamara 1
+word 1
+des 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 43 17802
+206 4 67713
+404 30 7992
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 17
+/labs/cse16/exp06/indexie.htmlhttp://deploy.virtual-labs.ac.in/labs/cse16/exp06/indexie.html 1 -
+/labs/cse16/exp06/indexie.htmlhttp:// 2 -
+/labs/cse16/exp06/PendulumForces.swf 1 -
+/labs/cse16/exp09/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse16/exp09/index.html
+/labs/cse16/exp01/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse16/exp01/index.html
+/labs/cse16/exp04/PendulumForces.swf 1 -
+/labs/cse16/exp01/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/cse16/exp02/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse16/exp07/PendulumForces.swf 2 -
+/labs/cse16/exp05/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse16/exp05/index.html
+/labs/cse16/exp02/PendulumForces.swf 2 -
+/labs/cse16/exp06/indexie.html+++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8 1 http://deploy.virtual-labs.ac.in/labs/cse16/exp06/indexie.html+++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8
+/labs/cse16/exp07/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse16/exp08/audioTransport/SVLAudioTool.class 1 http://deploy.virtual-labs.ac.in/labs/cse16/exp08/indexie.html
+/labs/cse16/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/cse16/exp1/PendulumForces.swf 2 -
+/labs/cse16/exp08/PendulumForces.swf 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 121
+10.4.8.52 317 1928 40424410 20141230170614
+183.82.105.171 50 177 4131314 20141224124258
+223.30.144.190 25 135 987608 20141218165733
+112.79.37.148 19 40 735592 20141215125147
+14.139.122.114 13 154 903235 20141225171446
+218.248.43.105 11 59 1776634 20141210145330
+71.15.81.59 11 71 457444 20141210000222
+117.239.83.193 10 37 780149 20141215160823
+95.211.60.34 8 41 842312 20141223121038
+118.128.104.20 7 49 1052256 20141204175602
+1.39.61.140 1 1 0 20141208115224
+49.248.7.74 6 27 306326 20141203114217
+130.74.210.8 0 1 883547 
+79.130.12.245 5 37 412784 20141217010514
+84.88.135.130 0 1 6865 
+86.143.141.40 2 2 3955 20141203212410
+196.219.160.242 0 1 83025 
+64.233.173.131 1 1 1959 20141212191640
+69.121.134.169 2 66 642310 20141209101315
+107.184.22.146 1 25 168723 20141210102554
+159.92.59.49 0 2 24745 
+202.185.77.115 5 37 412784 20141203094254
+97.79.230.236 0 1 13908 
+117.211.163.82 3 17 98466 20141202191438
+74.122.77.22 5 25 298962 20141217213235
+210.34.57.145 5 37 412784 20141201070058
+67.41.95.242 0 2 355424 
+194.170.15.96 1 13 81613 20141207115426
+104.172.196.153 0 1 883547 
+130.255.135.174 5 23 230542 20141217232027
+14.139.155.210 0 1 11369 
+79.46.66.183 6 38 420148 20141206234148
+197.226.115.142 0 3 4045 
+46.118.153.53 2 2 6936 20141208081255
+161.139.102.106 0 1 1447 
+14.99.80.9 1 1 0 20141229180706
+131.155.199.86 0 2 12416 
+115.253.161.146 5 38 1353284 20141221211111
+174.137.113.40 5 37 412784 20141201224452
+192.26.211.85 1 22 378950 20141213214220
+188.74.64.240 0 1 83025 
+220.85.99.75 0 1 16399 
+79.55.37.208 0 1 10487 
+195.24.148.170 1 1 1348 20141225013023
+161.139.102.108 1 3 11591 20141222204019
+142.1.52.244 0 1 83025 
+143.121.239.63 2 16 1050231 20141211135003
+14.139.241.82 5 37 412784 20141212170723
+39.32.198.133 0 1 14619 
+161.139.102.107 0 1 2009 
+69.142.149.127 4 75 440991 20141219032056
+1.186.155.97 0 2 20788 
+78.181.218.110 0 1 68812 
+188.97.238.167 3 17 98466 20141228020920
+199.74.155.50 0 1 53290 
+202.184.111.90 5 38 1353524 20141205090424
+1.171.58.200 2 16 1050231 20141206193159
+99.104.144.220 0 1 883547 
+203.110.243.23 5 37 412784 20141227155253
+96.19.25.201 6 38 420148 20141212093457
+70.194.237.11 0 1 83025 
+103.230.105.16 0 1 83025 
+82.247.11.207 0 1 883547 
+14.139.207.126 5 37 412784 20141201205912
+161.139.102.111 0 2 8628 
+182.65.224.148 1 1 0 20141208231549
+117.217.2.199 1 13 81613 20141213232402
+79.177.110.78 2 16 1050231 20141206055606
+111.93.50.75 1 1 7364 20141203143912
+103.246.106.10 2 16 1050231 20141216113627
+85.81.14.17 0 1 14619 
+86.170.162.181 0 1 83025 
+125.21.196.2 0 1 883547 
+150.135.211.246 0 1 53290 
+2.102.83.148 5 25 298962 20141217175256
+117.211.191.132 1 2 9116 20141226163818
+173.28.156.37 0 1 33847 
+95.233.146.97 0 2 24698 
+23.126.152.81 0 2 966572 
+161.139.102.104 0 1 2297 
+184.58.215.185 0 1 883547 
+14.139.116.34 0 1 883547 
+136.152.209.79 0 2 966572 
+206.208.133.224 0 2 966572 
+146.95.58.154 0 1 883547 
+62.210.142.7 2 2 20653 20141226063906
+14.139.35.3 0 1 14619 
+206.208.133.133 2 16 1050231 20141209092713
+74.78.210.223 0 1 6865 
+106.51.150.159 3 17 98466 20141204175338
+130.70.0.34 0 1 83025 
+119.204.78.147 2 16 1050231 20141205124237
+161.139.102.109 0 3 5765 
+161.53.170.5 0 1 10790 
+132.65.37.147 0 1 13908 
+50.171.91.92 0 1 83025 
+75.155.204.231 0 1 83025 
+182.65.201.246 5 23 230542 20141215122714
+62.24.181.134 1 4 82963 20141217175321
+168.235.196.238 2 13 83069 20141204150320
+158.83.186.23 0 1 83025 
+122.168.30.250 0 1 7419 
+196.12.53.135 3 17 98466 20141216110918
+130.245.216.69 0 1 883547 
+62.210.83.64 1 1 15621 20141209131630
+31.184.238.181 1 1 27438 20141221215442
+115.112.122.66 6 16 567784 20141208111153
+161.139.102.110 0 2 49876 
+27.251.66.2 0 2 33195 
+212.201.111.68 0 1 14619 
+65.78.138.176 0 1 502272 
+62.24.181.135 0 1 667 
+49.203.244.208 5 37 412784 20141207221455
+147.47.123.175 4 31 269142 20141210223150
+91.75.75.70 0 1 6227 
+140.112.43.185 0 1 10790 
+149.160.221.91 0 1 883547 
+36.81.111.61 1 14 106578 20141227222556
+212.201.104.11 5 33 1216082 20141201210840
+128.223.223.76 2 16 1050231 20141209072514
+31.208.44.88 0 1 883547 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20141201 35 216 4400001 6
+20141202 25 169 2327878 5
+20141203 27 147 1853112 8
+20141204 41 277 4185544 8
+20141205 14 152 5387760 5
+20141206 20 131 3217226 5
+20141207 14 92 1087897 5
+20141208 32 172 6507482 8
+20141209 17 139 4025692 7
+20141210 43 310 8534577 10
+20141211 14 104 3877410 4
+20141212 12 78 1355689 3
+20141213 17 130 3350583 6
+20141214 5 42 3161069 1
+20141215 70 233 6739571 6
+20141216 10 64 2801354 3
+20141217 37 299 7123442 10
+20141218 40 228 2298239 5
+20141219 22 186 1949164 4
+20141220 4 33 405457 1
+20141221 6 41 2270496 2
+20141222 9 68 1476410 3
+20141223 44 188 2826937 3
+20141224 34 117 2999411 1
+20141225 8 87 491799 2
+20141226 3 5 41138 2
+20141227 6 51 519362 2
+20141228 6 35 1080479 2
+20141229 14 52 780149 2
+20141230 1 13 81613 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 4
+15mn-30mn 2
+30s-2mn 8
+0s-30s 103
+2mn-5mn 5
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 58
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 64 1688832 0 3
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 64 527872 0 2
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 64 3049728 0 14
+/labs/cse16/ 42 75825 31 13
+/labs/cse16/exp08/indexie.html 41 308370 39 6
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 39 296556 0 32
+/labs/cse16/exp01/part1.php 37 57982 0 5
+/labs/cse16/default.html 28 46799 0 2
+/labs/cse16/content.html 28 96904 0 9
+/labs/cse16/exp06/part1.php 18 12655 0 13
+/labs/cse16/exp02/part1.php 3 4809 1 1
+/labs/cse16/exp05/ 3 3898 0 0
+/labs/cse16/exp02/content.html 1 7449 0 0
+/labs/cse16/exp10/default.html 6 7464 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 1 5728 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 1 46808 0 0
+/labs/cse16/exp01/wav/java.policy 1 2607 0 1
+/labs/cse16/exp01/default.html 15 65829 0 0
+/labs/cse16/exp08/content.html 3 22548 0 2
+/labs/cse16/exp05/indexie.html 7 40558 6 7
+/labs/cse16/exp03/indexie.html 4 27108 4 0
+/labs/cse16/exp02/default.html 1 3732 0 0
+/labs/cse16/exp05/content.html 3 12346 0 1
+/labs/cse16/exp01/indexie.html 1 6998 1 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 1 28836 0 0
+/labs/cse16/exp01/javasound.html 2 2696 2 1
+/labs/cse16/exp03/natureofspeech.php 5 6524 1 2
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 2 99368 0 0
+/labs/cse16/exp07/indexie.html 13 76143 11 3
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 2 53552 0 0
+/labs/cse16/exp09/default.html 3 18211 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 2 19352 0 1
+/labs/cse16/exp04/default.html 2 7464 0 0
+/labs/cse16/exp04/part1.php 2 494 0 0
+/labs/cse16/exp06/content.html 2 13530 0 0
+/labs/cse16/exp10/indexie.html 15 95943 14 4
+/labs/cse16/exp02/indexie.html 1 6556 0 1
+/labs/cse16/exp10/content.html 6 10664 0 2
+/labs/cse16/exp06/ 2 3898 1 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 2 20744 0 0
+/labs/cse16/exp09/ 3 7080 1 0
+/labs/cse16/exp05/default.html 3 7464 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 1 12340 0 0
+/labs/cse16/exp06/indexie.html 16 110872 14 1
+/labs/cse16/exp04/ 2 3898 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 13 95732 1 1
+/labs/cse16/exp10/ 6 3898 1 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 1 8484 0 0
+/labs/cse16/exp04/content.html 2 15020 0 0
+/labs/cse16/exp06/part2.php 2 1466 1 1
+/labs/cse16/exp02/ 1 1949 0 0
+/labs/cse16/exp08/default.html 3 11196 0 0
+/labs/cse16/exp01/ 16 27087 1 0
+/labs/cse16/exp09/content.html 3 26054 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 1 48572 0 0
+/labs/cse16/exp06/default.html 2 7464 0 0
+/labs/cse16/exp01/content.html 15 117657 0 0
+/labs/cse16/exp08/ 3 5847 0 0
+END_SIDER

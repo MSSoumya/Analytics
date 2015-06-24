@@ -1,0 +1,1773 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.vlead.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2683                
+POS_VISITOR 28809               
+POS_DAY 64595               
+POS_DOMAIN 3668                
+POS_LOGIN 3903                
+POS_ROBOT 4058                
+POS_WORMS 5287                
+POS_EMAILSENDER 5418                
+POS_EMAILRECEIVER 5561                
+POS_SESSION 65259               
+POS_SIDER 65473               
+POS_FILETYPES 5696                
+POS_DOWNLOADS 5965                
+POS_OS 6134                
+POS_BROWSER 6435                
+POS_SCREENSIZE 9702                
+POS_UNKNOWNREFERER 9776                
+POS_UNKNOWNREFERERBROWSER 10914               
+POS_ORIGIN 11303               
+POS_SEREFERRALS 11448               
+POS_PAGEREFS 11625               
+POS_SEARCHWORDS 24384               
+POS_KEYWORDS 24704               
+POS_MISC 2346                
+POS_ERRORS 24931               
+POS_CLUSTER 3759                
+POS_SIDER_404 25111               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150121142252 723 160647 8549622860215
+FirstTime 20150101002025
+LastTime 20150121140833
+LastUpdate 20150611000237 0 0 0 0 0
+TotalVisits 1366                
+TotalUnique 862                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 975                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 274 589 21014454 492 596 9100664
+1 0 0 0 16 25 4602120
+2 446 515 9742782 428 488 15541552
+3 155 161 14080418 396 551 16595493
+4 164 167 4780439 437 527 13182222
+5 176 181 7680622 422 496 8622005
+6 169 170 4509184 422 518 9959503
+7 181 347 17254318 435 507 10889293
+8 226 314 11757545 929 1019 11136809
+9 134 344 12477647 5206 5263 33818498
+10 217 630 26231635 4690 4735 39328115
+11 171 407 13559054 406 481 14249365
+12 171 412 14057195 442 522 12552855
+13 447 749 18852435 442 551 9020893
+14 229 668 19020304 434 522 11850846
+15 193 775 27536314 417 526 16435021
+16 220 337 9775076 395 498 19716433
+17 357 532 13794475 461 561 16330124
+18 156 313 8121518 446 614 11027118
+19 461 671 12369590 477 550 15675613
+20 164 424 16273443 493 612 21297426
+21 168 489 12543420 403 472 11219913
+22 155 456 19792171 484 547 12434591
+23 169 605 42405792 412 528 7466967
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5203 10256 344706358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+no_user_agent 9416 41015728 20150121103225 1
+robot 5839 7586495 20150121142252 4
+googlebot 1788 124703856 20150121133215 58
+baiduspider 1345 54150589 20150121141111 0
+bingbot 736 71140562 20150121140126 49
+bot[\s_+:,\.\;\/\\-] 163 6317356 20150118081441 33
+crawl 155 6400194 20150121103801 4
+bingpreview 144 3656175 20150119172116 0
+yandex 143 4221442 20150121091613 46
+slurp 132 4476396 20150121111807 22
+ruby\/ 4 238728 20150119231107 0
+commons\-httpclient 4 58201 20150119184403 0
+exabot 8 230170 20150118033426 3
+mediapartners\-google 1 59659 20150105093426 0
+spider 12 378910 20150120134535 5
+ia_archiver 2 36802 20150102065313 1
+php 45 1600246 20150121122502 0
+proximic 2 59810 20150103154656 1
+unknown 25 1475 20150119161204 25
+facebook 46 1155132 20150120171029 0
+python 2 32256 20150111183837 1
+archive\.org_bot 1 59 20150109173345 1
+favicon 8 258258 20150117003756 0
+feedburner 48 3548448 20150121124137 0
+twitterbot 8 129338 20150121061914 4
+mj12bot 73 1761374 20150120143443 36
+netcraft 4 159576 20150111233823 0
+w3c_validator 1 59641 20150114104235 0
+nutch 4 119474 20150109050813 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 5176 112034434 0 0
+css 889 7530942 0 0
+png 1113 56755404 0 0
+html 26 326222 0 0
+pdf 32 45406171 0 0
+jpg 821 89248222 0 0
+js 2061 28118506 0 0
+jpeg 91 4643085 0 0
+Unknown 1 12818 0 0
+gif 46 630554 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/wp-content/uploads/2013/08/bare_conf.pdf 44 125 82925270
+/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 22 0 2651528
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+linuxandroid 645 422
+winxp 2879 2100
+macosx6 9 8
+winlong 155 129
+unix 26 24
+java 3 1
+winnt 1 1
+win2000 27 27
+linuxubuntu 5 5
+winvista 1530 546
+linux 567 73
+win7 4040 1764
+macosx 357 60
+j2me 3 0
+win2003 3 3
+macosx9 20 12
+Unknown 111 28
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 153
+chrome38.0.2125.19 1 0
+firefox28.0 27 12
+firefox3.8 1 1
+chrome32.0.1700.72 3 3
+firefox3.6 4 4
+chrome12.0.742.100 1 1
+chrome34.0.1847.137 31 16
+chrome29.0.1547.62 14 14
+chrome31.0.1650.57 22 22
+chrome31.0.1650.63 21 20
+chrome23.0.1271.95 2 2
+msie8.0 147 119
+chrome11.0.696.34 1 1
+chrome39.0.2171.65 43 43
+msie7.0 161 159
+chrome27.0.1453.93 1 1
+firefox9.0.1 12 12
+opera9.64 3 3
+chrome39.0.2171.96 11 11
+chrome37.0.2049.0 6 6
+firefox13.0 5 5
+firefox10.0.1 2 2
+chrome30.0.1599.69 12 12
+chrome23.0.1271.91 10 10
+chrome32.0.1700.107 17 17
+chrome35.0.1916.114 53 17
+chrome36.0.1985.143 5 4
+firefox33.0 170 50
+firefox25.0 8 8
+chrome26.0.1410.64 13 13
+chrome11.0.696.43 2 2
+chrome33.0.1750.117 20 20
+firefox14.0.1 7 7
+chrome28.0.1500.3 1 1
+firefox36.0 111 6
+safari 87 4
+safari7.0 145 7
+firefox5.0 267 266
+chrome18.0.1025.162 7 7
+chrome24.0.1309.0 2 2
+android 544 414
+firefox5.02 3 3
+chrome28.0.1500.95 13 13
+chrome22.0.1229.79 7 7
+chrome36.0.1985.125 22 21
+chrome17.0.963.79 7 7
+firefox24.0 16 14
+opera9.80 155 118
+chrome19.0.1084.56 7 7
+firefox10.0.11 1 0
+chrome33.0.0.0 2 0
+chrome32.0.1700.102 7 7
+chrome20.0.1132.47 11 11
+chrome24.0.1312.57 3 3
+chrome38.0.2125.122 35 1
+chrome34.0.1847.116 21 21
+msie9.0 158 132
+chrome28.0.1500.52 11 11
+chrome26.0.1410.43 12 12
+chrome24.0.1312.52 6 6
+firefox32.0 122 7
+firefox3.0.2 504 504
+chrome39.0.2171.93 91 8
+chrome17.0.963.56 8 8
+samsung 2 0
+chrome28.0.1500.71 38 36
+firefox30.0 11 11
+chrome18.0.1025.168 5 5
+nokia 4 1
+chrome35.0.1916.153 24 23
+firefox22.0 48 45
+chrome25.0.1364.172 15 15
+chrome39.0.2171.99 527 43
+chrome41.0.2267.0 1 0
+chrome21.0.1180.49 9 8
+chrome23.0.1271.97 74 74
+chrome19.0.1084.52 13 13
+msie6.0 1104 1074
+chrome27.0.1453.94 11 11
+firefox10.0 2 2
+firefox26.0 33 31
+firefox18.0 8 8
+chrome39.0.2171.95 1774 109
+firefox4.0 8 8
+chrome38.0.2125.111 108 12
+firefox34.0 950 90
+chrome41.0.2243.2 38 1
+chrome28.0.1500.72 42 40
+chrome39.0.2171.36 2 0
+chrome24.0.1290.1 2 2
+chrome24.0.1312.56 3 3
+firefox23.0 14 14
+chrome25.0.1364.152 6 6
+chrome29.0.1547.66 19 19
+chrome39.0.2171.71 146 81
+chrome28.0.1500.63 30 28
+chrome34.0.1847.131 17 17
+wap 1 0
+chrome37.0.2062.102 37 3
+firefox21.0 35 33
+safari6.0 24 24
+firefox29.0 317 317
+firefox3.5.2 3 3
+firefox12.0 11 9
+mozilla 228 91
+safari6.0.4 1 1
+chrome32.0.1700.76 16 16
+chrome22.0.1229.94 7 7
+chrome26.0.1410.63 10 10
+chrome17.0.963.12 36 1
+firefox19.0 13 13
+chrome25.0.1364.97 8 8
+firefox10.0.2 11 11
+firefox8.0.1 2 2
+firefox35.0 516 83
+firefox15.0.1 10 10
+chrome21.0.1180.89 9 9
+chrome37.0.2062.124 35 33
+firefox20.0 11 10
+firefox15.0 5 5
+chrome29.0.1547.57 10 10
+chrome23.0.1271.64 9 9
+chrome29.0.1547.76 8 8
+firefox8.0 7 7
+chrome12.0.742.112 3 3
+firefox31.0 88 32
+chrome15.0.874.121 5 5
+firefox13.0.1 89 10
+chrome13.0.782.112 2 2
+firefox16.0 6 6
+chrome21.0.1180.83 10 10
+chrome33.0.1750.154 15 15
+safari8.0 1 0
+chrome30.0.1599.66 4 4
+chrome10.0.648.11 1 1
+chrome33.0.1750.146 24 24
+chrome30.0.1599.101 18 17
+Unknown 37 32
+firefox27.0 17 17
+firefox11.0 19 8
+chrome30.0.0.0 8 0
+firefox3.5.6 1 1
+firefox17.0 19 16
+firefox8.8.4 1 1
+chrome36.0.1985.67 4 4
+chrome27.0.1453.110 15 15
+chrome9.0.597 45 3
+chrome20.0.1132.57 8 8
+chrome40.0.2214.69 56 4
+safari5.1.7 3 3
+msie10.0 146 110
+safari5.1 19 19
+chrome27.0.1453.116 27 25
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+One_Browser/3.0,Nokia6681/2.0 20150116223905
+\ 20150116154009
+Opera/9.80_(Android;_Opera_Mini/7.6.40077/35.6497;_U;_en)_Presto/2.8.119_Version/11.10 20150110195852
+MicromaxX231/Q03C_MAUI-browser/ 20150110080250
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S5302)_U2/1.0.0_UCBrowser/9.7.0.520_U2/1.0.0_Mobile 20150117154039
+SAMSUNG-GT-E2252/E2252DDMH1_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20150108205358
+SAMSUNG-GT-S3802/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20150101054407
+MAUI_WAP_Browser 20150119112716
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20150108145716
+webster-internet.de_pad_browser 20150116083448
+NokiaC3-01/5.0_(05.60)_Profile/MIDP-2.1_Configuration/CLDC-1.1_Mozilla/5.0_AppleWebKit/420__(KHTML,_like_Gecko)_Safari/420_ 20150105103913
+Mozilla/4.0_(compatible;_Synapse) 20150120030625
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.21;__http://software.schmorp.de/pkg/AnyEvent) 20150107173749
+GigablastOpenSource/1.0 20150119161207
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+\ 20150116154009
+http://Anonymouse.org/_(Unix) 20150102175615
+MicromaxX231/Q03C_MAUI-browser/ 20150110080250
+webster-internet.de_pad_browser 20150116083448
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S5302)_U2/1.0.0_UCBrowser/9.7.0.520_U2/1.0.0_Mobile 20150117154039
+GigablastOpenSource/1.0 20150119161207
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2617 2835
+From1 0 0
+From2 69 258
+From3 2517 7288
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 68 254
+baidu 0 1
+bing 1 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 146
+http://vlead.vlabs.ac.in/wp-login.php 1400 1400
+http://vlead.vlabs.ac.in 367 827
+http://vlead.virtual-labs.ac.in/wp-login.php 192 192
+http://vlead.virtual-labs.ac.in 141 1163
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 78 78
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 43 762
+http://virtual-labs.ac.in/index.php 33 33
+http://www.iiit.ac.in/content/project-openings/vlead 26 26
+http://vlead.virtual-labs.ac.in/events/recruitment-drive-march-2014/ 13 557
+http://vlead.vlabs.ac.in/join-us/ 12 167
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5258 1 1
+http://vlead.virtual-labs.ac.in/author/jayashree/ 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5306 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5551 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5398 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5355 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5440 1 1
+http://vlead.vlabs.ac.in/2014/05/14/virtual-labs-on-portable-media/ 1 2
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5287 1 1
+http://vlead.vlabs.ac.in/activities/ 2 21
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5481 1 1
+https://vlead.virtual-labs.ac.in 0 2
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5213 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5423 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5535 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5424 1 1
+http://vlead.vlabs.ac.in/2014/09/14/monsoon-2014-internship-a-report/#comment-5496 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5469 1 1
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf#search= 0 6
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5412 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5405 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5494 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5483 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5232 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5538 1 1
+http://vlead.vlabs.ac.in/about-us/interns-2014/ 8 64
+http://vlead.vlabs.ac.in/2014/09/30/25-virtual-labs-on-portable-media/ 2 84
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5224 1 1
+http://vlead.vlabs.ac.in/2014/03/07/attention-lab-developers-developer-portal-moved-to-bit-bucket/ 2 22
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5338 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5504 1 1
+http://vlead.vlabs.ac.in/comments/feed/ 1 1
+http://vlead.vlabs.ac.in/2013/07/18/ui-redesign/ 2 2
+https://www.facebook.com 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5534 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5230 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5439 1 1
+http://vlead.vlabs.ac.in/2013/08/12/the-virtual-labs-project-an-overview/ 3 131
+http://vlead.vlabs.ac.in/2014/12/ 2 62
+http://vlead.vlabs.ac.in/2014/05/ 0 33
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5464 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5561 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5373 1 1
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5406 1 1
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 9 9
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5414 1 1
+http://vlead.vlabs.ac.in/2014/09/ 1 6
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5467 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5434 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5527 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5383 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5345 1 1
+http://vlead.virtual-labs.ac.in/2013/07/18/ui-redesign/ 2 3
+http://vlead.vlabs.ac.in/2013/06/28/rd-showcase-2013/ 1 89
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5427 1 1
+http://vlead.virtual-labs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 2 2
+http://vlead.vlabs.ac.in/about-us/alumni/ 2 69
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5557 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5294 1 1
+http://vlead.vlabs.ac.in/about-us/interns-2013/ 0 46
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5217 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5511 1 1
+http://vlead.vlabs.ac.in/about-us/team/ 10 249
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5209 1 1
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/#comment-5500 1 1
+http://vlead.vlabs.ac.in/xmlrpc.php 5 5
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 3 28
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-4502 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5498 1 1
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 10 10
+http://vlead.vlabs.ac.in/2014/05/06/phase-2-virtual-labs-project/ 2 105
+http://vlead.vlabs.ac.in/2014/12/16/a-new-set-of-35-virtual-labs-on-portable-media/ 3 116
+http://vlead.vlabs.ac.in/2014/09/14/monsoon-2014-internship-a-report/ 4 7
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/#comment-5539 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5528 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5233 1 1
+http://vlead.virtual-labs.ac.in/join-us/ 2 70
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/#comment-5254 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5359 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5422 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5399 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5347 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5552 1 1
+http://vlead.vlabs.ac.in/wp-content/plugins/perfect-quotes/includes/style.css 0 84
+http://vlead.vlabs.ac.in/about-us/ 2 22
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5318 1 1
+http://vlead.vlabs.ac.in/contact-us/ 12 55
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5289 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5543 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5478 1 1
+http://vlead.vlabs.ac.in/2014/12/16/a-new-set-of-35-virtual-labs-on-portable-media/#comment-5245 1 1
+http://vlead.vlabs.ac.in/2014/09/23/ies-workshop-a-report/ 7 59
+http://vlead.vlabs.ac.in/2014/09/23/ies-workshop-a-report/#comment-5546 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5290 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5536 1 1
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5488 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5298 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5241 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5566 1 1
+http://vlead.vlabs.ac.in/2013/12/ 1 1
+http://vlead.vlabs.ac.in/2013/06/ 1 34
+http://vlead.vlabs.ac.in/wp-content/themes/jaguza/style.css 0 159
+http://vlead.vlabs.ac.in/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 7 7
+http://vlead.virtual-labs.ac.in/setup-instruction/ 0 1
+http://vlead.virtual-labs.ac.in/cse08/isad/2/ 0 17
+http://vlead.vlabs.ac.in/2013/07/09/virtual-labs-on-amazon-cloud/ 3 3
+http://vlead.vlabs.ac.in/events/ 4 61
+http://vlead.vlabs.ac.in/2014/09/15/first-institute-integration-coordinators-iics-meeting-at-iiit-hyderabad/#comment-5368 1 1
+http://vlead.vlabs.ac.in/page/2/ 0 27
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5366 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5537 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5341 1 1
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/#comment-5466 1 1
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/#comment-851 1 1
+http://vlead.virtual-labs.ac.in/xmlrpc.php 3 3
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 0 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5413 1 1
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/#comment-5554 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5343 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5458 1 1
+http://vlead.vlabs.ac.in/author/jayashree/ 2 60
+http://vlead.vlabs.ac.in/2014/09/15/first-institute-integration-coordinators-iics-meeting-at-iiit-hyderabad/ 2 32
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2014/05/pendrive.jpg 0 1
+http://vlead.vlabs.ac.in/2014/10/20/lab-integration-kit-0-5-0-released/ 1 104
+http://vlead.vlabs.ac.in/about-us/mission-and-vision/ 1 16
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5363 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5555 1 1
+http://vlead.vlabs.ac.in/category/vlead-blog/ 1 2
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5445 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5323 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5523 1 1
+http://vlead.virtual-labs.ac.in/wp-content/uploads/2013/08/bare_conf.pdf 0 2
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5211 1 1
+http://vlead.virtual-labs.ac.in/wiki/ 0 2
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5426 1 1
+http://vlead.vlabs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/#comment-5237 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+vlead 3
+http+//vlead.vlabs.ac.in/2014/09/15/first-institute-integration-coordinators-iics-meeting-at-iiit-hyderabad/ 1
+virtual+architecture+labs 1
+virtual+lab+portal 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+vlead 3
+virtual 2
+architecture 1
+http 1
+//vlead.vlabs.ac.in/2014/09/15/first-institute-integration-coordinators-iics-meeting-at-iiit-hyderabad/ 1
+lab 1
+portal 1
+labs 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 6 17772
+206 26 1576754
+502 49 19392
+400 24 7448
+302 511 0
+500 40 119015
+404 437 6698937
+301 311 1340
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 81
+/ 51 -
+/author/jayashree/%22https:/github.com/ 2 -
+/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/\" 6 http://vlead.vlabs.ac.in/
+/about-us/interns-2k14/ 1 -
+//wp-content/plugins/wp-symposium/server/php/index.php 1 -
+/trackback/ 1 http://luottoa.webnode.com/
+/admin/login.php 1 -
+/2013/08/xmlrpc.php 1 -
+/wordpress/wp-login.php 1 -
+/category/uncategorized/feed/%22https:/github.com/ 1 -
+/vlead.virtual-labs.ac.in.sql 4 -
+/about-us/team/www.iiit.ac.in 7 -
+/wp-content/uploads/2013/08/administrator/components/com_joomlaupdate/restore.php 1 -
+/editor/editor/ 1 -
+/category/uncategorized/&quot 2 -
+/wp-content/plugins/wp-easycart/inc/amfphp/administration/ 1 http://vlead.vlabs.ac.in/wp-content/plugins/wp-easycart/inc/amfphp/administration/
+/feed/%22https:/bitbucket.org/ 3 -
+/browserconfig.xml 1 -
+/admin/wp-login.php 1 -
+/about-us/team/www.mnnit.ac.in/ 5 -
+/edu.asp 2 -
+/wp-login.phpindex.php 1 http://vlead.virtual-labs.ac.in/wp-login.phpindex.php
+/author/jayashree/trackback/ 6 http://vlead.vlabs.ac.in/author/jayashree/
+/ac.in.zip 4 -
+/js/fckeditor/editor/ 1 -
+/2014/05/06/phase-2-virtual-labs-project/&quot 2 -
+/wp-content/uploads/2013/08/timthumb 1 -
+/\xe8\x81\xbd2014-03-06\xe8\x81\xbd 1 -
+/author/jayashree/&quot 2 -
+/category/uncategorized/%22https:/github.com/ 4 -
+/$wp-content$/themes/parallelus-mingle/framework/utilities/download/getfile.php 2 -
+/wp-update.php 1 http://vlead.vlabs.ac.in/wp-update.php
+/blog/wp-admin/ 4 -
+/2013/wp-content/uploads/2013/08/labs-by-discipline-latest-300x288.png 9 http://image.baidu.com/i
+/blog/wp-login.php 1 -
+/about-us/interns-2k13/ 16 -
+//wp-content/themes/twentytwelve/timthumb.php 2 -
+/$wp-content$/themes/parallelus-salutation/framework/utilities/download/getfile.php 2 -
+/test/wp-admin/ 4 -
+/site/wp-login.php 1 -
+/wp/wp-admin/ 3 -
+/wp-content/themes/twentytwelve/thumb.php 2 -
+/wp-content/plugins/revslider/release_log.txt 2 -
+/author/jayashree/xmlrpc.php 1 -
+/wp-updates.php 1 http://vlead.vlabs.ac.in/wp-updates.php
+/info_sub.asp 1 -
+/old/wp-admin/ 5 -
+/2013/wp-content/uploads/2013/08/labs-by-institute-latest-300x283.png 9 http://image.baidu.com/i
+/wp-content/plugins/download-manager/readme.txt 2 -
+/%22https:/bitbucket.org/ 1 -
+/2014/05/%22https:/bitbucket.org/ 3 -
+//wp-content/plugins/revslider/temp/update_extract/kontol.php 20 -
+/author/jayashree/%22https:/bitbucket.org/ 2 -
+/wp/wp-login.php 1 -
+/cse08/isad/2/ 1 -
+/timthumb 1 -
+/wp-content/uploads/2013/08/xmlrpc.php 20 -
+/feed/%22https:/github.com/ 2 -
+/section/wp-login.php 1 -
+/user/ 1 -
+/about-us/interns/ 6 http://vlead.vlabs.ac.in/
+/events/freshers-recruitment-drive-sep-2013/ 3 -
+/wp-content/plugins/wp-symposium/server/file_upload_form.php 1 -
+/%22https:/github.com/ 1 -
+/wp-content/plugins/cforms/js/ 1 http://vlead.vlabs.ac.in/wp-content/plugins/cforms/js/
+/wp-content/uploads/2013/08/bare_conf.pdf&amp 144 -
+/2014/05/%22https:/github.com/ 3 -
+/manage/fckeditor/editor/ 1 -
+/2014/05/06/phase-2-virtual-labs-project/%22https:/github.com/ 1 -
+/wp-content/plugins/wp-filemanager/incl/libfile.php 2 -
+/wordpress/wp-admin/ 6 -
+/page_404.asp 1 -
+/author/prateek/ 1 -
+/bitrix/admin/ 1 -
+/ac.tar 4 -
+/wp-content/themes/twentytwelve/timthumb.php 2 -
+/vleadvirtual-labs.sql.gz 4 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 4 -
+/category/uncategorized/%22https:/bitbucket.org/ 3 -
+/admin/fckeditor/editor/ 1 -
+/wiki/vlead_logo.png 10 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 975
+10.4.8.52 2033 4348 159633417 20150121140833 20150121115858 /2014/09/23/ies-workshop-a-report/
+50.249.105.133 508 508 2179187 20150116020639
+37.115.191.73 180 180 674218 20150110035414
+88.229.29.68 158 158 569760 20150120193038
+213.238.175.29 94 94 4036536 20150108103311
+62.210.78.209 84 84 3851809 20150105211120
+178.32.61.156 75 76 2545606 20150110020351
+62.210.180.16 54 54 2287935 20150111111606
+91.200.12.66 47 47 1951570 20150109043510
+195.211.155.181 46 46 1907040 20150121090141
+117.206.138.41 1 34 746302 20150115120707
+93.61.34.224 1 1 3500 20150104192447
+122.168.140.213 0 34 768479 
+93.61.43.130 1 1 3500 20150119124648
+89.97.111.202 1 1 3500 20150118112941
+91.200.12.9 16 16 542504 20150121065538
+95.181.176.23 28 28 101631 20150111131318
+78.6.208.146 1 1 3500 20150120102848
+78.4.195.18 1 1 3500 20150117051353
+89.97.105.18 1 1 3500 20150105115449
+106.78.160.114 1 9 249852 20150106190815
+118.102.191.36 2 37 949112 20150120150339
+1.165.188.50 5 5 194062 20150107160557
+198.27.70.56 5 5 175827 20150119092014
+78.5.173.62 1 1 3500 20150107174353
+212.129.34.215 0 1 4321044 
+157.55.39.180 0 1 2487 
+93.61.40.145 1 1 3500 20150113182332
+78.6.211.66 1 1 3500 20150115225458
+50.250.215.252 1 1 59771 20150113203907
+92.63.87.9 3 3 59749 20150106104025
+103.21.77.98 0 1 53291 
+23.232.151.95 1 1 36507 20150121070412
+78.4.127.246 1 1 3500 20150104151659
+78.4.177.110 1 1 3500 20150117051350
+106.39.252.9 1 1 117283 20150117172114
+69.12.81.225 1 1 38495 20150115071250
+125.21.161.2 0 1 33579 
+115.115.2.58 0 1 53976 
+107.146.35.202 1 1 3500 20150107174357
+155.94.220.2 2 2 129826 20150102113109
+78.5.79.54 1 1 3500 20150108233251
+64.233.173.143 1 1 59699 20150108145535
+78.6.215.142 2 2 7000 20150111190849
+41.250.66.56 1 1 38387 20150112052641
+83.211.93.3 1 1 3500 20150102181101
+78.7.228.86 2 2 7000 20150115225452
+93.54.7.156 1 1 3500 20150107092414
+8.37.227.250 0 1 55680 
+78.5.113.138 1 1 3500 20150120061738
+93.51.199.114 1 1 3500 20150120102855
+212.129.0.80 15 15 619815 20150121050900
+107.144.143.29 2 2 7000 20150115095044
+209.161.99.44 1 1 36597 20150103052736
+78.7.40.146 1 1 3500 20150111145626
+78.7.155.6 1 1 3500 20150107133020
+78.4.88.202 1 1 3500 20150103183955
+89.97.158.15 1 1 3500 20150104111048
+64.233.173.172 0 2 110824 
+180.76.4.68 1 1 24433 20150103044158
+78.6.40.42 1 1 3500 20150103143029
+14.139.194.12 0 1 38749 
+78.4.119.86 1 1 3500 20150109034208
+93.54.90.35 1 1 3500 20150109160846
+93.54.64.11 1 1 3500 20150112040056
+14.140.82.133 0 1 83675 
+78.4.72.34 1 1 3500 20150118112942
+42.49.254.38 1 1 3315 20150105024254
+78.5.125.66 2 2 7000 20150113094547
+93.61.76.32 1 1 3500 20150108111511
+78.6.10.162 1 1 3500 20150101214902
+78.6.196.82 1 1 3500 20150116073003
+212.183.168.39 1 1 3500 20150121120222
+89.97.122.143 1 1 3500 20150106084005
+218.248.0.2 0 6 116836 
+111.78.66.31 2 2 36509 20150120085511
+93.61.97.19 1 1 3500 20150113182323
+93.61.72.146 1 1 3500 20150111020812
+62.210.152.50 24 24 1117946 20150105021126
+78.6.163.118 1 1 3500 20150110091556
+62.94.38.177 4 4 14000 20150121120213
+93.54.93.12 1 1 3500 20150105034222
+61.224.68.67 4 4 154081 20150104224055
+78.6.206.226 1 1 3500 20150117005330
+93.54.49.34 1 1 3500 20150111145625
+49.207.201.235 0 1 55680 
+14.139.196.2 2 36 912487 20150107213132
+183.89.154.203 1 35 842939 20150111211722
+49.207.73.39 1 3 127055 20150117160508
+178.33.213.45 1 1 3375 20150120025953
+24.34.130.48 0 2 229450 
+78.6.57.162 1 1 3500 20150109074637
+93.61.113.19 1 1 3500 20150113230036
+162.246.62.151 6 6 248194 20150117020540
+93.61.51.149 1 1 3500 20150120190637
+125.20.82.164 1 34 896297 20150102183827
+78.4.67.246 1 1 3500 20150116160501
+49.15.139.14 0 1 1777235 
+83.103.10.10 1 1 3500 20150119124645
+117.196.21.234 0 1 91557 
+69.12.67.119 1 1 3375 20150108231928
+117.195.134.139 0 41 1013334 
+93.61.34.109 1 1 3500 20150114205731
+93.61.39.17 1 1 3500 20150120232517
+91.200.12.49 4 4 165704 20150117215549
+78.5.132.158 1 1 3500 20150102055835
+78.6.203.246 1 1 3500 20150116114358
+180.76.4.188 2 2 44522 20150120102950
+78.5.17.102 1 1 3500 20150115182954
+93.61.36.150 1 1 3500 20150116160458
+93.61.60.149 1 1 3500 20150115053744
+204.44.92.44 2 2 75135 20150112053907
+177.133.165.134 0 1 77535 
+124.123.150.110 0 31 745240 
+93.54.53.93 1 1 3500 20150108233251
+78.7.123.70 1 1 3500 20150102181100
+198.55.112.34 2 2 6690 20150114082325
+93.54.28.240 2 2 7000 20150119173036
+78.5.113.206 1 1 3500 20150101094040
+93.54.35.240 1 1 3500 20150116114356
+69.12.91.176 1 1 38471 20150111050645
+93.54.28.70 1 1 3500 20150102221704
+64.233.173.233 0 1 556870 
+93.54.7.168 1 1 3500 20150119214922
+78.4.202.194 1 1 3500 20150106165411
+1.38.4.10 0 1 486976 
+89.97.109.181 1 1 3500 20150104192507
+118.97.95.182 1 1 59891 20150101114609
+180.180.97.148 3 3 124055 20150103003406
+59.181.105.239 0 1 2040 
+78.7.207.2 1 1 3500 20150104233341
+117.209.196.134 2 2 119502 20150103210036
+173.208.46.220 1 1 40247 20150115061758
+78.6.88.190 1 1 3500 20150117005330
+5.189.190.212 23 23 840613 20150115071531
+78.5.210.90 1 1 3500 20150120190640
+62.210.88.195 22 22 1033629 20150112173819
+117.202.122.80 1 28 322373 20150112213833
+134.249.141.83 1 2 180221 20150109031048
+78.4.88.34 1 1 3500 20150113053432
+49.205.212.156 0 1 3332 
+46.105.251.219 3 3 123949 20150112135509
+93.54.7.202 1 1 3500 20150120190646
+113.88.120.34 3 3 351837 20150116154228
+78.6.201.54 1 1 3500 20150110174243
+195.211.154.33 38 38 1714933 20150115075341
+61.224.67.62 8 8 347112 20150114204023
+78.6.61.194 1 1 3500 20150109160847
+78.6.93.222 1 1 3500 20150115095047
+78.7.85.58 1 1 3500 20150107092414
+82.146.44.67 1 1 36515 20150107214531
+46.160.85.211 1 1 59645 20150112041300
+78.6.23.234 1 1 3500 20150105074856
+195.211.154.174 6 7 605253 20150111081317
+120.203.177.16 2 2 129932 20150113174331
+123.63.13.37 1 49 2330469 20150115000850
+183.82.203.112 0 1 27341 
+180.111.103.198 0 1 29523 
+84.201.8.254 1 1 3315 20150120081548
+93.54.68.144 1 1 3500 20150104151657
+223.196.52.123 0 1 91557 
+78.7.194.146 1 1 3500 20150116072958
+198.55.113.107 3 3 123945 20150114043918
+93.61.27.110 1 1 3500 20150112123205
+41.143.21.35 3 3 108019 20150109111500
+78.5.103.150 1 1 3500 20150105115454
+78.5.118.70 1 1 3500 20150106002318
+107.144.117.155 1 1 3500 20150115225448
+199.15.251.106 1 1 35175 20150107223040
+78.7.25.122 1 1 3500 20150110132757
+93.61.33.251 1 1 3500 20150103062142
+123.125.71.49 1 1 117283 20150117042812
+93.61.76.247 1 1 3500 20150114074457
+192.240.198.130 1 1 36593 20150106215907
+78.4.159.250 1 1 3500 20150113094547
+122.177.12.76 0 1 276109 
+93.61.54.169 1 1 3500 20150108152016
+180.180.65.75 3 3 123981 20150119044935
+93.61.78.232 1 1 3500 20150103184001
+37.130.226.90 1 1 3315 20150104155816
+89.97.14.219 1 1 3500 20150106165411
+93.61.100.13 1 1 3500 20150115141015
+78.5.233.14 1 1 3500 20150105074854
+78.7.209.22 1 1 3500 20150107174352
+91.200.12.65 17 21 5492705 20150121023138
+93.61.27.118 1 1 3500 20150112081407
+78.6.23.94 1 1 3500 20150105160302
+78.7.5.142 1 1 3500 20150118195708
+78.7.47.154 1 1 3500 20150116114401
+93.54.40.215 1 1 3500 20150114074457
+68.65.210.178 2 2 6690 20150104113829
+58.23.233.87 1 2 1255858 20150104201238
+78.5.248.114 2 2 7000 20150110004949
+188.92.75.244 2 2 74916 20150120160309
+89.96.104.153 1 1 3500 20150119173032
+117.169.1.240 3 3 123981 20150119175428
+23.94.2.96 3 3 124079 20150111005603
+93.54.27.92 1 1 3500 20150112165101
+23.94.167.84 1 1 36737 20150101104525
+78.6.245.170 1 1 3500 20150111234312
+78.5.131.214 2 2 7000 20150118195702
+82.146.61.6 3 3 111293 20150107214026
+62.210.93.67 5 5 182487 20150118104144
+78.5.226.194 1 1 3500 20150112081404
+93.61.34.202 1 1 3500 20150121075036
+117.173.18.195 1 1 36617 20150113032631
+82.215.168.15 1 1 3500 20150118071933
+183.228.205.172 3 3 124055 20150103222409
+78.5.0.210 1 1 3500 20150112081403
+23.95.89.22 1 1 36597 20150103001315
+78.7.190.38 1 1 3500 20150109115614
+78.4.3.182 1 1 3500 20150105034226
+192.255.79.211 1 1 36629 20150104085112
+78.6.175.46 1 1 3500 20150103102116
+144.76.155.8 8 8 370560 20150112105212
+97.68.216.154 1 1 3500 20150116031557
+180.180.103.141 3 3 124075 20150113071349
+89.96.105.147 1 1 3500 20150107092417
+93.61.99.11 1 1 3500 20150113140353
+5.61.40.29 1 1 39390 20150117171517
+37.59.144.166 1 1 40455 20150101100247
+111.93.99.180 4 68 1516860 20150117102816
+93.61.47.87 1 1 3500 20150101054008
+78.7.241.202 1 1 3500 20150104070227
+78.4.142.186 1 1 3500 20150106124619
+223.196.54.224 0 1 22391 
+78.6.0.238 1 1 3500 20150102055748
+111.93.206.18 0 43 1072173 
+89.96.105.139 1 1 3500 20150107092423
+196.12.53.135 1 24 463356 20150107111802
+173.234.250.121 1 1 40247 20150115162418
+195.211.154.43 8 8 357073 20150119082624
+78.6.60.198 1 1 3500 20150119214923
+62.109.30.155 1 1 36545 20150108201756
+195.62.231.67 1 1 3500 20150120102847
+195.154.181.110 1 1 36511 20150116081600
+93.61.60.238 1 1 3500 20150106043354
+78.4.108.234 1 1 3500 20150109115616
+93.61.39.18 1 1 3500 20150102181059
+93.61.29.94 1 1 3500 20150119000845
+78.4.135.218 1 1 3500 20150101214906
+117.199.236.52 0 1 55680 
+192.34.61.239 3 3 142901 20150111175449
+78.5.104.254 1 1 3500 20150104025446
+78.4.84.106 1 1 3500 20150101174527
+124.123.173.142 0 42 1018197 
+78.5.211.46 1 1 3500 20150108233628
+66.25.10.236 0 1 17470 
+125.20.82.165 1 6 70798 20150111102301
+78.4.59.38 1 1 3500 20150116031553
+78.4.171.14 1 1 3500 20150120144926
+106.220.252.115 1 47 4907132 20150115123507
+1.165.187.132 6 6 249391 20150115130411
+37.34.42.160 1 1 3500 20150118071933
+89.96.106.49 1 1 3500 20150102100048
+78.7.196.18 1 1 3500 20150112210543
+78.4.44.86 1 1 3500 20150103143028
+93.54.39.18 1 1 3500 20150103224728
+69.12.68.60 1 1 36617 20150113054451
+195.154.181.152 20 20 709503 20150102130914
+180.180.104.206 2 2 129932 20150113052230
+202.46.48.98 1 1 59785 20150103072317
+37.72.189.209 1 1 36593 20150106144550
+23.232.151.62 2 2 75041 20150119202631
+69.58.178.58 1 1 36617 20150113022009
+93.54.94.62 1 1 3500 20150108233251
+78.6.188.30 1 1 3500 20150118031701
+93.54.94.6 1 1 3500 20150106043347
+78.6.58.206 1 1 3500 20150121033934
+173.44.58.92 1 1 3375 20150119141314
+78.6.180.94 1 1 3500 20150104151659
+93.61.102.21 1 1 3500 20150109202040
+106.79.14.22 1 1 33287 20150120194548
+155.94.221.164 1 1 36597 20150103075609
+93.61.93.32 1 1 3500 20150103022120
+78.6.183.30 1 1 3500 20150103102152
+89.96.94.2 1 1 3500 20150113053437
+66.249.84.203 0 1 55680 
+94.249.242.101 3 3 124099 20150117224810
+93.61.52.182 1 1 3500 20150101174523
+78.5.103.46 1 1 3500 20150109202101
+78.6.120.178 2 2 7000 20150110091554
+180.76.4.187 1 1 23745 20150106064319
+92.222.129.152 1 1 28339 20150110005145
+173.208.221.226 2 2 83092 20150111005857
+89.96.85.202 1 1 3500 20150102140623
+78.5.45.202 1 1 3500 20150121075034
+93.61.94.27 1 1 3500 20150105160253
+78.6.96.2 1 1 3500 20150110215510
+120.59.207.51 0 1 53291 
+117.248.218.200 0 1 114725 
+78.5.90.62 1 1 3500 20150110215512
+89.96.106.180 1 1 3500 20150117225136
+37.228.107.42 0 1 1866356 
+78.6.247.54 1 1 3500 20150105160253
+107.144.111.42 1 1 3500 20150111145627
+93.61.109.158 1 1 3500 20150102140622
+78.6.39.222 2 2 7000 20150112210548
+93.61.99.16 1 1 3500 20150103062140
+93.61.78.50 1 1 3500 20150111145626
+23.94.99.212 1 1 36491 20150112080132
+118.100.242.96 0 1 11023 
+23.94.167.29 2 2 75293 20150101104918
+78.4.220.162 1 1 3500 20150110215511
+93.54.67.217 1 1 3500 20150109202051
+93.54.27.89 1 1 3500 20150108233252
+78.7.68.250 1 1 3500 20150101134203
+93.54.14.227 1 1 3500 20150106165425
+111.93.204.250 0 25 893639 
+81.208.29.117 1 1 3500 20150119083258
+93.61.88.9 1 1 3500 20150118154449
+93.61.52.134 1 1 3500 20150106084004
+23.232.132.206 1 1 36593 20150106022041
+78.6.46.74 1 1 3500 20150115053750
+14.139.221.18 3 39 1390722 20150115002333
+78.4.68.166 1 1 3500 20150112165120
+5.61.38.192 1 1 39384 20150120030625
+89.96.96.146 1 1 3500 20150118030608
+122.166.95.216 0 43 1072173 
+5.53.168.86 7 7 278263 20150121101108
+107.144.179.47 1 1 3500 20150102100047
+78.7.25.150 1 1 3500 20150121075036
+118.151.208.92 1 30 523240 20150114100025
+182.71.108.246 0 1 377184 
+97.68.72.68 1 1 3500 20150103143055
+89.97.131.231 1 1 3500 20150103102116
+46.161.41.31 18 18 742847 20150112233737
+78.7.203.230 1 1 3500 20150117230959
+78.6.34.90 1 1 3500 20150111103235
+180.76.4.190 1 1 15745 20150104044241
+14.139.110.83 0 32 750103 
+66.249.82.216 0 4 21089 
+78.4.55.102 1 1 3500 20150121033931
+125.224.240.24 3 3 118145 20150108214759
+23.232.143.94 1 1 36515 20150117020430
+192.171.255.189 1 1 36515 20150117204651
+93.61.73.115 2 2 7000 20150119083248
+93.54.97.108 1 1 3500 20150118195704
+78.7.87.102 2 2 7000 20150117093534
+117.221.33.23 2 31 1619733 20150116164857
+115.252.8.13 16 263 6224705 20150107000012
+180.76.4.246 2 2 36522 20150121024903
+195.154.179.244 3 3 179313 20150113122844
+78.6.228.46 1 1 3500 20150120144926
+78.4.176.42 2 2 7000 20150119214931
+93.61.80.11 1 1 3500 20150113140355
+180.76.4.234 1 1 21537 20150109044350
+78.5.160.234 1 1 3500 20150120144927
+78.6.253.134 1 1 3500 20150119173033
+14.96.166.125 0 4 1271477 
+62.109.6.58 2 2 74744 20150114081334
+188.120.229.11 1 1 36545 20150108100507
+50.250.215.250 3 3 146821 20150109234009
+78.6.187.110 1 1 3500 20150116114358
+223.30.178.170 0 28 735511 
+120.37.206.211 2 2 129830 20150107004514
+37.34.45.110 1 1 3500 20150106084004
+46.22.215.209 2 2 129822 20150121023415
+93.61.78.191 2 2 7000 20150115225448
+78.6.35.242 1 1 3500 20150103224722
+92.63.88.91 1 1 59697 20150109022410
+103.37.200.253 3 4 161493 20150102220458
+37.34.44.107 1 1 3500 20150109160849
+49.200.242.151 0 1 13533 
+78.5.216.114 1 1 3500 20150114032941
+78.6.198.74 1 1 3500 20150106043346
+69.12.67.232 1 1 3315 20150120232139
+93.61.73.200 1 1 3500 20150118030607
+83.211.245.9 1 1 3500 20150114074457
+91.200.12.170 18 18 745560 20150121065716
+78.6.206.54 2 2 7000 20150118112936
+78.5.236.114 1 1 3500 20150112040355
+43.248.152.14 3 80 1803816 20150114155029
+78.6.213.182 1 1 3500 20150116202741
+93.54.28.247 1 1 3500 20150105201253
+89.96.105.135 1 1 3500 20150110174243
+180.76.4.88 1 1 24433 20150104224305
+157.158.184.140 2 2 129908 20150106071834
+182.65.246.105 0 1 48606 
+192.200.24.135 1 1 32724 20150116055852
+195.154.178.134 3 3 178995 20150116135444
+93.61.54.141 1 1 3500 20150114120057
+83.211.10.208 1 1 3500 20150106210216
+78.4.140.10 1 1 3500 20150112210553
+78.7.192.130 1 1 3500 20150108111549
+31.220.6.126 2 2 44749 20150120025910
+78.6.196.202 1 1 3500 20150120144926
+175.44.9.219 3 3 125056 20150110151218
+74.115.214.135 26 26 94353 20150102000139
+46.191.210.87 2 2 82129 20150119230714
+78.7.85.2 1 1 3500 20150116072956
+89.97.121.177 1 1 3500 20150105034228
+93.54.63.69 1 1 3500 20150120102849
+93.61.93.49 2 2 7000 20150117093533
+83.211.84.216 1 1 3500 20150110004947
+1.39.46.175 0 1 342337 
+78.4.102.42 1 1 3500 20150120020657
+195.154.166.20 3 3 48122 20150121061601
+54.148.90.11 1 1 137 20150108102048
+93.54.29.227 1 1 3500 20150107133022
+49.205.77.59 0 1 8188 
+23.232.135.161 1 1 38373 20150107115100
+93.61.51.117 1 1 3500 20150113182322
+89.96.106.189 1 1 3500 20150117051356
+213.225.216.179 1 1 3500 20150117225132
+218.248.46.85 1 38 910787 20150101143557
+191.234.40.58 17 17 61602 20150118203745
+93.54.29.81 2 2 7000 20150117005328
+107.144.157.123 1 1 3500 20150116031553
+23.94.148.104 1 1 36737 20150101214928
+93.54.94.7 1 1 3500 20150106002331
+93.61.3.117 2 2 7000 20150110174249
+93.54.82.9 1 1 3500 20150104151704
+78.6.38.150 1 1 3500 20150116160458
+180.76.4.248 1 1 21537 20150111003040
+180.76.4.186 2 2 48178 20150120184127
+78.4.19.26 1 1 3500 20150118154455
+93.54.90.112 1 1 3500 20150111190901
+195.211.155.186 6 6 216016 20150120202005
+117.220.113.147 0 1 11023 
+93.61.110.209 1 1 3500 20150105034225
+93.54.7.199 1 1 3500 20150110004948
+49.205.185.235 1 44 1103317 20150107145144
+78.4.189.226 1 1 3500 20150101134202
+93.61.53.57 1 1 3500 20150109202041
+117.173.20.48 1 1 36719 20150114084526
+82.114.178.77 0 1 242634 
+93.61.58.55 1 1 3500 20150120061716
+93.61.72.169 1 1 3500 20150119083248
+107.182.125.176 1 1 3375 20150108021957
+78.4.80.2 1 1 3500 20150107051934
+78.5.118.174 1 1 3500 20150116072958
+93.54.90.101 1 1 3500 20150101094042
+78.7.98.98 1 1 3500 20150114162924
+76.164.207.186 2 2 82832 20150112121141
+103.5.202.196 1 2 70770 20150106182809
+46.174.67.107 2 2 7572 20150109172801
+93.54.90.36 1 1 3500 20150116031551
+59.94.243.35 0 1 46981 
+78.6.100.182 1 1 3500 20150110132756
+78.7.210.226 1 1 3500 20150114162921
+78.5.243.182 1 1 3500 20150103224722
+155.94.132.48 3 3 66345 20150118110049
+167.160.112.76 3 3 10065 20150118181107
+93.61.112.35 2 2 7000 20150119083249
+195.154.250.39 2 2 73016 20150121022045
+38.104.111.222 2 46 1174009 20150107231048
+106.51.132.250 0 1 16963 
+122.170.126.130 0 1 63391 
+37.34.47.201 1 1 3500 20150121120207
+37.34.45.250 1 1 3500 20150114205741
+93.61.94.11 2 2 7000 20150110174241
+124.123.99.10 0 1 27341 
+78.5.240.86 1 1 3500 20150114205732
+78.6.81.242 1 1 3500 20150106210214
+14.139.185.114 0 1 55680 
+78.4.177.202 1 1 3500 20150103022113
+124.123.22.170 0 1 657316 
+187.111.3.166 1 1 59669 20150107170055
+71.110.114.174 5 5 208873 20150107124132
+69.12.74.120 1 1 41662 20150101074615
+168.235.195.170 0 1 95076 
+5.39.119.82 3 3 123981 20150119205816
+78.5.233.18 1 1 3500 20150120061729
+94.32.166.98 1 1 3500 20150121075044
+78.7.156.154 1 1 3500 20150119124644
+157.56.1.139 1 1 59697 20150109081650
+78.7.197.186 1 1 3500 20150105115449
+8.37.225.121 0 2 3554470 
+204.44.92.46 1 1 36511 20150116204121
+195.211.155.156 5 5 210 20150116154009
+113.81.244.204 2 2 234594 20150115143430
+93.54.65.135 1 1 3500 20150113094548
+93.54.63.17 1 1 3500 20150120232518
+93.61.109.12 1 1 3500 20150111190844
+14.139.121.55 1 35 815796 20150120230712
+180.180.106.173 3 3 124099 20150117032534
+93.61.78.236 1 1 3500 20150106002311
+89.97.111.175 1 1 3500 20150110091554
+91.108.72.17 1 1 59665 20150116032621
+93.54.7.203 1 1 3500 20150103062141
+93.61.27.63 1 1 3500 20150120232527
+180.180.98.17 3 3 123971 20150110005039
+93.61.109.182 1 1 3500 20150101094040
+78.6.154.6 1 1 3500 20150108193815
+78.6.167.238 2 2 7000 20150107174355
+103.31.214.122 0 1 11023 
+93.61.52.192 1 1 3500 20150102100048
+23.232.143.39 2 2 6690 20150109183216
+78.5.64.154 1 1 3500 20150115141013
+93.54.63.89 2 2 7000 20150110050553
+167.160.112.60 1 1 36597 20150103153942
+62.94.196.19 1 1 3500 20150118154447
+61.224.64.237 1 1 53847 20150104043239
+93.61.97.3 1 1 3500 20150120190650
+78.6.46.126 1 1 3500 20150110174243
+77.243.2.171 1 1 0 20150102171614
+93.54.47.129 1 1 3500 20150113230034
+89.96.84.153 1 1 3500 20150102055747
+78.5.10.234 1 1 3500 20150115182948
+93.54.68.29 1 1 3500 20150101134202
+93.61.33.180 1 1 3500 20150103102123
+82.114.178.182 0 1 342337 
+93.54.30.245 1 1 3500 20150112210547
+183.223.19.156 3 3 124195 20150101085811
+78.6.228.126 1 1 3500 20150102221707
+1.39.80.15 1 2 70682 20150105165024
+93.61.60.237 1 1 3500 20150117230950
+180.76.4.137 1 1 25193 20150119122442
+120.60.67.7 0 1 53291 
+23.94.79.108 3 3 66351 20150121122456
+162.244.13.181 12 12 1407596 20150119042100
+93.61.99.23 1 1 3500 20150103183955
+93.61.28.39 1 1 3500 20150102055749
+117.211.128.68 0 1 10636 
+41.190.2.201 1 63 408262 20150113215246
+117.246.15.205 0 1 343380 
+93.170.186.206 1 1 1 20150113060647
+203.187.210.100 1 2 70682 20150105141406
+78.5.125.122 1 1 3500 20150111145627
+93.61.57.71 1 1 3500 20150103062237
+93.61.74.107 1 1 3500 20150114120057
+41.250.2.119 2 2 52579 20150104130608
+93.54.27.102 1 1 3500 20150101174523
+91.200.12.25 16 16 675604 20150117022557
+1.165.184.167 2 2 76980 20150107123829
+78.5.79.174 1 1 3500 20150121075038
+78.5.125.234 1 1 3500 20150114074505
+89.97.112.159 1 1 3500 20150104192449
+66.249.82.207 0 8 206699 
+91.207.7.54 1 1 59665 20150102000552
+49.206.38.244 4 56 846483 20150108103656
+93.61.108.142 1 1 3500 20150113053434
+93.54.90.27 1 1 3500 20150115225455
+27.159.239.215 1 1 42 20150107073404
+155.94.140.193 1 1 3315 20150117174834
+78.5.5.142 1 1 3500 20150117051350
+89.47.21.111 1 1 37254 20150118043439
+78.6.106.206 1 1 3500 20150101054006
+83.211.11.2 1 1 3500 20150116202738
+93.61.104.186 1 1 3500 20150113140353
+49.204.223.102 2 36 846938 20150102191651
+180.76.4.96 1 1 22225 20150119003120
+78.24.223.18 1 1 36487 20150114081336
+78.4.222.78 1 1 3500 20150104233340
+78.4.228.70 1 1 3500 20150121033943
+92.44.58.7 43 43 156216 20150104161059
+78.7.96.138 2 2 7000 20150114032938
+122.171.116.114 3 79 1972453 20150121091155
+93.61.34.85 2 2 7000 20150116031557
+216.170.116.12 11 11 386018 20150115022613
+78.6.228.86 1 1 3500 20150106124620
+78.4.152.50 1 1 3500 20150105201252
+93.61.94.30 1 1 3500 20150104070227
+93.61.70.160 1 1 3500 20150111020813
+108.198.217.109 1 1 36597 20150103075838
+78.4.151.102 1 1 3500 20150102100052
+117.213.244.205 0 1 38749 
+97.68.222.127 1 1 3500 20150115053746
+223.234.183.104 0 1 57456 
+188.210.236.252 2 2 116982 20150107091550
+78.7.117.58 1 1 3500 20150113053434
+89.97.130.185 1 1 3500 20150104070229
+93.61.94.17 1 1 3500 20150109034205
+125.224.233.1 10 10 388144 20150102182844
+93.54.30.242 1 1 3500 20150121120214
+69.12.65.32 6 6 132824 20150121050256
+61.241.209.41 2 2 70642 20150121053843
+78.6.41.22 1 1 3500 20150112081404
+89.97.66.2 1 1 3500 20150108152015
+182.72.246.218 1 37 3421505 20150120110604
+37.34.47.158 1 1 3500 20150119000843
+86.4.215.160 3 3 110211 20150101063000
+199.33.123.114 1 1 41546 20150111103436
+78.7.97.222 1 1 3500 20150117093533
+78.5.43.238 1 1 3500 20150104025446
+107.182.116.254 1 1 36511 20150102163650
+91.200.12.46 6 6 476391 20150107063257
+82.146.60.21 1 1 36543 20150109045333
+180.76.4.120 1 1 17193 20150117044433
+89.96.99.208 1 1 3500 20150119173032
+78.6.185.230 1 1 3500 20150111234308
+212.227.58.213 1 1 1 20150103062839
+91.239.129.37 3 3 109763 20150115162639
+168.235.195.86 0 1 11023 
+93.61.80.3 1 1 3500 20150104233342
+103.21.127.79 1 3 127051 20150102023357
+78.4.93.186 1 1 3500 20150112165107
+64.233.173.176 0 1 95076 
+155.54.183.90 2 2 75114 20150113175844
+93.54.49.171 1 1 3500 20150111190852
+93.54.63.148 2 2 7000 20150116202738
+93.62.64.148 1 1 3500 20150103022138
+49.204.121.40 0 1 38749 
+113.120.86.15 2 2 83324 20150101032547
+155.94.219.113 1 1 36511 20150102191909
+83.211.84.207 1 1 3500 20150120144925
+104.222.192.30 1 1 36597 20150103181937
+155.94.219.123 1 1 36597 20150103224202
+192.69.255.161 1 1 41448 20150119125806
+216.56.21.194 0 1 21533 
+107.182.116.253 1 1 36597 20150103124437
+180.76.4.13 1 1 9193 20150111122605
+182.186.17.28 0 1 71506 
+78.4.139.254 1 1 3500 20150110050558
+117.198.105.80 2 28 349472 20150115142903
+93.61.30.32 1 1 3500 20150101134203
+93.61.51.66 1 1 3500 20150117051404
+117.211.164.147 1 3 127051 20150116174858
+93.61.109.54 1 1 3500 20150121120207
+69.12.79.163 3 3 124075 20150113063217
+192.34.62.233 2 2 99570 20150104091120
+78.4.172.182 1 1 3500 20150101054008
+93.54.27.210 2 2 7000 20150119042318
+78.7.1.206 1 1 3500 20150120190653
+111.91.123.145 1 3 127133 20150106075444
+89.97.143.186 2 2 7000 20150119042332
+202.46.60.68 1 1 39472 20150103064100
+78.5.175.78 1 1 3500 20150118195706
+78.6.190.218 1 1 3500 20150118030559
+78.6.2.158 1 1 3500 20150105201255
+117.198.115.62 1 2 59669 20150117235332
+220.141.200.218 0 1 13207 
+89.97.129.56 1 1 3500 20150110132755
+93.54.28.43 1 1 3500 20150103022113
+49.207.227.215 0 34 782509 
+183.222.157.47 1 1 38647 20150101021712
+117.166.197.153 1 1 40219 20150118081124
+202.46.63.59 1 1 31131 20150112062909
+83.211.81.29 1 1 3500 20150120020650
+149.62.172.62 2 2 59711 20150117090306
+91.207.6.150 32 32 136224 20150111135544
+23.254.164.60 4 4 146202 20150106105419
+69.12.65.43 3 3 66473 20150104221042
+93.61.27.61 1 1 3500 20150108024401
+113.120.97.179 3 3 200151 20150102133149
+78.5.215.118 1 1 3500 20150101094041
+93.54.19.215 1 1 3500 20150110132755
+110.227.46.13 0 1 77535 
+222.87.129.219 3 3 66349 20150105113341
+93.61.1.178 2 2 7000 20150111020812
+167.230.38.116 1 29 767226 20150108102259
+76.164.219.2 2 2 82876 20150110231109
+78.4.127.146 1 1 3500 20150104192450
+194.153.201.156 1 1 3500 20150111062021
+111.93.26.114 0 1 69531 
+93.54.68.72 1 1 3500 20150120020650
+89.97.143.128 1 1 3500 20150108152015
+89.97.7.247 2 2 7000 20150106043348
+93.61.112.171 1 1 3500 20150111020811
+27.153.209.76 2 2 72460 20150101032457
+93.54.64.187 1 1 3500 20150114120105
+93.54.67.224 1 1 3500 20150105074855
+78.6.105.46 1 1 3500 20150112123205
+93.61.51.122 1 1 3500 20150107051931
+180.76.4.224 1 1 20089 20150112222508
+112.111.185.168 1 1 36545 20150108100238
+124.30.226.22 1 45 1142873 20150119102333
+62.94.13.57 1 1 3500 20150120020653
+31.187.64.51 1 1 36002 20150120161454
+93.61.52.174 1 1 3500 20150118195702
+78.7.36.34 1 1 3500 20150117093533
+78.7.99.178 1 1 3500 20150119042322
+93.54.17.181 1 1 3500 20150117093535
+78.6.139.210 1 1 3500 20150108192615
+37.187.150.125 31 31 400 20150119235813
+78.6.55.226 1 1 3500 20150109115612
+78.6.94.2 1 1 3500 20150113140354
+5.8.110.210 1 1 3500 20150118154448
+93.61.78.162 1 1 3500 20150107174352
+116.30.243.121 1 25 409673 20150114083151
+49.204.238.213 1 1 59683 20150115073726
+81.208.70.80 1 1 3500 20150119000845
+180.215.206.53 0 1 11023 
+78.4.33.122 1 1 3500 20150101134202
+93.61.78.179 1 1 3500 20150113053434
+107.153.7.98 3 3 124195 20150107004326
+195.211.155.183 18 18 746964 20150115133949
+91.200.12.71 6 6 230961 20150102213611
+117.207.48.94 0 2 3732712 
+93.54.29.104 1 1 3500 20150101054009
+78.6.200.26 1 1 3500 20150106124620
+78.4.61.122 1 1 3500 20150109160846
+106.202.132.111 0 1 48169 
+78.4.34.26 1 1 3500 20150103183958
+1.39.3.228 1 1 31140 20150102175511
+180.76.4.202 1 1 25193 20150116003038
+37.59.7.157 14 14 137 20150114233657
+210.212.183.60 6 63 5221744 20150113105816
+151.237.177.2 1 1 41448 20150119025416
+93.54.18.103 1 1 3500 20150114162921
+202.67.41.51 1 27 635083 20150119133019
+78.7.230.170 1 1 3500 20150104111048
+93.54.96.8 1 1 3500 20150103143032
+23.94.99.226 1 1 36491 20150112080149
+41.141.233.5 2 2 73030 20150117120004
+93.54.90.81 1 1 3500 20150116072957
+108.45.181.150 0 1 57456 
+78.6.186.226 2 2 7000 20150114162923
+93.61.47.88 2 2 7000 20150106210215
+82.85.163.130 1 1 3500 20150120061726
+78.4.33.98 1 1 3500 20150105160253
+61.12.33.234 0 3 3204874 
+77.66.121.242 1 1 59655 20150118020258
+93.54.63.132 1 1 3500 20150105034224
+78.7.76.182 1 1 3500 20150108192609
+106.218.103.0 0 1 38749 
+178.32.128.217 1 1 33289 20150116083448
+195.154.182.101 3 3 48124 20150120032930
+195.211.155.166 2 2 83044 20150103235222
+195.8.101.38 0 1 13207 
+93.63.0.244 1 1 3500 20150101214858
+14.139.196.7 9 171 5672747 20150113225941
+93.61.66.166 1 1 3500 20150116202739
+198.55.112.4 1 1 3315 20150117174027
+78.6.229.246 1 1 3500 20150119000843
+5.153.234.26 2 2 75333 20150116081558
+93.61.53.47 1 1 3500 20150101054012
+91.236.74.185 1 1 36737 20150101093758
+151.250.246.215 43 43 156216 20150113141607
+93.54.68.184 1 1 3500 20150104111046
+86.97.8.229 0 1 6321 
+14.139.123.180 0 4 207583 
+93.61.77.245 1 1 3500 20150111103232
+93.54.90.115 1 1 3500 20150109115613
+93.61.33.233 1 1 3500 20150111234313
+78.6.185.214 1 1 3500 20150116160503
+83.211.103.219 1 1 3500 20150113230032
+83.211.46.49 1 1 3500 20150121033930
+93.61.78.183 1 1 3500 20150119214924
+180.76.4.183 1 1 25193 20150103143903
+78.7.221.42 1 1 3500 20150106002312
+89.97.142.242 1 1 3500 20150116160456
+37.216.14.95 0 1 537872 
+46.161.41.199 1 1 41457 20150117094259
+93.61.51.77 1 1 3500 20150116202736
+78.6.168.198 1 1 3500 20150109160848
+91.200.12.45 2 2 83044 20150103054733
+89.74.103.196 1 1 49540 20150102183248
+180.180.100.247 3 3 123981 20150119111838
+108.170.22.198 2 2 80035 20150102050316
+23.232.143.56 3 3 10065 20150114140145
+116.202.41.111 2 56 861887 20150107203626
+78.7.24.70 1 1 3500 20150107133021
+117.244.57.13 0 1 22391 
+218.30.117.72 1 1 59641 20150114161039
+93.61.47.90 1 1 3500 20150104233339
+50.57.64.198 1 1 59683 20150115152110
+93.61.51.109 1 1 3500 20150111062019
+104.140.120.127 2 2 70346 20150110141219
+78.7.45.194 1 1 3500 20150112165117
+78.4.206.54 1 1 3500 20150111234316
+49.206.97.248 1 34 811021 20150103140042
+104.151.163.125 1 1 36617 20150113105816
+183.220.40.252 1 1 37822 20150118033053
+78.7.145.146 1 1 3500 20150104111046
+182.72.145.30 0 1 77535 
+155.94.251.205 3 3 60543 20150120081820
+93.54.40.57 1 1 3500 20150103022115
+192.171.232.227 2 2 129820 20150105002017
+93.54.90.51 2 2 7000 20150119083244
+112.111.184.206 1 1 35173 20150110105535
+91.200.12.145 8 8 331518 20150121064323
+93.61.108.17 1 1 3500 20150106165423
+78.7.100.54 1 1 3500 20150112123202
+93.61.33.229 1 1 3500 20150109074638
+78.6.203.162 1 1 3500 20150121033937
+78.4.168.202 1 1 3500 20150109034206
+125.224.236.159 10 10 392513 20150111184942
+78.4.175.186 1 1 3500 20150111062020
+62.210.96.36 1 1 36621 20150111140806
+62.210.83.26 40 40 1391720 20150110160944
+93.61.60.176 1 1 3500 20150113230035
+78.4.204.154 1 1 3500 20150119124644
+89.96.84.134 1 1 3500 20150114205732
+192.241.159.125 2 2 109258 20150114090825
+180.180.229.22 3 3 123973 20150107192106
+106.220.33.104 2 4 85177 20150102175408
+93.54.90.31 1 1 3500 20150109074642
+110.76.160.100 0 2 1318653 
+103.21.125.78 5 64 233710 20150112132726
+203.153.40.53 0 1 95076 
+78.4.173.90 1 1 3500 20150115053746
+91.207.7.158 34 34 179026 20150116021000
+202.67.40.50 0 18 507790 
+115.119.14.243 0 1 38749 
+75.130.146.226 0 1 49051 
+93.63.0.220 1 1 3500 20150111234854
+198.52.252.86 1 1 36511 20150102111635
+93.54.90.25 1 1 3500 20150119214921
+78.6.214.158 1 1 3500 20150105160256
+93.61.94.3 1 1 3500 20150114205731
+117.202.121.159 0 1 545112 
+14.139.251.107 1 3 127051 20150116121455
+180.180.105.185 3 3 124051 20150106110734
+212.129.31.70 15 15 619845 20150119150214
+192.240.208.135 1 1 36509 20150120214839
+78.4.129.174 1 1 3500 20150103224720
+78.5.168.58 1 1 3500 20150115095039
+27.97.19.163 0 1 83675 
+78.4.150.2 1 1 3500 20150106124619
+115.254.75.101 1 17 407350 20150116144350
+50.250.215.248 3 3 147661 20150120063502
+78.6.101.118 1 1 3500 20150105115457
+93.54.39.67 1 1 3500 20150108192612
+167.160.112.89 2 2 6690 20150108225243
+78.7.75.30 1 1 3500 20150107133020
+14.139.65.5 1 1 33287 20150120153138
+78.7.80.22 1 1 3500 20150108192608
+180.76.4.48 1 1 14985 20150115165034
+125.21.46.250 0 1 55680 
+93.61.39.15 1 1 3500 20150115095044
+78.4.87.82 1 1 3500 20150113182321
+62.210.222.111 6 12 3181680 20150102201419
+182.65.214.88 0 1 48606 
+78.5.246.198 1 1 3500 20150103062143
+155.94.134.205 1 1 38507 20150101214246
+78.7.191.38 1 1 3500 20150104192453
+117.169.1.209 1 1 117279 20150116003443
+78.4.191.202 1 1 3500 20150114120059
+117.208.140.246 1 45 1142967 20150113195520
+93.61.50.90 1 1 3500 20150103224720
+78.5.118.182 1 1 3500 20150114162925
+78.7.233.26 1 1 3500 20150116114358
+110.172.180.220 1 1 36038 20150108101159
+117.198.113.173 0 2 198400 
+93.61.70.204 1 1 3500 20150120232525
+93.54.67.247 1 1 3500 20150105074853
+93.54.90.22 1 1 3500 20150120102850
+93.54.40.145 1 1 3500 20150111062018
+195.154.187.10 2 2 73102 20150105234457
+23.19.83.113 2 2 85447 20150102124058
+88.245.29.228 21 21 76158 20150121032010
+69.30.251.123 11 11 401939 20150118133644
+93.54.28.44 1 1 3500 20150108112013
+93.54.42.161 1 1 3500 20150108111536
+158.144.32.106 0 1 157919 
+119.154.0.192 0 1 67320 
+69.12.81.247 1 1 38264 20150107200243
+78.4.170.198 1 1 3500 20150110215512
+95.25.26.242 3 3 108437 20150107164923
+198.55.112.27 2 2 6690 20150108184224
+78.7.59.14 1 1 3500 20150104233340
+37.34.45.136 1 1 3500 20150107051931
+204.44.82.212 1 1 42859 20150113091813
+91.200.12.43 12 12 497276 20150118100349
+198.170.192.23 1 1 7745 20150114003715
+78.4.143.182 1 1 3500 20150114032941
+78.7.186.118 1 1 3500 20150106165412
+93.54.29.109 1 1 3500 20150109202043
+67.187.249.212 1 1 36505 20150105005648
+46.242.28.63 0 1 13207 
+93.61.3.12 1 1 3500 20150106210216
+93.61.27.30 2 2 7000 20150115182950
+93.61.39.24 1 1 3500 20150104025445
+167.160.105.181 1 1 38464 20150102062843
+62.210.122.209 22 22 1034159 20150107144427
+79.158.0.178 1 1 42303 20150108101126
+78.6.106.62 1 1 3500 20150115095042
+107.144.77.17 1 1 3500 20150110091556
+8.37.228.86 0 1 55680 
+122.167.228.171 1 33 792832 20150114205053
+93.54.29.96 1 1 3500 20150113094548
+78.4.179.126 1 1 3500 20150108152017
+115.112.161.9 1 1 33269 20150112150936
+209.161.99.54 2 2 73010 20150105234752
+83.211.93.19 1 1 3500 20150102140652
+103.4.125.25 4 26 758681 20150108202037
+89.178.139.111 2 2 70886 20150104132028
+209.161.99.245 1 1 3315 20150119050644
+78.7.63.246 1 1 3500 20150112040135
+93.170.186.71 1 1 59751 20150103072852
+97.68.82.223 1 1 3500 20150106210216
+121.244.62.98 0 1 38749 
+78.4.216.158 1 1 3500 20150119042318
+78.4.149.210 2 2 7000 20150118112937
+93.61.52.203 1 1 3500 20150105201254
+97.68.71.69 1 1 3500 20150111190846
+89.96.84.144 1 1 3500 20150119173037
+107.144.143.40 1 1 3500 20150104070231
+78.5.122.186 1 1 3500 20150103183957
+122.169.174.88 2 4 130349 20150120165651
+195.62.230.163 1 1 3500 20150117005330
+78.4.88.190 1 1 3500 20150119000850
+77.66.121.235 2 2 119338 20150117054614
+78.4.128.38 1 1 3500 20150111103233
+192.171.255.135 1 1 3375 20150109100133
+93.61.36.173 1 1 3500 20150114120103
+93.61.106.14 1 1 3500 20150111103236
+91.196.51.21 0 1 907315 
+93.61.108.156 1 1 3500 20150114074459
+223.227.234.77 1 2 70692 20150117161401
+111.13.102.11 1 1 117269 20150118043238
+93.54.90.74 1 1 3500 20150102140627
+111.39.245.128 2 2 70686 20150115173358
+117.221.36.3 1 45 1142859 20150120234930
+78.5.47.218 1 1 3500 20150109074637
+78.6.138.194 1 1 3500 20150119124647
+37.59.144.160 1 1 49766 20150101215935
+1.39.33.237 0 3 989000 
+78.5.70.70 1 1 3500 20150118071947
+49.200.109.59 2 9 111171 20150102175511
+168.235.195.162 1 39 744713 20150112111923
+89.96.107.135 1 1 3500 20150110004948
+122.174.93.184 0 60 4350226 
+93.61.73.103 1 1 3500 20150107051931
+78.7.64.134 1 1 3500 20150101214857
+93.61.78.186 1 1 3500 20150120061715
+89.97.141.216 2 2 7000 20150113094547
+107.144.141.39 1 1 3500 20150112210545
+5.108.1.107 0 1 1777235 
+93.51.248.47 1 1 3500 20150118071936
+93.61.60.187 1 1 3500 20150109034205
+93.54.33.170 1 1 3500 20150108072928
+78.7.190.254 1 1 3500 20150110132756
+112.79.39.215 1 1 36775 20150109202849
+103.232.131.45 4 38 911557 20150120200432
+115.98.32.170 0 34 782509 
+78.6.58.254 1 1 3500 20150115053745
+66.249.82.198 0 5 79733 
+195.154.178.12 6 6 357978 20150120092943
+78.6.40.138 1 1 3500 20150112123204
+78.5.253.130 1 1 3500 20150106084006
+93.61.110.5 1 1 3500 20150112040123
+78.5.88.218 1 1 3500 20150109115612
+83.211.68.82 1 1 3500 20150113140354
+148.106.4.6 0 1 4863 
+69.12.79.127 1 1 36593 20150106044124
+78.6.60.134 1 1 3500 20150111103232
+95.8.243.133 40 40 145299 20150102153316
+198.84.229.222 1 1 36036 20150109022727
+93.61.30.2 1 1 3500 20150111062017
+78.5.140.42 1 1 3500 20150105074854
+62.94.177.187 1 1 3500 20150120232526
+23.94.178.30 3 3 123945 20150114005132
+78.5.3.234 1 1 3500 20150110050554
+195.211.155.170 8 8 331452 20150120141649
+163.53.85.221 0 19 695889 
+89.97.14.189 1 1 3500 20150110215511
+14.96.150.245 2 89 1346861 20150115152508
+94.249.242.13 2 2 75645 20150110232152
+93.61.47.72 1 1 3500 20150118031658
+78.6.47.82 1 1 3500 20150113182333
+78.5.242.42 2 2 7000 20150117225132
+93.61.66.142 1 1 3500 20150106084004
+141.0.10.54 1 34 788855 20150110195838
+62.210.82.105 7 7 259108 20150120191939
+202.141.81.60 3 4 161739 20150106164454
+117.211.83.19 0 1 55680 
+14.139.196.6 1 54 1612376 20150101205312
+14.139.245.194 7 8 428678 20150102144626
+37.34.46.246 1 1 3500 20150107092415
+83.103.2.8 1 1 3500 20150118071934
+93.61.54.219 1 1 3500 20150102055748
+89.97.131.180 1 1 3500 20150104025445
+78.5.47.6 2 2 7000 20150117005328
+185.7.121.211 0 1 48606 
+93.61.75.122 1 1 3500 20150110050558
+82.146.41.93 2 2 73060 20150108181841
+37.34.46.45 1 1 3500 20150118112941
+93.61.76.192 1 1 3500 20150104025445
+89.96.105.164 1 1 3500 20150119042324
+91.200.12.12 10 10 415136 20150106074112
+113.193.84.4 0 34 782509 
+78.5.255.114 1 1 3500 20150115141014
+190.201.236.8 2 2 74891 20150106193324
+5.135.216.182 5 5 155710 20150120232136
+93.61.102.35 1 1 3500 20150108153848
+117.228.201.103 2 3 130525 20150103154536
+78.6.140.182 1 1 3500 20150108113821
+115.99.24.7 0 27 476341 
+78.5.218.30 1 1 3500 20150104111046
+78.7.104.194 1 1 3500 20150120020656
+198.55.112.26 2 2 6690 20150108040026
+93.61.99.25 1 1 3500 20150106002312
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20150101 192 346 19949821 75
+20150102 326 530 16841844 75
+20150103 334 419 7270569 78
+20150104 254 323 29022986 61
+20150105 329 491 12472616 54
+20150106 180 514 12319726 73
+20150107 277 614 14379572 69
+20150108 215 441 21421282 69
+20150109 270 431 16410723 56
+20150110 127 223 6556938 60
+20150111 446 616 12620783 64
+20150112 208 516 17440238 61
+20150113 397 936 24771949 78
+20150114 194 417 13274496 72
+20150115 165 706 20605921 67
+20150116 363 572 10929502 57
+20150117 143 366 19251751 62
+20150118 182 309 19206587 55
+20150119 165 417 24619748 67
+20150120 313 727 25489552 74
+20150121 123 342 12773227 39
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 73
+5mn-15mn 25
+2mn-5mn 26
+30s-2mn 29
+0s-30s 1144
+15mn-30mn 32
+30mn-1h 36
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 71
+/wp-login.php 2270 8222276 628 686
+/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 598 25450563 179 167
+http://vlead.virtual-labs.ac.in/wp-login.php/ 336 1417584 2 2
+/2013/08/14/rollout-of-the-new-website-design/ 263 9566626 133 127
+/ 237 11854027 98 92
+http://vlead.virtual-labs.ac.in/wp-login.php/wp-login.php/ 168 708792 1 1
+/author/jayashree/ 149 17391370 80 26
+/2013/07/09/virtual-labs-on-amazon-cloud/ 113 3711462 25 28
+/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 76 3788329 10 5
+//wp-login.php 64 272448 2 2
+/wiki/index.php/Special:UserLogin 1 12818 0 0
+/category/uncategorized/page/2/ 1 83973 1 1
+/wp-login.php/ 1 3315 0 1
+/about-us/mission-and-vision/ 6 154336 0 0
+/category/vlead-blog/ 6 236530 3 4
+//wp-admin/admin-ajax.php 60 60 2 16
+/events/expert-committee-review/ 2 62392 2 1
+/about-us/alumni/ 21 859591 6 7
+/wp-content/uploads/2014/05/15IntegrationLevelsTable.html 26 326222 0 12
+/2013/06/28/rd-showcase-2013/ 3 102294 1 1
+/2014/09/14/monsoon-2014-internship-a-report/ 28 989365 17 18
+/2013/09/ 19 549849 1 7
+/comments/feed/ 6 57486 2 1
+/xmlrpc.php 8 336 2 2
+/about-us/ 5 134712 0 0
+/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 51 1865579 19 19
+http://vlead.vlabs.ac.in/ 1 59659 1 0
+/setup-instruction/ 1 29801 0 1
+/2014/10/20/lab-integration-kit-0-5-0-released/ 6 193270 3 2
+/wiki/ 10 120305 0 3
+/2013/07/ 13 606728 2 0
+/2013/12/ 22 783814 0 2
+/2014/05/ 22 1187748 0 0
+/2013/06/ 11 314690 1 7
+/2014/03/ 21 627260 0 0
+/2014/12/16/a-new-set-of-35-virtual-labs-on-portable-media/ 13 532479 2 4
+/2014/07/ 21 681440 0 0
+/about-us/team/ 15 665356 1 1
+/events/recruitment-drive-march-2014/ 29 965872 18 13
+/join-us/ 48 1496342 14 16
+/2014/05/14/virtual-labs-on-portable-media/ 2 80026 0 0
+/about-us/interns-2013/ 8 265835 1 1
+/2013/10/ 22 759236 1 1
+/contact-us/ 35 924639 6 6
+http://vlead.vlabs.ac.in/wp-login.php 2 6690 0 1
+/2014/12/ 29 1011002 1 3
+/wp-admin/admin-ajax.php 9 9 2 3
+/wp-login.php/wp-login.php 1 3315 1 0
+/page/2/ 2 119576 1 1
+/author/travula/ 1 39918 0 1
+/about-us/about-vlead/ 6 164660 1 1
+/2014/09/30/25-virtual-labs-on-portable-media/ 12 401031 2 4
+/2014/03/07/attention-lab-developers-developer-portal-moved-to-bit-bucket/ 8 293101 1 0
+/wp-comments-post.php 1 0 1 1
+/2013/07/18/ui-redesign/ 54 1951417 24 21
+/events/ 14 452277 1 2
+/2014/09/ 24 1400780 0 1
+/about-us/interns-2014/ 32 1117199 2 2
+/2014/09/23/ies-workshop-a-report/ 28 1131125 15 12
+/2014/10/ 21 602963 0 0
+/author/admin/ 1 42902 0 0
+/category/uncategorized/ 5 566516 1 0
+/2013/07/16/final-presentation-by-summer-interns/ 1 34484 0 0
+/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 17 729980 3 0
+/2014/09/15/first-institute-integration-coordinators-iics-meeting-at-iiit-hyderabad/ 19 702112 8 9
+/2013/08/12/the-virtual-labs-project-an-overview/ 17 730906 6 6
+/activities/ 10 329364 2 0
+//xmlrpc.php 22 924 16 1
+/2013/08/ 14 592550 2 3
+/2014/05/06/phase-2-virtual-labs-project/ 30 1595430 12 10
+/wiki/load.php 5 236408 0 0
+END_SIDER

@@ -1,0 +1,610 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc05.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2672                
+POS_VISITOR 3653                
+POS_DAY 8617                
+POS_DOMAIN 9542                
+POS_LOGIN 9776                
+POS_ROBOT 9931                
+POS_WORMS 10379               
+POS_EMAILSENDER 10510               
+POS_EMAILRECEIVER 10653               
+POS_SESSION 10729               
+POS_SIDER 10939               
+POS_FILETYPES 13422               
+POS_DOWNLOADS 13703               
+POS_OS 14583               
+POS_BROWSER 14804               
+POS_SCREENSIZE 15894               
+POS_UNKNOWNREFERER 15968               
+POS_UNKNOWNREFERERBROWSER 16562               
+POS_ORIGIN 16644               
+POS_SEREFERRALS 16789               
+POS_PAGEREFS 16966               
+POS_SEARCHWORDS 17208               
+POS_KEYWORDS 17360               
+POS_MISC 2336                
+POS_ERRORS 17419               
+POS_CLUSTER 9632                
+POS_SIDER_404 17559               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140401132201 8947 2335612 9801129606729
+FirstTime 20140301114359
+LastTime 20140331163252
+LastUpdate 20141015124900 8947 0 8946 0 0
+TotalVisits 168                 
+TotalUnique 96                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 130                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 51 2927275 8 35 1270274
+1 15 54 7932013 3 43 19983
+2 10 45 14197647 4 26 20483
+3 0 1 701432 1 3 155235
+4 9 29 13850539 2 19 360820
+5 0 0 0 0 2 541
+6 3 17 100116 5 12 263667
+7 13 43 1473996 11 17 14901
+8 18 74 4903604 5 21 1100775
+9 38 166 16931601 1 29 8392
+10 57 292 4881232 9 17 15280
+11 123 384 16204827 4 68 52073
+12 58 204 9515737 7 43 15670
+13 131 420 33486405 2 90 378978
+14 97 314 20226056 2 57 53011
+15 126 417 20736371 7 77 25222
+16 60 218 8877269 1 26 457209
+17 15 76 1502375 4 23 21473
+18 62 249 6609997 5 30 11787
+19 30 127 9887213 7 41 105887
+20 61 239 8011994 3 40 19337
+21 63 277 16506487 11 48 34837
+22 33 82 8625749 4 43 21352
+23 71 168 26521889 6 50 306020
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 130
+10.4.8.52 403 1708 115257425 20140331163252
+196.12.53.130 44 110 3116672 20140304135329
+10.4.12.236 32 147 1518315 20140305124555
+213.55.115.199 30 80 3829905 20140323132210
+119.154.48.80 30 102 4951117 20140309155038
+117.200.123.153 24 53 5377662 20140303235637
+69.22.184.38 23 35 621818 20140315141827
+106.219.21.111 21 63 2408885 20140326162913
+124.123.194.204 21 56 1091389 20140313111227
+117.239.227.3 20 30 1046002 20140312154152
+115.240.157.28 0 2 354853 
+50.57.64.198 15 15 154097 20140309201654
+117.239.135.177 0 8 1078704 
+103.21.126.84 1 1 2023 20140326133715
+84.64.14.70 7 12 111692 20140319131849
+118.102.191.42 3 17 100116 20140311132937
+117.210.64.85 3 17 100116 20140306184654
+168.63.133.124 0 5 36986 
+196.46.246.159 0 1 32384 
+124.123.56.168 3 17 100116 20140311204038
+223.225.166.16 0 3 382602 
+182.183.135.168 0 3 513878 
+117.211.25.57 3 17 100116 20140317102548
+112.79.37.43 0 57 1678333 
+84.64.14.15 16 26 2274474 20140314225123
+69.22.169.120 2 11 83440 20140315141436
+69.31.103.78 14 33 737210 20140312123951
+103.15.63.98 9 28 980765 20140306190258
+27.116.51.216 3 17 100116 20140318010519
+117.210.202.233 0 2 252276 
+117.211.52.151 9 18 13829206 20140320094624
+182.183.202.109 0 3 513878 
+117.211.99.149 6 26 1017875 20140318162935
+84.64.12.167 1 2 0 20140317014759
+118.102.164.141 8 28 4411203 20140310154958
+14.139.244.114 10 32 408576 20140324100239
+115.248.233.254 3 17 100116 20140320101501
+110.232.255.94 8 27 625509 20140318154022
+180.211.109.178 0 1 314445 
+59.90.139.130 4 18 102070 20140327150403
+183.82.193.55 0 1 350218 
+88.200.34.217 3 17 100116 20140329172218
+183.171.160.90 0 1 350218 
+210.48.147.2 0 16 350218 
+106.67.143.72 8 27 625732 20140305111536
+14.141.78.206 7 40 239173 20140306155958
+101.220.90.17 0 11 459933 
+117.222.195.42 3 17 100116 20140320213445
+203.196.133.98 3 17 100116 20140308105111
+67.42.190.220 3 17 100116 20140306214347
+117.211.103.151 3 17 100116 20140329101810
+112.208.89.102 3 17 100116 20140319134924
+198.199.123.18 0 3 382602 
+207.46.128.64 4 20 612811 20140304081911
+194.146.149.132 3 17 100116 20140313025026
+203.84.137.98 3 17 100116 20140314135437
+117.221.87.127 8 27 625509 20140319144222
+106.51.161.27 3 17 100116 20140328222152
+14.139.187.130 6 26 872808 20140312114240
+85.154.164.221 3 16 97606 20140314180359
+180.211.110.59 3 14 71837 20140313104031
+82.145.222.231 0 2 249380 
+210.212.213.228 3 17 100116 20140305150519
+41.37.106.75 9 29 13850539 20140322042542
+106.51.21.181 3 17 100116 20140329205211
+119.226.42.182 9 51 300348 20140331100453
+106.219.27.243 3 17 100116 20140306132649
+115.248.157.82 3 17 100116 20140313132900
+117.211.52.207 0 11 67497 
+84.64.13.17 0 1 433494 
+141.0.8.99 6 34 200232 20140311131254
+27.251.3.130 5 15 1177522 20140324094124
+117.211.40.136 11 47 1037874 20140318134345
+182.18.191.90 8 28 648608 20140321210643
+150.70.172.202 0 1 2727273 
+194.66.185.242 1 6 0 20140326135533
+115.249.56.213 9 33 1641430 20140306200629
+183.171.162.111 9 27 630547 20140314225309
+211.25.212.126 0 1 322524 
+154.66.246.37 3 17 100116 20140328202536
+150.70.172.207 0 1 3396717 
+124.123.234.163 3 23 1046137 20140323103507
+117.196.27.33 8 31 1064102 20140304214544
+122.167.64.191 3 19 606762 20140320150726
+183.82.97.244 11 30 634790 20140304112038
+115.248.167.2 3 17 100116 20140311065220
+106.77.44.46 0 5 346908 
+210.212.197.162 3 8 43357 20140326162245
+69.31.103.226 1 9 907384 20140312123856
+117.239.57.57 3 17 100116 20140327115954
+182.55.134.118 4 16 69925 20140305124645
+150.70.64.213 0 1 314445 
+84.64.62.228 12 36 704190 20140314071524
+37.228.106.126 0 1 32384 
+210.212.183.60 3 17 100116 20140320235325
+117.254.16.240 0 1 335903 
+106.208.10.246 3 17 100116 20140308094209
+223.227.80.35 3 17 113455 20140317191212
+37.228.107.152 3 17 100116 20140310082215
+117.211.156.101 0 2 370908 
+117.200.121.16 9 19 1022852 20140330233609
+86.108.94.194 3 17 100116 20140331115239
+49.202.79.219 0 1 229623 
+117.229.223.25 13 40 151955 20140319204737
+150.70.97.123 0 1 314445 
+141.0.9.151 9 29 995489 20140323235252
+155.99.177.33 3 9 45867 20140325023838
+117.239.225.164 6 24 620098 20140325122508
+150.70.173.47 0 1 2727273 
+122.169.22.160 0 3 370148 
+220.227.153.27 3 16 97606 20140318150024
+59.92.230.24 3 16 0 20140325104352
+103.21.127.84 1 3 82255 20140326132736
+210.212.230.66 0 2 237239 
+103.21.125.84 1 1 1959 20140326133715
+14.139.111.82 7 27 721078 20140331150235
+150.70.173.57 0 1 3610902 
+14.139.244.115 9 36 1585019 20140304110212
+218.248.4.14 8 27 625509 20140317150317
+117.211.40.145 14 58 3992627 20140312114427
+196.46.246.154 0 1 216996 
+117.211.52.166 0 6 72543 
+117.239.217.200 6 11 552618 20140311011911
+117.211.52.157 3 11 27573 20140308103815
+14.96.152.158 6 28 867653 20140311182909
+119.154.116.97 3 17 100116 20140312171133
+223.179.190.120 2 2 4416 20140305165332
+106.219.34.178 1 1 0 20140305071441
+14.102.9.101 3 17 100116 20140322105754
+37.228.105.172 8 27 625732 20140323133431
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140301 12 61 1718375 2
+20140302 12 60 1420881 3
+20140303 53 178 8944906 4
+20140304 91 285 9203598 10
+20140305 32 140 11149134 10
+20140306 48 201 5094902 8
+20140307 11 45 1437815 2
+20140308 23 114 3930160 6
+20140309 66 167 9264462 6
+20140310 18 85 4711551 4
+20140311 57 239 6820505 10
+20140312 85 246 13168947 11
+20140313 33 128 13609213 7
+20140314 57 173 6626439 9
+20140315 29 58 2028101 3
+20140316 0 3 996463 0
+20140317 39 139 25308018 7
+20140318 37 167 4604084 7
+20140319 54 187 3561822 7
+20140320 21 100 15118258 5
+20140321 16 56 1297214 2
+20140322 23 83 24310820 3
+20140323 71 204 16395160 5
+20140324 23 85 2483952 4
+20140325 23 112 2351338 7
+20140326 69 223 25107394 9
+20140327 7 35 202186 2
+20140328 14 66 2769943 3
+20140329 9 57 2794232 3
+20140330 41 95 21225252 3
+20140331 34 155 6956699 6
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1108 3947 230031692
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 126 3338457 20140331085206 0
+slurp 7 11730 20140331093410 0
+baiduspider 4 28303 20140325213704 0
+no_user_agent 2 64768 20140324113914 0
+ezoom 2 10058 20140331002351 0
+rpt\-httpclient 1 1955 20140314154557 0
+bingbot 1 1955 20140330152311 0
+^java\/[0-9] 1 5141 20140312212144 0
+robot 1 1955 20140305194735 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 14
+15mn-30mn 6
+2mn-5mn 15
+30s-2mn 30
+0s-30s 90
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 54
+/labs/eerc05/ 178 322305 138 8
+/labs/eerc05/content.html 169 495482 1 60
+/labs/eerc05/default.html 165 247340 5 26
+/labs/eerc05/exp2/content.html 47 197608 1 10
+/labs/eerc05/exp2/ 39 75476 1 1
+/labs/eerc05/exp2/default.html 31 122828 0 4
+/labs/eerc05/exp5/content.html 29 120913 0 5
+/labs/eerc05/exp5/ 23 52538 4 0
+/labs/eerc05/exp1/ 22 46175 2 1
+/labs/eerc05/exp1/default.html 22 103688 0 0
+/labs/eerc05/exp9/ 18 39604 1 0
+/labs/eerc05/exp3/content.html 16 64736 0 1
+/labs/eerc05/exp2/media/highres.html 1 577 0 0
+/labs/eerc05/exp1/animation/lowres.jnlp 4 1956 2 2
+/labs/eerc05/exp3/default.html 17 74260 0 0
+/labs/eerc05/exp2/quiz.html 1 1959 0 0
+/labs/eerc05/exp4/default.html 6 43912 0 0
+/labs/eerc05/exp5/media/lowres.html 15 9295 0 2
+/labs/eerc05/exp1/animation/highres.jnlp 1 652 0 0
+/labs/eerc05/exp5/media/CoreCutter.jnlp 2 1310 1 1
+/labs/eerc05/exp3/media/phtest.jnlp 3 1278 0 1
+/labs/eerc05/exp6/content.html 19 70015 0 5
+/labs/eerc05/exp2/media/highres.jnlp 1 656 0 1
+/labs/eerc05/exp3/media/ve_ph.html 6 2825 1 4
+/labs/eerc05/exp6/ 20 37164 2 0
+/labs/eerc05/exp1/content.html 21 104835 0 5
+/labs/eerc05/exp6/media/ve_vanshear.html 4 2284 1 1
+/labs/eerc05/exp8/ 14 30560 1 0
+/labs/eerc05/exp2/media/ve_cbr.html 12 6132 0 0
+/labs/eerc05/exp6/quiz.html 1 1959 1 1
+/labs/eerc05/exp8/default.html 13 48568 0 0
+/labs/eerc05/exp2/quizContent.html 1 1842 0 0
+/labs/eerc05/exp7/ 5 12956 1 0
+/labs/eerc05/exp2/media/lowres.jnlp 2 1310 0 1
+/labs/eerc05/exp8/content.html 14 74795 0 1
+/labs/eerc05/exp2/media/lowres.html 11 6325 0 7
+/labs/eerc05/exp8/media/ve_vanshear.html 5 2845 0 0
+/labs/eerc05/exp4/content.html 6 40598 0 0
+/labs/eerc05/exp7/content.html 4 16868 0 0
+/labs/eerc05/exp6/media/vanshear.jnlp 2 1284 0 1
+/labs/eerc05/exp9/content.html 17 97290 0 7
+/labs/eerc05/exp3/ 17 36396 2 0
+/labs/eerc05/exp1/animation/lowres.html 10 4632 1 5
+/labs/eerc05/exp1/animation/ve_fsi.html 9 4653 0 0
+/labs/eerc05/exp6/default.html 19 70984 0 1
+/labs/eerc05/exp8/media/pentration.jnlp 3 1953 0 1
+/labs/eerc05/exp6/quizContent.html 1 2023 1 1
+/labs/eerc05/exp5/media/ve_coreCutter.html 11 6152 0 0
+/labs/eerc05/exp9/default.html 18 85008 0 0
+/labs/eerc05/exp1/animation/highres.html 2 1162 0 1
+/labs/eerc05/exp9/media/ve_plateload.html 2 1150 0 2
+/labs/eerc05/exp7/default.html 4 14944 0 1
+/labs/eerc05/exp4/ 5 12951 1 0
+/labs/eerc05/exp5/default.html 20 96216 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 531 1180946 0 0
+png 174 1624819 0 0
+pdf 148 49245867 0 0
+swf 15 5432749 0 0
+php 1 1955 0 0
+jnlp 18 10399 0 0
+html 1089 2910873 0 0
+jar 23 118672351 0 0
+jpg 1410 45308997 0 0
+js 386 4930836 0 0
+gif 152 711900 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 15
+/labs/eerc05/exp2/CBRtest11.pdf 27 61 10165754
+/labs/eerc05/exp6/VANESHEARTEST11.pdf 26 65 9345927
+/labs/eerc05/exp1/freeSwellIndex.pdf 18 23 3912998
+/labs/eerc05/exp3/Determination_ofpH_of_soils22.pdf 18 26 3594776
+/labs/eerc05/exp5/corecutter11.pdf 15 97 7354515
+/labs/eerc05/exp9/Plate_load_test_11.pdf 15 50 8976330
+/labs/eerc05/exp8/standard_penetration_test11.pdf 14 20 5301758
+/labs/eerc05/exp1/animation/fsi.jar 6 0 33896790
+/labs/eerc05/exp7/Determination_of_total_soluble_sulphates11.pdf 4 8 1323169
+/labs/eerc05/exp6/media/vs.jar 4 0 10909092
+/labs/eerc05/exp3/media/ph.jar 4 0 14146895
+/labs/eerc05/exp2/media/BearingRatio.jar 3 0 39687283
+/labs/eerc05/exp8/media/Pentration.jar 3 0 11503549
+/labs/eerc05/exp4/Determination_of_total_soluble_solids_in_soil.pdf 3 14 1007170
+/labs/eerc05/exp5/media/first.jar 2 0 8528742
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+blackberry 19 3
+linuxandroid 93 26
+winxp 915 212
+java 36 16
+linux 47 23
+winvista 604 149
+win7 2365 622
+macosx 17 3
+winunknown 33 8
+j2me 1 0
+Unknown 181 46
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 52
+msie6.0 3 0
+firefox28.0 302 93
+safari7.0 1 0
+firefox15.0 17 3
+firefox20.0 48 23
+firefox3.6 1 0
+chrome29.0.1547.76 26 6
+chrome33.0.1750.166 2 0
+firefox26.0 17 3
+android 54 11
+chrome31.0.1650.57 35 15
+safari6.0.0.448 17 3
+chrome31.0.1650.63 48 11
+chrome12.0.742.112 100 43
+firefox24.0 50 15
+opera9.80 186 46
+chrome33.0.1750.46 36 10
+chrome15.0.874.121 17 3
+msie8.0 63 12
+firefox6.0.1 47 11
+msie7.0 67 14
+chrome24.0.1293.0 28 9
+chrome33.0.1750.154 813 196
+chrome33.0.1750.146 684 166
+msie9.0 30 7
+chrome29.0.1547.66 31 8
+firefox27.0 350 80
+firefox11.0 3 0
+chrome34.0.1847.45 17 3
+chrome11.0.696.16 31 8
+firefox21.0 26 6
+firefox29.0 18 3
+safari6.0 16 3
+firefox12.0 17 3
+chrome30.0.1599.69 17 3
+chrome32.0.1700.107 141 30
+nokia 3 0
+mozilla 45 9
+firefox25.0 44 11
+chrome28.0.1500.11 57 0
+chrome33.0.1750.117 431 131
+chrome33.0.1750.58 53 12
+firefox14.0.1 16 15
+chrome33.0.1750.170 2 0
+msie10.0 123 36
+netscape4.0 37 18
+chrome20.0.1132.34 43 9
+chrome11.0.696.14 17 3
+chrome25.0.1364.97 30 8
+firefox19.0 17 3
+firefox10.0.2 17 3
+firefox15.0.1 17 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1624;_U;_en)_Presto/2.8.119_Version/11.10 20140329180409
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1445;_U;_en)_Presto/2.8.119_Version/11.10 20140311131256
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1576;_U;_en)_Presto/2.8.119_Version/11.10 20140323235252
+Opera/9.80_(Android;_Opera_Mini/7.5.31684/34.1526;_U;_en)_Presto/2.8.119_Version/11.10 20140319165109
+Mozilla/5.0_(compatible;_Yahoo!_Slurp;_http://help.yahoo.com/help/us/ysearch/slurp) 20140316090432
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 107 287
+From1 0 0
+From2 1 166
+From3 112 112
+From4 888 3746
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 1 103
+search 0 58
+ask 0 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.virtual-labs.ac.in/labs/eerc05/ 96 96
+http://virtual-labs.ac.in/labs/eerc05/ 16 16
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+503 17 7038
+416 1 293
+206 14 1063910
+502 62 34415
+404 615 162737
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 57
+/labs/eerc05/exp3/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/eerc05/exp5/media/images/forms.css 42 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/eerc05/exp3/media/images/style.css 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/eerc05/exp4/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/labs/eerc05/exp2/media/images/forms.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/eerc05/exp6/media/images/style.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/eerc05/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/eerc05/exp7/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/eerc05/exp8/media/images/panel.css 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/eerc05/exp7/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/index.html
+/labs/index.html 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/eerc05/exp1/PendulumForces.swf 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/labs/eerc05/exp1/animation/images/forms.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/eerc05/exp8/js/modernizr-1.5.min.js 15 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/eerc05/exp4/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/index.html
+/labs/eerc05/exp3/media/images/panel.css 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/eerc05/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/eerc05/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/eerc05/exp9/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+/labs/eerc05/exp1/animation/images/style.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/eerc05/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/eerc05/exp3/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/index.html
+/labs/eerc05/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/eerc05/exp5/media/images/style.css 27 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/eerc05/exp7/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/eerc05/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/eerc05/exp4/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/index.html
+/labs/eerc05/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/eerc05/exp3/js/modernizr-1.5.min.js 18 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/index.html
+/labs/eerc05/exp9/media/images/forms.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/labs/eerc05/exp5/js/modernizr-1.5.min.js 25 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/index.html
+/labs/eerc05/exp9/media/images/style.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/labs/eerc05/exp1/js/modernizr-1.5.min.js 28 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/labs/eerc05/exp4/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/labs/eerc05/exp8/media/images/forms.css 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/eerc05/exp2/media/images/panel.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/eerc05/exp9/js/modernizr-1.5.min.js 16 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+/labs/eerc05/exp1/animation/images/panel.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/eerc05/exp7/PendulumForces.swf 2 -
+/labs/eerc05/exp2/PendulumForces.swf 4 -
+/labs/eerc05/exp5/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/
+/labs/eerc05/exp2/js/modernizr-1.5.min.js 42 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/index.html
+/labs/eerc05/exp8/media/images/style.css 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/eerc05/exp6/PendulumForces.swf 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/eerc05/exp6/media/images/forms.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/eerc05/exp2/media/images/style.css 29 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/eerc05/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/eerc05/exp4/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/ve_totalsolid.html
+/labs/eerc05/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/eerc05/exp5/media/images/panel.css 34 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/media/lowres.html
+/labs/eerc05/exp9/media/images/panel.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/labs/eerc05/exp3/media/images/forms.css 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/media/ve_ph.html
+/labs/eerc05/exp6/js/modernizr-1.5.min.js 25 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/eerc05/exp6/media/images/panel.css 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/media/ve_vanshear.html
+/labs/eerc05/exp7/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/eerc05/exp8/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/eerc05/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+END_SIDER_404

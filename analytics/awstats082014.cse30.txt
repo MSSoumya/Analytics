@@ -1,0 +1,428 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse30.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2675                
+POS_VISITOR 3624                
+POS_DAY 6490                
+POS_DOMAIN 7198                
+POS_LOGIN 7430                
+POS_ROBOT 7585                
+POS_WORMS 7930                
+POS_EMAILSENDER 8061                
+POS_EMAILRECEIVER 8204                
+POS_SESSION 8280                
+POS_SIDER 8490                
+POS_FILETYPES 10027               
+POS_DOWNLOADS 10254               
+POS_OS 10302               
+POS_BROWSER 10494               
+POS_SCREENSIZE 11137               
+POS_UNKNOWNREFERER 11211               
+POS_UNKNOWNREFERERBROWSER 11784               
+POS_ORIGIN 11866               
+POS_SEREFERRALS 12009               
+POS_PAGEREFS 12164               
+POS_SEARCHWORDS 12356               
+POS_KEYWORDS 12508               
+POS_MISC 2339                
+POS_ERRORS 12567               
+POS_CLUSTER 7286                
+POS_SIDER_404 12683               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140901075800 25135 5745714 15060024415881
+FirstTime 20140801000814
+LastTime 20140831210103
+LastUpdate 20141015121656 25135 0 25134 0 0
+TotalVisits 138                 
+TotalUnique 68                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 69                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 30 54908 3 3 7354
+1 15 39 86098 8 15 10237
+2 3 6 14622 4 7 11225
+3 1 1 0 2 4 17963
+4 9 58 95517 6 15 31528
+5 7 20 47803 4 12 8957
+6 2 13 36909 10 17 17059
+7 1 12 27454 11 24 28518
+8 10 40 84900 13 20 71801
+9 100 230 577062 22 33 31001
+10 53 130 251199 12 28 21737
+11 94 269 525583 15 35 14279
+12 182 486 833314 49 75 43944
+13 179 346 697201 7 21 17473
+14 169 290 659526 18 40 65936
+15 279 503 1314468 17 47 46331
+16 14 128 180606 10 14 19137
+17 25 84 206593 6 16 20645
+18 224 538 790353 16 33 106281
+19 106 199 552946 13 33 36193
+20 130 354 757332 25 46 25535
+21 70 145 398280 13 25 25258
+22 53 154 199644 6 13 24714
+23 17 52 141366 25 33 59614
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 69
+10.4.8.52 628 1445 3111664 20140831203804
+117.211.162.170 271 459 969096 20140827103509
+117.204.90.226 163 331 520150 20140806184940
+117.217.225.209 156 372 524978 20140803192126
+117.201.240.217 137 279 509207 20140810223645
+117.204.90.253 101 154 542024 20140806233932
+117.201.241.79 38 118 99026 20140806190534
+14.139.155.243 15 50 243992 20140828151727
+202.78.235.80 14 30 48192 20140806142532
+180.149.49.231 13 26 61930 20140812142141
+182.74.22.86 7 22 58238 20140814115740
+98.218.51.50 5 17 42858 20140829092620
+117.204.84.32 3 3 22839 20140806191108
+118.102.191.38 5 16 39912 20140806143431
+117.199.44.78 5 16 39563 20140802113051
+220.227.219.135 6 19 57404 20140808103543
+117.201.244.182 1 1 3236 20140828144606
+182.65.237.53 3 14 33353 20140829231242
+37.228.105.217 3 16 39239 20140827110949
+42.201.203.189 1 12 27454 20140816131254
+116.73.194.80 3 14 33340 20140818222423
+14.139.241.84 6 18 43221 20140811190127
+41.37.108.205 3 14 33764 20140808152337
+117.201.241.199 2 2 6310 20140809083531
+117.214.22.176 11 60 101900 20140813053341
+118.103.232.247 1 12 27454 20140817164840
+180.215.211.80 4 15 36838 20140819175535
+122.176.80.235 1 5 10402 20140802141032
+192.114.2.36 7 84 77162 20140811160516
+123.63.246.169 7 19 45886 20140806142907
+117.199.11.84 10 22 53167 20140803203830
+173.196.210.50 5 5 0 20140828102618
+115.249.69.137 5 5 15492 20140806150645
+132.79.7.15 0 1 12092 
+117.204.85.212 2 13 6420 20140829090046
+49.249.30.112 1 12 27454 20140809122519
+37.228.106.76 1 13 29964 20140801095538
+124.124.48.3 1 1 2906 20140818120054
+223.231.192.23 6 18 42982 20140809181557
+115.248.157.93 2 13 30347 20140813180325
+117.200.111.44 7 20 57663 20140816204743
+117.214.28.145 1 12 27616 20140809203556
+202.12.103.65 1 12 27454 20140811095418
+49.204.40.211 5 16 39650 20140820154344
+84.111.235.148 1 12 27454 20140808234840
+193.109.145.0 5 18 40898 20140830153558
+118.102.191.34 2 13 30335 20140801115952
+117.214.18.226 1 1 4572 20140807085353
+119.147.146.189 2 2 6148 20140820013400
+108.217.226.105 3 3 0 20140831000519
+117.233.210.2 5 16 39650 20140830203444
+115.249.130.56 8 27 69481 20140816164439
+122.172.184.83 2 13 30690 20140812230026
+117.204.82.162 3 12 9482 20140820082854
+117.232.17.170 2 2 6229 20140806023349
+46.119.144.177 6 19 43972 20140829102510
+198.140.182.254 10 33 82469 20140829193322
+117.222.98.3 3 15 36729 20140810212409
+117.226.207.157 1 4 8393 20140806022858
+200.131.199.26 1 12 27454 20140801000814
+14.139.227.82 2 14 33593 20140828145048
+14.139.181.182 1 10 3074 20140813121736
+103.252.27.15 9 24 64290 20140831210103
+117.214.17.130 3 14 33758 20140819190945
+117.217.224.119 4 5 27933 20140812211309
+103.241.244.35 1 12 27454 20140812123835
+202.164.39.25 7 18 46122 20140802105328
+110.225.69.3 1 10 22211 20140829135513
+59.89.249.112 1 12 27454 20140809110202
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20140801 14 74 170012 5
+20140802 22 105 223855 6
+20140803 229 538 902720 7
+20140805 13 26 61664 1
+20140806 666 1189 2481138 20
+20140807 3 25 34907 3
+20140808 23 103 255864 7
+20140809 12 59 135778 6
+20140810 144 309 582884 4
+20140811 43 209 357288 8
+20140812 154 345 658278 11
+20140813 145 261 578074 9
+20140814 14 40 122205 3
+20140816 18 73 184562 5
+20140817 2 24 54908 2
+20140818 10 54 134520 5
+20140819 7 29 70596 3
+20140820 110 189 459549 7
+20140821 4 4 0 1
+20140827 17 81 151168 3
+20140828 33 105 274567 8
+20140829 22 103 221396 7
+20140830 25 96 238426 4
+20140831 21 86 179325 3
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1751 4127 8533684
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 138 386983 20140831152644 0
+bingbot 31 94700 20140829212027 0
+baiduspider 16 45149 20140829080013 0
+msnbot\-media 6 56962 20140827080631 0
+slurp 5 14984 20140831212337 0
+proximic 1 9455 20140828151546 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 14
+2mn-5mn 14
+15mn-30mn 5
+0s-30s 65
+30s-2mn 26
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 31
+/labs/cse30/vlab3/myExp2_1_a/myfile.php 622 1857761 5 11
+/labs/cse30/ 265 891584 108 65
+/labs/cse30/vlab3/myExp2_1_b/myfile.php 169 219809 2 3
+/labs/cse30/vlab3/myExp2_1_a/img.html 159 246 3 8
+/labs/cse30/vlab3/myExp2_1_a/ 114 356965 4 13
+/labs/cse30/vlab3/myExp2_1_a/myFile.php 99 3805 3 0
+/labs/cse30/vlab3/myExp2_1_a/outfile 91 1211665 0 1
+/labs/cse30/vlab3/myExp2_1_a/exp1.html 56 9174 1 9
+/labs/cse30/vlab3/myExp2_1_b/ 35 110009 2 4
+/labs/cse30/vlab3/myExp2_1_b/img.html 24 240 0 0
+/labs/cse30/vlab3/myExp6_basic/ 2 6732 0 0
+/labs/cse30/vlab3/myExp2_1_b/outfile 16 226989 0 0
+/labs/cse30/vlab3/myExp2_3_b/ 2 6114 0 0
+/labs/cse30/vlab3/myExp3_a/ 8 9487 3 3
+/labs/cse30/vlab3/myExp2_2_b/exp1.html 4 417 0 1
+/labs/cse30/vlab3/myExp5_a/exp1.html 2 834 0 1
+/labs/cse30/index.php/ 1 3074 1 0
+/labs/cse30/vlab3/myExp3_b/exp1.html 3 0 2 3
+/labs/cse30/vlab3/myExp2_2_a/exp1.html 8 1428 0 3
+/labs/cse30/vlab3/myExp2_2_b/ 3 9273 0 0
+/labs/cse30/vlab3/myExp5_b/ 1 3174 0 0
+/labs/cse30/vlab3/myExp9_a/ 2 6218 0 0
+/labs/cse30/vlab3/myExp2_3_b/exp1.html 1 417 0 1
+/labs/cse30/vlab3/myExp2_2_a/ 11 60325 0 1
+/labs/cse30/vlab3/myExp5_a/ 12 25036 0 2
+/labs/cse30/vlab3/myExp2_3_a/exp1.html 1 417 0 1
+/labs/cse30/vlab3/myExp2_3_a/ 8 24716 1 2
+/labs/cse30/vlab3/myExp3_b/ 8 0 3 3
+/labs/cse30/vlab3/myExp2_1_b/myFile.php 16 569 0 0
+/labs/cse30/vlab3/myExp6_basic/exp1.html 1 417 0 1
+/labs/cse30/vlab3/myExp2_1_b/exp1.html 7 2085 0 2
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 276 496671 0 0
+png 227 465547 0 0
+php 1378 3594651 0 0
+html 266 15675 0 0
+jpg 1434 1520052 0 0
+Unknown 107 1438654 0 0
+class 225 570530 0 0
+gif 214 431904 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 44 10
+winlong 12 1
+winxp 207 40
+java 2249 1128
+linux 78 12
+winvista 700 312
+win7 714 218
+j2me 22 2
+Unknown 101 28
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+msie6.0 2 2
+firefox28.0 13 2
+firefox20.0 12 1
+chrome29.0.1547.76 17 5
+firefox26.0 12 1
+android 15 3
+chrome36.0.1985.131 1 1
+firefox18.0 55 11
+chrome31.0.1650.57 19 7
+chrome36.0.1985.125 314 102
+opera9.80 83 14
+firefox31.0 654 304
+msie8.0 19 7
+msie9.0 25 2
+chrome37.0.2062.94 15 3
+firefox11.0 16 5
+firefox32.0 28 6
+chrome38.0.2084.0 25 13
+chrome35.0.1916.141 12 1
+firefox30.0 17 5
+chrome23.0.1255.0 15 3
+chrome35.0.1916.114 37 12
+chrome36.0.1985.135 16 5
+nokia 12 1
+chrome36.0.1985.143 274 68
+mozilla 63 19
+chrome35.0.1916.153 12 1
+firefox14.0.1 35 12
+netscape4.0 2289 1128
+firefox15.0.1 20 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.3666;_U;_en)_Presto/2.8.119_Version/11.10 20140801095540
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.3997;_U;_en)_Presto/2.8.119_Version/11.10 20140827110950
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.3882;_U;_en)_Presto/2.8.119_Version/11.10 20140816182211
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.3781;_U;_en)_Presto/2.8.119_Version/11.10 20140811171007
+Mozilla/5.0_(Android;_Mobile;_rv:31.0)_Gecko/31.0_Firefox/31.0 20140810200302
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1311 2473
+From1 0 0
+From2 1 1
+From3 51 51
+From4 388 1602
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://virtual-labs.ac.in/labs/cse30/ 51 51
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 31 12834
+502 174 85322
+404 206 56331
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 16
+/labs/cse30/vlab3/myExp6_basic/images/manual.jpg 3 -
+/labs/cse30/vlab3/myExp5_a/images/manual.jpg 9 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp5_a/index.php
+/labs/cse30/vlab3/myExp6_cascode/images/manual.jpg 2 -
+/labs/cse30/vlab3/myExp9_a/images/manual.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp9_a/index.php
+/labs/cse30/vlab3/myExp9_b/images/manual.jpg 2 -
+/labs/cse30/vlab3/myExp2_1_a/exp1/class.class 1 -
+/labs/cse30/vlab3/myExp2_2_b/images/manual.jpg 4 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_2_b/index.php
+/labs/cse30/vlab3/myExp3_a/images/manual.jpg 4 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp3_a/index.php
+/labs/cse30/vlab3/myExp2_2_a/images/manual.jpg 11 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_2_a/index.php
+/labs/cse30/vlab3/myExp5_b/images/manual.jpg 2 -
+/labs/cse30/vlab3/myExp2_3_b/images/manual.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_b/index.php
+/labs/cse30/vlab3/myExp3_b/images/manual.jpg 1 -
+/labs/cse30/vlab3/myExp2_1_a/images/manual.jpg 113 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_a/index.php
+/labs/cse30/vlab3/myExp7_a/images/manual.jpg 1 -
+/labs/cse30/vlab3/myExp2_1_b/images/manual.jpg 38 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_b/index.php
+/labs/cse30/vlab3/myExp2_3_a/images/manual.jpg 9 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_a/index.php
+END_SIDER_404

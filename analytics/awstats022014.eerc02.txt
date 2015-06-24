@@ -1,0 +1,458 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc02.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2673                
+POS_VISITOR 3677                
+POS_DAY 3839                
+POS_DOMAIN 4528                
+POS_LOGIN 4762                
+POS_ROBOT 4917                
+POS_WORMS 5541                
+POS_EMAILSENDER 5672                
+POS_EMAILRECEIVER 5815                
+POS_SESSION 5891                
+POS_SIDER 6103                
+POS_FILETYPES 7828                
+POS_DOWNLOADS 8115                
+POS_OS 9413                
+POS_BROWSER 9702                
+POS_SCREENSIZE 10764               
+POS_UNKNOWNREFERER 10838               
+POS_UNKNOWNREFERERBROWSER 12633               
+POS_ORIGIN 12913               
+POS_SEREFERRALS 13058               
+POS_PAGEREFS 13222               
+POS_SEARCHWORDS 14192               
+POS_KEYWORDS 14368               
+POS_MISC 2337                
+POS_ERRORS 14455               
+POS_CLUSTER 4618                
+POS_SIDER_404 14593               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301052326 6410 1626531 16557799943292
+FirstTime 20140208215558
+LastTime 20140228222459
+LastUpdate 20141015124842 6410 0 6409 0 0
+TotalVisits 139                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 55 9210041 15 17 64725
+1 41 162 35213015 6 12 998965
+2 6 34 184666 8 13 631783
+3 19 54 14127444 4 8 365488
+4 0 1 435819 3 5 4220
+5 5 20 797776 4 5 710676
+6 0 2 4807 2 3 5760
+7 7 40 582936 4 11 18686
+8 55 185 7859211 13 25 661363
+9 75 208 88695219 8 9 358939
+10 74 242 76473273 11 13 707739
+11 77 271 37193465 17 19 605732
+12 189 614 127529165 30 44 41709
+13 136 398 34150895 14 23 78883
+14 103 337 9074855 14 16 27370
+15 181 534 72783923 27 29 49329
+16 214 680 59339655 16 19 28870
+17 123 344 43490209 9 12 10064
+18 17 66 21250265 6 6 9463
+19 48 154 12727505 5 9 303133
+20 75 263 74933378 11 16 716222
+21 124 430 42931906 15 21 444238
+22 71 287 35522885 16 27 1229167
+23 38 132 24019566 8 10 361207
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 941 3362 415698873 20140228222459
+10.4.8.52 750 2674 357026051 20140228214104
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 6 41 1180238 1
+20140209 9 40 201797 2
+20140210 77 309 19569405 10
+20140211 226 780 127386231 8
+20140212 93 345 48035545 7
+20140213 62 199 33125717 7
+20140214 9 42 209218 2
+20140215 68 229 16118353 5
+20140216 7 41 802412 2
+20140217 73 252 14971947 5
+20140218 57 213 18514947 7
+20140219 65 237 33995556 8
+20140220 144 514 64736010 9
+20140221 127 372 111256463 13
+20140222 74 160 2755380 4
+20140223 131 386 55874917 10
+20140224 94 192 69594262 6
+20140225 67 187 50708239 8
+20140226 116 403 97022526 11
+20140227 50 118 41069556 4
+20140228 136 453 21403160 10
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1691 5513 772724924
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bingbot 47 2469532 20140228232931 0
+[\s_+:,\.\;\/\\-]bot 21 1965479 20140227224824 0
+msnbot\-media 19 94987 20140228005553 0
+bot[\s_+:,\.\;\/\\-] 14 136046 20140227124006 0
+googlebot 8 597522 20140228221151 0
+bingpreview 6 14096 20140224085410 0
+commons\-httpclient 5 2468540 20140225013708 0
+^java\/[0-9] 5 0 20140225013708 0
+no_user_agent 4 297145 20140220173314 0
+slurp 4 7820 20140227055336 0
+exabot 1 0 20140209065458 0
+baiduspider 1 1822 20140209001839 0
+robot 2 3910 20140226182055 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 18
+5mn-15mn 15
+15mn-30mn 12
+30s-2mn 14
+2mn-5mn 22
+0s-30s 39
+30mn-1h 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/labs/eerc02/ 348 879034 118 21
+/labs/eerc02/exp1/ 250 925046 2 20
+/labs/eerc02/default.html 187 283837 1 16
+/labs/eerc02/content.html 186 616677 0 15
+/labs/eerc02/exp10/ 90 295552 1 9
+/labs/eerc02/exp9/ 69 228043 1 1
+/labs/eerc02/exp3/ 65 236199 2 6
+/labs/eerc02/exp2/ 64 233023 3 2
+/labs/eerc02/exp5/ 53 181097 0 0
+/labs/eerc02/exp8/ 51 214614 0 8
+/labs/eerc02/exp5/vlab2/Attenberg.jnlp 8 3984 0 1
+/labs/eerc05/content.html 1 20 0 1
+/labs/eerc02/exp9/vlab2/9.DirectShear.html 7 2142 0 2
+/labs/eerc02/exp6/vlab2/Permeability.jnlp 5 1959 0 1
+/labs/eerc02/exp1/ 1 10499 0 0
+/labs/eerc02/exp7/ 37 134525 1 2
+/labs/eerc02/exp8/vlab2/8.Consolidation.html 8 2166 0 3
+/labs/eerc02/exp7/vlab2/Compaction.jnlp 1 647 0 0
+/labs/eerc02/exp7/vlab2/7.Compaction.html 4 1424 0 0
+/labs/eerc02/exp1/vlab2/Water.jnlp 25 10496 3 7
+/labs/eerc02/exp4/ 49 186683 2 6
+/labs/eerc02/exp9/vlab2/Direct.jnlp 5 1962 0 0
+/labs/eerc02/exp5/vlab2/5.AttenbergLimits.html 15 3560 0 0
+/labs/eerc05/default.html 1 20 1 0
+/labs/eerc02/exp6/vlab2/6.Permeability.html 9 3412 0 1
+/labs/eerc02/exp10/vlab2/10.Triaxial.html 4 1412 0 0
+/labs/eerc02/exp2/vlab2/2.UnitWeight.html 8 1065 0 0
+/labs/eerc02/exp3/vlab2/3.SpecificGravity.html 13 3778 0 3
+/labs/eerc02/exp6/ 49 181633 1 3
+/labs/eerc02/exp4/vlab2/Grain.jnlp 6 2748 1 0
+/labs/eerc02/exp2/vlab2/Unit.jnlp 6 1959 0 1
+/labs/eerc02/exp10/vlab2/Triaxial.jnlp 1 639 0 0
+/labs/eerc02/exp4/vlab2/4.GrainSizeDistribution.html 7 2562 0 1
+/labs/eerc02/exp3/vlab2/Specific.jnlp 10 6680 0 3
+/labs/eerc02/exp8/vlab2/Consolidation.jnlp 8 3295 1 2
+/labs/eerc02/exp1/vlab2/1.WaterContent.html 40 11503 1 4
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 684 1034616 0 0
+png 180 444270 0 0
+pdf 225 101807251 0 0
+swf 114 3408827 0 0
+php 1079 3619645 0 0
+html 537 1019881 0 0
+jnlp 75 34369 0 0
+jar 83 644689239 0 0
+js 498 5734292 0 0
+jpg 1845 10144698 0 0
+gif 193 787836 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 23
+/labs/eerc02/exp1/Exp-1%20WaterContent.pdf 45 71 15072972
+/labs/eerc02/exp4/Exp-4%20GrainSizeDistribution.pdf 29 64 18074928
+/labs/eerc02/exp10/Exp-10%20TriaxialTest.pdf 25 24 5408539
+/labs/eerc02/exp2/Exp-2%20UnitWeight.pdf 23 98 12791757
+/labs/eerc02/exp9/Exp-9%20DirectshearTest.pdf 22 40 6966162
+/labs/eerc02/exp3/Exp-3%20SpecificGravity.pdf 21 50 7678462
+/labs/eerc02/exp1/vlab2/work3.jar 21 0 176769188
+/labs/eerc02/exp8/Exp-8%20ConsolidationTest.pdf 18 22 6671923
+/labs/eerc02/exp5/Exp-5%20AtterbergLimits.pdf 16 67 17259803
+/labs/eerc02/exp6/Exp-6%20Permeability.pdf 14 49 11357469
+/labs/eerc02/exp7/Exp-7%20CompactionTest.pdf 14 38 4224728
+/labs/eerc02/exp5/vlab2/virtual.jar 7 0 120881509
+/labs/eerc02/exp4/vlab2/work3.jar 5 0 28125152
+/labs/eerc02/exp8/vlab2/virtual.jar 5 0 69664929
+/labs/eerc02/exp3/vlab2/work3.jar 5 0 43060256
+/labs/eerc02/exp7/07%20Compaction_Test.pdf 4 0 1167524
+/labs/eerc02/exp3/03%20Specific_Gravity.pdf 4 0 1611302
+/labs/eerc02/exp1/01%20Water_Content.pdf 4 0 1061313
+/labs/eerc02/exp9/vlab2/virtual.jar 4 0 84142281
+/labs/eerc02/exp6/vlab2/work4.jar 3 0 25078976
+/labs/eerc02/exp2/vlab2/virtual.jar 2 0 63283310
+/labs/eerc02/exp10/vlab2/virtual.jar 1 0 2051267
+/labs/eerc02/exp7/vlab2/virtual.jar 1 0 31632371
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 201 55
+macosx6 1 0
+winlong 60 11
+winxp 990 276
+win2000 1 1
+java 150 70
+win98 8 2
+linuxfedora 17 3
+winvista 476 136
+linux 57 8
+win7 3464 973
+winunknown 45 9
+win2003 40 14
+j2me 125 24
+macosx9 1 0
+Unknown 400 109
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 51
+msie6.0 9 3
+firefox14.0 39 8
+firefox28.0 73 17
+firefox20.0 72 20
+firefox3.6 1 1
+ibrowse 38 6
+firefox26.0 250 67
+android 158 45
+firefox18.0 18 3
+chrome30.0.1566.2 63 18
+chrome33.0.1712.4 37 9
+chrome31.0.1650.57 23 6
+chrome31.0.1650.63 67 21
+safari7.0.1 1 0
+chrome31.0.1650.48 36 14
+chrome26.0.1410.58 23 4
+opera9.80 378 89
+chrome33.0.1750.46 49 24
+msie8.0 708 173
+chrome28.0.1500.72 39 8
+chrome11.0.696.34 20 2
+firefox6.0.2 6 0
+msie7.0 19 3
+firefox23.0 17 3
+chrome9.0.570.0 22 5
+chrome33.0.1707.0 30 5
+firefox3.6.10 17 3
+msie9.0 86 25
+chrome30.0.1599.101 45 17
+Unknown 12 9
+firefox27.0 725 164
+chrome31.0.1650.59 2 0
+firefox11.0 23 4
+chrome12.0.742.12 17 3
+firefox17.0 24 6
+chrome18.0.1025.166 18 6
+samsung 90 22
+chrome27.0.1453.110 107 19
+chrome9.0.597 7 7
+firefox2.0.0.6 1 0
+chrome32.0.1700.107 1086 318
+firefox25.0 298 110
+mozilla 240 71
+chrome33.0.1750.117 552 187
+chrome33.0.1750.58 74 18
+firefox22.0 1 0
+msie10.0 181 58
+netscape4.0 157 74
+chrome27.0.1453.116 17 3
+firefox15.0.1 23 5
+chrome11.0.696.65 37 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Micromax_X321/R2AE_SEMC-Browser/4.0.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140228121211
+SAMSUNG-GT-E2232/1.0_Openwave/6.2.3_Profile/MIDP-2.0_Configuration/CLDC-1.1_UP.Browser/6.2.3.3.c.1.101_(GUI)_MMP/2.0 20140228214154
+Opera/9.80_(Android;_Opera_Mini/7.5.32195/34.1394;_U;_en)_Presto/2.8.119_Version/11.10 20140228075908
+Mozilla/5.0_(Series40;_Nokia201/11.81;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.0.2.68.14 20140209142510
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140217084953
+Opera/9.80_(Android;_Opera_Mini/16.0.1212/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140218232251
+Opera/9.80_(Android;_Opera_Mini/16.0.1212/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140216215354
+Mozilla/5.0_(Series40;_Nokia114/03.47;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140215111942
+Spice_M5615 20140219202430
+SAMSUNG-GT-E2652/1.0_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140228124111
+Micromax_X450/Q03C_MAUI-browser/MIDP-2.0Configuration/CLDC-1.1 20140220173421
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140221222158
+SAMSUNG-GT-E2252/E2252DDMF3_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140220161003
+SAMSUNG-GT-S3802/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140228132301
+SAMSUNG-GT-S5222/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140220154331
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140228213215
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1267;_U;_en)_Presto/2.8.119_Version/11.10 20140219085808
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Micromax_X321/R2AE_SEMC-Browser/4.0.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140228121211
+Spice_M5615 20140219202430
+Micromax_X450/Q03C_MAUI-browser/MIDP-2.0Configuration/CLDC-1.1 20140220173421
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 170 466
+From1 0 10
+From2 2 2
+From3 165 207
+From4 1354 5351
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://www.vlab.co.in/ba_labs_all.php 116 142
+http://virtual-labs.ac.in/labs/eerc02/ 16 16
+http://www.vlab.co.in/institute_detail.php 10 10
+http://www.vlab.co.in/search.php 6 6
+http://www.vlab.co.in/search_institute.php 4 4
+http://www.vlab.co.in/lab_ready_for_use.php 4 4
+http://vlab.co.in/ba_labs_all.php 4 4
+http://webcache.googleusercontent.com/search 2 7
+http://vlab.co.in/lab_ready_for_use.php 1 1
+http://ui2.virtual-labs.ac.in/courses.php 1 1
+http://test.virtual-labs.ac.in/labs/eerc02/exp4/index.php 0 2
+http://test.virtual-labs.ac.in/labs/eerc02/exp7/index.php 0 1
+http://test.virtual-labs.ac.in/labs/eerc02/exp2/index.php 0 1
+http://vlab.co.in/search.php 1 1
+http://10.196.70.48:8827/dvs0/nov_dev_id8PGa4INDEeOGPuDbVQeFjA/desktopview/167072321/0 0 6
+http://test.virtual-labs.ac.in/labs/eerc02/exp1/index.php 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+remoulded+soil+sample 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+soil 1
+remoulded 1
+sample 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 15 318840
+502 2 1044
+400 12 3804
+404 33 8992
+301 168 44152
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/labs/css/override.css 7 http://deploy.virtual-labs.ac.in/labs/eerc02
+/labs/eerc02/exp1/images/stories/IrwaN.php 1 -
+/labs/eerc02/exp1/images/stories/chan.php 1 -
+/labs/eerc02/exp1/images/stories/food.php 3 -
+/labs/eerc02/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/eerc02/exp1/images/stories/Opa7.php 1 -
+/labs/eerc02/exp8/vlab2/com.vlab.geo.consolidation$MyApplet 1 -
+/labs/css/default.css 7 http://deploy.virtual-labs.ac.in/labs/eerc02
+/labs/eerc02/exp8/vlab2/com.vlab.geo.consolidation.jar 1 -
+/labs/css/style.css 7 http://deploy.virtual-labs.ac.in/labs/eerc02
+/labs/eerc02/exp1/01%2520Water_Content.pdf//index.php 1 -
+/labs/eerc02/exp8/vlab2/com.vlab.geo.consolidation.class 1 -
+/labs/eerc02/exp1//images/stories/food.gif 1 -
+END_SIDER_404

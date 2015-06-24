@@ -1,0 +1,4085 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse01.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2669                
+POS_VISITOR 73672               
+POS_DAY 124662              
+POS_DOMAIN 3693                
+POS_LOGIN 3930                
+POS_ROBOT 4085                
+POS_WORMS 5278                
+POS_EMAILSENDER 5409                
+POS_EMAILRECEIVER 5552                
+POS_SESSION 125578              
+POS_SIDER 125794              
+POS_FILETYPES 5687                
+POS_DOWNLOADS 6380                
+POS_OS 16640               
+POS_BROWSER 17107               
+POS_SCREENSIZE 21417               
+POS_UNKNOWNREFERER 21491               
+POS_UNKNOWNREFERERBROWSER 28155               
+POS_ORIGIN 30308               
+POS_SEREFERRALS 30463               
+POS_PAGEREFS 30663               
+POS_SEARCHWORDS 34563               
+POS_KEYWORDS 36763               
+POS_MISC 2332                
+POS_ERRORS 38355               
+POS_CLUSTER 3786                
+POS_SIDER_404 38539               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141101041250 79772 20245969 18940797080178
+FirstTime 20141001000147
+LastTime 20141031164136
+LastUpdate 20141101050221 1 0 0 0 0
+TotalVisits 1095                
+TotalUnique 745                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1560                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 95 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 473 1763 67008234 267 564 7466311
+1 274 1015 91881484 264 454 14256220
+2 168 654 49932569 252 451 14924969
+3 284 1031 60038636 283 493 4467472
+4 190 624 110013003 267 471 3154798
+5 126 574 12949242 263 420 2413392
+6 303 1188 20686824 242 436 16325498
+7 204 924 14368591 267 524 4406771
+8 329 1523 43055608 297 553 23347452
+9 966 3664 126654189 331 820 44118486
+10 1263 4528 109818539 359 944 2592667
+11 1193 4086 102232010 297 805 13567998
+12 1871 6402 788550477 306 940 23139489
+13 675 3064 55933361 346 716 18574642
+14 798 2869 71057032 453 920 31826475
+15 869 3304 268507227 388 901 3520661
+16 458 2162 281971865 282 608 23962898
+17 569 2038 110166962 277 574 6819823
+18 468 1909 43513457 261 557 2689944
+19 456 2005 91277944 255 523 1330551
+20 645 2838 99106735 247 946 1643262
+21 780 2727 176169922 260 775 3675075
+22 529 2208 64733731 274 636 3890185
+23 518 1735 27653233 249 496 17042387
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 14409 54835 2769491403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+robot 3073 2345159 20141028045140 0
+googlebot 2398 145997255 20141031193339 0
+bingbot 1093 74934026 20141030070847 0
+yandex 500 44450980 20141018155721 0
+bot[\s_+:,\.\;\/\\-] 193 1079213 20141028030818 0
+slurp 69 187653 20141031160310 0
+python 68 463938 20141007012338 0
+bingpreview 61 6740740 20141030075619 0
+proximic 50 371567 20141009122609 0
+msnbot\-media 47 2777528 20141018145112 0
+rpt\-httpclient 4 13609 20141008160122 0
+exabot 3 9641 20141006122325 0
+mediapartners\-google 5 7029 20141008181754 0
+no_user_agent 42 124176 20141009131146 0
+ia_archiver 9 93982 20141008131558 0
+ng\/1\. 25 201738 20141001211038 0
+^java\/[0-9] 6 369749 20141009035259 0
+curl 2 0 20141007141529 0
+^mozilla\/4\.0$ 3 28644 20141017110108 0
+facebook 7 18133 20141007175139 0
+checkbot 4 90260 20141008142908 0
+favicon 24 39863 20141009120734 0
+wordpress 2 0 20141006131855 0
+discovery 1 0 20141008220503 0
+wget 2 143018 20141008223101 0
+turnitinbot 1 3241 20141031162840 0
+baiduspider 27 645212 20141023213228 0
+netcraft 3 354 20141008194012 0
+crawl 12 38352 20141009122933 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 32
+woff 17 348002 0 0
+php 10933 31860729 0 0
+xml 1 401 0 0
+policy 1 2607 0 0
+png 4726 126750150 0 0
+pdf 807 196817594 0 0
+zip 48 690999373 0 0
+py 8 5607 0 0
+js 3268 34352903 0 0
+jpeg 249 1094024 0 0
+Unknown 111 1779949 0 0
+class 504 2260347 0 0
+avi 6 27765830 0 0
+css 6731 11252475 0 0
+ico 17 43350 0 0
+txt 90 32567 0 0
+wmv 3 177176 0 0
+html 3035 6746161 0 0
+jpg 19463 187708323 0 0
+xls 3 75901 0 0
+eot 53 200468 0 0
+bmp 46 15746048 0 0
+ppt 43 17297779 0 0
+htm 5 9847 0 0
+swf 492 116089650 0 0
+otf 82 1949732 0 0
+flv 1 9085167 0 0
+jnlp 163 61441 0 0
+jar 216 1257565463 0 0
+gif 3639 21683063 0 0
+exe 1 624381 0 0
+svg 73 1516663 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 194
+/labs/eerc03/exp12/9.Jets.pdf 288 214 27049552
+/labs/cse18/VirtualLabGraphics.zip 47 28 690358338
+/labs/eerc03/exp13/10.Turbines.pdf 40 9 2720147
+/labs/cse01/exp3/quick_pscode.txt 38 0 1292
+/labs/eerc01/exp1/Exp-1%20Tension%20Test.pdf 31 31 11799433
+/labs/eerc03/exp1/1.Bernoullis_experiment.pdf 29 46 5723965
+/labs/cse01/exp6/slides-etree.ppt 29 21 13289962
+/labs/eerc03/exp1/Data%20files/01%20Bernoullis_experiment.pdf 27 20 3765654
+/labs/cse01/exp3/merge_pscode.txt 25 0 14375
+/labs/cse01/exp3/insertion_pscode.txt 23 0 828
+/labs/cse29/exp7/media/DES1.pdf 22 28 2199647
+/labs/eerc02/exp2/Exp-2%20UnitWeight.pdf 21 33 12527587
+/labs/eerc03/exp8/5.Weirs.pdf 21 25 2444450
+/labs/eerc02/exp5/Exp-5%20AtterbergLimits.pdf 19 77 21273610
+/labs/eerc04/exp9/Exp-9%20Retaining%20walls.pdf 18 29 11685580
+/labs/eerc01/exp2/Exp-2%20Compression%20test.pdf 18 14 5137767
+/labs/eerc05/exp6/VANESHEARTEST11.pdf 16 30 4945530
+/labs/eerc02/exp3/Exp-3%20SpecificGravity.pdf 15 8 5621611
+/labs/eerc03/exp1/vlab2/virtual.jar 14 0 403159870
+/labs/eerc01/exp4/Exp-4%20Torsion%20test.pdf 13 9 2826456
+/labs/ccnsb05/exp1/Polarimetry_ORD_CD_Chapter.pdf 11 53 5993652
+/labs/cse15/DLDVirtualLabs.jar 11 0 1803098
+/labs/phy14/exp3/media/citevlab.jar 11 0 85393724
+/labs/eerc02/exp1/Exp-1%20WaterContent.pdf 11 19 4161354
+/labs/phy14/exp1/media/citevlab.jar 10 0 83856516
+/labs/eerc03/exp6/3.Orifices.pdf 10 8 2510762
+/labs/eerc04/exp2/Exp-2%20Single%20span%20beams.pdf 9 37 3751678
+/labs/eerc05/exp1/freeSwellIndex.pdf 9 19 2711415
+/labs/eerc03/exp7/4.Mouthpieces.pdf 9 8 3756381
+/labs/eerc01/exp5/Exp-5%20Impact%20test.pdf 9 4 1879265
+/labs/eerc02/exp4/Exp-4%20GrainSizeDistribution.pdf 9 38 6398482
+/labs/eerc01/exp10/Exp-10%20Yield%20criterion.pdf 9 5 1351531
+/labs/eerc02/exp9/Exp-9%20DirectshearTest.pdf 8 26 4061013
+/labs/eerc01/exp3/Exp-3%20Shear%20test.pdf 8 6 808938
+/labs/eerc01/exp6/Exp-6%20Creep%20test.pdf 8 6 1166249
+/labs/eerc02/exp7/Exp-7%20CompactionTest.pdf 8 26 3509791
+/labs/eerc01/exp7/Exp-7%20Fatigue%20test.pdf 8 4 990178
+/labs/civil16/ss_6.pdf 8 0 3428860
+/labs/eerc03/exp5/2.%20Venturi_meter.pdf 8 10 2265331
+/labs/eerc04/exp5/Exp-5%20Portal%20frames.pdf 7 6 1190438
+/labs/eerc04/exp7/Exp-7%20Arches.pdf 7 9 825659
+/labs/eerc05/exp8/standard_penetration_test11.pdf 7 5 1906110
+/labs/eerc02/exp10/Exp-10%20TriaxialTest.pdf 7 7 1507029
+/labs/eerc04/exp3/Exp-3%20Continuous%20Beams.pdf 7 20 2602069
+/labs/eerc01/exp6/06%20Creep_Test.pdf 7 2 1113144
+/labs/cse29/exp3/media/lec1.pdf 7 12 1046706
+/labs/eerc05/exp2/CBRtest11.pdf 6 8 2232990
+/labs/eerc01/exp4/Animation/4.Torsion-Bar_with-load.avi 6 0 27765830
+/labs/eerc03/exp10/7.Reynolds_experiment.pdf 6 9 1753406
+/labs/eerc01/exp8/Exp-8%20Compression%20test%20on%20spring.pdf 6 2 818133
+/labs/cse18/Vlabs.jar 6 0 313882
+/labs/eerc04/exp4/Exp-4%20Columns.pdf 6 7 1490113
+/labs/eerc02/exp6/Exp-6%20Permeability.pdf 6 8 5008396
+/labs/cse16/exp06/media/spectrographicAnalysisS.jar 5 0 1187935
+/labs/eerc03/exp12/09%20Jets.pdf 5 0 247388
+/labs/eerc02/exp1/vlab2/work3.jar 5 0 32140566
+/labs/eerc01/exp2/vlab2/virtual.jar 5 0 98534071
+/labs/cse01/exp1/slides-week1.ppt 5 12 996745
+/labs/eerc04/exp10/Exp-10%20Plastic%20hinge.pdf 5 7 742895
+/labs/phy14/exp2/media/citevlab.jar 5 0 41959845
+/labs/eerc05/exp5/corecutter11.pdf 5 6 1661404
+/labs/cse16/exp07/media/cepstrumAnalysisS.jar 5 0 4697880
+/labs/eerc03/exp9/6.Channels.pdf 4 8 554339
+/labs/eerc05/exp9/Plate_load_test_11.pdf 4 5 2061443
+/labs/eerc03/exp5/02%20Venturi_meter.pdf 4 0 1197352
+/labs/eerc01/exp1/Data%20files/01%20Tension_Test.pdf 4 12 1697188
+/labs/eerc02/exp8/Exp-8%20ConsolidationTest.pdf 4 4 1749026
+/labs/cse01/exp3/slides-week3.ppt 4 0 1406976
+/labs/cse29/exp8/media/16_AES.pdf 4 3 2921534
+/labs/cse29/exp1/media/shiftcipher.pdf 4 4 862637
+/labs/phy14/exp7/media/citevlab.jar 4 0 26168289
+/labs/eerc03/exp10/07%20Reynolds_experiment.pdf 4 0 686544
+/labs/cse01/exp9/MST.ppt 4 0 1587200
+/labs/cse29/exp10/media/PKCS1.pdf 4 0 85976
+/labs/eerc03/exp8/05%20Weirs.pdf 4 0 367088
+/labs/eerc01/exp9/Exp-9%20Principal%20stresses.pdf 4 2 511402
+/labs/eerc01/exp1/vlab2/virtual.jar 3 0 94843690
+/labs/cse01/exp3/week3.pdf 3 0 167046
+/labs/cse16/exp05/media/spectrumAnalysisS.jar 3 0 2785881
+/labs/cse01/exp5/tree.pdf 3 4 1125099
+/labs/phy14/exp5/media/citevlab.jar 3 0 25152320
+/labs/cse01/exp1/week1.pdf 3 1 190603
+/labs/eerc04/exp1/Exp-1%20Rigid%20joint.pdf 3 2 518894
+/labs/civil16/ss_7.pdf 3 0 2009070
+/labs/cse01/exp7/tree.pdf 3 6 1055827
+/labs/mech08/nfm.wmv 3 0 177176
+/labs/eerc04/exp8/Exp-8%20Trusses.pdf 3 10 783443
+/labs/cse01/exp7/DFSBFS.ppt 3 0 999936
+/labs/civil16/piezo.pdf 2 21 2045619
+/labs/eerc01/exp3/03%20Shear_Test.pdf 2 0 261832
+/labs/eerc03/exp7/vlab2/virtual.jar 2 0 47954035
+/labs/eerc04/exp2/vlab2/vlab2.jar 2 0 21027550
+/labs/cse29/exp8/media/Modes%20of%20operation.pdf 2 0 290952
+/labs/emt/final_expt/expt1.pdf 2 0 48786
+/labs/emt/final_expt/expt3.pdf 2 3 625568
+/labs/eerc02/exp1/01%20Water_Content.pdf 2 0 378164
+/labs/cse01/exp8/tree.pdf 2 2 677935
+/labs/eerc04/exp2/Singlespambeams.pdf 2 0 341063
+/labs/cse01/exp2/week4.pdf 2 0 75240
+/labs/phy14/exp6/media/citevlab.jar 2 0 16783938
+/labs/ccnsb05/exp3/Organic_chemical_applications_of_MCD.pdf 2 0 789065
+/labs/eerc01/exp10/10%20Yield%20Criterion_Test.pdf 2 6 570449
+/labs/emt/final_expt/expt9.pdf 2 0 558246
+/labs/cse01/exp7/IntroGraphs.ppt 2 0 373760
+/labs/eerc02/exp2/vlab2/virtual.jar 2 0 63283310
+/labs/cse11/MIPS1/MIPSSimulator.jar 2 0 261100
+/labs/cse16/exp04/media/dspBasicsS.jar 2 0 866996
+/labs/eerc01/exp2/Data%20files/02%20Compression_Test.pdf 2 0 584944
+/labs/eerc02/exp3/vlab2/work3.jar 2 0 48762
+/labs/eerc01/exp2/Data%20files/01%20Tension_Test.pdf 2 0 56786
+/labs/phy01/data/expt5/b57v.txt 2 0 55584
+/labs/eerc04/exp5/05%20Portal%20Frames.pdf 2 0 376016
+/labs/cse11/Integers/integerRepresentation.pdf 2 1 159225
+/labs/ece21/Experiment%207/Examples/Example%201.pdf 2 0 109248
+/labs/eerc05/exp7/Determination_of_total_soluble_sulphates11.pdf 2 2 555611
+/labs/phy01/data/expt5/m1v.txt 1 0 27795
+/labs/cse01/exp8/ShPaths.ppt 1 0 295936
+/labs/emt/final_expt/expt5.pdf 1 0 303693
+/labs/eerc01/exp4/04%20Torsion_Test.pdf 1 0 258192
+/labs/eerc01/exp1/Data%20files/03%20Shear_Test.pdf 1 0 79782
+/labs/ece21/Theory/IGS.pdf 1 0 378820
+/labs/eerc05/exp2/media/BearingRatio.jar 1 0 13270539
+/labs/eerc05/exp9/media/Experiment.jar 1 0 6864382
+/labs/eerc01/exp4/vlab2/work1.jar 1 0 10928381
+/labs/emt/final_expt/expt6.pdf 1 0 280129
+/labs/ece21/Theory/howItWorks.pdf 1 0 101878
+/labs/eerc04/exp3/vlab2/vlab2.jar 1 0 4896381
+/labs/cse22/exp5/applet/HopfieldExp5.jar 1 0 189257
+/labs/civil16/manual_expt2.pdf 1 0 302163
+/labs/eerc05/exp4/Determination_of_total_soluble_solids_in_soil.pdf 1 2 232702
+/labs/civil13/user/nanggardr/Experiment8/CaliDoubGravModReport.xls 1 0 26237
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg1.pdf 1 3 113312
+/labs/ccnsb05/exp3/ORD_of_chlorophyll.pdf 1 0 741282
+/labs/ece21/Theory/QueueingNotes1.pdf 1 0 625846
+/labs/ece21/Experiment%207/Examples/Example%207.pdf 1 0 46201
+/labs/eerc04/exp4/vlab2/virtual.jar 1 0 13872380
+/labs/eerc02/exp5/vlab2/virtual.jar 1 0 31641655
+/labs/ece01/exp3/postquiz/postq3_files/firefox_content.txt 1 0 242885
+/labs/ece21/Experiment%201/Exp1_Examples/Exp1_eg3.pdf 1 0 113345
+/labs/ece21/Theory/Discrete%20Time%20queue.pdf 1 0 42186
+/labs/cse22/exp1/applet/taketwoIAC.jar 1 0 185132
+/labs/eerc01/exp2/Data%20files/10%20Yield%20Criterioan_Test.pdf 1 0 116026
+/labs/eerc05/exp3/Determination_ofpH_of_soils22.pdf 1 2 249389
+/labs/eerc04/exp6/Exp-6%20Plates.pdf 1 2 387427
+/labs/eerc03/exp6/03%20Orifices.pdf 1 0 239719
+/labs/emt/final_expt/expt2_2.pdf 1 0 203519
+/labs/cse11/CacheOrganizations/cacheOrganizations.pdf 1 0 108238
+/labs/phy01/data/expt5/ReferenceSpecralLine.txt 1 0 226
+/labs/cse22/exp2/applet/csroomwt.txt 1 0 15679
+/labs/civil16/ss_5.pdf 1 0 829456
+/labs/eerc03/exp10/vlab2/virtual.jar 1 0 31592380
+/labs/eerc02/exp8/vlab2/virtual.jar 1 0 31641655
+/labs/civil16/manual_expt5.pdf 1 0 24393
+/labs/eerc03/exp1/Data%20files/03%20Orifices.pdf 1 0 136610
+/labs/eerc03/exp7/04%20Mouthpieces.pdf 1 0 401201
+/labs/civil13/Docs/cost_calb.xls 1 0 24576
+/labs/phy14/exp4/media/mediaplayer/chem.flv 1 0 9085167
+/labs/ece01/exp3/postquiz/postq3_files/version_content.txt 1 0 948
+/labs/cse20/exp4/RandomVariables.pdf 1 0 139310
+/labs/civil13/Docs/trip_calib.xls 1 0 25088
+/labs/ece21/Theory/QueuingNotes.pdf 1 0 383436
+/labs/ece21/Experiment%207/Examples/Example%203.pdf 1 0 50966
+/labs/cse22/exp2/applet/roomunames.txt 1 0 366
+/labs/cse13/hamming_coder/hamming.ogv 1 0 72395
+/labs/ccnsb04/jmol/JmolApplet0.jar 1 0 915253
+/labs/cse22/exp2/applet/CSNNfinal_Ver3_7Dec12.jar 1 0 186792
+/labs/ece21/Experiment%204/Examples/Example%201.pdf 1 2 112621
+/labs/eerc05/exp1/animation/fsi.jar 1 0 13428034
+/labs/cse18/exp10/polygon.txt 1 0 27
+/labs/ece21/Theory/MG1inf.pdf 1 0 52833
+/labs/eerc01/exp1/Data%20files/10%20Yield%20Criterioan_Test.pdf 1 0 116026
+http://deploy.virtual-labs.ac.in/labs/eerc04/exp5/05%20Portal%20Frames.pdf 1 0 188008
+/labs/hss01/Case%20Studies/Fish%20Bone%20Diagram.pdf 1 0 63593
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg1.pdf 1 0 106458
+/labs/eerc05/exp7/media/Sulphate.jar 1 0 3660161
+/labs/eerc01/exp2/Data%20files/04%20Torsion_Test.pdf 1 0 64589
+/labs/cse29/exp8/media/modes%20of%20operation.pdf 1 0 157380
+/labs/ece21/Theory/fluidqueue.pdf 1 0 63210
+/labs/eerc04/exp3/03%20Continuous%20beams.pdf 1 0 264869
+/labs/emt/final_expt/expt2_1.pdf 1 0 152081
+/labs/eerc02/exp4/vlab2/work3.jar 1 0 10689268
+/labs/ece21/Experiment%203/Exp3_Examples/Exp3_eg2.pdf 1 0 113528
+/labs/ccnsb05/exp1/polarimeters_in_college_chemistry_courses.doc 1 0 440320
+/labs/cse01/exp9/tree.pdf 1 2 522623
+/labs/eerc06/exp9/9.theory.pdf 1 0 123399
+/labs/cse29/exp2/media/monoalphacipher.pdf 1 2 111005
+/labs/cse11/VirtualMemory/VM%20Simulator.zip 1 0 641035
+/labs/eerc03/exp9/vlab2/virtual.jar 1 0 31641655
+/labs/civil13/experiment6/video/GravityMethod2.mp4 0 1 24344
+/labs/civil13/experiment2/video/Regression.mp4 0 3 3276833
+/labs/civil13/experiment6/video/gravityPHP.mp4 0 1 40344
+/labs/civil13/experiment8/video/CaliberationPHP.mp4 0 3 320820
+/labs/civil13/experiment2/video/RegressionPHP.mp4 0 3 3658330
+/labs/civil13/experiment8/video/Caliberation2.mp4 0 3 267561
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+linuxsuse 653 104
+linuxandroid 2109 397
+blackberry 88 7
+winxp 9412 2668
+macosx6 19 15
+winlong 437 106
+symbian 104 15
+win2000 3 1
+winvista 10569 2811
+winunknown 147 30
+j2me 431 61
+win2003 63 20
+linuxcentos 67 27
+macosx9 885 123
+macosx7 25 4
+unix 69 20
+java 3744 1355
+linuxubuntu 49 16
+macosx5 14 7
+win98 35 6
+linux 3418 951
+win7 21820 5422
+macosx 383 67
+bsdfreebsd 22 7
+Unknown 1267 154
+macosx8 138 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 202
+firefox28.0 155 19
+chrome37.0.2062.117 279 41
+chrome38.0.2096.0 1 0
+chrome39.0.2171.2 99 45
+chrome34.0.1847.137 72 16
+safari10.2.1.3247 1 0
+chrome22.0.1190.0 1 1
+chrome12.0.742.5 1 0
+chrome31.0.1650.63 48 6
+chrome31.0.1650.39 25 4
+alcatel 1 0
+chrome30.0.1599.14 32 13
+safari7.0.1 2 0
+safari7.1.0.714 24 4
+chrome33.0.1750.46 42 8
+msie8.0 3757 703
+chrome32.0.1700.99 3 0
+chrome33.0.1734.5 1 0
+msie7.0 776 97
+chrome38.0.2125.24 1 0
+chrome30.0.1599.82 15 2
+chrome27.0.1453 40 4
+firefox9.0.1 21 4
+chrome39.0.2159.4 3 0
+safari7.0.5 25 3
+chrome33.0.1750.5 85 29
+chrome31.0.1650.59 2 0
+firefox13.0 14 2
+chrome39.0.2171.7 123 30
+firefox10.0.1 2 0
+nsplayer 2 0
+firefox7.0.1 129 39
+chrome30.0.1599.69 1 0
+chrome32.0.1700.107 254 51
+chrome35.0.1916.114 101 26
+chrome35.0.1870.2 28 9
+firefox33.0 848 195
+chrome36.0.1985.143 473 118
+firefox25.0 47 14
+chrome26.0.1410.64 50 18
+chrome39.0.2150.5 97 13
+chrome33.0.1750.117 23 5
+chrome23.0.1262.0 27 5
+firefox14.0.1 22 9
+chrome28.0.1464.0 74 24
+safari7.1.0.746 1 0
+safari 158 26
+firefox16.0.1 1 1
+safari7.0 100 22
+firefox4.0.1 27 11
+chrome38.0.2125.104 660 244
+android 1313 287
+firefox1.5.0.3 619 98
+chrome28.0.1500.95 29 9
+chrome22.0.1229.79 1 0
+chrome36.0.1985.125 321 61
+firefox24.0 360 87
+opera9.80 1586 275
+chrome33.0.0.0 21 2
+chrome16.0.904.0 39 7
+chrome32.0.1700.102 4 0
+chrome21.0.1180.79 1 0
+chrome39.0.2147.1 1 0
+chrome34.0.1847.116 100 30
+chrome22.0.1229.52 19 1
+firefox3.6.9 67 27
+chrome28.0.1500.52 2 2
+firefox3.6.10 15 2
+msie9.0 214 59
+chrome37.0.2062.103 114 28
+chrome39.0.2171.13 43 2
+chrome4.0.249.0 1 1
+firefox32.0 6781 1808
+chrome18.0.1025.166 1 0
+chrome39.0.2166.2 4 0
+chrome35.0.1916.141 3 0
+chrome6.0.490.1 1 0
+opera8.01 11 1
+chrome28.0.1500.71 5 4
+firefox30.0 398 74
+safari6.1.5 2 0
+chrome30.0.1551.0 1 0
+safari4.0.2 13 6
+nokia 253 49
+chrome35.0.1916.153 290 99
+firefox3.0.6 34 6
+firefox22.0 281 261
+firefox3.6.28 1 0
+chrome25.0.1359.3 45 6
+chrome25.0.1364.172 1 1
+firefox3.6.12 20 6
+chrome39.0.2138.3 22 3
+chrome23.0.1271.1 1 0
+chrome21.0.1180.49 1 0
+chrome13.0.772.0 15 2
+chrome38.0.2125.77 24 2
+firefox3.6.8 26 11
+chrome38.0.2125.8 43 16
+msie6.0 145 113
+chrome18.0.1025.308 3 0
+ibrowse 65 8
+firefox10.0 24 4
+firefox26.0 54 11
+chrome28.0.1500.94 106 27
+firefox4.0 1 1
+firefox18.0 120 24
+chrome38.0.2125.111 264 97
+firefox34.0 107 36
+chrome33.0.1729.3 8 0
+chrome5.0.307.7 1 1
+chrome28.0.1500.72 4 2
+firefox2.0.0.14 15 2
+chrome24.0.1312.56 38 6
+chrome37.0.2062.120 1318 374
+chrome27.0.1453.90 1 1
+firefox23.0 3 0
+safari7.1.0.398 42 2
+chrome33.0.1750.152 29 11
+chrome24.0.1312.70 4 4
+safari6.2 21 1
+wap 2 0
+firefox3.0 5 3
+chrome34.0.1847.131 111 41
+chrome37.0.2062.102 40 2
+chrome37.0.2062.3 12 1
+firefox21.0 79 13
+lg\- 21 1
+firefox29.0 297 73
+safari6.0 94 5
+firefox3.5.2 1 1
+firefox12.0 46 11
+safari7.0.6 141 15
+safari6.0.5 2 0
+chrome18.0.1025.142 132 7
+mozilla 1816 314
+chrome32.0.1700.76 2 2
+chrome10.0.648.151 37 15
+chrome40.0.2188.2 12 1
+chrome22.0.1229.94 1 0
+netscape4.0 3699 1353
+chrome37.0.2031.2 20 4
+firefox3.6.3 28 2
+chrome40.0.2178.0 27 1
+firefox19.0 24 9
+firefox8.0.1 17 5
+firefox10.0.2 94 28
+firefox15.0.1 37 5
+chrome34.0.1847.134 1 0
+chrome36.0.1985.144 3 0
+chrome40.0.2182.3 21 6
+chrome37.0.2062.124 19159 5136
+firefox20.0 110 27
+firefox3.0.7 11 0
+firefox15.0 16 2
+chrome29.0.1547.76 34 7
+firefox32.0.3 1 0
+chrome36.0.1985.131 40 11
+chrome38.0.2125.101 396 92
+chrome33.0.1750.59 1 1
+firefox9.0 19 5
+chrome12.0.742.112 110 34
+chrome26.0.1410.58 20 4
+safari6.1.6 22 5
+chrome33.0.1750.29 3 0
+firefox31.0 2040 611
+chrome5.0.375.53 15 1
+firefox13.0.1 104 19
+firefox6.0.2 28 1
+chrome33.0.1736.2 24 4
+firefox16.0 15 1
+chrome40.0.2177.0 22 9
+chrome33.0.1750.154 285 95
+safari8.0 72 23
+chrome3.0.189.0 16 1
+chrome33.0.1750.146 46 19
+chrome37.0.2062.122 303 86
+firefox27.0 121 31
+Unknown 178 29
+chrome30.0.1599.101 56 12
+firefox11.0 170 40
+chrome37.0.2062.94 76 9
+chrome30.0.0.0 26 1
+safari7.1 135 18
+firefox3.6.7 13 13
+chrome34.0.1847.45 26 6
+firefox17.0 157 47
+chrome34.0.1847.114 171 10
+chrome9.0.597.83 2 0
+chrome27.0.1453.110 54 8
+chrome9.0.597 36 4
+safari5.1.7 73 23
+firefox3.0.3 37 6
+chrome36.0.1985.135 60 9
+chrome9.0.587.0 1 0
+msie10.0 473 101
+chrome30.0.1599.103 22 1
+safari5.1 1 0
+chrome3.0.190.1 17 3
+chrome27.0.1453.116 3 2
+firefox3.0.19 17 3
+chrome14.0.835.15 3 0
+firefox3.6.13 15 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 67
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20141008174632
+Nokia3500c/2.0_(07.00)_Profile/MIDP-2.0_Configuration/CLDC-1.1 20141001211520
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/SYB-1204232254;_U;_en-GB)_Presto/2.10.254_Version/12.00 20141006015535
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20141003203343
+Opera/9.80_(Android;_Opera_Mini/7.5.33135/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141008162628
+Googlebot-Image/1.0 20141006030626
+Opera/9.80_(Android;_Opera_Mini/7.6.35766/35.4774;_U;_en)_Presto/2.8.119_Version/11.10 20141002170906
+Mozilla/5.0_(Series40;_Nokia210/06.09;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.0.0.0.31 20141005201640
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.1;_en-US;_Micromax_A116)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141005111457
+Mozilla/5.0_(Series40;_Nokia501/10.0.14;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.0.0.0.73 20141002161341
+Blackboard_Safeassign 20141003091602
+Mozilla/4.0_(compatible;_Synapse) 20141007132345
+Mozilla/5.0_(compatible;_Yahoo!_Slurp;_http://help.yahoo.com/help/us/ysearch/slurp) 20141003220534
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141009105706
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_iBall_Andi3e)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141008202435
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.3247_Mobile_Safari/537.35_ 20141009105447
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/35.4658;_U;_en)_Presto/2.8.119_Version/11.10 20141001110116
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.4816;_U;_en)_Presto/2.8.119_Version/11.10 20141003103604
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141007162336
+NSPlayer/9.0.0.4503 20141006185604
+Mozilla/5.0_(compatible;_proximic;__http://www.proximic.com/info/spider.php) 20141006152300
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20141006193031
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.4816;_U;_en)_Presto/2.8.119_Version/11.10 20141003115155
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.4774;_U;_en)_Presto/2.8.119_Version/11.10 20141001213655
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_Aqua_Star)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20141007205701
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.31849/35.4774;_U;_en)_Presto/2.8.119_Version/11.10 20141001221726
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/35.4658;_U;_en)_Presto/2.8.119_Version/11.10 20141001120839
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.4914;_U;_en)_Presto/2.8.119_Version/11.10 20141014080525
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.4658;_U;_en)_Presto/2.8.119_Version/11.10 20141001083303
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141007184216
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.4816;_U;_en)_Presto/2.8.119_Version/11.10 20141002201404
+NSPlayer/9.0.0.4503_WMFSDK/9.0 20141006185607
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20141014221354
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141007154125
+Mozilla/5.0_(compatible;_AhrefsBot/5.0;__http://ahrefs.com/robot/) 20141009115038
+Opera/9.80_(Android;_Opera_Mini/7.5.33286/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141008195026
+Mozilla/5.0_(Series40;_Nokia305/07.42;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.0.0.0.31 20141008072016
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.4658;_U;_en)_Presto/2.8.119_Version/11.10 20141001004934
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32453/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141006204104
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141009121615
+Opera/9.80_(Android;_Opera_Mini/7.5.33474/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141008144237
+Xenu_Link_Sleuth/1.3.8 20141001104104
+Mozilla/5.0_(Series40;_Nokia305/05.92;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.5.0.0.27 20141006210521
+Opera/9.80_(Android;_Opera_Mini/7.0.29952/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141006235011
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.4914;_U;_en)_Presto/2.8.119_Version/11.10 20141012212857
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.3;_en-US;_U1)_U2/1.0.0_UCBrowser/9.2.0.419_U2/1.0.0_Mobile 20141016225450
+Mozilla/5.0_(Series40;_Nokia205/03.18;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.2.0.0.6 20141007113524
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A62)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20141004234340
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32448/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141007123532
+Mozilla/5.0_(Android;_Mobile;_rv:32.0)_Gecko/32.0_Firefox/32.0 20141006022540
+Opera/9.80_(iPhone;_Opera_Mini/7.0.5/35.4774;_U;_en)_Presto/2.8.119_Version/11.10 20141002054727
+Icarus6j_-_(contact:_phil@icarus6.com) 20141005050601
+NokiaX2-01/5.0_(08.63)_Profile/MIDP-2.1_Configuration/CLDC-1.1_Mozilla/5.0_AppleWebKit/420__(KHTML,_like_Gecko)_Safari/420_ 20141004174346
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/35.4774;_U;_en)_Presto/2.8.119_Version/11.10 20141002162906
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141009004836
+Mozilla/5.0_(Series40;_Nokia305/07.42;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.5.0.0.27 20141002084014
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141008212029
+Opera/9.80_(Android;_Opera_Mini/7.5.35613/35.4851;_U;_hi)_Presto/2.8.119_Version/11.10 20141006094640
+Opera/9.80_(Android;_Opera_Mini/7.6.35843/35.4851;_U;_id)_Presto/2.8.119_Version/11.10 20141009122313
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32453/35.5003;_U;_en)_Presto/2.8.119_Version/11.10 20141019205416
+Mozilla/5.0_(Android;_Mobile;_rv:32.0.3)_Gecko/32.0.3_Firefox/32.0.3 20141006022516
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20141007185453
+Mozilla/5.0_(Series40;_NokiaX2-02/11.57;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.0.0.0.31 20141008212640
+TECNOT611/wap2.0_Profile/MIDP-2.0/CLDC-1.1/240x320/key 20141008032105
+Mozilla/5.0_(Android;_Tablet;_rv:32.0)_Gecko/32.0_Firefox/32.0 20141007080347
+Mozilla/5.0_(compatible;_UptimeRobot/2.0;_http://www.uptimerobot.com/) 20141009024924
+Opera/9.80_(Android;_Opera_Mini/7.6.35766/35.4851;_U;_en)_Presto/2.8.119_Version/11.10 20141008154452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 22
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_55_Java/1.7.0_55 20141007122731
+Java(tm)_2_SDK,_Standard_Edition_v1.7.0_51_Java/1.7.0_51 20141009000704
+Xenu_Link_Sleuth/1.3.8 20141001104104
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/9.4.0.460_Mobile 20141008211648
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141008212029
+http://Anonymouse.org/_(Unix) 20141009160852
+Googlebot-Image/1.0 20141006030626
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_Aqua_Star)_U2/1.0.0_UCBrowser/8.8.1.359_U2/1.0.0_Mobile 20141007205701
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-I8262)_U2/1.0.0_UCBrowser/9.4.0.460_Mobile 20141008194516
+Java(tm)_2_SDK,_Standard_Edition_v1.6.0_30_Java/1.6.0_30 20141008091733
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.1;_en-US;_Micromax_A116)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141005111457
+Blackboard_Safeassign 20141003091602
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_Iris_415)_U2/1.0.0_UCBrowser/9.2.0.419_Mobile 20141002201043
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S7582)_U2/1.0.0_UCBrowser/9.4.0.460_Mobile 20141007100210
+UCWEB/2.0_(Java;_U;_MIDP-2.0;_en-US;_Maui_Browser)_U2/1.0.0_UCBrowser/9.3.0.326_U2/1.0.0_Mobile_UNTRUSTED/1.0 20141008032055
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.0.3;_en-US;_U1)_U2/1.0.0_UCBrowser/9.2.0.419_U2/1.0.0_Mobile 20141016225450
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_iBall_Andi3e)_U2/1.0.0_UCBrowser/9.4.0.460_U2/1.0.0_Mobile 20141008202435
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A62)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20141004234340
+UCWEB/2.0_(Linux;_U;_Adr_4.2.2;_en-US;_Celkon_A_63)_U2/1.0.0_UCBrowser/8.7.0.315_U2/1.0.0_Mobile 20141006195233
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S7262)_U2/1.0.0_UCBrowser/9.4.0.460_Mobile 20141008134429
+Icarus6j_-_(contact:_phil@icarus6.com) 20141005050601
+UCWEB/2.0_(Java;_U;_MIDP-2.0;_en-US;_Maui_Browser)_U2/1.0.0_UCBrowser/9.5.0.449_U2/1.0.0_Mobile_UNTRUSTED/1.0 20141004195956
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2879 7265
+From1 0 1
+From2 341 1758
+From3 1150 1280
+From4 10039 45667
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 329 1691
+search 5 6
+bing 3 44
+ask 1 5
+yahoo 3 12
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 75
+http://virtual-labs.ac.in/labs/cse01/ 250 251
+http://www.vlab.co.in/ba_labs_all.php 132 132
+http://virtual-labs.ac.in/labs/cse02/ 71 71
+http://iitb.vlab.co.in 64 64
+http://virtual-labs.ac.in/labs/phy14/ 59 59
+http://vlab.co.in/ba_labs_all.php 57 57
+http://www.virtual-labs.ac.in/labs/cse04/ 50 50
+http://virtual-labs.ac.in/labs/cse15/ 50 50
+http://virtual-labs.ac.in/labs/cse19/ 42 42
+http://virtual-labs.ac.in/labs/cse29/ 24 24
+http://virtual-labs.ac.in/labs/cse14/ 1 1
+http://www.iprojectideas.com/node/52 1 1
+http://eerc.iiit.ac.in/projects.html 1 1
+http://virtual-labs.ac.in/labs/ccnsb07/ 6 6
+http://just-like.club/page/news/4-bit-comparator-theory 0 1
+http://translate.googleusercontent.com/translate_c 11 21
+http://ygaboli.pev.pl/jk-flip-flop-design.php 0 12
+http://web.iiit.ac.in/~sharada.mohanty/content/graph-visualisation-using-flash 0 26
+http://cs.brown.edu/people/karthikd/projects.html 1 1
+http://vlab.co.in/search.php 2 2
+http://virtual-labs.ac.in/labs/emt/ 20 20
+http://imgarcade.com/1/8-to-1-multiplexer-truth-table/ 0 2
+http://virtual-labs.ac.in/labs/ccnsb02/ 7 7
+http://ebooksstation.com/docs/pdf/Strength-of-materials-by-R-k-bansal/5 0 13
+http://virtual-labs.ac.in/labs/cse30/ 21 21
+http://stackoverflow.com/questions/16915453/is-there-any-workaround-to-run-jre-apps-on-android 9 9
+http://www.virtual-labs.ac.in/labs/eerc05/ 15 15
+http://virtual-labs.ac.in/labs/cse13/ 2 2
+http://www.virtual-labs.ac.in/labs/cse16/ 1 1
+http://virtual-labs.ac.in/index.php 22 22
+http://virtual-labs.ac.in/labs/cse22/ 15 15
+http://vlead.vlabs.ac.in/feed/ 2 2
+http://virtual-labs.ac.in/labs/cse24/ 4 4
+http://virtual-labs.ac.in/labs/cse20/ 10 10
+http://virtual-labs.ac.in/labs/eerc04/ 7 7
+http://www.virtual-labs.ac.in/labs/civil13/ 3 3
+http://iitb.vlab.co.in/index.php 1 1
+http://10.193.65.103:8827/dvs0/nov_dev_idb4L_gEb3EeSdrBgDcw39MQ/desktopview/122654762/0 0 4
+http://virtual-labs.ac.in/labs/cse18/ 19 19
+http://virtual-labs.ac.in/labs/civil13/ 1 1
+http://www.crazyengineers.com/threads/what-is-difference-between-compaction-consolidation.68305/ 0 4
+http://us.wow.com/search 0 1
+http://virtual-labs.ac.in/labs/cse05/ 3 3
+http://virtual-labs.ac.in/labs/ccnsb05/ 2 2
+http://virtual-labs.ac.in/labs/cse04/ 5 5
+http://182.72.207.34/moodle/mod/url/view.php 9 9
+http://virtual-labs.ac.in/labs/ccnsb04/ 10 10
+http://vlab.co.in/lab_ready_for_use.php 4 4
+http://www.vlab.co.in/search.php 11 11
+http://virtual-labs.ac.in/labs/cse11/ 17 17
+http://virtual-labs.ac.in/labs/eerc01/ 15 15
+http://www.ztopics.com/Pi%20electrons/ 0 1
+http://3cs2102at.wordpress.com/virtual-lab-experiments/ 1 1
+http://www.vlab.co.in/institute_detail.php 20 20
+http://vlab.co.in/institute_detail.php 3 3
+http://www.vlab.co.in/lab_ready_for_use.php 7 7
+http://virtual-labs.ac.in/labs/ccnsb03/ 4 4
+http://virtual-labs.ac.in/labs/eerc03/ 9 9
+http://forum.allaboutcircuits.com/threads/positive-edge-triggered-jk-flip-flop.87058/ 1 1
+http://virtual-labs.ac.in/labs/cse16/ 3 3
+http://blog.a11y.in 0 6
+http://virtual-labs.ac.in/labs/cse17/ 10 10
+http://virtual-labs.ac.in/labs/ccnsb01/ 6 6
+http://virtual-labs.ac.in/labs/eerc05/ 1 1
+http://virtual-labs.ac.in/labs/cse09/ 5 5
+http://ebooksstation.com/docs/pdf/fluid-mechanics-r.k.bansal 0 40
+http://virtual-labs.ac.in/labs/ccnsb06/ 15 15
+http://www.coderexception.com/CHB3BBB6USiUxQxX/is-there-any-workaround-to-run-jre-apps-on-android 2 2
+http://www.vlab.co.in/search_institute.php 4 4
+http://www.info.com/impact%20of%20jet%20experiment 0 1
+http://cl301.wordpress.com 1 1
+http://10.10.10.136:8827/dvs0/nov_dev_id6WSXEE8CEeSMKxpt8pDGcg/desktopview/186940505/0 0 1
+http://web.iiit.ac.in/~sharada.mohanty/content/virtual-labs 0 4
+http://www.ebooksstation.com/docs/pdf/fluid-mechanics-r.k.bansal 0 3
+http://virtual-labs.ac.in/labs/eerc02/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 55
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse01%2findex.php 2
+lab+theory+of+j+k+filpflop 2
+theory+of+d+and+jk+flip+flop+experiment 2
+bcd+to+seven+segment+decoder+with+octal+outputs 2
+bcd+to+7segment+decoder 2
+http+//deploy.virtual-labs.ac.in/labs/cse15/exp6/index.php%3fsection%3dtheory 2
+2+bit+comparator+logic+diagram 2
+http+//deploy.virtual-labs.ac.in/labs/ 2
+design+a+bcd+to+7+segment+decoder 2
+theory+of+nand+latches 2
+latch+circuit 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse16%2fexp05%2findexie.html 1
+7+segment+expriment+with+theory 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc01%2fexp2%2findex.php 1
+the+water+equivalent+of+calorimeter 1
+bcd+to+seven+segment+decoder+theory 1
+1+and+2+bit+comparator+theory 1
+output+flip+flop+jk 1
+jk+flip+flop+theory 1
+7+segment+theory 1
+theory+of+ic%37%34%39%30+decade+counter 1
+3+bit+multiplier 1
+why+do+we+put+grids+keeping+the+serration+at+right+angles+to+direction+of+shear 1
+pass+transistor+logic 1
+short+note+on+theory7segment+display+7447 1
+virtual+tensile+test+experiment 1
+stellerium+virtual+experiment 1
+bcd+to+seven+segment 1
+centroids+and+mechanism+theory 1
+mask+processing+on+an+image+theory 1
+half+adder+theory 1
+explain+bcd+to+seven+segment+decoder 1
+operation+on+images+theory 1
+cryptanalysis+lab 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc04%2f 1
+master+slave+jk+flip+flop+theory 1
+desktop 1
+jk+flipflop+theory 1
+4+bit+binary+counter+theory 1
+linux+virtual+lab 1
+theory+for+1+and+2+bit+comparator 1
+advantages+and+disadvantages+of+array+multiplier 1
+theory+on+up+down+counter 1
+short+note+on+bcd+to+seven+segment+decoder 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc01%2fexp10%2findex.php 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse11%2findex.php 1
+multiplexer+theory+for+lab 1
+seven+segment+display+theory 1
+conformation+analysis+of+dichloro+ethane 1
+theory+of+full+adder 1
+identifying+consonants+on+a+spectrogram+ch 1
+4+to+1+multiplexer+truth+table 1
+jk%ed%94%8c%eb%a6%bd%ed%94%8c%eb%a1%ad+%ed%8e%84%ec%8a%a4 1
+alu+ic 1
+digital+comparator 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 120
+theory 24
+of 12
+to 12
+segment 11
+http 11
+bcd 10
+decoder 9
+seven 7
+on 6
+and 6
+centroids 1
+stellerium 1
+outputs 2
+table 1
+shear 1
+7 4
+put 1
+d 2
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc01%2fexp10%2findex.php 1
+slave 1
+consonants 1
+tensile 1
+grids 1
+//deploy.virtual-labs.ac.in/labs/ 2
+adder 2
+output 1
+analysis 1
+digital 1
+decade 1
+circuit 1
+with 3
+flipflop 1
+logic 3
+desktop 1
+do 1
+flip 5
+disadvantages 1
+advantages 1
+we 1
+7447 1
+array 1
+direction 1
+design 2
+ch 1
+operation 1
+mask 1
+pass 1
+spectrogram 1
+master 1
+7segment 2
+image 1
+virtual 3
+right 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc01%2fexp2%2findex.php 1
+octal 2
+latches 2
+lab 5
+ic%37%34%39%30 1
+counter 3
+nand 2
+an 1
+the 2
+test 1
+experiment 4
+a 3
+flop 5
+bit 6
+dichloro 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2feerc04%2f 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse01%2findex.php 2
+filpflop 2
+2 4
+display 2
+j 2
+serration 1
+1 3
+k 2
+multiplexer 2
+down 1
+ic 1
+images 1
+%ed%8e%84%ec%8a%a4 1
+diagram 2
+for 2
+binary 1
+theory7segment 1
+full 1
+linux 1
+jk%ed%94%8c%eb%a6%bd%ed%94%8c%eb%a1%ad 1
+ethane 1
+cryptanalysis 1
+half 1
+mechanism 1
+comparator 5
+up 1
+equivalent 1
+short 2
+identifying 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse16%2fexp05%2findexie.html 1
+expriment 1
+at 1
+conformation 1
+explain 1
+//deploy.virtual-labs.ac.in/labs/cse15/exp6/index.php%3fsection%3dtheory 2
+processing 1
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse11%2findex.php 1
+transistor 1
+3 1
+calorimeter 1
+jk 6
+latch 1
+water 1
+alu 1
+note 2
+4 2
+why 1
+keeping 1
+truth 1
+multiplier 2
+angles 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+503 291 120060
+206 134 4853315
+502 352 179690
+400 1 317
+302 34 948
+500 3 3730
+404 4858 1268678
+301 331 85064
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 445
+/labs/cse22/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/index.html
+/labs/cse24/exp5/js/modernizr-1.5.min.js 2 -
+/labs/chem01/htl/nof1.html 2 -
+/admin.php 2 -
+/labs/eee10/exp4/PendulumForces.swf 2 -
+/labs/cse09/exp1/PendulumForces.swf 7 http://deploy.virtual-labs.ac.in/labs/cse09/exp1/index.html
+/labs/phy14/exp3/media/images/style.css 45 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/cse09/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp1/js/modernizr-1.5.min.js 10 http://deploy.virtual-labs.ac.in/labs/cse22/exp1/index.html
+/labs/ece08/exp6(e)/PendulumForces.swf 1 -
+/labs/cse19/images/temp/1412684652_5.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/ccnsb06/exp6_10/caffeine/layout.css 2 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6_10/caffeine/plot_IR_caffeine_exp6.html
+/labs/cse22/exp4/tmp/3a4924ce7s81eaddhaq9q47oc6/mlffnnState.png 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse09/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/mech08/img/assets/js/bootstrap-dropdown.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse22/exp9/tmp/3a4924ce7s81eaddhaq9q47oc6/input.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/graphbipartition.php
+/admin/editors/fckeditor/editor/filemanager/ 1 -
+/labs/eerc06/exp6/Multidegree.swf 1 -
+/labs/cse22/exp8/tmp/3a4924ce7s81eaddhaq9q47oc6/somState.png 11 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse19/fourier/choice4.png 11 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/ccnsb06/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp10/
+/labs/cse30/vlab3/myExp2_2_b/images/manual.jpg 11 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_2_b/index.php
+/labs/img/amo2009/bg/listing-item.png 1 http://deploy.virtual-labs.ac.in/labs/emt/
+/labs/ccnsb02/js/extensions/MathZoom.js 38 http://deploy.virtual-labs.ac.in/labs/ccnsb02/index.html
+/labs/eerc04/exp1/PendulumForces.swf 1 -
+/labs/cse20/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse20/exp1/index.html
+/labs/chs13/index.html 2 -
+/labs/cse18/manual/faq.html 5 http://deploy.virtual-labs.ac.in/labs/cse18/exp2/index.php
+/labs/eee10/exp2/PendulumForces.swf 1 -
+/labs/eerc05/exp7/media/images/style.css 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/cse09/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ccnsb07/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp10/index.html
+/labs/eerc05/exp9/media/images/forms.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/main.aspx 1 -
+/labs/cse19/css/override.css 158 http://deploy.virtual-labs.ac.in/labs/cse19/index.php
+/labs/chem01/ori/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/eerc05/exp9/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+/labs/chem01/hpc/wg.png 5 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/cse30/vlab3/myExp3_b/images/manual.jpg 50 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp3_b/index.php
+/labs/ece08/exp6(f)/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/cse14/final-build/EXP_1sep2010/layout/exp1.html 3 -
+/labs/eerc05/exp8/media/images/style.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/ece18/images/simulation.jpg 2 http://deploy.virtual-labs.ac.in/labs/ece18/
+/labs/cse14/trans.jpg 5 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/cse30/vlab3/myExp7_a/images/manual.jpg 1 -
+/labs/eerc05/exp2/media/images/style.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/eerc06/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/ccnsb06/exp5/layout.css 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp5/plot_ethylacetate.html
+/labs/eerc05/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/cse09/js/usersignup.js 343 http://deploy.virtual-labs.ac.in/labs/cse09/
+/labs/cse04/exp7/edit_area/%22+t.baseURL+%22edit_area.css 1 -
+/labs/ccnsb06/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp2/
+/labs/ccnsb06/exp9/PendulumForces.swf 1 -
+/labs/phy14/images/favicon.png 177 -
+/labs/cse04/exp9/jqminmax.js 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp9/lab.html
+/labs/phy14/exp3/media/images/panel.css 45 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/eerc05/exp9/media/images/panel.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/wp-login.php 22 http://www.google.com/
+/labs/ccnsb05/exp6/PendulumForces.swf 1 -
+/labs/ece08/exp4/js/modernizr-1.5.min.js 1 -
+/labs/cse09/js/mathjax/mathjax.js 1 -
+/labs/bio15/exp6/PendulumForces.swf 1 -
+/build/index.php 12 http://deploy.virtual-labs.ac.in/labs/cse01/index.php
+/labs/ece08/exp9(b)/PendulumForces.swf 1 -
+/labs/chem01/ori/wg.png 8 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/hss01/13_Prototyping%20of%20TV%20Remote%20Control%20Panel/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss01/13_Prototyping%20of%20TV%20Remote%20Control%20Panel/index.html
+/labs/ccnsb06/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse30/vlab3/myExp6_basic/images/manual.jpg 10 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp6_basic/index.php
+/labs/cse05/html/topics/recursion/index.html 1 http://deploy.virtual-labs.ac.in/labs/cse05/html/content.html
+/labs/cse24/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/chem01/ori/js/jquery-1.4.2.min.js 2 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/cse01/exp5/Searchtree.ppt 2 http://deploy.virtual-labs.ac.in/labs/cse01/exp5/index.php
+/labs/cse22/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/index.html
+/labs/eerc05/exp7/media/images/panel.css 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/cse14/exp_1sep2010/exp6/exp6_latch_positive.html 1 -
+/labs/ccnsb05/exp4/PendulumForces.swf 1 -
+/labs/cse09/js/cmdline.js 113 http://deploy.virtual-labs.ac.in/labs/cse09/exp2/index.html
+/labs/eee10/css/textures/glass.png 2 http://deploy.virtual-labs.ac.in/labs/eee10/exp9/index1.html
+/labs/phy14/exp5/media/images/forms.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/mech08/img/assets/js/bootstrap-typeahead.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse19/images/temp/1412794314_6.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/morph.php
+/labs/ccnsb04/exp2/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp2/
+/labs/cse30/vlab3/myExp9_a/images/manual.jpg 2 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp9_a/index.php
+/labs/ece08/exp9(a)/PendulumForces.swf 1 -
+/labs/hss03/Obtain%20the%20main%20line%20formula/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss03/Obtain%20the%20main%20line%20formula/index.html
+/labs/eerc05/exp1/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/index.htm 1 -
+/labs/cse05/html/code/arithmetic-interpreter/ 1 -
+/labs/cse19/images/temp/1412794314_5.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/morph.php
+/labs/mech08/img/assets/js/bootstrap-button.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/mech08/img/assets/js/bootstrap-tab.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/eerc05/exp9/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/index.html
+/labs/eee10/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eee10/exp2/index.html
+/labs/cse14/images/seperator.gif 70 http://deploy.virtual-labs.ac.in/labs/cse14/css/default.css
+/labs/cse22/exp4/tmp/f25nf4vstub3um422lq9bvm046/mlffnnState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/mech08/img/assets/js/bootstrap-collapse.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse14/js/beethoven.js 99 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/ccnsb04/exp8/experiment/thumb_bg.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp8/experiment/index.php
+/labs/ccnsb04/exp3/PendulumForces.swf 1 -
+/labs/cse16/exp06/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse16/exp06/index.html
+/labs/phy14/exp2/media/images/style.css 20 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/eerc03/exp11/.pdf 5 http://deploy.virtual-labs.ac.in/labs/eerc03/exp11/index.php
+/labs/eee10/exp9/js/modernizr-1.5.min.js 1 -
+/labs/hss01/03_Sensitivity,%20Errors%20And%20Task%20Complexity%20Measurements%20For%20Pointing%20Devices/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ece05/exp4/PendulumForces.swf 1 -
+/labs/chem01/ori/rg.png 8 http://deploy.virtual-labs.ac.in/labs/chem01/ori/ori4.php
+/labs/ccnsb06/exp6/js/modernizr-1.5.min.js 5 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp6/
+/labs/cse16/exp01/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse16/exp01/index.html
+/labs/ccnsb05/exp10/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ccnsb02/images/favicon.png 17 -
+/labs/eerc05/exp1/animation/images/panel.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/ccnsb05/exp1/js/modernizr-1.5.min.js 7 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/index.html
+/labs/ece08/exp1(a)/PendulumForces.swf 1 -
+/labs/chem01/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/ece05/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece05/exp1/index.html
+/labs/eerc02/exp3/PendulumForces.swf 1 -
+/labs/ccnsb07/exp5/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp5/index.html
+/labs/chs13/Thermal_files/editdata.mso 1 -
+/main.htm 1 -
+/.../integerRepresentation.pdf 1 -
+/labs/ccnsb05/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp10/index.html
+/labs/cse20/exp7/images/q10_sqerror.png 1 -
+/FCKeditor/editor/filemanager/ 1 -
+/labs/ece05/exp3/PendulumForces.swf 2 -
+/labs/civil13/js/jquery.inputfocus-0.9.min.js 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModDefault.php
+/labs/eerc05/exp6/js/modernizr-1.5.min.js 5 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/cse05/html/index/List_of_all_Experiments.html 1 -
+/labs/cse24/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/cse09/js/userlogin.js 330 http://deploy.virtual-labs.ac.in/labs/cse09/
+/labs/cse09/exp7/PendulumForces.swf 3 -
+/labs/cse22/exp5/applet/HopfieldExp5.pde&amp 1 -
+/robots.txt 188 -
+/labs/ece05/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece05/exp2/index.html
+/labs/eee06/exp1/New%20Cv/book.php 2 -
+/main.php 1 -
+/admin/sqlpatch.php/password_forgotten.php 1 -
+/labs/emt/faqs.html 1 -
+/labs/cse19/images/temp/fourier1_12.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/cse24/exp7/PendulumForces.swf 3 -
+/labs/cse19/fourier/choice3.png 10 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/bio15/exp8/PendulumForces.swf 2 -
+/labs/cse19/images/temp/fourier1_11.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/cse09/exp6/index.php 1 -
+/labs/cse19/fourier/choice5.png 10 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/eerc03/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/eerc05/exp7/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/index.html
+/labs/cse01/isad/1/self_evaluation/ 1 -
+/wp-admin/ 5 -
+/labs/chem01/hpc/rg.png 5 http://deploy.virtual-labs.ac.in/labs/chem01/hpc/hpc3.php
+/labs/eerc05/exp4/PendulumForces.swf 2 -
+/labs/eerc06/exp7/ShakeTable.swf 2 -
+/labs/ece08/exp6(b)/PendulumForces.swf 1 -
+/labs/cse01/exp6/index.html 1 -
+/labs/hss01/02_Webers%20Law/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss01/02_Webers%20Law/index.html
+/labs/cse14/images/hover.png 12 http://deploy.virtual-labs.ac.in/labs/cse14/css/default.css
+/labs/eerc06/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp9/index.html
+/labs/chs13/faq_files/aeyJhZmZpZCI6MTAxOCwic3ViYWZmaWQiOjEwMDQsImhyZWYiOiJodHRwOi8v.js 1 -
+/labs/cse09/exp6/PendulumForces.swf 5 http://deploy.virtual-labs.ac.in/labs/cse09/exp6/index.html
+/labs/ccnsb07/exp8/PendulumForces.swf 1 -
+/labs/cse09/exp8/PendulumForces.swf 1 -
+/labs/eerc05/exp5/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/index.html
+/labs/cse30/vlab3/myExp5_b/images/manual.jpg 30 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp5_b/index.php
+/labs/normalize.css 7 http://deploy.virtual-labs.ac.in/labs/cse02-CP/
+/labs/eerc05/exp1/js/modernizr-1.5.min.js 8 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/index.html
+/labs/cse09/exp5/index.php 1 -
+/labs/cse04/exp5/jqminmax.js 2 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/lab.html
+/labs/eerc06/exp5/Responce%20spectrum.swf 3 -
+/labs/eerc05/exp5/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp5/index.html
+/labs/mech08/img/assets/js/bootstrap-scrollspy.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/chs13/faq_files/suggest-10070.js 1 -
+/labs/cse14/final-build/Experiment.php 3 -
+/labs/cse09/css/hover.css 187 http://deploy.virtual-labs.ac.in/labs/cse09/
+/labs/hss01/13_Prototyping%20of%20TV%20Remote%20Control%20Panel/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/mech08/img/assets/js/bootstrap-carousel.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/a 1 -
+/labs/ece08/exp4/PendulumForces.swf 1 -
+/labs/cse19/fourier/choice6.png 10 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/eerc04/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/ccnsb03/images/favicon.png 9 -
+/labs/cse29/js/exp10/rss.dss.js 7 http://deploy.virtual-labs.ac.in/labs/cse29/exp10/index.php
+/labs/ccnsb04/exp8/PendulumForces.swf 1 -
+/labs/hss01/03_Sensitivity,%20Errors%20And%20Task%20Complexity%20Measurements%20For%20Pointing%20Devices/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss01/03_Sensitivity,%20Errors%20And%20Task%20Complexity%20Measurements%20For%20Pointing%20Devices/index.html
+/labs/cse07/exp1/PendulumForces.swf 2 -
+/labs/eerc05/exp3/media/images/style.css 1 -
+/labs/ccnsb04/exp9/PendulumForces.swf 1 -
+/apple-touch-icon.png 54 -
+/labs/cse09/exp3/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse09/exp3/index.html
+/labs/ece18/images/favicon.png 5 -
+/labs/phy14/exp5/media/images/panel.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/cse30/vlab3/myExp5_a/images/manual.jpg 2 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp5_a/index.php
+/labs/chem01/fpn/fm1.php 6 http://iitb.vlab.co.in/
+/labs/cse02-CP/normalize.css 1 http://deploy.virtual-labs.ac.in/labs/cse02-CP/exp8/simulation.html
+/labs/ece05/exp4/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ece05/exp4/index.html
+/images/favicon.png 2 http://www.google.co.in/accounts/Logout2
+/labs/img/amo2009/bg/body.jpg 62 http://deploy.virtual-labs.ac.in/labs/cse14/images_site/style.css
+/labs/cse14/preQuiz7php 2 -
+/labs/index.html 3 -
+/labs/ccnsb06/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp5/
+/labs/emt/images/waves/4.png 2 http://deploy.virtual-labs.ac.in/labs/emt/Experiment.php
+/labs/cse02/exp6/test1/build/towers.class 1 http://deploy.virtual-labs.ac.in/labs/cse02/exp6/test1/build/towers.html
+/labs/cse29/index.php%5Bcolor= 1 -
+/labs/cse30/vlab3/myExp9_b/images/manual.jpg 7 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp9_b/index.php
+/labs/eerc05/exp8/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/cse16/exp07/PendulumForces.swf 12 http://deploy.virtual-labs.ac.in/labs/cse16/exp07/index.html
+/labs/ece08/exp6(e)/js/modernizr-1.5.min.js 1 -
+/labs/ece01/exp7/simulation/indexexp5.html 2 http://deploy.virtual-labs.ac.in/labs/ece01/exp7/index.html
+/labs/ece19/exp3/images/decodergraph.png 1 http://deploy.virtual-labs.ac.in/labs/ece19/exp3/
+/labs/cse24/exp4/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/index.html
+/labs/cse30/vlab3/myExp3_a/images/manual.jpg 10 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp3_a/index.php
+/labs/emt/css/flexnav.css 124 http://deploy.virtual-labs.ac.in/labs/emt/experiments.php
+/labs/cse09/exp2/PendulumForces.swf 3 -
+/labs/ccnsb05/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/ccnsb02/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/cse19/fourier/choice2.png 11 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/emt/images/hover.png 29 http://deploy.virtual-labs.ac.in/labs/emt/css/default.css
+/apple-touch-icon-precomposed.png 52 -
+/labs/ece08/exp7(a)/PendulumForces.swf 1 -
+/labs/bio15/exp9/PendulumForces.swf 2 -
+/labs/cse14/faqs.html 1 -
+/labs/ccnsb07/exp5/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp5/index.html
+/labs/cse09/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc05/exp2/media/images/panel.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/cse30/vlab3/myExp2_1_a/images/manual.jpg 27 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_a/index.php
+/labs/emt/javax/media/j3d/Canvas3D.class 4 -
+/labs/hss01/03_Sensitivity,%20Errors%20And%20Task%20Complexity%20Measurements%20For%20Pointing%20Devices/PendulumForces.swf 2 -
+/default.htm 1 -
+/home/vlabs/hss01/src/lab/02_Webers%20Law/simulation/Webers%20Law/Exp-1.swf 2 -
+/labs/cse20/exp1/PendulumForces.swf 1 -
+/labs/cse19/images/temp/1412829821_22.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/eerc05/exp4/media/images/style.css 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/lowres.html
+/labs/cse14/js_site/functions.js 25 http://deploy.virtual-labs.ac.in/labs/cse14/index.php
+/labs/cse09/exp3/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc01/%23 3 -
+/labs/cse22/exp7/tmp/3a4924ce7s81eaddhaq9q47oc6/clnnState.png 4 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/clnn.php
+/labs/cse09/exp6/images/stories/petx.gif 1 -
+/labs/img/amo2009/bg/listing-item-red.png 61 http://deploy.virtual-labs.ac.in/labs/cse14/images_site/style.css
+/labs/ccnsb04/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 3 -
+/labs/cse19/theory.php%3Fexp%3Ddiff 1 -
+/labs/cse24/exp5/style.css 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/experiment10-1.php
+/labs/ece05/exp7/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece05/exp7/index.html
+/labs/cse22/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp10/index.html
+/labs/cse24/exp10/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp10/index.html
+/labs/cse24/exp2/jquery.js 5 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/labs/mech08/img/assets/js/bootstrap-alert.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse24/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse24/exp5/PendulumForces.swf 2 -
+/labs/eerc06/exp6/Multidegree.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp6/Multidegree.htm
+/labs/ece01/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece01/exp7/index.html
+/labs/sample1/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/mech08/img/assets/js/bootstrap-popover.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse14/kar1.jpg 1 -
+/labs/civil16/ss_6.pdf/trackback/ 5 http://deploy.virtual-labs.ac.in/labs/civil16/ss_6.pdf
+/labs/ece19/exp3/images/decodergraph1.png 1 http://deploy.virtual-labs.ac.in/labs/ece19/exp3/
+/index.aspx 1 -
+/labs/cse30/vlab3/myExp6_cascode/images/manual.jpg 6 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp6_cascode/index.php
+/labs/cse24/exp4/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp4/index.html
+/labs/eerc06/exp9/PendulumForces.swf 1 -
+/labs/cse24/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp8/index.html
+/labs/phy14/exp3/media/images/forms.css 45 http://deploy.virtual-labs.ac.in/labs/phy14/exp3/media/ve_photoelectric.html
+/labs/ece01/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eerc05/exp1/animation/images/forms.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/cse24/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp2/index.html
+/editors/fckeditor/editor/filemanager/ 1 -
+/admin/FCKeditor/editor/filemanager/ 1 -
+/labs/eerc05/exp1/animation/images/style.css 3 http://deploy.virtual-labs.ac.in/labs/eerc05/exp1/animation/highres.html
+/labs/eerc06/exp4/PendulumForces.swf 1 -
+/labs/phy19/exp1/PendulumForces.swf 2 -
+/labs/emt/javax/media/j3d/Node.class 8 -
+/labs/ece08/exp6(g)/js/modernizr-1.5.min.js 1 -
+/labs/ccnsb06/exp7/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp7/
+/admin/fckeditor/editor/filemanager/ 1 -
+/labs/chem01/ebu/lam_final2.jpg 1 -
+/labs/ccnsb07/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp2/index.html
+/labs/ccnsb06/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp1/
+/labs/sample1/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/sample1/exp1/index.html
+/labs/cse22/exp2/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp2/index.html
+/fckeditor/editor/filemanager/ 1 -
+/labs/cse02/exp8/en.wikipedia.org/wiki/ASCII 1 -
+/labs/cse19/images/temp/1412794314_3.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/morph.php
+/labs/cse09/exp9/PendulumForces.swf 11 http://deploy.virtual-labs.ac.in/labs/cse09/exp9/index.html
+/labs/cse24/exp9/PendulumForces.swf 1 -
+/labs/ccnsb01/js/MathJax/Mathjax.js 5 http://deploy.virtual-labs.ac.in/labs/ccnsb01/exp1/index.html
+/labs/bio15/exp4/PendulumForces.swf 3 -
+/labs/ece08/exp6(g)/PendulumForces.swf 1 -
+/labs/ccnsb05/exp9/PendulumForces.swf 2 -
+/labs/eerc03/exp7/4.Mouthpieces.pdf/fsd 1 http://deploy.virtual-labs.ac.in/labs/eerc03/exp7/4.Mouthpieces.pdf/fsd
+/labs/phy14/exp5/media/images/style.css 4 http://deploy.virtual-labs.ac.in/labs/phy14/exp5/media/ve_calorimeter.html
+/labs/ccnsb05/exp1/PendulumForces.swf 14 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp1/index.html
+/labs/ece01/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/civil13/js/jquery.min.js 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModDefault.php
+/default.php 1 -
+/default.asp 1 -
+/wp/wp-admin/ 5 -
+/labs/cse19/images/temp/fourier1_14.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/ccnsb02/js/extensions/MathMenu.js 39 http://deploy.virtual-labs.ac.in/labs/ccnsb02/index.html
+/labs/cse09/exp2/index.html%23 3 -
+/labs/chem01/ori/css/style.css 2 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/ece08/exp6(a)/PendulumForces.swf 1 -
+/labs/cse09/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse09/php/loginmodule.css 68 http://deploy.virtual-labs.ac.in/labs/cse09/php/register-form.php
+/labs/ece01/exp11/aim/index.php_files/content_1.png 1 http://deploy.virtual-labs.ac.in/labs/ece01/exp11/index.html
+/wordpress/wordpress/wp-admin/ 3 -
+/labs/eee10/js/data/datastore.js 2 http://deploy.virtual-labs.ac.in/labs/eee10/exp9/index1.html
+/labs/ece01/exp11/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ece01/exp11/index.html
+/labs/ccnsb04/exp8/js/modernizr-1.5.min.js 2 -
+/labs/cse24/exp6/PendulumForces.swf 3 -
+/labs/eee10/css/common.css 3 http://deploy.virtual-labs.ac.in/labs/eee10/exp9/index1.html
+/labs/mech08/img/assets/js/bootstrap-modal.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/chem01/ori/css/default.css 2 http://deploy.virtual-labs.ac.in/labs/chem01/ori/index.html
+/labs/cse19/images/temp/1412829821_21.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/1412684652_6.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/crossdomain.xml 29 http://deploy.virtual-labs.ac.in/labs/eerc01/exp4/index.php
+/main.html 1 -
+/labs/ccnsb04/exp9/js/modernizr-1.5.min.js 1 -
+/labs/cse04/exp2/jqminmax.js 7 http://deploy.virtual-labs.ac.in/labs/cse04/exp2/submission631145706.html
+/labs/eee06/Dreamweaver/lab.html 1 -
+/labs/phy14/exp1/media/images/style.css 68 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/hss01/13_Prototyping%20of%20TV%20Remote%20Control%20Panel/PendulumForces.swf 1 -
+/labs/cse17/forwardkinematics/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/index.html
+/administrator/index.php 2 -
+/labs/ccnsb04/exp5/experiment/thumb_bg.png 1 http://deploy.virtual-labs.ac.in/labs/ccnsb04/exp5/experiment/index.php
+/default.aspx 1 -
+/labs/eerc05/exp2/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/index.html
+/main.asp 1 -
+/labs/bio15/exp9/js/modernizr-1.5.min.js 1 -
+/wordpress/wp-admin/ 3 -
+/labs/cse09/exp5/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse09/exp5/index.html
+/labs/cse14/bar.jpg 1 -
+/labs/cse19/images/temp/fourier1_13.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/emt/images/seperator.gif 80 http://deploy.virtual-labs.ac.in/labs/emt/css/default.css
+/labs/phy14/js/MathJax.js 315 http://deploy.virtual-labs.ac.in/labs/phy14/
+/images/stories/petx.gif 1 -
+/labs/cse14/exp1.jpg 1 -
+/labs/cse22/exp4/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/index.html
+/labs/js/cmdline.js 224 http://deploy.virtual-labs.ac.in/labs/cse09/
+/home/vlabs/hss01/src/lab/02_Webers%20Law/simulation/Webers%20Law/Exp-2.swf 3 -
+/labs/cse17/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/cse30/vlab3/myExp2_3_a/images/manual.jpg 6 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_3_a/index.php
+/labs/bio15/exp2/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/sitemap.xml 1 -
+/labs/ccnsb06/exp8/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb06/exp8/
+/labs/cse09/index.php 2 -
+/labs/cse05/html/img/favicon/popl.png 12 -
+/labs/eerc05/exp4/media/images/panel.css 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/lowres.html
+/user 2 -
+/labs/ccnsb04/exp1/PendulumForces.swf 1 -
+/labs/eerc05/exp2/media/images/forms.css 6 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/media/lowres.html
+/labs/cse09/exp3/index.php 1 -
+/labs/cse09/exp8/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse20/exp5/RandomVariables.pdf 1 -
+/labs/ccnsb07/exp1/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/ccnsb07/exp1/index.html
+/labs/mech08/img/assets/js/bootstrap-transition.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse01/exp5/index.html 1 -
+/labs/chem01/http://http://virtual-labs.ac.in/licensing 1 -
+/labs/hss01/02_Webers%20Law/PendulumForces.swf 3 -
+/labs/cse12/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse12/exp1/index.html
+/labs/cse17/mapping/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse17/mapping/index.html
+/labs/eerc05/exp3/media/images/panel.css 1 -
+/labs/cse24/exp8/jquery.js 3 http://deploy.virtual-labs.ac.in/labs/cse24/exp8/index.html
+/labs/ccnsb06/exp9/js/modernizr-1.5.min.js 2 -
+/labs/cse19/images/temp/1412684652_8.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/phy14/exp2/media/images/panel.css 20 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/labs/mech08/img/assets/js/jquery.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/browserconfig.xml 3 -
+/labs/cse24/exp7/jquery.js 1 http://deploy.virtual-labs.ac.in/labs/cse24/exp7/index.html
+/labs/cse24/exp5/jquery.js 2 http://deploy.virtual-labs.ac.in/labs/cse24/exp5/index.html
+/labs/cse22/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/index.html
+/labs/eerc06/exp7/PendulumForces.swf 1 -
+/labs/eerc05/exp4/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/index.html
+/labs/eerc01/exp6/06 1 http://deploy.virtual-labs.ac.in/
+/index.asp 1 -
+/default.html 1 -
+/labs/eerc05/exp9/media/images/style.css 20 http://deploy.virtual-labs.ac.in/labs/eerc05/exp9/media/ve_plateload.html
+/labs/cse12/exp1/PendulumForces.swf 1 -
+/labs/eerc05/exp4/media/images/forms.css 7 http://deploy.virtual-labs.ac.in/labs/eerc05/exp4/media/lowres.html
+/labs/ccnsb02/js/extensions/v1.0-warning.js 35 http://deploy.virtual-labs.ac.in/labs/ccnsb02/exp1/index.html
+/apple-touch-icon-120x120.png 1 -
+/labs/eerc05/exp2/js/modernizr-1.5.min.js 10 http://deploy.virtual-labs.ac.in/labs/eerc05/exp2/index.html
+/labs/eerc05/exp6/PendulumForces.swf 4 http://deploy.virtual-labs.ac.in/labs/eerc05/exp6/index.html
+/labs/cse09/exp1/index.php 2 -
+/labs/ece08/exp6(a)/js/modernizr-1.5.min.js 1 -
+/labs/CCNSB06 1 -
+/labs/cse02/exp5/www.cprogramming.com/tutorial/lesson16.html 3 -
+/blog/wp-admin/ 5 -
+/labs/cse17/forwardkinematics/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse17/forwardkinematics/index.html
+/apple-touch-icon-120x120-precomposed.png 1 -
+/labs/ccnsb05/exp10/PendulumForces.swf 2 -
+/labs/eerc06/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/eee10/exp1/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/ece01/exp1/PendulumForces.swf 1 -
+/labs/ece05/exp5/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/ece05/exp5/index.html
+/labs/ece05/exp6/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/ece05/exp6/index.html
+/labs/ece18/images/introduction.jpg 3 http://deploy.virtual-labs.ac.in/labs/ece18/
+/labs/ece08/exp1(b)/PendulumForces.swf 1 -
+/labs/ccnsb07/latest_project/bin/iiit/vlabdemos/epr/bouncingball/bouncingBall$MyApplet.class 2 -
+/labs/bio15/exp7/PendulumForces.swf 2 -
+/labs/cse04/exp8/jqminmax.js 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/lab.html
+/labs/hss01/02_Webers%20Law/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/phy14/exp1/media/images/panel.css 68 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/old/wp-admin/ 4 -
+/labs/ccnsb05/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp6/index.html
+/labs/phy14/exp1/media/images/forms.css 68 http://deploy.virtual-labs.ac.in/labs/phy14/exp1/media/ve_dipolemoment.html
+/labs/eerc05/exp8/media/images/panel.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/cse17/forwardkinematics/PendulumForces.swf 1 -
+/labs/cse19/images/temp/1412794314_2.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/morph.php
+/labs/img/amo2009/bg/header-border.png 61 http://deploy.virtual-labs.ac.in/labs/cse14/images_site/style.css
+/labs/ece01/exp1/js/modernizr-1.5.min.js 2 -
+/labs/cse04/exp4/edit_area/%22+t.baseURL+%22edit_area.css 2 -
+/labs/civil13/js/jquery-ui.min.js 1 http://deploy.virtual-labs.ac.in/labs/civil13/experiment6/DoubGravModDefault.php
+/labs/cse04/exp1/jqminmax.js 12 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/lab.html
+/fckeditor/editor/filemanager/connectors/asp/upload.asp 1 -
+/labs/emt/js/beethoven.js 135 http://deploy.virtual-labs.ac.in/labs/emt/experiments.php
+/labs/emt/javax/media/j3d/Bounds.class 1 -
+/labs/cse09/exp2/index.php 1 -
+/labs/cse09/exp4/PendulumForces.swf 6 http://deploy.virtual-labs.ac.in/labs/cse09/exp4/index.html
+/labs/eerc05/exp3/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp3/index.html
+/labs/ece08/exp6(b)/js/modernizr-1.5.min.js 1 -
+/labs/cse14/Experiment.php%3Fcode%3DC006&sa 1 -
+/labs/eee10/exp9/PendulumForces.swf 1 -
+/labs/eerc05/exp8/media/images/forms.css 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/media/ve_vanshear.html
+/labs/mech08/img/assets/js/bootstrap-tooltip.js 1 http://deploy.virtual-labs.ac.in/labs/mech08/wetting.html
+/labs/cse14/trtf.jpg 5 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/home/vlabs/hss01/src/lab/02_Webers%20Law/simulation/Webers%20Law/Exp-3.swf 2 -
+/labs/phy14/exp2/media/images/forms.css 20 http://deploy.virtual-labs.ac.in/labs/phy14/exp2/media/ve_millikansexp.html
+/home/vlabs/hss01/src/lab/03_Sensitivity,%20Errors%20And%20Task%20Complexity%20Measurements%20For%20Pointing%20Devices/simulation/Video%20and%20Scripts/videoplayback.html 1 -
+/labs/ccnsb04/exp3/js/modernizr-1.5.min.js 1 -
+/labs/cse30/vlab3/myExp2_1_b/images/manual.jpg 24 http://deploy.virtual-labs.ac.in/labs/cse30/vlab3/myExp2_1_b/index.php
+/labs/cse19/images/temp/fourier1_15.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/eerc04/exp2/exp-2 2 -
+/labs/cse22/exp5/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp5/index.html
+/labs/ece18/css/override.css 2 http://deploy.virtual-labs.ac.in/labs/ece18/
+/labs/cse24/exp6/js/modernizr-1.5.min.js 1 -
+/index.php 3 -
+/labs/eerc05/exp8/PendulumForces.swf 1 http://deploy.virtual-labs.ac.in/labs/eerc05/exp8/index.html
+/labs/eerc05/exp7/media/images/forms.css 2 http://deploy.virtual-labs.ac.in/labs/eerc05/exp7/media/ve_vanshear.html
+/labs/eerc05/exp3/media/images/forms.css 1 -
+/labs/ccnsb05/exp9/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/ccnsb05/exp9/index.html
+/labs/ccnsb07/exp8/js/modernizr-1.5.min.js 1 -
+/labs/cse19/menu/images/sub_sep.gif 81 http://deploy.virtual-labs.ac.in/labs/cse19/menu/menu_style.css
+/labs/bio15/exp2/PendulumForces.swf 1 -
+/labs/cse29/exp6/media/Collision 1 http://deploy.virtual-labs.ac.in/labs/cse29/exp6/media/Collision
+/labs/cse09/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse14/css/flexnav.css 98 http://deploy.virtual-labs.ac.in/labs/cse14/Experiment.php
+/labs/cse24/exp7/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/cse24/exp7/index.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1560
+10.4.8.52 7666 29318 1712639762 20141031160021
+182.237.17.130 585 2258 22215609 20141009100239
+106.66.142.189 328 386 121286 20141006125021
+183.87.227.58 162 261 3053435 20141009003442
+202.131.98.170 115 410 2894721 20141009094124
+117.214.21.65 115 274 554579 20141006164648
+117.214.16.255 105 243 516020 20141008091721
+202.131.98.78 95 282 1292931 20141007165001
+112.196.18.146 91 375 3438538 20141009095937
+182.74.22.86 74 256 6217305 20141009111218
+1.186.174.181 5 5 18020 20141030193050
+149.156.136.68 0 1 4133 
+220.255.1.99 0 1 110185 
+130.108.16.163 0 1 29529 
+23.255.222.152 0 7 24588 
+77.87.79.45 1 1 146 20141003135603
+139.80.80.8 0 1 44856 
+220.255.1.116 0 1 3788 
+202.184.124.14 0 2 170312 
+66.90.73.46 4 4 36200 20141007125131
+1.9.162.11 0 4 241994 
+174.64.18.204 0 1 4133 
+41.86.149.2 6 25 475965 20141003150640
+103.24.62.100 0 1 30289 
+217.209.21.147 0 1 6844 
+113.193.165.189 5 18 43849 20141007152807
+85.115.58.180 1 8 80732 20141008115108
+78.160.251.16 0 1 29529 
+220.181.108.116 0 1 2478 
+202.62.121.67 0 10 851560 
+116.72.98.36 0 1 56056 
+103.21.125.76 15 36 496592 20141008165748
+122.179.37.123 0 1 29529 
+36.76.113.204 0 1 9780 
+94.54.120.124 0 1 69699 
+117.222.154.106 1 18 437627 20141004105757
+117.203.92.67 5 5 16183 20141013175535
+113.23.130.2 0 1 26387 
+67.225.59.254 0 1 44856 
+176.42.146.213 0 1 18278 
+203.215.120.238 0 2 196608 
+2.137.135.211 1 6 164473 20141005231827
+148.238.251.1 0 1 4133 
+117.217.252.189 0 1 3238 
+203.99.193.72 8 58 214835 20141008194524
+66.17.109.90 0 2 8440 
+141.0.9.215 1 15 36820 20141001004533
+103.31.34.2 0 3 210128 
+65.112.8.204 0 1 5891 
+182.68.212.122 7 33 83507 20141002090045
+220.181.108.90 0 1 8665 
+123.201.144.249 0 18 482766 
+14.139.61.212 4 18 46411 20141031164136
+151.26.168.46 0 1 35731 
+113.193.33.88 1 13 29885 20141009214204
+117.220.52.210 6 24 6809866 20141005145915
+82.145.217.168 0 2 1522812 
+182.71.130.10 0 1 29529 
+72.163.217.105 4 20 102392 20141001154244
+113.164.79.222 0 1 180001 
+192.58.125.17 0 1 29529 
+106.51.51.20 35 57 261823 20141006155144
+117.211.191.203 15 53 1746060 20141007145236
+182.156.35.205 0 2 117550 
+129.11.139.60 1 34 369301 20141006190720
+201.220.80.109 0 1 26387 
+117.207.37.61 0 1 504320 
+202.88.224.169 7 29 1141032 20141007120056
+165.91.148.47 0 3 117550 
+123.136.107.23 0 1 85156 
+117.201.253.57 18 22 60897 20141008231746
+2.221.208.158 0 3 140166 
+108.208.26.177 0 1 7066 
+67.172.139.150 0 1 21152 
+117.211.100.146 5 21 52640 20141001114333
+161.139.102.109 0 1 2297 
+49.206.141.130 8 24 64027 20141003080619
+110.88.56.34 0 1 707079 
+165.91.89.85 0 1 8398 
+27.97.21.113 2 2 6114 20141006233244
+202.62.71.154 7 22 98018 20141010203646
+14.96.41.43 10 24 69022 20141021151318
+117.196.186.52 2 13 30907 20141016120937
+174.24.250.185 0 1 28990 
+141.0.11.119 0 2 117550 
+122.96.59.103 0 1 188008 
+128.82.52.189 0 1 28990 
+141.0.10.6 0 1 3238 
+189.163.20.128 0 1 56056 
+95.131.110.104 0 1 21680 
+27.255.213.92 7 25 60406 20141007183817
+182.69.165.17 0 2 6476 
+117.198.117.253 1 20 73104 20141004104240
+27.106.96.115 5 36 114421 20141006201053
+201.116.20.58 3 19 181278 20141006084835
+118.138.117.228 1 39 236987 20141004054854
+171.96.159.59 0 1 138191 
+202.133.58.99 9 47 915274 20141007203910
+220.255.1.170 1 1 0 20141001100408
+118.97.95.182 0 2 24336 
+8.37.226.57 0 1 32393 
+14.139.86.99 7 24 91141 20141004205048
+123.201.197.219 2 2 5978 20141005022352
+117.211.162.131 0 1 3238 
+174.47.67.2 1 24 159139 20141007152154
+94.210.40.178 0 1 28910 
+200.21.217.218 25 78 283398 20141009023824
+23.27.220.24 5 20 49928 20141008181550
+116.203.61.62 13 28 79145 20141004170425
+220.67.124.96 0 3 37903 
+220.76.170.99 1 27 401053 20141005174401
+27.123.171.233 0 1 85156 
+176.46.193.137 0 1 19995 
+141.0.8.152 1 19 61588 20141002054606
+109.165.198.1 0 1 35731 
+120.63.180.132 7 39 428263 20141006132106
+78.171.85.129 0 6 688132 
+8.37.224.129 0 1 26387 
+118.102.191.35 43 153 9145567 20141007144610
+108.227.89.28 0 1 29529 
+210.212.144.88 19 35 119385 20141030152442
+178.250.250.21 0 2 37582 
+130.245.191.106 0 1 28990 
+182.65.250.56 52 173 12222197 20141006152243
+172.56.27.14 0 1 3238 
+202.164.47.216 0 2 232806 
+216.109.8.110 0 1 8399 
+62.129.49.106 1 20 99932 20141003193547
+117.214.82.82 0 2 969232 
+182.188.146.250 0 1 29529 
+39.32.86.89 0 1 28990 
+37.228.105.179 9 45 146457 20141006101324
+208.78.85.244 2 2 3313 20141006154359
+37.228.107.67 1 20 99932 20141005174822
+50.151.45.141 0 1 7382 
+157.55.39.163 0 1 24606 
+182.74.94.118 13 55 130938 20141030152930
+91.219.223.217 1 12 28332 20141001005521
+74.12.205.126 0 1 4419 
+131.228.29.96 0 1 497 
+121.135.57.14 0 1 7066 
+117.204.49.10 1 18 59078 20141005121259
+103.224.146.216 2 2 6443 20141004135032
+27.251.102.130 13 16 347609 20141001133058
+106.215.254.52 3 18 105122 20141001082551
+190.136.44.2 2 15 67856 20141003214612
+49.248.107.92 0 1 40947 
+152.23.116.185 0 1 28990 
+141.0.9.151 11 45 1968968 20141002201350
+70.39.187.36 3 21 101752 20141003100914
+129.2.129.152 0 1 4133 
+202.71.17.182 0 1 19995 
+14.139.187.227 15 32 306191 20141006194110
+112.215.36.142 0 1 514437 
+87.107.193.5 1 1 3239 20141008172908
+72.218.154.144 0 1 5118 
+129.10.18.168 0 1 34956 
+130.49.82.214 0 1 29529 
+8.37.224.126 7 26 64886 20141004134225
+71.177.174.83 0 1 85156 
+192.55.55.37 0 1 40947 
+82.145.218.76 0 2 386164 
+131.228.29.78 0 1 4746 
+121.172.87.14 0 1 44856 
+68.80.213.83 3 16 38942 20141001083955
+37.228.107.114 0 2 227449 
+112.215.66.76 0 1 2510 
+70.39.185.159 3 17 91838 20141008231933
+49.14.41.167 0 1 435819 
+138.100.104.189 0 1 35731 
+117.196.2.220 1 14 32395 20141008103536
+220.255.1.70 1 1 3568 20141008215451
+209.73.137.2 0 2 90219 
+196.12.53.135 25 76 1317796 20141007123238
+83.153.72.106 2 4 20303 20141008131653
+93.186.31.81 0 2 5797 
+82.145.210.180 0 2 1513364 
+70.39.186.190 6 34 82644 20141004005648
+210.212.207.2 7 22 68594 20141011091835
+183.171.165.177 0 4 134200 
+89.136.64.195 0 1 6827 
+122.181.11.242 8 24 104248 20141006024655
+93.186.23.114 1 4 9561 20141005210527
+176.92.40.158 7 18 322606 20141001054924
+210.119.106.47 0 2 16846 
+1.34.96.93 1 72 353993 20141007162037
+130.235.190.151 1 18 391405 20141007185717
+27.34.255.51 0 5 46217 
+155.232.31.18 0 5 200597 
+121.52.146.235 0 1 28990 
+186.1.204.62 7 31 77065 20141002221611
+78.101.48.190 3 19 101796 20141004192143
+165.194.5.58 0 1 7919 
+220.255.1.44 1 2 31595652 20141008215537
+54.92.252.189 2 2 6560 20141008083736
+150.70.97.119 0 1 85156 
+202.21.96.204 0 1 9780 
+59.88.68.89 7 22 98130 20141026004626
+98.209.191.17 0 1 100030 
+182.237.17.132 7 12 63189321 20141007162306
+14.139.155.210 0 3 290915 
+24.240.31.62 0 1 44856 
+65.49.14.83 1 2 5282 20141004131951
+117.211.131.10 5 19 49686 20141029111100
+175.101.144.54 0 6 216892 
+73.167.12.131 0 1 17901 
+59.89.2.10 6 21 56207 20141005121147
+188.34.92.238 0 1 29529 
+103.246.84.74 3 17 100116 20141007205719
+196.200.25.210 4 20 102392 20141008205039
+128.252.20.177 0 1 28990 
+131.228.29.4 1 1 3074 20141007113524
+117.224.200.7 6 21 53351 20141006091040
+189.12.254.198 0 1 162813 
+199.15.233.137 2 2 6258 20141009054633
+117.204.2.221 8 32 79299 20141002224749
+117.211.162.170 12 18 42385 20141001104339
+92.62.170.81 0 1 35440 
+142.137.36.133 0 1 9780 
+114.79.18.90 0 1 5118 
+106.51.34.203 31 85 309177 20141007234208
+193.14.42.178 1 13 29964 20141004003056
+111.243.15.248 0 1 10130 
+77.125.13.132 3 19 101796 20141007112550
+176.203.95.221 3 18 99286 20141006015704
+103.4.125.30 0 1 28990 
+150.134.234.101 0 3 145894 
+182.70.32.64 8 21 51904 20141001124010
+175.138.174.143 0 3 142238 
+161.246.45.209 0 1 9151 
+98.196.38.179 0 1 44508 
+117.205.137.150 6 26 126514 20141006223550
+202.125.94.27 16 44 4152117 20141006112355
+131.243.99.5 0 4 104934 
+103.226.87.226 5 32 145098 20141002231056
+114.79.12.232 5 6 15058 20141006193057
+119.63.193.194 1 1 177 20141001061914
+122.177.11.67 0 1 13317 
+180.191.68.204 0 6 21499 
+196.20.73.3 0 3 650604 
+54.82.27.165 3 3 8933 20141008084036
+184.167.77.0 0 1 34956 
+128.193.152.163 2 26 1572361 20141008061719
+27.124.7.14 1 21 65843 20141006220347
+210.216.80.21 7 34 773768 20141005135447
+175.140.236.114 0 1 6844 
+1.39.62.197 0 1 28990 
+115.240.86.171 0 1 5118 
+41.160.48.227 0 1 63573 
+198.182.56.5 0 1 10130 
+27.159.216.201 1 1 11010 20141006193242
+196.200.151.21 0 1 162813 
+101.63.217.117 2 2 2760 20141005074920
+116.240.195.164 0 1 83025 
+122.179.97.235 0 19 95721 
+202.60.14.14 1 19 73545 20141004110858
+24.240.34.231 0 1 3238 
+203.185.57.176 19 36 140120 20141006155343
+82.145.216.180 1 7 96393 20141003115154
+157.55.39.69 0 2 84581 
+12.104.244.6 3 19 48366 20141008194530
+115.240.29.238 0 1 29529 
+117.213.155.208 2 15 67856 20141003214326
+117.197.115.179 3 20 616047 20141005030632
+150.70.97.96 0 1 85156 
+199.190.45.39 11 59 294037 20141006142143
+185.10.104.130 21 21 60856 20141023040904
+98.115.73.200 0 3 117550 
+202.63.100.119 9 24 104498 20141022005858
+110.21.31.85 1 20 99932 20141008104431
+27.255.217.58 2 28 1037799 20141003142653
+210.125.184.70 0 4 158763 
+14.98.185.146 16 36 97462 20141002173030
+180.148.41.241 11 27 92630 20141016214321
+93.186.31.98 0 2 14526 
+220.255.2.81 0 1 410 
+113.210.0.236 0 2 117550 
+220.181.132.199 1 1 146 20141006103447
+37.228.107.136 0 1 32393 
+37.228.106.250 2 13 30907 20141031072545
+37.228.106.134 1 16 1154746 20141006094637
+115.242.50.234 0 3 259449 
+113.193.32.162 6 8 22509 20141005012311
+212.160.156.18 16 55 752795 20141007151842
+121.97.199.28 6 7 8710 20141009065921
+213.226.12.18 0 1 9780 
+124.6.181.216 0 1 4419 
+129.2.129.92 2 22 69565 20141001115153
+122.176.65.52 0 1 43534 
+98.210.11.114 0 1 43078 
+138.67.189.2 0 1 4133 
+111.91.231.103 1 25 131294 20141008234059
+163.47.13.94 1 12 927607 20141006215829
+152.106.99.139 0 1 63573 
+139.147.31.181 0 1 28990 
+144.36.231.127 8 31 673475 20141006064930
+58.228.119.62 0 1 19646 
+182.68.31.131 6 19 48340 20141009155904
+106.221.153.31 13 59 260150 20141008162504
+41.89.103.2 0 2 7657 
+193.136.124.165 0 1 4419 
+14.42.178.54 0 1 17357 
+117.213.146.102 0 1 28990 
+180.215.11.87 0 1 19995 
+117.193.154.253 0 1 3238 
+115.115.159.130 5 21 51104 20141001113455
+178.138.99.53 0 1 29529 
+103.16.71.21 15 23 171382 20141004180547
+187.35.168.35 0 1 35731 
+117.195.90.190 0 4 769776 
+5.236.250.28 0 8 484616 
+70.194.129.201 0 2 11846 
+27.7.136.231 1 12 27593 20141007102320
+14.139.207.126 14 57 724002 20141007152630
+106.51.56.30 7 19 54555 20141007120203
+27.251.37.41 0 1 8103 
+118.70.129.184 0 2 81894 
+165.91.245.86 0 1 29529 
+117.206.195.225 2 15 67856 20141008132149
+223.236.58.221 0 1 40947 
+209.147.144.15 0 1 10130 
+129.210.115.12 0 1 3817 
+78.38.67.210 5 21 54391 20141002175450
+129.2.129.221 0 1 4133 
+223.235.118.250 0 1 6827 
+101.222.241.125 1 14 32061 20141002113038
+79.115.29.52 0 1 26531 
+117.226.237.213 0 1 29529 
+14.99.99.241 0 2 36356 
+173.177.77.121 0 1 26387 
+121.58.203.140 2 13 931766 20141001114643
+133.6.202.233 1 13 81613 20141001114810
+184.172.226.131 1 1 9419 20141030222605
+117.211.138.67 8 38 181678 20141007152718
+75.215.0.9 0 1 60474 
+117.197.227.51 2 14 33204 20141023184210
+95.199.13.129 1 13 274683 20141007225749
+201.76.59.54 0 1 3322 
+200.29.103.129 0 13 517697 
+107.167.99.234 3 18 45670 20141002124733
+220.255.1.85 1 1 638 20141008215555
+62.65.199.89 0 1 8103 
+70.31.48.140 0 1 13317 
+49.200.217.9 7 37 487479 20141006094501
+66.249.83.35 0 4 36003 
+124.184.5.192 0 1 40947 
+106.220.57.60 1 13 34362 20141017225002
+27.124.53.44 5 21 81210 20141010211221
+161.139.152.241 0 1 3322 
+146.185.33.78 10 46 42578398 20141001233744
+196.15.16.100 9 31 671306 20141001023722
+50.27.25.14 0 1 29529 
+165.91.12.229 0 1 3238 
+203.188.54.186 0 1 5118 
+14.139.121.55 0 1 29529 
+115.248.50.34 0 2 62627 
+175.157.144.176 0 1 35731 
+68.51.84.105 2 23 184697 20141004031819
+110.89.62.12 2 2 8257 20141007054245
+8.37.228.94 2 10 42938 20141004110326
+41.78.77.253 1 17 348871 20141001143902
+204.228.117.196 0 1 162813 
+210.212.174.82 0 1 5118 
+210.212.49.30 2 25 784692 20141008100112
+112.104.85.109 0 1 28990 
+14.139.212.226 41 128 2636693 20141007233458
+175.198.69.109 0 1 29529 
+23.236.124.39 1 4 9480 20141003135653
+106.76.121.238 11 24 63920 20141001122500
+124.197.137.27 0 1 5118 
+27.124.53.147 7 19 49207 20141014230621
+24.151.21.131 0 1 3659 
+182.186.177.54 1 19 61588 20141001184154
+121.169.242.171 0 1 28910 
+141.7.144.171 7 26 121351 20141002195810
+202.133.58.54 1 13 34362 20141017221143
+1.22.77.77 5 31 77270 20141002194946
+117.194.212.246 1 1 4959 20141005200842
+117.194.96.196 3 16 41531 20141023212142
+31.223.249.178 0 1 7066 
+118.71.25.36 0 1 29529 
+197.243.214.168 0 1 26201 
+118.102.191.45 2 27 62179 20141007103434
+118.131.225.86 0 1 4074 
+119.204.103.10 0 1 44856 
+105.112.8.15 0 2 1886 
+141.213.57.31 0 1 29529 
+106.220.167.163 2 2 6888 20141003100916
+210.186.162.220 0 4 240776 
+94.175.39.219 0 1 26387 
+118.100.139.124 0 2 170312 
+98.162.213.119 0 1 85156 
+98.242.84.184 0 3 109550 
+113.210.0.217 0 1 3322 
+190.85.209.211 0 1 3322 
+37.228.105.200 3 18 105122 20141005231438
+46.62.244.189 5 33 175490 20141006223853
+14.139.242.69 3 19 101796 20141002154544
+141.113.86.92 1 17 126476 20141007163001
+14.141.126.58 18 50 191916 20141029102657
+106.51.16.155 5 24 107037 20141007080347
+180.93.136.115 2 27 185211 20141001042634
+160.93.143.5 1 20 73104 20141006202817
+113.210.137.144 0 2 170312 
+75.108.5.12 0 3 117550 
+117.220.77.111 12 30 129129 20141023123755
+117.249.195.132 71 139 368138 20141007234340
+121.52.154.92 0 1 29529 
+131.228.29.94 0 1 4746 
+128.195.204.117 0 1 29529 
+125.21.22.83 7 32 223132 20141007190823
+105.112.8.21 0 2 4989 
+192.206.245.200 0 1 6227 
+202.29.62.202 0 1 4419 
+128.82.31.36 0 1 28990 
+8.37.225.187 4 36 116759 20141004193105
+183.82.90.33 3 19 101796 20141004090248
+120.151.38.118 0 3 102093 
+117.211.18.13 0 1 63573 
+117.220.80.105 8 23 70227 20141012182604
+58.173.52.21 1 3 9374 20141008071450
+137.132.250.14 0 1 29529 
+117.209.251.17 19 118 4970982 20141005090203
+117.201.210.134 2 13 30907 20141020222915
+71.254.76.35 2 2 7577 20141006032318
+115.119.194.130 0 1 3238 
+193.164.114.35 0 1 23233 
+37.228.107.202 5 43 203336 20141002162905
+14.194.209.135 1 1 417 20141007114344
+103.27.8.42 5 17 42798 20141015142806
+116.202.176.187 6 19 61778 20141007172347
+112.133.224.178 0 1 100030 
+68.9.198.16 1 19 51135 20141008174750
+1.39.63.184 2 14 33204 20141018202740
+220.255.1.124 0 1 106 
+220.255.2.196 1 1 1511 20141008215438
+171.98.150.31 0 1 29529 
+183.83.227.174 0 3 386917 
+27.56.8.98 3 12 85078 20141007193625
+58.26.207.170 0 1 4133 
+107.167.107.158 4 18 91825 20141006114646
+128.185.88.152 5 19 51072 20141017163023
+192.100.165.192 1 19 529596 20141004230103
+1.22.113.181 10 24 69131 20141004175332
+94.56.132.85 3 17 44061 20141001111455
+198.168.48.225 0 1 29529 
+197.211.238.41 0 1 18278 
+202.184.124.13 0 4 235100 
+50.117.34.80 16 40 208167 20141001174116
+112.208.42.8 0 1 322524 
+115.240.171.173 0 1 5118 
+70.39.186.62 3 16 181334 20141002174151
+138.67.184.111 0 1 4133 
+220.255.1.129 1 1 353 20141008215542
+129.32.224.75 1 11 24855 20141001000423
+194.170.173.26 3 9 44105 20141001130510
+117.206.232.99 0 1 85156 
+114.37.156.181 0 1 3238 
+94.77.239.85 0 1 3737 
+117.211.48.96 8 32 2704169 20141007140216
+103.243.237.5 1 22 163734 20141003160134
+36.71.118.244 9 22 109704 20141003044041
+202.12.103.120 0 3 88587 
+27.58.204.129 2 2 3892 20141008234314
+119.226.42.182 12 49 123080 20141010125331
+106.208.105.182 0 1 16607 
+24.150.58.93 0 1 100030 
+133.41.92.12 2 14 33200 20141006154836
+117.201.210.204 0 3 1007502 
+27.123.171.35 0 1 85156 
+125.16.18.26 0 1 6844 
+115.97.3.208 2 2 6560 20141016163322
+58.27.57.121 0 6 245996 
+41.47.150.129 13 37 2547859 20141006104830
+204.169.29.107 10 57 1723390 20141007211641
+202.30.9.21 1 20 51135 20141007104534
+14.139.171.131 1 13 29885 20141014141530
+59.95.31.29 0 2 75145 
+27.97.25.22 20 80 72080 20141002151827
+210.212.133.112 10 23 249214 20141002143948
+115.252.67.234 14 52 605875 20141001141836
+117.241.184.104 8 27 1078786 20141005124633
+125.164.108.167 0 1 5118 
+62.210.78.209 9 9 57909 20141001004435
+122.177.52.172 1 14 32061 20141006130941
+115.242.15.78 2 15 81618 20141002172944
+14.139.249.82 0 2 62488 
+142.59.138.199 1 23 151036 20141009061620
+117.192.108.29 0 1 44856 
+14.141.184.67 0 1 3238 
+203.199.213.82 7 39 181588 20141008070150
+220.255.1.147 0 1 30914 
+69.80.20.174 0 1 353771 
+92.50.75.58 1 18 61488 20141007132610
+61.109.73.142 0 1 7066 
+134.3.75.179 3 19 101796 20141001185224
+107.167.107.197 2 12 27795 20141004080310
+37.59.28.77 3 3 16625 20141006120119
+199.111.248.79 0 1 4419 
+117.233.176.29 9 39 105109 20141003165020
+60.48.86.216 0 1 85156 
+141.135.150.104 0 1 4419 
+220.255.1.139 0 1 3336 
+65.49.14.142 0 1 2297 
+68.12.112.8 0 1 3238 
+210.212.161.170 1 13 81613 20141008151215
+36.72.254.84 0 1 3238 
+93.186.23.115 0 2 5677 
+192.8.214.105 23 57 781477 20141004043437
+91.200.12.71 0 1 336393 
+65.49.14.157 0 1 30914 
+1.39.14.251 7 36 644581 20141008220318
+223.196.201.36 0 15 690414 
+117.197.211.79 1 16 39966 20141001070752
+116.203.73.87 35 59 323707 20141017000555
+37.228.106.251 9 35 122418 20141005213127
+220.255.2.192 0 2 27461 
+106.79.92.251 0 2 7455 
+1.38.4.14 3 20 101796 20141004052044
+81.49.188.29 2 19 394184 20141001232339
+114.143.233.3 6 39 488582 20141008115620
+223.234.140.199 0 1 35731 
+210.125.184.151 0 4 102136 
+193.140.73.50 0 3 214118 
+101.63.234.140 0 1 24394 
+131.228.29.54 0 1 2009 
+196.24.158.121 0 22 1885226 
+59.145.117.138 2 15 67856 20141005195717
+171.96.240.177 0 2 55573 
+37.228.104.235 0 3 149944 
+49.202.194.245 1 20 99932 20141007162124
+160.111.250.108 0 1 162813 
+223.223.136.220 1 20 99932 20141004110117
+130.108.24.155 0 1 8398 
+1.39.27.181 0 1 85156 
+115.242.242.77 12 56 866023 20141008192552
+180.191.69.252 1 5 17703 20141006124704
+37.228.106.248 3 17 91838 20141006095859
+112.215.66.75 0 2 39019 
+213.205.251.233 0 1 322524 
+46.19.227.254 2 15 67856 20141005011600
+202.164.36.186 70 200 555753 20141010113003
+131.228.29.63 0 1 1780 
+173.68.104.122 0 2 52014 
+14.139.34.2 5 37 412784 20141005145257
+113.57.77.181 0 1 33996 
+49.206.138.58 0 1 21152 
+163.118.203.123 0 1 3238 
+203.190.148.228 8 49 257752 20141004134145
+59.91.255.239 0 1 504320 
+196.210.112.249 0 1 586211 
+147.83.13.68 0 1 26387 
+123.63.115.67 1 20 73104 20141008070151
+64.150.4.1 3 17 92333 20141008234814
+211.100.46.167 0 1 5891 
+98.253.50.38 2 4 11823 20141003071417
+93.186.31.83 0 2 5464 
+185.10.104.194 24 26 68441 20141018131716
+117.204.87.203 3 3 9446 20141006082408
+65.255.37.147 7 36 171544 20141002220156
+106.77.233.77 0 3 227449 
+175.138.139.124 1 20 282163 20141004192320
+65.70.248.154 2 4 10514456 20141007042129
+199.190.46.249 0 1 0 
+117.218.26.34 12 42 159046 20141007112610
+79.106.97.186 0 1 35731 
+95.54.216.27 0 1 24401 
+121.122.175.24 0 3 109550 
+103.14.90.85 0 1 2386 
+39.55.182.71 0 1 26387 
+95.140.241.190 0 1 35731 
+8.37.224.118 16 34 95086 20141007193558
+54.236.253.2 4 23 57939 20141008212640
+98.162.212.243 0 3 117550 
+77.170.72.20 0 14 44979 
+14.139.110.50 8 38 2072708 20141009121320
+193.170.124.198 1 19 282103 20141002124239
+193.205.162.69 0 1 4419 
+68.204.138.5 10 44 721255 20141002200431
+122.171.96.143 1 10 104974 20141002161048
+186.80.164.235 0 3 102093 
+93.58.75.243 0 1 26531 
+103.233.116.138 0 2 57900 
+117.204.8.137 6 18 19415 20141027231120
+137.189.90.241 0 1 8398 
+192.99.149.88 6 6 1062 20141001121807
+122.254.127.34 0 1 9780 
+216.100.252.242 3 19 101796 20141001030526
+62.99.137.58 0 1 4133 
+37.228.106.111 0 2 201475 
+103.21.126.78 8 33 362428 20141009110942
+95.180.121.61 0 1 35731 
+122.160.137.115 7 23 88631 20141009204437
+49.206.93.97 0 3 126998 
+117.195.15.172 0 1 100030 
+160.44.230.209 0 1 292472 
+168.63.200.167 2 16 161200 20141003114955
+220.255.1.160 0 1 2009 
+209.190.82.137 1 1 146 20141001220506
+117.198.149.102 10 50 1075801 20141002221851
+62.210.84.18 1 1 15521 20141006153732
+36.81.206.205 37 55 237907 20141028183206
+180.215.60.10 0 1 100030 
+203.199.213.130 28 101 1470123 20141004213915
+220.225.61.210 68 155 2298348 20141007132310
+112.215.66.71 1 1 2999 20141004005246
+103.21.125.78 8 35 2347350 20141007120823
+183.171.160.8 0 3 117550 
+69.166.47.99 0 1 8103 
+39.212.84.33 0 1 9780 
+117.220.232.215 0 1 2510 
+131.253.26.234 1 1 3624 20141008133915
+202.133.58.74 0 1 29529 
+112.198.82.126 6 12 84079 20141002202523
+14.139.122.114 0 1 28990 
+66.133.45.5 1 20 99932 20141004220923
+193.201.224.74 1 1 177 20141001121749
+117.208.77.181 3 31 398557 20141005151626
+49.248.167.30 1 16 876881 20141004185123
+95.215.162.144 0 1 1811 
+124.253.224.178 0 1 548728 
+70.51.82.12 1 28 341289 20141005203956
+157.55.39.164 0 2 7859 
+168.169.225.172 8 40 990464 20141001202734
+129.59.122.13 0 1 3238 
+118.102.191.37 4 53 1747512 20141009101401
+190.122.99.122 0 1 4133 
+137.149.218.183 0 1 16703 
+49.201.234.37 0 3 254016 
+70.39.185.97 2 6 3630 20141006152938
+110.168.142.96 0 2 9187 
+117.211.138.215 12 32 167445 20141021115750
+212.19.138.3 0 1 69699 
+117.222.33.188 0 14 969992 
+159.155.144.1 3 18 46614 20141004134051
+199.47.81.11 1 1 4211 20141007220729
+182.237.17.131 16 79 63400907 20141008175826
+122.62.87.65 0 1 28910 
+103.5.18.83 2 15 67856 20141001190014
+126.19.111.135 1 1 11926 20141008173510
+65.49.14.154 0 1 37197 
+220.255.1.121 0 1 2556 
+14.97.161.91 12 41 111858 20141006115054
+131.228.29.56 0 1 2556 
+193.190.147.188 0 2 59058 
+222.235.53.226 0 2 72607 
+1.23.178.131 7 27 376472 20141010200346
+211.9.34.68 0 1 28910 
+14.139.238.115 1 13 29885 20141017124214
+105.112.8.19 0 1 497 
+50.18.200.106 0 1 9601 
+67.71.5.230 1 17 348871 20141005193844
+93.186.23.113 0 1 4746 
+89.140.184.41 0 1 62939 
+36.73.149.39 1 7 39570 20141002083735
+180.211.117.126 7 22 69289 20141016115319
+78.180.68.157 0 3 37903 
+46.248.194.53 0 2 114260 
+49.15.203.79 3 10 51307 20141007205320
+203.110.246.230 6 34 191954 20141009050808
+115.111.61.66 0 1 42386 
+59.88.243.25 1 20 99932 20141003154631
+39.7.49.77 0 3 12573 
+93.186.16.245 0 1 195056 
+101.221.128.217 11 59 642563 20141002093825
+133.6.207.10 1 13 81613 20141003120726
+98.248.99.197 0 1 21680 
+23.27.249.234 9 29 226840 20141007175243
+129.2.129.26 2 22 69565 20141004233822
+117.211.50.239 13 30 875403 20141001115617
+117.200.179.98 4 10 151016 20141004002710
+27.107.38.95 0 1 176379 
+117.201.255.250 18 50 105815 20141006215734
+67.174.106.61 0 1 21152 
+220.225.218.213 6 6 17697 20141008154248
+59.91.154.181 5 52 1415091 20141001220032
+182.71.102.10 49 164 1145771 20141020154146
+61.78.168.157 1 21 66101 20141005072045
+171.255.37.193 0 4 13288 
+117.211.143.45 2 15 67856 20141008183601
+169.150.128.83 0 1 279123 
+89.100.76.189 7 24 1772880 20141003140920
+27.124.40.180 0 1 29529 
+119.235.49.4 1 20 99932 20141009065835
+182.73.228.250 9 23 73599 20141009175538
+176.238.173.187 14 71 563841 20141003234155
+197.226.124.42 0 1 29529 
+129.100.225.167 0 1 4133 
+62.210.122.209 10 10 69190 20141003140845
+93.115.94.85 1 1 1214 20141006112842
+210.125.65.150 0 1 883547 
+130.49.92.91 0 1 40947 
+113.193.152.254 0 1 5118 
+67.6.149.244 0 1 4133 
+14.139.114.178 11 19 378847 20141001091033
+203.115.123.20 15 94 803745 20141013145104
+24.114.79.217 0 1 85156 
+112.215.66.73 0 4 10730 
+1.39.62.88 1 20 63333 20141008190527
+202.170.51.251 0 2 127146 
+99.240.245.125 0 1 36881 
+173.25.248.202 1 2 22794 20141001032859
+117.239.103.162 66 209 139687864 20141008122252
+112.215.66.78 1 3 6807 20141004005242
+212.101.252.7 0 2 68691 
+210.48.222.13 0 8 415548 
+91.140.183.27 0 2 114260 
+35.50.23.26 1 18 116185 20141002222907
+131.228.29.43 0 1 1822 
+69.61.233.50 0 1 3238 
+117.214.22.195 5 5 15883 20141008153525
+161.139.102.106 0 4 9846 
+182.68.190.53 2 15 67856 20141006214121
+183.171.178.198 3 22 966854 20141003173813
+105.112.8.17 1 2 6062 20141004040429
+204.169.134.11 4 32 158240 20141003020629
+115.248.114.51 0 2 553157 
+122.52.127.218 0 1 504320 
+115.164.218.231 0 1 29529 
+154.101.242.203 3 18 100630 20141003194408
+138.130.237.6 3 33 911293 20141006134431
+121.205.200.137 2 2 8257 20141020012308
+103.250.138.181 1 1 4386 20141008163351
+161.139.102.107 1 3 10252 20141009122547
+103.21.127.60 4 23 113158 20141005172325
+98.254.90.18 0 1 29529 
+1.39.60.70 2 15 67856 20141007125722
+117.204.115.58 0 1 9780 
+37.228.106.0 2 21 77200 20141002170906
+113.210.6.252 0 2 149550 
+136.159.160.67 0 3 142348 
+189.166.49.139 0 1 26387 
+76.103.247.112 0 1 3737 
+196.0.57.39 0 1 1488973 
+93.186.31.96 0 2 3007 
+115.117.118.2 2 21 104143 20141004123217
+92.242.57.130 7 34 647316 20141006211116
+115.249.75.193 1 1 1353 20141001135921
+98.194.162.117 0 1 7919 
+123.201.36.235 11 49 352958 20141004220522
+161.246.30.18 1 48 178182 20141005204832
+41.220.69.118 0 2 117550 
+148.251.10.231 2 2 1366 20141006065518
+130.184.253.26 0 1 3238 
+129.8.133.82 3 20 704823 20141009012016
+8.37.228.43 1 15 538492 20141007100208
+168.176.55.24 41 130 64000515 20141009022717
+182.73.168.30 9 26 133362 20141031140351
+41.182.8.65 1 8 54255 20141001125335
+181.177.248.178 0 1 40947 
+113.210.139.236 0 1 85156 
+37.228.106.171 1 20 99932 20141005210513
+117.204.6.192 3 19 101796 20141008214655
+1.23.181.227 28 47 1352138 20141005093839
+195.220.112.251 3 6 2442613 20141007124016
+37.228.105.137 0 2 117550 
+129.2.208.167 0 1 4133 
+1.38.4.8 1 4 9586 20141005183755
+141.0.10.76 1 14 36921 20141012212854
+185.10.104.132 21 22 349337 20141020204009
+113.169.16.40 0 1 44856 
+119.40.118.17 0 1 11237 
+141.138.50.228 1 20 73104 20141002064226
+24.147.54.42 0 1 4419 
+67.170.254.86 0 2 156429 
+129.116.62.193 0 1 28990 
+59.182.125.16 14 57 1060254 20141007122859
+1.39.60.125 1 1 3722 20141005175327
+203.223.191.2 6 28 667953 20141001121327
+65.49.14.166 0 1 3579 
+37.32.180.241 3 16 39239 20141009032127
+59.93.1.157 8 24 1987629 20141007191233
+202.46.63.47 1 1 177 20141001061843
+218.248.7.18 5 20 58610 20141024112117
+147.91.10.142 0 1 21680 
+110.227.8.85 8 32 295739 20141007174018
+63.76.175.40 0 1 586211 
+49.201.13.110 0 1 3238 
+41.236.187.66 0 1 138191 
+106.220.44.236 2 7 40784 20141001115347
+91.200.12.12 0 1 344393 
+62.219.140.243 1 21 109712 20141001132645
+129.15.126.235 0 1 15370 
+131.228.29.81 0 1 497 
+125.60.156.195 1 17 1129517 20141008165621
+220.255.1.156 0 1 2297 
+220.225.141.25 6 21 53998 20141008142932
+106.221.148.49 19 100 2029222 20141008200604
+49.151.67.144 0 1 24921 
+175.138.135.43 0 2 29083 
+66.189.114.212 0 1 162813 
+70.170.56.47 0 1 4419 
+111.68.111.155 6 20 54429 20141024122321
+5.63.150.60 3 19 101796 20141006224137
+103.5.187.54 3 9 19289 20141004205735
+65.51.87.226 3 18 93872 20141001155004
+131.247.3.132 0 1 28990 
+117.251.207.47 0 5 289231 
+66.253.210.99 0 1 29529 
+134.83.1.243 0 2 494394 
+65.112.10.186 0 1 28910 
+187.252.17.155 0 1 44856 
+118.102.191.36 14 34 273780 20141001150913
+202.62.67.238 2 15 67856 20141001083742
+131.236.167.115 0 1 5891 
+210.186.203.139 0 1 44856 
+66.102.7.59 0 1 29529 
+116.202.222.179 0 1 29529 
+103.27.8.45 8 23 72089 20141016103040
+117.195.6.139 1 21 126319 20141008182252
+107.167.108.131 0 2 117550 
+193.60.130.206 0 1 8285 
+219.64.71.76 1 5 20935 20141005183150
+223.190.172.252 0 1 4133 
+197.243.244.169 20 104 9502387 20141005040543
+155.41.58.3 0 1 484616 
+59.180.35.233 9 24 80988 20141014100925
+130.39.255.244 0 1 28990 
+117.205.39.62 16 35 189900 20141010174633
+175.137.130.52 0 4 373142 
+175.101.67.78 4 25 154414 20141006101153
+116.68.98.105 0 1 264869 
+46.113.67.151 0 1 30289 
+220.255.2.195 0 1 382 
+202.144.134.226 0 2 371816 
+49.205.146.63 3 17 98058 20141007235928
+131.228.29.45 0 1 106 
+105.224.98.198 0 1 7919 
+118.32.130.9 2 28 351966 20141002194035
+210.217.182.139 0 1 4419 
+117.248.101.96 6 25 117922 20141006133133
+202.185.32.17 0 7 363152 
+175.101.80.138 0 3 170312 
+69.171.145.44 0 3 124166 
+117.203.95.139 4 20 103957 20141001221334
+24.177.125.83 0 1 40947 
+107.1.196.13 0 1 389466 
+54.160.240.54 0 1 435819 
+202.151.22.5 11 33 682610 20141002105828
+209.33.114.36 0 1 8398 
+178.118.172.26 0 1 29529 
+117.251.88.177 0 5 10507 
+1.38.20.82 1 1 3509 20141008192029
+217.20.214.136 8 29 628544 20141004041722
+141.0.9.107 1 14 32061 20141004135538
+211.24.28.235 1 19 61588 20141005162247
+107.207.235.116 0 1 58234 
+117.212.88.61 3 21 513889 20141004003259
+129.82.213.91 11 30 2060061 20141004055756
+163.180.173.126 1 21 65843 20141003132334
+111.68.103.233 1 11 125471 20141001220926
+206.21.11.3 0 1 28990 
+117.238.253.97 10 32 87607 20141022215538
+119.202.32.69 0 1 69699 
+178.48.122.222 73 450 5063548 20141008132441
+182.68.84.30 0 1 23233 
+201.143.198.87 0 1 83025 
+79.139.2.70 7 23 64346 20141004225559
+182.71.87.36 12 28 126586 20141031132224
+129.2.98.36 0 1 4133 
+130.89.234.33 0 1 28990 
+112.198.82.248 0 1 56621 
+210.94.41.89 0 1 7066 
+178.93.171.44 18 40 172782 20141002000416
+103.21.126.76 4 30 47809 20141031140339
+49.201.99.107 7 29 125741 20141005115857
+111.68.104.136 1 20 99932 20141001111321
+117.198.80.213 1 5 8427 20141002051019
+2.91.47.193 5 25 106397 20141009084946
+93.186.23.112 0 4 7683 
+103.27.164.5 9 23 68434 20141006113119
+119.40.120.229 0 1 14002 
+108.51.41.33 0 1 7919 
+210.125.184.11 1 28 430582 20141007132345
+203.115.106.99 11 80 320090 20141008144305
+162.223.8.26 2 2 811 20141002164535
+68.225.195.153 1 27 294943 20141008201525
+8.37.224.234 5 21 49118 20141001154201
+123.201.113.12 31 77 345887 20141004011904
+184.91.245.201 0 1 3238 
+114.70.247.125 0 1 60474 
+174.23.197.22 0 1 56056 
+177.200.12.2 0 1 4133 
+39.32.224.55 0 2 139398 
+37.228.107.223 4 17 42118 20141019205416
+27.55.30.153 0 1 5118 
+1.39.14.3 0 4 315842 
+201.247.186.73 0 1 34956 
+201.235.119.170 0 1 1938 
+183.82.103.133 14 24 86581 20141016145110
+148.251.138.231 1 1 4211 20141006082651
+120.59.42.38 55 198 87387974 20141004223217
+117.211.154.63 3 18 105122 20141002114616
+109.63.108.80 0 1 3238 
+180.191.65.220 0 3 21642 
+2.31.134.107 7 24 250308 20141003030723
+58.27.57.125 0 1 85156 
+122.166.146.125 8 10 224137 20141008150334
+88.150.209.18 2 2 18359 20141007132345
+140.203.12.5 0 2 170312 
+218.210.214.250 1 27 294943 20141008080009
+64.189.4.46 1 13 33474 20141025020949
+106.220.119.236 9 22 63562 20141016232051
+205.232.106.254 24 77 1581312 20141003031225
+112.198.77.163 0 1 23233 
+117.211.40.49 33 78 266820 20141002152713
+117.239.94.112 2 15 67856 20141005192823
+49.206.182.197 1 20 99932 20141007223924
+111.92.101.244 6 33 98058 20141005083637
+216.222.147.198 4 20 103957 20141008175222
+221.153.14.23 0 1 4419 
+99.228.192.138 0 1 28990 
+14.139.85.83 14 100 1672690 20141021110137
+130.88.115.34 3 9 44105 20141001025210
+82.132.245.233 0 1 7919 
+27.255.210.133 3 17 98058 20141007233444
+128.113.144.83 0 3 155452 
+217.129.115.232 0 1 4419 
+130.113.69.48 0 2 162667 
+223.227.3.235 1 20 99932 20141005084859
+171.18.2.130 0 1 4367 
+119.9.76.111 5 5 47615 20141024122311
+83.27.175.162 0 1 2510 
+192.43.227.18 0 3 119062 
+130.88.109.6 2 8 43053 20141008220326
+59.95.137.106 0 1 3238 
+112.198.90.90 0 1 6827 
+107.167.107.118 2 20 64322 20141007183145
+84.107.199.210 0 1 5118 
+137.53.241.1 4 31 269142 20141003015824
+59.182.128.79 0 1 504320 
+91.203.96.30 1 11 24521 20141001175309
+70.39.186.26 4 23 79963 20141006135634
+210.187.201.163 0 3 160446 
+117.239.105.35 55 154 2616480 20141007175832
+110.168.73.9 0 1 29529 
+37.228.105.168 8 36 86155 20141007154125
+193.110.184.19 2 19 394184 20141006115613
+161.139.102.104 0 1 2297 
+221.146.212.6 1 12 28332 20141006133155
+138.49.1.1 0 1 138191 
+83.183.78.52 3 19 101796 20141003014300
+14.98.246.229 10 26 87279 20141016000534
+64.233.173.77 0 2 45624 
+183.83.140.88 1 13 35211 20141025165442
+220.255.2.44 0 1 3579 
+212.44.20.129 0 1 21680 
+176.57.142.28 1 1 177 20141002055910
+98.222.198.61 1 4 20866 20141005063339
+198.137.20.73 0 13 513353 
+14.139.209.194 6 6 19593 20141007130927
+182.70.212.173 7 26 120720 20141001183835
+198.163.159.3 0 1 514437 
+117.248.78.232 5 27 101796 20141002120630
+216.185.35.61 0 3 170312 
+134.76.76.28 1 19 658870 20141001205242
+77.97.165.140 0 2 65285 
+27.123.171.247 0 1 85156 
+49.207.250.246 16 48 141370 20141008113615
+131.230.42.145 0 1 7066 
+184.162.142.208 1 1 3442 20141001040054
+120.59.106.102 3 7 19810 20141001160107
+193.225.117.240 0 2 11734 
+80.78.30.26 11 16 26719775 20141002171029
+27.124.50.180 3 19 50075 20141006135623
+125.186.130.51 0 1 29529 
+202.133.63.70 1 6 13092 20141017120201
+115.248.253.33 19 71 386141 20141009095910
+96.251.28.202 0 1 83025 
+198.13.236.166 1 20 73104 20141009051724
+173.74.70.72 0 1 28990 
+120.28.254.25 0 3 378164 
+103.1.101.99 3 3 11648 20141004114019
+129.2.98.123 0 2 8266 
+168.77.191.5 0 1 34956 
+117.239.104.119 0 1 4074 
+92.29.66.73 0 1 21152 
+120.56.161.250 4 17 1318482 20141004141143
+199.47.81.13 0 1 85156 
+202.40.139.165 0 1 29529 
+123.201.110.189 13 28 94392 20141018125706
+103.1.71.84 0 3 170312 
+59.91.219.95 4 18 47011 20141021153825
+190.235.5.160 19 62 50183105 20141004093020
+106.77.238.149 0 1 42386 
+67.60.241.171 7 29 670114 20141005224419
+72.82.111.128 0 1 1938 
+132.178.2.65 53 130 53975372 20141008020416
+111.91.31.73 9 27 126692 20141011171922
+196.12.10.164 1 20 99932 20141001002041
+210.195.56.230 0 1 3238 
+98.121.76.197 0 1 60474 
+124.125.37.21 2 19 121135 20141006170151
+220.255.1.157 0 1 497 
+128.61.47.246 3 18 93872 20141001090004
+120.60.128.236 3 17 43093 20141018151245
+129.215.232.197 0 1 6827 
+54.89.125.158 1 1 10104 20141001124402
+105.112.8.16 1 3 8744 20141004042426
+100.37.145.194 0 1 28990 
+182.237.17.134 5 19 49703 20141017083254
+117.247.208.139 5 21 80676 20141011124845
+190.167.183.74 0 2 39756 
+93.125.136.255 0 1 195056 
+27.251.37.42 0 1 109505 
+1.39.14.13 0 2 117550 
+116.68.101.136 4 20 50092 20141006100943
+219.90.91.131 0 1 4074 
+192.12.88.228 0 1 3238 
+122.15.144.130 13 75 2176764 20141008172330
+103.21.127.76 11 11 39681 20141002110331
+72.130.117.167 1 1 3177 20141004111830
+70.39.187.70 1 17 55083 20141008134425
+103.228.37.246 0 3 12573 
+82.145.220.20 0 2 464556 
+175.145.199.212 0 3 149550 
+58.27.57.106 0 3 113894 
+162.238.120.64 0 1 10130 
+117.239.47.98 0 2 97444 
+86.46.46.234 0 3 118998 
+27.252.205.152 14 29 95284 20141017190851
+122.179.36.157 2 14 33287 20141001234658
+202.188.212.56 1 14 32061 20141002200543
+125.136.163.53 0 1 59294 
+75.74.233.118 0 1 3238 
+103.240.169.38 7 38 148166 20141008230904
+60.53.224.68 0 6 241685 
+98.202.29.250 0 1 28990 
+199.190.46.178 0 1 32379 
+101.161.129.185 0 1 35731 
+65.49.14.78 1 1 2616 20141004131659
+137.125.77.170 0 2 57900 
+124.30.128.132 38 190 1944522 20141009120310
+65.49.2.182 0 1 85156 
+118.102.191.44 17 118 9845113 20141008161613
+76.186.209.131 0 1 28990 
+67.252.39.210 0 4 33228 
+161.109.134.51 19 62 5919442 20141001212422
+223.190.139.242 0 3 349722 
+112.215.66.77 0 2 27942 
+71.202.123.74 3 18 99286 20141002084411
+184.162.156.154 1 12 27593 20141004175851
+117.247.186.59 1 2 735093 20141006113354
+180.191.64.70 0 4 31175 
+117.201.79.28 0 1 6548 
+143.248.195.121 0 1 28910 
+143.248.47.131 0 3 102093 
+131.193.152.2 0 1 10790 
+70.174.168.23 0 3 102093 
+106.78.168.254 2 44 281608 20141004215926
+37.228.107.126 0 1 3238 
+35.2.219.135 0 1 5923 
+69.126.232.235 0 1 29529 
+14.139.122.242 8 30 89869 20141007110208
+182.18.177.214 7 39 217252 20141007104521
+220.255.2.50 0 1 3397 
+106.66.161.21 1 13 29885 20141027182659
+103.5.133.40 0 3 133944 
+27.97.29.165 0 1 504320 
+220.227.219.136 1 26 182899 20141006153048
+113.210.2.30 0 2 117550 
+14.139.212.246 5 21 80666 20141019172134
+223.29.204.2 1 17 82702 20141001105212
+115.241.112.244 1 13 81613 20141008152855
+199.87.224.33 0 1 44856 
+117.234.68.212 0 1 3238 
+119.93.51.182 0 2 57980 
+62.0.200.129 0 1 60474 
+183.171.173.135 0 1 3322 
+184.170.50.172 11 54 940927 20141005031309
+1.224.174.180 0 1 30289 
+124.197.78.207 3 17 43896 20141004120601
+164.67.196.100 0 1 10130 
+107.167.102.139 3 19 101796 20141007184216
+59.145.232.122 0 3 321209 
+184.158.38.86 0 1 26387 
+192.93.160.78 4 20 103957 20141003182615
+75.187.146.153 0 2 57900 
+129.2.129.89 0 1 4133 
+211.25.212.126 0 3 255468 
+196.43.134.182 0 1 99287 
+31.216.232.154 11 42 1151127 20141007215113
+198.54.65.121 0 2 127146 
+112.165.110.182 0 1 16703 
+128.12.252.5 0 1 8103 
+131.228.29.10 1 1 3074 20141007113442
+8.37.224.254 3 7 13109 20141009002309
+41.216.209.229 6 23 113115 20141010200142
+93.186.31.80 0 1 1780 
+37.228.106.61 0 2 226689 
+117.211.47.125 0 1 504320 
+168.63.139.43 6 37 182784 20141003120150
+39.55.190.155 0 1 21706 
+143.106.150.78 0 1 29529 
+103.231.241.108 0 1 13392 
+113.210.137.124 0 2 396488 
+86.98.41.169 6 21 53178 20141008225955
+202.53.89.164 8 24 61763 20141006190206
+189.170.202.138 0 1 16398 
+65.49.2.179 10 50 460064 20141002093414
+202.184.111.90 0 10 499598 
+61.251.246.85 1 20 51135 20141006161016
+14.139.196.3 1 21 108035 20141009003714
+49.206.219.130 7 132 1396465 20141006120109
+182.178.236.183 6 22 1292390 20141003145618
+185.10.104.195 16 18 52528 20141023124257
+115.242.29.209 0 1 26387 
+202.78.173.42 2 26 434205 20141007113558
+210.195.56.83 0 2 101550 
+49.249.81.237 7 22 71959 20141021175625
+14.140.241.237 6 56 1773584 20141001135501
+50.101.117.99 0 1 13317 
+14.139.235.210 9 28 128092 20141007155348
+117.194.204.91 1 1 4211 20141006114331
+107.4.99.198 2 24 71140 20141009095552
+163.13.132.36 0 1 28990 
+131.253.24.156 0 1 106 
+187.252.124.61 0 2 80802 
+88.195.113.11 0 1 92944 
+14.139.185.114 11 58 6645148 20141005151802
+115.133.22.251 0 3 109550 
+14.98.194.37 5 29 132227 20141007211747
+220.255.1.18 0 1 0 
+115.249.29.230 0 1 195056 
+74.196.248.47 0 1 138191 
+106.76.148.47 0 2 95968 
+182.156.167.192 0 2 117550 
+106.221.150.129 0 1 26387 
+179.244.6.15 0 1 7382 
+66.249.84.77 0 5 428023 
+108.237.160.115 0 1 29529 
+80.189.113.206 0 1 4419 
+195.194.1.181 0 1 21152 
+115.246.236.200 1 13 32779 20141016211253
+122.165.16.224 0 1 100030 
+114.79.12.15 0 1 3238 
+93.186.31.99 0 1 3336 
+70.26.251.50 0 3 246345 
+39.114.235.231 0 1 4419 
+66.249.82.77 5 31 77180 20141027170150
+122.180.71.101 3 18 105122 20141001173315
+116.72.35.250 1 14 35329 20141016135620
+58.27.57.111 0 2 104446 
+150.212.21.215 0 1 29529 
+178.250.252.21 0 1 85156 
+106.51.142.115 0 1 63573 
+182.237.167.154 0 3 133944 
+49.139.139.132 13 35 350246 20141009000654
+36.82.133.136 1 1 3287 20141002205336
+115.252.209.92 4 20 102392 20141008185033
+117.235.171.246 20 84 690498 20141006212605
+117.197.214.245 2 15 35702 20141004200325
+175.100.174.21 9 28 2053320 20141007191058
+49.204.171.25 0 1 3238 
+103.241.244.35 1 14 33261 20141009130454
+68.49.150.190 0 1 18278 
+143.210.145.73 0 1 7919 
+182.64.43.56 3 17 1050877 20141007202648
+123.238.149.19 8 8 0 20141001104104
+49.150.183.158 0 1 4419 
+110.93.74.2 0 1 1938 
+67.78.85.128 0 1 36980 
+117.211.134.95 1 1 1786 20141007102636
+49.249.54.181 0 2 71462 
+161.139.102.105 0 2 2506 
+193.147.222.244 1 12 28332 20141003131114
+183.182.85.18 0 1 504320 
+223.30.144.190 0 1 58961 
+88.206.251.167 1 19 282103 20141004192657
+223.62.202.118 0 1 100030 
+41.74.71.132 4 24 79235 20141001012125
+69.91.139.167 0 1 20988 
+120.57.162.25 2 2 592 20141002135718
+70.194.110.155 10 24 69135 20141002231048
+197.152.176.249 2 14 33442 20141006022540
+125.16.2.170 1 1 146 20141002231755
+190.131.156.19 20 39 381575 20141008082524
+39.55.11.26 3 16 38099 20141008005948
+5.65.153.210 2 2 2757 20141001013800
+111.92.50.72 5 20 60659 20141022174906
+182.73.123.110 18 44 4101727 20141006122712
+137.201.242.130 0 1 42510 
+117.201.104.149 26 85 729177 20141003000250
+208.94.233.142 1 1 146 20141001033153
+70.39.187.80 26 55 179902 20141005170935
+129.7.16.37 0 1 72154 
+223.238.141.5 7 21 56947 20141008144023
+61.230.73.85 0 2 269724 
+122.252.246.149 2 15 67856 20141008160124
+50.152.138.230 0 1 72400 
+112.210.100.245 0 1 3238 
+141.0.8.96 0 1 28723 
+117.211.161.66 20 81 204577 20141001150721
+65.49.68.169 1 6 27542 20141002092555
+117.235.220.118 0 1 40947 
+128.134.52.111 0 1 84121 
+117.203.78.164 12 28 124449 20141017230749
+42.115.101.242 0 1 548728 
+27.251.213.116 5 21 51104 20141009132017
+175.142.141.2 1 2 22794 20141009123711
+180.183.67.164 0 1 17357 
+185.10.104.196 24 24 69925 20141030104528
+75.101.223.152 1 1 13689 20141002231323
+141.0.11.144 1 12 28332 20141001002419
+117.218.146.146 0 1 504320 
+122.252.224.37 0 3 282585 
+67.71.135.199 0 2 15838 
+223.226.103.215 2 2 8889 20141014111240
+42.79.9.28 0 1 4074 
+183.82.254.91 0 1 3238 
+117.211.64.152 73 289 15011442 20141006034321
+117.206.238.159 6 63 1744586 20141007063924
+93.186.31.82 0 2 5411 
+31.216.69.61 0 3 584017 
+129.2.98.28 1 21 65843 20141002184525
+210.112.150.144 0 2 49816 
+80.242.202.170 0 1 44856 
+145.94.148.5 0 1 133436 
+117.195.149.228 3 19 101796 20141001122605
+115.248.50.25 1 28 308260 20141007113605
+54.167.118.16 0 1 91772 
+210.187.221.142 0 3 136446 
+59.91.68.73 1 1 646 20141001215423
+105.112.8.18 0 3 9553 
+182.19.14.197 8 9 72034 20141001003220
+144.39.169.208 0 1 4429 
+168.28.136.36 1 14 32061 20141001003744
+190.8.250.159 0 2 11734 
+124.123.143.219 25 81 422469 20141003230439
+115.112.64.234 3 19 101796 20141009125857
+119.40.118.18 0 1 85156 
+24.104.242.231 0 1 162813 
+180.215.96.8 2 2 6560 20141004173210
+101.222.225.93 0 4 259449 
+129.78.233.210 1 10 288383 20141002075915
+69.180.30.181 5 26 250208 20141007012641
+165.91.89.100 0 1 4419 
+103.242.237.38 2 22 69565 20141003193212
+130.180.22.18 1 13 29860 20141001104356
+106.66.159.153 2 2 6206 20141006231437
+220.255.1.164 0 1 2297 
+149.156.136.78 0 1 4133 
+115.132.46.136 0 1 85156 
+99.40.13.27 1 1 2161 20141008073952
+112.198.82.139 0 3 278286 
+125.19.237.162 0 1 322524 
+64.71.12.50 4 15 38589 20141008003302
+202.62.72.146 6 21 65275 20141030200904
+61.3.121.193 5 5 15533 20141002143128
+120.43.16.68 2 2 8257 20141006073308
+36.85.27.201 4 15 37338 20141002101929
+146.50.70.129 0 1 39546 
+143.248.135.178 0 1 56056 
+117.211.131.44 13 27 74728 20141010162727
+182.185.122.79 0 1 514437 
+115.248.50.33 0 2 81894 
+121.148.166.242 0 1 104398 
+196.21.61.101 0 1 85156 
+37.228.104.151 0 1 32394 
+131.228.29.42 0 1 3391 
+118.139.132.147 0 1 5118 
+175.145.127.28 0 3 125550 
+82.145.220.160 0 2 118998 
+74.75.230.145 8 41 2131822 20141005011418
+87.236.232.131 0 1 85156 
+203.229.37.178 0 1 5118 
+101.63.169.253 2 21 104143 20141006134907
+61.3.129.236 7 20 48969 20141002084645
+70.160.27.13 0 1 5118 
+163.21.75.183 0 1 7066 
+163.47.13.41 0 1 4419 
+61.231.119.141 0 1 5891 
+36.73.144.182 7 20 51908 20141002092315
+72.135.214.78 0 6 618604 
+49.248.247.54 18 61 747668 20141003145709
+212.219.66.211 0 1 3322 
+209.221.90.250 0 1 28990 
+162.221.120.61 0 1 28990 
+211.25.212.111 16 66 800865 20141007183043
+80.187.108.129 1 1 2161 20141001203234
+117.193.157.2 1 27 175764 20141004090551
+114.79.163.162 5 43 333665 20141008162505
+65.55.218.59 0 1 3336 
+117.196.96.171 14 39 894220 20141005201719
+23.113.32.144 7 29 668549 20141004201753
+14.139.60.13 29 115 2086334 20141010161326
+115.118.167.193 2 15 67856 20141006192459
+218.111.4.134 0 6 227100 
+182.57.246.252 4 23 109011 20141004154432
+80.154.98.131 3 19 101796 20141001132213
+117.198.31.114 0 2 93295 
+202.184.124.19 0 7 474568 
+130.65.11.68 0 1 3238 
+124.124.47.116 3 17 43438 20141029111212
+49.150.147.185 0 1 2386 
+202.170.51.246 0 1 139143 
+75.1.99.130 1 28 316623 20141004225405
+189.182.0.195 6 44 178550 20141009071146
+49.149.203.202 0 1 4133 
+130.18.104.72 3 9 44105 20141004005510
+161.139.102.111 0 2 32845 
+117.239.212.195 1 2 4247 20141002035034
+96.255.162.119 1 3 18227 20141008025340
+178.67.78.215 0 1 32401 
+59.161.96.102 0 1 648377 
+210.107.204.120 0 1 3238 
+72.227.105.116 1 20 54373 20141008033056
+41.37.17.110 30 109 776218 20141003041147
+39.32.249.205 0 2 7312 
+112.196.11.3 50 161 684290 20141030131455
+93.186.31.97 1 1 4211 20141008132651
+14.139.86.3 0 1 14619 
+68.10.145.153 3 17 91362 20141007004615
+124.6.181.172 2 39 197354 20141006160017
+122.172.55.216 6 35 90531 20141007213629
+49.206.120.60 10 54 8632264 20141005182105
+76.10.141.213 0 1 3752 
+121.52.157.103 1 16 60015 20141002175635
+203.111.224.54 0 9 637121 
+27.106.47.34 1 26 182899 20141005130222
+65.34.135.119 3 19 101796 20141001073514
+73.38.249.21 0 1 133413 
+5.202.57.202 0 1 60474 
+117.204.80.16 57 61 267172 20141001071223
+115.117.135.81 1 4 116551 20141007020409
+201.141.138.175 0 1 9780 
+101.63.153.90 1 1 9681 20141010094232
+108.217.226.105 2 2 0 20141007014536
+106.51.243.118 42 131 12860946 20141008121858
+82.145.209.129 0 2 1521364 
+117.201.162.184 8 38 2250479 20141007000043
+59.89.251.188 17 42 534934 20141006215219
+175.157.220.243 0 1 5118 
+37.106.241.8 0 1 3238 
+106.66.88.169 1 101 532638 20141007210754
+82.145.222.228 1 20 99932 20141001120838
+117.26.198.57 4 4 9024 20141002084446
+185.34.60.73 0 1 21680 
+94.22.105.35 0 1 1938 
+41.136.246.231 0 1 152948 
+98.142.254.84 0 1 36881 
+216.166.221.86 2 5 44897 20141003005008
+183.171.171.104 0 2 117550 
+194.170.173.25 7 18 322639 20141001125252
+24.217.110.37 0 1 26387 
+117.211.96.34 8 35 108124 20141018193033
+78.139.228.205 1 3 18227 20141007225144
+158.140.1.28 0 2 53911 
+117.201.221.244 8 22 62298 20141019224055
+220.255.1.128 2 2 3059 20141008215438
+161.139.102.110 1 2 8115 20141009122508
+182.48.196.88 1 27 294943 20141006194011
+61.41.146.122 0 3 7919 
+175.223.38.172 0 1 3238 
+122.173.202.82 10 57 1410106 20141006180603
+223.227.88.129 1 4 116551 20141004193000
+113.210.139.10 3 18 995662 20141009013606
+99.138.42.87 0 1 13317 
+117.192.140.195 2 14 33126 20141009174258
+117.195.3.252 0 1 8103 
+59.88.157.223 1 1 3046 20141009121401
+117.213.204.171 0 3 172394 
+158.130.63.94 0 1 8103 
+140.112.48.105 0 1 40947 
+171.241.22.58 0 1 26387 
+112.215.66.72 0 2 6756 
+14.139.187.66 0 1 3238 
+137.37.120.240 0 1 3238 
+131.238.190.122 0 1 40947 
+117.200.6.6 6 26 733435 20141007153659
+130.192.108.112 0 1 5867 
+37.228.104.239 0 2 102238 
+65.49.14.165 2 3 11603 20141004132202
+71.227.31.84 0 1 29529 
+182.70.234.217 4 30 461366 20141008005500
+175.45.189.139 0 2 26763 
+115.251.185.121 1 16 330701 20141003102034
+108.14.236.160 0 1 5118 
+220.255.1.166 1 2 3735 20141008215435
+140.114.20.20 0 2 82036 
+196.46.246.180 0 1 40393 
+37.228.107.94 7 86 91769 20141002172819
+103.5.115.31 7 23 98871 20141006070439
+212.219.49.93 0 1 17901 
+83.110.0.106 2 15 67856 20141007154716
+131.253.36.205 0 1 1827 
+197.44.37.89 0 1 63573 
+220.181.108.78 0 1 7130 
+37.228.107.76 0 2 222345 
+211.226.23.251 0 1 5118 
+62.77.222.86 0 1 4419 
+198.82.197.217 5 37 412784 20141007215202
+161.139.102.108 0 4 51155 
+131.252.217.50 0 2 30928 
+163.47.143.2 1 24 199800 20141007074510
+14.139.125.69 58 283 2320665 20141009104442
+128.125.225.167 0 1 28990 
+101.63.193.43 0 2 184151 
+220.255.1.136 0 1 32768 
+115.247.232.251 8 48 618685 20141004143619
+112.79.37.116 0 1 3238 
+82.130.94.238 1 20 807161 20141001185432
+122.177.117.47 22 37 121422 20141010202507
+14.139.251.107 5 21 81210 20141021015009
+117.217.140.91 3 18 93872 20141005195507
+90.216.211.61 1 14 37721 20141008135433
+79.97.252.115 0 3 117550 
+1.23.136.98 0 2 7455 
+202.65.129.167 1 12 27588 20141009222952
+41.220.69.176 0 3 141550 
+196.46.246.181 0 1 435819 
+203.196.133.98 11 43 113656 20141008095239
+174.58.244.86 0 1 5118 
+117.206.72.84 0 1 401201 
+24.179.195.5 1 16 43382 20141005002316
+172.56.32.64 7 39 466956 20141009054442
+202.162.7.37 0 2 1097456 
+112.79.39.105 3 17 92333 20141006033058
+141.0.11.162 3 16 41095 20141006082704
+111.119.231.194 1 20 73104 20141001193259
+117.198.104.16 0 3 136446 
+196.1.139.78 0 1 4419 
+117.200.110.114 0 3 166003 
+202.62.65.47 12 48 104385 20141031102310
+185.10.104.131 23 24 70079 20141030060211
+87.64.208.138 0 1 4419 
+95.10.61.26 5 18 42682 20141004202327
+14.139.244.210 27 67 218014 20141008203829
+14.99.80.246 3 16 38917 20141007211541
+37.228.104.33 1 27 294943 20141008144234
+27.97.206.201 2 15 67856 20141002104952
+92.62.170.94 0 2 110527 
+54.236.252.23 0 2 281341 
+108.168.34.60 0 1 44856 
+65.49.14.141 0 3 6086 
+220.255.2.70 0 1 9780 
+129.59.213.96 0 1 3238 
+35.50.6.110 0 1 29529 
+125.60.156.131 0 3 37903 
+218.51.16.33 0 1 29529 
+175.144.41.73 5 27 242378 20141004144519
+59.184.125.51 3 16 38826 20141004110939
+61.90.78.95 1 14 36542 20141006225650
+70.39.186.68 7 7 25155 20141008212029
+68.32.174.158 0 1 883547 
+185.6.112.172 1 1 380 20141005004551
+145.117.226.11 0 1 133436 
+178.42.130.52 0 3 97987 
+59.91.206.31 21 63 213363 20141005082231
+143.248.143.240 1 24 159593 20141007163019
+14.139.242.99 0 1 69699 
+131.118.255.94 10 28 232151 20141002070026
+49.248.23.51 4 18 48351 20141031155222
+199.65.210.5 2 14 33204 20141010131421
+49.248.97.2 0 2 118238 
+210.212.192.18 1 13 29885 20141019142758
+181.143.141.250 0 1 6548 
+41.182.23.51 0 5 16779 
+180.191.66.128 0 2 7913 
+115.249.224.219 6 33 98058 20141009124539
+14.97.106.254 0 1 504320 
+202.62.91.66 3 11 30555 20141001121408
+23.236.124.252 6 41 101098 20141004001956
+1.9.37.240 0 1 85156 
+117.211.93.94 7 10 32383 20141018120927
+27.34.253.50 2 5 13962 20141001121414
+82.145.208.239 0 2 109550 
+203.153.32.210 2 15 67856 20141008104832
+14.165.103.94 0 1 3238 
+210.212.250.243 11 44 132723 20141008112826
+210.149.232.230 0 1 28910 
+220.181.108.89 0 1 105 
+124.82.27.90 0 2 170312 
+59.178.198.59 3 17 98058 20141001150049
+122.129.122.226 0 3 120001 
+14.97.58.173 0 1 10130 
+128.62.42.18 4 20 1164184 20141004035848
+197.225.72.196 0 1 29529 
+186.52.205.187 0 1 44856 
+36.81.252.253 0 1 9780 
+117.205.138.0 17 77 862548 20141001223428
+94.244.100.114 0 1 7919 
+210.212.246.54 7 73 960776 20141008150648
+118.102.191.38 5 14 35522 20141028120102
+141.117.1.167 0 1 8103 
+114.124.27.141 0 1 5118 
+27.130.59.60 0 3 140166 
+220.255.1.172 0 1 32768 
+203.106.180.11 7 26 120487 20141002040443
+111.93.173.86 6 20 54324 20141021114830
+134.193.128.222 0 1 3238 
+165.91.13.164 5 20 63544 20141014234234
+92.222.99.5 2 2 5978 20141002140557
+164.125.69.81 0 1 17357 
+122.168.178.22 6 28 667953 20141008223744
+27.124.44.142 2 14 33200 20141004115106
+92.96.43.103 0 1 3238 
+99.104.116.237 7 29 401455 20141009011550
+1.39.25.210 0 2 170312 
+58.175.76.233 5 20 51061 20141001070521
+95.199.21.186 0 1 21680 
+106.51.156.209 4 17 41093 20141008195617
+14.194.124.169 1 20 99932 20141008190820
+49.14.110.75 0 1 29529 
+117.211.36.15 1 13 29885 20141025151042
+122.177.116.217 1 26 162447 20141008130410
+111.91.42.116 0 7 15712 
+62.172.172.114 0 1 92215 
+122.54.183.84 0 1 5118 
+112.144.25.11 0 2 10236 
+110.11.183.139 0 1 29529 
+75.84.170.105 0 1 50755 
+14.194.86.130 0 3 641231 
+59.178.214.22 4 25 501417 20141001153414
+203.192.239.6 0 1 4133 
+82.15.90.148 2 14 33442 20141008010813
+59.93.122.235 17 17 62192 20141003201208
+24.249.97.105 0 1 4074 
+83.110.111.1 4 20 102392 20141006105010
+202.78.175.199 4 24 1172629 20141005014922
+39.59.114.44 2 16 1050231 20141002085332
+220.255.2.185 0 1 4746 
+41.182.23.14 0 7 28898 
+107.167.107.144 0 2 117550 
+129.161.68.95 0 1 34956 
+131.228.29.57 0 1 2297 
+131.228.29.46 0 1 3167 
+131.228.29.32 0 1 2009 
+1.9.107.206 0 3 612900 
+144.122.206.198 0 1 116026 
+112.215.66.68 1 3 8359 20141004005247
+106.66.10.44 1 12 30496 20141006122411
+8.37.228.15 1 18 56690 20141005175335
+223.187.77.16 5 30 83176 20141002114417
+14.139.240.50 0 3 123026 
+124.124.224.154 20 54 213191 20141031152041
+204.77.224.1 0 1 4419 
+148.251.69.136 1 2 49244 20141003083522
+142.105.169.178 0 1 44856 
+39.118.147.78 2 2 760 20141004143642
+117.215.141.31 1 13 29885 20141024163746
+161.253.121.100 0 1 3238 
+49.201.188.196 9 28 128970 20141009210547
+163.239.200.106 0 1 29529 
+82.200.235.112 0 1 19995 
+199.192.2.24 0 3 642604 
+116.14.218.251 0 3 121929 
+49.248.159.221 0 1 63573 
+189.135.152.159 0 1 35731 
+193.150.120.16 1 1 3708 20141002200324
+152.15.112.168 0 3 642604 
+122.167.114.200 1 20 99932 20141008225832
+117.211.160.35 8 60 271424 20141007124953
+202.164.39.25 20 105 821613 20141009095121
+115.252.100.83 8 24 406162 20141027103628
+183.171.174.145 0 2 8440 
+183.171.165.82 0 1 85156 
+198.82.21.221 0 1 3238 
+84.31.23.25 0 1 44856 
+220.255.1.123 0 1 218111 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20141001 1552 6099 137938358 131
+20141002 911 3768 130575726 90
+20141003 872 3308 67420512 66
+20141004 1113 4656 351832427 97
+20141005 622 2884 109673915 69
+20141006 1716 5717 165928113 101
+20141007 2855 10926 843439521 132
+20141008 2319 9246 866006792 123
+20141009 860 3385 184509165 61
+20141010 150 455 2996635 21
+20141011 49 156 1668733 7
+20141012 29 123 884501 8
+20141013 81 244 777092 10
+20141014 50 176 1877346 11
+20141015 94 262 2149374 7
+20141016 219 637 3433927 20
+20141017 119 329 2887307 16
+20141018 83 248 810036 12
+20141019 40 139 435823 7
+20141020 53 141 549266 9
+20141021 78 234 745275 12
+20141022 28 92 306083 6
+20141023 22 76 247663 7
+20141024 33 121 1383972 9
+20141025 6 54 637035 5
+20141026 48 135 965132 5
+20141027 72 246 1060767 12
+20141028 82 201 2253245 9
+20141029 47 188 658811 7
+20141030 107 271 2151813 13
+20141031 99 318 1076510 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 45
+5mn-15mn 100
+30s-2mn 166
+2mn-5mn 115
+0s-30s 597
+15mn-30mn 31
+30mn-1h 41
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 989
+/labs/cse01/ 1147 3789362 220 90
+/labs/cse30/vlab3/myExp3_b/myfile.php 473 12298 1 2
+/labs/cse01/exp3/ 346 1355730 21 27
+/labs/cse02/ 333 1111527 31 11
+/labs/cse30/vlab3/myExp2_1_b/myfile.php 300 1114467 3 6
+/labs/cse01/exp1/ 266 977342 3 28
+/labs/cse18/ 250 825759 9 5
+/labs/cse04/ 224 729799 26 12
+/labs/cse15/ 187 555163 26 19
+/labs/cse19/ 169 599681 18 3
+/labs/cse02/exp4/ 96 340955 2 2
+/labs/civil13/experiment2/DataRegrModRes.php 2 11366 0 0
+/labs/cse16/exp02/content.html 1 7449 0 0
+/labs/eerc02/ 92 261460 12 0
+/labs/eerc05/content.html 19 51984 0 1
+/labs/phy14/content.html 108 354732 2 24
+/labs/ccnsb06/exp9/ 1 2188 0 0
+/labs/cse05/html/content.html 29 131664 0 2
+/labs/cse11/VirtualMemory/ 7 22957 0 1
+/labs/ccnsb06/exp6/default.html 4 14932 0 0
+/labs/cse09/exp8/ 4 9068 0 0
+/labs/cse19/references.php 19 30167 3 4
+/labs/cse09/exp1/content.html 31 206801 0 2
+/labs/ccnsb03/content.html 7 45475 0 2
+/labs/cse01/exp5/index.php/trackback/ 1 3296 0 0
+/labs/cse16/exp02/default.html 1 3732 0 0
+/labs/civil13/references.php 1 5562 0 0
+/labs/eerc03/exp13/vlab2/10.Turbines.html 2 722 0 0
+/labs/cse19/affine.php 2 12858 0 0
+/labs/ccnsb04/exp8/experiment/header.html 1 342 0 0
+/labs/ccnsb02/exp13/content.html 1 5450 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 6 28836 0 0
+/labs/cse02/exp1/table.html 1 636 0 0
+/labs/cse01/exp1/RomanSystem.html 12 7716 1 1
+/labs/ece01/default.html 8 11448 0 0
+/labs/ece06/content.html 2 4250 0 0
+/labs/ece21/experiment3.html 1 1405 0 0
+/labs/ccnsb01/exp9/media/9.html 1 1189 0 0
+/labs/cse19/procedure.php 93 156610 4 4
+/labs/eerc01/exp9/ 5 16710 1 1
+/labs/ccnsb04/exp5/ 4 15367 0 0
+/labs/cse30/vlab3/myExp5_b/ 29 91331 1 3
+/labs/cse20/exp3/ 3 10055 0 1
+/labs/ccnsb06/exp9/default.html 1 3733 0 0
+/labs/ccnsb01/exp1/content.html 3 18915 0 0
+/labs/phy14/exp1/ 20 39540 0 0
+/labs/cse15/exp2/ 54 186333 9 9
+/labs/ece01/exp7/default.html 1 3740 0 0
+/labs/ece21/team.html 1 0 0 0
+/labs/cse13/full_custom/ 6 20408 1 1
+/labs/cse29/exp1/ 66 225279 0 3
+/labs/cse19/summary.php 11 10279 0 1
+/labs/cse05/php/register-form.php 8 4942 0 0
+/labs/eerc04/content.html 26 70987 0 3
+/labs/ece04/content.html 2 4370 0 0
+/labs/civil13/ 27 138129 6 4
+/labs/cse05/html/topics/inductive-data-prog/ 1 3720 0 0
+/labs/cse05/html/topics/inductive-data-design/ 3 14223 0 0
+/labs/cse19/crop.php 59 6371 0 1
+/labs/cse04/exp1/ 55 199224 0 3
+/labs/cse04/exp5/prob_desc.html 1 1142 0 1
+/labs/cse09/exp8/default.html 4 14748 0 0
+/labs/cse05/ 32 21552 8 4
+/labs/ccnsb04/exp5/experiment/header_1.html 2 1094 0 1
+/labs/cse30/default.html 1 1511 0 0
+/labs/cse02-CP/ 2 7546 2 0
+/labs/eerc04/exp3/vlab2/Continuous.jnlp 1 668 0 0
+/labs/cse15/default.html 1 1511 0 0
+/labs/cse30/vlab3/myExp2_1_b/outfile 66 939694 0 0
+/labs/cse24/exp5/experiment10-1.php 1 486 0 0
+/labs/cse09/exp5/content.html 4 18380 0 0
+/labs/ccnsb01/exp7/media/7.html 1 1208 0 0
+/labs/ece10/content.html 2 4662 0 0
+/labs/cse30/vlab3/myExp6_cascode/img.html 3 120 0 0
+/labs/cse30/vlab3/myExp6_cascode/ 6 19082 0 1
+/labs/cse18/manual/vertexpanel.html 1 343 0 0
+/labs/sample1/exp1/content.html 1 3588 0 0
+/labs/ccnsb04/exp8/default.html 1 3737 0 0
+/labs/chs13/ 1 1060 1 1
+/labs/ece09/default.html 2 3022 0 0
+/labs/ece19/exp4/ 1 2105 0 0
+/labs/eerc05/exp8/ 3 5868 0 0
+/labs/ece05/exp6/ 2 4186 0 0
+/labs/cse16/exp03/natureofspeech.php 1 866 0 0
+/labs/civil13/experiment2/experiment.php 1 2180 0 0
+/labs/eerc03/exp10/ 9 31877 3 4
+/labs/ccnsb06/exp7/content.html 1 7603 0 0
+/labs/eerc05/exp7/media/ve_vanshear.html 1 573 0 0
+/labs/cse18/exp8/ 20 68919 2 2
+/labs/cse20/exp5/ 9 31741 0 0
+/labs/ece05/exp1/default.html 1 3814 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 2 68320 0 1
+/labs/cse19/neigh.php 6 31158 1 1
+/labs/ccnsb02/content.html 14 60046 0 3
+/labs/cse16/exp04/indexie.html 1 5485 0 0
+/labs/cse30/vlab3/myExp5_b/exp1.html 3 1251 0 1
+/labs/cse16/exp06/ 4 3898 0 0
+/labs/ece21/faq.html 1 0 1 1
+/labs/cse30/vlab3/myExp2_1_b/ 25 78166 3 2
+/labs/cse24/exp7/exp5.php 1 1250 0 0
+/labs/ccnsb06/exp2/default.html 1 3733 0 0
+/labs/ccnsb07/content.html 14 50902 0 1
+/labs/cse22/exp8/default.html 1 3732 0 0
+/labs/cse15/exp3/ 147 592220 42 42
+/labs/ 17 31569 1 1
+/labs/eee10/ 3 6213 1 0
+/labs/cse02/exp9/pointers1/pointers1/build/pointer1.html 2 868 0 0
+/labs/cse09/exp4/content.html 7 77406 0 0
+/labs/cse15/exp9/exp9.html 1 414 0 0
+/labs/cse22/ 19 32582 3 0
+/labs/cse22/exp4/default.html 2 7464 0 0
+/labs/cse18/exp7/ 49 167326 0 0
+/labs/eerc05/exp9/default.html 6 22416 0 0
+/labs/eerc05/exp4/media/totalsolid.jnlp 5 3235 0 0
+/labs/cse22/exp9/content.html 1 4104 0 0
+/labs/cse30/vlab3/myExp5_b/img.html 7 120 0 0
+/labs/eerc02/exp4/vlab2/4.GrainSizeDistribution.html 1 366 0 1
+/labs/chem01/gla/gla4.php 27 39964 0 1
+/labs/cse24/exp4/content.html 1 3549 0 0
+/labs/cse13/full_custom/practise_swing/exp_1.html 1 421 0 0
+/labs/cse16/exp01/content.html 4 15040 0 0
+/labs/eerc03/exp6/ 14 48107 0 0
+/labs/chem01/hpc/hpc3.php 5 7367 0 1
+/labs/chem01/htl/htl2.php 4 3836 0 1
+/labs/cse04/exp9/lab.html 1 3201 0 0
+/labs/cse30/vlab3/myExp6_basic/ 9 30330 0 0
+/labs/cse01/exp6/ 80 277691 0 3
+/labs/civil13/experiment6/procedure.php 1 2120 0 0
+/labs/cse22/exp2/default.html 2 7464 0 0
+/labs/phy14/exp7/content.html 4 19596 0 0
+/labs/chem01/ori/ 1 1955 0 0
+/labs/eerc05/exp4/default.html 2 7472 0 0
+/labs/cse11/TilingMatrix/ 2 6706 0 0
+/labs/ccnsb04/exp8/experiment/ 1 1682 0 0
+/labs/ccnsb04/exp2/experiment/ 33 34683 0 0
+/labs/cse11/LocalityAnalysis/ 2 6631 0 0
+/labs/chs13/thermal.htm 1 8003 1 1
+/labs/cse18/manual/canvas.html 1 492 0 0
+/labs/cse13/array_multiplier/ 2 7249 1 1
+/labs/cse16/exp07/indexie.html 6 4909 2 0
+/labs/eerc01/exp4/ 22 76538 0 3
+/labs/chem01/gla/gla8.php 11 16555 0 0
+/labs/cse17/mapping/content.html 1 6117 0 0
+/labs/cse02/exp10/quizresults.php 2 1156 0 0
+/labs/cse24/exp5/default.html 1 3729 0 0
+/labs/cse24/exp8/experiment7.php 3 1155 0 0
+/labs/cse18/manual/intro.html 3 1274 0 0
+/labs/cse22/exp5/applet/ 1 1481 0 0
+/labs/cse09/exp6/default.html 7 25809 0 0
+/labs/emt/preQuiz7.php 1 2153 1 1
+/labs/cse24/exp4/ 1 2274 0 0
+/labs/cse01/exp3/quick.html 49 31213 3 11
+/labs/cse19/piping.php 3 10218 1 1
+/labs/ece26/default.html 2 3022 0 0
+/labs/cse19/quiz.php 121 169997 4 5
+/labs/ccnsb02/exp4/ 1 2254 0 0
+/labs/chem01/gla/gla5.php 17 24583 0 0
+/labs/eerc04/exp3/ 17 57814 0 0
+/labs/ccnsb06/exp10/content.html 1 5100 0 0
+/labs/cse04/exp4/thickbox/ 1 559 1 1
+/labs/cse09/exp7/ 5 11365 0 0
+/labs/eerc03/content.html 32 83049 1 2
+/labs/cse05/html/topics/arithmetic/ 3 22872 3 3
+/labs/civil13/experiment6/DoubGravModRes.php 3 9299 0 1
+/labs/eerc03/ 77 209056 12 1
+/labs/cse05/html/topics/higher-order/ 1 4512 0 0
+/labs/phy14/exp8/media/ve_youungmodulus.html 1 523 0 1
+/labs/ccnsb01/exp3/ 1 2365 0 0
+/labs/ccnsb03/exp9/content.html 2 15542 0 0
+/labs/ece05/exp4/ 4 8372 0 0
+/labs/civil13/login_process.php 2 3242 0 0
+/labs/cse14/ 31 54977 4 2
+/labs/cse17/ 31 113877 0 2
+/labs/cse04/exp2/ 25 94780 1 1
+/labs/ccnsb03/exp9/ 2 4182 0 0
+/labs/eerc05/exp9/media/plateload.jnlp 14 651 0 0
+/labs/emt/ve_exp21.html 2 157 0 0
+/labs/eerc02/exp1/ 38 128971 1 2
+/labs/cse04/exp9/ 7 26669 1 1
+/labs/ece19/exp5/ 1 2172 0 0
+/labs/cse30/vlab3/myExp6_cascode/outfile 1 13496 0 0
+/labs/cse02/exp8/quizresults.php 2 1345 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 1 5788 0 0
+/labs/ece08/default.html 2 3016 0 0
+/labs/civil13/login/experiments.php 10 18270 0 0
+/labs/cse30/vlab3/myExp9_b/exp1.html 1 417 0 0
+/labs/cse22/exp1/default.html 9 14928 0 0
+/labs/phy14/exp3/ 27 39540 0 1
+/labs/chem01/vle/vle2.php 7 13846 0 0
+/labs/cse16/exp03/default.html 1 3732 0 0
+/labs/ccnsb02/exp13/ 1 2254 0 0
+/labs/ccnsb04/exp2/content.html 2 9570 0 0
+/labs/ece18/default.html 2 4142 0 0
+/labs/eerc05/exp8/default.html 3 11208 0 0
+/labs/eerc02/exp5/vlab2/5.AttenbergLimits.html 1 356 0 0
+/labs/ccnsb02/exp4/surface.html 1 1151 0 0
+/labs/cse24/default.html 8 12088 0 0
+/labs/cse22/exp1/applet/ 9 5912 0 0
+/labs/eerc03/exp12/ 9 29494 0 1
+/labs/cse04/exp8/ 16 58017 2 2
+/labs/cse29/exp7/ 79 248046 0 0
+/labs/cse17/mapping/ 5 17410 3 3
+/labs/cse02/exp2/lab/if_else.php 10 1820 0 1
+/labs/civil13/experiment6/DoubGravModDefault.php 1 2450 0 0
+/labs/phy14/exp9/content.html 3 12198 0 0
+/labs/ccnsb04/exp5/experiment/zmatrix.php 2 3142 0 0
+/labs/ccnsb06/exp9/content.html 1 7445 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 6 12340 0 0
+/labs/cse22/exp2/applet/ 2 2988 0 1
+/labs/cse15/exp6/ 45 167787 16 15
+/labs/ccnsb04/exp1/ 2 7312 0 0
+/labs/cse16/exp03/ 1 1949 0 0
+/labs/civil13/experiment2/DataRegrMod.php 1 2245 0 0
+/labs/eerc05/exp3/ 1 1954 0 0
+/labs/cse02-CP/exp8/simulation/CallByValuePointers/ 1 1096 0 0
+/labs/cse16/exp04/ 1 1949 0 0
+/labs/eerc01/exp8/ 12 41228 0 0
+/labs/eerc02/exp2/vlab2/Unit.jnlp 2 1306 0 0
+/labs/cse24/exp10/ 1 2118 0 0
+/labs/cse30/ 100 330303 21 8
+/labs/ece05/exp2/default.html 1 3814 0 0
+/labs/ece21/Experiment%202/Layout.html 1 507 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 16 131968 0 0
+/labs/phy14/exp1/media/ve_dipolemoment.html 30 8880 1 1
+/labs/hss03/Obtain%20the%20main%20line%20formula/ 1 2093 1 0
+/labs/cse16/exp09/content.html 1 5721 0 0
+/labs/mech08/nano.html 1 2315 0 0
+/labs/cse18/exp4/ 46 156000 3 3
+/labs/cse29/exp9/ 22 69573 0 0
+/labs/ece21/experiment10.html 1 0 0 0
+/labs/eerc05/exp7/media/sulphate.jnlp 1 651 0 0
+/labs/cse05/html/topics/recursive/ 1 54302 0 0
+/ 86 14186 17 23
+/labs/civil13/experiment8/CaliDoubModRes.php 2 37288 0 0
+/labs/eerc02/exp5/vlab2/Attenberg.jnlp 1 664 0 0
+/labs/cse16/exp05/ 1 1949 0 0
+/labs/chem01/ori/ori2.php 12 25224 0 0
+/labs/cse16/ 13 19590 2 1
+/labs/ccnsb07/exp5/default.html 2 7458 0 0
+/labs/eerc05/exp2/media/highres.html 1 577 0 0
+/labs/ccnsb03/exp6/media/6.html 2 857 0 0
+/labs/cse16/exp01/default.html 4 7464 0 0
+/labs/chem01/gla/gla1.php 29 30508 9 5
+/labs/cse24/exp7/ 2 4250 0 0
+/labs/ece01/ 8 16568 1 0
+/labs/cse05/php/login-form.php 38 19993 0 2
+/labs/ece05/exp5/default.html 4 15256 0 0
+/labs/cse09/exp2/content.html 11 65428 0 2
+/labs/cse01/exp9/ 60 212928 4 8
+/labs/cse30/vlab3/myExp3_a/myfile.php 14 364 0 0
+/labs/ccnsb07/exp5/ 2 3920 0 0
+/labs/sample1/ 1 2051 0 0
+/labs/ccnsb06/exp5/content.html 1 6079 0 0
+/labs/ece11/ 2 4142 0 0
+/labs/chem01/htl/list.php 1 581 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 16 762432 0 3
+/labs/cse24/exp10/content.html 1 3746 0 0
+/labs/ccnsb07/exp10/ 1 1960 0 0
+/labs/cse18/manual/hsdpanel.html 1 430 0 0
+/labs/ccnsb01/exp1/ 3 6765 0 0
+/labs/civil13/experiment6/theory.php 1 2544 0 0
+/labs/cse16/default.html 10 12088 0 0
+/labs/ccnsb04/exp5/experiment/bottom.html 2 1530 0 0
+/labs/phy01/ 1 4641 0 0
+/labs/cse24/exp7/content.html 2 5610 0 0
+/labs/eerc05/exp8/media/ve_vanshear.html 1 569 0 0
+/labs/cse30/vlab3/myExp5_a/ 7 18688 3 3
+/labs/cse02/exp8/String/build/stringEx2.html 2 880 0 0
+/labs/cse24/exp10/default.html 1 3729 0 0
+/labs/cse29/exp8/ 13 42741 0 1
+/labs/ece05/default.html 10 15990 0 0
+/labs/cse04/exp1/lab.html 13 64793 2 2
+/labs/cse22/exp7/clnn.php 5 2934 0 0
+/labs/eerc04/exp4/vlab2/4.ColumnAnalysis.html 2 718 0 0
+/labs/cse02/exp2/ 66 254225 0 1
+/labs/cse16/exp09/ 1 1949 0 0
+/labs/ccnsb06/exp5/ 1 2188 0 0
+/labs/ece06/default.html 2 4212 0 0
+/labs/phy14/exp2/content.html 10 47540 0 2
+/labs/eerc05/exp6/default.html 5 18680 0 0
+/labs/eerc01/exp6/ 5 17000 0 0
+/labs/eee10/content.html 1 1628 0 0
+/labs/cse14/EXP_1sep2010/exp1/exp1.html 5 415 0 0
+/labs/cse21/exp3/ 3 14307 3 3
+/labs/cse01/exp8/ 53 189154 7 10
+/labs/cse09/exp3/ 6 13602 1 1
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 1 7604 0 0
+/labs/eee10/exp2/default.html 1 3732 0 0
+/labs/cse29/exp3/ 3 9879 0 0
+/labs/phy14/exp2/ 11 21747 0 0
+/labs/cse16/exp06/part1.php 24 23029 1 4
+/labs/cse02/exp5/quizresults.php 1 467 0 0
+/labs/cse22/exp7/ 1 1960 0 0
+/labs/chem01/htl/htl.php 4 1176 2 0
+/labs/chem01/htl/report2.php 1 104 0 0
+/labs/ece01/exp1/default.html 1 3740 0 0
+/labs/cse20/exp2/ 3 10277 0 0
+/labs/cse30/vlab3/myExp2_1_b/img.html 102 240 1 1
+/labs/cse09/exp7/interaction-frame.html 1 502 0 0
+/labs/ece18/content.html 2 4254 0 1
+/labs/cse15/exp10/ 2 6512 0 0
+/labs/cse04/exp2/getHint.py 4 1213 0 0
+/labs/cse30/vlab3/myExp3_a/ 15 43202 2 2
+/labs/cse18/exp2/ 143 486247 3 4
+/labs/phy14/exp9/media/ve_surfacetension.html 1 521 0 1
+/labs/cse09/php/login-form.php 17 14634 0 2
+/labs/chem01/calo/cal1.php 6 7956 1 2
+/labs/cse18/manual/ui.html 1 318 0 0
+/labs/civil13/experiment8/CaliDoubModDefaultDisplay.php 1 3102 0 0
+/labs/eerc05/exp4/media/ve_totalsolid.html 1 528 0 0
+/labs/cse14/EXP_1sep2010/exp6/outfile_latch_p 6 233900 0 0
+/labs/eerc03/exp10/vlab2/7.ReynoldsExperiment.html 2 353 1 1
+/labs/cse29/exp5/ 8 25661 0 0
+/labs/cse15/exp5/ 35 153483 9 10
+/labs/cse22/exp4/content.html 2 11964 0 0
+/labs/ccnsb07/exp2/ 1 1960 0 0
+/labs/eerc01/exp3/ 11 35774 0 0
+/labs/cse18/exp3/ 55 189977 1 2
+/labs/cse19/theory.php 117 367294 18 18
+/labs/ccnsb06/exp8/ 1 2187 0 0
+/labs/civil13/login/ 9 40635 0 0
+/labs/ece11/content.html 2 3696 0 0
+/labs/eerc01/exp5/vlab2/5.Impact.html 2 702 0 0
+/labs/ece05/exp1/ 1 2093 1 0
+/labs/ccnsb04/exp5/experiment/header.html 1 400 0 0
+/labs/cse18/exp10/ 17 59337 0 1
+/labs/emt/manual1.php 4 5674 0 0
+/labs/cse30/vlab3/myExp6_cascode/myFile.php 1 78 0 0
+/labs/ccnsb01/exp5/media/5.html 1 1188 1 1
+/labs/phy14/exp7/media/GeigerMuller.jnlp 6 2007 0 0
+/labs/ece19/exp1/ 5 12055 2 2
+/labs/ccnsb07/suraj/Suraj/bin/Hexane_Vanderwall.html 2 228 0 0
+/labs/cse01/exp4/ 87 344322 5 11
+/labs/eerc04/exp10/ 10 35778 0 0
+/labs/cse01/exp3/merge.html 31 19716 1 9
+/labs/cse18/manual/theorypanel.html 1 299 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff 1 5464 0 0
+/labs/chem01/vle/ 2 542 0 1
+/labs/cse09/exp5/ 4 9068 0 0
+/labs/cse24/content.html 8 19808 0 0
+/labs/cse02/exp7/structures/build/StrucMain.html 3 1338 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 6 10372 0 0
+/labs/cse16/exp05/default.html 1 3732 0 0
+/labs/eerc01/exp10/ 28 96842 0 2
+/labs/eerc05/exp2/ 9 17586 1 0
+/labs/ccnsb05/content.html 4 26420 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 5 8484 0 0
+/labs/chem01/gla/gla2.php 37 76812 0 2
+/labs/cse29/exp6/ 10 34275 0 0
+/labs/cse02/exp2/quizresults.php 3 3757 0 1
+/labs/cse02/exp9/pointers/build/pointer.html 4 1736 0 1
+/labs/cse14/EXP_1sep2010/exp6/outfile_flipflop_p 29 498160 0 0
+/labs/eerc01/exp2/vlab2/Compression.jnlp 7 2604 0 0
+/labs/cse30/vlab3/myExp6_basic/exp1.html 2 417 0 0
+/labs/cse29/exp2/ 12 42630 2 2
+/labs/ccnsb07/exp1/ 3 5880 0 0
+/labs/cse16/exp02/ 1 1949 1 0
+/labs/civil13/experiment8/CaliDoubInput.php 4 8947 0 0
+/labs/cse16/exp01/ 5 3898 0 0
+/labs/cse09/exp9/default.html 15 55305 0 0
+/labs/chem01/vle/vle5.php 5 7555 0 0
+/labs/mech08/home%20page.html 2 4582 0 0
+/labs/phy14/exp1/media/hcl.html 2 1040 0 0
+/labs/ccnsb06/exp10/default.html 1 3733 0 0
+/labs/cse24/exp5/content.html 1 3504 0 0
+/labs/ccnsb07/exp1/content.html 3 11370 0 0
+/labs/cse13/ 23 78525 2 1
+/labs/cse30/vlab3/myExp5_b/outfile 4 53268 0 0
+/labs/ccnsb02/exp4/content.html 1 4604 0 0
+/labs/ccnsb05/ 4 7904 0 0
+/labs/cse09/exp1/ 32 72704 0 0
+/labs/cse17/montecarlolocalization/ 8 29223 3 2
+/labs/civil13/login/feedback.php 2 6781 0 0
+/labs/mech08/Ic1.html 1 0 0 1
+/labs/cse18/manual/worldtab.html 1 278 0 0
+/labs/eerc04/exp6/ 3 23388 0 0
+/labs/eerc04/exp7/vlab2/7.Arches.html 1 353 0 0
+/labs/civil13/experiment6/DoubGravModDefaultInput.php 2 5455 1 0
+/labs/eerc01/exp1/vlab2/Tensile.jnlp 4 2552 0 0
+/labs/cse30/vlab3/myExp6_basic/outfile 3 40488 0 0
+/labs/cse30/vlab3/myExp2_2_b/exp1.html 6 2502 1 2
+/labs/mech08/creep.html 1 0 1 1
+/labs/cse15/exp4/exp4.html 17 5700 7 6
+/labs/cse19/trns.php 121 25150 1 4
+/labs/ece21/experiments.html 1 1204 0 0
+/labs/eerc01/content.html 64 146516 2 4
+/labs/cse16/exp05/content.html 1 6173 0 0
+/labs/cse30/vlab3/myExp6_basic/img.html 7 120 1 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/default.html 1 3732 0 0
+/labs/ccnsb06/exp6/ 4 8752 0 0
+/labs/cse05/html/code/recursive/ 1 586 1 0
+/labs/ccnsb03/exp9/media/9.html 2 885 0 0
+/labs/ece10/ 2 4142 0 0
+/labs/cse04/exp1/submission206456283.html 1 3004 0 0
+/labs/cse18/manual/instances.html 1 1374 0 0
+/labs/chem01/vle/vle.php 4 8092 1 0
+/labs/cse01/exp9/MinimumSpanningTree.html 10 6500 0 2
+/labs/cse16/exp09/default.html 1 3732 0 0
+/labs/cse19/objective.php 131 162930 0 5
+/labs/chs13/procedure.php 1 958 0 0
+/labs/ccnsb05/exp1/content.html 2 7738 0 0
+/labs/cse19/colour.php 8 45208 0 0
+/labs/cse22/exp2/ 2 3920 0 0
+/labs/phy14/exp4/content.html 2 8860 0 0
+/labs/ccnsb01/exp3/media/3.html 2 1187 0 0
+/labs/ccnsb06/exp5/plot_ethylacetate.html 1 2460 0 0
+/labs/phy14/exp3/content.html 22 77778 0 0
+/labs/cse05/html/ 2 1072 2 1
+/labs/eerc04/exp7/ 15 67011 0 1
+/labs/cse20/experiment/Exp3.jnlp 1 736 0 0
+/labs/sample1/content.html 1 2418 0 0
+/labs/phy14/exp8/content.html 1 4226 0 0
+/labs/cse01/exp5/binarySearchTree.html 24 14858 0 5
+/labs/chem01/2pf/2pf1.php 6 22536 1 0
+/labs/eerc04/exp9/ 9 46529 0 1
+/labs/cse05/html/code/lexical/ 1 564 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 5 36820 1 0
+/labs/cse04/exp2/submission631145706.html 1 3428 0 0
+/labs/chem01/gla/gla3.php 18 19278 0 0
+/labs/cse24/exp7/experiment5.php 1 479 0 0
+/labs/cse19/intro.php 45 76785 1 2
+/labs/cse01/exp7/DFS_BFS.html 19 12217 0 4
+/labs/cse09/exp4/default.html 7 25809 0 0
+/labs/cse14/EXP_1sep2010/exp6/exp6_negative/exp6_flipflop_negative.html 1 420 0 0
+/labs/cse24/exp8/content.html 1 3603 0 0
+/labs/cse30/vlab3/myExp5_b/myFile.php 4 312 0 0
+/labs/ece03/ 2 9766 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 6 48572 0 0
+/labs/eerc05/exp4/ 2 3910 0 0
+/labs/cse04/content.html 2 2306 0 0
+/labs/cse16/exp01/part3.php 2 1791 0 0
+/labs/cse16/exp08/indexie.html 11 89265 6 1
+/labs/eerc05/exp3/default.html 1 3736 0 0
+/labs/ccnsb06/exp7/ 1 2188 0 0
+/labs/cse22/exp8/ 1 1960 0 0
+/labs/cse15/exp1/index.php/trackback/ 1 3193 0 0
+/labs/ece19/exp6/ 1 2271 0 0
+/labs/cse24/exp2/exp2.php 2 3559 0 0
+/labs/ece05/exp6/content.html 2 7344 0 0
+/labs/cse09/php/register-form.php 60 34182 1 9
+/labs/cse19/point.php 2 27744 0 0
+/labs/ccnsb06/exp10/ 1 2193 0 0
+/labs/civil13/experiment8/theory.php 3 12060 0 0
+/labs/phy14/exp7/media/ve_geigermuller.html 4 2076 0 2
+/labs/ccnsb04/exp9/ 3 9790 2 2
+/labs/chem01/ori/ori5.php 7 9054 0 0
+/labs/ccnsb07/exp1/default.html 3 11187 0 0
+/labs/cse09/content.html 114 416486 0 22
+/labs/phy14/ 130 250676 38 4
+/labs/ccnsb05/exp1/default.html 2 3737 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 6 26776 0 0
+/labs/cse24/exp4/default.html 1 3729 0 0
+/labs/cse11/ARM1/ 1 3957 0 0
+/labs/mech08/wetting.html 1 3283 1 1
+/labs/emt/ve_exp22_3.html 1 158 0 0
+/labs/ccnsb07/suraj/Suraj/bin/Hexane_Vanderwall/Hexane$MyApplet 1 863 0 0
+/labs/cse09/exp7/tasks.html 1 398 0 0
+/labs/cse02-CP/exp1/ 1 2544 0 0
+/labs/emt/ 47 105045 13 2
+/labs/emt/aboutus.php 1 1298 1 1
+/labs/cse02/exp1/arithmatic/operator.php 9 1791 0 2
+/labs/cse04/exp1/submission774253853.html 1 2981 0 0
+/labs/cse02-CP/bootstrap-3.1.1-dist/fonts/glyphicons-halflings-regular.woff 2 46640 0 1
+/labs/cse30/vlab3/myExp2_1_a/ 28 113863 0 1
+/labs/cse20/exp1/ 31 113120 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 5 41240 0 0
+/labs/ece09/ 2 3910 0 0
+/labs/cse16/exp04/content.html 1 7510 0 0
+/labs/civil13/experiment8/CaliDoubModDefault.php 1 5240 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 1 5144 0 0
+/labs/eerc02/exp1/vlab2/1.WaterContent.html 10 2124 0 0
+/labs/cse16/exp06/default.html 4 7464 0 0
+/labs/eerc05/exp9/media/ve_plateload.html 8 1725 0 1
+/labs/ccnsb01/exp3/content.html 1 8136 0 0
+/labs/cse02/exp3/ 28 107961 0 0
+/labs/sample1/exp1/ 1 2073 0 0
+/labs/eerc04/exp2/vlab2/Singlespan.jnlp 2 1362 1 0
+/labs/mech08/bc.html 1 0 1 1
+/labs/civil13/experiment2/theory.php 1 5369 0 0
+/labs/cse24/ 8 16568 1 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 11 83644 0 7
+/labs/cse09/exp2/default.html 11 40557 0 0
+/labs/eerc05/exp3/content.html 1 4046 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 6 5728 0 0
+/labs/eerc04/exp5/vlab2/5.PortalFrames.html 1 359 0 0
+/labs/cse02/exp9/ 54 185398 1 2
+/labs/eerc04/exp10/vlab2/10.PlasticHinge.html 1 360 0 0
+/labs/phy14/exp4/ 2 3954 0 0
+/labs/cse30/vlab3/myExp2_1_a/exp1.html 7 2439 0 3
+/labs/cse20/ 52 189197 2 4
+/labs/eerc03/exp9/vlab2/6.Channels.html 1 355 0 0
+/labs/phy14/exp1/content.html 20 114280 0 1
+/labs/cse24/exp8/default.html 1 3729 0 0
+/labs/cse09/exp6/ 7 15855 0 0
+/labs/cse01/exp2/ 149 548977 4 14
+/labs/eerc05/exp6/ 5 9780 1 0
+/labs/cse05/html/topics/environment/ 2 9158 0 0
+/labs/cse16/exp07/ 6 3898 0 0
+/labs/chem01/gla/gla7.php 21 30051 0 1
+/labs/cse02/exp9/quizresults.php 1 461 0 0
+/labs/cse14/aboutus.php 1 1888 0 0
+/labs/civil13/experiment1/aim.php 2 2912 0 0
+/labs/civil13/experiment8/applet/CaliGrav.php 1 409 0 0
+/labs/cse16/exp07/content.html 6 11234 0 0
+/labs/ece05/content.html 11 34705 0 0
+/labs/cse17/forwardkinematics/ 11 39235 4 3
+/labs/cse13/lfsr/ 2 7669 0 0
+/labs/cse22/exp5/ 1 1960 0 0
+/labs/ece01/exp1/content.html 1 8073 0 0
+/labs/eerc03/exp9/ 10 34114 0 0
+/labs/cse22/exp2/content.html 2 13888 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 6 9676 0 0
+/labs/cse30/vlab3/myExp2_2_b/ 12 36929 1 1
+/labs/ece05/exp6/default.html 2 7628 0 0
+/labs/eerc03/exp11/vlab2/8.Vortices.html 2 359 0 0
+/labs/cse30/vlab3/myExp6_basic/myFile.php 3 249 0 0
+/labs/cse30/vlab3/myExp9_a/ 2 6385 1 1
+/labs/chem01/hpc/hpc1.php 6 8862 3 2
+/labs/cse16/exp02/indexie.html 1 6556 0 0
+/labs/cse04/exp5/ 8 30765 0 0
+/labs/eerc05/exp2/media/lowres.html 1 575 0 0
+/labs/eerc05/exp5/content.html 2 7142 0 0
+/labs/eerc04/ 53 134799 6 3
+/labs/civil13/experiment3/theory.php 1 2336 0 0
+/labs/cse29/ 161 489887 10 5
+/labs/eerc03/exp1/vlab2/1.Bernoullis.html 19 4956 3 4
+/labs/ccnsb06/exp2/content.html 1 7612 0 0
+/labs/eee10/exp2/content.html 1 6574 0 0
+/labs/cse30/vlab3/myExp2_3_a/ 8 25447 1 1
+/labs/eerc02/exp4/vlab2/Grain.jnlp 1 687 0 0
+/labs/phy14/exp7/ 4 7908 0 0
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff 2 73234 0 0
+/labs/ccnsb02/exp1/sol.html 4 2294 0 0
+/labs/cse29/exp10/ 7 21909 0 0
+/labs/ccnsb07/exp5/content.html 2 8258 0 0
+/labs/cse30/vlab3/myExp3_a/exp1.html 1 417 0 0
+/labs/ece06/ 2 3910 0 0
+/labs/eerc05/exp1/animation/highres.html 1 581 0 0
+/labs/cse14/EXP_1sep2010/exp6/exp6_flipflop_positive.html 1 419 0 0
+/labs/ccnsb06/exp7/default.html 1 3733 0 0
+/labs/cse30/vlab3/myExp5_b/myfile.php 49 74834 0 0
+/labs/ece05/exp1/content.html 1 5370 0 1
+/labs/civil13/experiment8/procedure.php 1 2237 0 0
+/labs/chem01/vle/vle6.php 3 3100 0 0
+/labs/eerc04/exp2/ 29 125418 0 0
+/labs/cse24/exp7/default.html 2 7458 0 0
+/labs/ccnsb04/exp1/nr.html 1 317 0 0
+/labs/ece21/experiment2.html 1 1398 0 0
+/labs/ccnsb02/exp3/ 2 4508 0 0
+/labs/eerc02/exp9/vlab2/9.DirectShear.html 4 1428 0 0
+/labs/cse14/EXP_1sep2010/exp9/exp9_flipflop_positive_verilog.html 1 425 0 0
+/labs/cse15/exp2/exp2.html 10 3800 0 2
+/labs/cse24/exp5/experiment10-0.php 1 1472 0 0
+/labs/cse13/carry_look_ahead_adder/ 8 28607 0 0
+/labs/ccnsb03/exp1/content.html 1 32519 0 0
+/labs/ccnsb06/exp5/default.html 1 3733 0 0
+/labs/ece01/exp11/content.html 1 2046 0 1
+/labs/eerc03/exp9/vlab2/Channels.jnlp 3 642 0 0
+/labs/cse22/exp7/content.html 1 5800 0 0
+/labs/cse22/exp8/content.html 1 5728 0 0
+/labs/ece19/exp3/ 1 2592 0 0
+/labs/civil13/SaveUser.php 2 346 0 0
+/labs/ccnsb01/exp4/ 1 2363 0 0
+/labs/chem01/ori/ori4.php 12 20787 0 1
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 2 38712 0 0
+/labs/civil13/login/feedbacksave.php 1 152 0 0
+/labs/cse24/exp2/ 1 2310 0 0
+/labs/cse18/manual/install-run.html 1 549 0 0
+/labs/cse19/assign.php 7 10329 2 1
+/labs/civil13/mathjax-MathJax-24a378e/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff 2 11576 0 0
+/labs/cse15/exp1/exp1.html 9 3456 0 2
+/labs/eerc01/exp10/vlab2/10.RockwellHardness.html 1 363 0 1
+/labs/ccnsb02/exp5/Tyndal.html 2 1153 0 0
+/labs/phy14/exp2/media/ve_millikansexp.html 6 3624 0 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/content.html 1 3952 0 1
+/labs/ccnsb07/exp10/content.html 1 3876 0 0
+/labs/civil13/experiment3/aim.php 1 1479 0 0
+/labs/eerc03/exp10/vlab2/Reynolds.jnlp 1 638 1 1
+/labs/cse22/exp1/ 9 7840 0 0
+/labs/phy14/exp6/content.html 5 19185 0 0
+/labs/cse14/faqs.php 1 8727 0 0
+/labs/cse11/CacheOrganizations/ 12 39552 0 0
+/labs/cse02-CP/exp8/simulation.html 1 1046 0 0
+/labs/civil13/people.php 5 18756 2 1
+/labs/cse22/default.html 19 25881 0 1
+/labs/cse18/exp8/inputpoly 1 80 0 0
+/labs/ccnsb02/exp1/content.html 4 15196 0 1
+/labs/eerc05/exp1/default.html 6 18680 0 0
+/labs/cse04/exp1/submission288085064.html 1 2996 0 1
+/labs/cse17/sensormodelling/ 2 9140 0 0
+/labs/phy14/exp6/media/ve_phscale.html 5 1512 0 0
+/labs/ccnsb06/exp1/content.html 1 7440 0 0
+/labs/cse22/content.html 19 56072 0 1
+/labs/civil13/tripdistribution.php 1 2845 1 1
+/labs/cse04/exp2/submission797565642.html 1 3002 0 0
+/labs/phy14/exp6/ 5 9885 0 0
+/labs/eerc02/exp10/ 16 52556 1 0
+/labs/civil13/experiment1/procedure.php 1 1664 0 0
+/labs/eerc04/exp8/vlab2/8.Trusses.html 1 362 0 0
+/labs/cse11/ 58 228102 5 2
+/labs/cse09/exp1/default.html 31 115351 0 0
+/labs/ece10/default.html 2 3048 0 0
+/labs/cse30/vlab3/myExp2_1_b/exp1.html 11 834 1 1
+/labs/cse22/exp1/tableTEMP.html 15 2415 0 1
+/labs/ccnsb06/exp2/ 1 2191 0 0
+/labs/cse24/exp5/ 1 2240 0 0
+/labs/ece05/exp7/default.html 2 7628 0 0
+/labs/eerc01/exp7/vlab2/7.Fatigue.html 1 359 0 1
+/labs/civil13/tripgeneration.php 5 20795 2 2
+/labs/eerc01/exp4/vlab2/Torsion.jnlp 1 638 0 0
+/labs/civil13/experiment1/experiment.php 2 2792 0 0
+/labs/cse02/exp8/ 21 73910 0 0
+/labs/eerc02/exp8/ 11 38187 0 0
+/labs/cse17/exploration/ 2 10763 0 0
+/labs/ccnsb01/exp1/media/1.html 5 3510 0 0
+/labs/eerc05/exp2/content.html 9 30312 0 1
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 2 93616 0 0
+/labs/ccnsb02/exp2/content.html 1 4019 0 0
+/labs/eerc03/exp8/ 17 56298 0 1
+/labs/chem01/vle/vle3.php 5 6360 0 0
+/labs/cse17/rrtbasedpathplanning/ 11 116498 0 0
+/labs/civil13/login.php 12 22567 0 0
+/labs/phy14/exp1/media/dipole_moment.htm 4 1844 0 0
+/labs/eerc01/exp8/vlab2/8.CompressionTestSpring.html 1 368 0 0
+/labs/eerc04/exp4/vlab2/Column.jnlp 1 684 0 1
+/labs/phy14/exp6/media/pHScale.jnlp 3 1356 0 0
+/labs/ece01/content.html 8 13888 0 0
+/labs/cse02/exp1/ 42 166787 1 4
+/labs/ece19/default.html 2 3022 0 0
+/labs/cse02-CP/exp1/simulation/ 1 1241 0 1
+/labs/cse09/exp9/ 16 36288 0 0
+/labs/civil13/experiment8/aim.php 3 4639 0 0
+/labs/cse18/exp5b/ 27 92245 2 2
+/labs/cse18/exp5a/ 26 87452 2 3
+/labs/ccnsb01/exp8/media/8.html 5 6673 2 2
+/labs/ccnsb06/default.html 24 34753 1 3
+/labs/ece05/exp2/ 1 2093 0 0
+/labs/ccnsb07/exp2/content.html 1 3832 0 0
+/labs/cse17/mapping/default.html 1 3730 0 0
+/labs/emt/ve_exp22_1.html 1 162 0 1
+/labs/eerc02/exp1/vlab2/Water.jnlp 7 3280 0 1
+/labs/cse22/exp7/default.html 1 3732 0 0
+/labs/ccnsb05/default.html 4 6116 0 0
+/labs/eerc03/exp1/vlab2/Bernoullis.jnlp 28 7106 0 3
+/labs/eerc02/exp9/ 20 66565 0 2
+/labs/civil13/experiment2/procedure.php 1 2071 0 0
+/labs/cse02/exp3/lab/loops.html 1 426 0 0
+/labs/phy14/exp3/media/ve_photoelectric.html 19 9488 0 2
+/labs/ccnsb03/ 9 27319 2 0
+/labs/cse16/exp10/indexie.html 1 0 1 1
+/labs/chem01/htl/ 1 268 0 0
+/labs/cse13/Gated_Clocking/ 2 7684 0 0
+/labs/cse09/exp6/content.html 7 63469 0 1
+/labs/cse15/exp3/exp3.html 6 1825 0 0
+/labs/cse09/exp2/ 12 27180 0 0
+/labs/phy14/exp5/media/ve_calorimeter.html 3 1737 0 0
+/labs/eerc02/content.html 35 98454 0 3
+/labs/cse01/exp6/exptree.html 15 9585 0 5
+/labs/sample1/default.html 1 1511 0 0
+/labs/eerc05/exp9/content.html 6 28638 0 1
+/labs/ccnsb06/exp8/content.html 1 6864 0 0
+/labs/cse22/exp4/mlffnn.php 11 7284 0 0
+/labs/cse01/exp4/polynomial.html 14 8960 0 2
+/labs/cse17/forwardkinematics/default.html 2 7460 0 0
+/labs/chem01/hpc/hpc2.php 7 13436 0 0
+/labs/cse14/Experiment.php 141 341812 36 37
+/labs/civil13/experiment8/experiment.php 2 4394 0 1
+/labs/cse30/vlab3/myExp3_b/ 56 164325 5 5
+/labs/phy14/exp5/media/Calorimeter.jnlp 3 1998 0 0
+/labs/cse11/Integers/ 11 36446 0 0
+/labs/ccnsb04/exp1/butadiene/indexNR.html 1 128 0 0
+/labs/chem01/vle/vle4.php 3 3101 0 0
+/labs/cse22/exp10/default.html 1 3732 0 0
+/labs/ccnsb06/exp1/default.html 1 3733 0 0
+/labs/eerc01/exp1/vlab2/1.Tensile.html 16 4956 0 1
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff 1 34464 0 0
+/labs/civil13/experiment2/applet/DataAnalysis1.php 1 404 0 0
+/labs/ece01/exp7/ 1 2093 0 0
+/labs/cse05/html/message.html 1 128 0 1
+/labs/eerc05/exp5/default.html 2 7472 0 0
+/labs/cse22/exp4/ 2 3920 0 0
+/labs/cse18/manual/displaytab.html 2 1244 0 0
+/labs/eerc05/exp9/ 6 11736 1 0
+/labs/cse30/vlab3/myExp6_cascode/myfile.php 17 71236 0 0
+/labs/cse16/exp01/part1.php 7 6225 0 0
+/labs/ccnsb02/exp5/ 1 2254 0 0
+/labs/cse01/exp1/UnarySystem.html 30 19260 0 8
+/labs/cse11/MIPS1/ 1 5193 1 1
+/labs/ece05/exp7/ 2 4186 0 0
+/labs/cse22/exp10/weightedmatching.php 1 661 0 0
+/labs/eerc02/exp7/ 15 55646 0 1
+/labs/cse16/exp05/indexie.html 8 40558 5 5
+/labs/cse04/exp7/ 3 11490 0 0
+/labs/cse09/ 149 328729 51 11
+/labs/civil13/experiments.php 13 28356 3 2
+/labs/mech08/e1.html 1 0 0 0
+/labs/ece05/ 13 26923 2 0
+/labs/eerc05/exp1/content.html 6 22545 0 0
+/labs/cse16/exp07/default.html 6 7464 0 0
+/labs/ccnsb04/content.html 18 47872 0 4
+/labs/cse02/exp8/String/build/factorial.html 1 438 0 0
+/labs/ccnsb06/exp1/ 1 2187 0 0
+/labs/ccnsb06/ 24 44965 8 1
+/labs/eerc01/default.html 65 84656 1 5
+/labs/eee10/exp2/index1.html 1 2576 0 1
+/labs/phy14/exp3/media/PhotoElectric.jnlp 17 7370 0 3
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 6 49684 0 0
+/labs/eerc04/exp1/ 1 3580 0 0
+/labs/ece04/default.html 2 3022 0 0
+/labs/cse30/vlab3/myExp3_b/exp1.html 11 834 0 0
+/labs/civil13/experiment2/aim.php 2 3088 0 0
+/labs/cse15/exp1/ 99 365967 5 7
+/labs/cse04/exp6/ 5 19880 1 2
+/labs/cse16/exp04/part1.php 2 494 0 0
+/labs/cse18/exp9/ 9 30710 3 2
+/labs/chem01/ori/ori3.php 8 11471 0 0
+/labs/eerc05/exp8/content.html 3 13659 0 0
+/labs/cse04/exp4/ 6 22530 0 0
+/labs/eerc02/exp2/vlab2/2.UnitWeight.html 3 1065 0 0
+/labs/cse01/exp7/ 116 447394 14 15
+/labs/cse19/fourier.php 11 59798 1 1
+/labs/eerc03/exp8/vlab2/5.Weirs.html 1 353 0 0
+/labs/ccnsb02/exp3/content.html 2 7758 0 0
+/labs/eerc04/exp4/ 12 40427 0 0
+/labs/eerc01/exp5/ 22 72009 1 0
+/labs/chem01/vle/vle7.php 3 4599 0 0
+/labs/cse16/exp06/indexie.html 7 65946 3 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff 1 19356 0 0
+/labs/cse02/exp5/ 85 295381 2 4
+/labs/ccnsb02/ 17 41140 5 0
+/labs/eerc01/exp7/ 15 49628 2 0
+/labs/ccnsb02/exp5/content.html 1 5324 0 0
+/labs/cse15/content.html 1 2434 0 0
+/labs/ccnsb04/exp4/ 2 9136 0 1
+/labs/cse09/exp3/default.html 5 18435 0 0
+/labs/chem01/2pf/2pf2.php 3 32733 0 1
+/labs/chem01/nof/nof1.php 3 5547 0 0
+/labs/ece21/ 6 9012 0 2
+/labs/ccnsb03/exp6/content.html 1 6773 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 5 131940 0 1
+/labs/eerc03/exp12/vlab2/9.Jets.html 1 351 0 0
+/labs/cse11/FloatingPointNumbers/ 6 20063 0 2
+/labs/cse22/exp9/ 1 1960 0 0
+/labs/cse16/exp01/wav/java.policy 1 2607 0 0
+/labs/cse22/exp10/content.html 1 6517 0 0
+/labs/cse19/arith.php 19 79312 2 1
+/labs/cse09/exp9/content.html 15 99465 0 2
+/labs/cse04/exp8/getHint.py 2 540 0 1
+/labs/cse15/exp8/ 56 215505 7 9
+/labs/eerc05/exp6/content.html 5 18425 0 1
+/labs/ece21/experiment4.html 1 1390 0 0
+/labs/ccnsb01/content.html 11 48037 0 0
+/labs/cse02-CP/exp8/simulation/CallByReferencePointers/ 1 1125 0 0
+/labs/ccnsb02/exp3/clean.html 1 894 0 1
+/labs/ece11/default.html 2 3022 0 0
+/labs/ccnsb01/exp4/content.html 1 8909 0 0
+/labs/civil13/experiment2/DataRegrModDefault.php 1 4146 0 0
+/labs/cse16/js/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 16 422208 0 0
+/labs/eee10/exp9/index1.html 1 2592 1 1
+/labs/emt/manual4.php 1 1437 0 1
+/labs/cse14/EXP_1sep2010/exp6/exp6_flipflop_positive_simulate.php 29 1248 0 0
+/labs/chem01/2pf/2pf3.php 1 3314 0 0
+/labs/eerc02/exp4/ 22 74535 1 1
+/labs/cse20/experiment/Exp5.jnlp 1 790 0 0
+/labs/cse30/content.html 1 2593 0 0
+/labs/ece01/exp11/ 1 2093 0 0
+/labs/cse01/exp8/Dijkstra.html 8 5128 0 2
+/labs/ece26/ 2 4142 0 0
+/labs/eerc03/exp1/ 68 231190 4 3
+/labs/eerc04/exp2/vlab2/2.SingleSpanBeams.html 6 1472 0 2
+/labs/eerc03/exp13/ 13 42745 0 1
+/labs/eerc02/exp10/vlab2/10.Triaxial.html 2 706 0 1
+/labs/eerc05/exp4/content.html 2 7716 0 0
+/labs/cse02/exp7/ 45 156335 0 1
+/labs/cse02/exp6/ 26 90054 2 2
+/labs/cse17/gridbasednavigation/ 4 14680 2 2
+/labs/eerc05/exp7/content.html 2 8434 0 0
+/labs/cse04/exp10/ 4 22238 1 1
+/labs/eerc03/exp5/ 17 57175 0 2
+/labs/chem01/calo/calqa.html 2 2526 0 0
+/labs/cse18/manual/ 20 6286 0 1
+/labs/ccnsb06/exp6/content.html 4 32968 0 0
+/labs/cse04/exp5/lab.html 3 9609 0 0
+/labs/cse19/histo.php 8 39408 0 0
+/labs/ccnsb04/exp8/experiment/bottom.html 1 670 0 0
+/labs/ece21/experiment1.html 1 1461 0 0
+/labs/chem01/nof/ 2 3400 1 1
+/labs/civil13/experiment8/CaliDoubMod.php 2 4550 0 0
+/labs/eerc05/exp1/animation/ve_fsi.html 1 517 1 0
+/labs/cse17/velocitymodelling/ 7 25177 3 3
+/labs/ccnsb06/exp6_10/caffeine/plot_IR_caffeine_exp6.html 1 3102 0 1
+/labs/civil13/signup.php 10 88098 1 2
+/labs/cse16/exp06/part2.php 2 2500 0 0
+/labs/cse01/exp1/BinarySystem.html 13 8359 1 2
+/labs/eerc02/exp3/vlab2/Specific.jnlp 2 1336 0 0
+/labs/cse16/exp03/content.html 1 4555 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff 1 34160 0 0
+/labs/cse30/vlab3/myExp9_b/ 6 18613 0 0
+/labs/cse24/exp2/exp2_opt.php 5 1839 0 0
+/labs/ece21/Experiment%201/mm1.html 1 507 0 0
+/labs/cse14/Experiment.php/trackback/ 6 6420 0 2
+/labs/cse02/exp10/ 42 141218 1 3
+/labs/eerc03/exp7/vlab2/Mouth.jnlp 2 1304 0 0
+/labs/cse06/cgi-bin/web_exec.py 1 3708 1 1
+/labs/cse14/experimentHome.php 13 45266 0 1
+/labs/ccnsb04/exp8/ 1 2005 1 0
+/labs/eee10/exp2/ 1 2093 0 0
+/labs/cse04/exp2/lab.html 3 9618 0 0
+/labs/eerc05/exp1/animation/highres.jnlp 2 652 0 0
+/labs/cse19/diff.php 15 104264 0 1
+/labs/eerc02/default.html 35 46901 0 2
+/labs/cse04/exp8/lab.html 3 9627 0 0
+/labs/chem01/gla/gla6.php 17 25454 0 0
+/labs/cse13/carry_look_ahead_adder/practise_swing/exp_1.html 1 421 0 0
+/labs/ccnsb07/latest_project/bin/magnet.html 1 124 0 0
+/labs/cse09/exp3/content.html 5 21445 0 0
+/labs/ccnsb06/exp8/default.html 1 3733 0 0
+/labs/ccnsb05/exp1/ 2 2174 0 0
+/labs/hss02/eng/commerror5.html 2 20208 1 1
+/labs/cse02/exp4/lab/arrayProg.html 13 5124 0 1
+/labs/cse24/exp2/content.html 1 3199 0 0
+/labs/chem01/calo/cal1a.php 4 5201 1 0
+/labs/eerc02/exp2/ 28 100881 0 0
+/labs/civil13/Vlabfaq.php 1 4890 0 0
+/labs/ece01/exp7/content.html 1 9690 0 0
+/labs/ccnsb04/ 28 55737 12 1
+/labs/civil13/experiment1/theory.php 2 5216 0 0
+/labs/eerc05/exp7/ 2 3912 0 0
+/labs/cse16/exp06/content.html 4 13530 0 0
+/labs/chem01/vle/vle8.php 7 504 0 0
+/labs/ece18/ 2 4142 0 0
+/labs/ccnsb04/default.html 18 25687 0 3
+/labs/ece01/exp1/ 1 2093 0 0
+/labs/cse01/exp5/ 154 533919 6 14
+/labs/ece05/exp2/content.html 1 4881 0 0
+/labs/ccnsb03/exp4/content.html 2 30158 0 0
+/labs/emt/preQuiz1.php 1 1830 0 0
+/labs/cse30/vlab3/myExp6_basic/myfile.php 53 150859 0 0
+/labs/cse15/exp9/ 23 95379 0 0
+/labs/cse19/segment.php 21 117537 0 0
+/labs/eerc02/exp3/ 12 41375 1 1
+/labs/eerc02/exp6/ 14 49353 1 1
+/labs/eerc05/exp4/media/lowres.html 3 1770 0 0
+/labs/cse20/exp7/ 1 3525 0 0
+/labs/eerc01/exp1/ 154 540934 3 13
+/labs/cse02/exp10/Integration/build/factorial.html 2 894 0 1
+/labs/sample1/exp1/default.html 1 3721 0 0
+/labs/cse05/html/topics/objects/ 2 8896 0 0
+/labs/phy01/mathjax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff 1 5144 0 0
+/labs/phy14/exp1/media/DipoleMoment.jnlp 26 6690 0 0
+/labs/ece05/exp7/content.html 2 7216 0 0
+/labs/cse22/exp9/graphbipartition.php 2 2245 0 0
+/labs/eerc04/exp3/vlab2/3.ContinuousBeams.html 1 372 0 0
+/labs/cse22/exp8/som.php 11 8150 0 0
+/labs/eerc05/exp1/ 6 9770 0 0
+/labs/cse09/exp8/content.html 4 24000 0 0
+/labs/phy14/exp5/content.html 3 13722 0 0
+/labs/ccnsb03/exp6/ 1 2091 0 0
+/labs/eerc05/exp7/default.html 2 7472 0 0
+/labs/cse19/morph.php 8 35100 1 1
+/labs/phy14/exp5/ 3 5931 0 0
+/labs/ece04/ 2 3910 0 0
+/labs/eerc03/default.html 33 48352 1 4
+/labs/cse16/exp02/part1.php 2 1578 0 0
+/labs/eerc01/exp2/ 48 165507 1 3
+/labs/cse02-CP/exp8/ 2 5804 0 0
+/labs/eerc03/exp7/vlab2/4.MouthPieces.html 2 716 0 0
+/labs/civil13/contact.php 3 11981 0 1
+/labs/cse20/exp10/ 6 21951 2 2
+/labs/civil13/experiment1/applet/T-sectionSimulation1.php 1 348 0 0
+/labs/eerc02/exp8/vlab2/8.Consolidation.html 3 1080 0 0
+/labs/ece05/exp4/content.html 4 19996 0 1
+/labs/civil13/experiment8/intermediateCaliDoubGravMod.php 1 1762 0 0
+/labs/eerc05/exp2/media/highres.jnlp 2 656 0 1
+/labs/cse14/preQuiz6.php 1 2097 0 0
+/labs/ece09/content.html 2 4502 0 0
+/labs/cse22/exp5/content.html 1 6448 0 0
+/labs/ece05/exp5/content.html 4 15732 0 1
+/labs/eerc05/exp5/ 2 3910 0 0
+/labs/eerc04/exp8/ 12 41916 0 0
+/labs/eerc01/ 160 447124 35 9
+/labs/ccnsb02/exp1/ 4 9016 0 0
+/labs/cse02/exp5/lab/function.html 9 1014 0 1
+/labs/emt/Experiment.php 76 170243 5 8
+/labs/cse14/EXP_1sep2010/exp6/exp6_latch_positive_simulate.php 6 264 0 0
+/labs/chem01/ori/ori1.php 14 14910 5 3
+/labs/emt/experiments.php 35 127015 1 2
+/labs/eerc05/exp2/media/ve_cbr.html 2 1022 0 0
+/labs/ccnsb03/exp4/ 2 7347 0 0
+/labs/mech08/self.html 1 0 0 0
+/labs/cse22/exp1/content.html 9 26024 0 0
+/labs/ece26/content.html 2 3130 0 0
+/labs/cse15/exp8/exp8.html 9 2527 0 2
+/labs/cse24/exp5/experiment10.php 1 488 0 0
+/labs/cse09/default.html 116 184258 1 2
+/labs/cse04/exp7/prob_desc.html 1 856 0 0
+/labs/ece08/ 2 4142 0 0
+/labs/eerc05/default.html 19 27504 0 1
+/labs/cse16/exp04/default.html 1 3732 0 0
+/labs/civil13/experiment6/DoubGravMod.php 1 2360 0 0
+/labs/mech08/fmbs2.html 1 0 0 0
+/labs/ece08/content.html 2 3612 0 0
+/labs/cse24/exp2/default.html 1 3729 0 0
+/labs/civil13/experiment8/AccuracyHelp.php 1 253 0 0
+/labs/chem01/vle/addpnt.php 4 108 0 0
+/labs/civil13/experiment6/experiment.php 1 2223 0 0
+/labs/cse29/exp11/ 16 52512 0 0
+/labs/cse04/default.html 2 1520 0 0
+/labs/cse11/SingleCycle/ 10 32765 0 0
+/labs/ccnsb04/exp1/ethane/indexNR.html 1 127 0 1
+/labs/cse14/EXP_1sep2010/exp2/exp2.html 1 417 0 0
+/labs/cse09/exp4/ 7 15890 0 0
+/labs/cse09/exp7/default.html 5 18605 0 0
+/labs/cse17/forwardkinematics/content.html 2 10340 0 1
+/labs/eee10/default.html 1 1511 0 0
+/labs/cse13/5_3_compressor/ 1 3455 0 0
+/labs/ece11/exp3/FM.exe 1 624381 0 1
+/labs/cse17/localization/ 1 4177 1 1
+/labs/eerc05/exp2/default.html 9 33624 0 1
+/labs/civil13/experiment2/DataRegrMod2.php 6 25526 0 0
+/labs/ccnsb07/default.html 14 22644 0 0
+/labs/emt/ve_exp22_2.html 3 158 0 0
+/labs/ece19/exp7/ 2 5186 0 0
+/labs/ece05/exp4/default.html 4 15256 0 0
+/labs/cse14/EXP_1sep2010/exp6/exp6_latch_positive.html 9 3328 0 0
+/labs/cse04/exp3/ 1 4017 1 1
+/labs/cse01/exp3/insertion.html 26 15925 0 3
+/labs/cse30/vlab3/myExp2_1_b/myFile.php 66 2401 0 0
+/labs/cse15/exp4/ 36 135168 4 5
+/labs/cse01/exp7/index.php/trackback/ 7 23443 0 5
+/labs/ccnsb07/ 15 30444 1 0
+/labs/eerc02/exp8/vlab2/Consolidation.jnlp 2 659 0 1
+/labs/cse18/manual/slider.html 3 966 0 0
+/labs/cse09/exp5/default.html 4 14748 0 0
+/labs/emt/ve_exp1.html 14 1788 0 3
+/labs/ece05/exp5/ 5 10465 1 0
+/labs/phy14/exp9/ 3 5931 0 0
+/labs/civil13/experiment6/aim.php 2 3005 0 0
+/labs/cse22/exp9/default.html 1 3732 0 0
+/labs/ccnsb04/exp2/default.html 2 7474 0 0
+/labs/cse24/exp8/ 1 2164 0 0
+/labs/cse18/exp1/ 24 82869 3 2
+/labs/eerc02/exp5/ 14 47844 0 0
+/labs/cse02/exp4/quizresults.php 1 420 0 0
+/labs/ccnsb02/exp2/ 1 2254 0 0
+/labs/eerc05/ 20 37145 4 0
+/labs/cse18/exp6/ 17 57949 1 2
+/labs/eerc03/exp7/ 10 33635 0 0
+/labs/ccnsb07/exp2/default.html 1 3729 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 5 238260 0 0
+/labs/cse15/exp6/exp6.html 1 388 0 0
+/labs/civil13/experiment3/procedure.php 1 1846 0 0
+/labs/ccnsb06/content.html 24 68977 1 5
+/labs/cse16/content.html 10 24016 0 0
+/labs/ccnsb07/latest_project/bin/magnet1.html 1 130 0 1
+/labs/cse05/html/topics/closure/ 2 19366 1 1
+/labs/cse05/html/code/ 3 1732 0 0
+/labs/ccnsb04/exp2/ 21 72034 2 2
+/labs/cse09/exp7/content.html 5 21210 0 0
+/labs/ece01/exp11/default.html 1 3740 0 0
+/labs/eerc04/default.html 26 39265 1 1
+/labs/ccnsb04/exp5/experiment/ 1 1717 0 0
+/labs/phy14/exp8/ 1 1977 0 0
+/labs/chem01/vle/addpntri.php 1 27 0 0
+/labs/ccnsb01/ 14 35406 1 0
+/labs/eerc04/exp5/ 10 48780 0 0
+/labs/ece19/content.html 2 3368 0 0
+/labs/phy14/exp2/media/Millikan.jnlp 10 3325 0 0
+/labs/cse01/exp2/calc3.html 26 16562 0 8
+/labs/eerc02/exp3/vlab2/3.SpecificGravity.html 3 1080 0 1
+/labs/cse02/exp6/test1/build/towers.html 2 240 0 0
+/labs/ece05/exp6/sim1/platch.html 1 2374 0 0
+/labs/ccnsb07/exp10/default.html 1 3729 0 0
+/labs/cse04/exp1/getHint.py 1 146 0 1
+/labs/eerc03/exp11/ 6 20111 0 0
+/labs/ece19/ 3 4142 2 0
+/labs/chem01/htl/htl1.php 5 7114 0 1
+/labs/ccnsb04/exp3/ 10 36344 1 1
+/labs/eerc01/exp4/vlab2/4.Torsion.html 3 1074 0 0
+/labs/cse16/indexie.html 2 5944 0 0
+/labs/ccnsb04/exp8/content.html 1 5788 0 0
+/labs/cse22/exp10/ 1 1960 0 0
+/labs/chem01/vle/measri.php 3 84 0 0
+/labs/eerc01/exp2/vlab2/2.Compression.html 6 2136 0 0
+/labs/cse05/html/css/ 6 2935 5 5
+/labs/ccnsb03/exp1/ 1 5256 0 0
+/labs/cse20/experiment/Exp1.jnlp 7 5194 0 0
+/labs/emt/ve_exp7.html 3 298 0 0
+/labs/cse22/exp5/default.html 1 3732 0 0
+END_SIDER

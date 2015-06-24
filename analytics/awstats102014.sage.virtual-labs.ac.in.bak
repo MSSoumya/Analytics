@@ -1,0 +1,1013 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sage.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2003                
+POS_TIME 2684                
+POS_VISITOR 17068               
+POS_DAY 27366               
+POS_DOMAIN 3611                
+POS_LOGIN 3846                
+POS_ROBOT 4001                
+POS_WORMS 4872                
+POS_EMAILSENDER 5003                
+POS_EMAILRECEIVER 5146                
+POS_SESSION 28285               
+POS_SIDER 28498               
+POS_FILETYPES 5281                
+POS_DOWNLOADS 5582                
+POS_OS 5663                
+POS_BROWSER 6007                
+POS_SCREENSIZE 8159                
+POS_UNKNOWNREFERER 8233                
+POS_UNKNOWNREFERERBROWSER 8516                
+POS_ORIGIN 8598                
+POS_SEREFERRALS 8741                
+POS_PAGEREFS 8907                
+POS_SEARCHWORDS 13394               
+POS_KEYWORDS 13708               
+POS_MISC 2346                
+POS_ERRORS 13954               
+POS_CLUSTER 3702                
+POS_SIDER_404 14095               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141031235543 775 197204 10955632789548
+FirstTime 20141001000659
+LastTime 20141031231116
+LastUpdate 20141101000243 6 0 6 0 0
+TotalVisits 473                 
+TotalUnique 231                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 261                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 337 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 91 443 9140758 101 141 1881164
+1 0 0 0 2 2 650
+2 59 325 8104041 97 146 2194409
+3 16 77 2174095 40 92 1601137
+4 20 21 444122 55 81 1559977
+5 19 106 3477571 50 155 3365557
+6 37 155 3503887 146 188 2964428
+7 36 178 5348093 181 227 2966347
+8 44 234 6385344 44 68 776120
+9 123 875 21600459 136 171 1982676
+10 360 1761 41919623 94 174 1239949
+11 237 1289 33868610 66 123 787077
+12 239 1308 33387777 104 167 1706516
+13 252 1399 28075755 151 213 2234386
+14 252 1023 29238153 226 323 2611868
+15 201 1160 31821890 145 220 2752938
+16 344 952 17727593 72 112 963469
+17 72 398 9884096 132 164 1910196
+18 84 469 13567452 79 154 1709625
+19 100 629 19348986 126 159 1402926
+20 125 672 18183446 210 268 2683788
+21 381 993 17694374 68 106 619618
+22 348 998 22674974 111 169 2244021
+23 88 535 14952466 99 138 1790959
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3528 16000 392523565
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+googlebot 526 13060733 20141031232132 0
+bingbot 487 11581557 20141031195952 0
+baiduspider 284 2652664 20141031235543 0
+bot[\s_+:,\.\;\/\\-] 254 4881753 20141030141948 0
+^java\/[0-9] 156 4061340 20141022071208 0
+crawl 101 1516874 20141022143336 0
+httrack 85 1572090 20141012190303 0
+slurp 48 973576 20141031090309 0
+robot 44 605106 20141028045905 0
+bingpreview 27 1152637 20141026044328 0
+no_user_agent 6 64725 20141031111358 0
+ia_archiver 2 40917 20141030094057 0
+mail\.ru 2 9807 20141018223342 0
+proximic 1 9060 20141028233145 0
+facebook 2 77438 20141029174754 0
+python 5 75434 20141006233701 0
+turnitinbot 1 33637 20141031154218 0
+mj12bot 2 64617 20141027180441 0
+msnbot\-media 3 61756 20141018150648 0
+netcraft 2 4877 20141008220636 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 120 2788248 0 0
+sws 44 540732 0 0
+css 2663 52008079 0 0
+png 316 3173884 0 0
+otf 1038 24793139 0 0
+php 1358 27121021 0 0
+zip 7 154 0 0
+html 2 84393 0 0
+js 9452 280127656 0 0
+Unknown 966 862406 0 0
+svg 20 1003686 0 0
+gif 14 20167 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/download_worksheets.zip 7 0 154
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 1456 631
+linuxredhat 1 1
+winlong 521 126
+macosx6 32 6
+winxp 2338 473
+win2000 2 2
+winvista 2346 389
+winunknown 31 2
+j2me 82 4
+linuxcentos 35 6
+win2003 31 5
+macosx9 129 22
+macosx7 36 7
+unix 8 1
+linuxubuntu 8 8
+linux 1031 240
+win7 7698 1572
+macosx 182 25
+Unknown 33 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 100
+firefox28.0 1 1
+msie6.0 38 38
+chrome37.0.2062.117 30 4
+firefox3.6 1 1
+chrome34.0.1847.137 2 2
+firefox26.0 47 9
+chrome22.0.1190.0 8 1
+chrome28.0.1500.94 111 4
+firefox18.0 33 7
+chrome38.0.2125.111 758 107
+firefox34.0 178 19
+chrome30.0.1599.14 48 10
+chrome27.0.1425.2 1 0
+msie8.0 701 206
+chrome28.0.1500.72 2 2
+chrome25.0.1364.160 2 2
+chrome39.0.2171.42 30 4
+msie7.0 156 100
+chrome37.0.2062.120 601 82
+chrome33.0.1750.5 5 1
+chrome31.0.1650.59 62 10
+safari7.0.2 32 6
+chrome28.0.1500.63 8 8
+chrome37.0.2062.102 64 9
+firefox21.0 130 34
+chrome39.0.2171.7 1 0
+firefox29.0 39 7
+firefox7.0.1 44 8
+chrome35.0.1916.114 85 15
+firefox33.0 613 149
+chrome36.0.1985.143 69 14
+chrome35.0.1870.2 30 4
+firefox25.0 32 5
+mozilla 242 54
+chrome26.0.1410.64 3 3
+firefox14.0.1 1 1
+chrome32.0.1700.76 34 5
+chrome18.0.1003.1 36 6
+chrome26.0.1410.63 4 4
+safari5.1.9 32 6
+firefox4.2 1 1
+firefox8.0.1 84 20
+safari 94 14
+firefox15.0.1 117 11
+chrome40.0.2182.3 34 5
+firefox16.0.1 1 1
+chrome37.0.2062.124 4113 926
+safari7.0 32 6
+firefox5.0 3 3
+firefox20.0 33 7
+firefox4.0.1 35 6
+chrome38.0.2125.104 1316 191
+android 903 555
+chrome28.0.1500.95 35 6
+chrome38.0.2125.101 249 54
+chrome36.0.1985.125 261 50
+firefox24.0 120 24
+opera9.80 85 7
+firefox31.0 422 64
+firefox6.0.2 3 2
+chrome34.0.1847.116 30 4
+chrome40.0.2177.0 35 5
+safari8.0 25 1
+firefox3.6.9 36 7
+chrome33.0.1750.154 30 4
+chrome33.0.1750.146 1 0
+chrome28.0.1500.52 6 6
+msie9.0 87 11
+chrome37.0.2062.103 35 5
+chrome39.0.2171.13 30 4
+chrome30.0.1599.101 16 2
+chrome30.0.1599.114 31 5
+chrome37.0.2062.94 30 4
+firefox11.0 61 9
+safari7.1 32 6
+chrome12.0.712.0 31 5
+firefox32.0 1469 238
+firefox17.0 31 2
+safari10.2.1.2141 31 6
+chrome35.0.1916.138 18 1
+chrome18.0.1025.166 234 43
+chrome34.0.1847.114 38 8
+safari6.1.3 36 7
+chrome35.0.1916.141 30 4
+chrome27.0.1453.110 2 2
+chrome28.0.1500.71 10 10
+chrome7.0.517.8 1 0
+firefox30.0 229 30
+chrome38.0.2125.102 62 8
+safari5.1.7 73 12
+nokia 397 33
+chrome40.0.2202.3 46 8
+chrome35.0.1916.153 45 7
+firefox22.0 128 69
+msie10.0 252 42
+firefox6.0 1 1
+chrome27.0.1453.116 6 6
+chrome38.0.2125.77 30 4
+chrome33.0.1750.136 30 4
+chrome38.0.2125.8 30 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.2141_Mobile_Safari/537.35_ 20141028174554
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20141030121507
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 446 511
+From1 0 0
+From2 65 85
+From3 3017 15404
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 64 83
+bing 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 82
+http://sage.virtual-labs.ac.in/home/pub/1/ 695 5191
+http://sage.virtual-labs.ac.in/home/pub/0/ 437 3492
+http://sage.virtual-labs.ac.in/home/mehak/0/ 139 175
+http://sage.virtual-labs.ac.in/home/mehak/2/ 127 135
+http://sage.virtual-labs.ac.in/home/apaneendra%40acm.org/0/ 112 124
+http://sage.virtual-labs.ac.in 108 340
+http://virtual-labs.ac.in/labs/cse07/ 108 108
+http://sage.virtual-labs.ac.in/home/mehak/1/ 104 108
+http://sage.virtual-labs.ac.in/home/pub/2/ 98 939
+http://virtual-labs.ac.in/labs/cse06/ 89 89
+http://sage.virtual-labs.ac.in 2 2
+http://sage.virtual-labs.ac.in/home/bfcetit/1/ 15 25
+http://sage.virtual-labs.ac.in/home/sushant/0/ 53 61
+http://sage.virtual-labs.ac.in/home/mehak/0/edit 1 5
+http://sage.virtual-labs.ac.in/home/yazzinevirtual/0/ 8 17
+http://sage.virtual-labs.ac.in/home/pub/9/ 45 356
+http://sage.virtual-labs.ac.in/home/pub/15/ 6 81
+http://sage.virtual-labs.ac.in/home/harshp107/0/ 6 18
+http://sage.virtual-labs.ac.in/pub 0 17
+http://sage.virtual-labs.ac.in/doc/live/tutorial/introduction.html 0 4
+http://www.virtual-labs.ac.in/labs/cse06/ 5 5
+http://webcache.googleusercontent.com/search 1 4
+http://sage.virtual-labs.ac.in/home/pub/22/ 7 88
+http://sage.virtual-labs.ac.in/home/pub/21/ 5 57
+http://sage.virtual-labs.ac.in/history 0 3
+http://sage.virtual-labs.ac.in/home/gourav/0/ 4 12
+http://sage.virtual-labs.ac.in/home/yazzinevirtual/ 1 5
+http://sage.virtual-labs.ac.in/doc/live/tutorial/introduction.html#installation 4 4
+http://sage.virtual-labs.ac.in/home/apaneendra%40acm.org/ 16 95
+http://sage.virtual-labs.ac.in/home/pub/24/ 8 83
+http://sage.virtual-labs.ac.in/home/pub/10/ 13 75
+http://sage.virtual-labs.ac.in/home/mehak/ 21 83
+http://sage.virtual-labs.ac.in/home/apurv/ 0 4
+http://sage.virtual-labs.ac.in/register 18 66
+http://sage.virtual-labs.ac.in/home/apaneendra%40acm.org/2/ 40 44
+http://sage.virtual-labs.ac.in/doc/live/tutorial/index.html 6 13
+http://sage.virtual-labs.ac.in/home/pub/25/ 3 17
+http://sage.virtual-labs.ac.in/home/harshp107/1/ 6 25
+http://sage.virtual-labs.ac.in/home/pub/2/rating_info 1 3
+http://sage.virtual-labs.ac.in/home/pub/5/ 1 38
+http://sage.virtual-labs.ac.in/home/harshp107/ 2 10
+http://sage.virtual-labs.ac.in/pub/ 43 122
+http://sage.virtual-labs.ac.in/home/pub/8/ 41 391
+http://sage.virtual-labs.ac.in/home/pub/28/ 0 8
+http://sage.virtual-labs.ac.in/home/mehak/4/ 62 66
+http://182.72.207.34/moodle/mod/url/view.php 3 3
+http://sage.virtual-labs.ac.in/home/pub/14/ 29 182
+http://sage.virtual-labs.ac.in/home/pub/12/ 0 11
+http://sage.virtual-labs.ac.in/home/jagadeesh.sinde%40gmail.com/0/ 3 11
+http://sage.virtual-labs.ac.in/home/apaneendra@acm.org/0/edit 2 6
+http://sage.virtual-labs.ac.in/home/deval.miyani/1/ 28 48
+http://sage.virtual-labs.ac.in/home/pub/13/ 36 390
+http://sage.virtual-labs.ac.in/javascript/jqueryui/css/sage/jquery-ui-1.8.11.custom.css 0 23
+http://sage.virtual-labs.ac.in/settings 3 9
+http://sage.virtual-labs.ac.in/home/bfcetit/ 3 9
+http://sage.virtual-labs.ac.in/home/pub/19/ 69 629
+http://sage.virtual-labs.ac.in/home/pub/3/ 0 32
+http://sage.virtual-labs.ac.in/home/mehak/5/ 29 33
+http://sage.virtual-labs.ac.in/home/pub/6/ 9 103
+http://sage.virtual-labs.ac.in/login 7 25
+http://sage.virtual-labs.ac.in/home/pub/17/ 7 43
+http://sage.virtual-labs.ac.in/home/pub/16/ 34 226
+http://sage.virtual-labs.ac.in/upload 0 5
+http://sage.virtual-labs.ac.in/home/pub/20/ 21 294
+http://sage.virtual-labs.ac.in/home/pub/4/ 21 65
+http://sage.virtual-labs.ac.in/home/mehak/0/publish 1 5
+http://sage.virtual-labs.ac.in/home/mehak/0/upload_data 2 6
+http://sage.virtual-labs.ac.in/home/apaneendra@acm.org/0/ 55 71
+http://sage.virtual-labs.ac.in/home/pub/7/ 1 36
+http://sage.virtual-labs.ac.in/home/mehak/3/ 47 51
+http://sage.virtual-labs.ac.in/home/jagadeesh.sinde%40gmail.com/ 3 17
+http://sage.virtual-labs.ac.in/home/deval.miyani/ 6 48
+http://sage.virtual-labs.ac.in/home/sujasri.1987/ 5 21
+http://sage.virtual-labs.ac.in/home/pub/11/ 0 32
+http://sage.virtual-labs.ac.in/home/pub/18/ 18 105
+http://sage.virtual-labs.ac.in/home/pub/23/ 12 53
+http://sage.virtual-labs.ac.in/help 1 3
+http://sage.virtual-labs.ac.in/home/sushant/ 3 16
+http://sage.virtual-labs.ac.in/home/deval.miyani/2/ 33 37
+http://sage.virtual-labs.ac.in/home/deval.miyani/4/ 16 57
+http://sage.virtual-labs.ac.in/home/apaneendra%40acm.org/1/ 40 44
+http://sage.virtual-labs.ac.in/home/gourav/ 9 47
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+http+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f8%2f 2
+sign+into+the+sage+notebook+v6.3 1
+normalize+the+table+above+to+boyce+codd+normal+form 1
+apriori+print 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 18
+the 2
+%2f%2fsage.virtual-labs.ac.in%2fhome%2fpub%2f8%2f 2
+http 2
+normal 1
+table 1
+form 1
+into 1
+print 1
+codd 1
+to 1
+above 1
+sign 1
+sage 1
+v6.3 1
+notebook 1
+boyce 1
+normalize 1
+apriori 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 411 136909
+206 2 9754
+405 1 183
+404 492 115192
+301 457 132937
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 51
+/javascript/openid-realselector/img/openid/ 1 -
+/cms/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/cms/uploadify/uploadify.swf
+/admin/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/robots.txt 254 -
+/plugins/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/plugins/uploadify/uploadify.swf
+/apple-touch-icon.png 1 -
+/admin.php 1 -
+/lib/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/lib/uploadify/uploadify.swf
+/old/wp-admin/ 2 -
+/home/pub/5/cells/15/sage0.png 8 -
+/home/pub/5/cells/27/sage0.png 7 -
+/wordpress/wordpress/wp-admin/ 1 -
+/javascript/jquery/]},bh=U(c) 4 -
+/wp-admin/ 4 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/home/pub/5/cells/25/sage0.png 10 -
+/java/jmol 2 -
+/editor/editor/filemanager/connectors/test.html 1 -
+/home/pub/15/solution.JPG 2 http://sage.virtual-labs.ac.in/home/pub/15/
+/crossdomain.xml 4 http://partners.cmptch.com/flash/gajsp.swf
+/home/pub/11/cells/5/sage0.png 16 http://sage.virtual-labs.ac.in/home/pub/11/
+/css/corner.png 32 http://sage.virtual-labs.ac.in/home/pub/0/
+/CHANGELOG.txt 1 -
+/apple-touch-icon-precomposed.png 1 -
+/includes/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/includes/uploadify/uploadify.swf
+/register.php 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/pub/undefined 1 http://sage.virtual-labs.ac.in/pub/
+/javascript/jqueryui/css/sage/images/wait.gif 32 http://sage.virtual-labs.ac.in/home/pub/0/
+/cgi-sys/entropysearch.cgi 8 http://sage.virtual-labs.ac.in/cgi-sys/entropysearch.cgi
+/home/pub/7/cells/17/fg9c27go08op18wf1w69.tab 1 -
+/inc/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/inc/uploadify/uploadify.swf
+/wordpress/wp-admin/ 3 -
+/home/pub/11/cells/17/sage0.png 14 http://sage.virtual-labs.ac.in/home/pub/11/
+/js/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/js/uploadify/uploadify.swf
+/home/pub/5/cells/18/sage0.png 8 -
+/undefined 1 http://sage.virtual-labs.ac.in/
+/administrator/ 1 -
+/home/pub/11/cells/14/sage0.png 15 http://sage.virtual-labs.ac.in/home/pub/11/
+/css/ 5 -
+/editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/blog/wp-admin/ 4 -
+/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/uploadify/uploadify.swf
+/javascript/jquery/,data:c,complete:function(a,b,c){c=a.responseText,a.isResolved()&&(a.done(function(a){c=a}),i.html(g 4 -
+/admin/uploadify/uploadify.swf 1 http://sage.virtual-labs.ac.in/admin/uploadify/uploadify.swf
+/wp-login.php 14 http://www.google.com/
+/home/pub/5/cells/32/sage0.png 7 -
+/test/wp-admin/ 3 -
+/home/pub/21/cells/1/university 1 -
+/admin/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/wp/wp-admin/ 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 261
+10.4.8.52 1918 8914 215445807 20141031231116 20141031221927 /pub/
+27.97.120.170 187 278 517056 20141015214753
+49.14.120.180 145 167 278027 20141015222624
+223.30.144.190 111 352 6815520 20141010115334
+112.196.18.146 75 381 7351059 20141009095630
+49.248.247.54 51 145 2872295 20141029142632
+68.97.14.33 33 182 4469790 20141029081856
+182.237.17.130 32 192 5234541 20141007103811
+117.211.161.66 31 168 4445548 20141001113542
+112.196.11.243 24 101 1117187 20141015130922
+186.28.225.70 6 36 1065273 20141017075155
+209.165.224.67 4 30 1006191 20141030031151
+117.253.241.211 5 34 35722 20141013064204
+77.87.79.45 1 1 4877 20141003162222
+182.65.196.24 1 1 0 20141031195019
+202.46.61.28 1 1 4877 20141004064403
+122.168.222.98 4 30 999876 20141013114253
+187.216.232.29 5 35 1057909 20141019221823
+117.197.66.158 2 28 925962 20141020232625
+8.37.224.117 2 110 1873729 20141012094722
+217.69.133.169 2 2 9754 20141023231804
+86.43.111.113 10 37 1164195 20141030220931
+117.196.87.137 5 34 1038595 20141007235521
+14.141.126.58 2 31 706539 20141017110407
+200.229.203.254 22 25 580682 20141016132124
+180.76.6.47 1 1 4877 20141024005431
+158.169.40.5 1 4 166728 20141027155417
+202.46.63.121 1 1 4877 20141013184745
+157.55.39.12 0 3 96976 
+158.169.150.9 0 1 1052 
+70.39.186.83 1 55 846383 20141007165648
+111.92.50.72 5 35 1057909 20141022174758
+87.240.182.162 2 2 21831 20141030121507
+39.48.243.19 0 1 26484 
+103.226.85.101 4 30 1029197 20141007105641
+111.93.20.155 12 44 1156679 20141011155844
+82.20.151.64 0 1 33280 
+46.4.112.81 1 1 16877 20141015220214
+202.46.55.58 1 1 4877 20141020164635
+49.14.210.103 1 27 10583 20141017004403
+14.139.238.98 0 1 33280 
+85.143.114.152 15 65 1313116 20141030131238
+124.40.244.240 13 67 1723480 20141014223518
+66.193.206.2 4 30 1001833 20141020211943
+171.98.11.78 1 1 23828 20141030131718
+62.210.84.89 2 2 33185 20141001230510
+202.164.57.114 5 34 1033724 20141015163900
+210.212.156.195 1 8 433248 20141028120616
+202.46.54.52 1 1 4877 20141026144436
+122.252.225.22 11 52 1316532 20141029114622
+49.48.162.103 4 30 1013767 20141027221753
+111.93.206.214 14 78 2187738 20141013114451
+182.52.45.50 2 2 33185 20141004124531
+180.76.5.61 0 1 1631 
+155.69.2.13 6 32 1074904 20141030180330
+180.180.70.65 2 2 33185 20141012090543
+129.32.224.75 4 27 755107 20141001000714
+14.139.238.2 5 34 1025661 20141015215542
+198.23.234.9 2 2 33185 20141023134845
+117.221.4.139 4 30 1020732 20141001182948
+202.62.71.154 6 35 1040793 20141013194311
+129.15.127.224 3 15 503771 20141031122412
+117.211.124.9 8 28 115141 20141010232828
+101.217.212.78 5 31 1018885 20141026121006
+23.23.26.238 1 1 30793 20141003115843
+14.139.62.113 5 31 1018490 20141029141243
+112.196.11.242 6 38 1139463 20141015114437
+27.251.66.2 4 30 1011521 20141024132628
+173.208.43.95 2 2 33185 20141011073908
+117.211.138.20 6 32 1033025 20141020133244
+1.39.12.83 5 34 949541 20141004222256
+112.209.106.204 2 2 33185 20141007103024
+14.139.85.163 4 30 999876 20141021153045
+220.181.108.106 1 1 4930 20141030100755
+151.207.255.3 0 1 26484 
+202.46.63.49 1 1 4877 20141011164542
+1.187.234.212 4 30 1011521 20141028100818
+103.24.182.4 8 60 2049436 20141028191509
+5.175.177.131 2 2 33185 20141023160136
+181.244.194.56 4 30 1001833 20141015092643
+14.139.160.235 5 34 1037558 20141025115433
+117.201.6.225 4 30 1001833 20141014054726
+24.147.42.90 0 1 33280 
+122.167.84.237 4 30 1020732 20141027202639
+223.30.65.14 1 25 877916 20141028130515
+24.41.146.119 4 30 1006191 20141030230653
+210.212.198.129 5 34 1030669 20141011152028
+108.3.137.94 0 1 26484 
+116.203.73.87 6 35 1048010 20141017001233
+210.212.144.90 4 30 999876 20141009155523
+220.227.97.99 5 34 1035285 20141019231001
+115.248.195.113 8 44 1112291 20141016162743
+14.194.193.55 3 4 0 20141029135234
+115.242.221.246 8 63 1055220 20141023202934
+157.55.39.163 0 1 2675 
+119.9.76.111 1 1 4877 20141028155620
+49.249.44.99 1 27 891946 20141031145138
+117.239.68.161 1 23 466952 20141030105824
+112.196.11.3 13 104 3039993 20141031144006
+80.85.84.125 4 27 967173 20141009135151
+46.229.167.149 1 1 4877 20141020112440
+178.137.89.192 1 1 16252 20141029023303
+54.81.201.36 1 1 19789 20141007111347
+119.63.193.132 3 3 14631 20141020164818
+69.30.250.194 2 2 33185 20141024095537
+203.142.220.2 7 36 1067752 20141028203112
+210.212.194.70 8 46 1147815 20141016115219
+106.66.57.98 5 31 1048641 20141023103521
+202.164.36.186 10 36 1120013 20141007092501
+14.139.187.227 7 42 1124180 20141006195248
+220.181.108.152 1 1 4921 20141030100755
+182.74.147.65 1 6 233345 20141029141631
+65.52.242.216 1 1 38719 20141021154026
+41.75.88.82 0 1 26484 
+117.225.181.75 10 37 1164195 20141001113258
+115.248.117.107 11 55 1159132 20141017143920
+117.211.156.71 10 40 1620570 20141028141810
+164.100.31.154 4 30 1011521 20141029144941
+220.181.108.117 1 1 28295 20141030100754
+220.181.108.112 0 1 77645 
+158.169.150.5 0 1 3907 
+213.37.67.42 4 30 1028658 20141025232343
+115.97.160.73 5 34 1030669 20141005174148
+158.169.150.10 0 2 13452 
+220.181.108.82 0 1 7442 
+88.80.20.188 2 2 33185 20141022221614
+122.164.198.11 10 36 1129701 20141028195307
+199.43.186.25 6 35 1054238 20141013194240
+210.212.222.43 1 1 37682 20141015212534
+112.210.76.2 0 1 26484 
+192.99.6.55 2 2 63432 20141008221614
+1.39.12.37 0 1 26484 
+123.201.110.189 1 4 11894 20141018141427
+123.125.71.27 1 1 4931 20141030100755
+202.46.53.68 1 1 4877 20141007044503
+202.46.57.62 2 2 9754 20141006064452
+122.161.10.43 8 42 1135467 20141009141551
+220.225.140.74 13 63 1168427 20141017112603
+105.135.75.117 6 18 41326 20141016023732
+190.157.102.61 1 27 919545 20141015093141
+202.46.50.72 1 1 4877 20141005184518
+158.169.40.10 0 1 1706 
+142.162.188.144 4 30 1020732 20141025075202
+209.190.82.222 1 1 4877 20141031054154
+117.211.163.151 4 30 1019243 20141027114926
+220.181.108.118 1 1 21582 20141030100757
+103.5.115.31 7 36 1125004 20141006065517
+149.13.246.114 1 6 129228 20141015150750
+202.46.63.42 1 1 4877 20141004204250
+192.171.238.245 2 2 33185 20141020205818
+103.10.24.194 19 123 4152436 20141030141816
+14.139.125.69 1 3 38719 20141009120343
+42.60.55.198 7 34 1101303 20141028190836
+119.63.193.195 3 3 14631 20141026044559
+111.68.98.146 4 30 1028658 20141030184838
+23.95.93.217 2 2 33185 20141014230212
+194.167.195.132 6 32 1082830 20141027210826
+123.63.31.241 3 23 735743 20141030120135
+157.55.39.164 0 1 58699 
+101.116.83.117 4 30 1024718 20141027164207
+202.46.52.26 1 1 4877 20141028084446
+117.219.114.60 10 48 1125347 20141003122900
+1.39.60.177 4 30 1011521 20141031171737
+168.63.137.102 0 11 460953 
+117.196.5.217 4 30 1011521 20141029110058
+1.23.178.131 5 31 1004936 20141010201547
+210.212.148.192 9 85 1891643 20141014101330
+117.169.1.118 2 2 33185 20141024152159
+37.105.92.206 0 1 26484 
+194.199.63.221 4 30 1024718 20141029153846
+115.249.130.56 12 44 1267135 20141026121657
+119.63.193.194 1 1 4877 20141015104908
+202.46.60.66 1 1 4877 20141004104455
+116.203.74.10 4 30 1001833 20141010233554
+220.181.108.102 0 1 7442 
+202.46.49.76 1 1 4877 20141002164422
+49.207.185.67 5 35 1057909 20141018142628
+220.181.108.92 1 1 4931 20141030100754
+103.27.141.134 4 30 1001833 20141021094620
+220.181.108.94 0 1 3483 
+199.65.210.5 5 31 1004933 20141010131455
+119.63.193.131 2 2 9754 20141029104903
+123.237.62.176 6 35 1028986 20141016231341
+207.46.13.62 0 2 10390 
+117.227.222.70 1 10 313455 20141028205322
+179.60.255.126 4 30 1001833 20141026024414
+14.139.122.242 5 34 1030856 20141017150125
+202.133.61.212 7 39 1075715 20141025142345
+41.35.75.245 0 1 33280 
+54.160.184.110 1 1 19789 20141004162320
+220.225.218.213 1 8 56076 20141008154554
+202.46.55.27 1 1 4877 20141015104721
+203.153.32.210 22 143 2853945 20141016113206
+82.178.240.134 1 14 33373 20141023235901
+93.194.155.221 1 6 158010 20141026005426
+69.12.77.193 2 2 57900 20141018202616
+1.186.145.248 4 30 1024718 20141031154002
+122.177.8.249 4 30 354003 20141029212552
+139.0.22.122 2 2 33185 20141007121321
+41.109.149.143 7 38 1247329 20141011222745
+157.55.39.11 0 2 213076 
+118.102.191.38 1 24 851075 20141028101238
+169.244.94.33 4 30 999876 20141016020704
+24.22.19.182 4 30 999876 20141015095956
+117.239.103.162 2 18 387551 20141028140519
+220.181.108.165 1 1 4931 20141030100754
+202.46.52.31 1 1 4877 20141015184754
+195.154.181.235 10 10 288060 20141031213244
+50.117.41.191 1 27 929233 20141028220206
+202.131.98.78 5 31 1009197 20141007165018
+202.46.56.51 1 1 4877 20141026004450
+188.208.7.214 2 2 33185 20141021151553
+220.181.108.87 0 1 1706 
+178.137.89.164 1 1 16877 20141029050545
+37.228.107.120 1 26 878040 20141014111920
+37.115.189.172 2 2 33185 20141015162157
+123.125.71.42 1 1 45316 20141030100755
+180.76.5.81 1 1 19789 20141024005431
+108.28.41.34 4 30 1024718 20141029192819
+185.10.104.195 1 1 4877 20141020142752
+117.254.188.176 2 33 1249175 20141001081952
+210.212.198.98 6 22 226305 20141029110639
+202.164.53.117 4 30 1001833 20141030095252
+202.46.57.64 1 1 4877 20141006204347
+117.211.161.26 6 38 1437169 20141030110318
+69.12.80.115 2 2 57900 20141010045606
+27.252.73.228 5 33 1092898 20141021140822
+122.167.107.117 8 40 1061949 20141025205202
+223.235.87.57 7 36 1084841 20141008220815
+181.242.91.254 6 32 1054519 20141002055856
+143.89.190.40 6 38 1271530 20141026221837
+103.246.38.196 4 4 94182 20141010131455
+119.63.193.196 5 5 24385 20141026144617
+113.193.93.215 4 30 1028658 20141030003829
+202.46.61.31 1 1 4877 20141004184440
+122.177.152.184 7 44 1136732 20141003175233
+203.153.32.66 5 35 1057909 20141014164943
+202.46.49.19 1 1 4877 20141029104718
+14.139.240.50 4 30 1001833 20141007154736
+182.19.66.187 6 32 1051028 20141013145748
+62.210.209.22 1 1 4877 20141005003255
+192.200.31.97 2 2 57900 20141006211502
+218.248.7.18 1 23 676659 20141024124648
+173.208.206.90 2 2 33185 20141015234352
+183.83.166.212 4 30 999876 20141012224748
+158.169.40.6 4 8 334227 20141027155417
+115.248.50.231 8 43 1101857 20141008120219
+69.12.77.172 2 2 33185 20141020162143
+119.63.193.130 6 6 29262 20141011164727
+49.248.124.244 6 35 1034920 20141009122615
+220.181.108.88 0 1 1706 
+107.22.151.76 1 1 11894 20141008084141
+167.114.52.252 2 2 33185 20141001124551
+163.121.250.8 17 52 1229388 20141012145321
+111.205.49.129 6 41 1071604 20141020123014
+134.249.51.38 1 1 16252 20141010152029
+202.46.60.61 1 1 4877 20141026044418
+157.55.39.253 0 2 42267 
+115.252.100.83 8 43 1091840 20141027104433
+78.160.40.72 2 2 33185 20141021042709
+14.139.62.114 0 3 12366 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20141001 129 726 18423764 17
+20141002 46 249 6404070 12
+20141003 34 186 5212921 9
+20141004 67 263 7005049 22
+20141005 65 294 6275527 16
+20141006 51 285 8292382 12
+20141007 349 1650 38402048 25
+20141008 73 391 10964480 16
+20141009 116 757 15761560 16
+20141010 73 409 11760498 17
+20141011 42 196 5672009 10
+20141012 95 572 14700523 13
+20141013 96 569 15954096 20
+20141014 45 323 8940182 13
+20141015 725 1554 23042448 23
+20141016 108 610 15121257 17
+20141017 69 475 12374619 10
+20141018 30 182 5353267 8
+20141019 31 183 4482523 6
+20141020 64 296 7720493 16
+20141021 314 661 8768120 10
+20141022 48 290 6216525 6
+20141023 33 205 4496455 8
+20141024 43 179 3604243 10
+20141025 66 376 11700166 11
+20141026 70 440 12097994 19
+20141027 115 719 19991883 17
+20141028 114 770 24339642 24
+20141029 174 740 19179897 26
+20141030 120 758 21865053 28
+20141031 123 692 18399871 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 19
+5mn-15mn 33
+0s-30s 286
+15mn-30mn 21
+2mn-5mn 21
+30s-2mn 56
+30mn-1h 36
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 180
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 314 13489442 2 59
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 312 7517364 0 32
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 309 2334184 5 9
+/home/pub/1/ 235 2799924 121 25
+/ 214 1046285 124 100
+/home/pub/0/ 156 1559885 83 18
+/home/apaneendra@acm.org/0/alive 102 127 0 0
+/pub/ 85 2415411 2 41
+/home/pub/2/ 82 2531730 20 13
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 80 581756 1 7
+/home/apaneendra@acm.org/0/system/sage 1 7 0 0
+/home/apaneendra@acm.org/2/rename 1 4 0 0
+/home/deval.miyani/4/alive 8 8 0 1
+/home/mehak/0/publish 1 15673 0 0
+/home/mehak/5/ 1 59729 0 0
+/home/mehak/4/ 1 59729 0 0
+/home/pub/21/ 13 572739 1 2
+/home/mehak/2/restart_sage 1 4 0 0
+/home/deval.miyani/4/ 2 119523 0 0
+/home/mehak/3/cell_update 8 2125 0 0
+/send_to_trash 1 0 0 0
+/home/harshp107/0/alive 2 2 0 0
+/home/pub/15/ 16 381893 6 7
+/home/bfcetit/0/ 2 36812 0 0
+/home/pub/17/download/Second%20Normal%20Form.sws 1 3701 0 0
+/home/harshp107/1/alive 3 3 0 1
+/home/apaneendra@acm.org/2/alive 13 20 0 0
+/home/pub/16/ 42 832428 3 9
+/home/pub/11/ 13 727727 1 4
+/home/yazzinevirtual/0/ 1 18465 0 0
+/home/pub/18/ 18 292536 5 5
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot 10 84840 0 2
+/home/pub/28/download/Comparison 4 411251 1 2
+/home/pub/9/download/K%20Nearest%20Neighbours.sws 2 8451 0 0
+/home/jagadeesh.sinde%40gmail.com/0/ 1 18532 0 0
+/home/mehak/0/alive 70 70 0 0
+/register 20 66094 0 0
+/home/bfcetit/1/ 1 21864 0 0
+/home/pub/25/ 7 63420 0 1
+/javascript/dynamic/keyboard/iw 3 10176 0 0
+/home/pub/3/ 13 395673 0 2
+/home/sushant/0/ 1 18423 0 0
+/home/pub/28/download/Comparison%20of%20Association%20Rule%20Mining%20Methods.sws 2 205687 2 2
+/home/bfcetit/1/alive 14 14 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot 10 123400 0 0
+/home/pub/28/ 4 181264 2 2
+/login 10 49610 0 1
+/home/pub/27/ 1 33637 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf 1 4712 0 0
+/home/mehak/2/alive 58 73 0 0
+/home/gourav/ 12 70954 0 0
+/home/gourav/0/alive 3 3 0 0
+/home/apaneendra@acm.org/1/cell_update 6 1178 0 0
+/home/mehak/4/cell_update 14 9699 0 0
+/home/pub/17/ 17 284366 4 6
+/home/pub/8/ 29 800563 17 8
+/home/mehak/1/eval 26 280 0 0
+/home/pub/14/ 13 246727 6 1
+/home/yazzinevirtual/0/alive 7 7 0 1
+/home/deval.miyani/1/eval 1 8 0 0
+/home/harshp107/0/rename 1 4 0 0
+/home/_sage_/33/quit_sage 1 4 0 0
+/home/pub/0/download/Data%20Mining%20Virtual%20Lab.sws 3 5737 0 0
+/home/pub/5/ 8 364290 1 2
+/home/apaneendra@acm.org/0/system/scilab 1 7 0 0
+/home/apaneendra@acm.org/0/discard_and_quit 1 5 0 0
+/home/pub/6/download/K%20Means.sws 2 8131 0 2
+/home/apaneendra@acm.org/0/eval 31 18411 0 0
+/home/mehak/0/discard_and_quit 1 5 0 0
+/home/pub/9/ 26 1007998 12 6
+/home/mehak/1/save_and_quit 1 5 0 0
+/home/sushant/ 4 22464 0 0
+/home/pub/26/ 1 31552 0 0
+/history 1 1192 0 0
+/home/pub/11/download/Comparison%20of%20Classification%20Algorithms.sws 2 14436 2 1
+/home/pub/20/download/SQL-I:%20Managing%20Tables.sws 1 6234 0 0
+/home/mehak/4/alive 33 33 0 0
+/doc/live/tutorial/ 1 28044 0 0
+/home/_sage_/33/alive 2 2 0 0
+/home/mehak/1/ 1 43966 0 0
+/home/deval.miyani/2/alive 3 3 0 0
+/home/_sage_/32/quit_sage 1 4 0 0
+/home/mehak/4/restart_sage 1 4 0 0
+/home/deval.miyani/ 7 61994 0 0
+/home/apaneendra@acm.org/0/edit 1 17130 0 0
+/doc/live/tutorial/introduction.html 1 56349 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf 1 28152 0 0
+/home/pub/24/download/Entity%20Relationship%20Model.sws 1 44309 0 1
+/home/deval.miyani/1/alive 21 21 0 0
+/help 1 13545 0 0
+/javascript/dynamic/keyboard/sl 15 39600 0 0
+/javascript/dynamic/keyboard/ml 1 2513 0 0
+/home/apaneendra@acm.org/0/cell_update 17 17071 0 0
+/home/apaneendra@acm.org/1/eval 18 15630 0 0
+/home/deval.miyani/2/ 1 54747 0 0
+/home/pub/4/ 27 792506 4 2
+/javascript/dynamic/keyboard/sw 20 52820 0 0
+/home/apaneendra@acm.org/1/rename 1 4 0 0
+/home/mehak/ 15 90689 0 1
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot 20 197068 0 0
+/home/pub/2/rating_info 1 1394 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 1 7604 0 0
+/home/pub/10/ 16 575070 1 3
+/home/pub/13/download/Entity%20Relationship%20Model.sws 4 129818 1 1
+/home/mehak/2/cell_update 28 12746 0 0
+/home/pub/2/download/Apriori.sws 5 24939 2 2
+/home/pub/19/ 29 625878 19 6
+/home/mehak/0/edit 1 25538 0 0
+/home/pub/13/ 63 1864908 8 23
+/home/apaneendra@acm.org/1/alive 12 16 0 0
+/home/mehak/5/cell_update 8 2892 0 0
+/home/deval.miyani/1/ 3 183945 0 0
+/home/jagadeesh.sinde@gmail.com/0/alive 2 2 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot 10 485720 0 2
+/home/harshp107/1/cell_update 2 261 0 0
+/home/pub/12/ 5 187625 0 3
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot 21 972852 0 3
+/home/pub/18/download/Third%20Normal%20Form.sws 4 13638 1 2
+/home/deval.miyani/1/cell_list 1 38 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot 10 57280 0 1
+/home/yazzinevirtual/ 1 5630 0 0
+/home/harshp107/0/ 2 36872 0 0
+/home/bfcetit/ 1 7387 0 0
+/home/mehak/5/eval 8 129 0 0
+/home/pub/23/ 19 669292 2 2
+/home/pub/16/download/First%20Normal%20Form.sws 2 9065 1 2
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot 10 96760 0 0
+/home/mehak/5/alive 12 12 0 1
+/home/mehak/0/cell_update 47 7180 0 0
+/home/pub/7/ 8 174790 2 3
+/home/mehak/0/pretty_print/true 1 7 0 0
+/home/sujasri.1987/ 5 28124 0 0
+/home/apaneendra%40acm.org/0/ 3 59302 0 0
+/home/pub/15/download/Relational%20Model.sws 1 5729 0 1
+/home/pub/18/download/Third 1 3410 0 0
+/home/mehak/3/ 1 92207 0 1
+/home/mehak/2/eval 34 590 0 0
+/home/harshp107/1/ 1 92231 0 0
+/home/gourav/0/ 1 18418 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot 10 288360 0 0
+/send_to_stop 3 0 0 0
+/home/mehak/3/eval 13 195 0 0
+/home/pub/10/download/Decision%20Trees.sws 2 15221 0 1
+/home/mehak/2/cell_list 1 39 0 0
+/home/apaneendra@acm.org/0/ 4 98639 0 0
+/home/apaneendra@acm.org/2/eval 18 15630 0 0
+/home/pub/22/download/SQL-III:%20Retrieving%20Data.sws 1 3630 1 1
+/home/mehak/3/alive 25 29 1 0
+/home/deval.miyani/4/cell_update 3 391 0 0
+/home/harshp107/ 1 5620 0 0
+/home/apaneendra@acm.org/0/system/matlab 1 7 0 0
+/home/pub/22/ 14 549612 2 3
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf 1 12024 0 0
+/home/pub/6/ 26 810037 1 9
+/home/pub/24/ 8 255768 3 3
+/home/mehak/0/eval 7 116 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot 19 481968 0 0
+/home/sushant/0/alive 52 52 0 2
+/home/mehak/1/alive 68 118 0 1
+/home/apaneendra%40acm.org/2/ 2 36978 0 0
+/home/deval.miyani/2/cell_update 29 3770 0 0
+/home/pub/20/ 45 2028784 1 10
+/home/pub/23/download/Procedure.sws 3 17189 0 1
+/upload 2 8646 0 0
+/home/apaneendra%40acm.org/ 15 94217 0 0
+/home/mehak/1/cell_update 7 2446 0 0
+/home/apaneendra@acm.org/2/cell_update 6 2957 0 0
+/home/apurv/ 1 5612 0 0
+/javascript/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 19 817901 0 7
+/home/mehak/0/upload_data 1 16002 0 0
+/home/_sage_/32/alive 3 3 0 0
+/home/apaneendra%40acm.org/1/ 2 36978 0 0
+/home/mehak/0/restart_sage 2 8 0 0
+/home/mehak/4/eval 13 183 0 0
+/settings 3 13146 0 0
+/home/pub/1/download/Databases%20Virtual%20Lab.sws 8 24817 1 1
+/home/mehak/2/ 2 190826 0 0
+/home/mehak/0/ 7 308020 0 0
+/home/jagadeesh.sinde%40gmail.com/ 3 17806 1 1
+/home/apaneendra@acm.org/0/rename 1 4 0 0
+END_SIDER

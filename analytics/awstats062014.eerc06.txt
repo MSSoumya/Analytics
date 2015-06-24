@@ -1,0 +1,275 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.eerc06.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1986                
+POS_TIME 2672                
+POS_VISITOR 3379                
+POS_DAY 3605                
+POS_DOMAIN 3795                
+POS_LOGIN 4023                
+POS_ROBOT 4178                
+POS_WORMS 4632                
+POS_EMAILSENDER 4763                
+POS_EMAILRECEIVER 4906                
+POS_SESSION 4982                
+POS_SIDER 5148                
+POS_FILETYPES 5595                
+POS_DOWNLOADS 5789                
+POS_OS 5921                
+POS_BROWSER 6020                
+POS_SCREENSIZE 6134                
+POS_UNKNOWNREFERER 6208                
+POS_UNKNOWNREFERERBROWSER 6479                
+POS_ORIGIN 6629                
+POS_SEREFERRALS 6761                
+POS_PAGEREFS 6905                
+POS_SEARCHWORDS 7094                
+POS_KEYWORDS 7246                
+POS_MISC 2336                
+POS_ERRORS 7305                
+POS_CLUSTER 3879                
+POS_SIDER_404 7424                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140704133753 1801 430756 10855323013933
+FirstTime 20140605222043
+LastTime 20140630220856
+LastUpdate 20141015124904 1801 0 1800 0 0
+TotalVisits 4                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 1 18644
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 1 18644
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 2 2 2216
+8 0 0 0 2 2 3910
+9 0 0 0 0 0 0
+10 0 0 0 2 6 241722
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 2 2 494
+14 1 1 1955 1 2 5291
+15 1 1 5029 1 3 2192
+16 0 0 0 1 2 683879
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 1 0
+20 0 0 0 1 2 1955
+21 0 0 0 3 3 5865
+22 12 59 1415213 16 25 7078
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+10.4.8.52 6 30 663389 20140630220856
+49.207.24.161 6 29 751824 20140605222310
+81.19.188.230 1 1 1955 20140611145526
+37.122.209.69 1 1 5029 20140611154447
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140605 6 29 751824 1
+20140611 2 2 6984 2
+20140630 6 30 663389 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 14 61 1422197
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 14 963124 20140628193500 0
+robot 5 9775 20140624213135 0
+discovery 3 0 20140618222019 0
+microsoft\-webdav\-miniredir 1 0 20140618222014 0
+bot[\s_+:,\.\;\/\\-] 1 5029 20140625164746 0
+turnitinbot 1 1955 20140604072713 0
+slurp 1 1955 20140630081159 0
+baiduspider 1 0 20140606131239 0
+nutch 1 1955 20140623082547 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 2
+2mn-5mn 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/labs/eerc06/ 4 10894 4 2
+/labs/eerc06/default.html 2 3022 0 0
+/labs/eerc06/content.html 2 5184 0 0
+/labs/eerc06/exp2/ 1 1951 0 0
+/labs/eerc06/exp1/default.html 1 3721 0 0
+/labs/eerc06/exp1/content.html 1 3352 0 1
+/labs/eerc06/exp2/default.html 1 3721 0 0
+/labs/eerc06/exp1/ 1 1951 0 0
+/labs/eerc06/exp2/content.html 1 3317 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 6 10528 0 0
+png 3 3827 0 0
+swf 1 33694 0 0
+php 4 10894 0 0
+html 10 26219 0 0
+jpg 31 1267637 0 0
+js 4 59906 0 0
+gif 2 9492 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/labs/eerc06/exp4/4.theory.pdf 1 0 232552
+/labs/eerc06/exp3/3.Thoery.pdf 1 0 678850
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx 29 6
+Unknown 2 2
+win7 30 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+safari7.0 29 6
+mozilla 1 1
+chrome35.0.1916.153 30 6
+Unknown 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154447
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_http://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20140611145526
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+XmlSitemapGenerator_-_http://XmlSitemapGenerator.org 20140611154447
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2 3
+From1 0 0
+From2 0 0
+From3 2 2
+From4 10 56
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://eerc.iiit.ac.in/projects.html 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+502 1 494
+405 11 3763
+301 8 2777
+404 4 1063
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4
+/labs/eerc06/exp2/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp2/index.html
+/labs/eerc06/http://http://virtual-labs.ac.in/nmeict 1 -
+/labs/eerc06/exp1/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/eerc06/exp1/index.html
+/labs/eerc06/http://http://virtual-labs.ac.in/licensing 1 -
+END_SIDER_404

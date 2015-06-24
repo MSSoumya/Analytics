@@ -1,0 +1,485 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.vlead.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2686                
+POS_VISITOR 12743               
+POS_DAY 12903               
+POS_DOMAIN 3565                
+POS_LOGIN 3797                
+POS_ROBOT 3952                
+POS_WORMS 4828                
+POS_EMAILSENDER 4959                
+POS_EMAILRECEIVER 5102                
+POS_SESSION 13231               
+POS_SIDER 13441               
+POS_FILETYPES 5237                
+POS_DOWNLOADS 5513                
+POS_OS 5677                
+POS_BROWSER 6023                
+POS_SCREENSIZE 7106                
+POS_UNKNOWNREFERER 7180                
+POS_UNKNOWNREFERERBROWSER 7535                
+POS_ORIGIN 7798                
+POS_SEREFERRALS 7939                
+POS_PAGEREFS 8105                
+POS_SEARCHWORDS 11323               
+POS_KEYWORDS 11511               
+POS_MISC 2348                
+POS_ERRORS 11606               
+POS_CLUSTER 3653                
+POS_SIDER_404 11730               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301000042 994 229075 9040095673029
+FirstTime 20140208183812
+LastTime 20140228231428
+LastUpdate 20140301000104 35 0 34 0 0
+TotalVisits 152                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 131 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 58 170 4459373 111 154 3169242
+1 0 0 0 0 0 0
+2 22 104 2041206 96 111 758892
+3 11 11 120254 98 108 771344
+4 12 37 132254 93 115 854240
+5 6 6 176461 133 146 1654291
+6 26 73 2299936 103 123 1024628
+7 33 46 1189994 110 127 967813
+8 36 36 383366 97 104 512352
+9 3 6 2270603 94 102 638638
+10 22 124 8400002 88 107 1013875
+11 23 40 2436686 93 105 567587
+12 20 146 5143485 84 145 2761420
+13 27 128 5571375 89 160 2924003
+14 34 119 12198511 102 109 653901
+15 85 225 7088815 93 124 1210637
+16 84 172 4401819 100 123 1362910
+17 37 122 3069417 105 135 1263207
+18 53 139 4556999 103 116 643363
+19 37 231 11035314 100 131 797375
+20 45 257 9938399 132 180 1128810
+21 28 120 4633513 150 184 1606228
+22 76 243 7004628 139 175 3979676
+23 25 62 1217617 131 158 3003059
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 803 2617 95890067
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+robot 1960 2123908 20140228235541 0
+googlebot 268 12372675 20140228234234 27
+bingbot 137 2731608 20140228223843 39
+msnbot\-media 60 2186266 20140228150347 26
+ezoom 52 934861 20140228231956 25
+yandex 51 2441422 20140228130123 15
+bingpreview 48 1763250 20140226134946 0
+slurp 40 1028620 20140227102522 4
+baiduspider 34 1856637 20140228124442 1
+php 25 345822 20140228082129 0
+commons\-httpclient 1 74295 20140228151329 0
+no_user_agent 20 584045 20140227111853 0
+spider 9 197998 20140228083410 4
+msnbot 8 177334 20140225043423 4
+^java\/[0-9] 1 30324 20140228145915 0
+unknown 4 236 20140228054841 4
+facebook 1 56729 20140225210706 0
+feedburner 11 0 20140228211115 0
+bot[\s_+:,\.\;\/\\-] 8 245125 20140228145527 1
+mj12bot 20 494031 20140228234131 9
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 263 2678960 0 0
+png 485 19346975 0 0
+pdf 17 13254059 0 0
+php 800 15221516 0 0
+js 667 10014542 0 0
+jpg 325 32677338 0 0
+xml 1 1052 0 0
+jpeg 30 2298437 0 0
+Unknown 3 50750 0 0
+svg 1 1518 0 0
+gif 25 344920 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/wp-content/uploads/2013/08/bare_conf.pdf 8 4 13514696
+/wp-content/uploads/2013/08/VLEADFreshers2013.pdf 5 0 405649
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+linuxredhat 29 1
+linuxandroid 54 18
+winxp 401 114
+winlong 37 36
+macosx6 4 1
+symbian 31 1
+win2000 2 1
+java 1 1
+linuxubuntu 23 3
+macosx5 1 1
+win98 6 6
+winvista 235 17
+linux 281 21
+win7 1229 375
+macosx 2 1
+win95 1 1
+win2003 13 1
+macosx9 251 189
+Unknown 4 2
+macosx8 13 12
+macosx7 3 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+firefox28.0 77 13
+msie6.0 102 84
+chrome29.0.1547.57 1 1
+firefox3.6 2 2
+chrome31.0.1623.0 157 157
+chrome29.0.1547.76 1 0
+ibrowse 1 0
+android 19 16
+firefox26.0 53 3
+firefox5.02 6 6
+firefox4.0 16 16
+firefox18.0 80 4
+chrome33.0.1712.4 1 0
+chrome31.0.1650.57 32 2
+chrome14.0.839.0 1 1
+chrome31.0.1650.63 21 2
+alcatel 32 2
+safari7.0.1 1 0
+msie8.0 41 3
+chrome28.0.1500.72 47 6
+firefox6.0.2 7 0
+chrome24.0.1290.1 2 2
+konqueror3.2 1 1
+chrome13.0.782.112 21 21
+msie7.0 49 37
+safari4.1 1 1
+chrome21.0.1180.79 66 4
+firefox16.0 6 1
+firefox3.6.10 1 1
+msie9.0 41 3
+chrome31.0.1650.59 3 0
+Unknown 4 3
+firefox27.0 51 7
+firefox11.0 14 2
+msie5.01 2 1
+firefox17.0 9 9
+firefox21.0 25 12
+safari6.0 1 0
+chrome28.0.1500.71 9 7
+firefox12.0 62 3
+chrome32.0.1700.107 275 56
+firefox3.0.5 2 2
+mozilla 8 2
+chrome26.0.1410.64 11 11
+chrome33.0.1750.117 1153 264
+firefox14.0.1 5 2
+firefox22.0 22 22
+msie10.0 2 0
+firefox3.6.18 33 2
+firefox6.0 1 1
+safari5.1 1 1
+safari6.0.3 2 2
+safari5.1.9 2 0
+chrome27.0.1453.116 5 3
+chrome8.0.552.200 1 0
+safari 31 1
+firefox3.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+M 20140223071509
+Mozilla/5.0_(Series40;_Nokia305/05.92;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.9.0.0.22 20140224091353
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140224161058
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+M 20140223071509
+Apache-HttpClient/4.3_(java_1.5) 20140228054842
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.5;_en-US;_Micromax_A35)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140224161058
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 156 345
+From1 0 0
+From2 25 63
+From3 622 2213
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 25 60
+bing 0 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 56
+http://vlead.vlabs.ac.in/wp-admin/about.php 170 174
+http://vlead.vlabs.ac.in/wp-login.php 160 164
+http://vlead.vlabs.ac.in 67 274
+http://www.iiit.ac.in/content/project-openings/vlead 24 24
+http://vlead.virtual-labs.ac.in/wiki/ 22 23
+http://virtual-labs.ac.in/index.php 14 14
+http://vlead.vlabs.ac.in/author/jayashree/ 14 65
+http://vlead.virtual-labs.ac.in/wp-login.php 13 13
+https://vlead.virtual-labs.ac.in/wiki/index.php/Welcome_to_VLEAD_wiki 12 13
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 12 318
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 2 26
+http://vlead.vlabs.ac.in/about-us/interns/ 3 83
+http://vlead.vlabs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 9 9
+http://www.linkedin.com/lite/external-redirect 1 1
+http://www.virtual-labs.ac.in/index.php 1 1
+http://vlead.vlabs.ac.in/wp-content/themes/jaguza/style.css 0 13
+https://vlead.virtual-labs.ac.in/about-us/team/ 0 15
+http://vlead.vlabs.ac.in/wp-admin/users.php 3 4
+http://vlead.vlabs.ac.in/wp-admin/update-core.php 6 10
+http://vlead.vlabs.ac.in/wp-admin/ 6 31
+https://www.facebook.com 0 1
+http://vlead.vlabs.ac.in/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 1 31
+http://vlead.virtual-labs.ac.in/join-us/ 1 19
+http://ui2.virtual-labs.ac.in 1 1
+https://vlead.virtual-labs.ac.in/author/jayashree/ 0 12
+http://vlead.vlabs.ac.in/2013/07/09/virtual-labs-on-amazon-cloud/ 10 10
+http://vlead.vlabs.ac.in/events/ 2 2
+http://vlabs.ac.in/index.php 1 1
+http://vlead.virtual-labs.ac.in/wiki/index.php 2 2
+http://vlead.virtual-labs.ac.in/join-us 1 1
+http://vlead.vlabs.ac.in/activities/ 4 23
+http://webcache.googleusercontent.com/search 0 15
+https://vlead.virtual-labs.ac.in 4 72
+http://vlead.vlabs.ac.in/wp-content/plugins/perfect-quotes/includes/style.css 0 6
+http://vlead.vlabs.ac.in/wp-admin/user-new.php 2 2
+http://vlead.vlabs.ac.in/2013/08/12/the-virtual-labs-project-an-overview/ 7 44
+http://vlead.vlabs.ac.in/contact-us/ 4 12
+https://vlead.virtual-labs.ac.in/wiki/index.php 3 3
+http://vlead.virtual-labs.ac.in 4 326
+http://www.facebook.com/l.php 7 7
+http://vlead.virtual-labs.ac.in/wiki/index.php/Special:UserLogin 2 2
+http://vlead.vlabs.ac.in/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 5 5
+http://vlead.vlabs.ac.in/author/chandan/ 0 29
+https://vlead.virtual-labs.ac.in/events/freshers-recruitment-drive-sep-2013/ 0 75
+http://vlead.vlabs.ac.in/events/first-presentation-by-our-summer-interns/ 1 3
+http://vlead.vlabs.ac.in/2013/06/28/first-monthly-presentation-by-our-summer-interns/ 5 7
+http://vlead.vlabs.ac.in/category/uncategorized/ 1 1
+https://vlead.virtual-labs.ac.in/2013/07/18/ui-redesign/ 1 1
+http://www.iiit.ac.in/news/notice/vlead_freshers_drive 4 4
+http://vlead.vlabs.ac.in/2013/06/28/rd-showcase-2013/ 5 85
+https://vlead.virtual-labs.ac.in/2013/08/ 1 1
+https://vlead.virtual-labs.ac.in/category/uncategorized/ 1 1
+http://vlead.vlabs.ac.in/2013/12/ 0 31
+http://vlead.vlabs.ac.in/join-us/ 0 23
+http://vlead.vlabs.ac.in/2013/09/ 3 44
+http://vlead.vlabs.ac.in/about-us/team/ 0 36
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+www.chndn.gupta.fesbook 1
+content 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+www.chndn.gupta.fesbook 1
+content 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 44 0
+206 30 1172268
+404 24 295992
+301 11 335
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/about-us/team/www.mnnit.ac.in/%C3%A2%E2%82%AC%C5%BD 1 -
+/embed.js 1 -
+/about-us/team/www.manipal.edu\" 1 -
+/about-us/team/www.motorola.com/ 1 -
+/author/jayashree/wp-content/themes/Mentor/timthumb.php 2 -
+/activities/https://vlead.virtual-labs.ac.in/2013/07/18/erlstack-our-own-cloud-management-software-in-erlang/ 1 -
+/author/jayashree/&amp 2 -
+/wp-content/themes/Mentor/timthumb.php 2 -
+/about-us/team/www.mnnit.ac.in/ 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 -
+/about-us/team/www.mnnit.ac.in/%E2%80%8E 1 -
+/about-us/team/www.infosys.com 1 -
+/wiki/vlead_logo.png 6 https://vlead.virtual-labs.ac.in/wiki/index.php/VLEAD_repositories
+/about-us/team/www.iiit.ac.in 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 415 1616 59189378 20140228225628
+10.4.8.52 388 1005 36700689 20140228231428
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20140208 19 53 3342612 6
+20140209 46 88 2134493 2
+20140221 17 101 3156805 7
+20140222 53 304 12307676 22
+20140223 76 143 5733984 19
+20140224 66 318 12132809 21
+20140225 80 508 20411373 17
+20140226 53 249 9733102 19
+20140227 96 213 15230769 18
+20140228 297 640 15586404 21
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 21
+5mn-15mn 16
+2mn-5mn 7
+30s-2mn 7
+0s-30s 58
+15mn-30mn 16
+30mn-1h 27
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/wp-login.php 209 758789 74 80
+/wp-admin/admin-ajax.php 168 7065 3 2
+/ 97 3917667 21 19
+/2013/08/14/rollout-of-the-new-website-design/ 48 1242153 15 10
+/events/freshers-recruitment-drive-sep-2013/ 29 765494 12 11
+/wiki/load.php 29 735213 0 1
+/author/jayashree/ 25 2048335 13 2
+/2013/07/09/virtual-labs-on-amazon-cloud/ 14 382346 0 3
+/about-us/interns/ 12 363400 1 5
+/contact-us/ 11 372399 0 1
+/events/internal-review/ 1 26449 0 0
+/2013/10/ 2 62232 0 0
+/events/final-presentation-by-our-summer-interns/ 2 54422 0 0
+/wiki/index.php/Special:UserLogin 1 12818 0 0
+/wiki/index.php/Welcome_to_VLEAD_wiki 1 21137 0 0
+/wp-admin/load-styles.php 4 315414 0 0
+/wp-admin/users.php 2 98664 0 0
+/events/expert-committee-review/ 1 26713 0 0
+/about-us/mission-and-vision/ 5 105544 0 0
+/2013/06/28/rd-showcase-2013/ 8 115152 2 2
+/events/first-presentation-by-our-summer-interns/ 2 27803 0 0
+/wp-admin/ 1 91912 0 0
+/2013/09/ 2 51168 0 0
+/comments/feed/ 1 1202 0 0
+/about-us/about-vlead/ 6 135168 0 1
+/wp-admin/user-new.php 1 37279 0 0
+/events/field-trial/ 3 78142 0 2
+/xmlrpc.php 2 780 0 1
+/wiki/index.php/VLEAD_repositories 1 16795 0 0
+/2013/06/28/first-monthly-presentation-by-our-summer-interns/ 9 106629 0 2
+/about-us/ 5 106179 0 0
+/2013/10/06/a-brief-introduction-to-responsive-web-design-rwd/ 4 106376 1 2
+/2013/07/18/ui-redesign/ 3 91353 0 0
+/2013/09/04/field-trial-in-gitam-school-of-technology-hyderabad/ 7 208945 1 1
+/events/ 6 176274 0 0
+/wp-admin/about.php 1 44448 0 0
+/wiki/api.php 7 517 0 0
+/wiki/ 3 48597 0 0
+/category/uncategorized/ 3 246079 1 0
+/2013/07/ 3 130252 0 0
+/2013/12/ 4 128948 1 3
+/wp-admin/load-scripts.php 8 380098 0 0
+/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 5 108581 1 0
+/2013/06/ 5 126862 0 0
+/2013/08/12/the-virtual-labs-project-an-overview/ 10 298992 0 1
+/activities/ 10 284168 3 1
+/2013/08/ 2 78354 1 0
+/author/chandan/ 1 32238 0 1
+/about-us/team/ 8 366970 2 0
+/join-us/ 8 205347 0 1
+/wp-admin/update-core.php 3 124404 0 0
+END_SIDER

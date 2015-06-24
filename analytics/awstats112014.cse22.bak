@@ -1,0 +1,487 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201411 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse22.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2653                
+POS_VISITOR 14130               
+POS_DAY 16042               
+POS_DOMAIN 3422                
+POS_LOGIN 3654                
+POS_ROBOT 3809                
+POS_WORMS 4235                
+POS_EMAILSENDER 4366                
+POS_EMAILRECEIVER 4509                
+POS_SESSION 16723               
+POS_SIDER 16930               
+POS_FILETYPES 4644                
+POS_DOWNLOADS 4921                
+POS_OS 5322                
+POS_BROWSER 5541                
+POS_SCREENSIZE 6364                
+POS_UNKNOWNREFERER 6438                
+POS_UNKNOWNREFERERBROWSER 6627                
+POS_ORIGIN 6709                
+POS_SEREFERRALS 6851                
+POS_PAGEREFS 7008                
+POS_SEARCHWORDS 7246                
+POS_KEYWORDS 7468                
+POS_MISC 2317                
+POS_ERRORS 7599                
+POS_CLUSTER 3510                
+POS_SIDER_404 7725                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141130190630 27348 7050286 7694166406110
+FirstTime 0
+LastTime 20141129205405
+LastUpdate 20141201010242 0 0 0 0 0
+TotalVisits 95                  
+TotalUnique 43                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 7 803
+1 0 0 0 0 7 14915
+2 0 0 0 2 6 4202
+3 0 1 0 4 16 62164
+4 10 41 934104 7 15 17614
+5 19 120 1340093 9 23 297542
+6 35 130 3337430 2 10 118457
+7 2 4 14628 1 6 194443
+8 7 33 194150 1 10 3573
+9 35 258 5039852 5 16 8804
+10 87 316 6647309 5 31 120300
+11 65 294 5850589 2 21 7566
+12 47 142 2435384 3 35 654765
+13 151 530 11643215 21 61 283756
+14 40 184 3703041 0 20 600689
+15 79 395 5388314 5 40 536462
+16 37 186 1776542 4 11 167331
+17 33 121 1534949 4 20 106183
+18 56 226 3114442 11 27 13298
+19 67 221 5496557 3 37 302993
+20 23 86 1516189 2 13 2869
+21 30 134 2999472 5 13 108509
+22 38 173 4708503 2 14 378820
+23 6 30 190303 7 15 12751
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 867 3625 67865066
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 176 2937348 20141130190630 0
+no_user_agent 11 142327 20141126154129 0
+baiduspider 8 62742 20141128135540 0
+bingbot 5 7854 20141130065824 0
+slurp 3 5901 20141127054644 0
+rpt\-httpclient 1 1967 20141112132622 0
+bot[\s_+:,\.\;\/\\-] 1 5044 20141125162007 0
+crawl 1 1967 20141125182209 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 324 480389 0 0
+png 503 19099065 0 0
+txt 11 35557 0 0
+otf 151 3660644 0 0
+pde 4 39676 0 0
+php 124 96503 0 0
+html 588 1415577 0 0
+jpg 1003 33724245 0 0
+jar 14 1117046 0 0
+js 751 6377758 0 0
+gif 152 1818606 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 7
+/labs/cse22/exp1/applet/taketwoIAC.jar 4 0 740528
+/labs/cse22/exp1/applet/network.txt 4 0 18764
+/labs/cse22/exp1/applet/names.txt 2 0 748
+/labs/cse22/exp2/applet/CSNNfinal_Ver3_7Dec12.jar 1 0 186792
+/labs/cse22/exp2/applet/csroomwt.txt 1 0 15679
+/labs/cse22/exp6/applet/DeliverableExp6Final.jar 1 0 189726
+/labs/cse22/exp2/applet/roomunames.txt 1 0 366
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+linuxandroid 9 3
+winxp 462 118
+winlong 1 0
+macosx6 16 3
+java 35 0
+linuxubuntu 16 3
+winvista 647 174
+linux 178 40
+win7 2080 514
+macosx 1 0
+Unknown 180 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 38
+msie6.0 4 2
+chrome37.0.2062.124 1 1
+firefox15.0 16 3
+firefox20.0 16 3
+firefox26.0 37 4
+chrome38.0.2125.101 79 21
+chrome38.0.2125.111 640 175
+firefox34.0 92 27
+firefox24.0 32 6
+opera9.80 180 12
+firefox31.0 187 41
+chrome39.0.2171.65 128 30
+chrome38.0.2125.122 64 12
+msie7.0 8 0
+chrome40.0.2209.0 42 11
+chrome37.0.2062.120 16 3
+chrome30.0.1599.82 9 3
+safari8.0 1 0
+chrome33.0.1750.154 122 43
+msie9.0 38 7
+chrome40.0.2214.5 96 28
+firefox11.0 46 12
+chrome15.0.874.5 43 12
+chrome39.0.2171.71 343 74
+firefox32.0 146 35
+chrome41.0.2224.3 45 11
+firefox30.0 72 19
+firefox12.0 16 3
+safari5.1.7 45 14
+chrome35.0.1916.114 60 12
+firefox33.0 388 111
+mozilla 88 13
+chrome35.0.1916.153 16 3
+chrome40.0.2202.3 16 3
+chrome32.0.1700.76 396 98
+msie10.0 16 3
+netscape4.0 37 0
+firefox35.0 44 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.5706;_U;_en)_Presto/2.8.119_Version/11.10 20141124094149
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 175
+From1 0 0
+From2 11 12
+From3 49 49
+From4 768 3389
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 11 12
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://virtual-labs.ac.in/labs/cse22/ 41 41
+http://www.virtual-labs.ac.in/labs/cse22/ 8 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+http+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse22%2findex.html%23 8
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+http 8
+%2f%2fdeploy.virtual-labs.ac.in%2flabs%2fcse22%2findex.html%23 8
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 37 15318
+206 5 776452
+405 5 1756
+404 221 60133
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 59
+/labs/cse22/exp3/tmp/ope2cogllra6cf3lmuivqovve7/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp7/js/modernizr-1.5.min.js 4 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/index.html
+/labs/cse22/exp5/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp4/tmp/qb0mfpbkgvdfvlbqg3f5m5rkb2/mlffnntrainingSamples.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp3/tmp/8fs869laivq7g8kn3ito56eku0/mlpState.png 4 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp4/tmp/464v6r4i7feb2elaf6l1d0fqq2/mlffnnState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp3/tmp/02d595rfguj44hquf1qa3r8pe6/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp6/PendulumForces.swf 3 -
+/labs/cse22/exp8/tmp/1b5dt9lp9pea381kk4k308t2k6/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp9/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp8/tmp/c7alvusoegm56kmao8g0dvbcv3/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp6/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp1/js/modernizr-1.5.min.js 36 -
+/labs/cse22/exp3/tmp/l4d7nnl90vnoapa22e2dp5ead0/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp8/js/modernizr-1.5.min.js 11 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/index.html
+/labs/cse22/exp3/tmp/kun34o01iqnkk9976pmtge3sj4/mlpState.png 6 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp9/tmp/qti5a05pcqut0vqbhess6m1hn7/output.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/graphbipartition.php
+/labs/cse22/exp7/PendulumForces.swf 1 -
+/labs/cse22/exp1/PendulumForces.swf 3 -
+/labs/cse22/exp9/tmp/qti5a05pcqut0vqbhess6m1hn7/input.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/graphbipartition.php
+/labs/cse22/exp5/applet/pivotx/includes/timthumb.php 1 -
+/labs/cse22/exp4/tmp/kun34o01iqnkk9976pmtge3sj4/mlffnntrainingSamples.png 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp4/PendulumForces.swf 5 -
+/labs/cse22/exp3/tmp/6updma3a2d2dfj0ndk7rr9rd44/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp8/tmp/6iaucq3pl1ums97p55h5g3rae4/somState.png 18 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp8/tmp/bhqmeji657l05rd00s7p9a08m7/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp4/tmp/khqegaticptljqo3f54vo3mj01/mlffnnState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp3/tmp/th4bqqud4g4254f72b0c5s3jf5/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp8/tmp/02kpe2ep6tnqum2ftrjrmt3qk2/somState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp9/js/modernizr-1.5.min.js 7 -
+/labs/cse22/exp3/PendulumForces.swf 2 -
+/labs/cse22/exp2/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp2/index.html
+/labs/cse22/exp8/PendulumForces.swf 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/index.html
+/labs/cse22/exp3/tmp/errn0v9mgdg85o8m76qbqmbaq0/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp8/tmp/qjnfmelda6tdqvdo58bsetl466/somState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp4/tmp/kun34o01iqnkk9976pmtge3sj4/mlffnnState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp8/tmp/tffmkn5kf46a2s3f3o4fh0akf5/somState.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp8/som.php
+/labs/cse22/exp4/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp3/tmp/8vh4t2i1bc7qp6u1076c84mtg6/mlpState.png 7 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp9/PendulumForces.swf 3 -
+/labs/cse22/exp3/js/modernizr-1.5.min.js 29 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/index.html
+/labs/cse22/exp3/tmp/jlsebdmo1jsg5vd6sq9namp402/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp3/tmp/rj6hdcoss4v9micf60cc3km4g2/mlpState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp3/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp6/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp6/index.html
+/labs/cse22/exp4/tmp/qb0mfpbkgvdfvlbqg3f5m5rkb2/mlffnnState.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp7/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 1 -
+/labs/cse22/exp3/tmp/isckm4k3q95qv5d104kj3m80b2/mlpState.png 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp4/tmp/qb0mfpbkgvdfvlbqg3f5m5rkb2/mlffnntestingSamples.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp1/index.html// 1 -
+/labs/cse22/exp5/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp5/index.html
+/labs/cse22/exp3/tmp/8da3qu7fj42jf18jkju26ofv87/mlpState.png 6 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp9/tmp/kun34o01iqnkk9976pmtge3sj4/input.png 2 http://deploy.virtual-labs.ac.in/labs/cse22/exp9/graphbipartition.php
+/labs/cse22/exp1/index.html/ 1 -
+/labs/cse22/exp7/tmp/qjnfmelda6tdqvdo58bsetl466/clnnState.png 6 http://deploy.virtual-labs.ac.in/labs/cse22/exp7/clnn.php
+/labs/cse22/exp4/tmp/kun34o01iqnkk9976pmtge3sj4/mlffnntestingSamples.png 1 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/mlffnn.php
+/labs/cse22/exp3/tmp/qjnfmelda6tdqvdo58bsetl466/mlpState.png 3 http://deploy.virtual-labs.ac.in/labs/cse22/exp3/perceptron.php
+/labs/cse22/exp4/js/modernizr-1.5.min.js 12 http://deploy.virtual-labs.ac.in/labs/cse22/exp4/index.html
+/labs/cse22/exp5/PendulumForces.swf 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+10.4.8.52 517 2110 39879302 20141129205405
+119.226.42.182 32 110 2273696 20141112134041
+220.227.97.99 28 82 1605078 20141121190404
+14.139.221.5 26 139 1151127 20141128160313
+203.196.133.98 21 63 1600947 20141112133854
+210.212.192.18 20 67 1122100 20141128130445
+124.125.240.27 19 71 1478455 20141126200645
+117.55.241.55 19 72 1111690 20141110113206
+182.70.16.142 14 45 1205782 20141126184007
+223.176.170.89 12 43 1197935 20141126220557
+49.248.247.53 3 16 96655 20141126084527
+107.167.99.201 4 65 1036562 20141124093550
+192.84.63.228 3 16 96655 20141121154253
+117.196.124.39 3 16 96655 20141121114145
+202.176.202.134 1 4 13915 20141107120450
+157.127.124.152 3 16 96655 20141105053334
+182.73.136.134 7 40 878868 20141112112607
+123.201.176.170 3 16 96655 20141109113058
+94.214.170.164 0 1 502272 
+182.71.248.226 8 33 1014837 20141125142146
+14.139.241.84 3 3 9278 20141103101430
+109.90.232.211 8 39 931297 20141125043054
+59.94.58.108 12 44 887259 20141126223719
+1.39.60.181 3 16 96655 20141111213849
+117.55.241.54 1 1 741 20141117124516
+106.78.121.29 3 13 89632 20141126183328
+14.139.60.13 3 16 96655 20141120050209
+46.218.182.251 12 47 1345507 20141127164903
+177.32.81.16 10 72 1050128 20141127052216
+106.215.210.254 3 9 44415 20141114164232
+14.139.155.243 10 44 1465415 20141108115315
+190.84.105.103 1 1 840 20141104082858
+202.176.202.135 1 4 45667 20141107120447
+103.30.140.170 3 16 96655 20141122144959
+110.224.48.177 3 16 96655 20141121100802
+49.213.33.75 1 1 1967 20141127045533
+220.225.97.109 11 42 1101795 20141113111807
+37.228.105.0 4 65 1036562 20141124094145
+182.72.24.214 11 45 1566628 20141126212709
+115.242.200.212 8 29 923748 20141129061315
+202.176.202.133 1 7 36967 20141107120450
+202.131.98.170 6 37 191343 20141127101827
+49.213.55.53 3 16 96655 20141120203136
+202.176.202.136 0 1 106 
+122.170.68.37 3 16 96655 20141126113029
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20141103 52 170 3007055 5
+20141104 28 102 2916839 4
+20141105 12 48 195820 2
+20141106 15 31 416657 1
+20141107 29 136 2457819 5
+20141108 34 185 2619132 3
+20141109 3 16 96655 1
+20141110 41 156 3413060 3
+20141111 3 16 96655 1
+20141112 147 573 12493877 6
+20141113 19 76 1296785 5
+20141114 12 57 334380 4
+20141115 3 17 96655 1
+20141117 52 153 4109296 4
+20141118 13 75 1143798 1
+20141119 2 4 14628 1
+20141120 6 32 193310 2
+20141121 37 151 1909778 6
+20141122 6 36 223195 2
+20141124 23 222 4257925 4
+20141125 43 164 4377001 4
+20141126 159 610 13374506 15
+20141127 30 159 2819383 6
+20141128 69 316 3628653 5
+20141129 29 120 2372204 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 7
+0s-30s 63
+2mn-5mn 6
+15mn-30mn 3
+30s-2mn 13
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 47
+/labs/cse22/ 91 169162 73 6
+/labs/cse22/default.html 86 126575 2 8
+/labs/cse22/content.html 86 264023 1 32
+/labs/cse22/exp3/perceptron.php 55 46057 4 7
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf 41 1953732 0 7
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf 41 1081908 0 2
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf 40 329920 0 3
+/labs/cse22/exp1/tableTEMP.html 37 12558 0 1
+/labs/cse22/exp1/content.html 34 149638 0 0
+/labs/cse22/exp1/default.html 34 85836 0 0
+/labs/cse22/exp4/ 12 21560 3 0
+/labs/cse22/exp2/default.html 3 11196 0 0
+/labs/cse22/exp9/ 4 7840 2 0
+/labs/cse22/exp8/ 8 13720 0 0
+/labs/cse22/exp6/default.html 1 3732 0 0
+/labs/cse22/exp4/content.html 12 65802 0 0
+/labs/cse22/exp3/content.html 15 73472 0 0
+/labs/cse22/exp7/content.html 4 23200 0 0
+/labs/cse22/exp5/content.html 2 12896 0 0
+/labs/cse22/exp8/content.html 8 40096 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf 16 117824 0 1
+/labs/cse22/exp5/ 2 3920 1 0
+/labs/cse22/exp7/default.html 4 14928 0 0
+/labs/cse22/exp5/applet/ 2 2962 0 1
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf 2 93616 0 2
+/labs/cse22/exp2/content.html 3 20832 0 0
+/labs/cse22/exp2/ 3 5880 1 0
+/labs/cse22/exp1/ 34 45080 4 0
+/labs/cse22/exp1/applet/ 33 33994 0 3
+/labs/cse22/exp1/applet/taketwoIAC.pde 4 39676 0 2
+/labs/cse22/exp7/clnn.php 10 5734 0 0
+/labs/cse22/exp3/default.html 15 52248 0 0
+/labs/cse22/exp2/applet/ 3 4482 0 3
+/labs/cse22/exp8/default.html 8 26124 0 0
+/labs/cse22/exp4/mlffnn.php 24 15358 0 7
+/labs/cse22/exp6/applet/ 1 1486 0 1
+/labs/cse22/exp6/content.html 1 5235 0 0
+/labs/cse22/exp4/default.html 12 41052 0 0
+/labs/cse22/exp6/ 1 1960 0 0
+/labs/cse22/exp9/graphbipartition.php 9 10090 0 2
+/labs/cse22/exp9/content.html 4 16416 0 0
+/labs/cse22/js/mathjax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf 11 83644 0 3
+/labs/cse22/exp8/som.php 26 19264 1 4
+/labs/cse22/exp7/ 4 7840 0 0
+/labs/cse22/exp9/default.html 4 14928 0 0
+/labs/cse22/exp3/ 15 27440 3 0
+/labs/cse22/exp5/default.html 2 7464 0 0
+END_SIDER

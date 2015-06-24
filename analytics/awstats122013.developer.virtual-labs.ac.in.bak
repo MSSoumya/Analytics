@@ -1,0 +1,457 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201312 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.developer.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2675                
+POS_VISITOR 8970                
+POS_DAY 9126                
+POS_DOMAIN 3463                
+POS_LOGIN 3694                
+POS_ROBOT 3849                
+POS_WORMS 4485                
+POS_EMAILSENDER 4616                
+POS_EMAILRECEIVER 4759                
+POS_SESSION 9791                
+POS_SIDER 9998                
+POS_FILETYPES 4894                
+POS_DOWNLOADS 5086                
+POS_OS 5134                
+POS_BROWSER 5306                
+POS_SCREENSIZE 5728                
+POS_UNKNOWNREFERER 5802                
+POS_UNKNOWNREFERERBROWSER 5969                
+POS_ORIGIN 6099                
+POS_SEREFERRALS 6238                
+POS_PAGEREFS 6382                
+POS_SEARCHWORDS 6934                
+POS_KEYWORDS 7086                
+POS_MISC 2337                
+POS_ERRORS 7145                
+POS_CLUSTER 3550                
+POS_SIDER_404 7270                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131231221205 204 45092 14078354179116
+FirstTime 0
+LastTime 20131231154101
+LastUpdate 20140101010102 0 0 0 0 0
+TotalVisits 58                  
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 144 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 34 127 220071 122 154 143771
+1 12 21 33714 64 83 96737
+2 1 7 120856 133 165 138035
+3 0 0 0 53 69 74348
+4 1 1 1424 76 113 134424
+5 0 0 0 30 43 47212
+6 1 1 3294 89 114 118714
+7 0 0 0 48 58 78251
+8 0 0 0 72 88 77998
+9 1 1 3294 40 54 60646
+10 9 63 274570 96 130 146259
+11 20 75 278874 71 101 225904
+12 41 193 260307 111 144 135712
+13 56 152 581659 69 94 199847
+14 40 134 214424 120 151 157563
+15 164 616 1451257 98 167 144429
+16 95 601 540486 116 183 204167
+17 12 68 28748 69 85 79926
+18 10 49 140503 117 148 159964
+19 1 7 120836 45 58 69533
+20 23 172 667834 120 154 168817
+21 80 619 333926 84 96 59323
+22 32 216 488292 95 135 172989
+23 32 226 115250 53 76 48109
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 665 3349 5879619
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 423 885454 20131231221205 0
+ezoom 168 553420 20131228205256 0
+baiduspider 145 194519 20131231081320 0
+bingbot 87 460067 20131231140757 0
+yandex 57 85070 20131220033651 0
+crawl 11 33957 20131230130958 0
+robot 11 13950 20131223061859 0
+heritrix 9 79911 20131210164701 0
+ia_archiver 9 29547 20131201073635 0
+spider 7 9791 20131219210347 0
+no_user_agent 1 3294 20131218043404 0
+archive\.org_bot 1 3304 20131210113943 0
+bot[\s_+:,\.\;\/\\-] 5 6571 20131230014805 0
+netcraft 1 3294 20131211025617 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 47 90996 0 0
+css 1231 552781 0 0
+png 501 228964 0 0
+js 951 3281827 0 0
+Unknown 615 1723074 0 0
+gif 1 1553 0 0
+vcf 3 424 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 7 1
+winxp 47 12
+java 2 2
+linuxubuntu 7 1
+linux 2040 277
+win7 1244 370
+Unknown 1 1
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+msie6.0 3 3
+firefox17.0 70 9
+firefox10.0 1 1
+firefox26.0 20 3
+chrome31.0.1650.57 352 162
+chrome31.0.1650.63 252 102
+firefox12.0 115 14
+opera9.80 1 1
+firefox6.0.2 1 1
+firefox25.0 629 91
+mozilla 1 1
+msie7.0 1 1
+firefox14.0.1 1 1
+firefox23.0 1842 253
+chrome22.0.1229.12 36 16
+chrome28.0.1500.52 7 1
+chrome30.0.1599.101 7 1
+Unknown 2 2
+chrome31.0.1650.59 7 1
+firefox11.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20131218142044
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.3_(java_1.5) 20131207203949
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 68 68
+From1 0 0
+From2 0 0
+From3 10 10
+From4 587 3271
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://community.virtual-labs.ac.in/w/index.php/Main_Page 3 3
+http://vlead.vlabs.ac.in/contact-us/ 2 2
+http://vlead.vlabs.ac.in/2013/12/19/architecture-of-the-virtual-labs-hosting-ecosystem/ 1 1
+http://vlead.vlabs.ac.in/join-us/ 1 1
+http://vlead.vlabs.ac.in/about-us/team/ 1 1
+http://vlead.virtual-labs.ac.in/join-us/ 1 1
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 2676
+302 1514 245043
+500 2 912
+404 66 32230
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 55
+/search/index/ece06 1 -
+/search/index/ccnsb05 2 -
+/search/index/cse24 1 -
+/javascripts/controls.js 1 -
+/search/index/ccnsb07 1 -
+/search/index/ece09 1 -
+/search/index/ccnsb03 1 -
+/search/index/cse20 1 -
+/search/index/eerc04 1 -
+/qgayxmvzm.html 1 -
+/search/index/ui 1 -
+/search/index/ece03 1 -
+/search/index/outreach 2 -
+/search/index/ccnsb01 2 -
+/search/index/cse30 1 -
+/search/index/system 2 -
+/search/index/cse25 2 -
+/javascripts/effects.js 1 -
+/search/index/ece04 1 -
+/search/index/eerc06 1 -
+/search/index/ece02 1 -
+/search/index/ccnsb02 1 -
+/search/index/cse28 2 -
+/projects/cse02/wiki 1 http://developer.virtual-labs.ac.in/projects/cse02/issues/new
+/search/index/eerc05 1 -
+/search/index/cse21 2 -
+/javascripts/prototype.js 1 -
+/search/index/cse02 1 -
+/search/index/eerc02 1 -
+//wallet.dat 1 -
+/search/index/cse26 2 -
+/search/index/ccnsb06 1 -
+/javascripts/dragdrop.js 1 -
+/search/index/eerc01 1 -
+/jyiyilmeb.html 1 -
+/search/index/cse03 1 -
+/search/index/emt 1 -
+/search/index/cse12 1 -
+/search/index/doc 1 -
+/search/index/ece08 1 -
+/search/index/cse14 1 -
+/search/index/cse29 2 -
+/search/index/ece05 1 -
+/wiki 1 -
+/search/index/ccnsb04 1 -
+/search/index/cse08 1 -
+/search/index/cse04 1 -
+/search/index/cse10 1 -
+/search/index/cse23 1 -
+/search/index/chem01 1 -
+/search/index/cse27 1 -
+/search/index/cse01 1 -
+/search/index/cse22 2 -
+/search/index/engg01 2 -
+/search/index/cse16 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 529 2438 5018348 20131227144239
+10.4.8.52 136 911 861271 20131231154101
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20131201 14 115 181822 1
+20131202 7 25 143377 1
+20131203 28 58 197701 2
+20131204 40 145 513710 4
+20131205 16 30 165522 3
+20131206 37 99 169592 3
+20131207 15 23 44180 2
+20131208 31 61 100309 3
+20131209 117 727 1013333 4
+20131210 107 431 742187 2
+20131211 12 98 398751 3
+20131212 26 196 446917 4
+20131213 4 10 125274 2
+20131214 15 97 48299 2
+20131215 30 223 208117 5
+20131216 21 56 26532 1
+20131217 1 1 1424 1
+20131218 1 1 1309 1
+20131219 95 721 610783 3
+20131220 9 60 23156 2
+20131224 1 7 120856 1
+20131225 16 112 293988 2
+20131226 1 7 120835 1
+20131227 2 2 6588 2
+20131230 1 1 3294 1
+20131231 18 43 171763 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 6
+30s-2mn 6
+2mn-5mn 5
+0s-30s 23
+15mn-30mn 1
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 87
+/login 110 150689 48 36
+/releases 95 312351 3 12
+/repos 63 129253 0 2
+/lab_info/edit 53 85379 0 0
+/ 47 90996 1 2
+/releases/new 32 68969 4 0
+/lab_info/filter_show 23 130113 0 3
+/packages 18 21639 0 0
+/releases/publish 13 31108 0 0
+/sshkeys 13 19358 0 0
+http://developer.virtual-labs.ac.in/login 1 3294 1 1
+/memberships/937 1 18912 0 0
+/projects/bio15/issues/report 1 2320 0 0
+/projects/ece26/settings 4 22792 0 0
+/projects/ae01 1 1913 0 0
+/projects/mech18 1 2497 0 0
+/projects/mech18/activity 1 2370 0 0
+/projects/mech18/settings 1 6384 0 0
+/projects/ece26/settings/modules 1 5649 0 0
+/projects/bio15/issues/new 2 7208 0 0
+/projects/ece26/activity 4 4476 0 0
+/people/184.vcf 1 129 0 0
+/my/page 5 8769 0 0
+/people/237 1 2974 0 0
+/projects/bio15/wiki 5 12085 0 0
+/feedbackreports 8 10648 0 1
+/projects/cse02 5 4741 0 0
+/projects/eee05 1 2126 0 0
+/projects/bio16/issues 3 20386 0 0
+/projects/bio15/activity 2 4424 0 0
+/projects/mech18/issues/calendar 1 6337 0 0
+/search 2 4258 0 0
+/projects/bio16/time_entries/new 1 2555 0 0
+/projects/ece26/issues/gantt 1 6944 0 0
+/projects/cse05 1 4606 0 0
+/projects/cse12/activity 1 2408 0 0
+/projects/ece19/issues 1 6826 0 0
+/people/133 1 4027 0 0
+/projects/eee12 1 2490 0 0
+/projects/cse31 3 5771 0 0
+/projects/ece26/versions/new 2 2222 0 0
+/people/133.vcf 1 155 0 0
+/projects/cse12 5 7549 0 0
+/projects/cse12/issues 3 22522 0 0
+/people/279.vcf 1 140 0 0
+/projects/civil13 11 24702 1 0
+/people/184 2 5671 0 0
+/repos/create 8 16776 0 0
+/projects/ece19 1 2529 0 0
+/projects/eerc03 1 2181 0 0
+/people/113 1 5597 0 0
+/projects/bio15/documents 3 7838 0 0
+/memberships/839 1 14908 0 0
+/people/227 1 2939 0 0
+/projects/mech18/wiki 1 2604 0 0
+/projects/mech18/issues/gantt 1 7126 0 0
+/my/account 4 20632 0 0
+/projects/cse02/issues/new 1 3288 0 0
+/projects/che02 1 1948 0 0
+/users/133 1 3169 0 0
+/projects/engg01 2 2049 0 0
+/projects/ece26/issues 1 6614 0 0
+/projects/cse02/activity 1 1915 0 0
+/people/279 2 6147 0 0
+/issues/883 1 6084 0 0
+/issues/509 1 4806 0 0
+/projects/ece26/memberships 9 142681 0 0
+/users/279 2 4052 0 0
+/projects/txtl01 1 2082 0 0
+/projects/ece26 5 8904 0 0
+/projects/bio15/settings 2 11915 0 0
+/projects/bio16 11 24895 0 0
+/projects 12 49107 0 0
+/projects/bio15/issues 6 39977 0 0
+/projects/txtl03 1 2086 0 0
+/people/184/edit 1 2609 0 0
+/projects/txtl02 1 2085 0 0
+/projects/ece26/time_entries/new 1 2383 0 0
+/users/184 1 1767 0 0
+/projects/eee08 1 2446 0 0
+/projects/bio15 11 25006 0 0
+/projects/bio15/issues/gantt 3 20963 0 0
+/memberships/902 1 16908 0 0
+/projects/cse02/issues 5 25172 0 0
+/projects/mech18/issues 2 13609 0 0
+/projects/eee03 1 2417 0 0
+/account/lost_password 1 1145 0 1
+END_SIDER

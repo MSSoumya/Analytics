@@ -1,0 +1,911 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse04.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2667                
+POS_VISITOR 9532                
+POS_DAY 14059               
+POS_DOMAIN 3484                
+POS_LOGIN 3717                
+POS_ROBOT 3872                
+POS_WORMS 4428                
+POS_EMAILSENDER 4559                
+POS_EMAILRECEIVER 4702                
+POS_SESSION 14671               
+POS_SIDER 14884               
+POS_FILETYPES 4837                
+POS_DOWNLOADS 5051                
+POS_OS 5099                
+POS_BROWSER 5313                
+POS_SCREENSIZE 6303                
+POS_UNKNOWNREFERER 6377                
+POS_UNKNOWNREFERERBROWSER 6753                
+POS_ORIGIN 7045                
+POS_SEREFERRALS 7188                
+POS_PAGEREFS 7343                
+POS_SEARCHWORDS 7915                
+POS_KEYWORDS 8154                
+POS_MISC 2331                
+POS_ERRORS 8321                
+POS_CLUSTER 3573                
+POS_SIDER_404 8461                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150121142129 83840 21961607 8689638714772
+FirstTime 20150101000450
+LastTime 20150121141559
+LastUpdate 20150610230219 0 0 0 0 0
+TotalVisits 394                 
+TotalUnique 105                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 31 83 320317 42 42 35525
+1 39 107 495713 55 60 54255
+2 34 45 314897 51 56 41092
+3 39 76 380707 64 70 57552
+4 39 39 344073 64 67 46962
+5 34 34 303804 69 71 38859
+6 38 49 361077 65 70 37542
+7 58 95 666201 75 80 58990
+8 48 109 568099 67 69 47522
+9 93 242 1040751 74 79 36506
+10 67 189 833082 64 66 41277
+11 192 371 2124223 93 98 66705
+12 118 406 1902614 88 99 43226
+13 69 201 696116 60 63 43873
+14 89 302 1128254 69 77 46292
+15 119 361 1455243 72 91 50388
+16 69 189 844221 84 93 53553
+17 54 115 497698 61 63 42698
+18 81 336 1380025 84 99 59777
+19 65 211 931543 69 77 57123
+20 60 213 1118119 67 81 83136
+21 73 219 1005746 84 93 53341
+22 69 264 921741 48 49 35106
+23 45 122 566745 53 54 36019
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1623 4378 20201009
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 68 167806 20150120030844 0
+robot 67 226021 20150120112120 0
+bingbot 48 132541 20150120150340 0
+baiduspider 23 71297 20150121084416 0
+slurp 13 38599 20150121072548 0
+favicon 10 39260 20150119214506 0
+yandex 10 35226 20150115164248 0
+bingpreview 2 5243 20150120160425 0
+rpt\-httpclient 1 3181 20150102203403 0
+python 1 0 20150110231326 0
+exabot 1 3266 20150115171326 0
+bot[\s_+:,\.\;\/\\-] 1 11558 20150102203232 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 762 3395484 0 0
+css 518 847215 0 0
+png 6 15060 0 0
+py 7 1109 0 0
+html 854 7340870 0 0
+js 212 4182439 0 0
+jpg 1278 3369564 0 0
+gif 741 1049268 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxredhat 39 2
+linuxandroid 258 54
+winxp 1274 982
+winlong 15 4
+winvista 699 154
+linux 350 76
+win7 1629 332
+macosx 83 15
+win2003 12 1
+Unknown 19 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 47
+msie6.0 899 899
+firefox28.0 42 5
+chrome37.0.2062.124 47 10
+safari7.0 14 2
+firefox20.0 18 5
+chrome38.0.2125.104 16 3
+ibrowse 5 0
+android 75 16
+chrome41.0.2251.0 17 4
+chrome28.0.1500.94 13 2
+chrome39.0.2171.95 1209 242
+chrome31.0.1650.57 13 2
+firefox34.0 598 127
+chrome36.0.1985.125 44 7
+chrome40.0.2214.45 46 9
+chrome24.0.1312.71 11 7
+firefox31.0 69 21
+msie8.0 13 2
+chrome38.0.2125.122 13 2
+firefox23.0 6 0
+firefox3.6.27 15 4
+safari8.0 63 13
+chrome26.0.1410.43 13 2
+Unknown 18 3
+chrome37.0.2062.94 12 1
+chrome39.0.2171.71 42 5
+chrome30.0.0.0 12 0
+chrome39.0.2171.93 56 8
+chrome39.0.2171.62 13 2
+chrome34.0.1847.114 50 13
+firefox21.0 61 11
+firefox3.5.2 1 1
+firefox7.0.1 14 3
+chrome39.0.2171.59 39 13
+chrome18.0.1025.133 36 10
+firefox33.0 98 21
+firefox25.0 27 3
+mozilla 44 7
+firefox3.0.12 39 2
+firefox22.0 5 4
+firefox14.0.1 23 9
+msie10.0 70 22
+chrome39.0.2171.99 164 33
+chrome41.0.2267.0 145 34
+firefox36.0 14 3
+firefox35.0 130 31
+safari 6 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.2;_en-US;_Karbonn_A20)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20150108182053
+Mozilla/5.0_(Series40;_Nokia308/08.13;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/5.5.0.0.27 20150109205623
+GigablastOpenSource/1.0 20150118193720
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+TazWeb_(X11;_SliTaz_GNU/Linux;_U;_en_US) 20150117120323
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_4.2.2;_en-US;_Karbonn_A20)_U2/1.0.0_UCBrowser/9.5.1.494_U2/1.0.0_Mobile 20150108182053
+GigablastOpenSource/1.0 20150118193720
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 575 590
+From1 0 0
+From2 4 4
+From3 105 145
+From4 939 3639
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://www.virtual-labs.ac.in/labs/cse04/ 88 88
+http://www.iprojectideas.com 4 4
+http://www.virtual-labs.ac.in 4 4
+http://virtual-labs.ac.in/labs/cse04/ 4 4
+http://www.iprojectideas.com/node/52 3 3
+http://www.iprojectideas.com/node/51 2 2
+http://192.168.2.70/cse04/exp2/index.php 0 1
+http://192.168.2.70/cse04/exp5/index.php 0 4
+http://192.168.2.70/cse04/exp4/index.php 0 4
+http://blog.a11y.in 0 29
+http://192.168.2.70 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+madama+labsa+string 1
+longest+decreasing+subsequence+of+integer+a+having+length+1000 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 12
+a 1
+labsa 1
+of 1
+string 1
+having 1
+length 1
+integer 1
+decreasing 1
+madama 1
+1000 1
+longest 1
+subsequence 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 621 45954
+503 827 342378
+206 2 24089
+502 8 4256
+404 64 16644
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 8
+/labs/cse04/exp1/quizresults.php 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/index.php
+/labs/cse04/exp4/jqminmax.js 6 http://deploy.virtual-labs.ac.in/labs/cse04/exp4/submission366095265.html
+/labs/cse04/exp8/jqminmax.js 11 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/submission115295455.html
+/labs/cse04/exp8/quizresults.php 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp8/index.php
+/labs/cse04/exp9/jqminmax.js 1 http://deploy.virtual-labs.ac.in/labs/cse04/exp9/prob_desc.html
+/labs/cse04/exp6/jqminmax.js 4 http://deploy.virtual-labs.ac.in/labs/cse04/exp6/lab.html
+/labs/cse04/exp1/jqminmax.js 35 http://deploy.virtual-labs.ac.in/labs/cse04/exp1/lab.html
+/labs/cse04/exp5/jqminmax.js 3 http://deploy.virtual-labs.ac.in/labs/cse04/exp5/lab.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+10.4.8.52 754 2152 9494774 20150121140837 20150121140833 /labs/cse04/exp6/lab.html
+62.210.142.7 143 143 1268821 20150121131834
+62.210.88.195 111 111 1138554 20150114041130
+62.210.122.209 70 70 641324 20150121133514 20150121133514 /labs/cse04/exp1/lab.html
+180.151.33.130 34 112 373818 20150114151848
+94.23.12.169 27 27 245341 20150121120834
+94.23.1.20 25 25 226957 20150121020036
+62.210.167.213 24 24 218669 20150114190107
+62.210.152.149 21 21 190208 20150114183958
+62.210.78.209 19 19 170382 20150114075233
+183.83.146.212 3 27 137472 20150110180344
+117.203.106.95 1 1 3228 20150109034300
+188.165.233.138 2 2 17916 20150121044414
+110.37.125.172 1 12 33815 20150116222029
+182.74.22.86 2 13 30932 20150108114752
+202.46.63.161 1 1 10578 20150119161942
+203.115.123.20 3 14 34129 20150115141153
+117.239.21.82 5 18 47951 20150109094704
+218.248.46.107 4 15 40750 20150121110113
+210.212.230.132 1 12 27593 20150110133638
+64.233.173.131 1 2 6123 20150102132052
+168.235.197.192 1 4 10359 20150110133939
+202.46.62.169 1 1 9449 20150113165052
+41.227.223.121 3 14 34129 20150111213913
+115.248.237.201 2 26 134288 20150105164319
+120.61.87.122 1 13 33114 20150109235842
+117.241.81.53 0 9 19082 
+194.187.114.1 7 11 33874 20150120180153
+117.246.173.188 10 47 193039 20150103194855
+112.133.233.2 4 15 37387 20150109161654
+117.18.231.63 3 16 41656 20150115005545
+14.139.223.167 5 11 28163 20150121125930
+117.239.103.162 1 6 18190 20150109153000
+85.154.47.243 3 16 41415 20150115233828
+125.99.111.224 7 44 183228 20150114125427
+49.213.48.201 9 22 61101 20150117125045
+117.214.102.219 5 42 175894 20150107204213
+202.125.129.178 6 43 178898 20150107162400
+14.139.85.133 16 16 54788 20150108155719
+202.46.61.125 1 1 10927 20150116041424
+62.210.96.36 18 18 165035 20150114182658
+62.210.83.26 6 6 54389 20150114150142
+188.165.213.170 6 6 54292 20150121095653
+14.139.249.206 5 18 50060 20150116215913
+49.15.16.135 3 16 41415 20150104224415
+117.55.242.118 4 4 12897 20150112155555
+182.65.101.63 5 38 168351 20150110122944
+59.93.5.213 1 25 131294 20150105235356
+104.131.21.54 9 46 189303 20150104081134
+37.59.28.42 4 4 35814 20150121130144
+64.233.173.135 1 3 7624 20150102131951
+66.41.255.80 6 17 43752 20150110210132
+183.83.26.227 4 15 37401 20150116141616
+62.210.180.16 2 2 17995 20150114165443
+120.61.122.210 1 1 3926 20150112190707
+119.226.42.186 3 5 16986 20150109102939
+101.0.35.171 2 13 30821 20150115222600
+182.69.182.63 10 34 155500 20150112201210
+62.210.91.168 6 6 54110 20150114010621
+122.168.159.71 1 4 8532 20150110194623
+112.79.39.55 3 16 41415 20150110225955
+49.204.115.118 8 45 182685 20150111211950
+117.211.4.2 3 27 131609 20150105142349
+103.246.106.9 6 43 178963 20150118195650
+115.111.228.54 6 17 43940 20150102170720
+60.194.14.252 2 2 17749 20150113054118
+66.249.93.153 2 5 13601 20150117025520
+117.212.211.22 2 13 30932 20150105183928
+103.27.8.42 3 16 41656 20150105173830
+14.139.85.82 7 44 179266 20150101114058
+122.178.127.66 1 9 22289 20150108221109
+182.58.63.192 3 14 34173 20150114232750
+77.66.121.242 2 2 6536 20150118193720
+61.3.205.236 5 42 176070 20150104181235
+14.139.110.178 2 13 30932 20150113144107
+14.141.215.134 14 51 206609 20150107185048
+14.139.110.83 6 19 52314 20150108111837
+189.208.244.245 3 16 41415 20150116083745
+62.210.152.50 9 9 82900 20150114191559
+64.233.173.139 0 1 2009 
+115.111.87.165 5 18 92690 20150108112239
+120.59.182.113 7 44 182135 20150117190658
+123.136.161.77 3 16 41415 20150109180834
+111.235.65.2 1 12 27593 20150109151346
+14.140.174.50 15 68 248690 20150117123719
+41.105.239.27 1 14 35550 20150111032128
+14.139.238.50 1 1 3228 20150112155228
+192.99.14.166 8 8 73000 20150121141559 20150121141559 /labs/cse04/exp1/lab.html
+117.228.87.188 2 13 30932 20150112161526
+115.111.207.163 4 15 37428 20150119122314
+188.55.172.178 2 13 30821 20150105221758
+186.47.170.15 5 42 175894 20150112075146
+94.187.82.227 5 16 40518 20150121015326
+14.139.38.11 3 16 41656 20150116224039
+59.94.34.145 1 12 27593 20150120193732
+112.79.39.84 5 18 47884 20150116180525
+66.249.93.159 1 5 9926 20150117025538
+124.123.20.171 1 12 27593 20150103093457
+223.176.168.193 5 42 175942 20150117155426
+210.212.171.169 8 21 58553 20150106172539
+66.249.93.156 0 3 8512 
+117.226.184.134 2 13 30932 20150102200456
+117.240.188.130 10 47 192850 20150109095904
+118.102.227.130 1 7 12742 20150109152957
+202.46.48.45 1 1 2670 20150119034634
+117.253.242.33 1 12 27593 20150107220646
+49.207.70.151 2 13 30932 20150117133842
+117.239.79.242 2 13 30861 20150113131734
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20150101 18 105 406587 3
+20150102 33 160 639705 10
+20150103 124 226 1542714 7
+20150104 31 144 517267 5
+20150105 26 189 742315 8
+20150106 21 105 335042 5
+20150107 38 184 684861 6
+20150108 69 287 826158 12
+20150109 50 318 1078906 15
+20150110 47 207 678149 12
+20150111 30 178 659252 6
+20150112 101 308 1105332 12
+20150113 149 212 1661336 44
+20150114 187 298 1878810 43
+20150115 106 228 1074729 26
+20150116 84 267 1070277 24
+20150117 106 313 1437692 28
+20150118 97 151 988846 30
+20150119 97 130 904279 38
+20150120 116 166 1055945 36
+20150121 93 202 912807 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 26
+5mn-15mn 16
+15mn-30mn 12
+30s-2mn 33
+2mn-5mn 10
+0s-30s 279
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 435
+/labs/cse04/ 429 1597673 125 69
+/labs/cse04/exp1/lab.html 420 3636556 255 63
+/labs/cse04/exp1/ 145 590852 4 20
+/labs/cse04/exp8/ 44 217944 2 2
+/labs/cse04/exp2/ 39 320783 0 4
+/labs/cse04/exp5/ 34 286579 2 5
+/labs/cse04/exp4/ 30 109768 0 7
+/labs/cse04/exp6/ 17 118404 4 5
+/labs/cse04/exp7/ 14 115745 0 2
+/labs/cse04/exp8/lab.html 7 22463 0 3
+/labs/cse04/exp1/submission305521176.html 1 8693 0 0
+/labs/cse04/exp1/submission520025524.html 1 9057 0 1
+/labs/cse04/exp1/submission619768448.html 1 8807 0 1
+/labs/cse04/exp1/submission098115184.html 1 8888 0 0
+/labs/cse04/exp1/submission923487935.html 1 9552 0 1
+/labs/cse04/exp1/submission498684936.html 1 9219 0 1
+/labs/cse04/exp1/submission091052113.html 1 8781 0 1
+/labs/cse04/exp1/submission507058190.html 1 10469 0 1
+/labs/cse04/exp1/submission705119622.html 1 2998 0 1
+/labs/cse04/exp1/submission743403115.html 1 8999 0 1
+/labs/cse04/exp1/submission404407994.html 1 8798 0 0
+/labs/cse04/exp1/submission439492141.html 1 9918 0 1
+/labs/cse04/exp1/submission463716370.html 1 8854 0 0
+/labs/cse04/exp1/submission422075077.html 1 8842 0 1
+/labs/cse04/exp1/submission865480021.html 1 8721 0 0
+/labs/cse04/exp1/submission571106849.html 1 9835 0 1
+/labs/cse04/exp1/submission644715399.html 1 11664 0 0
+/labs/cse04/exp1/submission032447808.html 1 9067 0 0
+/labs/cse04/exp1/submission172173681.html 1 8810 0 1
+/labs/cse04/exp1/submission368692691.html 1 8582 0 1
+/labs/cse04/exp1/submission079409367.html 1 8587 0 0
+/labs/cse04/exp1/submission061665302.html 1 8821 0 1
+/labs/cse04/exp1/submission188253154.html 1 8731 0 1
+/labs/cse04/exp1/submission564252872.html 1 8758 0 1
+/labs/cse04/exp1/submission951708416.html 1 9035 0 1
+/labs/cse04/exp1/submission385916756.html 1 8911 0 1
+/labs/cse04/exp1/submission043988692.html 1 8745 0 1
+/labs/cse04/exp1/submission349646252.html 1 9119 0 0
+/labs/cse04/exp1/submission867368839.html 1 8945 0 1
+/labs/cse04/exp1/submission683025408.html 1 8760 0 0
+/labs/cse04/exp1/submission478353352.html 1 8945 0 1
+/labs/cse04/exp1/submission747767675.html 1 9691 0 1
+/labs/cse04/exp1/submission034480292.html 1 8718 0 1
+/labs/cse04/exp1/submission806249703.html 1 9678 0 1
+/labs/cse04/exp1/submission119766851.html 1 9400 0 1
+/labs/cse04/exp1/submission955900856.html 1 8968 0 1
+/labs/cse04/exp1/submission995738782.html 1 8858 0 1
+/labs/cse04/exp6/lab.html 4 9600 0 2
+/labs/cse04/exp1/submission748662422.html 1 8378 0 1
+/labs/cse04/exp1/submission663484382.html 1 9495 0 0
+/labs/cse04/exp1/submission889062869.html 1 9049 0 0
+/labs/cse04/exp1/submission198515908.html 1 8841 0 0
+/labs/cse04/exp1/submission811866223.html 1 8750 0 1
+/labs/cse04/exp1/submission524931448.html 1 9273 0 0
+/labs/cse04/exp1/submission946170524.html 1 8933 0 0
+/labs/cse04/exp1/submission730972534.html 1 8579 0 0
+/labs/cse04/exp1/submission904547511.html 1 8666 0 1
+/labs/cse04/exp1/submission799538455.html 1 8895 0 1
+/labs/cse04/exp1/submission966519464.html 1 8578 0 1
+/labs/cse04/exp1/submission588237477.html 1 3004 0 1
+/labs/cse04/exp1/submission588777547.html 1 8895 0 1
+/labs/cse04/exp1/submission489622636.html 1 8959 0 1
+/labs/cse04/exp1/submission510417744.html 1 8609 0 1
+/labs/cse04/exp1/submission467290143.html 1 8586 0 0
+/labs/cse04/exp1/submission215177067.html 1 8793 0 1
+/labs/cse04/exp1/submission774523295.html 1 8663 0 0
+/labs/cse04/exp1/submission417155385.html 1 9282 0 1
+/labs/cse04/exp1/submission486866061.html 1 8899 0 0
+/labs/cse04/exp1/submission508902764.html 1 8716 0 0
+/labs/cse04/exp1/submission562346222.html 1 8610 0 1
+/labs/cse04/exp1/submission414853014.html 1 9011 0 0
+/labs/cse04/exp1/submission476338919.html 1 8584 0 0
+/labs/cse04/exp1/submission599619262.html 1 9185 0 0
+/labs/cse04/exp1/submission899555768.html 1 8868 0 0
+/labs/cse04/exp1/submission382034067.html 1 8721 0 0
+/labs/cse04/exp1/submission893917805.html 1 9026 0 0
+/labs/cse04/exp1/submission225469037.html 1 8863 0 0
+/labs/cse04/exp1/submission802949356.html 1 8757 0 0
+/labs/cse04/exp1/submission449831734.html 1 8756 0 0
+/labs/cse04/exp1/submission020057398.html 1 9519 0 1
+/labs/cse04/exp1/submission190463619.html 1 9753 0 0
+/labs/cse04/exp1/submission331496860.html 1 8650 0 0
+/labs/cse04/exp1/submission503235552.html 1 8953 0 1
+/labs/cse04/exp1/submission625971574.html 1 8874 0 1
+/labs/cse04/exp1/submission433752962.html 1 8742 0 0
+/labs/cse04/exp1/submission369172347.html 1 8996 0 0
+/labs/cse04/exp4/submission700241765.html 1 3082 0 1
+/labs/cse04/exp1/submission165830381.html 1 8891 0 0
+/labs/cse04/exp1/submission565500411.html 1 2994 0 1
+/labs/cse04/exp1/submission993287375.html 1 8704 0 0
+/labs/cse04/exp1/submission128425445.html 1 8702 0 0
+/labs/cse04/exp1/submission912139627.html 1 8871 0 1
+/labs/cse04/exp1/submission836697049.html 1 8726 0 1
+/labs/cse04/exp1/submission088981251.html 1 9208 0 0
+/labs/cse04/exp1/submission124749226.html 1 8851 0 0
+/labs/cse04/exp1/submission089206548.html 1 9090 0 0
+/labs/cse04/exp1/submission715773372.html 1 8697 0 0
+/labs/cse04/exp1/submission786192053.html 1 8846 0 0
+/labs/cse04/exp1/submission864076060.html 1 8970 0 1
+/labs/cse04/exp1/submission835435336.html 1 8900 0 0
+/labs/cse04/exp1/submission496970007.html 1 9705 0 1
+/labs/cse04/exp1/submission535832539.html 1 8644 0 1
+/labs/cse04/exp1/submission805685788.html 1 3004 0 1
+/labs/cse04/exp1/submission881346829.html 1 8902 0 1
+/labs/cse04/exp1/submission332379664.html 1 8758 0 1
+/labs/cse04/exp1/submission205106937.html 1 8755 0 0
+/labs/cse04/exp1/submission349539529.html 1 9828 0 0
+/labs/cse04/exp1/submission012075612.html 1 8937 0 0
+/labs/cse04/exp1/submission535218471.html 1 10170 0 1
+/labs/cse04/exp1/submission727080566.html 1 8901 0 0
+/labs/cse04/exp1/submission389891876.html 1 8806 0 0
+/labs/cse04/exp1/submission251896392.html 1 9024 0 0
+/labs/cse04/exp1/submission324933320.html 1 9054 0 0
+/labs/cse04/exp1/submission153986168.html 1 8733 0 1
+/labs/cse04/exp1/submission163028964.html 1 8758 0 1
+/labs/cse04/exp1/submission160264087.html 1 9062 0 0
+/labs/cse04/exp1/submission434555468.html 1 9171 0 0
+/labs/cse04/exp1/submission789329413.html 1 8699 0 0
+/labs/cse04/exp1/submission536786625.html 1 9203 0 1
+/labs/cse04/exp1/submission456587494.html 1 8999 0 1
+/labs/cse04/exp1/submission322529887.html 1 9190 0 0
+/labs/cse04/exp1/submission985939657.html 1 8704 0 1
+/labs/cse04/exp1/submission283528396.html 1 9166 0 0
+/labs/cse04/exp1/submission345638998.html 1 8972 0 0
+/labs/cse04/exp1/submission669395801.html 1 8755 0 0
+/labs/cse04/exp1/submission917887483.html 1 8726 0 0
+/labs/cse04/exp1/submission103941479.html 1 8744 0 0
+/labs/cse04/exp1/submission666075067.html 1 9621 0 1
+/labs/cse04/exp1/submission292741905.html 1 8880 0 1
+/labs/cse04/exp1/submission579192670.html 1 8803 0 1
+/labs/cse04/exp1/submission870947566.html 1 9890 0 0
+/labs/cse04/exp1/submission005079719.html 1 9048 0 0
+/labs/cse04/exp1/submission002140073.html 1 9340 0 0
+/labs/cse04/exp1/submission381585319.html 1 8766 0 1
+/labs/cse04/exp1/submission065090885.html 1 9344 0 1
+/labs/cse04/exp1/submission959435885.html 1 8882 0 1
+/labs/cse04/exp1/submission047815239.html 1 8790 0 1
+/labs/cse04/exp1/submission588545119.html 1 9006 0 0
+/labs/cse04/exp1/submission039789133.html 1 8921 0 1
+/labs/cse04/exp1/submission200709198.html 1 8838 0 1
+/labs/cse04/exp4/prob_desc.html 1 665 0 0
+/labs/cse04/exp1/submission056219655.html 1 8796 0 0
+/labs/cse04/exp1/submission177356281.html 1 8618 0 0
+/labs/cse04/exp1/submission578530726.html 1 8739 0 0
+/labs/cse04/exp1/submission215351750.html 1 8678 0 1
+/labs/cse04/exp1/submission557088565.html 1 9511 0 1
+/labs/cse04/exp1/submission348687698.html 1 9018 0 1
+/labs/cse04/exp1/submission498005505.html 1 9203 0 1
+/labs/cse04/exp1/submission299579369.html 1 8923 0 0
+/labs/cse04/exp1/submission740288372.html 1 8731 0 1
+/labs/cse04/exp1/submission326812964.html 1 8926 0 1
+/labs/cse04/exp1/submission765102804.html 1 8926 0 0
+/labs/cse04/exp1/submission831475566.html 1 9076 0 1
+/labs/cse04/exp9/prob_desc.html 1 1143 1 1
+/labs/cse04/exp1/submission665572915.html 1 8578 0 1
+/labs/cse04/exp1/submission248049247.html 1 8702 0 1
+/labs/cse04/exp1/submission538326533.html 1 8760 0 1
+/labs/cse04/exp1/submission865103025.html 1 9069 0 0
+/labs/cse04/exp9/ 4 15561 0 2
+/labs/cse04/exp1/submission985601261.html 1 9011 0 0
+/labs/cse04/exp1/submission766648240.html 1 8747 0 1
+/labs/cse04/exp1/submission323461003.html 1 8876 0 1
+/labs/cse04/exp1/submission425748639.html 1 8719 0 1
+/labs/cse04/exp1/submission875805986.html 1 9669 0 1
+/labs/cse04/exp1/submission677700334.html 1 8709 0 1
+/labs/cse04/exp1/submission910634038.html 1 8818 0 0
+/labs/cse04/exp1/submission683711594.html 1 9174 0 0
+/labs/cse04/exp1/submission656647385.html 1 8762 0 0
+/labs/cse04/exp1/submission767724899.html 1 8657 0 1
+/labs/cse04/exp1/submission674689047.html 1 8752 0 1
+/labs/cse04/exp1/submission878693158.html 1 8937 0 0
+/labs/cse04/exp1/submission664302070.html 1 8828 0 0
+/labs/cse04/exp1/submission168204812.html 1 8718 0 1
+/labs/cse04/exp1/submission506591749.html 1 9190 0 1
+/labs/cse04/exp1/submission238477999.html 1 8789 0 1
+/labs/cse04/exp1/submission729844915.html 1 9005 0 1
+/labs/cse04/exp1/submission417008952.html 1 9248 0 0
+/labs/cse04/exp1/submission276143700.html 1 8814 0 1
+/labs/cse04/exp1/submission396593456.html 1 9051 0 0
+/labs/cse04/exp1/submission598740786.html 1 8777 0 0
+/labs/cse04/exp8/submission115295455.html 1 3135 0 1
+/labs/cse04/exp1/submission659296108.html 1 9001 0 1
+/labs/cse04/exp1/submission486534465.html 1 8709 0 0
+/labs/cse04/exp1/submission198001405.html 1 8978 0 0
+/labs/cse04/exp1/submission012125028.html 1 9539 0 1
+/labs/cse04/exp1/submission690814197.html 1 9021 0 1
+/labs/cse04/exp1/submission311696814.html 1 9341 0 0
+/labs/cse04/exp1/submission761504942.html 1 8965 0 1
+/labs/cse04/exp1/submission335110402.html 1 9076 0 1
+/labs/cse04/exp1/submission378584812.html 1 8574 0 0
+/labs/cse04/exp1/submission487912138.html 1 8676 0 0
+/labs/cse04/exp1/submission628557625.html 1 9164 0 1
+/labs/cse04/exp1/submission605012465.html 1 9017 0 1
+/labs/cse04/exp1/submission545230737.html 1 9003 0 0
+/labs/cse04/exp1/submission519615885.html 1 9004 0 0
+/labs/cse04/exp1/submission972769569.html 1 8765 0 0
+/labs/cse04/exp1/submission005147926.html 1 8657 0 1
+/labs/cse04/exp1/submission879526971.html 1 9006 0 0
+/labs/cse04/exp1/submission280398240.html 1 9068 0 1
+/labs/cse04/exp1/submission020127706.html 1 8975 0 1
+/labs/cse04/exp1/submission818986766.html 1 9031 0 1
+/labs/cse04/exp1/submission744223244.html 1 8913 0 1
+/labs/cse04/exp1/submission742870911.html 1 8713 0 0
+/labs/cse04/exp1/submission139426468.html 1 8887 0 0
+/labs/cse04/exp1/submission234993846.html 1 8688 0 0
+/labs/cse04/exp1/submission442683008.html 1 9048 0 1
+/labs/cse04/exp1/submission964944032.html 1 9278 0 0
+/labs/cse04/exp1/submission918124012.html 1 3088 0 1
+/labs/cse04/exp1/submission965035179.html 1 9088 0 1
+/labs/cse04/exp1/submission762637621.html 1 8707 0 0
+/labs/cse04/exp1/submission740460534.html 1 9348 0 0
+/labs/cse04/exp1/submission993528158.html 1 8780 0 1
+/labs/cse04/exp1/submission736418688.html 1 8844 0 1
+/labs/cse04/exp1/submission014215491.html 1 8825 0 1
+/labs/cse04/exp1/submission608085501.html 1 8731 0 0
+/labs/cse04/exp1/submission512179938.html 1 8849 0 0
+/labs/cse04/exp1/submission526686571.html 1 8973 0 0
+/labs/cse04/exp1/submission040431300.html 1 8840 0 1
+/labs/cse04/exp1/submission788647309.html 1 9243 0 0
+/labs/cse04/exp1/submission737205709.html 1 8966 0 1
+/labs/cse04/exp1/submission822807030.html 1 9189 0 0
+/labs/cse04/exp1/submission825764804.html 1 8740 0 1
+/labs/cse04/exp8/getHint.py 1 189 0 0
+/labs/cse04/exp1/submission446953375.html 1 9597 0 0
+/labs/cse04/exp1/submission362590733.html 1 8785 0 1
+/labs/cse04/exp1/submission585110757.html 1 8974 0 1
+/labs/cse04/exp1/submission865240023.html 1 10131 0 0
+/labs/cse04/exp1/submission509328742.html 1 9115 0 1
+/labs/cse04/exp1/submission042480419.html 1 8899 0 0
+/labs/cse04/exp1/submission125865518.html 1 8755 0 0
+/labs/cse04/exp1/submission555606459.html 1 9027 0 0
+/labs/cse04/exp1/submission241940393.html 1 8589 0 1
+/labs/cse04/exp1/submission305329304.html 1 8701 0 0
+/labs/cse04/exp1/submission412615970.html 1 8835 0 1
+/labs/cse04/exp1/submission231355930.html 1 8935 0 1
+/labs/cse04/exp1/submission536863525.html 1 8950 0 0
+/labs/cse04/exp1/submission325683312.html 1 8965 0 1
+/labs/cse04/exp1/submission348335132.html 1 9417 0 1
+/labs/cse04/exp10/ 2 7810 0 1
+/labs/cse04/exp1/submission384020583.html 1 9169 0 0
+/labs/cse04/exp1/submission311192348.html 1 9171 0 0
+/labs/cse04/exp8/submission293522030.html 1 3021 0 1
+/labs/cse04/exp1/submission241895331.html 1 9315 0 1
+/labs/cse04/exp4/lab.html 4 12808 0 0
+/labs/cse04/exp5/lab.html 1 3203 0 0
+/labs/cse04/exp1/submission531098925.html 1 8698 0 0
+/labs/cse04/exp1/submission820351414.html 1 8812 0 0
+/labs/cse04/exp1/submission921044286.html 1 8581 0 0
+/labs/cse04/exp1/submission680196956.html 1 9089 0 1
+/labs/cse04/exp1/submission784097941.html 1 11183 0 1
+/labs/cse04/exp1/submission910315376.html 1 9265 0 0
+/labs/cse04/exp1/submission480648150.html 1 8667 0 0
+/labs/cse04/exp1/submission424341685.html 1 9086 0 1
+/labs/cse04/exp1/submission435595921.html 1 9030 0 1
+/labs/cse04/exp1/submission177434121.html 1 9395 0 0
+/labs/cse04/exp1/submission931403452.html 1 9024 0 0
+/labs/cse04/exp1/submission255145987.html 1 8768 0 0
+/labs/cse04/exp1/submission051821570.html 1 8839 0 0
+/labs/cse04/exp1/submission915078324.html 1 9021 0 0
+/labs/cse04/exp1/submission698834241.html 1 8761 0 0
+/labs/cse04/exp1/submission785215378.html 1 8710 0 1
+/labs/cse04/exp1/submission582230419.html 1 8800 0 0
+/labs/cse04/exp1/submission576582268.html 1 8574 0 0
+/labs/cse04/exp1/submission927198035.html 1 8641 0 0
+/labs/cse04/exp1/submission061561777.html 1 9073 0 0
+/labs/cse04/exp1/submission686349467.html 1 8996 0 1
+/labs/cse04/exp1/submission708050933.html 1 9076 0 0
+/labs/cse04/exp1/submission951420861.html 1 10487 0 1
+/labs/cse04/exp1/submission501862052.html 1 9205 0 0
+/labs/cse04/exp1/submission448519543.html 1 8695 0 0
+/labs/cse04/exp1/submission040960564.html 1 8704 0 0
+/labs/cse04/exp1/submission225254613.html 1 8719 0 0
+/labs/cse04/exp2/prob_desc.html 1 2670 1 1
+/labs/cse04/exp1/submission519684925.html 1 8728 0 0
+/labs/cse04/exp1/submission340516269.html 1 9110 0 0
+/labs/cse04/exp1/submission405035070.html 1 8722 0 0
+/labs/cse04/exp1/submission576885782.html 1 9031 0 0
+/labs/cse04/exp1/submission550602369.html 1 8828 0 0
+/labs/cse04/exp1/submission364044282.html 1 11279 0 1
+/labs/cse04/exp1/submission710760261.html 1 10113 0 0
+/labs/cse04/exp1/submission773854649.html 1 8802 0 0
+/labs/cse04/exp1/submission586117229.html 1 8747 0 1
+/labs/cse04/exp1/submission674847468.html 1 8822 0 0
+/labs/cse04/exp1/submission590928421.html 1 8787 0 0
+/labs/cse04/exp1/submission835048322.html 1 8620 0 0
+/labs/cse04/exp1/submission659614413.html 1 8767 0 1
+/labs/cse04/exp1/submission892753176.html 1 8678 0 0
+/labs/cse04/exp1/submission431698284.html 1 9067 0 0
+/labs/cse04/exp1/submission874575210.html 1 8953 0 0
+/labs/cse04/exp1/submission984157346.html 1 8717 0 0
+/labs/cse04/exp1/submission169876441.html 1 9351 0 1
+/labs/cse04/exp1/submission308228684.html 1 8597 0 0
+/labs/cse04/exp1/submission391960467.html 1 8714 0 1
+/labs/cse04/exp1/submission184987425.html 1 8714 0 0
+/labs/cse04/exp1/submission759274976.html 1 9803 0 1
+/labs/cse04/exp1/submission776238009.html 1 9820 0 1
+/labs/cse04/exp1/submission746058583.html 1 8758 0 0
+/labs/cse04/exp1/submission318000690.html 1 9154 0 1
+/labs/cse04/exp1/submission988553154.html 1 8831 0 1
+/labs/cse04/exp1/submission732101652.html 1 9003 0 0
+/labs/cse04/exp1/submission181738247.html 1 8699 0 0
+/labs/cse04/exp1/submission203038658.html 1 8799 0 1
+/labs/cse04/exp1/submission489632468.html 1 8706 0 1
+/labs/cse04/exp1/submission260522210.html 1 9112 0 0
+/labs/cse04/exp1/submission506854104.html 1 9514 0 1
+/labs/cse04/exp1/submission684191567.html 1 8996 0 1
+/labs/cse04/exp1/submission547861839.html 1 9046 0 1
+/labs/cse04/exp1/submission478341408.html 1 8765 0 0
+/labs/cse04/exp1/submission186769073.html 1 8855 0 0
+/labs/cse04/exp1/submission494621388.html 1 8724 0 1
+/labs/cse04/exp1/submission641832157.html 1 9111 0 1
+/labs/cse04/exp1/submission800059967.html 2 17230 0 1
+/labs/cse04/exp1/submission604977336.html 1 8975 0 1
+/labs/cse04/exp1/submission577569995.html 1 8660 0 0
+/labs/cse04/exp1/submission879486544.html 1 8706 0 0
+/labs/cse04/exp1/submission145177491.html 1 8842 0 1
+/labs/cse04/exp1/submission932641873.html 1 8739 0 1
+/labs/cse04/exp1/submission211859092.html 1 8746 0 1
+/labs/cse04/exp1/submission894325044.html 1 8828 0 0
+/labs/cse04/exp1/submission166494621.html 1 8901 0 1
+/labs/cse04/exp8/submission227352299.html 1 3001 0 1
+/labs/cse04/exp1/submission024570548.html 1 8866 0 1
+/labs/cse04/exp1/submission409126834.html 1 8807 0 0
+/labs/cse04/exp1/submission209650410.html 1 8860 0 1
+/labs/cse04/exp1/submission679068446.html 1 8910 0 1
+/labs/cse04/exp1/submission601317659.html 1 9630 0 1
+/labs/cse04/exp1/submission714068059.html 1 8744 0 0
+/labs/cse04/exp1/submission025270896.html 1 8862 0 0
+/labs/cse04/exp1/submission451146532.html 1 9298 0 1
+/labs/cse04/exp1/submission097356764.html 1 3009 0 1
+/labs/cse04/exp1/submission022853619.html 1 9127 0 0
+/labs/cse04/exp1/submission286243439.html 1 8981 0 1
+/labs/cse04/exp1/submission921119126.html 1 8609 0 0
+/labs/cse04/exp1/submission027440815.html 1 8715 0 0
+/labs/cse04/exp1/submission941993629.html 1 8736 0 0
+/labs/cse04/exp1/submission212224592.html 1 8781 0 0
+/labs/cse04/exp1/submission260830806.html 1 3001 0 1
+/labs/cse04/exp1/submission396274583.html 1 8920 0 1
+/labs/cse04/exp1/submission005051954.html 1 8816 0 1
+/labs/cse04/exp1/submission619577780.html 1 9087 0 0
+/labs/cse04/exp1/submission741573195.html 1 9281 0 1
+/labs/cse04/exp1/submission920070472.html 1 8663 0 0
+/labs/cse04/exp1/submission173911181.html 1 8691 0 0
+/labs/cse04/exp1/submission345730225.html 1 8687 0 1
+/labs/cse04/exp1/submission629633617.html 1 8854 0 1
+/labs/cse04/exp1/submission011072041.html 1 8879 0 1
+/labs/cse04/exp1/submission084422245.html 1 9248 0 0
+/labs/cse04/exp1/submission227889089.html 1 9130 0 0
+/labs/cse04/exp1/submission466685550.html 1 8654 0 0
+/labs/cse04/exp1/submission338785873.html 1 8699 0 0
+/labs/cse04/exp1/submission171801674.html 1 9073 0 1
+/labs/cse04/exp1/submission221939776.html 1 8911 0 1
+/labs/cse04/exp1/submission608766133.html 1 9979 0 0
+/labs/cse04/exp1/submission408465944.html 1 8855 0 0
+/labs/cse04/exp1/submission161776466.html 1 8688 0 0
+/labs/cse04/exp1/submission717729627.html 1 8963 0 0
+/labs/cse04/exp1/submission631497288.html 1 8612 0 0
+/labs/cse04/exp1/submission692885734.html 1 8996 0 1
+/labs/cse04/exp1/submission904667327.html 1 8943 0 0
+/labs/cse04/exp1/submission953918381.html 1 9004 0 1
+/labs/cse04/exp1/submission233729287.html 1 8815 0 1
+/labs/cse04/exp1/submission101444267.html 1 8699 0 1
+/labs/cse04/exp1/submission096962871.html 1 8609 0 0
+/labs/cse04/exp1/submission568109280.html 1 8720 0 1
+/labs/cse04/exp1/submission650783380.html 1 8673 0 0
+/labs/cse04/exp1/submission536299109.html 1 8917 0 1
+/labs/cse04/exp1/submission797445191.html 1 8712 0 1
+/labs/cse04/exp1/submission253006724.html 1 8601 0 1
+/labs/cse04/exp1/submission706766375.html 1 8754 0 1
+/labs/cse04/exp1/submission157425182.html 1 8653 0 0
+/labs/cse04/exp1/submission700394701.html 1 9079 0 1
+/labs/cse04/exp3/ 4 14365 0 1
+/labs/cse04/exp1/submission056342133.html 1 8965 0 1
+/labs/cse04/exp1/submission927891362.html 1 8984 0 0
+/labs/cse04/exp1/submission114741305.html 1 9021 0 1
+/labs/cse04/exp1/submission660384380.html 1 8856 0 0
+/labs/cse04/exp1/submission479395093.html 1 9036 0 0
+/labs/cse04/exp1/submission012293270.html 1 9073 0 0
+/labs/cse04/exp4/submission366095265.html 1 2979 0 0
+/labs/cse04/exp1/submission888373320.html 1 8849 0 0
+/labs/cse04/exp1/submission843525564.html 1 8826 0 0
+/labs/cse04/exp1/submission139133829.html 1 9068 0 0
+/labs/cse04/exp1/submission349670998.html 1 9487 0 0
+/labs/cse04/exp1/submission751068858.html 1 9522 0 1
+/labs/cse04/exp1/submission189522151.html 1 9154 0 1
+/labs/cse04/exp1/submission020358735.html 1 8867 0 0
+/labs/cse04/exp1/submission350846485.html 1 8606 0 0
+/labs/cse04/exp1/submission826373896.html 1 9014 0 0
+/labs/cse04/exp1/submission816977222.html 1 8696 0 1
+/labs/cse04/exp1/submission769145562.html 1 9398 0 1
+/labs/cse04/exp1/submission639578839.html 1 8942 0 1
+/labs/cse04/exp1/submission498168547.html 1 9330 0 1
+/labs/cse04/exp1/submission629771895.html 1 8571 0 0
+/labs/cse04/exp1/submission978123624.html 1 8992 0 0
+/labs/cse04/exp1/submission658294957.html 1 8990 0 1
+/labs/cse04/exp1/submission168228236.html 1 8712 0 0
+/labs/cse04/exp1/submission799583750.html 1 9060 0 0
+/labs/cse04/exp1/submission916358380.html 1 8584 0 0
+/labs/cse04/exp1/submission026061856.html 1 8707 0 0
+/labs/cse04/exp1/submission074751192.html 1 8973 0 1
+/labs/cse04/exp1/submission854743161.html 1 9350 0 0
+/labs/cse04/exp1/submission531120016.html 1 8972 0 0
+/labs/cse04/exp1/submission845885737.html 1 9221 0 1
+/labs/cse04/exp1/submission194123937.html 1 9672 0 0
+/labs/cse04/exp1/submission619153744.html 1 8918 0 0
+/labs/cse04/exp1/submission379899146.html 1 8925 0 1
+/labs/cse04/exp1/submission209827701.html 1 8735 0 0
+/labs/cse04/exp1/submission156283820.html 1 9126 0 0
+/labs/cse04/exp1/submission217121288.html 1 8702 0 1
+/labs/cse04/exp1/submission726826107.html 1 8731 0 1
+/labs/cse04/exp1/submission267812730.html 1 8814 0 1
+/labs/cse04/exp1/submission533885285.html 1 9451 0 1
+/labs/cse04/exp1/submission847566464.html 1 8867 0 1
+/labs/cse04/exp1/submission696357125.html 1 9066 0 0
+/labs/cse04/exp1/submission279115483.html 1 9092 0 0
+/labs/cse04/exp1/submission063685704.html 1 8571 0 0
+/labs/cse04/exp1/submission464800353.html 1 9172 0 0
+/labs/cse04/exp1/submission550486631.html 1 10252 0 1
+/labs/cse04/exp1/submission581846841.html 1 8778 0 0
+/labs/cse04/exp1/submission279552232.html 1 9607 0 0
+/labs/cse04/exp1/getHint.py 6 920 0 2
+/labs/cse04/exp1/submission964708926.html 1 8594 0 0
+/labs/cse04/exp1/submission416931308.html 1 10435 0 1
+/labs/cse04/exp1/submission852817119.html 1 8621 0 1
+/labs/cse04/exp1/submission606300804.html 1 9130 0 1
+/labs/cse04/exp1/submission728733984.html 1 8990 0 0
+/labs/cse04/exp1/submission596358515.html 1 8718 0 0
+/labs/cse04/exp1/submission597252724.html 1 10162 0 1
+/labs/cse04/exp1/submission304290764.html 1 10791 0 0
+/labs/cse04/exp1/submission834253908.html 1 3004 0 0
+/labs/cse04/exp1/submission526237418.html 1 9151 0 1
+/labs/cse04/exp1/submission828267477.html 1 8804 0 0
+/labs/cse04/exp1/submission618226955.html 1 8915 0 0
+/labs/cse04/exp1/submission283120798.html 1 9014 0 1
+/labs/cse04/exp1/submission466709562.html 1 8713 0 0
+END_SIDER

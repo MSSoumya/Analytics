@@ -1,0 +1,294 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.hss03.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2666                
+POS_VISITOR 3353                
+POS_DAY 3508                
+POS_DOMAIN 3708                
+POS_LOGIN 3939                
+POS_ROBOT 4094                
+POS_WORMS 4226                
+POS_EMAILSENDER 4357                
+POS_EMAILRECEIVER 4500                
+POS_SESSION 4576                
+POS_SIDER 4755                
+POS_FILETYPES 8254                
+POS_DOWNLOADS 8453                
+POS_OS 8501                
+POS_BROWSER 8579                
+POS_SCREENSIZE 8679                
+POS_UNKNOWNREFERER 8753                
+POS_UNKNOWNREFERERBROWSER 8840                
+POS_ORIGIN 8922                
+POS_SEREFERRALS 9058                
+POS_PAGEREFS 9202                
+POS_SEARCHWORDS 9350                
+POS_KEYWORDS 9502                
+POS_MISC 2330                
+POS_ERRORS 9561                
+POS_CLUSTER 3795                
+POS_SIDER_404 9648                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140302201709 228 66374 9139051634087
+FirstTime 20140210131613
+LastTime 20140226130025
+LastUpdate 20141015121705 228 0 227 0 0
+TotalVisits 5                   
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 33 58 1483813 0 9 2598
+12 28 48 4598799 0 5 1455
+13 51 88 22126619 2 17 4829
+14 0 0 0 0 0 0
+15 0 0 0 2 2 506
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.8.52 72 129 16455658 20140211111635
+10.4.12.236 40 65 11753573 20140226130025
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140210 48 83 22126619 2
+20140211 33 58 1483813 2
+20140226 31 53 4598799 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 112 194 28209231
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+0s-30s 1
+15mn-30mn 1
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/labs/hss03/ 6 8284 3 0
+/labs/hss03/Identification%20of%20finger%20print%20patterns/Simulation/fingerprint.html 5 1388 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/ 4 4186 0 0
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/ 4 8372 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/Simulation/finalstone2.html 4 1392 0 0
+/labs/hss03/Identification%20of%20finger%20print%20patterns/ 4 4186 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/Simulation/finalstone1.html 4 1044 0 0
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/Simulation/pottery2.html 4 1050 1 1
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/ 3 4186 0 0
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/default.html 3 7464 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/Simulation/finalstone4.html 2 696 0 0
+/labs/hss03/Calculation%20of%20Indices/default.html 2 7464 0 0
+/labs/hss03/Blood%20Group%20Techniques/Simulation/bld.html 1 342 0 0
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/Simulation/pottery4.html 1 349 0 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/default.html 1 3732 0 0
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/content.html 3 10858 0 0
+/labs/hss03/Calculation%20of%20Indices/ 3 6279 0 0
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/Simulation/skel2.html 3 1059 0 0
+/labs/hss03/Blood%20Group%20Techniques/default.html 1 3732 0 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/content.html 1 3951 0 0
+/labs/hss03/default.html 3 3022 0 0
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/Simulation/skel1.html 2 704 0 0
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/Simulation/pottery1.html 3 1047 0 0
+/labs/hss03/Calculation%20of%20Indices/Simulation/finalf.html 3 1032 0 1
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/default.html 3 7464 0 0
+/labs/hss03/content.html 3 3360 0 0
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/default.html 3 7464 0 0
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/content.html 2 20226 0 0
+/labs/hss03/Blood%20Group%20Techniques/ 1 2093 0 0
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/default.html 2 7464 0 0
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/Simulation/pottery3.html 1 350 0 0
+/labs/hss03/Calculation%20of%20Indices/content.html 2 12508 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/content.html 3 13104 0 0
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/Simulation/new1.html 3 684 0 1
+/labs/hss03/Identification%20of%20finger%20print%20patterns/content.html 3 9068 0 0
+/labs/hss03/Blood%20Group%20Techniques/content.html 1 4896 0 0
+/labs/hss03/Identification%20of%20finger%20print%20patterns/default.html 3 7464 0 0
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/Simulation/untitled1.html 2 698 1 1
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/content.html 3 15164 0 1
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/ 3 4186 0 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/ 1 2093 0 0
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/Simulation/finalstone3.html 2 696 0 0
+/labs/hss03/Obtain%20the%20main%20line%20formula/Simulation/mainlineformula.html 1 353 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 9 10894 0 0
+php 3 4142 0 0
+png 3 5020 0 0
+html 109 201012 0 0
+jpg 39 1153238 0 0
+js 6 76974 0 0
+gif 3 9492 0 0
+swf 22 26748459 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+win7 194 112
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+msie8.0 15 8
+firefox26.0 83 48
+firefox5.0.1 96 56
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 11 14
+From1 0 0
+From2 0 0
+From3 0 0
+From4 101 180
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 33 9388
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/labs/hss03/Obtain%20the%20main%20line%20formula/Simulation/mainlineformulafinal.swf 2 http://deploy.virtual-labs.ac.in/labs/hss03/Obtain%20the%20main%20line%20formula/Simulation/mainlineformula.html
+/labs/hss03/Obtain%20the%20main%20line%20formula/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss03/Obtain%20the%20main%20line%20formula/index.html
+/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/js/modernizr-1.5.min.js 2 http://deploy.virtual-labs.ac.in/labs/hss03/Skeleton%20-%20Assembling,%20Identification%20and%20Labelling/index.html
+/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/js/modernizr-1.5.min.js 8 http://deploy.virtual-labs.ac.in/labs/hss03/Identification%20of%20Prehistoric%20Handaxe/index.html
+/labs/hss03/Identification%20of%20finger%20print%20patterns/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/hss03/Identification%20of%20finger%20print%20patterns/index.html
+/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/hss03/Pottery%20-%20Virtual%20Reconstruction%20of%20Shapes/index.html
+/labs/hss03/Calculation%20of%20Indices/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/hss03/Calculation%20of%20Indices/index.html
+/labs/hss03/Mendel%27s%20Law/index.html 2 http://deploy.virtual-labs.ac.in/labs/hss03/index.html
+/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/js/modernizr-1.5.min.js 3 http://deploy.virtual-labs.ac.in/labs/hss03/Hunting,%20Fishing,%20Gathering%20Tools/index.html
+/labs/hss03/Blood%20Group%20Techniques/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/hss03/Blood%20Group%20Techniques/index.html
+/labs/hss03//info/refs 2 -
+END_SIDER_404

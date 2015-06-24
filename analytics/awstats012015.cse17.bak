@@ -1,0 +1,513 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cse17.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2668                
+POS_VISITOR 10708               
+POS_DAY 14227               
+POS_DOMAIN 3489                
+POS_LOGIN 3721                
+POS_ROBOT 3876                
+POS_WORMS 4371                
+POS_EMAILSENDER 4502                
+POS_EMAILRECEIVER 4645                
+POS_SESSION 14804               
+POS_SIDER 15005               
+POS_FILETYPES 4780                
+POS_DOWNLOADS 5033                
+POS_OS 5372                
+POS_BROWSER 5626                
+POS_SCREENSIZE 6727                
+POS_UNKNOWNREFERER 6801                
+POS_UNKNOWNREFERERBROWSER 7497                
+POS_ORIGIN 7705                
+POS_SEREFERRALS 7848                
+POS_PAGEREFS 8014                
+POS_SEARCHWORDS 8392                
+POS_KEYWORDS 8603                
+POS_MISC 2332                
+POS_ERRORS 8706                
+POS_CLUSTER 3577                
+POS_SIDER_404 8843                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150121124327 45068 11556909 19285705693028
+FirstTime 20150101023921
+LastTime 20150121124327
+LastUpdate 20150610230222 0 0 0 0 0
+TotalVisits 90                  
+TotalUnique 46                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 106 2473479 11 23 40767
+1 8 90 1143826 18 22 1554664
+2 1 5 26648 16 25 1618982
+3 14 77 883495 18 37 3122666
+4 8 93 1880005 15 35 113835
+5 1 27 384968 10 24 117245
+6 11 14 129474 15 32 170355
+7 1 5 1381422 16 29 74546
+8 7 75 4056500 9 15 39545
+9 22 98 1612472 10 21 43245
+10 5 48 306212 16 44 164651
+11 110 170 1474827 18 36 1557083
+12 26 168 1341461 14 30 56320
+13 7 105 1477880 15 34 71349
+14 24 136 1408974 15 26 49648
+15 26 152 1373384 10 23 122693
+16 20 147 1896888 16 24 1528338
+17 31 106 704523 14 65 309782
+18 29 171 1927067 11 18 44821
+19 24 106 1154023 9 21 123729
+20 20 183 6055147 14 47 605304
+21 5 40 262131 13 21 60316
+22 10 63 395819 14 21 38111
+23 19 137 1015722 9 11 33530
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 443 2322 34766347
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 246 2148280 20150121003846 0
+bingbot 104 2401104 20150121111526 0
+robot 56 190835 20150120035912 0
+baiduspider 19 6010806 20150120144201 0
+yandex 6 98738 20150116031502 0
+facebook 5 118761 20150109175130 0
+bingpreview 4 10486 20150112145451 0
+slurp 4 8278 20150110145330 0
+commons\-httpclient 2 5112 20150115133341 0
+no_user_agent 1 0 20150106191554 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 266 451646 0 0
+png 116 4404029 0 0
+ppt 2 3118841 0 0
+php 410 2351472 0 0
+html 33 114277 0 0
+js 9 202195 0 0
+jpg 1367 23339523 0 0
+jar 3 298470 0 0
+class 34 96722 0 0
+gif 82 389172 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/labs/cse17/sensormodelling/sensor-models.ppt 6 0 8927232
+/labs/cse17/velocitymodelling/VelocityModels.jar 2 0 27532
+/labs/cse17/localization/TheoryToLab.ppt 2 0 3118841
+/labs/cse17/forwardkinematics/VL_ForwardKinematics.jar 1 0 98290
+/labs/cse17/gridbasednavigation/Grid_web.jar 1 0 172648
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+linuxandroid 93 10
+winxp 304 153
+winlong 36 6
+java 5 0
+linuxubuntu 37 6
+winvista 403 72
+linux 281 39
+win7 850 124
+macosx 68 2
+j2me 14 3
+macosx9 171 21
+Unknown 56 7
+macosx8 1 0
+macosx7 3 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 54
+safari7.0 29 1
+firefox28.0 1 0
+chrome37.0.2062.124 6 0
+msie6.0 118 117
+chrome38.0.2125.19 1 0
+firefox3.0.7 1 0
+android 4 0
+chrome28.0.1500.94 27 1
+chrome41.0.2251.0 113 16
+chrome38.0.2125.101 1 0
+chrome39.0.2171.95 588 89
+chrome38.0.2125.111 1 0
+chrome31.0.1650.57 13 2
+firefox34.0 318 53
+chrome36.0.1985.125 14 2
+firefox24.0 5 2
+opera9.80 46 5
+chrome24.0.1312.71 13 2
+firefox31.0 16 2
+msie8.0 53 11
+chrome34.0.1847.132 1 0
+chrome39.0.2171.65 27 1
+chrome38.0.2125.122 71 9
+msie7.0 2 0
+chrome34.0.1847.116 37 6
+chrome40.0.2214.38 50 11
+safari8.0 30 1
+msie9.0 61 18
+Unknown 25 7
+chrome30.0.0.0 3 0
+chrome39.0.2171.71 16 3
+chrome39.0.2171.93 45 7
+chrome34.0.1847.131 1 0
+firefox29.0 13 1
+chrome27.0.1453.110 2 0
+chrome35.0.1916.141 1 0
+chrome9.0.597 21 3
+firefox3.5.2 1 0
+firefox30.0 62 6
+firefox12.0 1 0
+safari5.1.7 5 0
+nokia 12 1
+firefox33.0 98 20
+chrome18.0.1025.133 45 5
+mozilla 25 5
+chrome33.0.1750.117 11 1
+firefox22.0 2 1
+msie10.0 50 2
+netscape4.0 49 0
+chrome30.0.1599.0 18 4
+chrome39.0.2171.99 140 24
+safari8.0.2 3 0
+safari 2 0
+firefox35.0 24 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Opera/9.80_(Android;_Opera_Mini/7.6.40125/35.6368;_U;_en)_Presto/2.8.119_Version/11.10 20150107115109
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20150112221858
+visionutils/0.2 20150109175134
+Opera/9.80_(Android;_Opera_Mini/7.6.40125/35.6497;_U;_en)_Presto/2.8.119_Version/11.10 20150109215549
+Opera/9.80_(Android;_Opera_Mini/7.5.33725/35.6680;_U;_en)_Presto/2.8.119_Version/11.10 20150119012954
+Opera/9.80_(Android;_Opera_Mini/7.6.40099/35.6680;_U;_en)_Presto/2.8.119_Version/11.10 20150117220641
+GigablastOpenSource/1.0 20150119064616
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+TazWeb_(X11;_SliTaz_GNU/Linux;_U;_en_US) 20150117122040
+visionutils/0.2 20150109175134
+GigablastOpenSource/1.0 20150119064616
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 165 262
+From1 0 0
+From2 24 98
+From3 32 59
+From4 222 1903
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 23 93
+bing 1 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://virtual-labs.ac.in/labs/cse17/ 24 30
+http://cs.brown.edu/people/karthikd/projects.html 3 3
+http://virtual-labs.ac.in 3 3
+http://www.virtual-labs.ac.in/labs/cse17/ 2 2
+http://pixshark.com/ackerman-steering-equation.htm 0 21
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+differential+robot+kinematics 1
+differential+drive+robot 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+differential 2
+robot 2
+kinematics 1
+drive 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+503 160 66240
+206 18 586140
+502 3 1639
+301 1 257
+404 51 13607
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 18
+/images/theory.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/labs/cse17/sensormodelling/js/modernizr-1.5.min.js 5 http://deploy.virtual-labs.ac.in/labs/cse17/sensormodelling/index.html
+/labs/cse17/mapping/PendulumForces.swf 2 -
+/labs/cse17/exploration/cITe/Documents/eerc/%20%20%20%20%20%20%20%20%20%20%20%20%20%20pdf/1.manual.pdf 2 -
+/labs/cse17/index.phpAnd 3 -
+/images/introduction.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/labs/cse17/mapping/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse17/mapping/index.html
+/labs/cse17/forwardkinematics/js/modernizr-1.5.min.js 6 http://deploy.virtual-labs.ac.in/labs/cse17/forwardkinematics/index.html
+/labs/cse17/exploration/js/modernizr-1.5.min.js 1 http://deploy.virtual-labs.ac.in/labs/cse17/exploration/index.html
+/images/quizzes.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/images/simulation.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/labs/cse17/exploration/PendulumForces.swf 2 -
+/labs/cse17/exp1/PendulumForces.swf 2 -
+/images/objective.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/labs/cse17/forwardkinematics/PendulumForces.swf 5 -
+/images/procedure.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/images/readings.jpg 3 http://deploy.virtual-labs.ac.in/labs/cse17/montecarlolocalization/index.php
+/labs/cse17/sensormodelling/PendulumForces.swf 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+10.4.8.52 198 1245 21424270 20150121005042
+62.210.88.195 100 100 1088403 20150103114012
+144.36.216.78 16 50 527433 20150107174735
+202.63.100.193 15 48 285332 20150117071757
+62.210.142.7 8 8 86918 20150102095455
+14.140.174.50 8 49 187685 20150117115721
+203.98.100.23 6 17 42898 20150115171615
+201.50.56.37 6 37 922717 20150110142844
+188.137.80.27 6 23 425645 20150102163514
+59.88.52.222 6 36 248241 20150106205520
+122.129.242.106 0 1 33996 
+182.71.124.38 0 1 19995 
+198.208.251.23 0 1 6346 
+182.74.22.86 4 19 283149 20150109152318
+203.115.123.20 2 14 33027 20150120140543
+88.103.228.3 0 2 37896 
+137.207.15.33 0 1 17901 
+98.194.15.18 1 27 338779 20150104083226
+134.83.1.243 0 1 49574 
+107.178.200.213 0 1 2009 
+194.187.114.1 2 13 30730 20150120180443
+179.203.119.32 4 21 321903 20150101035447
+189.166.235.200 4 39 1384954 20150115045424
+179.7.108.252 0 1 17901 
+14.139.125.214 2 14 33027 20150114091608
+87.207.75.111 3 36 419968 20150107041332
+128.153.180.217 0 1 16703 
+89.152.185.5 0 1 16703 
+148.150.0.1 0 1 16703 
+107.178.200.202 0 1 2009 
+14.96.186.99 0 2 37896 
+107.178.200.210 0 1 3339 
+111.91.34.57 0 1 109767 
+182.64.7.215 0 1 17901 
+192.43.65.245 0 1 17901 
+65.51.23.34 0 1 19995 
+77.66.121.235 1 1 2856 20150119064616
+189.153.203.132 0 1 19995 
+66.249.82.170 0 5 13043 
+101.222.168.67 0 1 33996 
+12.208.57.82 0 2 37896 
+175.140.91.235 0 1 49574 
+145.109.189.125 2 20 114087 20150109202604
+66.220.159.116 0 1 19012 
+36.244.250.90 0 1 92944 
+164.11.203.59 0 1 19995 
+98.201.43.245 0 1 6346 
+103.21.125.78 3 36 803353 20150103010510
+188.129.53.127 0 2 33103 
+41.66.238.197 0 2 205477 
+107.178.200.199 0 1 4746 
+117.223.82.17 1 11 27145 20150107151858
+202.46.62.53 0 1 105 
+103.31.34.2 0 1 33996 
+210.212.183.60 0 2 37896 
+122.168.159.71 0 2 1504 
+202.131.115.66 0 1 19995 
+122.129.127.94 0 1 19995 
+49.202.88.177 5 22 231497 20150119001034
+206.190.135.217 1 27 338779 20150104153023
+5.151.2.73 0 1 17901 
+131.253.24.134 0 1 3339 
+117.213.147.194 0 1 16703 
+107.178.200.215 0 1 2297 
+37.239.190.51 3 15 36297 20150101143638
+77.66.121.242 1 1 3270 20150118193540
+14.139.187.62 3 14 34000 20150105180517
+61.132.138.212 3 36 803353 20150108094029
+78.187.9.30 1 13 29939 20150103204637
+66.249.82.179 0 3 7416 
+107.178.200.222 0 1 497 
+121.218.118.185 0 1 17901 
+131.253.24.159 1 1 4634 20150101023921
+124.30.128.132 2 13 30730 20150121124327 20150121124325 /labs/cse17/
+65.55.212.94 0 1 1866 
+64.233.173.139 1 1 3270 20150108145745
+194.247.246.18 0 2 37896 
+27.34.251.163 1 13 29939 20150107134939
+220.68.74.81 0 1 17199 
+172.56.33.143 0 1 17901 
+204.10.219.191 0 1 6346 
+107.178.200.200 1 1 3088 20150111144527
+37.228.107.57 1 14 32449 20150117220638
+75.185.182.61 1 29 389478 20150104200121
+37.44.89.37 0 1 98290 
+175.100.174.43 0 6 170712 
+202.141.176.10 3 33 911293 20150104201115
+119.42.159.94 2 13 30730 20150118183117
+203.106.157.0 0 1 58961 
+103.12.132.149 0 1 19995 
+202.46.55.210 0 1 106 
+5.28.74.204 1 20 168150 20150110014142
+5.66.248.195 0 1 17901 
+101.3.57.27 1 27 338779 20150112164029
+66.249.82.161 0 1 1866 
+122.171.72.180 0 2 37896 
+189.103.86.218 2 4 53831 20150113033343
+176.41.103.163 0 1 33996 
+24.229.107.173 0 1 17901 
+115.248.253.33 4 33 239575 20150108100137
+107.167.107.99 3 14 33223 20150110013525
+147.8.89.123 0 1 19995 
+122.36.171.131 0 1 10519 
+117.226.184.134 2 13 30912 20150102201054
+65.55.212.91 0 1 106 
+92.61.6.37 1 12 72204 20150110205630
+80.231.29.107 0 1 17901 
+27.107.214.201 1 7 136847 20150120001131
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20150101 11 105 770250 5
+20150102 32 175 6872470 5
+20150103 124 202 2357402 5
+20150104 7 125 2287316 5
+20150105 8 88 1141183 3
+20150106 26 214 2820725 6
+20150107 31 153 1272865 6
+20150108 24 178 1875780 7
+20150109 34 188 2031786 8
+20150110 35 161 1729726 6
+20150111 3 27 62966 3
+20150112 13 138 1412070 5
+20150113 3 30 405355 2
+20150114 9 38 187806 2
+20150115 10 61 1567758 2
+20150116 13 82 842531 3
+20150117 32 168 4704697 5
+20150118 9 70 1557304 3
+20150119 11 61 430632 4
+20150120 5 38 269812 3
+20150121 3 20 165913 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+15mn-30mn 2
+30s-2mn 17
+0s-30s 54
+2mn-5mn 9
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/labs/cse17/ 173 743091 52 29
+/labs/cse17/sensormodelling/ 67 281209 6 13
+/labs/cse17/forwardkinematics/ 43 290364 20 18
+/labs/cse17/mapping/ 30 276430 2 2
+/labs/cse17/velocitymodelling/ 26 162289 1 3
+/labs/cse17/rrtbasedpathplanning/ 22 159942 5 7
+/labs/cse17/montecarlolocalization/ 20 152685 1 2
+/labs/cse17/exploration/ 17 137642 3 3
+/labs/cse17/localization/ 12 111024 0 2
+/labs/cse17/gridbasednavigation/ 9 37524 0 3
+/labs/cse17/exploration/content.html 1 6052 0 0
+/labs/cse17/content.html 1 2611 0 0
+/labs/cse17/forwardkinematics/content.html 5 20680 0 3
+/labs/cse17/scanmatching/ 2 18786 0 0
+/labs/cse17/default.html 1 1511 0 0
+/labs/cse17/forwardkinematics/default.html 5 14920 0 0
+/labs/cse17/sensormodelling/content.html 3 24222 0 2
+/labs/cse17/mapping/default.html 1 3730 0 0
+/labs/cse17/exploration/default.html 1 3730 0 0
+/labs/cse17/mapping/content.html 1 6117 0 1
+/labs/cse17/sensormodelling/default.html 3 11190 0 1
+END_SIDER

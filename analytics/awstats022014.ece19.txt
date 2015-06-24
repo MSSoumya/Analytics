@@ -1,0 +1,426 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ece19.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1985                
+POS_TIME 2675                
+POS_VISITOR 3705                
+POS_DAY 3866                
+POS_DOMAIN 4559                
+POS_LOGIN 4793                
+POS_ROBOT 4948                
+POS_WORMS 5653                
+POS_EMAILSENDER 5784                
+POS_EMAILRECEIVER 5927                
+POS_SESSION 6003                
+POS_SIDER 6215                
+POS_FILETYPES 7170                
+POS_DOWNLOADS 7393                
+POS_OS 7441                
+POS_BROWSER 7785                
+POS_SCREENSIZE 8908                
+POS_UNKNOWNREFERER 8982                
+POS_UNKNOWNREFERERBROWSER 9546                
+POS_ORIGIN 9884                
+POS_SEREFERRALS 10029               
+POS_PAGEREFS 10207               
+POS_SEARCHWORDS 10475               
+POS_KEYWORDS 10769               
+POS_MISC 2339                
+POS_ERRORS 10972               
+POS_CLUSTER 4649                
+POS_SIDER_404 11086               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301000908 10447 2769818 17317774840146
+FirstTime 20140208185300
+LastTime 20140228234830
+LastUpdate 20141015124819 10447 0 10446 0 0
+TotalVisits 176                 
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 43 181 1918770 14 32 67236
+1 28 81 1295225 19 35 154049
+2 27 79 845876 16 49 107922
+3 18 109 2882826 10 28 264680
+4 22 96 1557022 14 30 205576
+5 3 9 670383 23 30 87476
+6 5 77 2418537 10 21 31405
+7 3 62 2048068 11 13 35283
+8 21 155 3095073 15 44 101764
+9 210 640 8907732 7 54 135966
+10 161 703 10831762 13 69 93269
+11 107 551 6612899 12 56 310215
+12 149 690 10928046 14 78 196607
+13 134 329 4297693 19 59 205536
+14 167 490 5727754 16 76 65194
+15 148 835 11375093 22 113 233049
+16 220 750 10650225 18 103 76907
+17 73 352 5269372 13 46 32732
+18 275 880 18731378 10 80 47247
+19 73 423 6874111 15 50 101720
+20 31 200 2946734 14 55 433356
+21 164 608 8535047 17 71 103527
+22 54 259 4125116 22 60 121094
+23 152 563 8533186 11 63 346888
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+10.4.12.236 1462 5196 77174343 20140228234830
+10.4.8.52 826 3926 63903585 20140228212301
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20140208 28 143 2358057 4
+20140209 43 170 2026994 8
+20140210 167 584 5913943 11
+20140211 244 851 16625828 10
+20140212 322 1031 14493234 13
+20140213 143 572 7220176 7
+20140214 103 391 4696375 10
+20140215 120 400 6592279 8
+20140216 68 291 4272236 5
+20140217 206 697 9438467 11
+20140218 122 527 8413602 7
+20140219 126 594 10677283 10
+20140220 153 631 9074539 11
+20140221 16 146 2787202 6
+20140222 58 341 4653377 9
+20140223 13 87 2040236 3
+20140224 92 444 6165572 7
+20140225 55 328 6518300 7
+20140226 102 318 6134042 8
+20140227 56 320 6407044 9
+20140228 51 256 4569142 12
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2288 9122 141077928
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+googlebot 242 792567 20140228165153 0
+robot 147 328682 20140228231330 0
+^mozilla\/4\.0 \(compatible;\)$ 74 0 20140228200602 0
+baiduspider 35 115088 20140226153010 0
+msnbot\-media 24 1081428 20140228085412 0
+yandex 21 40802 20140227230547 0
+bingbot 20 76789 20140226054414 0
+mj12bot 7 18659 20140219132201 0
+[\s_+:,\.\;\/\\-]bot 6 38061 20140227224710 0
+bot[\s_+:,\.\;\/\\-] 5 40667 20140228053746 0
+rpt\-httpclient 3 5472 20140220145706 0
+ia_archiver 4 35808 20140216124636 0
+wordpress 3 93 20140218102819 0
+slurp 1 3746 20140228145728 0
+proximic 1 10600 20140218102457 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 22
+30s-2mn 26
+2mn-5mn 22
+15mn-30mn 18
+0s-30s 58
+30mn-1h 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/labs/cse19/ 510 1863976 97 43
+/labs/cse19/trns.php 432 91516 3 15
+/labs/cse19/theory.php 253 922225 57 62
+/labs/cse19/objective.php 229 304680 2 11
+/labs/cse19/quiz.php 181 260697 9 8
+/labs/cse19/procedure.php 155 308923 3 3
+/labs/cse19/crop.php 124 14723 4 4
+/labs/cse19/intro.php 122 224409 0 3
+/labs/cse19/diff.php 58 335980 0 5
+/labs/cse19/segment.php 39 218309 0 0
+/labs/cse19/write.php 4 80 0 0
+/labs/cse19/neigh.php 21 258159 0 2
+/labs/cse19/piping.php 19 64946 0 1
+/labs/cse19/fourier.php 7 38052 0 1
+/labs/cse19/summary.php 11 11388 0 6
+/labs/cse19/arith.php 12 50094 0 1
+/labs/cse19/references.php 31 55224 1 4
+/labs/cse19/histo.php 20 109975 0 1
+/labs/cse19/point.php 3 17177 0 0
+/labs/cse19/affine.php 11 70734 0 0
+/labs/cse19/assign.php 18 30655 0 1
+/labs/cse19/morph.php 6 26337 0 1
+/labs/cse19/colour.php 22 150736 0 4
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 974 1664055 0 0
+php 2267 5427098 0 0
+bmp 26 41550 0 0
+png 1913 78326270 0 0
+html 21 1897 0 0
+js 682 7199550 0 0
+jpg 2101 40660264 0 0
+gif 1138 7757244 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+linuxandroid 120 18
+macosx6 119 39
+winlong 163 33
+winxp 1436 370
+win2000 2 2
+linuxfedora 98 33
+winvista 936 242
+win95 1 1
+j2me 9 1
+win2003 15 3
+macosx9 165 17
+macosx7 17 3
+java 4 4
+win98 15 7
+linuxubuntu 153 30
+linux 303 44
+win7 5367 1419
+macosx 6 0
+Unknown 172 21
+macosx8 21 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 56
+firefox28.0 48 5
+safari7.0 4 0
+msie6.0 115 87
+firefox20.0 73 13
+firefox4.0.1 11 1
+chrome29.0.1547.76 59 7
+firefox26.0 506 115
+android 103 15
+chrome29.0.1547.67 11 1
+sonyericsson 1 0
+chrome31.0.1650.57 19 4
+chrome31.0.1650.63 422 163
+chrome17.0.963.79 11 1
+safari7.0.1 106 13
+firefox24.0 62 7
+opera9.80 114 15
+chrome23.0.1271.95 1 0
+chrome32.0.1700.99 15 3
+msie8.0 332 51
+chrome32.0.1700.102 43 3
+msie7.0 241 27
+firefox16.0 22 1
+firefox23.0 116 28
+firefox9.0.1 23 3
+chrome34.0.1809.0 35 3
+firefox3.6.10 98 33
+msie9.0 96 10
+Unknown 72 11
+firefox27.0 980 283
+firefox11.0 1 0
+chrome30.0.0.0 1 0
+chrome16.0.891.0 46 6
+firefox17.0 34 2
+firefox21.0 60 13
+safari6.0 1 0
+firefox12.0 1 0
+chrome34.0.1788.0 19 1
+chrome32.0.1700.107 3723 1048
+chrome30.0.1551.0 57 25
+chrome6.0.447.0 15 7
+safari5.1.7 63 15
+chrome34.0.1838.2 1 0
+chrome16.0.912.75 4 0
+mozilla 45 5
+safari6.0.4 11 1
+firefox25.0 232 54
+chrome33.0.1750.117 848 166
+chrome31.0.0.0 53 9
+chrome32.0.1700.76 79 19
+firefox14.0.1 3 2
+firefox22.0 43 7
+msie10.0 26 3
+firefox3.6.3 12 2
+firefox19.0 2 0
+safari 2 0
+firefox15.0.1 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Opera/9.80_(Android;_Opera_Mini/7.5.32195/34.1244;_U;_en)_Presto/2.8.119_Version/11.10 20140214184304
+Mozilla/5.0_(compatible;_Image2play/0.1;__http://image2play.com/) 20140217184731
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1309;_U;_en)_Presto/2.8.119_Version/11.10 20140221232603
+KcB_@_2013 20140228053642
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S6102)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140219205852
+Mozilla/3.0_(compatible;_Indy_Library) 20140211082837
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20140219020833
+Microsoft_Internet_Explorer/4.0b1_(Windows_95) 20140220140423
+KcB_@_2013 20140228053642
+UCWEB/2.0_(MIDP-2.0;_U;_Adr_2.3.6;_en-US;_GT-S6102)_U2/1.0.0_UCBrowser/8.9.2.373_U2/1.0.0_Mobile 20140219205852
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 199 482
+From1 0 0
+From2 81 110
+From3 92 92
+From4 1916 8438
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 80 108
+search 1 1
+bing 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://virtual-labs.ac.in/labs/cse19/ 90 90
+http://diwakar-marur.blogspot.in/2012/02/online-learning-resources.html 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+visual+lab+for+reliability+theory 1
+image+processing+quiz 1
+virtual+features+definition+in+image+processing 1
+spatial+low+pass+filter+image 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+image 3
+processing 2
+visual 1
+reliability 1
+pass 1
+quiz 1
+definition 1
+spatial 1
+in 1
+low 1
+features 1
+for 1
+filter 1
+virtual 1
+theory 1
+lab 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 29 789863
+502 1 512
+404 685 179861
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 18
+/labs/cse19/css/override.css 442 http://deploy.virtual-labs.ac.in/labs/cse19/index.php
+/labs/cse19/fourier/choice3.png 8 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/1392446353_4.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/fourier/choice5.png 8 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/arith1_1322557287.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/cse19/fourier/choice4.png 8 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/1392122103_2.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/1392202897_1.png 2 http://deploy.virtual-labs.ac.in/labs/cse19/histo.php
+/labs/cse19//components/com_facileforms/libraries/jquery/uploadify.php 1 -
+/labs/cse19//images/stories/sono.gif 1 -
+/labs/cse19/images/temp/arith1_1322068541.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/summary.php
+/labs/cse19/fourier/choice6.png 8 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/images/temp/1392122103_3.png 1 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19/menu/images/sub_sep.gif 189 http://deploy.virtual-labs.ac.in/labs/cse19/theory.php
+/labs/cse19//config.old.php 1 -
+/labs/cse19/images/temp/_.png 3 http://deploy.virtual-labs.ac.in/labs/cse19/histo.php
+/labs/cse19/fourier/choice2.png 8 http://deploy.virtual-labs.ac.in/labs/cse19/fourier.php
+/labs/cse19//images/stories/explore.gif 1 -
+END_SIDER_404

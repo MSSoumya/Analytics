@@ -1,0 +1,1684 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.community.virtual-labs.ac.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2689                
+POS_VISITOR 30432               
+POS_DAY 59205               
+POS_DOMAIN 3656                
+POS_LOGIN 3889                
+POS_ROBOT 4044                
+POS_WORMS 4906                
+POS_EMAILSENDER 5037                
+POS_EMAILRECEIVER 5180                
+POS_SESSION 60110               
+POS_SIDER 60325               
+POS_FILETYPES 5315                
+POS_DOWNLOADS 5567                
+POS_OS 6603                
+POS_BROWSER 6920                
+POS_SCREENSIZE 8403                
+POS_UNKNOWNREFERER 8477                
+POS_UNKNOWNREFERERBROWSER 8796                
+POS_ORIGIN 9114                
+POS_SEREFERRALS 9260                
+POS_PAGEREFS 9428                
+POS_SEARCHWORDS 10188               
+POS_KEYWORDS 10613               
+POS_MISC 2353                
+POS_ERRORS 10967               
+POS_CLUSTER 3745                
+POS_SIDER_404 11155               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140831230043 528 142884 11939634888658
+FirstTime 20140801000235
+LastTime 20140831225813
+LastUpdate 20140831230102 14 0 14 0 0
+TotalVisits 1289                
+TotalUnique 731                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 733                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 172 177 1380460 286 325 4329304
+1 116 118 1129563 93 107 11586542
+2 299 299 2274836 253 290 19623162
+3 207 207 1547127 250 278 4239256
+4 249 249 1845583 319 349 3915464
+5 249 249 2067240 320 356 4191130
+6 267 273 2657161 455 488 12689049
+7 178 184 1471759 263 297 3686170
+8 258 267 3136731 297 338 4042031
+9 250 270 2778770 265 296 14146874
+10 277 299 3650628 285 318 13291058
+11 248 281 3075017 254 285 3332931
+12 272 280 3268868 365 403 3898368
+13 189 196 2635451 398 446 7437350
+14 245 263 2928082 304 373 4275515
+15 271 281 4038958 284 331 4481955
+16 196 196 1489396 296 331 3095926
+17 175 216 1838829 539 585 5387382
+18 238 251 3117292 428 473 18819590
+19 216 217 2197299 451 491 6169762
+20 296 309 2098441 302 351 34037857
+21 224 227 1490306 212 242 2641694
+22 201 246 14802498 302 350 102009975
+23 194 200 1749012 290 329 21227865
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5487 5755 66248849
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+googlebot 1467 238139129 20140831213939 0
+robot 1243 20865253 20140831230043 0
+baiduspider 957 10073483 20140831220002 0
+yandex 465 23084412 20140831222121 0
+bot[\s_+:,\.\;\/\\-] 379 7791630 20140828230804 0
+bingbot 104 748892 20140831150858 0
+slurp 36 287564 20140831162430 0
+no_user_agent 30 238008 20140829135502 0
+^mozilla\/4\.0$ 16 321287 20140824214356 0
+mj12bot 16 136547 20140829182713 0
+exabot 6 0 20140831085454 0
+spider 4 10156 20140822155335 0
+ia_archiver 2 31614 20140819120235 0
+bingpreview 4 207992 20140830200236 0
+mail\.ru 2 0 20140808131231 0
+curl 1 32768 20140827190949 0
+sogou 2 22064 20140808004658 0
+netcraft 13 90666 20140814164948 0
+msnbot\-media 2 52946 20140809140456 0
+crawl 10 236181 20140828200827 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 62 67228 0 0
+png 162 8665213 0 0
+pdf 2 2893220 0 0
+pl 1 3674 0 0
+php 3839 37693294 0 0
+html 38 203869 0 0
+jpg 1 58329 0 0
+js 31 239821 0 0
+Unknown 1609 16308036 0 0
+gif 10 116165 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 18
+/w/images/4/49/Delhi-3rd-review-template.pdf 8 0 451992
+/w/images/8/88/Transportdetails.pdf 6 0 1761330
+/w/images/6/6f/Reaching_to_IIITH.pdf 4 0 1174220
+/uploads/Slides.pdf 3 42 22120075
+/screencasts/cast_map_new.ogv 2 0 32417601
+/w/index.php/File:Transportdetails.pdf 2 0 10286
+/screencasts/ui-build-in-windows-version1.ogv 2 0 32152770
+/uploads/2010-07-07-vlabs-exec-summaries.pdf 2 0 1515217
+/w/index.php/Special:WhatLinksHere/File:Transportdetails.pdf 2 0 8916
+/w/index.php/File:Delhi-3rd-review-template.pdf 2 0 10151
+/w/index.php/File:V_Labs_meeting.xls 1 0 4974
+/w/index.php/Special:FileDuplicateSearch/Reaching_to_IIITH.pdf 1 0 4007
+/w/images/e/e8/Release_form.pdf 1 0 81669
+/w/index.php/File:Release_form.pdf 1 0 4923
+/w/index.php/Special:FileDuplicateSearch/Transportdetails.pdf 1 0 3998
+/w/index.php/Special:RecentChangesLinked/File:V_Labs_meeting.xls 1 0 4599
+/w/index.php/Special:WhatLinksHere/File:Reaching_to_IIITH.pdf 1 0 4076
+/w/images/a/a7/V_Labs_meeting.xls 1 0 32768
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 182 170
+macosx6 766 765
+winxp 1194 1177
+winlong 190 190
+winnt 1 1
+linuxubuntu 31 21
+linuxfedora 42 40
+winvista 135 119
+linux 291 163
+win7 665 569
+macosx 382 369
+winunknown 4 1
+macosx9 41 33
+Unknown 353 352
+macosx8 669 669
+macosx7 851 848
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 74
+firefox28.0 19 15
+msie6.0 903 902
+firefox3.8 1 1
+firefox3.6 31 31
+firefox26.0 41 39
+chrome4.0.221.7 2 2
+chrome28.0.1500.94 2 2
+firefox3.0.14 5 5
+firefox4.0 4 4
+chrome31.0.1650.63 3 3
+firefox34.0 4 1
+chrome29.0.1547.65 35 15
+safari5.0.2 8 2
+msie8.0 89 89
+chrome34.0.1847.132 105 90
+msie7.0 201 201
+opera9.64 5 5
+safari7.0.5 9 7
+chrome32.0.1667.0 1 1
+chrome34.0.1847.131 2 1
+chrome37.0.2062.102 9 7
+firefox21.0 533 533
+firefox29.0 32 26
+safari6.0 299 299
+firefox3.5.2 9 9
+chrome32.0.1700.107 10 10
+safari7.0.6 9 7
+safari6.0.5 162 162
+chrome36.0.1985.143 105 82
+safari6.0.4 6 6
+mozilla 4 1
+chrome30.0.1599.12785 3 3
+chrome26.0.1410.64 9 7
+chrome33.0.1750.117 5 5
+firefox14.0.1 2 2
+chrome32.0.1700.76 17 17
+safari5.1.9 165 165
+chrome25.0.1364.169 1 1
+safari 8 2
+firefox16.0.1 3 3
+safari7.0 10 9
+firefox5.0 1 1
+firefox4.0.1 1 1
+android 158 155
+chrome36.0.1985.131 18 12
+chrome36.0.1985.125 102 63
+firefox3.5.3 9 9
+firefox24.0 5 1
+opera9.80 3 3
+firefox31.0 75 23
+chrome32.0.1700.102 11 9
+chrome30.0.1599.13014 4 4
+chrome34.0.1847.116 21 13
+chrome33.0.1750.146 3 3
+msie9.0 313 270
+firefox3.6.10 42 40
+Unknown 381 347
+firefox27.0 6 6
+firefox11.0 9 7
+firefox32.0 9 7
+samsung 1 0
+chrome35.0.1916.141 4 1
+opera9.27 10 10
+firefox3.6.16 1 1
+chrome28.0.1500.71 296 296
+nokia 4 1
+chrome35.0.1916.153 11 9
+firefox22.0 559 557
+chrome25.0.1364.172 1 1
+msie10.0 219 216
+safari5.1 57 57
+safari6.0.3 166 166
+chrome27.0.1453.116 411 411
+firefox3.5 15 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+SAMSUNG-GT-C3312/1.0_NetFront/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20140831182122
+${user_agent} 20140831040708
+Bumble_Bee/1.0_(WikiApiary;__http://wikiapiary.com/wiki/User:Bumble_Bee) 20140831220035
+Opera/9.27 20140813161251
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+UCWEB/2.0_(Linux;_U;_Opera_Mini/7.1.32052/30.3697;_en-US;_GT-S7392)_U2/1.0.0_UCBrowser/9.0.2.389_Mobile 20140823173317
+${user_agent} 20140831040708
+Bumble_Bee/1.0_(WikiApiary;__http://wikiapiary.com/wiki/User:Bumble_Bee) 20140831220035
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1355 1356
+From1 4 4
+From2 50 95
+From3 11 15
+From4 4067 4327
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 50 94
+yandex 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://pascal.iiit.ac.in/~choppell/research/index.html 4 4
+http://community.vlabs.ac.in 3 3
+http://10.3.100.244/zimbra/ 1 1
+http://10.3.100.244/zimbra/h/search 1 1
+http://porn-for-free-xxx.com 1 1
+http://vlead.virtual-labs.ac.in/2013/08/14/rollout-of-the-new-website-design/ 1 1
+http://clanunion.do.am/blog/ustanovka_programmy_ne_vyzovet_zatrudnenij_t_k_ona_vpolne_standartna/2014-01-20-41 0 1
+http://safetygate.clan.su/blog/etraffic_programma_dlja_maksimalnogo_szhatija_internet_trafika/2013-11-24-5 0 2
+http://hlama-net.clan.su/blog/skachat_programmu_puppyrus_linux_1_12_samyj_malenkij_linux/2013-12-16-18 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+http+%2f%2fcommunity.virtual-labs.ac.in%2fw%2findex.php%3ftitle%3dphysical_sciences%26action%3dedit%26oldid%3d834 2
+cse+iitd+moodle 1
+iiit+hyderabad+internet+settings 1
+rf+and+microwave+laboratory+labs+by+iit+kharagpur 1
+http+%2f%2fcommunity.virtual-labs.ac.in%2fjobs%2f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 18
+http 3
+%2f%2fcommunity.virtual-labs.ac.in%2fw%2findex.php%3ftitle%3dphysical_sciences%26action%3dedit%26oldid%3d834 2
+cse 1
+laboratory 1
+internet 1
+iitd 1
+moodle 1
+microwave 1
+%2f%2fcommunity.virtual-labs.ac.in%2fjobs%2f 1
+rf 1
+iiit 1
+iit 1
+settings 1
+by 1
+hyderabad 1
+kharagpur 1
+and 1
+labs 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 449 2495573
+503 813 339021
+206 29 134645
+502 6 3212
+400 36 11520
+302 505 6740
+404 1423 7180811
+301 316 14096
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 316
+/admin.php 1 -
+/wiki/Special:FileDuplicateSearch/Transportdetails.pdf 1 -
+/w/index.php/User_talk:Vishal 1 -
+/w/index.php/Talk:Main_Page 5 -
+/w/index.php%3Ftitle%3DScience_and_Engineering/ 2 http://community.virtual-labs.ac.in/w/index.php%3Ftitle%3DScience_and_Engineering/
+/w/index.php/Talk:2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 1 -
+/images/stories/food.php 10 -
+/w/index.php/Talk:BAZAAR 1 -
+/w/submit.php 1 -
+/w/index.php/User_talk:Swaroop 1 -
+/wiki/Tn-09_:_Seville_Contract 1 -
+/w/tiki-register.php 1 http://community.virtual-labs.ac.in/w/
+/wiki/Computer_Science_and_Engineering/2011-08-27_meeting:_2-2_Meeting_with_Lab_Developers 1 -
+/w/index.php/File_talk:Blog.png 1 -
+/w/index.php/Talk:Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 1 -
+/w/signup.php 1 http://community.virtual-labs.ac.in/w/
+/w/index.php/User_talk:Pranitha.jasp 1 -
+/wiki/File:Reaching_to_IIITH.pdf 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 1 -
+/w/index.php/Talk:November_12,_2010_Meeting 1 -
+/w/index.php/Components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/wiki/Index.php/Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 1 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki 1 -
+/wiki/Virtual_Labs_Community:Community_portal 1 -
+/w/index.php/Talk:Subversion_or_SVN 4 -
+/w/index.php/User:10.4.12.159 23 -
+/w//images/stories/explore.gif 1 -
+/administrator/ 1 -
+/w/index.php/Talk:2013-07-25:_VLEAD_Expert_Review_Meeting 3 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 1 -
+/2014-8-8-IIC-Meeting/presentation/index.html 1 http://community.virtual-labs.ac.in/2014-8-8-IIC-Meeting/presentation/talk.html
+/w/index.php/Talk:Drupal_upload_plugin 1 -
+/w/admin/sqlpatch.php/password_forgotten.php 2 -
+/w/index.php/Main_Page&type=signup 1 http://community.virtual-labs.ac.in/w/index.php/Main_Page
+/w/index.php/Talk:TN-05_:_Current_IIIT-H_support_for_Virtual_Labs 3 -
+/w/index.php/Talk:TN-07_:_Service_architecture_for_Virtual_Labs:_A_roadmap 1 -
+/wp-login.php 8 http://www.google.com/
+/w/index.php/Talk:Electronices_and_Communication_Engineering 3 -
+/w/index.php/User:Pranitha.jasp 1 -
+/extras/curltest.php 2 -
+/w/index.php/File_talk:Xampp9.jpg 1 -
+/w/index.php/Talk:Drupal_:_Review 3 -
+/w/index.php 2 -
+/public/js/FCKeditor/editor/filemanager/upload/test.html 1 -
+/w/index.php/File_talk:Make-a-release.png 1 -
+/2012-10-08-integration-sprint/worg-style.css 17 http://community.virtual-labs.ac.in/2012-10-08-integration-sprint/network-proxy.html
+/w/index.php/Talk:Tn-11_:_Virtual_Labs_Servers_Backup_Process 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-08-20_field_trials:_Andhra_Pradesh_Engineering_Colleges 2 -
+/w/index.php/Talk:Phase_1-_Sprint_on_Virtual_Labs_Integration(Nov_1st-8th_2012) 1 -
+/public/FCKeditor/editor/filemanager/browser/default/browser.html 1 -
+/w/index.php/Talk:IIIT_-_Hyderabad 3 -
+/forms 1 -
+/w/index.php/Talk:Summary_on_Android 4 -
+/w/index.php/Talk:TN-08_:_Devops 1 -
+/w/index.php/Talk:IIT_-_Bombay 2 -
+/w/index.php/Talk:Current_IIIT-H_support_for_Virtual_Labs 3 -
+/w/index.php/Talk:Dec-2012_Sprint_and_Developer_meeting_-_IIT_Guwahati 1 -
+/w/index.php/Talk:2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi 3 -
+/w/index.php/Talk:Electronices_and_Communication_Engineering/2012-01-13:_Sprint_on_Project_Management_Portal_in_IITD 1 -
+http://community.virtual-labs.ac.in/register.php 1 http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur
+/w/index.php/Talk:Computer_Science 3 -
+/w/index.php/Talk:2012_Republic_Day_Launch_of_some_virtual_labs 3 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-03-05_meeting:_3rd_expert_review_of_CSE_Virtual_Labs 4 -
+/robots.txt 258 -
+/w/index.php/Talk:COEP_-_Pune 1 -
+/admin/sqlpatch.php/password_forgotten.php 2 -
+/wiki/Special:RecentChanges 1 -
+//images/stories/explore.gif 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/July_7,_2010_Meeting 1 -
+/w/index.php/Talk:Version_Control_Systems 2 -
+/wiki/index.php 9 -
+/wp-admin/ 1 -
+/w/index.php/File_talk:Example.jpg 1 -
+/wiki/2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 4 -
+/w/index.php/Talk:Org_mode_for_virtual_labs_developers_(Advanced) 3 -
+/index.php/Talk:Overview_of_Physics_engines 1 http://community.virtual-labs.ac.in/index.php/Talk:Overview_of_Physics_engines
+/w/index.php/Talk:Release_Form 1 -
+/index.php/User_talk:10.4.12.159 29 http://community.virtual-labs.ac.in/index.php/User_talk:10.4.12.159
+/w/index.php/Talk:IIT_-_Kanpur 6 -
+/w/index.php/Virtual_Labs_Community:About 56 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/Talk:TN-2.5_:_User_Manual_For_Lab-Deliverable_Tool_Kit 1 -
+/w/index.php/Virtual_Labs_Community:Privacy_policy 56 -
+/wiki/Computer_Science_and_Engineering/ 3 http://community.virtual-labs.ac.in/
+/w/category.php 1 -
+/public/js/fckeditor/editor/filemanager/connectors/test.html 1 -
+/w/index.php/Talk:Report_on_Meetings_with_the_Lab_Developers 4 -
+/w/index.php/Talk:2012-01-13_Sprint_on_Project_Management_Portal_-_IITD 1 -
+/w/index.php/File_talk:Repositories.png 1 -
+/w/index.php/Talk:Migrate_working_copy_of_SVN/GIT/Bazaar_from_SSH_to_HTTP_protocol 4 -
+/wiki/ 29 http://community.virtual-labs.ac.in/
+/w/dodaj 1 -
+/w/index.php/Talk:2012-03-30_Sprint_on_Project_Management_Portal_-_IITB 1 -
+/wiki/Tools_for_Virtual_Lab_simulations 2 -
+/wiki/index.php/Overview_of_Physics_engines 1 -
+/w/index.php/Talk:Electronics_and_Communications 7 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/File_talk:Screenshot_EvalPortal_3.png 1 -
+/w/index.php/Talk:2010-09-01_Workshop_on_SVN 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ForumPrivatemsg.png 1 -
+/w/index.php/Talk:Overview_of_open_source_Content_Management_Systems_(CMS) 2 -
+/w/index.php/Talk:Physical_Sciences 3 -
+/w/index.php/User_talk:Mahesh 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 2 -
+/w/CreateUser.asp 1 http://community.virtual-labs.ac.in/w/
+/w/index.php/user/register 1 http://community.virtual-labs.ac.in/w/index.php/user/register
+/w/index.php/File_talk:Transportdetails.pdf 1 -
+/webmanage/fckeditor/editor/filemanager/connectors//test.html 2 -
+/w/index.php/images/stories/food.php 8 -
+/w/index.php/Talk:GIT 1 -
+/w/register.php 3 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_Expert_review_of_CSE_Virtual_Labs 2 -
+/w/index.php/User_talk:Venkatesh 1 -
+/w/index.php/Talk:VIEW_THE_SLIDES 1 -
+/w/index.php/Talk:Dayalbagh_University_-_Agra 5 -
+/w/index.php/Talk:IIT_-_Delhi 6 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Technical_notes 1 -
+/w/index.php/User_talk:Chanakya 1 -
+//core/lib/php-ofc-library/ofc_upload_image.php 1 -
+/w/index.php/SVN 1 -
+/w/api.php%3Faction%3Dquery%26list%3Dwatchlist%26wlowner%3DBob_Smith%26wltoken%3Dd8d562e9725ea1512894cdab28e5ceebc7f20237&amp 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-07-30_field_trials:_Andhra_Pradesh_Engineering_Colleges 1 -
+/w/index.php/Virtual-labs.ac.in 3 -
+/w/index.php/User:Mahesh 1 -
+/test/~emt/final-build/index.php 4 -
+/w/index.php/File_talk:Xampp10.jpg 1 -
+/w/index.php/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_&_PG_College 1 -
+/w/index.php/Migration-June2012 3 -
+/public/js/FCKeditor/editor/filemanager/connectors/uploadtest.htmll 1 -
+/w/index.php/File_talk:Milestones.png 1 -
+/w/index.php/User_talk:Nikila 1 -
+/w/index.php/Category_talk:Pages_with_broken_file_links 1 -
+/w/index.php/Talk:Virtual_Labs_Integration_FAQ 6 -
+/w/index.php/Talk:2010-09-23_Workshop_on_User_Interface_Design 3 -
+/w/index.php/Talk:Textile_Engineering 3 -
+/js/fckeditor/editor/filemanager/connectors/test.html 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-08-27_meeting:_1-1_Meeting_with_Lab_Developers 2 -
+/w/index.php/Talk:TN-01_:_Development,_Test_and_Deployment_process_for_Virtual_Labs 3 -
+/w/index.php/Talk:Bazaar 3 -
+/w/index.php/Talk:Importance_of_process_model_architecture_for_virtual_labs_development 3 -
+/wiki/File:Transportdetails.pdf 1 -
+/w/index.php/Talk:2010-09-28_Workshop_on_SVN_(repeat) 4 -
+/w/index.php/Talk:2012-03-30_Sprint_on_Process_Models_of_Virtual-Labs_-_IITB 4 -
+/w/index.php/Talk:Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ExperimentList.png 1 -
+/w/index.php/Talk:Mechanical_Engineering 4 -
+/index.php/Talk:Main_Page 1 http://community.virtual-labs.ac.in/index.php/Talk:Main_Page
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Electronices_and_Communication_Engineering 3 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering 1 -
+/w/index.php/Talk:Events 3 -
+/w/index.php/File_talk:Xampp.gif 1 -
+/w/index.php/Talk:Lab_developer_getting_started_kit 2 -
+/admin/editor/filemanager/connectors/uploadtest.htmll 1 -
+/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/w/index.php/Talk:2011-02-25_Workshop_on_virtual_labs 4 -
+/agents/agents/fckeditor/editor/filemanager/browser/default/browser.html 1 -
+/w/index.php/File_talk:Screenshot_EvalPortal_1.png 1 -
+/w/index.php/File_talk:Success.png 1 -
+/w/index.php/Talk:2013-01-28_Sprint_and_Developer_meeting_-_IIT_Kharagpur 1 -
+/admin/product.php/password_forgotten.php 2 -
+/w/index.php/File_talk:Title.png 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_expert_review_of_CSE_Virtual_Labs 2 -
+/w/index.php/Talk:TN-03_:_Using_the_Evaluation_Portal 1 -
+/index.php/Talk:Mediawiki 9 http://community.virtual-labs.ac.in/index.php/Talk:Mediawiki
+/w/index.php/Talk:How_to_get_a_working_copy_of_your_project_sources_using_the_Developer_Portal 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2010-07-07_meeting:_1st_expert_review_of_CSE_Virtual_Labs 2 -
+/admeditor/filemanager/connectors/uploadtest.html 1 -
+/w/index.php/Talk:Contacts_Computer_Science 6 -
+/w/index.php/2013-02-09:_R%26D_Showcase_at_IIIT_Hyderabad 1 -
+/w/index.php/Talk:Service_architecture_for_Virtual_Labs:_A_roadmap 3 -
+/register 2 http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur
+/w/index.php/Books_of_interest 1 -
+/w/index.php/Talk:Lab_information_update_-_HowTo 2 -
+/w/index.php/File_talk:Cloud-deploy-model-extended.png 1 -
+/w/index.php/Talk:Moodle 5 -
+/portal/ui/build/help/images/favicon.png 1 -
+/w/index.php/Talk:IIT_-_Roorkee 3 -
+/index.php/Talk:TN-05_:_Current_IIIT-H_support_for_Virtual_Labs 1 http://community.virtual-labs.ac.in/index.php/Talk:TN-05_:_Current_IIIT-H_support_for_Virtual_Labs
+/w/index.php/User_talk:Medhamsh 1 -
+/w/index.php/IIT_-_Kanpur\" 2 http://community.virtual-labs.ac.in/
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Electronices_and_Communication_Engineering/2012-01-13_Sprint:_Sprint_on_Project_Management_Portal_in_IITD 1 -
+/devel-portal/help/images/favicon.png 1 -
+/wp/wp-admin/ 2 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-09-02_meeting:_1-1_Meeting_with_Lab_Developers 1 -
+/w/wp-login.php 2 -
+/wiki/Special:FileDuplicateSearch/Reaching_to_IIITH.pdf 1 -
+/w/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5 5 -
+/w/index.php/Talk:2011-11-10_Sprint_on_Project_Management_Portal 3 -
+/w/index.php/Talk:2010-08-30_Workshop_on_Object_Oriented_programming_with_Javascript-_Part_1 2 -
+/w/index.php/Talk:2011-08-29_Sprint_on_Versioning_and_Project_Management_Portal 2 -
+/w/index.php/Talk:TN-02_:_User_Manual_For_Lab-Deliverable_Tool_Kit 2 -
+/wiki/Bazaar 1 -
+/w/index.php/Talk:Org_mode_for_virtual_labs_developers 3 -
+/w/index.php/Talk:2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 2 -
+/w/index.php/Science_and_Engineering/index.php 2 http://community.virtual-labs.ac.in/w/index.php/Science_and_Engineering/index.php
+/wordpress/wordpress/wp-admin/ 1 -
+/w//core/lib/php-ofc-library/ofc_upload_image.php 1 -
+/w/index.php/Talk:Devops 1 -
+/w/index.php/Talk:Tn-10_:_Virtual_Labs_Integration_FAQ 4 -
+/w/index.php/Talk:Computer_Science_and_Engineering 1 -
+/w/index.php/Talk:Biotechnology_Engineering 4 -
+/w/index.php/Talk:Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 2 -
+/w/index.php/File_talk:Xampp5.jpg 1 -
+/w/index.php/Talk:Integration_Levels_for_a_lab 2 -
+/w/index.php/Help:Contents 54 http://community.virtual-labs.ac.in/w/index.php/Virtual_Labs_Community:About
+/w/index.php/Talk:Science_and_Engineering 1 -
+/w/index.php/Talk:2012-11-19_Sprint_and_Developer_meeting_-_IIT_Kanpur 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_TypePrivateMessage.png 1 -
+/w/index.php%3Ftitle%3DTools_for_Virtual_Lab_simulations%26action%3Dedit 1 -
+/w/index.php/Science_and_Engineering/ 2 http://community.virtual-labs.ac.in/w/index.php/Science_and_Engineering/
+/w/index.php/File_talk:Svn-checkout.png 1 -
+/w/index.php/User_talk:Aditya 1 -
+/admin/fckeditor/editor/filemanager/connectors/browser.html 1 -
+/w/index.php/Virtual_Labs_Community:Community_portal 54 -
+/administrator/index.php 1 -
+/w/index.php/File_talk:Screenshot_EvalPortal_ReplyPost.png 1 -
+/w/index.php/User:Rohit 1 -
+/wordpress/wp-admin/ 1 -
+/w/index.php/Talk:Dec-2012_Sprint_and_Developer_meeting_-_IIT_Kharagpur 1 -
+/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP 1 http://community.virtual-labs.ac.in/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP
+/w/index.php/Talk:2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 3 -
+/webeditor/editor/filemanager/browser/default/connectors/test.html 2 -
+/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5 3 http://community.virtual-labs.ac.in/index.php/Talk:Create_a_Slideshow_using_jQuery_and_HTML5
+/w/index.php/Talk:2011-06-21_Workshop_on_Org_mode 2 -
+/w/index.php/Talk:IIT_-_Kharagpur 6 -
+/w/index.php/File_talk:File.png 1 -
+/wiki/Chemical_Sciences 1 -
+/w/index.php/Virtual_Labs_Community_talk:Current_events 2 -
+/w/index.php/Talk:Electrical_Engineering 7 -
+/w/index.php/Talk:Technical_notes 2 -
+/w/index.php/Talk:Development,_Test_and_Deployment_process_for_Virtual_Labs(Deprecated) 2 -
+/public/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/w/index.php/Talk:2012-10-08_Workshop_on_Virtual_Labs_Integration-_IIITH 2 -
+/w/index.php/Talk:Virtual_Labs_Developers_Wiki/Computer_Science_and_Engineering/2011-08-20_1-1_Meeting_with_Lab_Developers 3 -
+/w/index.php/User:Aditya 1 -
+/w/index.php/User:Nikila 1 -
+/w/index.php/File_talk:Screenshot.png 1 -
+/w/index.php/File_talk:Wordpress.png 1 -
+/wiki/File:Delhi-3rd-review-template.pdf 1 -
+/w/index.php/Talk:Amrita_University_-_Kerala 2 -
+/w/index.php/Talk:Mediawiki 12 http://community.virtual-labs.ac.in/w/index.php/Talk:Mediawiki
+/w/index.php/Register 2 http://community.virtual-labs.ac.in/w/index.php/Register
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/w/index.php/Talk:TN-02_:_User_Interface_Template_installation_process 6 -
+/w/index.php/File_talk:Content1.png 1 -
+/w/index.php/User:Venkatesh 1 -
+/w/index.php/Talk:Reports_and_articles 2 -
+/w/index.php/Talk:TN-04_:_Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 3 -
+/w/index.php/Talk:Overview_of_Physics_engines 5 -
+/w/index.php/Virtual_Labs_Community:General_disclaimer 43 -
+/w/index.php/File_talk:View-release.png 1 -
+/w/index.php/Talk:Chemical_Sciences 2 -
+/w/index.php/User_talk:Ishan 2 -
+/w/index.php/Talk:NIT_-_Karnataka 1 -
+/w/add/ 1 -
+/w/index.php/Talk:Tools_for_Virtual_Lab_simulations 3 -
+/wiki 5 -
+/w/index.php/File_talk:Virtualcontainer.png 1 -
+/w/index.php/File_talk:Xampp7.jpg 1 -
+/w/index.php/Development,_Test_and_Deployment_process_using_web-portal' 1 -
+/w/index.php/User:Medhamsh 1 -
+/w/index.php/Talk:User_Manual_For_Lab-Deliverable_Tool_Kit 3 -
+/blog/wp-admin/ 2 -
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/w/index.php/Talk:10-11-10_Meeting_:_About_Nov_12_meeting 1 -
+/w/index.php/Talk:2011-01-23_Workshop_on_HTML5 2 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/w/index.php/File_talk:Screenshot_EvalPortal_MessagesMenuLink.png 1 -
+/w/index.php/Talk:Computer_Science_and_Engineering/2011-07-30_field_trials:_G._Narayanamma_Institute_of_Technology_and_Science 1 -
+/w/index.php/Talk:2012-08-31_Sprint_on_Process_Models_of_Virtual-Labs_-_IITD 3 -
+/w/images/stories/food.php 1 -
+/w/login.php 1 -
+/wiki/Special:RecentChangesLinked/Main_Page 1 -
+/member/signup 2 http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur
+/w/index.php/Sage.virtual-labs.ac.in 2 -
+/old/wp-admin/ 2 -
+/w/index.php/Talk:2012_October_PICs_meeting_on_Integration,_IIIT-Hyderabad 2 -
+/w/images/stories/roin.gif 1 -
+/w/index.php/File_talk:Footer.png 1 -
+/wiki/Virtual_Labs_Community:General_disclaimer 1 -
+/public/js/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/w/index.php/User_talk:10.4.12.159 49 http://community.virtual-labs.ac.in/User_talk:10.4.12.159
+/w/index.php/Db.virtual-labs.ac.in 1 -
+/js/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/w/index.php/Talk:TN-01_:_Development,_Test_and_Deployment_process_for_Virtual_Labs(Deprecated) 2 -
+/w/index.php/Talk:Civil_Engineering 1 -
+/wiki/Index.php/Using_Wordpress_3_locally_with_XAMPP 1 -
+/w/index.php/Talk:Evaluation_Portal_Design_Document_and_User_Guide 2 -
+/webeditor/editor/filemanager/connectors/test.html 2 -
+/w/index.php/Talk:Shell_Access 2 -
+/w/index.php/Talk:IIT_-_Madras 1 -
+/w/index.php/Talk:Tn-09_:_Seville_Contract 1 -
+/w/index.php/Talk:TN-06_:_Service_architecture_for_Virtual_Labs:_A_roadmap 2 -
+/w/index.php/Virtual_Labs_Community:Users 45 -
+/w/index.php/Talk:TN-04_:_Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 1 -
+/js/FCKeditor/editor/filemanager/upload/test.html 1 -
+/w/index.php/Talk:Schedule 1 -
+/w/index.php/Talk:Using_Wordpress_3_locally_with_XAMPP 3 -
+/wiki/Virtual_Labs_Community:About 1 -
+/w/index.php/Talk:2012-10-08_PICs_meeting_to_discuss_Virtual_Labs_Integration_-_IIITH 1 -
+/wiki/TN-04_:_Lab_Numbers,_Deployment_URL%27s,_Lab_names_and_Developers 5 http://community.virtual-labs.ac.in/w/index.php
+/w/index.php/wikka.php 1 http://community.virtual-labs.ac.in/w/index.php/wikka.php
+/wiki/zarynqoia.livejournal.com_Science_and_Engineering/ 1 http://community.virtual-labs.ac.in/
+/w/index.php/Devel.virtual-labs.ac.in 3 -
+/w/index.php/File_talk:Delhi-3rd-review-template.pdf 1 -
+/w/index.php/index.php 30 http://community.virtual-labs.ac.in/w/index.php/index.php
+/w/extras/curltest.php 2 -
+/images/stories/roin.gif 1 -
+/signup.php 1 http://community.virtual-labs.ac.in/
+/index.php 85 -
+/w/index.php/File_talk:Xampp4.jpg 1 -
+/w/index.php/Talk:Workshops 1 -
+/w/index.php/Talk:Development,_Test_and_Deployment_process_using_web-portal 2 -
+/wiki/IIT_-_Madras 1 -
+/w/17.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 733
+10.4.8.52 2752 2894 28992352 20140831225813 20140831215507 /w/
+62.210.122.209 181 181 4877088 20140830194357
+96.126.106.38 179 179 190999 20140831220035
+162.244.13.18 171 171 3639018 20140812150750
+38.96.198.21 66 66 167540 20140831044456
+95.154.210.132 39 39 221171 20140819194623
+27.106.112.186 33 33 139799 20140823142618
+124.123.166.226 22 35 315841 20140831203005
+103.27.8.42 18 23 509660 20140809191252
+49.204.225.55 18 20 403259 20140827153201
+190.75.88.124 3 3 14923 20140817074929
+122.143.3.73 1 1 12356 20140813210931
+200.110.89.77 3 3 14924 20140813095504
+121.14.138.50 3 3 14924 20140817122034
+188.208.12.98 1 1 14869 20140819061307
+107.181.70.16 1 1 165077 20140826151416
+124.68.10.42 3 3 14924 20140823213409
+23.232.133.206 1 1 14871 20140826091431
+188.240.130.211 2 2 21651 20140828074234
+125.24.77.199 3 3 14924 20140823153000
+210.101.131.232 2 2 7907 20140807221613
+111.243.213.86 1 1 5659 20140807045019
+23.95.40.116 2 2 7937 20140824211230
+203.110.243.21 9 11 242304 20140822171236
+198.12.74.248 2 2 7908 20140815051542
+190.198.17.211 1 1 3806 20140821114413
+162.243.221.216 3 3 14926 20140821182931
+125.39.68.180 6 6 29846 20140827045920
+192.200.31.240 4 4 12984 20140821181057
+200.93.39.117 3 3 14922 20140819233710
+162.244.14.85 1 1 4801 20140809152830
+202.46.54.59 1 1 410 20140819003557
+190.12.81.173 1 1 14871 20140826023511
+23.94.19.179 2 2 21649 20140818202527
+125.78.199.185 3 3 45756 20140813020335
+113.196.77.94 3 3 14923 20140828035833
+218.90.174.167 6 6 29847 20140814043030
+182.52.117.119 3 3 12707 20140828085713
+103.10.151.168 3 3 14924 20140827012716
+187.217.191.162 3 3 14923 20140822084458
+116.226.61.108 5 5 84461 20140818033640
+202.46.50.100 1 1 14667 20140813212407
+193.36.34.12 3 3 14924 20140826210704
+176.8.62.188 1 1 5813 20140827034838
+42.185.210.21 2 2 15149 20140801054236
+111.11.228.9 3 3 14921 20140822144511
+67.43.32.4 9 9 44769 20140830202154
+191.101.245.69 1 1 4122 20140829093316
+212.227.18.17 1 1 4802 20140827192709
+128.199.235.230 3 3 12706 20140805073235
+119.254.66.7 3 3 14920 20140824123501
+69.12.81.135 1 1 14871 20140830145647
+107.182.120.210 2 2 8032 20140818153103
+37.59.179.205 1 1 14871 20140821220825
+49.207.140.124 1 4 19484 20140808081002
+61.19.29.122 3 3 14920 20140819193129
+200.16.128.18 3 3 14924 20140828023752
+218.2.26.150 3 3 14923 20140820235829
+61.61.235.176 3 3 13748 20140809113713
+5.135.113.233 1 1 23996 20140824125036
+183.224.1.115 3 3 14924 20140809025750
+27.150.220.253 12 12 183242 20140812031551
+23.232.151.98 1 1 4110 20140826144345
+202.46.50.180 1 1 14849 20140825171645
+220.198.104.174 3 3 14924 20140818151639
+198.50.178.57 9 9 125756 20140831222754 20140831222754 /forms/
+217.96.18.163 2 2 29742 20140823024212
+202.46.63.68 1 1 32341 20140824154627
+121.205.243.238 9 9 136947 20140812012406
+222.85.1.123 3 3 14923 20140830081413
+58.254.132.87 3 3 12706 20140807053625
+113.108.186.138 6 6 29847 20140810023102
+58.221.190.50 2 2 10805 20140823155528
+14.139.196.4 7 9 241612 20140826014800
+110.18.244.76 3 3 14924 20140821220039
+89.132.93.235 2 2 21649 20140818045714
+192.77.245.162 3 3 15887 20140801062347
+104.140.13.65 3 3 11707 20140822051540
+27.106.58.59 3 3 12708 20140806180547
+69.147.248.252 3 3 12705 20140805001058
+122.175.31.226 11 13 263110 20140802225632
+23.232.137.205 4 4 12982 20140830055700
+201.210.252.138 1 1 6999 20140812085049
+198.50.161.19 1 1 4800 20140822135953
+23.232.137.67 2 2 7907 20140814121722
+144.76.91.209 2 2 9602 20140830200047
+60.182.196.201 1 1 6998 20140826045650
+88.190.16.109 2 2 11117 20140822233737
+192.99.170.66 2 2 5072 20140806153640
+5.9.113.209 1 1 4802 20140826024904
+64.182.3.64 1 1 14871 20140831145359
+117.169.1.105 3 3 12710 20140807160359
+202.46.48.19 1 1 410 20140805162647
+222.83.156.103 3 3 14923 20140821095008
+80.79.121.215 3 3 17030 20140814055050
+198.12.74.224 2 2 7940 20140814082443
+178.32.12.113 16 16 173212 20140825082510
+192.240.198.13 2 2 8031 20140811154326
+193.178.187.187 3 3 14924 20140822205857
+183.154.52.207 6 6 29846 20140831211709
+192.99.134.39 9 9 75026 20140831061557
+189.191.250.188 7 9 243406 20140821105346
+190.14.224.114 3 3 14924 20140831131332
+58.241.68.220 3 3 14921 20140823205513
+212.91.188.166 3 3 14924 20140820085050
+5.135.85.70 3 3 44607 20140819185648
+147.255.56.204 1 1 14871 20140824103809
+192.99.176.94 1 1 14869 20140816062459
+192.3.61.233 3 3 44103 20140814085151
+62.210.114.29 1 1 14871 20140822072453
+78.129.131.32 1 1 14871 20140827021953
+203.90.239.200 3 3 14924 20140819100021
+91.236.74.153 1 1 16627 20140805002313
+106.66.178.60 4 4 18309 20140808163952
+107.153.85.166 2 2 7931 20140824215800
+211.144.81.66 6 6 29847 20140818204041
+84.17.0.17 2 2 8908 20140827022401
+192.99.207.76 2 2 7940 20140827033718
+202.46.50.11 1 1 410 20140817082648
+107.181.78.68 1 1 6999 20140821134908
+201.211.88.241 1 1 4121 20140817005037
+190.107.68.18 3 3 14924 20140821223642
+107.178.100.9 1 1 14871 20140830201201
+177.159.173.106 3 3 14924 20140830030536
+192.99.170.19 2 2 9602 20140829050727
+213.251.182.12 7 7 91985 20140813161251
+120.36.224.157 6 6 25417 20140821090033
+111.1.60.210 3 3 14920 20140824063522
+213.238.175.6 1 1 410 20140825003220
+62.210.172.38 2 2 10418 20140808123649
+119.110.73.89 3 3 14922 20140820144534
+202.83.20.117 3 3 14921 20140823022344
+111.161.0.74 3 3 14923 20140826045422
+186.88.36.97 2 2 7926 20140830003838
+61.54.221.200 6 6 29847 20140807202025
+91.236.75.38 1 1 16627 20140802115752
+183.224.1.114 3 3 14922 20140819162024
+107.155.117.110 1 1 3813 20140808004902
+125.117.213.73 1 1 6998 20140828100500
+202.46.49.84 1 1 4411 20140805111839
+192.3.183.108 2 2 300220 20140815184048
+81.100.182.244 1 1 6999 20140809160735
+70.165.119.130 3 3 14923 20140827163947
+66.34.5.72 3 3 13748 20140825193905
+190.201.25.182 3 3 14923 20140827010029
+91.213.209.168 3 3 14923 20140828215600
+46.229.170.193 1 1 410 20140823141920
+201.242.171.190 2 2 10804 20140819042232
+58.51.197.19 1 1 14871 20140830003122
+125.39.66.67 3 3 14924 20140820115447
+120.202.249.195 1 1 3806 20140823010955
+119.63.193.132 2 2 820 20140819022906
+202.46.50.140 1 1 10878 20140825161645
+49.204.209.105 1 4 15841 20140810223851
+207.150.166.29 3 3 13749 20140811070603
+178.253.253.154 3 3 14922 20140830153252
+103.21.126.77 8 10 249117 20140822110246
+201.221.131.76 2 2 8601 20140814180026
+107.155.119.92 2 2 21651 20140823211010
+190.198.30.253 3 3 14923 20140824120402
+23.95.40.182 1 1 14871 20140821194717
+223.236.140.208 1 4 21233 20140811093740
+190.74.160.215 3 3 14924 20140826193708
+94.103.230.161 1 1 5809 20140820111851
+218.152.182.155 3 3 14923 20140827004506
+192.69.94.148 1 1 14871 20140830100908
+167.160.110.27 5 5 19925 20140831044501
+186.93.135.6 2 2 7924 20140821060831
+36.78.162.70 3 3 14924 20140818062901
+186.94.47.5 1 1 4120 20140831225810 20140831225810 /w/
+204.44.83.63 4 4 15819 20140823214330
+108.60.212.28 2 2 21649 20140802085117
+66.34.3.70 1 1 14871 20140823150109
+202.46.55.35 1 1 410 20140821202519
+120.43.5.248 3 3 45494 20140813052613
+112.111.165.86 2 2 8909 20140807173333
+112.137.161.158 3 3 12708 20140809132110
+93.118.77.189 1 1 165077 20140810112528
+190.77.192.115 3 3 14924 20140831063857
+107.182.120.12 1 1 14869 20140820142302
+202.95.192.46 3 3 14924 20140806233520
+190.36.141.28 1 1 6998 20140826213046
+60.182.198.202 3 3 14922 20140827212605
+89.67.195.78 4 4 31193 20140816054510
+111.1.3.38 3 3 14923 20140823042718
+180.179.170.243 1 1 410 20140805204409
+200.128.81.8 3 3 14923 20140805110022
+111.10.136.197 3 3 17011 20140802063011
+115.112.186.90 3 3 14925 20140818033440
+23.232.151.90 1 1 3799 20140826105756
+62.210.113.17 1 1 14871 20140822191919
+111.206.125.75 4 4 84051 20140825131207
+180.183.193.31 3 3 14923 20140824234823
+202.51.100.227 5 5 28945 20140817185627
+106.220.101.251 2 8 21233 20140808133454
+23.232.151.87 4 4 15816 20140829024705
+1.202.15.102 1 1 6998 20140831145358
+89.74.176.178 1 1 14871 20140828224810
+81.65.128.188 1 1 5808 20140820171739
+190.203.48.204 2 2 10805 20140830110331
+177.99.11.42 3 3 14924 20140826103637
+104.140.13.67 4 4 15817 20140825024025
+190.239.126.152 3 3 14922 20140818173929
+202.46.63.163 1 1 23374 20140831180230
+104.140.13.66 2 2 7909 20140822042108
+23.232.137.224 4 4 12985 20140827041645
+195.211.155.143 6 6 45317 20140824205238
+202.29.235.130 3 3 14925 20140826023737
+190.79.148.157 1 1 4120 20140821045148
+114.112.91.116 1 1 3806 20140802070536
+119.186.85.181 3 3 14922 20140821205607
+103.21.127.76 8 10 247581 20140813120137
+198.204.240.34 4 4 10149 20140807082121
+202.143.150.194 2 2 13996 20140821035103
+111.255.136.97 3 3 14923 20140823150231
+190.121.158.122 3 3 14922 20140830202418
+103.15.238.62 2 2 11118 20140817063613
+41.35.164.44 3 3 14924 20140826232838
+113.108.131.107 7 9 241614 20140820141128
+183.89.185.247 3 3 14924 20140817224305
+182.155.21.182 3 3 14923 20140821000401
+101.229.175.163 3 3 14926 20140821183639
+23.94.19.247 2 2 7906 20140805070124
+204.44.83.19 2 2 7907 20140827182909
+87.229.223.154 3 3 14926 20140824084519
+88.208.208.116 3 3 16664 20140828101328
+204.44.83.145 1 1 3799 20140828114644
+58.240.65.57 8 8 43191 20140817152425
+117.169.1.85 3 3 12708 20140818122218
+103.21.125.77 9 11 242303 20140815112036
+210.13.100.87 3 3 14920 20140830185411
+58.61.29.233 1 1 4119 20140830105340
+109.175.8.38 3 3 12707 20140825115645
+199.19.249.196 1 1 410 20140821155746
+218.204.131.250 3 3 14923 20140822210430
+190.202.195.48 3 3 14921 20140831071546
+75.83.10.124 2 2 11116 20140805205607
+119.63.193.194 3 3 1230 20140831204019
+121.179.211.221 3 3 12707 20140802224957
+173.0.62.222 2 2 7947 20140801130720
+178.120.147.159 5 5 257904 20140818041122
+202.46.63.41 1 1 410 20140831203900
+110.89.60.61 1 1 276 20140826051401
+104.143.25.214 1 1 14871 20140825020646
+197.232.14.231 3 3 14923 20140830052413
+144.76.184.13 1 1 4802 20140825141505
+27.154.77.14 1 1 4109 20140831052526
+180.169.125.49 6 6 29851 20140810004331
+122.225.103.85 3 3 14921 20140820055809
+192.227.234.106 2 2 7907 20140823055637
+110.86.185.85 9 9 137511 20140813085405
+188.126.75.230 1 1 6780 20140825163208
+192.40.88.30 1 1 14871 20140821082737
+192.240.201.136 1 1 14871 20140823102017
+201.243.196.197 3 3 14924 20140821080712
+93.118.77.138 3 3 13750 20140820221619
+110.84.129.27 3 3 14922 20140810180156
+91.108.180.157 1 1 14869 20140820051845
+222.254.76.35 3 3 17012 20140822185010
+125.117.144.233 3 3 14925 20140830162520
+183.92.77.57 3 3 14925 20140825171617
+190.77.170.200 3 3 14925 20140817042141
+134.249.177.233 3 3 14923 20140818043329
+37.59.77.39 3 3 14925 20140814160806
+5.11.174.167 3 3 14923 20140821023510
+70.191.150.18 1 1 14871 20140830125131
+121.14.228.16 5 5 26041 20140828112336
+198.50.192.229 2 2 21659 20140828213151
+37.187.71.93 1 1 14869 20140806120820
+155.94.208.150 3 3 13750 20140811080548
+183.63.149.110 6 6 29846 20140828022737
+111.161.126.91 4 4 15849 20140827042838
+195.154.166.20 1 1 14871 20140829152503
+116.203.237.78 2 2 199047 20140817130201
+176.31.59.243 3 3 12710 20140828101440
+187.85.231.202 3 3 14925 20140819052723
+193.178.214.62 1 1 14871 20140829085411
+23.232.143.208 2 2 7906 20140823014532
+91.207.7.110 15 15 228709 20140826141124
+27.150.247.88 9 9 137029 20140812075105
+200.231.171.140 3 3 14921 20140817205310
+42.121.29.123 1 1 6998 20140829224632
+183.224.1.116 3 3 14922 20140820195743
+178.32.155.50 1 1 14871 20140822213543
+115.210.64.128 3 3 14921 20140827173458
+111.206.115.34 3 3 71695 20140820201519
+198.167.136.168 2 2 7929 20140808050544
+190.12.86.211 7 7 36849 20140817055123
+101.55.125.13 3 3 14925 20140830021018
+188.116.33.38 3 3 14402 20140813074710
+23.94.148.73 1 1 14871 20140831081740
+190.75.242.148 1 1 6998 20140823213545
+192.241.92.175 1 1 4109 20140805031346
+82.222.247.84 3 3 53807 20140831155005
+178.33.213.30 4 4 17507 20140808101811
+120.202.249.204 3 3 14925 20140801022339
+93.182.131.149 8 8 132055 20140825054734
+208.80.155.255 3 3 1303 20140831040708
+198.46.138.24 2 2 7908 20140829050732
+192.240.198.134 2 2 8033 20140819064040
+167.160.110.29 1 1 4110 20140813115052
+109.104.130.153 3 3 14921 20140826171216
+199.63.142.252 4 6 30074 20140805103405
+104.160.41.215 2 2 5077 20140811120648
+94.242.238.13 2 2 11118 20140830141812
+167.160.105.224 1 1 4110 20140824200409
+60.182.187.173 6 6 29845 20140831214614
+204.44.83.199 4 4 15814 20140829113903
+112.111.188.241 2 2 15095 20140805043703
+106.220.19.59 1 4 19484 20140808071125
+23.94.2.37 1 1 14869 20140801200641
+186.93.137.6 2 2 11119 20140830212919
+201.218.59.122 3 3 14923 20140811055647
+202.46.53.162 1 1 5626 20140824060510
+60.18.147.109 3 3 14925 20140829121055
+103.246.38.196 4 4 99732 20140805100819
+58.26.23.98 3 3 14921 20140822044233
+122.170.126.130 8 10 249080 20140814113141
+107.161.83.9 1 1 4125 20140827072359
+50.196.236.93 1 40 8175494 20140821220431
+190.198.42.53 1 1 4119 20140824043452
+126.15.109.101 3 3 15396 20140821140122
+118.97.140.186 1 1 6999 20140822200742
+192.241.67.16 2 2 7908 20140801125426
+92.247.125.246 3 3 14924 20140817084335
+80.82.16.118 4 4 10154 20140824044057
+192.3.180.144 1 1 14871 20140825125128
+222.87.129.30 3 3 14923 20140825214838
+192.240.218.194 2 2 21651 20140822085625
+202.46.55.24 1 1 410 20140819022814
+104.140.13.48 2 2 7906 20140825082540
+1.23.15.185 1 4 15841 20140801000235
+5.39.113.1 1 1 14871 20140821234450
+60.182.198.220 3 3 14921 20140831095732
+61.174.9.96 3 3 14921 20140810115953
+92.222.99.8 2 2 29742 20140824040610
+23.94.60.109 3 3 15159 20140820174946
+23.232.193.229 1 1 14869 20140802044839
+60.182.188.64 3 3 14924 20140824040758
+190.189.90.91 6 6 29848 20140818051903
+190.152.10.10 3 3 14925 20140819095722
+114.109.183.254 1 1 4802 20140819091748
+113.162.133.97 3 3 14924 20140823222145
+173.0.62.194 2 2 7907 20140824111940
+213.8.52.146 2 2 11116 20140821052410
+182.254.129.123 3 3 14923 20140807021609
+58.26.17.198 3 3 14924 20140813092608
+175.101.50.75 1 1 286 20140828200955
+80.191.247.178 3 3 14921 20140801063334
+125.39.66.69 3 3 14925 20140824211051
+23.247.173.198 4 4 12985 20140828181306
+176.241.82.36 1 1 6998 20140813185111
+192.255.79.110 3 3 12710 20140824093716
+119.63.193.130 2 2 820 20140822023029
+37.203.211.146 1 1 14871 20140828010044
+190.206.97.172 2 2 10805 20140817143336
+202.106.16.36 3 3 14920 20140829060520
+112.96.28.47 3 3 53807 20140824081510
+62.210.209.94 1 1 7174 20140825081647
+183.154.55.7 3 3 14925 20140830030226
+115.239.248.235 6 6 29847 20140831111044
+178.62.35.107 3 3 14923 20140819022141
+61.178.208.12 1 1 6998 20140821180921
+202.169.53.14 3 3 14925 20140817052342
+107.158.229.126 1 1 14871 20140830232951
+164.138.237.178 3 3 14924 20140820063751
+149.255.255.250 6 6 29849 20140828211955
+78.129.131.36 1 1 14871 20140821054445
+123.63.138.34 9 11 242303 20140808111045
+210.209.118.57 3 3 14922 20140808145805
+106.187.48.32 3 3 14924 20140826044629
+223.226.92.197 7 9 241503 20140809115826
+110.139.108.179 3 3 14923 20140830195841
+60.191.203.76 6 6 29849 20140829204836
+62.210.89.12 1 1 18712 20140821162510
+180.250.180.98 3 3 14921 20140827155246
+144.76.94.107 1 1 4799 20140806220008
+186.92.40.169 1 1 6999 20140821212521
+189.1.97.44 3 3 14924 20140828231506
+46.4.153.211 1 1 7860 20140807230647
+202.46.62.97 1 1 410 20140820022807
+60.207.166.152 3 3 14923 20140809154819
+173.44.40.158 2 2 8032 20140805223004
+222.77.225.40 6 6 91310 20140812092746
+112.96.28.49 3 3 53807 20140827090526
+118.175.3.227 6 6 29848 20140827001509
+192.171.232.186 2 2 7909 20140822135957
+219.239.172.223 2 2 41451 20140828151713
+41.89.96.37 3 3 14925 20140812093759
+123.52.130.52 1 1 6999 20140818042417
+115.185.152.94 1 1 0 20140808113351
+107.150.37.130 3 3 34947 20140831182643
+103.9.124.83 3 3 14924 20140815112405
+163.125.202.87 3 3 14925 20140829215852
+42.121.108.217 3 3 14920 20140821163033
+109.120.148.24 9 9 44765 20140819235616
+125.164.10.50 3 3 14924 20140820130905
+222.134.48.86 3 3 14923 20140815140239
+116.228.55.217 1 1 4119 20140827173028
+182.93.221.56 3 3 14923 20140810115817
+204.44.90.154 4 4 12982 20140812101452
+202.46.60.63 1 1 410 20140816042732
+216.244.65.58 1 1 14869 20140809003339
+186.91.181.231 1 1 3806 20140817023152
+92.53.13.127 2 2 21651 20140830135544
+23.89.222.116 3 3 12709 20140828172116
+202.29.241.58 2 2 13995 20140830122109
+107.155.120.191 1 1 14871 20140822175627
+198.100.157.254 1 1 14869 20140801192451
+218.65.132.38 3 3 14922 20140811225318
+173.0.62.104 2 2 21651 20140830195143
+202.76.35.6 3 3 14925 20140819083224
+122.2.133.162 3 3 14922 20140814100446
+175.44.52.168 2 2 8910 20140816173346
+186.93.186.49 2 2 7926 20140820060507
+111.13.109.54 3 3 14921 20140829123940
+200.84.74.254 6 6 29845 20140826045710
+91.236.75.85 1 1 16627 20140801090026
+122.143.3.70 1 1 30244 20140813210928
+123.242.153.98 2 2 8599 20140802204721
+69.12.78.160 3 3 13806 20140811093835
+183.154.49.13 3 3 14923 20140831192931
+66.221.11.60 1 1 14871 20140824080922
+101.69.192.33 3 3 14922 20140813171431
+192.3.61.190 2 2 29402 20140816014539
+139.228.247.163 3 3 14925 20140831072655
+23.226.131.102 3 3 12945 20140811125918
+202.143.142.92 2 2 13998 20140821202416
+93.185.104.14 5 5 64623 20140801054722
+178.32.226.66 3 3 12707 20140824205016
+192.255.69.95 2 2 7966 20140806203520
+113.57.252.104 3 3 14924 20140801035534
+107.155.77.26 2 2 21651 20140821080649
+173.234.169.52 1 1 14869 20140810020113
+167.160.105.225 2 2 8217 20140820155648
+202.108.50.69 2 2 42600 20140805035449
+167.160.109.62 1 1 14871 20140830125416
+218.75.155.242 3 3 14924 20140828082340
+190.36.186.201 2 2 10805 20140819183354
+46.246.47.187 1 1 14871 20140824021520
+223.202.68.31 3 3 11715 20140808150606
+110.85.114.195 2 2 15111 20140828135026
+117.232.17.170 1 1 276 20140806025126
+197.211.205.154 3 3 14921 20140829053146
+107.150.43.186 5 5 22690 20140819064032
+106.219.160.107 7 9 241864 20140820003230
+114.35.221.48 3 3 17013 20140821052244
+58.215.142.208 1 1 6999 20140827220556
+204.44.83.25 1 1 4109 20140826164335
+62.4.27.91 1 1 5809 20140825165834
+211.110.61.113 3 3 14924 20140813152107
+178.93.172.143 3 3 13830 20140820040714
+222.74.6.10 5 5 25729 20140822180956
+78.129.131.241 1 1 14871 20140828212028
+154.65.4.90 3 3 17014 20140828233637
+141.105.164.173 2 2 8911 20140821034746
+193.231.17.27 1 1 6999 20140830141734
+211.151.13.22 7 7 33651 20140827154304
+192.76.84.196 8 10 292887 20140807102625
+37.59.231.215 5 5 24005 20140823014525
+117.59.217.236 7 7 36843 20140820195508
+172.245.214.135 1 1 14869 20140806030315
+200.84.72.32 2 2 7926 20140822022149
+200.195.130.156 3 3 14923 20140819043542
+5.39.32.116 1 1 14871 20140830153428
+192.227.191.160 1 1 14871 20140827195315
+106.66.173.217 5 6 200907 20140808103055
+119.247.66.251 5 5 28947 20140817222348
+202.46.61.41 1 1 5107 20140809094845
+190.73.155.131 1 1 6998 20140822012838
+114.255.7.186 2 2 11116 20140819195253
+193.255.95.204 3 3 14926 20140820034758
+58.57.84.206 3 3 14924 20140830061722
+50.115.170.179 2 2 7907 20140806153644
+192.171.232.61 2 2 7909 20140805132028
+46.118.157.52 1 1 27275 20140818180744
+27.153.136.3 12 12 182502 20140812023032
+202.44.64.4 2 2 10803 20140807150245
+183.154.53.148 3 3 14923 20140821092339
+198.100.158.213 3 3 13747 20140820035401
+202.46.50.129 1 1 12830 20140829185619
+190.97.194.129 1 1 5813 20140825041158
+23.94.148.15 3 3 13747 20140817103933
+197.149.64.18 2 2 8910 20140828203203
+193.150.120.60 1 1 14701 20140828201503
+23.232.151.88 1 1 3799 20140830101704
+213.184.100.234 1 1 14869 20140810041007
+23.81.173.252 3 3 12984 20140811144319
+192.208.185.103 3 3 15013 20140827010212
+122.96.59.107 3 3 14921 20140820164355
+177.36.5.142 3 3 14922 20140818024020
+62.210.114.10 1 1 165077 20140808165516
+155.94.141.66 4 4 12983 20140806204216
+27.106.15.96 3 3 12708 20140811125726
+114.66.8.251 1 1 12356 20140829220714
+192.255.79.47 2 2 29742 20140828161256
+78.152.169.155 3 3 14924 20140831175111
+202.46.52.84 1 1 4227 20140807033524
+141.105.164.182 2 2 41451 20140822040945
+144.76.174.145 1 1 4798 20140801230907
+117.79.73.166 1 1 30244 20140819214912
+190.73.248.28 2 2 10805 20140825204911
+121.196.141.249 6 6 22476 20140816190947
+213.238.175.71 2 2 820 20140810063108
+118.173.230.47 3 3 14926 20140817165000
+183.63.116.43 3 3 14924 20140819090727
+60.182.39.216 2 2 13997 20140831124244
+113.196.34.66 3 3 12710 20140817093012
+5.11.174.157 3 3 14924 20140822020211
+190.210.99.113 3 3 14923 20140818033311
+183.224.1.113 3 3 14922 20140822022428
+69.12.65.27 3 3 12706 20140801020508
+93.187.123.2 2 2 10803 20140820211751
+186.67.32.221 3 3 14924 20140821130626
+64.79.111.129 1 1 14871 20140830021703
+183.24.141.132 3 3 14923 20140821024934
+101.71.37.140 3 3 14924 20140812191502
+122.176.223.152 7 9 240975 20140807142609
+192.3.55.211 4 4 12985 20140814222529
+107.155.116.9 2 2 7966 20140815231103
+210.212.183.60 6 8 231302 20140811183117
+201.243.3.23 1 1 4118 20140819112921
+222.29.86.170 3 3 14925 20140817142818
+108.178.58.57 2 2 7907 20140831193747
+178.32.143.17 3 3 12707 20140811214349
+117.175.214.21 3 3 12706 20140812122927
+46.229.167.149 3 3 15521 20140821005206
+112.199.65.210 3 3 14924 20140823023958
+183.57.78.93 3 3 14925 20140819044551
+95.77.153.48 3 3 12708 20140817205710
+192.99.116.207 1 1 14871 20140825220928
+217.78.187.239 4 4 40018 20140811004524
+23.94.19.236 2 2 7908 20140807220908
+197.242.120.203 3 3 12706 20140807120048
+5.39.90.128 2 2 14871 20140822020026
+87.117.189.100 2 2 15111 20140826083955
+193.201.224.26 2 2 15095 20140802054322
+104.140.13.61 1 1 3799 20140821203430
+198.12.91.209 1 1 14701 20140816014544
+192.255.69.104 2 2 8032 20140813164941
+125.78.199.146 3 3 45716 20140813025324
+118.175.23.18 3 3 17013 20140801081830
+182.254.138.223 5 5 22850 20140820023935
+208.72.119.10 2 2 21651 20140825145917
+190.73.158.86 2 2 7924 20140828005939
+113.57.252.103 6 6 29847 20140806173752
+14.139.82.7 2 8 0 20140821100018
+14.139.123.180 1 1 10887 20140811183117
+210.75.14.146 3 3 12710 20140811043944
+23.95.40.111 2 2 7940 20140823143921
+202.46.54.56 1 1 410 20140808223134
+191.101.245.111 1 1 14871 20140824122054
+192.99.11.192 1 1 14871 20140830194407
+115.211.231.117 3 3 14924 20140818190825
+84.201.8.145 1 1 14871 20140827102250
+176.126.62.3 3 3 14922 20140821004948
+181.46.146.0 3 3 14923 20140807233137
+192.171.255.39 2 2 7909 20140819210130
+111.205.122.222 6 6 29847 20140820142843
+107.161.83.250 2 2 7939 20140817043008
+117.169.1.170 3 3 12707 20140823073343
+50.118.149.179 1 1 14869 20140806125515
+37.239.46.50 3 3 14923 20140824035937
+111.161.126.87 1 1 6998 20140824195302
+68.119.102.51 3 3 14923 20140831130014
+198.52.215.202 2 2 5078 20140831110402
+107.153.85.197 2 2 21649 20140820072301
+93.178.83.230 0 1 26473 
+176.31.196.147 3 3 12707 20140827203239
+67.43.42.4 3 3 14923 20140821134638
+202.46.53.68 1 1 410 20140822022933
+178.212.41.20 3 3 14405 20140822204555
+59.144.178.6 3 3 14922 20140802022445
+222.77.227.176 9 9 137321 20140812081517
+192.210.144.80 1 1 14869 20140805130527
+186.90.72.164 2 2 7925 20140819214416
+125.117.215.90 3 3 14922 20140831145055
+213.146.230.44 3 3 14922 20140819185448
+120.37.242.101 3 3 45702 20140813020606
+46.235.64.219 1 1 5809 20140831150758
+185.5.98.41 1 1 4801 20140808030807
+111.11.228.10 3 3 14924 20140815103309
+119.252.168.50 3 3 13747 20140811074601
+186.93.123.200 2 2 10804 20140829185728
+76.90.116.146 1 1 14871 20140824175742
+117.25.129.238 6 6 29847 20140830034446
+188.116.19.138 1 1 4800 20140827211500
+192.99.114.100 3 3 12710 20140810094228
+79.133.196.51 1 1 14871 20140827171009
+27.159.232.160 15 15 229086 20140812070159
+123.201.115.172 7 9 241451 20140830155522
+198.52.215.194 4 4 10152 20140831205110
+107.155.125.38 3 3 12981 20140811062303
+192.3.182.51 1 1 14701 20140816014549
+168.63.200.167 0 1 221 
+192.99.170.65 5 5 30853 20140816114808
+112.90.239.223 3 3 14925 20140822031601
+196.46.71.251 3 3 14922 20140810003353
+37.59.4.149 2 2 11617 20140824211224
+42.121.105.155 3 3 14922 20140820055130
+115.210.64.9 6 6 29846 20140829211947
+107.155.79.120 2 2 7906 20140816151426
+128.199.144.215 2 2 21659 20140822013343
+37.59.236.18 1 1 14871 20140822145153
+190.63.139.75 3 3 14924 20140813163901
+119.63.193.195 1 1 410 20140816042822
+178.73.196.206 1 1 6780 20140814031313
+183.224.1.99 3 3 12709 20140827083035
+23.94.19.134 2 2 7908 20140821094525
+5.39.124.10 1 1 14871 20140823062822
+116.236.216.116 4 4 84051 20140806060934
+23.89.196.47 1 1 6780 20140828185311
+202.46.62.147 1 1 29756 20140819162740
+203.196.133.98 7 9 244398 20140821122453
+120.42.101.192 6 6 25417 20140813023218
+218.22.21.249 3 3 14924 20140820161632
+91.108.180.57 2 2 29742 20140831202229
+104.143.21.241 3 3 12709 20140831115648
+23.232.137.215 4 4 12985 20140809005227
+94.23.77.124 3 3 13745 20140812134207
+61.156.35.2 3 3 14924 20140827011716
+221.180.131.230 3 3 14922 20140810092101
+210.186.145.25 3 3 13827 20140824120126
+192.230.59.47 1 1 14869 20140815043003
+221.181.145.138 5 5 77370 20140820162013
+213.8.52.148 1 1 3806 20140821052418
+125.164.100.146 3 3 14923 20140817020359
+120.37.243.120 3 3 45766 20140812021544
+218.240.156.82 3 3 14923 20140831200421
+117.230.19.143 1 4 21233 20140810155555
+118.96.31.91 1 1 6999 20140827222611
+125.78.199.78 6 6 91597 20140812032557
+122.96.59.106 3 3 14921 20140823112352
+41.231.53.43 6 6 31936 20140805042455
+202.112.128.91 3 3 12707 20140810133351
+23.250.115.164 1 1 9217 20140821133434
+104.128.29.252 1 1 5209 20140814223346
+119.63.193.131 5 5 2050 20140821202603
+37.59.184.114 1 1 14871 20140822081120
+192.240.194.27 1 1 14869 20140817144117
+202.46.55.26 1 1 410 20140816202427
+118.97.144.102 3 3 14924 20140831063933
+202.46.54.50 1 1 6998 20140829020502
+198.23.152.245 2 2 7930 20140802163555
+113.240.246.165 3 3 14924 20140828092443
+23.94.19.162 1 1 3799 20140825212135
+155.94.139.136 2 2 7908 20140827112107
+124.231.136.107 3 3 14923 20140821233520
+92.222.115.200 1 1 14871 20140831124411
+198.143.134.183 2 2 7907 20140831110407
+186.91.193.68 3 3 14922 20140825201127
+192.99.170.20 3 3 14406 20140827112102
+167.160.105.229 2 2 7907 20140824193614
+5.255.75.207 1 1 14871 20140828001142
+46.105.135.167 1 1 14869 20140813044936
+8.37.226.7 5 39 218174 20140823173314
+91.123.227.169 3 3 14922 20140820141537
+27.50.128.242 9 9 44772 20140821210008
+203.195.237.41 3 3 14923 20140819200956
+202.101.96.154 3 3 14924 20140819231327
+200.84.252.110 2 2 7926 20140825153710
+222.124.200.98 12 12 59696 20140828144916
+201.242.74.128 1 1 3806 20140801213732
+107.181.70.120 3 3 13169 20140815005429
+212.129.39.47 1 1 4801 20140821040026
+114.215.178.189 3 3 14923 20140818233543
+69.12.78.60 1 1 3799 20140823084641
+42.159.193.38 8 8 40653 20140824211638
+58.218.199.124 3 3 14920 20140818182203
+101.51.7.217 2 2 8014 20140818015131
+115.29.28.137 6 6 29847 20140831134747
+89.47.31.116 2 2 7938 20140820171813
+202.108.50.75 3 3 53807 20140828105739
+61.158.173.179 3 3 14924 20140827101956
+181.189.145.94 3 3 14923 20140826055102
+103.21.127.60 1 4 19484 20140808063227
+187.73.197.16 3 3 14922 20140827163809
+115.238.23.172 3 3 14923 20140827165712
+120.36.226.52 3 3 12705 20140807130455
+221.176.14.82 3 3 14923 20140818203258
+118.97.130.10 1 1 6999 20140830101029
+212.129.47.215 2 2 11618 20140827072355
+207.46.13.2 1 1 53 20140824213525
+117.214.172.115 1 4 21233 20140808113458
+222.72.1.251 1 1 6998 20140831092101
+86.125.59.121 6 6 29847 20140824070415
+192.3.108.178 2 2 7929 20140814074543
+84.38.75.66 3 3 12708 20140827043107
+107.150.56.218 4 4 59478 20140826045152
+125.117.144.213 3 3 14922 20140825194522
+137.118.129.105 3 3 13827 20140821085751
+202.46.55.28 1 1 410 20140817003038
+111.13.109.52 2 2 11118 20140812081326
+173.0.62.84 3 3 22802 20140828202503
+210.14.152.91 6 6 29846 20140831193726
+37.239.46.26 3 3 14924 20140819101517
+113.53.250.5 3 3 14921 20140814062821
+113.64.34.53 1 1 5813 20140818015117
+92.51.245.87 3 3 14924 20140831163640
+27.150.223.76 12 12 183777 20140813065116
+113.214.13.1 8 8 40966 20140824083119
+210.123.40.67 3 3 14925 20140820050839
+192.3.111.221 2 2 7907 20140829032248
+111.243.234.70 1 1 5661 20140815203830
+23.95.89.49 1 1 14871 20140826163738
+204.44.83.250 2 2 7908 20140826023530
+125.39.66.66 3 3 14925 20140830235653
+202.46.49.19 1 1 410 20140827003724
+182.72.214.178 3 3 14924 20140827060357
+192.230.59.146 1 1 14869 20140816134211
+202.46.61.102 1 1 13631 20140806001433
+221.135.40.46 1 1 3674 20140817122056
+183.154.52.111 6 6 29849 20140827000839
+106.220.50.249 1 1 6121 20140808070736
+27.153.250.42 3 3 45811 20140813020332
+203.146.37.215 3 3 14923 20140829052202
+190.200.5.81 4 4 18760 20140828133608
+5.231.76.183 2 2 7929 20140816232047
+62.210.114.9 1 1 14871 20140829171154
+62.210.139.59 1 1 5963 20140818155622
+190.204.26.174 2 2 10804 20140829022630
+107.182.120.71 4 4 15817 20140827040747
+183.154.51.141 2 2 10804 20140830015310
+186.89.93.100 1 1 4121 20140819061451
+117.59.217.228 3 3 14922 20140806205903
+37.59.88.243 3 3 12707 20140801075222
+87.238.209.1 3 3 14925 20140829041432
+190.72.138.165 2 2 11117 20140823014217
+202.43.177.42 3 3 14922 20140806034853
+23.238.230.199 3 3 14923 20140801001321
+78.7.152.50 1 1 5813 20140825133742
+202.46.50.159 1 1 16807 20140808140400
+190.201.5.113 3 3 14925 20140821020659
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140801 108 114 1146446 37
+20140802 144 148 1391898 24
+20140803 1 1 139 1
+20140804 14 15 138673 4
+20140805 118 124 1170089 42
+20140806 83 83 503751 28
+20140807 140 147 1373157 36
+20140808 126 185 1526256 39
+20140809 95 103 845072 27
+20140810 120 132 809109 32
+20140811 128 133 1050985 37
+20140812 540 542 9031775 39
+20140813 236 246 3053064 43
+20140814 138 146 6223166 39
+20140815 99 103 1194205 23
+20140816 108 108 562117 35
+20140817 200 200 1319681 55
+20140818 177 177 1442221 38
+20140819 217 219 1679125 54
+20140820 227 234 1908149 54
+20140821 268 319 10355687 73
+20140822 229 234 2209499 58
+20140823 238 272 3340110 57
+20140824 194 197 1712991 58
+20140825 204 206 2094041 48
+20140826 196 203 2132922 43
+20140827 227 231 2161374 56
+20140828 205 205 2410726 50
+20140829 191 194 1421805 41
+20140830 223 225 2175999 57
+20140831 293 309 2285075 61
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 113
+5mn-15mn 20
+30s-2mn 44
+15mn-30mn 23
+2mn-5mn 14
+0s-30s 1023
+30mn-1h 49
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 192
+/w/ 2214 17193236 200 647
+/w/index.php/IIT_-_Kanpur 684 5298316 393 43
+/forms/ 630 8888903 169 178
+/w/index.php/Main_Page 381 2676584 119 95
+/w/load.php 355 10460590 3 22
+/w/api.php 345 514129 151 154
+/ 201 67536 113 44
+http://community.virtual-labs.ac.in/w/ 76 535832 4 21
+/w/index.php/Special:RecentChanges 46 649034 0 0
+/w/index.php/Summary_on_Android 46 477004 23 0
+/w/index.php/Tn-10_:_Virtual_Labs_Integration_FAQ 2 59082 1 0
+/w/index.php/Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 1 28953 0 0
+/w/index.php/Electronics_and_Communications 4 50717 0 0
+/w/index.php/Migrate_working_copy_of_SVN/GIT/Bazaar_from_SSH_to_HTTP_protocol 4 76506 0 0
+/w/index.php/2011-08-29_Sprint_on_Versioning_and_Project_Management_Portal 1 17879 0 0
+/w/index.php/Special:RecentChangesLinked/Virtual_Labs_Integration_FAQ 2 33734 0 0
+/w/index.php/Special:RecentChangesLinked/Tn-10_:_Virtual_Labs_Integration_FAQ 2 34346 0 0
+/w/index.php/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 1 18800 0 0
+/w/index.php/2012-03-30_Sprint_on_Process_Models_of_Virtual-Labs_-_IITB 4 73648 0 1
+/w/index.php/Special:WhatLinksHere/Virtual_Labs_Integration_FAQ 2 31396 0 0
+/w/index.php/Special:RecentChangesLinked/Contacts_Computer_Science 2 33530 0 0
+/w/index.php/Tools_for_Virtual_Lab_simulations 3 70235 0 0
+/w/index.php/Special:RecentChangesLinked/Report_on_Meetings_with_the_Lab_Developers 1 17343 0 0
+/w/index.php/July_7,_2010_Meeting 1 14849 1 1
+/w/index.php/Service_architecture_for_Virtual_Labs:_A_roadmap 1 32715 0 0
+/w/index.php/Special:WhatLinksHere/Computer_Science 1 15336 0 0
+/w/index.php/Special:RecentChangesLinked/Summary_on_Android 1 16527 0 0
+/w/index.php/Computer_Science_and_Engineering/2011-07-30_field_trials:_Andhra_Pradesh_Engineering_Colleges 1 16235 0 0
+/w/index.php/Special:Contributions 1 4411 1 1
+/w/index.php/Integration_Levels_for_a_lab 1 5076 0 0
+/w/index.php/Special:WhatLinksHere/Mediawiki 2 30180 0 0
+/w/index.php/Special:RecentChangesLinked/2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 1 17751 0 0
+/w/index.php/Mediawiki 3 45650 2 0
+/w/index.php/Subversion_or_SVN 1 5492 0 0
+/w/index.php/Special:WhatLinksHere/Electronics_and_Communications 1 15994 0 0
+/w/index.php/2012-10-08_PICs_meeting_to_discuss_Virtual_Labs_Integration_-_IIITH 1 15269 0 0
+/w/index.php/Dec-2012_Sprint_and_Developer_meeting_-_IIT_Guwahati 2 29354 0 0
+/w/index.php/IIT_-_Delhi 3 36283 0 1
+/w/index.php/Special:RecentChangesLinked/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 1 19093 0 0
+/w/index.php/Special:WhatLinksHere/Dayalbagh_University_-_Agra 1 16286 0 0
+/w/index.php/Special:WhatLinksHere/Tn-10_:_Virtual_Labs_Integration_FAQ 2 37548 0 0
+/w/index.php/IIT_-_Bombay 11 124938 3 3
+/w/index.php/Special:WhatLinksHere/TN-02_:_User_Interface_Template_installation_process 1 17317 0 0
+/w/index.php/Special:WhatLinksHere/2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 1 16896 0 0
+/w/index.php/Special:RecentChangesLinked/2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi 1 17649 0 0
+/w/index.php/COEP_-_Pune 2 11504 2 0
+/w/index.php/Special:WhatLinksHere/Contacts_Computer_Science 2 27246 0 0
+/w/index.php/Special:RecentChangesLinked/2012-01-13_Sprint_on_Project_Management_Portal_-_IITD 1 17717 0 0
+/w/index.php/Special:RecentChangesLinked/Dayalbagh_University_-_Agra 1 16833 0 0
+/w/index.php/Special:RecentChangesLinked/IIT_-_Bombay 1 16323 0 0
+/w/index.php/2010-09-23_Workshop_on_User_Interface_Design 1 14048 0 0
+/w/index.php/Overview_of_Physics_engines 5 157922 1 0
+/w/index.php/Special:WhatLinksHere/2012-03-30_Sprint_on_Process_Models_of_Virtual-Labs_-_IITB 1 17084 0 0
+https://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur 1 6999 1 0
+/w/index.php/Special:MIMESearch 1 10878 1 1
+/w/index.php/2012-11-19_Sprint_and_Developer_meeting_-_IIT_Kanpur 1 22157 0 0
+/w/index.php/Special:RecentChangesLinked/Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 1 19046 0 0
+/w/index.php/Special:WhatLinksHere/Drupal_:_Review 1 15372 0 0
+/w/index.php/Computer_Science_and_Engineering 1 16236 0 0
+/w/index.php/Download 2 19079 1 0
+/w/index.php/Special:WhatLinksHere/Report_on_Meetings_with_the_Lab_Developers 1 16641 0 0
+/w/index.php/Special:WhatLinksHere/Mechanical_Engineering 1 15618 0 0
+/jobs/ 1 286 1 1
+/w/index.php/Special:WhatLinksHere/Create_a_Slideshow_using_jQuery_and_HTML5 1 16594 0 0
+/w/index.php/Special:WhatLinksHere/Tools_for_Virtual_Lab_simulations 1 15933 0 0
+/w/index.php/Special:WhatLinksHere/Events 1 14640 0 0
+/w/index.php/Special:RecentChangesLinked/Migrate_working_copy_of_SVN/GIT/Bazaar_from_SSH_to_HTTP_protocol 1 18163 0 0
+/w/index.php/Special:WhatLinksHere/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_%26_PG_College,_Nacharam 1 19416 0 0
+/w/index.php/Special:RecentChangesLinked/2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 1 17683 0 0
+/w/index.php/Special:WhatLinksHere/TN-04_:_Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 1 17802 0 0
+/w/index.php/Special:WhatLinksHere/Overview_of_Physics_engines 1 15936 0 0
+/w/index.php/2012-10-08_Workshop_on_Virtual_Labs_Integration-_IIITH 1 18897 0 0
+/w/index.php/Science_and_Engineering/2011-09-10_Field_Trials:_St._Pious_Degree_&_PG_College,_Nacharam 2 11456 2 0
+http://community.virtual-labs.ac.in/ 2 552 0 0
+/w/index.php/Special:WhatLinksHere/Service_architecture_for_Virtual_Labs:_A_roadmap 1 16639 0 0
+/w/index.php/VIEW_THE_SLIDES 1 21528 0 0
+/w/index.php/Report_on_Meetings_with_the_Lab_Developers 2 94456 0 0
+/w/index.php/Tn-11_:_Virtual_Labs_Servers_Backup_Process 2 45382 0 0
+/w/index.php/Special:RecentChangesLinked/Service_architecture_for_Virtual_Labs:_A_roadmap 1 17582 0 0
+/w/index.php/Technical_notes 1 4976 0 0
+/w/index.php/IIIT_-_Hyderabad 8 98854 3 1
+/w/index.php/Chemical_Engineering 1 5175 1 0
+/w/index.php/Computer_Science_and_Engineering/2010-12-10_meeting:_Amrita_University 10 45382 5 5
+/w/index.php/Special:RecentChangesLinked/TN-04_:_Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 1 18217 0 0
+/w/index.php/Special:RecentChangesLinked/Mediawiki 2 32442 0 0
+/w/index.php/Special:RecentChangesLinked/Importance_of_process_model_architecture_for_virtual_labs_development 2 36522 0 0
+/w/index.php/2012-03-30_Sprint_on_Project_Management_Portal_-_IITB 1 14702 0 0
+/w/index.php/Create_a_Slideshow_using_jQuery_and_HTML5 5 117069 0 0
+/w/index.php/2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 4 103627 0 0
+/w/index.php/Development,_Test_and_Deployment_process_using_web-portal 1 7276 0 0
+/w/index.php/Computer_Science_and_Engineering/2011-08-20_1-1_Meeting_with_Lab_Developers 1 17356 0 0
+/w/index.php/Using_Wordpress_3_locally_with_XAMPP 2 39801 1 1
+/w/index.php/Lab_information_update_-_HowTo 28 162644 22 10
+/w/index.php/Schedule 1 13849 0 0
+/w/index.php/Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_Expert_review_of_CSE_Virtual_Labs 1 26020 0 0
+/w/index.php/Special:RecentChangesLinked/2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 1 18807 0 0
+//w/ 2 7925 0 0
+/w/index.php/Org_mode_for_virtual_labs_developers_(Advanced) 1 17233 0 0
+/w/index.php/Special:WhatLinksHere/Subversion_or_SVN 1 4427 0 0
+/w/index.php/Amrita_University_-_Kerala 2 13939 1 1
+/w/index.php/Special:WhatLinksHere/Migrate_working_copy_of_SVN/GIT/Bazaar_from_SSH_to_HTTP_protocol 1 17414 0 0
+/w/index.php/Computer_Science_and_Engineering/2010-11-12_meeting:_2nd_expert_review_of_CSE_Virtual_Labs 1 26084 0 0
+/w/index.php/2011-06-21_Workshop_on_Org_mode 1 17851 0 0
+/w/index.php/Special:WhatLinksHere/Moodle 1 8232 0 0
+/w/index.php/User:Bunny 2 17490 1 1
+/w/index.php/Special:WhatLinksHere/2011-02-25_Workshop_on_virtual_labs 1 16003 0 0
+/w/index.php/Moodle 2 44494 0 0
+/w/opensearch_desc.php 8 6312 0 4
+/w/index.php/IIT_-_Kharagpur 12 217431 7 3
+// 1 410 1 0
+/w/index.php/Tn-12_:_Version_Control_Systems 1 18418 0 0
+/w/index.php/Virtual_Labs_Integration_FAQ 2 59676 0 0
+/w/index.php/Computer_Science_and_Engineering/2011-08-27_meeting:_2-2_Meeting_with_Lab_Developers 1 15741 0 0
+/w/index.php/Special:RecentChangesLinked/Mechanical_Engineering 1 16663 0 0
+/w/index.php/Workshops 2 21123 0 0
+/w/index.php/Mechanical_Engineering 1 31886 0 0
+/2012-10-08-integration-sprint/network-proxy.html 4 15283 4 2
+/w/index.php/2013-01-21_Sprint_and_Developer_meeting_-_IIT_Guwahati 2 46241 0 0
+/w/index.php/Special:RecentChangesLinked/IIT_-_Kharagpur 3 49275 0 0
+/w/index.php/Org_mode_for_virtual_labs_developers 7 110943 0 0
+http://community.virtual-labs.ac.in/w/index.php/IIT_-_Kanpur 44 726341 19 4
+/w/index.php/Physical_Sciences 4 58621 0 0
+/w/index.php/Dayalbagh_University_-_Agra 2 24497 1 0
+/w/index.php/2012_October_PICs_meeting_on_Integration,_IIIT-Hyderabad 1 20385 0 0
+/w/index.php/Special:WhatLinksHere/Computer_Science_and_Engineering/2011-11-24_meeting:_4th_expert_review_of_CSE_Virtual_Labs 1 19407 0 0
+/w/index.php/TN-02_:_User_Interface_Template_installation_process 2 19996 0 0
+/2014-8-8-IIC-Meeting/presentation/talk.html 29 146906 15 12
+/w/index.php/TN-01_:_Development,_Test_and_Deployment_process_for_Virtual_Labs(Deprecated) 1 24373 0 0
+/w/index.php/Special:WhatLinksHere/Summary_on_Android 1 15248 0 0
+/w/index.php/Special:WhatLinksHere/2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 1 18249 0 0
+/w/index.php/2013-07-25:_VLEAD_Expert_Review_Meeting 6 45625 2 3
+/w/index.php/2012-08-31_Sprint_on_Process_Models_of_Virtual-Labs_-_IITD 2 33978 0 0
+/w/index.php/Reports_and_articles 1 15414 0 0
+/w/index.php/Software_Downloads 2 19414 2 1
+/w/index.php/Drupal_:_Review 4 56634 0 0
+/w/index.php/Special:RecentChangesLinked/Drupal_:_Review 1 16459 0 0
+/w/index.php/2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi 3 67827 0 0
+/w/index.php/Special:RecentChangesLinked/2012-03-30_Sprint_on_Process_Models_of_Virtual-Labs_-_IITB 1 17887 0 0
+/w/index.php/YaBB.pl 1 3674 1 1
+/w/index.php/BAZAAR 1 43564 0 0
+/w/index.php/Bazaar 1 7719 0 1
+/w/index.php/2012-11-23_Field_Trails:_Loyola_Institute_Of_Engineering_and_Technology,_Vijayawada 2 40600 0 1
+https://community.virtual-labs.ac.in/w/ 2 7922 0 1
+/2012-10-08-integration-sprint/putty.html 1 3329 1 0
+/w/index.php/Tn-14_:_Lab_developer_resources 1 20859 0 0
+/w/index.php/Special:WhatLinksHere/IIT_-_Kharagpur 3 47166 1 0
+/w/index.php/Special:WhatLinksHere/IIT_-_Delhi 2 19954 0 0
+/w/index.php/Special:WhatLinksHere/Importance_of_process_model_architecture_for_virtual_labs_development 2 35250 0 0
+/w/index.php/Textile_Engineering 1 4726 0 0
+/w/index.php/TN-07_:_Importance_of_process_model_architecture_for_virtual_labs_development 1 23732 0 0
+/w/index.php/Special:RecentChangesLinked/2013-07-25:_VLEAD_Expert_Review_Meeting 1 17276 0 0
+/w/index.php/Special:RecentChangesLinked/Computer_Science 1 16459 0 0
+/w/index.php/Special:RecentChangesLinked/Tools_for_Virtual_Lab_simulations 1 17037 0 0
+/w/index.php/Special:RecentChangesLinked/Events 1 16119 0 0
+/w/index.php/TN-04_:_Lab_Numbers,_Deployment_URL's,_Lab_names_and_Developers 1 22004 0 0
+/w/index.php/2011-11-10_Sprint_on_Project_Management_Portal 1 20845 0 0
+/w/index.php/Special:RecentChangesLinked/IIT_-_Delhi 1 16289 0 0
+/w/index.php/Special:RecentChangesLinked/Create_a_Slideshow_using_jQuery_and_HTML5 1 17309 0 0
+http://community.virtual-labs.ac.in/w/index.php/ 2 9661 0 0
+/2012-10-08-integration-sprint/git.html 1 5865 0 0
+/w/index.php/TN-03_:_Using_the_Evaluation_Portal 1 30468 0 0
+/w/index.php/Special:WhatLinksHere/2013-07-25:_VLEAD_Expert_Review_Meeting 1 16180 0 0
+/w/index.php/Importance_of_process_model_architecture_for_virtual_labs_development 2 45168 0 0
+/w/index.php/2011-02-25_Workshop_on_virtual_labs 2 21208 0 0
+/w/index.php/Special:RecentChangesLinked/TN-02_:_User_Interface_Template_installation_process 1 17717 0 0
+/w/index.php/Special:SpecialPages 43 907269 0 11
+/w/index.php/Computer_Science 2 38105 0 1
+/w/index.php/Special:WhatLinksHere/2012-11-15_Sprint_and_Developer_meeting_-_IIT_Delhi 1 16755 0 0
+http://community.virtual-labs.ac.in/w/index.php/Main_Page 3 14404 1 0
+/w/index.php/TN-01.5:_Development,_Test_and_Deployment_process_using_web-portal 1 28236 0 0
+/w/index.php/Overview_of_open_source_Content_Management_Systems_(CMS) 1 19553 0 0
+/w/index.php/Special:WhatLinksHere/IIT_-_Bombay 1 15581 0 0
+/w/index.php/Special:WhatLinksHere/2012-01-13_Sprint_on_Project_Management_Portal_-_IITD 1 16849 0 0
+/w/index.php/Special:RecentChangesLinked/Physical_Sciences 2 32986 0 0
+/w/index.php/Special:RecentChangesLinked/Electronics_and_Communications 1 16935 0 0
+/w/index.php/NIT_-_Karnataka 1 5410 1 1
+/w/index.php/Events 2 18868 0 0
+/w/index.php/Special:RecentChangesLinked/2011-02-25_Workshop_on_virtual_labs 1 17105 0 0
+/w/index.php/TN-08_:_Devops 2 60858 0 0
+/w/index.php/Special:WhatLinksHere/Physical_Sciences 2 30766 0 0
+/w/index.php/Special:RecentChangesLinked/Overview_of_Physics_engines 1 16833 0 0
+/w/index.php/Shell_Access 1 28311 0 0
+/w/index.php/Devops 2 38330 0 0
+//w/index.php/IIT_-_Kanpur 3 21022 1 1
+/w/index.php/Contacts_Computer_Science 2 56496 0 0
+/w/index.php/Virtual_Labs_Community:Current_events 40 567098 0 0
+/w/index.php/2013-01-28_Sprint_and_Developer_meeting_-_IIT_Kharagpur 1 21766 0 0
+/w/index.php/2012-01-13_Sprint_on_Project_Management_Portal_-_IITD 2 40896 0 0
+/w/index.php/Evaluation_Portal_Design_Document_and_User_Guide 4 27650 3 3
+/w/index.php/Special:WhatLinksHere/2012-10-08_Sprint_on_Virtual_Labs_Integration-_IIITH 1 17901 0 0
+/2012-10-08-integration-sprint/ui.html 2 24675 2 2
+/2012-10-08-integration-sprint/bazaar.html 1 7811 1 1
+END_SIDER
